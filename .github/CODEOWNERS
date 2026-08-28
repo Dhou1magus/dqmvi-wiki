@@ -1,0 +1,14 @@
+# このファイルに書かれたパスを変更するPRは、指定した人の承認がないと取り込めない。
+# ブランチ保護で「Require review from Code Owners」を有効にすると効きます。
+#
+# ★ @YOUR-GITHUB-NAME を自分のGitHubユーザー名に書き換えてください
+
+# 既定: すべての変更にオーナーの承認が必要
+*                    @YOUR-GITHUB-NAME
+
+# 特に重要: ここを書き換えられるとサイト全体を乗っ取られる
+/.github/            @YOUR-GITHUB-NAME
+/scripts/            @YOUR-GITHUB-NAME
+/docs/.vitepress/    @YOUR-GITHUB-NAME
+/package.json        @YOUR-GITHUB-NAME
+/package-lock.json   @YOUR-GITHUB-NAME

@@ -1,0 +1,62 @@
+name: Deploy VitePress site to Pages
+
+on:
+  push:
+    branches: [main]
+  # ★workflow_dispatch は付けないこと。
+  #  付けると、編集権限を持つ人が自分のブランチを指定して手動実行でき、
+  #  レビューを経ずに公開サイトを差し替えられてしまう。
+
+permissions: {}
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # ビルドは読み取りのみ。公開の権限は持たせない
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 「最終更新」表示にgit履歴が必要
+          persist-credentials: false
+
+      # 公開直前にもう一度検査する。ここで落ちたら公開されない
+      - name: セキュリティ検査
+        run: node scripts/security-lint.mjs
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+      - name: Build with VitePress
+        run: npm run docs:build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vitepress/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    # 公開の権限はこのジョブだけに与える
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

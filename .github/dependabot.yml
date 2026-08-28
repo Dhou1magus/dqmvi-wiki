@@ -1,0 +1,21 @@
+# 依存パッケージに脆弱性が見つかったとき、更新のPRを自動で作らせる。
+# 中身はあなたが確認してから取り込む（自動マージはしない）。
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '03:00'
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 3
+    labels: [dependencies]
+
+  # GitHub Actions 自身のバージョンも追う
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 3
+    labels: [dependencies]
