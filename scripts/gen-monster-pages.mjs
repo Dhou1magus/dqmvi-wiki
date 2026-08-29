@@ -20,8 +20,10 @@
  *   docs/bosses/index.md    ボス一覧
  *
  * ★MODのバージョンが上がったら、新しいjarを展開して実行し直すだけでよい。
- *   手でページを書き換えると次の再生成で消える。加筆は「攻略メモ」欄に書く
- *   （下の KEEP_MARK 以降は再生成時にそのまま引き継がれる）。
+ *   手でページを書き換えると次の再生成で消える。ただし見出し「## 攻略メモ」より
+ *   下に書いたものは、再生成しても丸ごと引き継がれる。
+ *   ★目印にHTMLコメントは使わないこと。markdown.html:false のため、
+ *     本文に書いたコメントはそのまま文字として画面に出てしまう。
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
@@ -36,8 +38,14 @@ const DOCS = 'docs'
 const MON_DIR = join(DOCS, 'monsters')
 const BOSS_DIR = join(DOCS, 'bosses')
 
-/** ここから下は再生成しても残す（各ページの手書き部分） */
-const KEEP_MARK = '<!-- ここから下は再生成しても消えません -->'
+/**
+ * この見出しより下は、再生成しても書き換えずに引き継ぐ（各ページの手書き部分）。
+ * ★HTMLコメントを目印にしてはいけない。markdown.html:false なので
+ *   本文中のコメントは画面にそのまま文字として出る。
+ */
+const KEEP_HEADING = '## 攻略メモ'
+/** 中身が無いときに置く文字。これだけの場合は「未記入」とみなす */
+const EMPTY_NOTE = '（未記入）'
 
 // ── 読み込み ──────────────────────────────────────────────
 function readTsv(path) {
@@ -101,12 +109,20 @@ function bandOf(exp) {
   return BANDS.find((b) => exp < b.max) ?? BANDS[BANDS.length - 1]
 }
 
-/** 既存ページの手書き部分を拾う */
+/** 既存ページの「## 攻略メモ」より下を拾う。無ければ空 */
 function keptPart(path) {
   if (!existsSync(path)) return ''
   const cur = readFileSync(path, 'utf8')
-  const i = cur.indexOf(KEEP_MARK)
-  return i === -1 ? '' : cur.slice(i + KEEP_MARK.length).replace(/^\n+/, '')
+  const i = cur.indexOf(KEEP_HEADING)
+  if (i === -1) return ''
+  let body = cur.slice(i + KEEP_HEADING.length)
+  // 旧方式の目印と、その頃の穴埋め文が残っていたら取り除く
+  body = body
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/（まだありません。気づいたことがあれば書き足してください）/g, '')
+    .replace(/^\s*（未記入）\s*$/gm, '')
+    .trim()
+  return body
 }
 
 // ── 1体ぶんのページ ───────────────────────────────────────
@@ -192,18 +208,12 @@ function monsterPage(m, { boss }) {
   lines.push(boss ? '- [魔王・ボス一覧](/bosses/)' : '- [モンスター図鑑](/monsters/)')
   lines.push(boss ? '- [モンスター図鑑](/monsters/)' : '- [魔王・ボス一覧](/bosses/)')
   lines.push('')
-  lines.push('::: warning 数値の出どころ')
-  lines.push('このページの数値はMOD本体のデータから自動生成しています。攻略のコツや出現場所など、')
-  lines.push('実際に遊んで分かったことは下に書き足してください。書き足したぶんは再生成しても消えません。')
-  lines.push(':::')
-  lines.push('')
-  lines.push('## 攻略メモ')
-  lines.push('')
-  lines.push(KEEP_MARK)
+  lines.push(KEEP_HEADING)
   lines.push('')
 
   const kept = keptPart(join(boss ? BOSS_DIR : MON_DIR, `${m.id}.md`))
-  return lines.join('\n') + (kept || '（まだありません。気づいたことがあれば書き足してください）\n')
+  // 見出しと本文の間は1行空ける（Markdownの体裁）
+  return lines.join('\n') + '\n' + (kept || EMPTY_NOTE) + '\n'
 }
 
 /** boss_ai.tsv の行動記法を日本語にする */
@@ -269,7 +279,7 @@ function monsterIndex(normals) {
   }
   lines.push('---')
   lines.push('')
-  lines.push('数値はMOD本体のデータから自動生成しています。出現場所・ドロップ品・配合はMOD内部のプログラムに書かれているため、このページにはまだ載っていません。')
+  lines.push('出現場所・ドロップ品・配合はまだ調査中です。')
   lines.push('')
   return lines.join('\n')
 }
