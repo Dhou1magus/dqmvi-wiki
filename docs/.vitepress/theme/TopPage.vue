@@ -8,9 +8,9 @@ const { frontmatter } = useData()
 //  link を書けばリンクに、書かなければ「未作成」の灰色表示になる。
 // ───────────────────────────────────────────────────────────
 const meta = [
-  { label: '対応バージョン', value: '（要記入）' },
-  { label: '最終更新', value: '2026-08-26' },
-  { label: 'ページ数', value: '7' },
+  { label: '対応バージョン', value: 'DQMVI 0.25.41' },
+  { label: '最終更新', value: '2026-08-29' },
+  { label: 'ページ数', value: '603' },
   { label: '編集者', value: '募集中' }
 ]
 
@@ -32,9 +32,9 @@ const cats = [
   {
     title: 'モンスター',
     items: [
-      { t: 'モンスター図鑑（一覧）', link: '/monsters/', wide: true },
-      { t: 'メタル系', link: '/monsters/metal-slime' }, { t: 'スライム系' },
-      { t: '鳥系' }, { t: '獣系' }, { t: 'ゾンビ系' }, { t: 'ボス' }
+      { t: 'モンスター図鑑 579体', link: '/monsters/', wide: true },
+      { t: '魔王・ボス 17体', link: '/bosses/', wide: true },
+      { t: 'ドロップ品' }, { t: '出現場所' }, { t: '系統別' }
     ]
   },
   {
@@ -111,14 +111,14 @@ const cats = [
 ]
 
 const log = [
-  { d: '08-26', t: 'メタルスライム', link: '/monsters/metal-slime', who: 'yossy' },
-  { d: '08-26', t: 'モンスター図鑑', link: '/monsters/', who: 'yossy' },
+  { d: '08-29', t: 'モンスター図鑑 579体を追加', link: '/monsters/', who: 'Claude' },
+  { d: '08-29', t: '魔王・ボス 17体を追加', link: '/bosses/', who: 'Claude' },
   { d: '08-26', t: '職業一覧', link: '/jobs/', who: 'Claude' },
   { d: '08-26', t: '編集のしかた', link: '/guide/edit', who: 'Claude' },
   { d: '08-26', t: '導入方法', link: '/guide/install', who: 'Claude' }
 ]
 
-const wanted = ['序盤の進め方', '武器一覧・防具一覧', '錬金レシピ', 'バイオーム別の湧き対応表']
+const wanted = ['各モンスターの攻略メモ・出現場所', '序盤の進め方', '武器一覧・防具一覧', '錬金レシピ']
 </script>
 
 <template>
