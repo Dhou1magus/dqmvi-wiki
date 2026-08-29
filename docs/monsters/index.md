@@ -16,608 +16,608 @@ DQMVIに登場するモンスター **579体** の一覧です。名前を押す
 
 105体。倒したときの経験値が低い順に並べています。
 
-| モンスター | HP | こうげき | しゅび | まりょく | EXP | G |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| [スライム](/monsters/sura) | 5 | 1 | 1 | 0 | 2 | 1 |
-| [スライムベス](/monsters/suraimubesu) | 7 | 1 | 1 | 0 | 2 | 1 |
-| [スライムB](/monsters/slime_b) | 5 | 1 | 1 | 0 | 2 | 1 |
-| [ぶちスライム](/monsters/butisuraimu) | 8 | 3 | 1 | 0 | 4 | 1 |
-| [ズッキーニャ](/monsters/zukkinya) | 11 | 3 | 2 | 0 | 5 | 1 |
-| [モーモン](/monsters/momon) | 12 | 3 | 1 | 3 | 5 | 1 |
-| [びっくりサタン](/monsters/bikkurisatan) | 12 | 4 | 1 | 1 | 5 | 1 |
-| [おおなめくじ](/monsters/oonamekuji) | 12 | 4 | 1 | 2 | 6 | 1 |
-| [ドロザラー](/monsters/dorozara) | 14 | 4 | 1 | 0 | 6 | 1 |
-| [バブルスライム](/monsters/bubsura) | 12 | 4 | 2 | 3 | 6 | 1 |
-| [タマゴロン](/monsters/tamagoron) | 12 | 4 | 1 | 0 | 6 | 2 |
-| [カバシラー](/monsters/swarmtroop) | 12 | 4 | 1 | 1 | 6 | 1 |
-| [とげぼうず](/monsters/togebouzu) | 13 | 6 | 1 | 0 | 7 | 1 |
-| [ビッグハット](/monsters/bigguhatto) | 16 | 5 | 1 | 5 | 7 | 1 |
-| [しましまキャット](/monsters/simasimacat) | 15 | 5 | 1 | 0 | 7 | 1 |
-| [おおがらす](/monsters/big_crow) | 13 | 5 | 1 | 0 | 7 | 1 |
-| [じんめんちょう](/monsters/zinmentyou) | 15 | 6 | 3 | 2 | 9 | 2 |
-| [ナイトウイプス](/monsters/naitouipusu) | 20 | 6 | 2 | 4 | 9 | 3 |
-| [たこやり兵](/monsters/takoyarihei) | 18 | 7 | 2 | 0 | 9 | 3 |
-| [マンドラ](/monsters/mandora) | 15 | 5 | 2 | 1 | 9 | 2 |
-| [おおがらす](/monsters/greatraven) | 12 | 5 | 2 | 1 | 9 | 2 |
-| [ビーンファイター](/monsters/binfaita) | 15 | 4 | 4 | 0 | 9 | 1 |
-| [おにこぞう](/monsters/onikozou2) | 18 | 8 | 3 | 1 | 10 | 3 |
-| [おにこぞう](/monsters/onikozou) | 18 | 8 | 2 | 0 | 11 | 2 |
-| [ライムスライム](/monsters/raimusuraimu) | 18 | 8 | 2 | 0 | 11 | 2 |
-| [ファーラット](/monsters/faratto) | 24 | 9 | 1 | 0 | 11 | 2 |
-| [いっかくうさぎ](/monsters/ikkakuusagi) | 18 | 7 | 3 | 0 | 11 | 2 |
-| [リップス](/monsters/rippusu) | 18 | 9 | 1 | 2 | 11 | 2 |
-| [レモンスライム](/monsters/remonsuraimu) | 20 | 9 | 1 | 0 | 11 | 2 |
-| [ナスビナーラ](/monsters/nasubira) | 21 | 8 | 2 | 0 | 11 | 2 |
-| [はなまきドラゴ](/monsters/hanamakidrago) | 32 | 6 | 2 | 1 | 11 | 2 |
-| [ゆうれい](/monsters/spirit) | 16 | 7 | 3 | 0 | 11 | 3 |
-| [ギズモ1](/monsters/gizumo_az) | 22 | 10 | 1 | 4 | 12 | 2 |
-| [おばけきのこ](/monsters/obakekinoko) | 25 | 10 | 1 | 3 | 12 | 2 |
-| [サボテンボール](/monsters/sabotenboru) | 23 | 10 | 1 | 3 | 12 | 2 |
-| [ギズモ2](/monsters/gizumo) | 22 | 10 | 1 | 5 | 12 | 2 |
-| [エビルアップル](/monsters/ebiruapple) | 22 | 9 | 2 | 0 | 12 | 2 |
-| [ねこまどう](/monsters/nekomadou) | 11 | 2 | 2 | 7 | 12 | 4 |
-| [はじけドーラ](/monsters/hajike_dora) | 25 | 10 | 2 | 1 | 12 | 3 |
-| [マッシュスライム](/monsters/slimeshroom) | 22 | 8 | 4 | 0 | 12 | 2 |
-| [リザードマン](/monsters/mandrake_major) | 24 | 10 | 2 | 1 | 12 | 3 |
-| [ドロヌーバ](/monsters/doronuba) | 25 | 11 | 1 | 3 | 13 | 3 |
-| [つかいま](/monsters/tukaima) | 25 | 9 | 3 | 6 | 13 | 3 |
-| [いたずらもぐら](/monsters/itamogu) | 22 | 11 | 1 | 0 | 13 | 3 |
-| [ボックススライムブルー](/monsters/boxsuraimu_ao) | 15 | 10 | 3 | 0 | 13 | 3 |
-| [スカルサーペント](/monsters/skullserpent) | 23 | 9 | 4 | 1 | 13 | 4 |
-| [まほうつかい](/monsters/magician) | 15 | 2 | 1 | 9 | 13 | 4 |
-| [メーダ](/monsters/meda) | 16 | 3 | 2 | 7 | 13 | 3 |
-| [つちわらし](/monsters/tutiwarasi) | 25 | 12 | 1 | 0 | 14 | 3 |
-| [ワンワンダック](/monsters/wanwanduck) | 26 | 9 | 3 | 1 | 14 | 2 |
-| [かぼちゃの騎士](/monsters/kabochanokisi) | 26 | 10 | 2 | 1 | 14 | 3 |
-| [はさみくわがた](/monsters/scissorbeatle) | 26 | 10 | 2 | 1 | 14 | 3 |
-| [ジャングラー](/monsters/feralslime) | 23 | 10 | 2 | 1 | 14 | 3 |
-| [スキッパー](/monsters/sukippaa) | 28 | 13 | 1 | 0 | 15 | 3 |
-| [キャタピラー](/monsters/caterpillar) | 24 | 9 | 4 | 1 | 15 | 2 |
-| [ウパソルジャー](/monsters/upasoruja) | 22 | 7 | 4 | 1 | 15 | 2 |
-| [ももんじゃ](/monsters/momonja) | 23 | 11 | 4 | 0 | 16 | 3 |
-| [ぐんたいガニ](/monsters/army_crab2) | 32 | 8 | 8 | 1 | 16 | 4 |
-| [ドラゴンキッズ](/monsters/doragonkizzu) | 24 | 11 | 3 | 4 | 16 | 2 |
-| [ポンコツ兵](/monsters/ponkotuhei) | 26 | 11 | 6 | 0 | 17 | 3 |
-| [ホイミスライム](/monsters/hoimisura) | 38 | 18 | 12 | 4 | 30 | 6 |
-| [リリパット](/monsters/riripat) | 39 | 21.06 | 12 | 0 | 33 | 7 |
-| [メラゴースト](/monsters/meragosuto) | 36 | 23.04 | 11 | 7 | 34 | 7 |
-| [ドラゴスライム](/monsters/dragosuraimu) | 36 | 19.98 | 15 | 8 | 35 | 7 |
-| [ドラキー](/monsters/doraki) | 38 | 23.04 | 12 | 0 | 35 | 7 |
-| [ゴースト](/monsters/ghost) | 39 | 23.94 | 11 | 4 | 35 | 7 |
-| [スノーモン](/monsters/sunomon) | 36 | 23.04 | 13 | 7 | 36 | 7 |
-| [タップデビル](/monsters/tappudebiru) | 37 | 22 | 15 | 6 | 36 | 7 |
-| [ベビーサタン](/monsters/bebisatan) | 50 | 23.94 | 13 | 10 | 38 | 8 |
-| [おばけうみうし](/monsters/obakeumiusi) | 45 | 25.92 | 12 | 3 | 38 | 8 |
-| [メトロゴースト](/monsters/metoroghost) | 45 | 25.92 | 12 | 5 | 38 | 8 |
-| [まじゅつし](/monsters/majutusi) | 45 | 23.76 | 14 | 10 | 38 | 8 |
-| [どくろあらい](/monsters/dokuroarai) | 38 | 25.02 | 15 | 0 | 39 | 8 |
-| [パペットこぞう](/monsters/papetkozou) | 43 | 25.92 | 13 | 0 | 39 | 8 |
-| [おおめだま](/monsters/oomedama) | 45 | 25.02 | 14 | 4 | 39 | 8 |
-| [おおきづち](/monsters/ookiduti) | 42 | 28.08 | 12 | 0 | 40 | 8 |
-| [プレミアムスライム](/monsters/puremiasuraimu) | 45 | 27 | 13 | 0 | 40 | 8 |
-| [メランザーナ](/monsters/meranzana) | 44 | 25.56 | 15 | 8 | 40 | 8 |
-| [タコメット](/monsters/takometto) | 35 | 27 | 13 | 0 | 40 | 7 |
-| [バル](/monsters/baru) | 36 | 15 | 12 | 9 | 40 | 14 |
-| [きりかぶおばけ](/monsters/kirikabuobake) | 40 | 23.04 | 18 | 0 | 41 | 8 |
-| [ひとくいが](/monsters/hitokuiga) | 53 | 28.98 | 11 | 4 | 41 | 8 |
-| [ピクシー](/monsters/pikusi2) | 45 | 26.23 | 15 | 4 | 41 | 8 |
-| [ウパパロン](/monsters/upaparon) | 45 | 22 | 15 | 4 | 41 | 8 |
-| [おばけキャンドル](/monsters/obakekyandoru) | 37 | 27 | 16 | 5 | 42 | 8 |
-| [黄泉の花](/monsters/yominohana) | 34 | 20 | 12 | 12 | 42 | 8 |
-| [ブル](/monsters/buru) | 45 | 22 | 15 | 0 | 42 | 10 |
-| [ボル](/monsters/boru) | 45 | 22 | 15 | 0 | 42 | 10 |
-| [ぬかどこスライム](/monsters/pickledslime) | 45 | 25 | 16 | 6 | 42 | 7 |
-| [シャドー](/monsters/syado) | 52 | 28.08 | 14 | 5 | 43 | 9 |
-| [デスフラッター](/monsters/deathflutter2) | 38 | 22 | 16 | 4 | 43 | 8 |
-| [もりもりスライム](/monsters/behemothslime) | 42 | 25 | 14 | 5 | 43 | 8 |
-| [スライムつむり](/monsters/suraimutumuri) | 41 | 21.96 | 23 | 4 | 44 | 9 |
-| [あやしいかげ](/monsters/ayasiikage) | 42 | 28.08 | 17 | 5 | 44 | 9 |
-| [さそりアーマー](/monsters/sasori_a_ma) | 52 | 27 | 18 | 3 | 44 | 9 |
-| [ピンクモーモン](/monsters/pinkmomon) | 55 | 28.98 | 16 | 6 | 45 | 9 |
-| [しびれくらげ](/monsters/sibirekurage) | 53 | 30.06 | 15 | 5 | 45 | 9 |
-| [ベル](/monsters/bell) | 63 | 26 | 18 | 0 | 45 | 12 |
-| [のろいのランプ](/monsters/malevolantern) | 46 | 25 | 13 | 9 | 46 | 10 |
-| [ひとくいサーベル](/monsters/hitokuisaberu) | 52 | 30.06 | 17 | 5 | 47 | 9 |
-| [アルミラージ](/monsters/arumiraji) | 59 | 32.04 | 14 | 6 | 47 | 9 |
-| [ハエおとこ](/monsters/heotoko) | 42 | 27 | 13 | 8 | 47 | 7 |
-| [デスマドモアゼル](/monsters/desumadomoazeru) | 80 | 24 | 13 | 8 | 47 | 10 |
-| [キメラ](/monsters/kimera) | 46 | 30.96 | 18 | 9 | 48 | 10 |
-| [ぐんたいガニ](/monsters/guntaigani) | 50 | 25.92 | 23 | 3 | 49 | 10 |
+| モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |
+| --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |
+| [スライム](/monsters/sura) | スライム | 爆 | 昼 | 5 | 1 | 1 | 2 | 1 |
+| [スライムベス](/monsters/suraimubesu) | スライム | 爆 | 昼 | 7 | 1 | 1 | 2 | 1 |
+| [スライムB](/monsters/slime_b) | スライム | 爆 | 昼 | 5 | 1 | 1 | 2 | 1 |
+| [ぶちスライム](/monsters/butisuraimu) | スライム | 爆 | 昼 | 8 | 3 | 1 | 4 | 1 |
+| [ズッキーニャ](/monsters/zukkinya) | 自然 | 炎 | 昼 | 11 | 3 | 2 | 5 | 1 |
+| [モーモン](/monsters/momon) | 悪魔 | 炎 | 昼 | 12 | 3 | 1 | 5 | 1 |
+| [びっくりサタン](/monsters/bikkurisatan) | 悪魔 | 爆 | 夜 | 12 | 4 | 1 | 5 | 1 |
+| [おおなめくじ](/monsters/oonamekuji) | 自然 | 氷 | 昼 | 12 | 4 | 1 | 6 | 1 |
+| [ドロザラー](/monsters/dorozara) | 物質 | 風 | 昼 | 14 | 4 | 1 | 6 | 1 |
+| [バブルスライム](/monsters/bubsura) | スライム | 爆 | 夜 | 12 | 4 | 2 | 6 | 1 |
+| [タマゴロン](/monsters/tamagoron) | 自然 | 炎 | 昼 | 12 | 4 | 1 | 6 | 2 |
+| [カバシラー](/monsters/swarmtroop) | 自然 | 炎 | 昼夜 | 12 | 4 | 1 | 6 | 1 |
+| [とげぼうず](/monsters/togebouzu) | 物質 | 風 | 昼 | 13 | 6 | 1 | 7 | 1 |
+| [ビッグハット](/monsters/bigguhatto) | 魔獣 | 炎 | 昼 | 16 | 5 | 1 | 7 | 1 |
+| [しましまキャット](/monsters/simasimacat) | 魔獣 | 炎 | 昼 | 15 | 5 | 1 | 7 | 1 |
+| [おおがらす](/monsters/big_crow) | 自然 | 炎 | 夜 | 13 | 5 | 1 | 7 | 1 |
+| [じんめんちょう](/monsters/zinmentyou) | 自然 | 炎 | 夜 | 15 | 6 | 3 | 9 | 2 |
+| [ナイトウイプス](/monsters/naitouipusu) | ゾンビ | 爆 | 夜 | 20 | 6 | 2 | 9 | 3 |
+| [たこやり兵](/monsters/takoyarihei) | 自然 | 炎 | 昼 | 18 | 7 | 2 | 9 | 3 |
+| [マンドラ](/monsters/mandora) | スライム | 爆 | 昼夜 | 15 | 5 | 2 | 9 | 2 |
+| [おおがらす](/monsters/greatraven) | 自然 | 炎 | 昼 | 12 | 5 | 2 | 9 | 2 |
+| [ビーンファイター](/monsters/binfaita) | 自然 | 炎 | 昼 | 15 | 4 | 4 | 9 | 1 |
+| [おにこぞう](/monsters/onikozou2) | 悪魔 | 爆 | 夜 | 18 | 8 | 3 | 10 | 3 |
+| [おにこぞう](/monsters/onikozou) | 悪魔 | 爆 | 昼 | 18 | 8 | 2 | 11 | 2 |
+| [ライムスライム](/monsters/raimusuraimu) | スライム | 爆 | 夜 | 18 | 8 | 2 | 11 | 2 |
+| [ファーラット](/monsters/faratto) | 魔獣 | 炎 | 昼 | 24 | 9 | 1 | 11 | 2 |
+| [いっかくうさぎ](/monsters/ikkakuusagi) | 魔獣 | 炎 | 昼 | 18 | 7 | 3 | 11 | 2 |
+| [リップス](/monsters/rippusu) | 自然 | 氷 | 昼 | 18 | 9 | 1 | 11 | 2 |
+| [レモンスライム](/monsters/remonsuraimu) | スライム | 爆 | 夜 | 20 | 9 | 1 | 11 | 2 |
+| [ナスビナーラ](/monsters/nasubira) | 自然 | 炎 | 昼 | 21 | 8 | 2 | 11 | 2 |
+| [はなまきドラゴ](/monsters/hanamakidrago) | ドラゴン | 氷 | 昼夜 | 32 | 6 | 2 | 11 | 2 |
+| [ゆうれい](/monsters/spirit) | ゾンビ | 炎 | 夜 | 16 | 7 | 3 | 11 | 3 |
+| [ギズモ1](/monsters/gizumo_az) | 物質 | 風 | 夜 | 22 | 10 | 1 | 12 | 2 |
+| [おばけきのこ](/monsters/obakekinoko) | 自然 | 氷 | 夜 | 25 | 10 | 1 | 12 | 2 |
+| [サボテンボール](/monsters/sabotenboru) | 自然 | 氷 | 昼 | 23 | 10 | 1 | 12 | 2 |
+| [ギズモ2](/monsters/gizumo) | 物質 | 風 | 夜 | 22 | 10 | 1 | 12 | 2 |
+| [エビルアップル](/monsters/ebiruapple) | 自然 | 氷 | 夜 | 22 | 9 | 2 | 12 | 2 |
+| [ねこまどう](/monsters/nekomadou) | 魔獣 | 炎 | 昼 | 11 | 2 | 2 | 12 | 4 |
+| [はじけドーラ](/monsters/hajike_dora) | ドラゴン | 氷 | 昼夜 | 25 | 10 | 2 | 12 | 3 |
+| [マッシュスライム](/monsters/slimeshroom) | スライム | 爆 | 昼夜 | 22 | 8 | 4 | 12 | 2 |
+| [リザードマン](/monsters/mandrake_major) | ドラゴン | 氷 | 昼夜 | 24 | 10 | 2 | 12 | 3 |
+| [ドロヌーバ](/monsters/doronuba) | 自然 | 氷 | 夜 | 25 | 11 | 1 | 13 | 3 |
+| [つかいま](/monsters/tukaima) | 悪魔 | 氷 | 夜 | 25 | 9 | 3 | 13 | 3 |
+| [いたずらもぐら](/monsters/itamogu) | 魔獣 | 炎 | 昼 | 22 | 11 | 1 | 13 | 3 |
+| [ボックススライムブルー](/monsters/boxsuraimu_ao) | スライム | 爆 | 昼 | 15 | 10 | 3 | 13 | 3 |
+| [スカルサーペント](/monsters/skullserpent) | ゾンビ | 炎 | 夜 | 23 | 9 | 4 | 13 | 4 |
+| [まほうつかい](/monsters/magician) | 悪魔 | 爆 | 夜 | 15 | 2 | 1 | 13 | 4 |
+| [メーダ](/monsters/meda) | 悪魔 | 風 | 昼夜 | 16 | 3 | 2 | 13 | 3 |
+| [つちわらし](/monsters/tutiwarasi) | ゾンビ | 炎 | 昼 | 25 | 12 | 1 | 14 | 3 |
+| [ワンワンダック](/monsters/wanwanduck) | 魔獣 | 炎 | 昼 | 26 | 9 | 3 | 14 | 2 |
+| [かぼちゃの騎士](/monsters/kabochanokisi) | ゾンビ | 炎 | 昼 | 26 | 10 | 2 | 14 | 3 |
+| [はさみくわがた](/monsters/scissorbeatle) | 自然 | 炎 | 昼夜 | 26 | 10 | 2 | 14 | 3 |
+| [ジャングラー](/monsters/feralslime) | スライム | 風 | 昼夜 | 23 | 10 | 2 | 14 | 3 |
+| [スキッパー](/monsters/sukippaa) | 悪魔 | 炎 | 昼 | 28 | 13 | 1 | 15 | 3 |
+| [キャタピラー](/monsters/caterpillar) | 自然 | 炎 | 昼 | 24 | 9 | 4 | 15 | 2 |
+| [ウパソルジャー](/monsters/upasoruja) | 自然 | 爆 | 昼 | 22 | 7 | 4 | 15 | 2 |
+| [ももんじゃ](/monsters/momonja) | 魔獣 | 炎 | 昼 | 23 | 11 | 4 | 16 | 3 |
+| [ぐんたいガニ](/monsters/army_crab2) | 自然 | 炎 | 昼 | 32 | 8 | 8 | 16 | 4 |
+| [ドラゴンキッズ](/monsters/doragonkizzu) | ドラゴン | 氷 | 昼夜 | 24 | 11 | 3 | 16 | 2 |
+| [ポンコツ兵](/monsters/ponkotuhei) | 物質 | 強 | 昼夜 | 26 | 11 | 6 | 17 | 3 |
+| [ホイミスライム](/monsters/hoimisura) | スライム | 爆 | 昼 | 38 | 18 | 12 | 30 | 6 |
+| [リリパット](/monsters/riripat) | 悪魔 | 氷 | 夜 | 39 | 21 | 12 | 33 | 7 |
+| [メラゴースト](/monsters/meragosuto) | ゾンビ | 氷 | 夜 | 36 | 23 | 11 | 34 | 7 |
+| [ドラゴスライム](/monsters/dragosuraimu) | スライム | 爆 | 昼 | 36 | 20 | 15 | 35 | 7 |
+| [ドラキー](/monsters/doraki) | 悪魔 | 爆 | 夜 | 38 | 23 | 12 | 35 | 7 |
+| [ゴースト](/monsters/ghost) | ゾンビ | 炎 | 夜 | 39 | 24 | 11 | 35 | 7 |
+| [スノーモン](/monsters/sunomon) | 悪魔 | 炎 | 昼 | 36 | 23 | 13 | 36 | 7 |
+| [タップデビル](/monsters/tappudebiru) | 悪魔 | 爆 | 夜 | 37 | 22 | 15 | 36 | 7 |
+| [ベビーサタン](/monsters/bebisatan) | 悪魔 | 氷 | 夜 | 50 | 24 | 13 | 38 | 8 |
+| [おばけうみうし](/monsters/obakeumiusi) | 自然 | 氷 | 昼 | 45 | 26 | 12 | 38 | 8 |
+| [メトロゴースト](/monsters/metoroghost) | ゾンビ | 炎 | 夜 | 45 | 26 | 12 | 38 | 8 |
+| [まじゅつし](/monsters/majutusi) | 悪魔 | 風 | 夜 | 45 | 24 | 14 | 38 | 8 |
+| [どくろあらい](/monsters/dokuroarai) | 魔獣 | 炎 | 昼 | 38 | 25 | 15 | 39 | 8 |
+| [パペットこぞう](/monsters/papetkozou) | 特殊 | 炎 | 夜 | 43 | 26 | 13 | 39 | 8 |
+| [おおめだま](/monsters/oomedama) | 悪魔 | 爆 | 夜 | 45 | 25 | 14 | 39 | 8 |
+| [おおきづち](/monsters/ookiduti) | 魔獣 | 炎 | 昼 | 42 | 28 | 12 | 40 | 8 |
+| [プレミアムスライム](/monsters/puremiasuraimu) | スライム | 爆 | 昼 | 45 | 27 | 13 | 40 | 8 |
+| [メランザーナ](/monsters/meranzana) | 自然 | 炎 | 昼夜 | 44 | 26 | 15 | 40 | 8 |
+| [タコメット](/monsters/takometto) | 自然 | 炎 | 昼 | 35 | 27 | 13 | 40 | 7 |
+| [バル](/monsters/baru) | 物質 | 風 | 昼 | 36 | 15 | 12 | 40 | 14 |
+| [きりかぶおばけ](/monsters/kirikabuobake) | 自然 | 炎 | 昼 | 40 | 23 | 18 | 41 | 8 |
+| [ひとくいが](/monsters/hitokuiga) | 自然 | 炎 | 夜 | 53 | 29 | 11 | 41 | 8 |
+| [ピクシー](/monsters/pikusi2) | 悪魔 | 爆 | 夜 | 45 | 26 | 15 | 41 | 8 |
+| [ウパパロン](/monsters/upaparon) | 自然 | 爆 | 昼 | 45 | 22 | 15 | 41 | 8 |
+| [おばけキャンドル](/monsters/obakekyandoru) | 物質 | 氷 | 夜 | 37 | 27 | 16 | 42 | 8 |
+| [黄泉の花](/monsters/yominohana) | スライム | 爆 | 昼夜 | 34 | 20 | 12 | 42 | 8 |
+| [ブル](/monsters/buru) | 物質 | 風 | 昼 | 45 | 22 | 15 | 42 | 10 |
+| [ボル](/monsters/boru) | 物質 | 風 | 昼 | 45 | 22 | 15 | 42 | 10 |
+| [ぬかどこスライム](/monsters/pickledslime) | スライム | 爆 | 昼夜 | 45 | 25 | 16 | 42 | 7 |
+| [シャドー](/monsters/syado) | 物質 | 風 | 夜 | 52 | 28 | 14 | 43 | 9 |
+| [デスフラッター](/monsters/deathflutter2) | 自然 | 炎 | 昼 | 38 | 22 | 16 | 43 | 8 |
+| [もりもりスライム](/monsters/behemothslime) | スライム | 爆 | 昼夜 | 42 | 25 | 14 | 43 | 8 |
+| [スライムつむり](/monsters/suraimutumuri) | スライム | 爆 | 昼 | 41 | 22 | 23 | 44 | 9 |
+| [あやしいかげ](/monsters/ayasiikage) | 物質 | 風 | 夜 | 42 | 28 | 17 | 44 | 9 |
+| [さそりアーマー](/monsters/sasori_a_ma) | 自然 | 炎 | 昼夜 | 52 | 27 | 18 | 44 | 9 |
+| [ピンクモーモン](/monsters/pinkmomon) | 悪魔 | 炎 | 昼 | 55 | 29 | 16 | 45 | 9 |
+| [しびれくらげ](/monsters/sibirekurage) | スライム | 爆 | 昼 | 53 | 30 | 15 | 45 | 9 |
+| [ベル](/monsters/bell) | 物質 | 風 | 昼 | 63 | 26 | 18 | 45 | 12 |
+| [のろいのランプ](/monsters/malevolantern) | 物質 | 風 | 夜 | 46 | 25 | 13 | 46 | 10 |
+| [ひとくいサーベル](/monsters/hitokuisaberu) | 物質 | 風 | 昼 | 52 | 30 | 17 | 47 | 9 |
+| [アルミラージ](/monsters/arumiraji) | 魔獣 | 炎 | 夜 | 59 | 32 | 14 | 47 | 9 |
+| [ハエおとこ](/monsters/heotoko) | 自然 | 炎 | 夜 | 42 | 27 | 13 | 47 | 7 |
+| [デスマドモアゼル](/monsters/desumadomoazeru) | 物質 | 氷 | 夜 | 80 | 24 | 13 | 47 | 10 |
+| [キメラ](/monsters/kimera) | 自然 | 氷 | 昼 | 46 | 31 | 18 | 48 | 10 |
+| [ぐんたいガニ](/monsters/guntaigani) | 自然 | 炎 | 昼 | 50 | 26 | 23 | 49 | 10 |
 
 ## 中盤（EXP 50〜199）
 
 216体。倒したときの経験値が低い順に並べています。
 
-| モンスター | HP | こうげき | しゅび | まりょく | EXP | G |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| [ボックススライムレッド](/monsters/boxsuraimu_aka) | 48 | 30.6 | 20 | 0 | 50 | 10 |
-| [つららスライム](/monsters/slimecicle) | 58 | 31 | 16 | 3 | 50 | 11 |
-| [シールドこぞう](/monsters/sirudokozou) | 40 | 27 | 26 | 0 | 51 | 10 |
-| [つぼ](/monsters/tubo) | 55 | 30.96 | 20 | 6 | 51 | 10 |
-| [スライムアンノウン](/monsters/slimeunknown) | 60 | 34 | 18 | 3 | 51 | 10 |
-| [たんすミミック](/monsters/tansu) | 57 | 27 | 18 | 3 | 51 | 9 |
-| [どくイモムシ](/monsters/poison_caterpillar) | 52 | 32 | 18 | 4 | 52 | 12 |
-| [ニードルマン](/monsters/ni_doruman) | 56 | 33 | 18 | 3 | 52 | 11 |
-| [ストーンスライム](/monsters/rubbleslime) | 54 | 28 | 16 | 3 | 52 | 10 |
-| [スピンスライム](/monsters/spinslime) | 62 | 30 | 17 | 3 | 52 | 12 |
-| [ひとくい木箱](/monsters/hitokuikibako) | 51 | 32.94 | 22 | 6 | 54 | 11 |
-| [スライムコロネ](/monsters/goonachegoodie) | 45 | 22 | 13 | 9 | 54 | 10 |
-| [パールスライム](/monsters/pearlgel) | 66 | 29 | 16 | 3 | 54 | 12 |
-| [りゅうき兵](/monsters/mandrake_mercenary) | 64 | 28 | 17 | 3 | 54 | 11 |
-| [マーマン](/monsters/merman) | 63 | 30 | 15 | 8 | 55 | 13 |
-| [くしざしツインズ](/monsters/kusizasituinzu) | 63 | 27 | 12 | 8 | 55 | 13 |
-| [アクアスライム](/monsters/aquaslime) | 59 | 30 | 16 | 3 | 55 | 12 |
-| [スライムファング](/monsters/wildslime) | 63 | 31 | 17 | 3 | 56 | 12 |
-| [デビルアーマー](/monsters/debiruaamaa) | 66 | 31 | 17 | 3 | 58 | 11 |
-| [じごくのハサミ](/monsters/jigoku_no_hasami2) | 60 | 33 | 22 | 4 | 60 | 15 |
-| [くさった死体](/monsters/kusattasitai) | 80 | 32 | 5 | 4 | 60 | 8 |
-| [かくとうパンサー](/monsters/kakutoupansa) | 66 | 31 | 15 | 0 | 60 | 12 |
-| [メタッピー](/monsters/metappi) | 66 | 32 | 18 | 8 | 61 | 13 |
-| [メラリザード](/monsters/merazado) | 53 | 26 | 14 | 8 | 62 | 13 |
-| [レッドハンター](/monsters/redhanta) | 70 | 35 | 18 | 0 | 62 | 11 |
-| [ジャガーメイジ](/monsters/zyagameizi) | 66 | 15 | 14 | 21 | 62 | 14 |
-| [スケアフレイル](/monsters/sukeafureiru) | 77 | 36 | 19 | 0 | 63 | 12 |
-| [なげきムーン](/monsters/nagekimun) | 63 | 15 | 14 | 20 | 63 | 14 |
-| [メーダロード](/monsters/medarodo) | 44 | 14 | 12 | 16 | 64 | 12 |
-| [しのどれい](/monsters/sinodorei) | 72 | 30 | 17 | 0 | 65 | 11 |
-| [デザートデーモン](/monsters/dezatodemon) | 80 | 35 | 17 | 16 | 70 | 15 |
-| [プリズニャン](/monsters/purizunyan) | 75 | 42 | 30 | 25 | 72 | 14 |
-| [げんじゅつし](/monsters/genjutusi) | 75 | 40 | 32 | 30 | 72 | 14 |
-| [あくまの書](/monsters/akumanosyo) | 65 | 42 | 34 | 32 | 74 | 15 |
-| [スピニー](/monsters/supini) | 72 | 44 | 32 | 20 | 75 | 15 |
-| [しびれあげは](/monsters/sibireageha) | 84 | 46 | 30 | 22 | 76 | 15 |
-| [ベホイミスライム](/monsters/behoimisuraimu) | 68 | 43.2 | 36 | 25 | 77 | 15 |
-| [じめじめバブル](/monsters/dankbubbleslime) | 74 | 46 | 40 | 25 | 77 | 18 |
-| [マドハンド](/monsters/madohando) | 65 | 45.2 | 35 | 20 | 78 | 16 |
-| [わらいぶくろ](/monsters/waraibukuro) | 80 | 43.2 | 36 | 23 | 79 | 16 |
-| [さまようたましい](/monsters/samayoutamasii) | 73 | 44 | 36 | 27 | 79 | 16 |
-| [グリゴンダンス](/monsters/gurigondansu) | 87 | 43 | 37 | 25 | 79 | 16 |
-| [きとうし](/monsters/kitousi) | 92 | 45.6 | 34 | 31 | 80 | 16 |
-| [タホドラキー](/monsters/tahodoraki) | 72 | 47.2 | 36 | 28 | 81 | 16 |
-| [オベルジーヌ](/monsters/oberujinu) | 95 | 48 | 33 | 27 | 81 | 16 |
-| [ベロベロ](/monsters/berobero) | 80 | 45.2 | 38 | 20 | 82 | 16 |
-| [フロストギズモ2](/monsters/furosutogizumo) | 82 | 49.2 | 34 | 28 | 82 | 16 |
-| [フロストギズモ1](/monsters/fgizumo) | 78 | 48 | 37 | 27 | 83 | 17 |
-| [ダックスビル](/monsters/ducksbill) | 83 | 47.2 | 38 | 20 | 84 | 17 |
-| [ナイトウォーカー](/monsters/nightwalker) | 83 | 50 | 35 | 20 | 84 | 17 |
-| [トンブレロ](/monsters/tonburero) | 91 | 48 | 36 | 26 | 84 | 17 |
-| [どくやずきん](/monsters/dokuyazukin) | 84 | 49.2 | 37 | 20 | 85 | 17 |
-| [ドラキーマ](/monsters/dorakima) | 98 | 50 | 35 | 28 | 85 | 17 |
-| [スライムタワー](/monsters/suraimutawa) | 70 | 50 | 38 | 23 | 86 | 17 |
-| [スペクテット](/monsters/supekutetto) | 93 | 49.2 | 37 | 20 | 86 | 17 |
-| [マペットマン](/monsters/mapetman) | 97 | 51.2 | 35 | 26 | 86 | 17 |
-| [プチアーノン](/monsters/putianon) | 85 | 56 | 42 | 22 | 86 | 22 |
-| [もりもりベス](/monsters/beshemothslime) | 78 | 49 | 37 | 24 | 86 | 16 |
-| [スライムボーグ](/monsters/suraimubogu) | 80 | 48 | 43 | 20 | 89 | 18 |
-| [どろにんぎょう](/monsters/doroningyou) | 93 | 52 | 38 | 22 | 89 | 18 |
-| [ともしびこぞう](/monsters/tomosibikozou) | 83 | 49.2 | 43 | 25 | 90 | 18 |
-| [ブリザード](/monsters/burizado) | 85 | 52 | 40 | 27 | 90 | 18 |
-| [レッドスコーピオン](/monsters/reddosukopion) | 96 | 50 | 43 | 18 | 90 | 20 |
-| [ラリホービートル](/monsters/bedbug) | 86 | 51 | 33 | 29 | 90 | 18 |
-| [パンドラチェスト](/monsters/tansu_pandora) | 99 | 58 | 42 | 20 | 90 | 20 |
-| [キラースコップ](/monsters/kirasuko) | 87 | 52 | 40 | 20 | 91 | 18 |
-| [マタンゴ](/monsters/matango) | 90 | 52 | 40 | 24 | 91 | 18 |
-| [アニマルゾンビ](/monsters/animaruzonbi) | 86 | 53.2 | 40 | 20 | 92 | 18 |
-| [おおくちばし](/monsters/ookutibasi) | 96 | 55.2 | 37 | 20 | 92 | 18 |
-| [あくま神官](/monsters/akumasinkan) | 94 | 56.8 | 36 | 32 | 92 | 18 |
-| [トマトマーレ](/monsters/tomatomare) | 80 | 42 | 33 | 34 | 92 | 19 |
-| [ソイソルジャー](/monsters/soisoruja) | 88 | 60 | 42 | 0 | 92 | 20 |
-| [ブラウニー](/monsters/burauni) | 75 | 55.2 | 41 | 20 | 93 | 19 |
-| [やみしばり](/monsters/yamishibari) | 82 | 47 | 37 | 28 | 93 | 17 |
-| [バブリン](/monsters/baburin) | 90 | 53.2 | 42 | 24 | 94 | 19 |
-| [うずしおキング](/monsters/uzusioking) | 99 | 56 | 38 | 24 | 94 | 19 |
-| [ボックススライムグリーン](/monsters/boxsuraimu_midori) | 100 | 55.2 | 41 | 20 | 95 | 19 |
-| [うらぎりこぞう](/monsters/uragirikozou2) | 90 | 61 | 42 | 34 | 95 | 20 |
-| [かえんムカデ](/monsters/flame_centipede) | 110 | 64 | 45 | 32 | 95 | 22 |
-| [さんぞくウーパー](/monsters/sanzokuupa) | 90 | 43 | 45 | 32 | 95 | 22 |
-| [シャイニング](/monsters/shainingu) | 105 | 50 | 31 | 37 | 96 | 21 |
-| [ひょうがまじん](/monsters/hyouganmajin) | 105 | 55.2 | 43 | 29 | 98 | 20 |
-| [パプリカン](/monsters/papurikan) | 88 | 42 | 33 | 14 | 98 | 22 |
-| [どれいへいし](/monsters/doreiheisi) | 144 | 65 | 41 | 0 | 98 | 23 |
-| [スライムナイト](/monsters/suraimunaito) | 98 | 58 | 42 | 23 | 99 | 20 |
-| [カパーラナーガ](/monsters/kaparanaga) | 143 | 63 | 46 | 18 | 100 | 22 |
-| [メイデンドール](/monsters/meidendo_ru) | 106 | 52 | 31 | 37 | 101 | 20 |
-| [まどうし](/monsters/madoushi) | 78 | 32 | 18 | 66 | 102 | 24 |
-| [レッドマーマン](/monsters/redmerman) | 145 | 60 | 25 | 45 | 102 | 23 |
-| [マッスルアニマル](/monsters/masuruanimaru) | 162 | 66 | 45 | 0 | 102 | 22 |
-| [しにがみ](/monsters/meanspirit) | 145 | 66 | 33 | 0 | 105 | 22 |
-| [ゴールデントーテム](/monsters/gorudentotemu) | 25 | 76.68 | 10,000 | 70 | 105 | 5,000 |
-| [ボーンファイター](/monsters/bonfaita) | 146 | 68 | 38 | 18 | 107 | 24 |
-| [フーセンドラゴン](/monsters/fu_sen_dragon) | 155 | 71 | 41 | 19 | 107 | 27 |
-| [てっこうまじん](/monsters/tekkoumajin) | 165 | 71 | 38 | 18 | 108 | 26 |
-| [ホイップスライム](/monsters/whipslime) | 151 | 75 | 35 | 19 | 108 | 27 |
-| [スラッピー](/monsters/slabbit) | 153 | 65 | 42 | 19 | 109 | 24 |
-| [エビルスピリッツ](/monsters/evilspirits) | 95 | 43 | 30 | 43 | 110 | 23 |
-| [だいおうイカ](/monsters/daiouika) | 175 | 85 | 24 | 43 | 110 | 26 |
-| [リビングデッド](/monsters/ribingudeddo) | 155 | 52 | 22 | 12 | 110 | 12 |
-| [石炭つむり](/monsters/coalslime) | 150 | 71 | 38 | 18 | 110 | 26 |
-| [チェリースライム](/monsters/cherryslime) | 158 | 68 | 36 | 19 | 110 | 25 |
-| [おにこんぼう](/monsters/onikonbou) | 172 | 78 | 32 | 0 | 111 | 21 |
-| [バベルボブル](/monsters/baberuboburu) | 122 | 34 | 24 | 15 | 112 | 24 |
-| [こんぺいとう](/monsters/sugarstar_slime) | 166 | 65 | 37 | 18 | 114 | 26 |
-| [プリンスライム](/monsters/puddingslime) | 160 | 65 | 35 | 18 | 114 | 23 |
-| [リビングハンマー](/monsters/living_hammer) | 151 | 78 | 38 | 19 | 114 | 26 |
-| [アームライオン](/monsters/armraion) | 135 | 75.2 | 39 | 23 | 115 | 23 |
-| [ガニラス](/monsters/ganiras2) | 135 | 65 | 82 | 13 | 115 | 23 |
-| [スライムカルゴ](/monsters/snailslime) | 159 | 65 | 38 | 18 | 117 | 24 |
-| [ヘルコンドル](/monsters/hellcondor) | 120 | 66 | 42 | 34 | 120 | 23 |
-| [りゅうせんし](/monsters/mandrake_marauder) | 145 | 78 | 39 | 20 | 121 | 27 |
-| [ゴールドパール](/monsters/goldpearl) | 142 | 76 | 10,000 | 19 | 121 | 3,555 |
-| [がいこつけんし](/monsters/gaikotsukenshi2) | 155 | 77 | 45 | 12 | 123 | 25 |
-| [スパイクヘッド](/monsters/supaikuheddo) | 141 | 69 | 43 | 19 | 123 | 27 |
-| [ベビーニュート](/monsters/bebinyuto) | 151 | 68 | 35 | 35 | 124 | 28 |
-| [ピーチスライム](/monsters/peachslime) | 157 | 73 | 39 | 18 | 125 | 27 |
-| [ベリースライム](/monsters/berryslime) | 148 | 67 | 38 | 20 | 126 | 26 |
-| [ベンガルクーン](/monsters/bengarukun) | 98 | 42 | 27 | 56 | 128 | 24 |
-| [スライムダーク](/monsters/slime_dark) | 162 | 78 | 40 | 17 | 129 | 24 |
-| [よろいのきし](/monsters/yoroinokisi) | 140 | 82 | 52 | 20 | 132 | 32 |
-| [うみうし](/monsters/umiusi) | 152 | 71.71 | 60 | 45 | 132 | 26 |
-| [ダークプラネット](/monsters/dakupuranetto) | 123 | 42 | 27 | 55 | 133 | 24 |
-| [きのみのせいれい](/monsters/kinominoseirei) | 174 | 82 | 77 | 43 | 134 | 27 |
-| [マヒャドフライ](/monsters/mahyadofurai) | 122 | 54 | 37 | 33 | 137 | 23 |
-| [モコモコじゅう](/monsters/mokomokojuu) | 148 | 75.26 | 66 | 40 | 140 | 28 |
-| [ホロゴースト](/monsters/horoghost) | 182 | 71 | 68 | 56 | 141 | 28 |
-| [シャーマン](/monsters/syaman) | 115 | 55 | 33 | 43 | 142 | 25 |
-| [ブチュチュンパ](/monsters/buchunpa) | 168 | 76.68 | 65 | 46 | 142 | 28 |
-| [ケダモン](/monsters/kedamon) | 178 | 73.84 | 66 | 40 | 142 | 28 |
-| [おどる宝石](/monsters/odoruhouseki) | 162 | 76.68 | 65 | 55 | 142 | 28 |
-| [グール](/monsters/guru) | 180 | 82 | 33 | 22 | 142 | 13 |
-| [モビルヘッド](/monsters/mobiruheddo) | 134 | 45 | 55 | 54 | 142 | 28 |
-| [しにがみきぞく](/monsters/shinigamikizoku) | 182 | 75 | 47 | 15 | 143 | 30 |
-| [スモールグール](/monsters/sumoruguru) | 165 | 71.71 | 70 | 40 | 143 | 29 |
-| [ベロニャーゴ](/monsters/beronyaago) | 176 | 78.81 | 63 | 40 | 143 | 29 |
-| [オカルトビスク](/monsters/okarutobisuku) | 173 | 77 | 65 | 68 | 143 | 28 |
-| [強スライム](/monsters/sura2) | 165 | 76.68 | 67 | 40 | 144 | 29 |
-| [ヘルゴースト](/monsters/herughost) | 174 | 75.26 | 68 | 56 | 144 | 29 |
-| [きめんどうし](/monsters/kimendousi) | 170 | 76.68 | 66 | 67 | 144 | 29 |
-| [ピンキーマッシュ](/monsters/pinkymash) | 187 | 75 | 64 | 48 | 144 | 30 |
-| [スカルゴン](/monsters/skalgon) | 175 | 80 | 25 | 34 | 145 | 32 |
-| [ガチャコッコ](/monsters/gatyakokko) | 166 | 55 | 60 | 11 | 145 | 30 |
-| [ミニデーモン](/monsters/minidemon) | 170 | 76.68 | 68 | 60 | 145 | 29 |
-| [かいぞくウーパー](/monsters/kaizokuupa) | 170 | 76 | 61 | 60 | 145 | 29 |
-| [ローズバトラー](/monsters/rozubatora) | 188 | 81 | 42 | 44 | 146 | 32 |
-| [デスフラッター](/monsters/desufuratta) | 170 | 80.94 | 65 | 46 | 146 | 29 |
-| [ぶっちズッキーニャ](/monsters/buttizukinya) | 168 | 80.94 | 65 | 46 | 146 | 29 |
-| [ピクシー](/monsters/pikusi) | 178 | 78.1 | 67 | 45 | 147 | 29 |
-| [エビルポット](/monsters/malevolamp) | 172 | 71 | 72 | 64 | 147 | 34 |
-| [ダンスニードル](/monsters/dansunidoru) | 176 | 75.26 | 72 | 47 | 148 | 30 |
-| [ジェリーマン](/monsters/jeriman) | 182 | 78.1 | 68 | 45 | 148 | 30 |
-| [キングスライムもどき](/monsters/suraimuking) | 198 | 78.1 | 66 | 40 | 148 | 30 |
-| [バアラック](/monsters/baarakku2) | 175 | 82 | 61 | 58 | 148 | 30 |
-| [コロネホワイト](/monsters/pastypastry) | 193 | 74 | 69 | 56 | 148 | 30 |
-| [ガップリン](/monsters/gappurin) | 176 | 80.94 | 69 | 40 | 151 | 30 |
-| [スピンサタン](/monsters/supinsatan) | 169 | 76 | 70 | 60 | 151 | 28 |
-| [ドラゴン](/monsters/dragon2) | 183 | 73 | 55 | 12 | 152 | 33 |
-| [ばくだんベビー](/monsters/bakudanbebi) | 170 | 75.26 | 76 | 40 | 152 | 30 |
-| [マジックリップス](/monsters/mrippusu) | 183 | 80.23 | 70 | 65 | 152 | 30 |
-| [アローインプ](/monsters/aroinpu) | 178 | 83.07 | 70 | 40 | 154 | 31 |
-| [メカバーン](/monsters/mekaban) | 200 | 62 | 60 | 11 | 155 | 30 |
-| [ようじゅつし](/monsters/youjutusi) | 177 | 79.52 | 75 | 68 | 155 | 31 |
-| [テンタコルス](/monsters/tentakorusu) | 190 | 82 | 75 | 45 | 155 | 35 |
-| [リトルライバーン](/monsters/ritoruraiba) | 192 | 84 | 78 | 46 | 155 | 33 |
-| [モビルレフト](/monsters/mobirurefuto) | 168 | 88 | 76 | 0 | 155 | 20 |
-| [モビルライト](/monsters/mobiruraito) | 168 | 88 | 76 | 0 | 155 | 20 |
-| [メイジドラキー](/monsters/meijidoraki) | 176 | 80.23 | 75 | 55 | 156 | 31 |
-| [うみぼうず](/monsters/umibouzu) | 192 | 81.65 | 72 | 46 | 156 | 31 |
-| [ベホイムスライム](/monsters/behoimusuraimu) | 168 | 83.07 | 74 | 56 | 156 | 31 |
-| [ディアブラダ](/monsters/dexiaburada) | 161 | 74 | 75 | 49 | 156 | 29 |
-| [ブルベリーノ](/monsters/buruberino) | 174 | 85.2 | 74 | 60 | 159 | 32 |
-| [たこまじん](/monsters/takomajin) | 175 | 93 | 75 | 36 | 159 | 32 |
-| [キングマーマン](/monsters/kingmerman) | 180 | 76 | 87 | 34 | 159 | 32 |
-| [ベビーパンサー](/monsters/kirapan) | 168 | 87.33 | 74 | 40 | 160 | 32 |
-| [スライムブレス](/monsters/suraimuburesu) | 180 | 83.07 | 76 | 54 | 160 | 32 |
-| [ボックススライムオレンジ](/monsters/boxsuraimu) | 183 | 81.65 | 78 | 40 | 160 | 32 |
-| [がいこつ](/monsters/gaikotu) | 168 | 93.72 | 70 | 40 | 163 | 33 |
-| [フェイスボール](/monsters/faceball) | 202 | 89 | 69 | 62 | 165 | 33 |
-| [デュラハーン](/monsters/durahan) | 211 | 99 | 82 | 0 | 165 | 33 |
-| [モビルボディ](/monsters/mobirubodexi) | 199 | 99 | 83 | 0 | 165 | 23 |
-| [アイアンクック](/monsters/aiankukku) | 188 | 77 | 80 | 24 | 166 | 34 |
-| [メーダクイン](/monsters/medakuin) | 165 | 43 | 43 | 66 | 166 | 28 |
-| [マリンスライム](/monsters/marinsuraimu) | 178 | 78.1 | 90 | 43 | 167 | 33 |
-| [アサシンブラッド](/monsters/assassinblood) | 186 | 108 | 88 | 32 | 167 | 35 |
-| [メイジキメラ](/monsters/meijikimera) | 186 | 83.07 | 85 | 58 | 168 | 34 |
-| [マーズフェイス](/monsters/mazufeisu) | 166 | 33 | 45 | 66 | 168 | 28 |
-| [しびれだんびら](/monsters/sibiredanbira) | 180 | 97.98 | 72 | 42 | 169 | 34 |
-| [ドラゴンゾンビ](/monsters/dragonzombie) | 197 | 98 | 82 | 66 | 171 | 34 |
-| [スカイドラゴン](/monsters/skydragon) | 205 | 90 | 80 | 65 | 172 | 34 |
-| [ボーンプリズナー](/monsters/bonpurizuna) | 232 | 111 | 88 | 0 | 172 | 23 |
-| [スライムプディング](/monsters/slimepudding) | 191 | 88 | 72 | 35 | 172 | 29 |
-| [キラークラブ](/monsters/killer_crab2) | 182 | 76 | 80 | 32 | 175 | 35 |
-| [ダークペルシャ](/monsters/daakuperusya) | 188 | 77 | 61 | 75 | 175 | 35 |
-| [キースドラゴン](/monsters/keethdragon2) | 205 | 102 | 74 | 65 | 178 | 36 |
-| [キョンシーゴースト](/monsters/jiangshi_ghost) | 194 | 116 | 76 | 34 | 178 | 35 |
-| [アークデーモン](/monsters/akudemon) | 195 | 80 | 77 | 76 | 180 | 35 |
-| [ホーンビートル](/monsters/hornbeet) | 215 | 105 | 88 | 32 | 180 | 37 |
-| [チョコタワー](/monsters/chocotower) | 204 | 96 | 86 | 32 | 181 | 35 |
-| [あくまのツボ](/monsters/akumanotubo) | 165 | 105.79 | 80 | 53 | 182 | 36 |
-| [さまようよろい](/monsters/samayouyoroi) | 186 | 95.85 | 88 | 40 | 182 | 36 |
-| [ガメゴン](/monsters/gamegon) | 200 | 88.75 | 95 | 46 | 183 | 37 |
-| [ボーンナイト](/monsters/boneknight) | 192 | 84 | 68 | 60 | 183 | 37 |
-| [サンダーシャウト](/monsters/thundershaut) | 218 | 112 | 88 | 31 | 183 | 31 |
-| [だんごスライム](/monsters/dangoslime) | 215 | 101 | 87 | 36 | 183 | 34 |
-| [アカツキショウグン](/monsters/akatsuki_shogun) | 212 | 111 | 78 | 33 | 184 | 32 |
-| [ひとくい箱](/monsters/hitokuibako) | 184 | 105.08 | 82 | 43 | 185 | 37 |
-| [バルザック](/monsters/baruzaku) | 266 | 123 | 82 | 0 | 185 | 33 |
-| [マジックアーマー](/monsters/majikkuaamaa) | 221 | 108 | 83 | 36 | 185 | 33 |
-| [ダーティードール](/monsters/da_thi_do_ru) | 209 | 109 | 75 | 35 | 185 | 34 |
-| [ミミック木箱](/monsters/mimikkukibako) | 198 | 102.24 | 88 | 46 | 189 | 38 |
-| [まおうのつかい](/monsters/maounotsukai) | 184 | 103 | 83 | 36 | 191 | 35 |
-| [シュプリンガー](/monsters/springer) | 184 | 102 | 86 | 35 | 192 | 37 |
-| [めいふのばんにん](/monsters/meifunobannin) | 204 | 108 | 85 | 35 | 193 | 32 |
-| [デビルアンカー](/monsters/devil_anchor) | 205 | 101 | 89 | 34 | 194 | 37 |
-| [ヘルビートル](/monsters/fire_beatle) | 195 | 106 | 77 | 35 | 197 | 32 |
+| モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |
+| --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |
+| [ボックススライムレッド](/monsters/boxsuraimu_aka) | スライム | 爆 | 昼 | 48 | 31 | 20 | 50 | 10 |
+| [つららスライム](/monsters/slimecicle) | スライム | 炎 | 夜 | 58 | 31 | 16 | 50 | 11 |
+| [シールドこぞう](/monsters/sirudokozou) | 物質 | 風 | 昼 | 40 | 27 | 26 | 51 | 10 |
+| [つぼ](/monsters/tubo) | 特殊 | 爆 | 昼夜 | 55 | 31 | 20 | 51 | 10 |
+| [スライムアンノウン](/monsters/slimeunknown) | 物質 | 炎 | 昼 | 60 | 34 | 18 | 51 | 10 |
+| [たんすミミック](/monsters/tansu) | 物質 | 爆 | 夜 | 57 | 27 | 18 | 51 | 9 |
+| [どくイモムシ](/monsters/poison_caterpillar) | 自然 | 炎 | 昼 | 52 | 32 | 18 | 52 | 12 |
+| [ニードルマン](/monsters/ni_doruman) | 物質 | 氷 | 昼 | 56 | 33 | 18 | 52 | 11 |
+| [ストーンスライム](/monsters/rubbleslime) | スライム | 風 | 昼夜 | 54 | 28 | 16 | 52 | 10 |
+| [スピンスライム](/monsters/spinslime) | スライム | 強 | 昼夜 | 62 | 30 | 17 | 52 | 12 |
+| [ひとくい木箱](/monsters/hitokuikibako) | 特殊 | 炎 | 昼夜 | 51 | 33 | 22 | 54 | 11 |
+| [スライムコロネ](/monsters/goonachegoodie) | スライム | 爆 | 昼夜 | 45 | 22 | 13 | 54 | 10 |
+| [パールスライム](/monsters/pearlgel) | スライム | 爆 | 昼夜 | 66 | 29 | 16 | 54 | 12 |
+| [りゅうき兵](/monsters/mandrake_mercenary) | ドラゴン | 爆 | 昼夜 | 64 | 28 | 17 | 54 | 11 |
+| [マーマン](/monsters/merman) | 自然 | 炎 | 昼 | 63 | 30 | 15 | 55 | 13 |
+| [くしざしツインズ](/monsters/kusizasituinzu) | 自然 | 炎 | 昼 | 63 | 27 | 12 | 55 | 13 |
+| [アクアスライム](/monsters/aquaslime) | スライム | 爆 | 昼夜 | 59 | 30 | 16 | 55 | 12 |
+| [スライムファング](/monsters/wildslime) | スライム | 氷 | 昼夜 | 63 | 31 | 17 | 56 | 12 |
+| [デビルアーマー](/monsters/debiruaamaa) | 物質 | 風 | 夜 | 66 | 31 | 17 | 58 | 11 |
+| [じごくのハサミ](/monsters/jigoku_no_hasami2) | 自然 | 炎 | 昼 | 60 | 33 | 22 | 60 | 15 |
+| [くさった死体](/monsters/kusattasitai) | ゾンビ | 炎 | 夜 | 80 | 32 | 5 | 60 | 8 |
+| [かくとうパンサー](/monsters/kakutoupansa) | 魔獣 | 炎 | 昼夜 | 66 | 31 | 15 | 60 | 12 |
+| [メタッピー](/monsters/metappi) | 物質 | 強 | 昼夜 | 66 | 32 | 18 | 61 | 13 |
+| [メラリザード](/monsters/merazado) | ドラゴン | 氷 | 昼夜 | 53 | 26 | 14 | 62 | 13 |
+| [レッドハンター](/monsters/redhanta) | 物質 | 強 | 昼夜 | 70 | 35 | 18 | 62 | 11 |
+| [ジャガーメイジ](/monsters/zyagameizi) | 魔獣 | 炎 | 昼 | 66 | 15 | 14 | 62 | 14 |
+| [スケアフレイル](/monsters/sukeafureiru) | 悪魔 | 炎 | 夜 | 77 | 36 | 19 | 63 | 12 |
+| [なげきムーン](/monsters/nagekimun) | 物質 | 強 | 夜 | 63 | 15 | 14 | 63 | 14 |
+| [メーダロード](/monsters/medarodo) | 悪魔 | 風 | 昼夜 | 44 | 14 | 12 | 64 | 12 |
+| [しのどれい](/monsters/sinodorei) | ゾンビ | 炎 | 夜 | 72 | 30 | 17 | 65 | 11 |
+| [デザートデーモン](/monsters/dezatodemon) | 悪魔 | 氷 | 昼夜 | 80 | 35 | 17 | 70 | 15 |
+| [プリズニャン](/monsters/purizunyan) | 魔獣 | 炎 | 昼 | 75 | 42 | 30 | 72 | 14 |
+| [げんじゅつし](/monsters/genjutusi) | 悪魔 | 風 | 夜 | 75 | 40 | 32 | 72 | 14 |
+| [あくまの書](/monsters/akumanosyo) | 悪魔 | 炎 | 夜 | 65 | 42 | 34 | 74 | 15 |
+| [スピニー](/monsters/supini) | 物質 | 風 | 昼 | 72 | 44 | 32 | 75 | 15 |
+| [しびれあげは](/monsters/sibireageha) | 自然 | 炎 | 昼 | 84 | 46 | 30 | 76 | 15 |
+| [ベホイミスライム](/monsters/behoimisuraimu) | スライム | 爆 | 夜 | 68 | 43 | 36 | 77 | 15 |
+| [じめじめバブル](/monsters/dankbubbleslime) | スライム | 爆 | 昼夜 | 74 | 46 | 40 | 77 | 18 |
+| [マドハンド](/monsters/madohando) | 物質 | 風 | 昼 | 65 | 45 | 35 | 78 | 16 |
+| [わらいぶくろ](/monsters/waraibukuro) | 物質 | 風 | 昼 | 80 | 43 | 36 | 79 | 16 |
+| [さまようたましい](/monsters/samayoutamasii) | ゾンビ | 氷 | 夜 | 73 | 44 | 36 | 79 | 16 |
+| [グリゴンダンス](/monsters/gurigondansu) | 悪魔 | 爆 | 夜 | 87 | 43 | 37 | 79 | 16 |
+| [きとうし](/monsters/kitousi) | 悪魔 | 風 | 昼 | 92 | 46 | 34 | 80 | 16 |
+| [タホドラキー](/monsters/tahodoraki) | 悪魔 | 爆 | 夜 | 72 | 47 | 36 | 81 | 16 |
+| [オベルジーヌ](/monsters/oberujinu) | 自然 | 炎 | 昼 | 95 | 48 | 33 | 81 | 16 |
+| [ベロベロ](/monsters/berobero) | ゾンビ | 炎 | 夜 | 80 | 45 | 38 | 82 | 16 |
+| [フロストギズモ2](/monsters/furosutogizumo) | 物質 | 炎 | 昼夜 | 82 | 49 | 34 | 82 | 16 |
+| [フロストギズモ1](/monsters/fgizumo) | 物質 | 炎 | 昼夜 | 78 | 48 | 37 | 83 | 17 |
+| [ダックスビル](/monsters/ducksbill) | 魔獣 | 炎 | 夜 | 83 | 47 | 38 | 84 | 17 |
+| [ナイトウォーカー](/monsters/nightwalker) | 悪魔 | 炎 | 夜 | 83 | 50 | 35 | 84 | 17 |
+| [トンブレロ](/monsters/tonburero) | 魔獣 | 炎 | 昼 | 91 | 48 | 36 | 84 | 17 |
+| [どくやずきん](/monsters/dokuyazukin) | 悪魔 | 氷 | 夜 | 84 | 49 | 37 | 85 | 17 |
+| [ドラキーマ](/monsters/dorakima) | 悪魔 | 爆 | 夜 | 98 | 50 | 35 | 85 | 17 |
+| [スライムタワー](/monsters/suraimutawa) | スライム | 爆 | 昼 | 70 | 50 | 38 | 86 | 17 |
+| [スペクテット](/monsters/supekutetto) | 悪魔 | 爆 | 昼 | 93 | 49 | 37 | 86 | 17 |
+| [マペットマン](/monsters/mapetman) | 特殊 | 炎 | 夜 | 97 | 51 | 35 | 86 | 17 |
+| [プチアーノン](/monsters/putianon) | 自然 | 炎 | 昼 | 85 | 56 | 42 | 86 | 22 |
+| [もりもりベス](/monsters/beshemothslime) | スライム | 爆 | 昼夜 | 78 | 49 | 37 | 86 | 16 |
+| [スライムボーグ](/monsters/suraimubogu) | スライム | 爆 | 夜 | 80 | 48 | 43 | 89 | 18 |
+| [どろにんぎょう](/monsters/doroningyou) | 物質 | 炎 | 夜 | 93 | 52 | 38 | 89 | 18 |
+| [ともしびこぞう](/monsters/tomosibikozou) | 物質 | 風 | 夜 | 83 | 49 | 43 | 90 | 18 |
+| [ブリザード](/monsters/burizado) | 物質 | 炎 | 昼 | 85 | 52 | 40 | 90 | 18 |
+| [レッドスコーピオン](/monsters/reddosukopion) | 自然 | 炎 | 昼 | 96 | 50 | 43 | 90 | 20 |
+| [ラリホービートル](/monsters/bedbug) | 自然 | 炎 | 昼夜 | 86 | 51 | 33 | 90 | 18 |
+| [パンドラチェスト](/monsters/tansu_pandora) | 物質 | 爆 | 夜 | 99 | 58 | 42 | 90 | 20 |
+| [キラースコップ](/monsters/kirasuko) | 魔獣 | 炎 | 昼 | 87 | 52 | 40 | 91 | 18 |
+| [マタンゴ](/monsters/matango) | 自然 | 氷 | 夜 | 90 | 52 | 40 | 91 | 18 |
+| [アニマルゾンビ](/monsters/animaruzonbi) | ゾンビ | 炎 | 夜 | 86 | 53 | 40 | 92 | 18 |
+| [おおくちばし](/monsters/ookutibasi) | 自然 | 炎 | 昼 | 96 | 55 | 37 | 92 | 18 |
+| [あくま神官](/monsters/akumasinkan) | 悪魔 | 氷 | 夜 | 94 | 57 | 36 | 92 | 18 |
+| [トマトマーレ](/monsters/tomatomare) | スライム | 爆 | 昼夜 | 80 | 42 | 33 | 92 | 19 |
+| [ソイソルジャー](/monsters/soisoruja) | 自然 | 炎 | 昼 | 88 | 60 | 42 | 92 | 20 |
+| [ブラウニー](/monsters/burauni) | 魔獣 | 炎 | 昼 | 75 | 55 | 41 | 93 | 19 |
+| [やみしばり](/monsters/yamishibari) | ゾンビ | 炎 | 夜 | 82 | 47 | 37 | 93 | 17 |
+| [バブリン](/monsters/baburin) | ゾンビ | 炎 | 昼 | 90 | 53 | 42 | 94 | 19 |
+| [うずしおキング](/monsters/uzusioking) | 自然 | 氷 | 昼 | 99 | 56 | 38 | 94 | 19 |
+| [ボックススライムグリーン](/monsters/boxsuraimu_midori) | スライム | 爆 | 昼夜 | 100 | 55 | 41 | 95 | 19 |
+| [うらぎりこぞう](/monsters/uragirikozou2) | 悪魔 | 爆 | 夜 | 90 | 61 | 42 | 95 | 20 |
+| [かえんムカデ](/monsters/flame_centipede) | 自然 | 炎 | 昼 | 110 | 64 | 45 | 95 | 22 |
+| [さんぞくウーパー](/monsters/sanzokuupa) | 自然 | 爆 | 昼 | 90 | 43 | 45 | 95 | 22 |
+| [シャイニング](/monsters/shainingu) | 物質 | 風 | 夜 | 105 | 50 | 31 | 96 | 21 |
+| [ひょうがまじん](/monsters/hyouganmajin) | 物質 | 炎 | 昼夜 | 105 | 55 | 43 | 98 | 20 |
+| [パプリカン](/monsters/papurikan) | 自然 | 炎 | 昼 | 88 | 42 | 33 | 98 | 22 |
+| [どれいへいし](/monsters/doreiheisi) | ゾンビ | 炎 | 夜 | 144 | 65 | 41 | 98 | 23 |
+| [スライムナイト](/monsters/suraimunaito) | スライム | 爆 | 昼 | 98 | 58 | 42 | 99 | 20 |
+| [カパーラナーガ](/monsters/kaparanaga) | ゾンビ | 炎 | 夜 | 143 | 63 | 46 | 100 | 22 |
+| [メイデンドール](/monsters/meidendo_ru) | 物質 | 氷 | 夜 | 106 | 52 | 31 | 101 | 20 |
+| [まどうし](/monsters/madoushi) | 悪魔 | 爆 | 夜 | 78 | 32 | 18 | 102 | 24 |
+| [レッドマーマン](/monsters/redmerman) | 自然 | 炎 | 昼 | 145 | 60 | 25 | 102 | 23 |
+| [マッスルアニマル](/monsters/masuruanimaru) | 魔獣 | 炎 | 昼夜 | 162 | 66 | 45 | 102 | 22 |
+| [しにがみ](/monsters/meanspirit) | ゾンビ | 炎 | 夜 | 145 | 66 | 33 | 105 | 22 |
+| [ゴールデントーテム](/monsters/gorudentotemu) | メタル | 無敵 | 昼夜 | 25 | 77 | 10,000 | 105 | 5,000 |
+| [ボーンファイター](/monsters/bonfaita) | ゾンビ | 炎 | 夜 | 146 | 68 | 38 | 107 | 24 |
+| [フーセンドラゴン](/monsters/fu_sen_dragon) | ドラゴン | 氷 | 昼夜 | 155 | 71 | 41 | 107 | 27 |
+| [てっこうまじん](/monsters/tekkoumajin) | 物質 | 風 | 夜 | 165 | 71 | 38 | 108 | 26 |
+| [ホイップスライム](/monsters/whipslime) | スライム | 炎 | 昼 | 151 | 75 | 35 | 108 | 27 |
+| [スラッピー](/monsters/slabbit) | スライム | 炎 | 昼 | 153 | 65 | 42 | 109 | 24 |
+| [エビルスピリッツ](/monsters/evilspirits) | ゾンビ | 炎 | 夜 | 95 | 43 | 30 | 110 | 23 |
+| [だいおうイカ](/monsters/daiouika) | 自然 | 炎 | 昼 | 175 | 85 | 24 | 110 | 26 |
+| [リビングデッド](/monsters/ribingudeddo) | ゾンビ | 炎 | 夜 | 155 | 52 | 22 | 110 | 12 |
+| [石炭つむり](/monsters/coalslime) | スライム | 氷 | 昼夜 | 150 | 71 | 38 | 110 | 26 |
+| [チェリースライム](/monsters/cherryslime) | スライム | 炎 | 昼 | 158 | 68 | 36 | 110 | 25 |
+| [おにこんぼう](/monsters/onikonbou) | ドラゴン | 氷 | 昼夜 | 172 | 78 | 32 | 111 | 21 |
+| [バベルボブル](/monsters/baberuboburu) | 物質 | 風 | 夜 | 122 | 34 | 24 | 112 | 24 |
+| [こんぺいとう](/monsters/sugarstar_slime) | スライム | 炎 | 昼 | 166 | 65 | 37 | 114 | 26 |
+| [プリンスライム](/monsters/puddingslime) | スライム | 炎 | 昼 | 160 | 65 | 35 | 114 | 23 |
+| [リビングハンマー](/monsters/living_hammer) | 物質 | 氷 | 昼夜 | 151 | 78 | 38 | 114 | 26 |
+| [アームライオン](/monsters/armraion) | 魔獣 | 炎 | 夜 | 135 | 75 | 39 | 115 | 23 |
+| [ガニラス](/monsters/ganiras2) | 自然 | 炎 | 昼 | 135 | 65 | 82 | 115 | 23 |
+| [スライムカルゴ](/monsters/snailslime) | スライム | 爆 | 昼夜 | 159 | 65 | 38 | 117 | 24 |
+| [ヘルコンドル](/monsters/hellcondor) | 魔獣 | 炎 | 昼夜 | 120 | 66 | 42 | 120 | 23 |
+| [りゅうせんし](/monsters/mandrake_marauder) | ドラゴン | 風 | 昼夜 | 145 | 78 | 39 | 121 | 27 |
+| [ゴールドパール](/monsters/goldpearl) | メタル | 無敵 | 昼 | 142 | 76 | 10,000 | 121 | 3,555 |
+| [がいこつけんし](/monsters/gaikotsukenshi2) | ゾンビ | 炎 | 夜 | 155 | 77 | 45 | 123 | 25 |
+| [スパイクヘッド](/monsters/supaikuheddo) | 物質 | 氷 | 昼 | 141 | 69 | 43 | 123 | 27 |
+| [ベビーニュート](/monsters/bebinyuto) | ドラゴン | 氷 | 昼夜 | 151 | 68 | 35 | 124 | 28 |
+| [ピーチスライム](/monsters/peachslime) | スライム | 炎 | 昼 | 157 | 73 | 39 | 125 | 27 |
+| [ベリースライム](/monsters/berryslime) | スライム | 炎 | 昼 | 148 | 67 | 38 | 126 | 26 |
+| [ベンガルクーン](/monsters/bengarukun) | 魔獣 | 炎 | 夜 | 98 | 42 | 27 | 128 | 24 |
+| [スライムダーク](/monsters/slime_dark) | スライム | 爆 | 夜 | 162 | 78 | 40 | 129 | 24 |
+| [よろいのきし](/monsters/yoroinokisi) | 悪魔 | 爆 | 夜 | 140 | 82 | 52 | 132 | 32 |
+| [うみうし](/monsters/umiusi) | 自然 | 氷 | 昼 | 152 | 72 | 60 | 132 | 26 |
+| [ダークプラネット](/monsters/dakupuranetto) | 物質 | 強 | 夜 | 123 | 42 | 27 | 133 | 24 |
+| [きのみのせいれい](/monsters/kinominoseirei) | スライム | 爆 | 昼夜 | 174 | 82 | 77 | 134 | 27 |
+| [マヒャドフライ](/monsters/mahyadofurai) | 自然 | 炎 | 夜 | 122 | 54 | 37 | 137 | 23 |
+| [モコモコじゅう](/monsters/mokomokojuu) | 魔獣 | 炎 | 昼夜 | 148 | 75 | 66 | 140 | 28 |
+| [ホロゴースト](/monsters/horoghost) | 物質 | 風 | 昼夜 | 182 | 71 | 68 | 141 | 28 |
+| [シャーマン](/monsters/syaman) | ゾンビ | 炎 | 夜 | 115 | 55 | 33 | 142 | 25 |
+| [ブチュチュンパ](/monsters/buchunpa) | 自然 | 氷 | 昼 | 168 | 77 | 65 | 142 | 28 |
+| [ケダモン](/monsters/kedamon) | 魔獣 | 炎 | 昼夜 | 178 | 74 | 66 | 142 | 28 |
+| [おどる宝石](/monsters/odoruhouseki) | 物質 | 風 | 昼夜 | 162 | 77 | 65 | 142 | 28 |
+| [グール](/monsters/guru) | ゾンビ | 炎 | 夜 | 180 | 82 | 33 | 142 | 13 |
+| [モビルヘッド](/monsters/mobiruheddo) | 物質 | 風 | 昼 | 134 | 45 | 55 | 142 | 28 |
+| [しにがみきぞく](/monsters/shinigamikizoku) | ゾンビ | 炎 | 夜 | 182 | 75 | 47 | 143 | 30 |
+| [スモールグール](/monsters/sumoruguru) | ゾンビ | 炎 | 昼夜 | 165 | 72 | 70 | 143 | 29 |
+| [ベロニャーゴ](/monsters/beronyaago) | 魔獣 | 炎 | 昼夜 | 176 | 79 | 63 | 143 | 29 |
+| [オカルトビスク](/monsters/okarutobisuku) | 物質 | 氷 | 夜 | 173 | 77 | 65 | 143 | 28 |
+| [強スライム](/monsters/sura2) | スライム | 爆 | 昼夜 | 165 | 77 | 67 | 144 | 29 |
+| [ヘルゴースト](/monsters/herughost) | ゾンビ | 炎 | 昼夜 | 174 | 75 | 68 | 144 | 29 |
+| [きめんどうし](/monsters/kimendousi) | 悪魔 | 風 | 昼夜 | 170 | 77 | 66 | 144 | 29 |
+| [ピンキーマッシュ](/monsters/pinkymash) | スライム | 爆 | 昼夜 | 187 | 75 | 64 | 144 | 30 |
+| [スカルゴン](/monsters/skalgon) | ドラゴン | 氷 | 昼夜 | 175 | 80 | 25 | 145 | 32 |
+| [ガチャコッコ](/monsters/gatyakokko) | 物質 | 強 | 昼夜 | 166 | 55 | 60 | 145 | 30 |
+| [ミニデーモン](/monsters/minidemon) | 悪魔 | 爆 | 昼夜 | 170 | 77 | 68 | 145 | 29 |
+| [かいぞくウーパー](/monsters/kaizokuupa) | 自然 | 爆 | 昼 | 170 | 76 | 61 | 145 | 29 |
+| [ローズバトラー](/monsters/rozubatora) | 自然 | 炎 | 昼夜 | 188 | 81 | 42 | 146 | 32 |
+| [デスフラッター](/monsters/desufuratta) | 自然 | 炎 | 夜 | 170 | 81 | 65 | 146 | 29 |
+| [ぶっちズッキーニャ](/monsters/buttizukinya) | 自然 | 炎 | 昼夜 | 168 | 81 | 65 | 146 | 29 |
+| [ピクシー](/monsters/pikusi) | 悪魔 | 爆 | 昼夜 | 178 | 78 | 67 | 147 | 29 |
+| [エビルポット](/monsters/malevolamp) | 物質 | 風 | 夜 | 172 | 71 | 72 | 147 | 34 |
+| [ダンスニードル](/monsters/dansunidoru) | 自然 | 炎 | 昼夜 | 176 | 75 | 72 | 148 | 30 |
+| [ジェリーマン](/monsters/jeriman) | 自然 | 氷 | 昼夜 | 182 | 78 | 68 | 148 | 30 |
+| [キングスライムもどき](/monsters/suraimuking) | スライム | 爆 | 昼夜 | 198 | 78 | 66 | 148 | 30 |
+| [バアラック](/monsters/baarakku2) | 悪魔 | 爆 | 夜 | 175 | 82 | 61 | 148 | 30 |
+| [コロネホワイト](/monsters/pastypastry) | スライム | 爆 | 昼夜 | 193 | 74 | 69 | 148 | 30 |
+| [ガップリン](/monsters/gappurin) | 自然 | 氷 | 昼夜 | 176 | 81 | 69 | 151 | 30 |
+| [スピンサタン](/monsters/supinsatan) | 物質 | 風 | 夜 | 169 | 76 | 70 | 151 | 28 |
+| [ドラゴン](/monsters/dragon2) | ドラゴン | 氷 | 昼夜 | 183 | 73 | 55 | 152 | 33 |
+| [ばくだんベビー](/monsters/bakudanbebi) | 物質 | 氷 | 昼夜 | 170 | 75 | 76 | 152 | 30 |
+| [マジックリップス](/monsters/mrippusu) | 自然 | 氷 | 昼夜 | 183 | 80 | 70 | 152 | 30 |
+| [アローインプ](/monsters/aroinpu) | 悪魔 | 氷 | 昼夜 | 178 | 83 | 70 | 154 | 31 |
+| [メカバーン](/monsters/mekaban) | 物質 | 強 | 昼夜 | 200 | 62 | 60 | 155 | 30 |
+| [ようじゅつし](/monsters/youjutusi) | 悪魔 | 風 | 昼夜 | 177 | 80 | 75 | 155 | 31 |
+| [テンタコルス](/monsters/tentakorusu) | 自然 | 炎 | 昼 | 190 | 82 | 75 | 155 | 35 |
+| [リトルライバーン](/monsters/ritoruraiba) | ドラゴン | 氷 | 昼夜 | 192 | 84 | 78 | 155 | 33 |
+| [モビルレフト](/monsters/mobirurefuto) | 物質 | 風 | 昼 | 168 | 88 | 76 | 155 | 20 |
+| [モビルライト](/monsters/mobiruraito) | 物質 | 風 | 昼 | 168 | 88 | 76 | 155 | 20 |
+| [メイジドラキー](/monsters/meijidoraki) | 悪魔 | 爆 | 昼夜 | 176 | 80 | 75 | 156 | 31 |
+| [うみぼうず](/monsters/umibouzu) | 自然 | 炎 | 昼夜 | 192 | 82 | 72 | 156 | 31 |
+| [ベホイムスライム](/monsters/behoimusuraimu) | スライム | 爆 | 昼夜 | 168 | 83 | 74 | 156 | 31 |
+| [ディアブラダ](/monsters/dexiaburada) | 悪魔 | 爆 | 夜 | 161 | 74 | 75 | 156 | 29 |
+| [ブルベリーノ](/monsters/buruberino) | 自然 | 炎 | 昼夜 | 174 | 85 | 74 | 159 | 32 |
+| [たこまじん](/monsters/takomajin) | 自然 | 炎 | 昼 | 175 | 93 | 75 | 159 | 32 |
+| [キングマーマン](/monsters/kingmerman) | 自然 | 炎 | 昼 | 180 | 76 | 87 | 159 | 32 |
+| [ベビーパンサー](/monsters/kirapan) | 魔獣 | 炎 | 昼夜 | 168 | 87 | 74 | 160 | 32 |
+| [スライムブレス](/monsters/suraimuburesu) | スライム | 爆 | 昼夜 | 180 | 83 | 76 | 160 | 32 |
+| [ボックススライムオレンジ](/monsters/boxsuraimu) | スライム | 爆 | 昼 | 183 | 82 | 78 | 160 | 32 |
+| [がいこつ](/monsters/gaikotu) | ゾンビ | 炎 | 夜 | 168 | 94 | 70 | 163 | 33 |
+| [フェイスボール](/monsters/faceball) | ゾンビ | 炎 | 夜 | 202 | 89 | 69 | 165 | 33 |
+| [デュラハーン](/monsters/durahan) | 悪魔 | 炎 | 夜 | 211 | 99 | 82 | 165 | 33 |
+| [モビルボディ](/monsters/mobirubodexi) | 物質 | 風 | 昼 | 199 | 99 | 83 | 165 | 23 |
+| [アイアンクック](/monsters/aiankukku) | 物質 | 強 | 昼夜 | 188 | 77 | 80 | 166 | 34 |
+| [メーダクイン](/monsters/medakuin) | 悪魔 | 風 | 昼夜 | 165 | 43 | 43 | 166 | 28 |
+| [マリンスライム](/monsters/marinsuraimu) | スライム | 爆 | 昼夜 | 178 | 78 | 90 | 167 | 33 |
+| [アサシンブラッド](/monsters/assassinblood) | 物質 | 風 | 昼夜 | 186 | 108 | 88 | 167 | 35 |
+| [メイジキメラ](/monsters/meijikimera) | 自然 | 氷 | 昼夜 | 186 | 83 | 85 | 168 | 34 |
+| [マーズフェイス](/monsters/mazufeisu) | 物質 | 強 | 夜 | 166 | 33 | 45 | 168 | 28 |
+| [しびれだんびら](/monsters/sibiredanbira) | 物質 | 風 | 夜 | 180 | 98 | 72 | 169 | 34 |
+| [ドラゴンゾンビ](/monsters/dragonzombie) | ドラゴン | 氷 | 昼夜 | 197 | 98 | 82 | 171 | 34 |
+| [スカイドラゴン](/monsters/skydragon) | ドラゴン | 氷 | 昼夜 | 205 | 90 | 80 | 172 | 34 |
+| [ボーンプリズナー](/monsters/bonpurizuna) | ゾンビ | 炎 | 夜 | 232 | 111 | 88 | 172 | 23 |
+| [スライムプディング](/monsters/slimepudding) | スライム | 風 | 昼夜 | 191 | 88 | 72 | 172 | 29 |
+| [キラークラブ](/monsters/killer_crab2) | 自然 | 炎 | 昼 | 182 | 76 | 80 | 175 | 35 |
+| [ダークペルシャ](/monsters/daakuperusya) | 魔獣 | 炎 | 夜 | 188 | 77 | 61 | 175 | 35 |
+| [キースドラゴン](/monsters/keethdragon2) | ドラゴン | 氷 | 昼夜 | 205 | 102 | 74 | 178 | 36 |
+| [キョンシーゴースト](/monsters/jiangshi_ghost) | ゾンビ | 炎 | 夜 | 194 | 116 | 76 | 178 | 35 |
+| [アークデーモン](/monsters/akudemon) | 悪魔 | 氷 | 昼夜 | 195 | 80 | 77 | 180 | 35 |
+| [ホーンビートル](/monsters/hornbeet) | 自然 | 炎 | 昼夜 | 215 | 105 | 88 | 180 | 37 |
+| [チョコタワー](/monsters/chocotower) | スライム | 風 | 昼夜 | 204 | 96 | 86 | 181 | 35 |
+| [あくまのツボ](/monsters/akumanotubo) | 特殊 | 爆 | 昼夜 | 165 | 106 | 80 | 182 | 36 |
+| [さまようよろい](/monsters/samayouyoroi) | ゾンビ | 強 | 昼 | 186 | 96 | 88 | 182 | 36 |
+| [ガメゴン](/monsters/gamegon) | ドラゴン | 氷 | 夜 | 200 | 89 | 95 | 183 | 37 |
+| [ボーンナイト](/monsters/boneknight) | ゾンビ | 炎 | 夜 | 192 | 84 | 68 | 183 | 37 |
+| [サンダーシャウト](/monsters/thundershaut) | 物質 | 風 | 昼 | 218 | 112 | 88 | 183 | 31 |
+| [だんごスライム](/monsters/dangoslime) | スライム | 風 | 昼 | 215 | 101 | 87 | 183 | 34 |
+| [アカツキショウグン](/monsters/akatsuki_shogun) | ドラゴン | 爆 | 夜 | 212 | 111 | 78 | 184 | 32 |
+| [ひとくい箱](/monsters/hitokuibako) | 物質 | 強 | 昼夜 | 184 | 105 | 82 | 185 | 37 |
+| [バルザック](/monsters/baruzaku) | ドラゴン | 氷 | 昼夜 | 266 | 123 | 82 | 185 | 33 |
+| [マジックアーマー](/monsters/majikkuaamaa) | 物質 | 風 | 夜 | 221 | 108 | 83 | 185 | 33 |
+| [ダーティードール](/monsters/da_thi_do_ru) | 物質 | 氷 | 昼 | 209 | 109 | 75 | 185 | 34 |
+| [ミミック木箱](/monsters/mimikkukibako) | 特殊 | 炎 | 昼夜 | 198 | 102 | 88 | 189 | 38 |
+| [まおうのつかい](/monsters/maounotsukai) | ゾンビ | 炎 | 夜 | 184 | 103 | 83 | 191 | 35 |
+| [シュプリンガー](/monsters/springer) | ドラゴン | 炎 | 昼夜 | 184 | 102 | 86 | 192 | 37 |
+| [めいふのばんにん](/monsters/meifunobannin) | 物質 | 強 | 昼夜 | 204 | 108 | 85 | 193 | 32 |
+| [デビルアンカー](/monsters/devil_anchor) | 物質 | 氷 | 昼夜 | 205 | 101 | 89 | 194 | 37 |
+| [ヘルビートル](/monsters/fire_beatle) | 自然 | 風 | 昼夜 | 195 | 106 | 77 | 197 | 32 |
 
 ## 終盤（EXP 200〜999）
 
 213体。倒したときの経験値が低い順に並べています。
 
-| モンスター | HP | こうげき | しゅび | まりょく | EXP | G |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| [ドラゴン](/monsters/dqmdragon) | 220 | 115.02 | 85 | 55 | 200 | 40 |
-| [プロトキラー](/monsters/protokira) | 222 | 88 | 97 | 0 | 200 | 30 |
-| [エンゼルスライム](/monsters/enzeruslime) | 343 | 104 | 95 | 95 | 210 | 42 |
-| [やつざきアニマル](/monsters/yatuzakianimaru) | 202 | 127.8 | 87 | 55 | 212 | 42 |
-| [メタルドラゴン](/monsters/metarudoragon) | 255 | 92 | 99 | 32 | 212 | 33 |
-| [マポレーナ](/monsters/maporena) | 343 | 104 | 98 | 87 | 212 | 42 |
-| [ドールマスター](/monsters/dollmaster) | 371 | 109.2 | 94 | 80 | 216 | 43 |
-| [バリイドドッグ](/monsters/bariidodog) | 343 | 109.2 | 100 | 80 | 219 | 44 |
-| [フレイム](/monsters/fureimu) | 371 | 112.32 | 94 | 95 | 219 | 44 |
-| [モビルフォース](/monsters/mobirufosu) | 232 | 132 | 100 | 52 | 222 | 34 |
-| [がいこつけんし](/monsters/gaikotukensi) | 329 | 107.12 | 110 | 80 | 225 | 45 |
-| [ばくだんいわ](/monsters/bakudaniwa) | 371 | 112.32 | 105 | 80 | 229 | 46 |
-| [スカルガルー](/monsters/skullgaroo) | 364 | 114.4 | 105 | 80 | 230 | 46 |
-| [デッドペッカー](/monsters/deddopekka) | 371 | 115.44 | 108 | 80 | 235 | 47 |
-| [ブラッディハンド](/monsters/buraddihando) | 389 | 119.6 | 102 | 80 | 235 | 47 |
-| [ベスキング](/monsters/besuking) | 368 | 124.8 | 103 | 88 | 238 | 48 |
-| [キングスライム](/monsters/kingsura) | 385 | 117.52 | 112 | 85 | 241 | 48 |
-| [クイーンマチルダ](/monsters/kuinmatiruda) | 469 | 125 | 126 | 111 | 243 | 49 |
-| [黒怨王](/monsters/kokuenou) | 495 | 122 | 101 | 93 | 244 | 52 |
-| [しりょう](/monsters/siryou) | 378 | 115.44 | 120 | 80 | 246 | 49 |
-| [ビッグハンマー](/monsters/bighanma) | 402 | 127.92 | 107 | 80 | 248 | 50 |
-| [ヒートギズモ1](/monsters/hgizumo) | 490 | 132.08 | 95 | 95 | 248 | 50 |
-| [スターデビル](/monsters/sutaadebiru) | 400 | 126 | 120 | 88 | 249 | 44 |
-| [スマイルロック](/monsters/sumairurokku) | 444 | 124.8 | 109 | 80 | 250 | 50 |
-| [どくどくゾンビ](/monsters/dokudokuzonbi) | 555 | 122 | 77 | 12 | 252 | 33 |
-| [ヒートギズモ2](/monsters/hiitogizumo) | 494 | 134.16 | 98 | 95 | 253 | 51 |
-| [ドルイド](/monsters/doruido) | 486 | 136.24 | 98 | 100 | 254 | 51 |
-| [ブラックベジター](/monsters/burakkubejita) | 532 | 138.32 | 98 | 95 | 260 | 52 |
-| [マネマネ](/monsters/manemane) | 486 | 146.64 | 94 | 95 | 260 | 52 |
-| [プオーン](/monsters/puohn) | 411 | 121 | 115 | 94 | 261 | 47 |
-| [ひょうけつのきし](/monsters/hyouketunokisi) | 230 | 132 | 92 | 40 | 262 | 55 |
-| [じごくのつかい](/monsters/jigokunotukai) | 473 | 137.28 | 108 | 102 | 263 | 53 |
-| [ヘルプラネット](/monsters/herupuranetto) | 459 | 119 | 102 | 92 | 263 | 49 |
-| [ツボック](/monsters/tubokku) | 430 | 130 | 120 | 89 | 264 | 53 |
-| [バアラック](/monsters/barakku) | 497 | 141.44 | 102 | 88 | 264 | 53 |
-| [まおうのランプ](/monsters/annihilantern) | 435 | 128 | 103 | 100 | 264 | 56 |
-| [レッドサイクロン](/monsters/redsaikuron) | 518 | 145.6 | 100 | 89 | 267 | 53 |
-| [ガルーダ](/monsters/garuda) | 501 | 126 | 133 | 88 | 268 | 54 |
-| [メタルライダー](/monsters/metaruraida) | 469 | 122.72 | 130 | 80 | 269 | 54 |
-| [ぼうれい剣士](/monsters/boureikensi) | 490 | 127.92 | 123 | 80 | 270 | 54 |
-| [メタルハンター１](/monsters/metaruhanta) | 476 | 131.04 | 126 | 80 | 274 | 55 |
-| [ザバン](/monsters/zaban) | 456 | 145 | 140 | 59 | 274 | 55 |
-| [メタルハンター２](/monsters/metaruhantaken) | 490 | 131.04 | 126 | 80 | 275 | 55 |
-| [ミミック](/monsters/mimikku) | 522 | 133.12 | 122 | 90 | 277 | 55 |
-| [だいおうキッズ](/monsters/daioukizzu) | 622 | 155 | 132 | 80 | 277 | 65 |
-| [カンダタこぶん](/monsters/kandatakobun) | 511 | 127.92 | 132 | 80 | 280 | 56 |
-| [アラウネ](/monsters/alraune) | 498 | 124 | 108 | 81 | 281 | 56 |
-| [デススパーク](/monsters/desusupaku) | 675 | 146 | 120 | 93 | 282 | 56 |
-| [ようがんまじん](/monsters/youganmajin) | 556 | 138.32 | 123 | 93 | 285 | 57 |
-| [デーモンスピリット](/monsters/demonspirit) | 523 | 130 | 104 | 108 | 285 | 57 |
-| [テンタクルス](/monsters/tentacles) | 534 | 140 | 139 | 67 | 285 | 57 |
-| [トロル](/monsters/tororu) | 679 | 157.04 | 94 | 80 | 287 | 57 |
-| [エレフローパー](/monsters/elefloper) | 517 | 139 | 117 | 70 | 287 | 57 |
-| [ベルザブル](/monsters/berusaburu) | 489 | 144 | 98 | 84 | 288 | 52 |
-| [ネコノマンサー](/monsters/nekonomansa) | 488 | 98 | 88 | 107 | 288 | 48 |
-| [メタルスコーピオン](/monsters/metarusukopion) | 555 | 120 | 111 | 116 | 288 | 55 |
-| [デスクローゼット](/monsters/tansu_death) | 517 | 133 | 118 | 70 | 288 | 58 |
-| [ももいろ三姉妹](/monsters/momoirosansimai) | 194 | 43 | 18 | 12 | 289 | 58 |
-| [パンドラ木箱](/monsters/pandorakibako) | 536 | 143.52 | 125 | 86 | 290 | 58 |
-| [だいまどう](/monsters/daimadou) | 486 | 137 | 99 | 104 | 293 | 59 |
-| [ビッグフェイス](/monsters/biggufeisu) | 522 | 139.36 | 135 | 80 | 294 | 59 |
-| [グレイトライドン](/monsters/greatridon) | 521 | 123 | 112 | 104 | 298 | 60 |
-| [タイガークロー](/monsters/taigakuro) | 512 | 155 | 88 | 0 | 299 | 50 |
-| [ゾンビマスター](/monsters/zonbimasuta) | 521 | 132 | 98 | 92 | 300 | 52 |
-| [ゴールデンスライム](/monsters/gorudensuraimu) | 32 | 114.4 | 10,000 | 120 | 300 | 15,000 |
-| [トレーナースライム](/monsters/trainerslime) | 574 | 149 | 116 | 78 | 303 | 65 |
-| [まかいファイター](/monsters/commandragor) | 555 | 167 | 108 | 72 | 304 | 57 |
-| [ギガデーモン](/monsters/gugademon) | 601 | 160 | 97 | 0 | 305 | 55 |
-| [ドラゴンナイト](/monsters/dragonnaito) | 574 | 151.84 | 136 | 85 | 311 | 62 |
-| [エビルプラント](/monsters/ebirupuranto) | 588 | 168.48 | 122 | 88 | 311 | 64 |
-| [メタルクラッシャー](/monsters/metarukurassya) | 555 | 145 | 140 | 0 | 311 | 60 |
-| [キラースター](/monsters/killer_star) | 564 | 150 | 116 | 76 | 312 | 59 |
-| [ホタテワラビー](/monsters/hotatewarabi) | 880 | 141 | 120 | 150 | 314 | 63 |
-| [ケムンクルス](/monsters/kemunkurusu) | 848 | 142.41 | 122 | 150 | 314 | 63 |
-| [ゴーレム](/monsters/goremu) | 581 | 146.64 | 145 | 80 | 315 | 63 |
-| [キングレオ](/monsters/kingreo1) | 630 | 168.48 | 124 | 88 | 320 | 64 |
-| [ヘルクラッシャー](/monsters/herukurassya) | 621 | 162 | 124 | 74 | 320 | 64 |
-| [ベホマスライム](/monsters/behomasuraimu) | 864 | 146.64 | 123 | 165 | 320 | 64 |
-| [ダークネビュラス](/monsters/dakunepyurasu) | 600 | 155 | 133 | 32 | 322 | 65 |
-| [とげジョボー](/monsters/togejobo) | 566 | 169 | 109 | 75 | 323 | 57 |
-| [チョコヌーバ](/monsters/tyokonuba) | 229 | 29 | 16 | 9 | 324 | 65 |
-| [メイジももんじゃ](/monsters/magemomonja) | 984 | 146.64 | 116 | 175 | 324 | 65 |
-| [タッチャン](/monsters/tattyan) | 229 | 36 | 15 | 8 | 325 | 65 |
-| [マジカルハット](/monsters/majikaruhatto) | 824 | 157.92 | 130 | 166 | 333 | 67 |
-| [グランスライム](/monsters/grandpaslime) | 896 | 165 | 136 | 157 | 333 | 69 |
-| [バルンバ](/monsters/balloon_ba) | 546 | 171 | 111 | 75 | 335 | 61 |
-| [プヨンターゲット](/monsters/puyon) | 944 | 153.69 | 124 | 163 | 335 | 67 |
-| [サタンメイル](/monsters/satanmeiru) | 609 | 160 | 117 | 79 | 340 | 62 |
-| [メガザルロック](/monsters/megazarurokku) | 896 | 155.1 | 133 | 150 | 340 | 68 |
-| [デスニャーゴ](/monsters/desunyago) | 896 | 164.97 | 128 | 166 | 344 | 69 |
-| [マッドスミス](/monsters/maddosumisu) | 1,123 | 177 | 98 | 34 | 345 | 45 |
-| [マーブルン](/monsters/maaburun) | 264 | 22 | 22 | 8 | 346 | 69 |
-| [じごくのハサミ](/monsters/jigokunohasami) | 1,024 | 142.41 | 140 | 150 | 346 | 69 |
-| [つむりんママ](/monsters/tumurinmama) | 264 | 22 | 19 | 8 | 349 | 70 |
-| [キラーパンサー](/monsters/kirapan2) | 960 | 160.74 | 132 | 150 | 350 | 70 |
-| [まおうのかげ](/monsters/maounokage) | 944 | 159.33 | 135 | 170 | 350 | 70 |
-| [ジェントルダンス](/monsters/zyentorudansu) | 1,031 | 149 | 140 | 166 | 350 | 73 |
-| [ごくらくちょう](/monsters/gokurakuchou) | 969 | 157 | 127 | 159 | 353 | 71 |
-| [スライムカラー](/monsters/suraimuhaitawa) | 872 | 173.43 | 135 | 150 | 356 | 71 |
-| [ダースドラゴン](/monsters/darthdragon2) | 627 | 159 | 123 | 111 | 357 | 71 |
-| [パペットマン](/monsters/papettoman) | 840 | 180.48 | 132 | 165 | 357 | 71 |
-| [ダークスライム](/monsters/darkslime) | 992 | 170.61 | 132 | 180 | 362 | 72 |
-| [アックスドラゴン](/monsters/axedoragon) | 1,152 | 157.92 | 135 | 150 | 368 | 74 |
-| [しりょうのきし](/monsters/siryounokisi) | 1,072 | 160.74 | 142 | 150 | 369 | 74 |
-| [ボストロール](/monsters/bosutororu) | 1,384 | 170.61 | 105 | 150 | 373 | 75 |
-| [セイレーンゴースト](/monsters/seire_ngo_suto) | 1,216 | 182 | 138 | 183 | 374 | 77 |
-| [ガニラス](/monsters/ganirasu) | 960 | 166.38 | 155 | 150 | 376 | 75 |
-| [デスジャッカル](/monsters/desujakkaru) | 944 | 187.53 | 136 | 150 | 377 | 75 |
-| [バブルキング](/monsters/baburuking) | 1,128 | 164.97 | 144 | 175 | 379 | 76 |
-| [ポムポムボム](/monsters/pombom) | 968 | 188.94 | 139 | 168 | 382 | 76 |
-| [しにがみのきし](/monsters/sinigaminokisi) | 732 | 193 | 152 | 80 | 384 | 72 |
-| [ブラッドソード](/monsters/buraddosodo) | 1,008 | 186.12 | 143 | 155 | 387 | 77 |
-| [スカルドン](/monsters/skuldon) | 661 | 162 | 124 | 121 | 389 | 78 |
-| [ダゴン](/monsters/dagon) | 1,111 | 194 | 147 | 132 | 392 | 78 |
-| [カラミティサン](/monsters/karamithisan) | 1,156 | 175 | 136 | 159 | 399 | 77 |
-| [ソードファントム](/monsters/sodofantomu) | 1,184 | 201.63 | 134 | 150 | 409 | 82 |
-| [オーラー](/monsters/ora) | 920 | 123 | 112 | 167 | 413 | 118 |
-| [じごくのざりがに](/monsters/jigokunozarigani) | 1,282 | 196 | 155 | 123 | 414 | 76 |
-| [キースドラゴン](/monsters/kisudragon) | 1,264 | 194.58 | 144 | 175 | 418 | 84 |
-| [シルバーデビル](/monsters/sirubadebiru) | 1,088 | 212.91 | 143 | 188 | 418 | 84 |
-| [ドラゴンライダー](/monsters/dragonraida) | 1,160 | 205.86 | 145 | 190 | 420 | 84 |
-| [コスモアイ](/monsters/kosumoai) | 1,220 | 123 | 78 | 167 | 421 | 90 |
-| [ドーラー](/monsters/dora) | 1,256 | 167 | 142 | 0 | 422 | 92 |
-| [ソーラー](/monsters/sora) | 1,256 | 167 | 142 | 0 | 422 | 92 |
-| [エクソダス](/monsters/ekusodasu) | 1,098 | 178 | 135 | 166 | 426 | 85 |
-| [スライムベホマズン](/monsters/suraimubehomazun) | 1,280 | 200.22 | 146 | 180 | 427 | 85 |
-| [エルダースライム](/monsters/elderslime) | 1,548 | 219 | 150 | 137 | 428 | 99 |
-| [クラーゴン](/monsters/kraagon) | 1,208 | 213 | 158 | 133 | 430 | 86 |
-| [暗黒の使い](/monsters/ankokunotsukai) | 1,407 | 242 | 150 | 113 | 434 | 83 |
-| [ゴールドマン](/monsters/goldman) | 1,248 | 203.04 | 155 | 150 | 435 | 87 |
-| [マスタースライム](/monsters/masterslime) | 1,130 | 200 | 145 | 120 | 435 | 85 |
-| [ガメゴンロード](/monsters/gamegonload) | 1,264 | 194.58 | 166 | 177 | 438 | 88 |
-| [サイクロプス](/monsters/saikuropusu) | 1,488 | 221.37 | 120 | 150 | 441 | 88 |
-| [ダースドラゴン](/monsters/dasudragon) | 1,384 | 211.5 | 142 | 195 | 442 | 88 |
-| [じごくのよろい](/monsters/jigokunoyoroi) | 1,288 | 210.09 | 152 | 150 | 442 | 88 |
-| [ろうごくのぬし](/monsters/rougokunonusi) | 1,455 | 198 | 142 | 0 | 444 | 88 |
-| [マーマンダイン](/monsters/mermandine) | 1,183 | 208 | 143 | 116 | 450 | 90 |
-| [ベリアル](/monsters/beriaru) | 1,550 | 220 | 125 | 134 | 450 | 90 |
-| [マクロベータ](/monsters/makurobeta) | 1,322 | 155 | 116 | 167 | 453 | 90 |
-| [じごくのきし](/monsters/jigokunokisi) | 1,202 | 165 | 134 | 145 | 454 | 91 |
-| [スラキャンサー](/monsters/slimecanser) | 1,122 | 186 | 167 | 110 | 454 | 76 |
-| [アッシュリザード](/monsters/ash_lizard) | 1,449 | 228 | 168 | 134 | 457 | 86 |
-| [ニードルうさこ](/monsters/ni_doruusako) | 1,389 | 202 | 147 | 131 | 459 | 100 |
-| [モノクロームナイト](/monsters/monokuroomunaito) | 1,505 | 222 | 145 | 124 | 460 | 87 |
-| [ホワイトジャッジ](/monsters/howaitojaji) | 1,600 | 222 | 134 | 0 | 461 | 92 |
-| [フーラー](/monsters/fura) | 1,400 | 188 | 168 | 0 | 466 | 88 |
-| [バラモスゾンビ](/monsters/baramoszombie) | 1,442 | 245 | 140 | 155 | 469 | 94 |
-| [根絶やしの竜](/monsters/nedayashinoryu) | 1,326 | 216 | 168 | 165 | 472 | 94 |
-| [キングレオⅡ](/monsters/kingreo2) | 1,440 | 228.42 | 163 | 155 | 482 | 96 |
-| [スノードラゴン](/monsters/snow_dragon) | 1,443 | 217 | 170 | 167 | 486 | 97 |
-| [ゴールデンドラゴン](/monsters/goldendragon) | 1,319 | 204 | 161 | 145 | 496 | 99 |
-| [スラワッショイ](/monsters/slimewashoi) | 1,521 | 223 | 139 | 124 | 506 | 94 |
-| [ドラゴントイズ](/monsters/doragontoizu) | 1,423 | 211 | 222 | 88 | 521 | 102 |
-| [あくまのきし](/monsters/akumanokisi) | 1,521 | 266 | 182 | 150 | 542 | 98 |
-| [グレイトドラゴン](/monsters/gureitodoragon) | 1,550 | 255 | 172 | 165 | 550 | 102 |
-| [うらぎりこぞう](/monsters/uragirikozou) | 1,665 | 280 | 184 | 262 | 567 | 113 |
-| [ほうおう](/monsters/houou) | 1,809 | 352 | 223 | 255 | 588 | 118 |
-| [マージマタンゴ](/monsters/magematango) | 1,785 | 296.8 | 180 | 275 | 590 | 118 |
-| [マグマロン](/monsters/magumaron) | 1,770 | 294 | 187 | 275 | 592 | 118 |
-| [ダースギズモ](/monsters/dgizumo) | 1,785 | 296.8 | 184 | 270 | 593 | 119 |
-| [グレートジンガー](/monsters/guretosinga) | 1,600 | 234 | 288 | 168 | 600 | 120 |
-| [リューイーソー](/monsters/ryuiso) | 1,875 | 316.4 | 194 | 266 | 628 | 126 |
-| [スターキメラ](/monsters/starkimera) | 1,770 | 324.8 | 196 | 285 | 628 | 126 |
-| [スラ・ブラスター](/monsters/slimeblaster) | 1,790 | 371 | 223 | 278 | 632 | 139 |
-| [アカイライ](/monsters/akairai) | 1,650 | 330.4 | 222 | 250 | 646 | 129 |
-| [クイーンスライム](/monsters/kuinsuraimu) | 2,025 | 319.2 | 198 | 280 | 648 | 130 |
-| [デビルロード](/monsters/debirurodo) | 1,725 | 347.2 | 215 | 285 | 661 | 132 |
-| [キラークラブ](/monsters/kirakurabu) | 1,800 | 319.2 | 250 | 250 | 675 | 135 |
-| [バトルレックス](/monsters/batorurex) | 1,800 | 347.2 | 222 | 250 | 675 | 135 |
-| [かげのきし](/monsters/kagenokisi) | 1,950 | 322 | 234 | 250 | 676 | 135 |
-| [ダークホビット](/monsters/dakuhobitto) | 1,725 | 324.8 | 256 | 250 | 678 | 136 |
-| [ドラゴンソルジャー](/monsters/doragonsoruja) | 1,980 | 364 | 194 | 250 | 681 | 136 |
-| [はめつの使者](/monsters/hametunosisya) | 1,965 | 358.4 | 210 | 297 | 688 | 138 |
-| [あんこくまじん](/monsters/ankokumajin) | 1,890 | 350 | 229 | 290 | 691 | 138 |
-| [ロイヤルミミック](/monsters/tansu_royal) | 2,261 | 328 | 246 | 235 | 695 | 159 |
-| [スライムマデュラ](/monsters/suraimumadyura) | 1,695 | 333.2 | 275 | 295 | 700 | 140 |
-| [ロイヤルブルーム](/monsters/roiyaruburumu) | 2,122 | 398 | 255 | 266 | 700 | 138 |
-| [ギーグハンマー](/monsters/giguhanma) | 3,125 | 423 | 222 | 0 | 702 | 123 |
-| [マッソ](/monsters/masso) | 1,860 | 355.6 | 242 | 250 | 705 | 141 |
-| [キラーマシーン](/monsters/kiramasin) | 1,950 | 350 | 240 | 250 | 706 | 141 |
-| [シルバーマント](/monsters/sirubamanto) | 1,875 | 355.6 | 245 | 250 | 709 | 142 |
-| [ヘルガーディアン](/monsters/herugadexian) | 2,350 | 444 | 270 | 0 | 711 | 142 |
-| [パンドラボックス](/monsters/pandorabox) | 2,100 | 355.6 | 242 | 260 | 726 | 145 |
-| [キラーアーマー](/monsters/kiraama) | 2,250 | 352.8 | 243 | 250 | 739 | 148 |
-| [トロルボンバー](/monsters/tororubonba) | 2,625 | 397.6 | 175 | 250 | 752 | 150 |
-| [ダークナイト](/monsters/dakunaito) | 2,325 | 364 | 243 | 285 | 756 | 151 |
-| [ギガンテス](/monsters/gigantesu) | 2,655 | 386.4 | 200 | 250 | 766 | 153 |
-| [キングレオⅢ](/monsters/kingreo3) | 2,430 | 386.4 | 231 | 285 | 774 | 155 |
-| [魔天海フォルネー](/monsters/matenkaiforney) | 1,995 | 374 | 265 | 188 | 777 | 155 |
-| [ダークトロル](/monsters/darktororu) | 2,700 | 420 | 186 | 250 | 788 | 158 |
-| [デンガー](/monsters/denga) | 2,625 | 361.2 | 256 | 270 | 791 | 158 |
-| [ストーンマン](/monsters/stonman) | 2,580 | 361.2 | 261 | 250 | 792 | 158 |
-| [アスラ王](/monsters/asuraou) | 2,963 | 422 | 250 | 236 | 807 | 186 |
-| [ビッグモアイ](/monsters/biggumoai) | 2,925 | 330.4 | 276 | 250 | 809 | 162 |
-| [ドラゴンダーク](/monsters/dragondarknaito) | 2,850 | 364 | 261 | 294 | 819 | 164 |
-| [ガメゴンレジェンド](/monsters/gamegonrejendo) | 2,700 | 344.4 | 299 | 290 | 822 | 164 |
-| [ソードイド](/monsters/sozoido) | 2,396 | 354 | 209 | 299 | 834 | 167 |
-| [ゴールデンコーン](/monsters/gorudenkon) | 491 | 79 | 49 | 32 | 841 | 168 |
-| [デーモンアミゴ](/monsters/demonamigo) | 3,312 | 412 | 245 | 278 | 859 | 154 |
-| [トロルキング](/monsters/tororuking) | 3,150 | 450.8 | 198 | 250 | 867 | 173 |
-| [デーモンソード](/monsters/demonsodo) | 2,222 | 385 | 207 | 296 | 867 | 173 |
-| [ゴッドライダー](/monsters/godraida) | 3,000 | 386.4 | 287 | 296 | 876 | 175 |
-| [巨大ナスビナーラ](/monsters/kyodainasubira) | 446 | 78 | 57 | 48 | 879 | 176 |
-| [コキュードス](/monsters/cocytus) | 2,438 | 387 | 270 | 296 | 888 | 178 |
-| [デスマーキュリー](/monsters/desumakyuri) | 2,777 | 322 | 222 | 280 | 900 | 124 |
-| [アルケミストン](/monsters/arukemisuton) | 535 | 55 | 48 | 36 | 904 | 181 |
-| [キラートーチ](/monsters/kiratoti) | 446 | 67 | 55 | 38 | 907 | 181 |
-| [グレイブディガー](/monsters/gureibudiga) | 2,775 | 464.8 | 273 | 288 | 914 | 183 |
-| [エンゼルアーマー](/monsters/enzeruaamaa) | 3,069 | 420 | 262 | 248 | 919 | 161 |
-| [キラーマシン2](/monsters/kiramasin2) | 3,300 | 408.8 | 296 | 250 | 931 | 186 |
-| [光の番人](/monsters/hikarinobannin) | 2,863 | 400 | 242 | 287 | 953 | 191 |
-| [謎のバケモノ](/monsters/nazonobakemono) | 2,853 | 404 | 291 | 290 | 994 | 199 |
-| [ピンクボンボン](/monsters/pinkbonbon) | 580 | 65 | 54 | 42 | 995 | 199 |
+| モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |
+| --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |
+| [ドラゴン](/monsters/dqmdragon) | ドラゴン | 氷 | 夜 | 220 | 115 | 85 | 200 | 40 |
+| [プロトキラー](/monsters/protokira) | 物質 | 強 | 昼夜 | 222 | 88 | 97 | 200 | 30 |
+| [エンゼルスライム](/monsters/enzeruslime) | スライム | 爆 | 昼夜 | 343 | 104 | 95 | 210 | 42 |
+| [やつざきアニマル](/monsters/yatuzakianimaru) | 魔獣 | 炎 | 夜 | 202 | 128 | 87 | 212 | 42 |
+| [メタルドラゴン](/monsters/metarudoragon) | 物質 | 強 | 昼夜 | 255 | 92 | 99 | 212 | 33 |
+| [マポレーナ](/monsters/maporena) | 悪魔 | 炎 | 昼夜 | 343 | 104 | 98 | 212 | 42 |
+| [ドールマスター](/monsters/dollmaster) | 特殊 | 炎 | 昼夜 | 371 | 109 | 94 | 216 | 43 |
+| [バリイドドッグ](/monsters/bariidodog) | ゾンビ | 炎 | 昼夜 | 343 | 109 | 100 | 219 | 44 |
+| [フレイム](/monsters/fureimu) | 物質 | 氷 | 昼夜 | 371 | 112 | 94 | 219 | 44 |
+| [モビルフォース](/monsters/mobirufosu) | 物質 | 風 | 夜 | 232 | 132 | 100 | 222 | 34 |
+| [がいこつけんし](/monsters/gaikotukensi) | ゾンビ | 炎 | 昼夜 | 329 | 107 | 110 | 225 | 45 |
+| [ばくだんいわ](/monsters/bakudaniwa) | 物質 | 氷 | 昼夜 | 371 | 112 | 105 | 229 | 46 |
+| [スカルガルー](/monsters/skullgaroo) | 魔獣 | 炎 | 昼夜 | 364 | 114 | 105 | 230 | 46 |
+| [デッドペッカー](/monsters/deddopekka) | 自然 | 炎 | 昼夜 | 371 | 115 | 108 | 235 | 47 |
+| [ブラッディハンド](/monsters/buraddihando) | 物質 | 風 | 昼夜 | 389 | 120 | 102 | 235 | 47 |
+| [ベスキング](/monsters/besuking) | スライム | 爆 | 昼夜 | 368 | 125 | 103 | 238 | 48 |
+| [キングスライム](/monsters/kingsura) | スライム | 爆 | 昼夜 | 385 | 118 | 112 | 241 | 48 |
+| [クイーンマチルダ](/monsters/kuinmatiruda) | ゾンビ | 炎 | 夜 | 469 | 125 | 126 | 243 | 49 |
+| [黒怨王](/monsters/kokuenou) | ゾンビ | 爆 | 昼夜 | 495 | 122 | 101 | 244 | 52 |
+| [しりょう](/monsters/siryou) | ゾンビ | 炎 | 昼夜 | 378 | 115 | 120 | 246 | 49 |
+| [ビッグハンマー](/monsters/bighanma) | 魔獣 | 炎 | 昼夜 | 402 | 128 | 107 | 248 | 50 |
+| [ヒートギズモ1](/monsters/hgizumo) | 物質 | 氷 | 夜 | 490 | 132 | 95 | 248 | 50 |
+| [スターデビル](/monsters/sutaadebiru) | 悪魔 | 爆 | 夜 | 400 | 126 | 120 | 249 | 44 |
+| [スマイルロック](/monsters/sumairurokku) | 物質 | 風 | 昼夜 | 444 | 125 | 109 | 250 | 50 |
+| [どくどくゾンビ](/monsters/dokudokuzonbi) | ゾンビ | 炎 | 夜 | 555 | 122 | 77 | 252 | 33 |
+| [ヒートギズモ2](/monsters/hiitogizumo) | 物質 | 氷 | 夜 | 494 | 134 | 98 | 253 | 51 |
+| [ドルイド](/monsters/doruido) | 悪魔 | 風 | 夜 | 486 | 136 | 98 | 254 | 51 |
+| [ブラックベジター](/monsters/burakkubejita) | 自然 | 炎 | 夜 | 532 | 138 | 98 | 260 | 52 |
+| [マネマネ](/monsters/manemane) | ゾンビ | 風 | 夜 | 486 | 147 | 94 | 260 | 52 |
+| [プオーン](/monsters/puohn) | 魔獣 | 強 | 昼 | 411 | 121 | 115 | 261 | 47 |
+| [ひょうけつのきし](/monsters/hyouketunokisi) | 悪魔 | 爆 | 昼夜 | 230 | 132 | 92 | 262 | 55 |
+| [じごくのつかい](/monsters/jigokunotukai) | 悪魔 | 氷 | 昼夜 | 473 | 137 | 108 | 263 | 53 |
+| [ヘルプラネット](/monsters/herupuranetto) | 物質 | 風 | 夜 | 459 | 119 | 102 | 263 | 49 |
+| [ツボック](/monsters/tubokku) | 特殊 | 爆 | 昼夜 | 430 | 130 | 120 | 264 | 53 |
+| [バアラック](/monsters/barakku) | 悪魔 | 爆 | 昼 | 497 | 141 | 102 | 264 | 53 |
+| [まおうのランプ](/monsters/annihilantern) | 物質 | 風 | 夜 | 435 | 128 | 103 | 264 | 56 |
+| [レッドサイクロン](/monsters/redsaikuron) | 自然 | 氷 | 昼 | 518 | 146 | 100 | 267 | 53 |
+| [ガルーダ](/monsters/garuda) | 魔獣 | 炎 | 昼夜 | 501 | 126 | 133 | 268 | 54 |
+| [メタルライダー](/monsters/metaruraida) | スライム | 無敵 | 昼夜 | 469 | 123 | 130 | 269 | 54 |
+| [ぼうれい剣士](/monsters/boureikensi) | ゾンビ | 強 | 昼夜 | 490 | 128 | 123 | 270 | 54 |
+| [メタルハンター１](/monsters/metaruhanta) | 物質 | 強 | 昼夜 | 476 | 131 | 126 | 274 | 55 |
+| [ザバン](/monsters/zaban) | 自然 | 炎 | 昼 | 456 | 145 | 140 | 274 | 55 |
+| [メタルハンター２](/monsters/metaruhantaken) | 物質 | 強 | 昼夜 | 490 | 131 | 126 | 275 | 55 |
+| [ミミック](/monsters/mimikku) | 物質 | 風 | 昼夜 | 522 | 133 | 122 | 277 | 55 |
+| [だいおうキッズ](/monsters/daioukizzu) | 自然 | 炎 | 昼 | 622 | 155 | 132 | 277 | 65 |
+| [カンダタこぶん](/monsters/kandatakobun) | ゾンビ | 強 | 昼夜 | 511 | 128 | 132 | 280 | 56 |
+| [アラウネ](/monsters/alraune) | スライム | 爆 | 昼夜 | 498 | 124 | 108 | 281 | 56 |
+| [デススパーク](/monsters/desusupaku) | ゾンビ | 爆 | 夜 | 675 | 146 | 120 | 282 | 56 |
+| [ようがんまじん](/monsters/youganmajin) | 物質 | 氷 | 夜 | 556 | 138 | 123 | 285 | 57 |
+| [デーモンスピリット](/monsters/demonspirit) | ゾンビ | 炎 | 夜 | 523 | 130 | 104 | 285 | 57 |
+| [テンタクルス](/monsters/tentacles) | 自然 | 炎 | 昼 | 534 | 140 | 139 | 285 | 57 |
+| [トロル](/monsters/tororu) | 悪魔 | 氷 | 昼夜 | 679 | 157 | 94 | 287 | 57 |
+| [エレフローパー](/monsters/elefloper) | 自然 | 炎 | 昼 | 517 | 139 | 117 | 287 | 57 |
+| [ベルザブル](/monsters/berusaburu) | 自然 | 炎 | 夜 | 489 | 144 | 98 | 288 | 52 |
+| [ネコノマンサー](/monsters/nekonomansa) | 魔獣 | 炎 | 夜 | 488 | 98 | 88 | 288 | 48 |
+| [メタルスコーピオン](/monsters/metarusukopion) | 自然 | 炎 | 夜 | 555 | 120 | 111 | 288 | 55 |
+| [デスクローゼット](/monsters/tansu_death) | 物質 | 強 | 夜 | 517 | 133 | 118 | 288 | 58 |
+| [ももいろ三姉妹](/monsters/momoirosansimai) | スライム | 強 | 昼夜 | 194 | 43 | 18 | 289 | 58 |
+| [パンドラ木箱](/monsters/pandorakibako) | 特殊 | 炎 | 昼夜 | 536 | 144 | 125 | 290 | 58 |
+| [だいまどう](/monsters/daimadou) | 悪魔 | 爆 | 夜 | 486 | 137 | 99 | 293 | 59 |
+| [ビッグフェイス](/monsters/biggufeisu) | 物質 | 風 | 昼夜 | 522 | 139 | 135 | 294 | 59 |
+| [グレイトライドン](/monsters/greatridon) | ゾンビ | 炎 | 夜 | 521 | 123 | 112 | 298 | 60 |
+| [タイガークロー](/monsters/taigakuro) | 魔獣 | 炎 | 昼夜 | 512 | 155 | 88 | 299 | 50 |
+| [ゾンビマスター](/monsters/zonbimasuta) | ゾンビ | 炎 | 夜 | 521 | 132 | 98 | 300 | 52 |
+| [ゴールデンスライム](/monsters/gorudensuraimu) | メタル | 無敵 | 夜 | 32 | 114 | 10,000 | 300 | 15,000 |
+| [トレーナースライム](/monsters/trainerslime) | スライム | 爆 | 昼夜 | 574 | 149 | 116 | 303 | 65 |
+| [まかいファイター](/monsters/commandragor) | ドラゴン | 風 | 昼夜 | 555 | 167 | 108 | 304 | 57 |
+| [ギガデーモン](/monsters/gugademon) | ドラゴン | 氷 | 昼夜 | 601 | 160 | 97 | 305 | 55 |
+| [ドラゴンナイト](/monsters/dragonnaito) | ドラゴン | 氷 | 昼夜 | 574 | 152 | 136 | 311 | 62 |
+| [エビルプラント](/monsters/ebirupuranto) | 自然 | 炎 | 昼夜 | 588 | 168 | 122 | 311 | 64 |
+| [メタルクラッシャー](/monsters/metarukurassya) | 物質 | 強 | 昼夜 | 555 | 145 | 140 | 311 | 60 |
+| [キラースター](/monsters/killer_star) | 物質 | 氷 | 昼夜 | 564 | 150 | 116 | 312 | 59 |
+| [ホタテワラビー](/monsters/hotatewarabi) | 魔獣 | 炎 | 昼 | 880 | 141 | 120 | 314 | 63 |
+| [ケムンクルス](/monsters/kemunkurusu) | 悪魔 | 炎 | 昼 | 848 | 142 | 122 | 314 | 63 |
+| [ゴーレム](/monsters/goremu) | 物質 | 強 | 昼夜 | 581 | 147 | 145 | 315 | 63 |
+| [キングレオ](/monsters/kingreo1) | 魔獣 | 強 | 夜 | 630 | 168 | 124 | 320 | 64 |
+| [ヘルクラッシャー](/monsters/herukurassya) | ゾンビ | 炎 | 夜 | 621 | 162 | 124 | 320 | 64 |
+| [ベホマスライム](/monsters/behomasuraimu) | スライム | 爆 | 昼 | 864 | 147 | 123 | 320 | 64 |
+| [ダークネビュラス](/monsters/dakunepyurasu) | 物質 | 強 | 昼夜 | 600 | 155 | 133 | 322 | 65 |
+| [とげジョボー](/monsters/togejobo) | 物質 | 氷 | 昼 | 566 | 169 | 109 | 323 | 57 |
+| [チョコヌーバ](/monsters/tyokonuba) | 自然 | 強 | 昼夜 | 229 | 29 | 16 | 324 | 65 |
+| [メイジももんじゃ](/monsters/magemomonja) | 魔獣 | 炎 | 昼 | 984 | 147 | 116 | 324 | 65 |
+| [タッチャン](/monsters/tattyan) | 自然 | 強 | 昼 | 229 | 36 | 15 | 325 | 65 |
+| [マジカルハット](/monsters/majikaruhatto) | 魔獣 | 炎 | 昼 | 824 | 158 | 130 | 333 | 67 |
+| [グランスライム](/monsters/grandpaslime) | スライム | 風 | 昼夜 | 896 | 165 | 136 | 333 | 69 |
+| [バルンバ](/monsters/balloon_ba) | ドラゴン | 氷 | 昼夜 | 546 | 171 | 111 | 335 | 61 |
+| [プヨンターゲット](/monsters/puyon) | ゾンビ | 炎 | 昼 | 944 | 154 | 124 | 335 | 67 |
+| [サタンメイル](/monsters/satanmeiru) | 物質 | 風 | 夜 | 609 | 160 | 117 | 340 | 62 |
+| [メガザルロック](/monsters/megazarurokku) | 物質 | 風 | 昼 | 896 | 155 | 133 | 340 | 68 |
+| [デスニャーゴ](/monsters/desunyago) | 魔獣 | 炎 | 夜 | 896 | 165 | 128 | 344 | 69 |
+| [マッドスミス](/monsters/maddosumisu) | ゾンビ | 炎 | 夜 | 1,123 | 177 | 98 | 345 | 45 |
+| [マーブルン](/monsters/maaburun) | 魔獣 | 強 | 昼 | 264 | 22 | 22 | 346 | 69 |
+| [じごくのハサミ](/monsters/jigokunohasami) | 自然 | 炎 | 昼 | 1,024 | 142 | 140 | 346 | 69 |
+| [つむりんママ](/monsters/tumurinmama) | スライム | 強 | 昼 | 264 | 22 | 19 | 349 | 70 |
+| [キラーパンサー](/monsters/kirapan2) | 魔獣 | 炎 | 昼 | 960 | 161 | 132 | 350 | 70 |
+| [まおうのかげ](/monsters/maounokage) | 物質 | 風 | 夜 | 944 | 159 | 135 | 350 | 70 |
+| [ジェントルダンス](/monsters/zyentorudansu) | 悪魔 | 爆 | 夜 | 1,031 | 149 | 140 | 350 | 73 |
+| [ごくらくちょう](/monsters/gokurakuchou) | 魔獣 | 炎 | 昼夜 | 969 | 157 | 127 | 353 | 71 |
+| [スライムカラー](/monsters/suraimuhaitawa) | スライム | 爆 | 昼 | 872 | 173 | 135 | 356 | 71 |
+| [ダースドラゴン](/monsters/darthdragon2) | ドラゴン | 氷 | 昼夜 | 627 | 159 | 123 | 357 | 71 |
+| [パペットマン](/monsters/papettoman) | 物質 | 炎 | 夜 | 840 | 180 | 132 | 357 | 71 |
+| [ダークスライム](/monsters/darkslime) | スライム | 爆 | 夜 | 992 | 171 | 132 | 362 | 72 |
+| [アックスドラゴン](/monsters/axedoragon) | ドラゴン | 氷 | 昼夜 | 1,152 | 158 | 135 | 368 | 74 |
+| [しりょうのきし](/monsters/siryounokisi) | ゾンビ | 炎 | 夜 | 1,072 | 161 | 142 | 369 | 74 |
+| [ボストロール](/monsters/bosutororu) | 悪魔 | 氷 | 昼夜 | 1,384 | 171 | 105 | 373 | 75 |
+| [セイレーンゴースト](/monsters/seire_ngo_suto) | 物質 | 氷 | 夜 | 1,216 | 182 | 138 | 374 | 77 |
+| [ガニラス](/monsters/ganirasu) | 自然 | 炎 | 夜 | 960 | 166 | 155 | 376 | 75 |
+| [デスジャッカル](/monsters/desujakkaru) | ゾンビ | 炎 | 夜 | 944 | 188 | 136 | 377 | 75 |
+| [バブルキング](/monsters/baburuking) | スライム | 爆 | 夜 | 1,128 | 165 | 144 | 379 | 76 |
+| [ポムポムボム](/monsters/pombom) | ゾンビ | 炎 | 夜 | 968 | 189 | 139 | 382 | 76 |
+| [しにがみのきし](/monsters/sinigaminokisi) | 悪魔 | 爆 | 夜 | 732 | 193 | 152 | 384 | 72 |
+| [ブラッドソード](/monsters/buraddosodo) | 物質 | 風 | 昼 | 1,008 | 186 | 143 | 387 | 77 |
+| [スカルドン](/monsters/skuldon) | ドラゴン | 氷 | 昼夜 | 661 | 162 | 124 | 389 | 78 |
+| [ダゴン](/monsters/dagon) | 自然 | 炎 | 昼 | 1,111 | 194 | 147 | 392 | 78 |
+| [カラミティサン](/monsters/karamithisan) | 物質 | 風 | 夜 | 1,156 | 175 | 136 | 399 | 77 |
+| [ソードファントム](/monsters/sodofantomu) | ゾンビ | 強 | 夜 | 1,184 | 202 | 134 | 409 | 82 |
+| [オーラー](/monsters/ora) | 物質 | 風 | 昼 | 920 | 123 | 112 | 413 | 118 |
+| [じごくのざりがに](/monsters/jigokunozarigani) | 自然 | 炎 | 夜 | 1,282 | 196 | 155 | 414 | 76 |
+| [キースドラゴン](/monsters/kisudragon) | ドラゴン | 氷 | 昼 | 1,264 | 195 | 144 | 418 | 84 |
+| [シルバーデビル](/monsters/sirubadebiru) | 悪魔 | 炎 | 夜 | 1,088 | 213 | 143 | 418 | 84 |
+| [ドラゴンライダー](/monsters/dragonraida) | ドラゴン | 氷 | 昼 | 1,160 | 206 | 145 | 420 | 84 |
+| [コスモアイ](/monsters/kosumoai) | 悪魔 | 風 | 昼夜 | 1,220 | 123 | 78 | 421 | 90 |
+| [ドーラー](/monsters/dora) | 物質 | 風 | 昼 | 1,256 | 167 | 142 | 422 | 92 |
+| [ソーラー](/monsters/sora) | 物質 | 風 | 昼 | 1,256 | 167 | 142 | 422 | 92 |
+| [エクソダス](/monsters/ekusodasu) | ゾンビ | 炎 | 夜 | 1,098 | 178 | 135 | 426 | 85 |
+| [スライムベホマズン](/monsters/suraimubehomazun) | スライム | 爆 | 昼 | 1,280 | 200 | 146 | 427 | 85 |
+| [エルダースライム](/monsters/elderslime) | スライム | 爆 | 昼夜 | 1,548 | 219 | 150 | 428 | 99 |
+| [クラーゴン](/monsters/kraagon) | 自然 | 炎 | 昼 | 1,208 | 213 | 158 | 430 | 86 |
+| [暗黒の使い](/monsters/ankokunotsukai) | ゾンビ | 炎 | 夜 | 1,407 | 242 | 150 | 434 | 83 |
+| [ゴールドマン](/monsters/goldman) | 物質 | 強 | 昼 | 1,248 | 203 | 155 | 435 | 87 |
+| [マスタースライム](/monsters/masterslime) | スライム | 爆 | 昼 | 1,130 | 200 | 145 | 435 | 85 |
+| [ガメゴンロード](/monsters/gamegonload) | ドラゴン | 氷 | 夜 | 1,264 | 195 | 166 | 438 | 88 |
+| [サイクロプス](/monsters/saikuropusu) | 悪魔 | 爆 | 昼 | 1,488 | 221 | 120 | 441 | 88 |
+| [ダースドラゴン](/monsters/dasudragon) | ドラゴン | 氷 | 夜 | 1,384 | 212 | 142 | 442 | 88 |
+| [じごくのよろい](/monsters/jigokunoyoroi) | ゾンビ | 強 | 夜 | 1,288 | 210 | 152 | 442 | 88 |
+| [ろうごくのぬし](/monsters/rougokunonusi) | ゾンビ | 炎 | 夜 | 1,455 | 198 | 142 | 444 | 88 |
+| [マーマンダイン](/monsters/mermandine) | 自然 | 炎 | 昼 | 1,183 | 208 | 143 | 450 | 90 |
+| [ベリアル](/monsters/beriaru) | 悪魔 | 氷 | 夜 | 1,550 | 220 | 125 | 450 | 90 |
+| [マクロベータ](/monsters/makurobeta) | ゾンビ | 炎 | 夜 | 1,322 | 155 | 116 | 453 | 90 |
+| [じごくのきし](/monsters/jigokunokisi) | ゾンビ | 炎 | 夜 | 1,202 | 165 | 134 | 454 | 91 |
+| [スラキャンサー](/monsters/slimecanser) | スライム | 強 | 昼夜 | 1,122 | 186 | 167 | 454 | 76 |
+| [アッシュリザード](/monsters/ash_lizard) | ドラゴン | 爆 | 昼夜 | 1,449 | 228 | 168 | 457 | 86 |
+| [ニードルうさこ](/monsters/ni_doruusako) | 物質 | 氷 | 昼 | 1,389 | 202 | 147 | 459 | 100 |
+| [モノクロームナイト](/monsters/monokuroomunaito) | 物質 | 風 | 夜 | 1,505 | 222 | 145 | 460 | 87 |
+| [ホワイトジャッジ](/monsters/howaitojaji) | ドラゴン | 氷 | 昼夜 | 1,600 | 222 | 134 | 461 | 92 |
+| [フーラー](/monsters/fura) | 物質 | 風 | 昼 | 1,400 | 188 | 168 | 466 | 88 |
+| [バラモスゾンビ](/monsters/baramoszombie) | ドラゴン | 氷 | 昼夜 | 1,442 | 245 | 140 | 469 | 94 |
+| [根絶やしの竜](/monsters/nedayashinoryu) | ドラゴン | 氷 | 昼夜 | 1,326 | 216 | 168 | 472 | 94 |
+| [キングレオⅡ](/monsters/kingreo2) | 魔獣 | 強 | 夜 | 1,440 | 228 | 163 | 482 | 96 |
+| [スノードラゴン](/monsters/snow_dragon) | ドラゴン | 氷 | 昼夜 | 1,443 | 217 | 170 | 486 | 97 |
+| [ゴールデンドラゴン](/monsters/goldendragon) | ドラゴン | 氷 | 昼夜 | 1,319 | 204 | 161 | 496 | 99 |
+| [スラワッショイ](/monsters/slimewashoi) | スライム | 氷 | 夜 | 1,521 | 223 | 139 | 506 | 94 |
+| [ドラゴントイズ](/monsters/doragontoizu) | 物質 | 強 | 昼夜 | 1,423 | 211 | 222 | 521 | 102 |
+| [あくまのきし](/monsters/akumanokisi) | 悪魔 | 強 | 夜 | 1,521 | 266 | 182 | 542 | 98 |
+| [グレイトドラゴン](/monsters/gureitodoragon) | ドラゴン | 強 | 昼 | 1,550 | 255 | 172 | 550 | 102 |
+| [うらぎりこぞう](/monsters/uragirikozou) | 悪魔 | 爆 | 昼夜 | 1,665 | 280 | 184 | 567 | 113 |
+| [ほうおう](/monsters/houou) | 魔獣 | 炎 | 昼夜 | 1,809 | 352 | 223 | 588 | 118 |
+| [マージマタンゴ](/monsters/magematango) | 自然 | 氷 | 昼夜 | 1,785 | 297 | 180 | 590 | 118 |
+| [マグマロン](/monsters/magumaron) | 自然 | 氷 | 昼夜 | 1,770 | 294 | 187 | 592 | 118 |
+| [ダースギズモ](/monsters/dgizumo) | 物質 | 風 | 昼夜 | 1,785 | 297 | 184 | 593 | 119 |
+| [グレートジンガー](/monsters/guretosinga) | 物質 | 風 | 夜 | 1,600 | 234 | 288 | 600 | 120 |
+| [リューイーソー](/monsters/ryuiso) | ゾンビ | 炎 | 昼夜 | 1,875 | 316 | 194 | 628 | 126 |
+| [スターキメラ](/monsters/starkimera) | 自然 | 氷 | 昼夜 | 1,770 | 325 | 196 | 628 | 126 |
+| [スラ・ブラスター](/monsters/slimeblaster) | スライム | 強 | 昼夜 | 1,790 | 371 | 223 | 632 | 139 |
+| [アカイライ](/monsters/akairai) | 自然 | 炎 | 昼夜 | 1,650 | 330 | 222 | 646 | 129 |
+| [クイーンスライム](/monsters/kuinsuraimu) | スライム | 爆 | 昼夜 | 2,025 | 319 | 198 | 648 | 130 |
+| [デビルロード](/monsters/debirurodo) | 悪魔 | 爆 | 昼夜 | 1,725 | 347 | 215 | 661 | 132 |
+| [キラークラブ](/monsters/kirakurabu) | 自然 | 炎 | 昼夜 | 1,800 | 319 | 250 | 675 | 135 |
+| [バトルレックス](/monsters/batorurex) | ドラゴン | 氷 | 昼夜 | 1,800 | 347 | 222 | 675 | 135 |
+| [かげのきし](/monsters/kagenokisi) | ゾンビ | 炎 | 昼夜 | 1,950 | 322 | 234 | 676 | 135 |
+| [ダークホビット](/monsters/dakuhobitto) | 物質 | 風 | 昼夜 | 1,725 | 325 | 256 | 678 | 136 |
+| [ドラゴンソルジャー](/monsters/doragonsoruja) | ドラゴン | 氷 | 夜 | 1,980 | 364 | 194 | 681 | 136 |
+| [はめつの使者](/monsters/hametunosisya) | 悪魔 | 氷 | 昼夜 | 1,965 | 358 | 210 | 688 | 138 |
+| [あんこくまじん](/monsters/ankokumajin) | 物質 | 氷 | 昼夜 | 1,890 | 350 | 229 | 691 | 138 |
+| [ロイヤルミミック](/monsters/tansu_royal) | 物質 | 強 | 夜 | 2,261 | 328 | 246 | 695 | 159 |
+| [スライムマデュラ](/monsters/suraimumadyura) | スライム | 強 | 昼夜 | 1,695 | 333 | 275 | 700 | 140 |
+| [ロイヤルブルーム](/monsters/roiyaruburumu) | 自然 | 炎 | 昼夜 | 2,122 | 398 | 255 | 700 | 138 |
+| [ギーグハンマー](/monsters/giguhanma) | ドラゴン | 氷 | 昼夜 | 3,125 | 423 | 222 | 702 | 123 |
+| [マッソ](/monsters/masso) | ドラゴン | 氷 | 昼夜 | 1,860 | 356 | 242 | 705 | 141 |
+| [キラーマシーン](/monsters/kiramasin) | 物質 | 強 | 夜 | 1,950 | 350 | 240 | 706 | 141 |
+| [シルバーマント](/monsters/sirubamanto) | ゾンビ | 強 | 昼夜 | 1,875 | 356 | 245 | 709 | 142 |
+| [ヘルガーディアン](/monsters/herugadexian) | 悪魔 | 炎 | 夜 | 2,350 | 444 | 270 | 711 | 142 |
+| [パンドラボックス](/monsters/pandorabox) | 物質 | 風 | 昼夜 | 2,100 | 356 | 242 | 726 | 145 |
+| [キラーアーマー](/monsters/kiraama) | ゾンビ | 強 | 昼夜 | 2,250 | 353 | 243 | 739 | 148 |
+| [トロルボンバー](/monsters/tororubonba) | 悪魔 | 氷 | 夜 | 2,625 | 398 | 175 | 752 | 150 |
+| [ダークナイト](/monsters/dakunaito) | ゾンビ | 強 | 昼夜 | 2,325 | 364 | 243 | 756 | 151 |
+| [ギガンテス](/monsters/gigantesu) | 悪魔 | 爆 | 昼夜 | 2,655 | 386 | 200 | 766 | 153 |
+| [キングレオⅢ](/monsters/kingreo3) | 魔獣 | 強 | 夜 | 2,430 | 386 | 231 | 774 | 155 |
+| [魔天海フォルネー](/monsters/matenkaiforney) | 自然 | 炎 | 昼 | 1,995 | 374 | 265 | 777 | 155 |
+| [ダークトロル](/monsters/darktororu) | 悪魔 | 氷 | 昼夜 | 2,700 | 420 | 186 | 788 | 158 |
+| [デンガー](/monsters/denga) | スライム | 強 | 昼夜 | 2,625 | 361 | 256 | 791 | 158 |
+| [ストーンマン](/monsters/stonman) | 物質 | 強 | 昼夜 | 2,580 | 361 | 261 | 792 | 158 |
+| [アスラ王](/monsters/asuraou) | ゾンビ | 炎 | 夜 | 2,963 | 422 | 250 | 807 | 186 |
+| [ビッグモアイ](/monsters/biggumoai) | 物質 | 風 | 昼夜 | 2,925 | 330 | 276 | 809 | 162 |
+| [ドラゴンダーク](/monsters/dragondarknaito) | ドラゴン | 氷 | 昼夜 | 2,850 | 364 | 261 | 819 | 164 |
+| [ガメゴンレジェンド](/monsters/gamegonrejendo) | ドラゴン | 氷 | 昼夜 | 2,700 | 344 | 299 | 822 | 164 |
+| [ソードイド](/monsters/sozoido) | ゾンビ | 炎 | 夜 | 2,396 | 354 | 209 | 834 | 167 |
+| [ゴールデンコーン](/monsters/gorudenkon) | 魔獣 | 強 | 昼 | 491 | 79 | 49 | 841 | 168 |
+| [デーモンアミゴ](/monsters/demonamigo) | 悪魔 | 氷 | 夜 | 3,312 | 412 | 245 | 859 | 154 |
+| [トロルキング](/monsters/tororuking) | 悪魔 | 氷 | 昼夜 | 3,150 | 451 | 198 | 867 | 173 |
+| [デーモンソード](/monsters/demonsodo) | ゾンビ | 炎 | 夜 | 2,222 | 385 | 207 | 867 | 173 |
+| [ゴッドライダー](/monsters/godraida) | スライム | 強 | 昼夜 | 3,000 | 386 | 287 | 876 | 175 |
+| [巨大ナスビナーラ](/monsters/kyodainasubira) | 自然 | 強 | 夜 | 446 | 78 | 57 | 879 | 176 |
+| [コキュードス](/monsters/cocytus) | ドラゴン | 氷 | 昼夜 | 2,438 | 387 | 270 | 888 | 178 |
+| [デスマーキュリー](/monsters/desumakyuri) | 物質 | 強 | 夜 | 2,777 | 322 | 222 | 900 | 124 |
+| [アルケミストン](/monsters/arukemisuton) | 魔獣 | 強 | 夜 | 535 | 55 | 48 | 904 | 181 |
+| [キラートーチ](/monsters/kiratoti) | 物質 | 強 | 夜 | 446 | 67 | 55 | 907 | 181 |
+| [グレイブディガー](/monsters/gureibudiga) | 魔獣 | 強 | 昼夜 | 2,775 | 465 | 273 | 914 | 183 |
+| [エンゼルアーマー](/monsters/enzeruaamaa) | 物質 | 風 | 夜 | 3,069 | 420 | 262 | 919 | 161 |
+| [キラーマシン2](/monsters/kiramasin2) | 物質 | 強 | 昼夜 | 3,300 | 409 | 296 | 931 | 186 |
+| [光の番人](/monsters/hikarinobannin) | ドラゴン | 氷 | 昼夜 | 2,863 | 400 | 242 | 953 | 191 |
+| [謎のバケモノ](/monsters/nazonobakemono) | ドラゴン | 氷 | 昼夜 | 2,853 | 404 | 291 | 994 | 199 |
+| [ピンクボンボン](/monsters/pinkbonbon) | 魔獣 | 強 | 昼 | 580 | 65 | 54 | 995 | 199 |
 
 ## 強敵（EXP 1000以上）
 
 45体。倒したときの経験値が低い順に並べています。
 
-| モンスター | HP | こうげき | しゅび | まりょく | EXP | G |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| [ハートナイト](/monsters/hatonaito) | 669 | 79 | 43 | 45 | 1,027 | 205 |
-| [ブラックドラゴン](/monsters/blackdoragon) | 3,124 | 489 | 293 | 278 | 1,033 | 203 |
-| [メタルスライム](/monsters/metasura) | 4 | 5 | 10,000 | 6 | 1,050 | 35 |
-| [呪いの岩](/monsters/noroinoiwa) | 960 | 100 | 72 | 88 | 1,733 | 347 |
-| [ゲノミー](/monsters/genomi) | 873 | 125 | 84 | 72 | 1,804 | 361 |
-| [とげこんぼう](/monsters/togekonbou) | 873 | 127 | 89 | 68 | 1,861 | 372 |
-| [レッドアーチャー](/monsters/reddoatya) | 1,047 | 111 | 69 | 78 | 1,871 | 374 |
-| [ミケまどう](/monsters/mikemadou) | 1,014 | 116 | 82 | 81 | 1,980 | 408 |
-| [サボテンゴールド](/monsters/sabotengold) | 1,134 | 122 | 78 | 70 | 2,063 | 413 |
-| [キラーピッケル](/monsters/kirapike) | 1,309 | 110 | 88 | 75 | 2,120 | 424 |
-| [わんぱくサタン](/monsters/wanpakusatan) | 1,968 | 203 | 123 | 75 | 3,227 | 645 |
-| [メタルブラザーズ](/monsters/metaruburazazu) | 8 | 19.8 | 10,000 | 15 | 3,300 | 50 |
-| [グレイトドラゴン・雲](/monsters/gureitodoragonkumo) | 1,789 | 198 | 143 | 88 | 3,315 | 663 |
-| [シールドあにき](/monsters/sirudoaniki) | 1,789 | 222 | 132 | 78 | 3,419 | 684 |
-| [クイーンモーモン](/monsters/kuinmomon) | 2,147 | 200 | 126 | 90 | 3,506 | 701 |
-| [伐採マシン](/monsters/bassaimasin) | 2,325 | 188 | 135 | 96 | 3,906 | 781 |
-| [ムーンキメラ](/monsters/moonkimera) | 2,683 | 190 | 129 | 99 | 4,032 | 806 |
-| [メタルパール](/monsters/metalpearl) | 8 | 21 | 10,000 | 16 | 4,500 | 56 |
-| [メタルホイミン](/monsters/metaruhoimin) | 10 | 42 | 10,000 | 32 | 6,500 | 75 |
-| [グランシーザー](/monsters/guransiza) | 5,237 | 355 | 175 | 136 | 6,989 | 1,398 |
-| [ピサロナイト](/monsters/pisaronaito) | 4,761 | 333 | 176 | 122 | 7,059 | 1,412 |
-| [ゴーストベリー](/monsters/ghostberry) | 6,103 | 385 | 172 | 141 | 7,440 | 1,657 |
-| [アトラス](/monsters/atorasu) | 5,713 | 345 | 167 | 165 | 7,650 | 1,530 |
-| [ゴードンヘッド](/monsters/godonheddo) | 6,189 | 366 | 195 | 145 | 8,519 | 1,704 |
-| [ましょうぐも](/monsters/mashougumo) | 7,141 | 342 | 188 | 155 | 9,059 | 1,812 |
-| [はぐれメタル](/monsters/hagumeta) | 13 | 46 | 10,000 | 34 | 10,500 | 150 |
-| [しろバラのきし](/monsters/sirobaranokisi) | 11,012 | 555 | 256 | 200 | 14,267 | 2,853 |
-| [フレアドラゴン](/monsters/fureadoragon) | 12,114 | 542 | 222 | 222 | 14,916 | 2,983 |
-| [メタルトリュフ](/monsters/metaltruffeslime) | 18 | 76 | 10,000 | 89 | 16,578 | 400 |
-| [トロルバッコス](/monsters/tororubakkosu) | 14,316 | 512 | 234 | 245 | 17,869 | 3,574 |
-| [ドラゴメタル](/monsters/dragometaru) | 25 | 83.78 | 10,000 | 60 | 21,000 | 250 |
-| [ゴールドマント](/monsters/goldmanto) | 11,012 | 564 | 245 | 237 | 24,011 | 4,802 |
-| [キングヒドラ](/monsters/kinghidora) | 22,339 | 909 | 354 | 380 | 27,898 | 5,580 |
-| [タイプG](/monsters/taipug) | 16,518 | 547 | 255 | 255 | 29,223 | 5,845 |
-| [スライダークロボ](/monsters/darkrobotslime) | 29,252 | 1,101 | 314 | 382 | 31,045 | 6,909 |
-| [魔獣イギュア](/monsters/majuuigyua) | 26,807 | 1,056 | 345 | 345 | 31,682 | 6,336 |
-| [りゅうおうもどき](/monsters/ryuuoumodoki) | 29,041 | 1,201 | 346 | 333 | 34,890 | 6,978 |
-| [聖銀のどくろあらい](/monsters/seigin) | 13,215 | 523 | 10,000 | 246 | 35,545 | 7,109 |
-| [ミュシャド](/monsters/myusyado) | 28,877 | 808 | 321 | 354 | 38,259 | 7,652 |
-| [メタルキング](/monsters/metaking) | 35 | 124.8 | 10,000 | 100 | 44,500 | 350 |
-| [メタルカイザー](/monsters/metalkaiser) | 34 | 113 | 10,000 | 105 | 51,405 | 457 |
-| [ダイヤモンドスライム](/monsters/daiyamondosuraimu) | 42 | 148.05 | 10,000 | 200 | 80,000 | 750 |
-| [プラチナキング](/monsters/puratinaking) | 65 | 169.2 | 10,000 | 250 | 150,000 | 500 |
-| [はぐれメタルキング](/monsters/haguremetaruking) | 135 | 364 | 10,000 | 350 | 500,000 | 3,500 |
-| [メタルスター](/monsters/metalstar) | 165 | 400 | 10,000 | 388 | 700,000 | 5,000 |
+| モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |
+| --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |
+| [ハートナイト](/monsters/hatonaito) | スライム | 強 | 夜 | 669 | 79 | 43 | 1,027 | 205 |
+| [ブラックドラゴン](/monsters/blackdoragon) | ドラゴン | 強 | 夜 | 3,124 | 489 | 293 | 1,033 | 203 |
+| [メタルスライム](/monsters/metasura) | メタル | 無敵 | 昼 | 4 | 5 | 10,000 | 1,050 | 35 |
+| [呪いの岩](/monsters/noroinoiwa) | 物質 | 強 | 夜 | 960 | 100 | 72 | 1,733 | 347 |
+| [ゲノミー](/monsters/genomi) | 自然 | 強 | 夜 | 873 | 125 | 84 | 1,804 | 361 |
+| [とげこんぼう](/monsters/togekonbou) | 魔獣 | 強 | 昼 | 873 | 127 | 89 | 1,861 | 372 |
+| [レッドアーチャー](/monsters/reddoatya) | 悪魔 | 強 | 昼夜 | 1,047 | 111 | 69 | 1,871 | 374 |
+| [ミケまどう](/monsters/mikemadou) | 魔獣 | 炎 | 昼夜 | 1,014 | 116 | 82 | 1,980 | 408 |
+| [サボテンゴールド](/monsters/sabotengold) | 自然 | 強 | 昼 | 1,134 | 122 | 78 | 2,063 | 413 |
+| [キラーピッケル](/monsters/kirapike) | 魔獣 | 強 | 夜 | 1,309 | 110 | 88 | 2,120 | 424 |
+| [わんぱくサタン](/monsters/wanpakusatan) | 悪魔 | 強 | 昼 | 1,968 | 203 | 123 | 3,227 | 645 |
+| [メタルブラザーズ](/monsters/metaruburazazu) | メタル | 無敵 | 夜 | 8 | 20 | 10,000 | 3,300 | 50 |
+| [グレイトドラゴン・雲](/monsters/gureitodoragonkumo) | ドラゴン | 強 | 夜 | 1,789 | 198 | 143 | 3,315 | 663 |
+| [シールドあにき](/monsters/sirudoaniki) | 物質 | 強 | 昼 | 1,789 | 222 | 132 | 3,419 | 684 |
+| [クイーンモーモン](/monsters/kuinmomon) | 悪魔 | 強 | 昼 | 2,147 | 200 | 126 | 3,506 | 701 |
+| [伐採マシン](/monsters/bassaimasin) | 物質 | 強 | 昼夜 | 2,325 | 188 | 135 | 3,906 | 781 |
+| [ムーンキメラ](/monsters/moonkimera) | 自然 | 強 | 夜 | 2,683 | 190 | 129 | 4,032 | 806 |
+| [メタルパール](/monsters/metalpearl) | メタル | 無敵 | 昼 | 8 | 21 | 10,000 | 4,500 | 56 |
+| [メタルホイミン](/monsters/metaruhoimin) | メタル | 無敵 | 夜 | 10 | 42 | 10,000 | 6,500 | 75 |
+| [グランシーザー](/monsters/guransiza) | 魔獣 | 強 | 夜 | 5,237 | 355 | 175 | 6,989 | 1,398 |
+| [ピサロナイト](/monsters/pisaronaito) | ゾンビ | 強 | 夜 | 4,761 | 333 | 176 | 7,059 | 1,412 |
+| [ゴーストベリー](/monsters/ghostberry) | 物質 | 風 | 昼夜 | 6,103 | 385 | 172 | 7,440 | 1,657 |
+| [アトラス](/monsters/atorasu) | 悪魔 | 強 | 昼 | 5,713 | 345 | 167 | 7,650 | 1,530 |
+| [ゴードンヘッド](/monsters/godonheddo) | 物質 | 強 | 夜 | 6,189 | 366 | 195 | 8,519 | 1,704 |
+| [ましょうぐも](/monsters/mashougumo) | 物質 | 強 | 夜 | 7,141 | 342 | 188 | 9,059 | 1,812 |
+| [はぐれメタル](/monsters/hagumeta) | メタル | 無敵 | 昼 | 13 | 46 | 10,000 | 10,500 | 150 |
+| [しろバラのきし](/monsters/sirobaranokisi) | 物質 | 強 | 昼 | 11,012 | 555 | 256 | 14,267 | 2,853 |
+| [フレアドラゴン](/monsters/fureadoragon) | ゾンビ | 強 | 夜 | 12,114 | 542 | 222 | 14,916 | 2,983 |
+| [メタルトリュフ](/monsters/metaltruffeslime) | メタル | 無敵 | 昼夜 | 18 | 76 | 10,000 | 16,578 | 400 |
+| [トロルバッコス](/monsters/tororubakkosu) | 悪魔 | 強 | 昼 | 14,316 | 512 | 234 | 17,869 | 3,574 |
+| [ドラゴメタル](/monsters/dragometaru) | メタル | 無敵 | 夜 | 25 | 84 | 10,000 | 21,000 | 250 |
+| [ゴールドマント](/monsters/goldmanto) | ゾンビ | 無敵 | 昼夜 | 11,012 | 564 | 245 | 24,011 | 4,802 |
+| [キングヒドラ](/monsters/kinghidora) | ドラゴン | 強 | 昼夜 | 22,339 | 909 | 354 | 27,898 | 5,580 |
+| [タイプG](/monsters/taipug) | 物質 | 無敵 | 昼夜 | 16,518 | 547 | 255 | 29,223 | 5,845 |
+| [スライダークロボ](/monsters/darkrobotslime) | スライム | 炎 | 夜 | 29,252 | 1,101 | 314 | 31,045 | 6,909 |
+| [魔獣イギュア](/monsters/majuuigyua) | 魔獣 | 強 | 夜 | 26,807 | 1,056 | 345 | 31,682 | 6,336 |
+| [りゅうおうもどき](/monsters/ryuuoumodoki) | ドラゴン | 強 | 昼 | 29,041 | 1,201 | 346 | 34,890 | 6,978 |
+| [聖銀のどくろあらい](/monsters/seigin) | 魔獣 | 無敵 | 昼 | 13,215 | 523 | 10,000 | 35,545 | 7,109 |
+| [ミュシャド](/monsters/myusyado) | 魔獣 | 強 | 夜 | 28,877 | 808 | 321 | 38,259 | 7,652 |
+| [メタルキング](/monsters/metaking) | メタル | 無敵 | 昼夜 | 35 | 125 | 10,000 | 44,500 | 350 |
+| [メタルカイザー](/monsters/metalkaiser) | メタル | 無敵 | 昼夜 | 34 | 113 | 10,000 | 51,405 | 457 |
+| [ダイヤモンドスライム](/monsters/daiyamondosuraimu) | メタル | 無敵 | 昼 | 42 | 148 | 10,000 | 80,000 | 750 |
+| [プラチナキング](/monsters/puratinaking) | メタル | 無敵 | 夜 | 65 | 169 | 10,000 | 150,000 | 500 |
+| [はぐれメタルキング](/monsters/haguremetaruking) | メタル | 無敵 | 昼夜 | 135 | 364 | 10,000 | 500,000 | 3,500 |
+| [メタルスター](/monsters/metalstar) | メタル | 無敵 | 昼 | 165 | 400 | 10,000 | 700,000 | 5,000 |
 
 ---
 

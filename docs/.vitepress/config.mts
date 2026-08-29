@@ -136,6 +136,7 @@ export default defineConfig({
       { text: 'はじめに', link: '/guide/what-is-dqmvi' },
       { text: 'モンスター', link: '/monsters/' },
       { text: '魔王・ボス', link: '/bosses/' },
+      { text: '出現場所', link: '/biomes/' },
       { text: '職業', link: '/jobs/' },
       { text: '編集のしかた', link: '/guide/edit' }
     ],
@@ -157,6 +158,7 @@ export default defineConfig({
         items: [
           { text: 'モンスター図鑑（579体）', link: '/monsters/' },
           { text: '魔王・ボス一覧（17体）', link: '/bosses/' },
+          { text: '出現場所から探す', link: '/biomes/' },
           { text: '職業一覧', link: '/jobs/' }
         ]
       },

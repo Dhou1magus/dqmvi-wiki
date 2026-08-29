@@ -10,7 +10,7 @@ const { frontmatter } = useData()
 const meta = [
   { label: '対応バージョン', value: 'DQMVI 0.25.41' },
   { label: '最終更新', value: '2026-08-29' },
-  { label: 'ページ数', value: '603' },
+  { label: 'ページ数', value: '622' },
   { label: '編集者', value: '募集中' }
 ]
 
@@ -34,7 +34,8 @@ const cats = [
     items: [
       { t: 'モンスター図鑑 579体', link: '/monsters/', wide: true },
       { t: '魔王・ボス 17体', link: '/bosses/', wide: true },
-      { t: 'ドロップ品' }, { t: '出現場所' }, { t: '系統別' }
+      { t: '出現場所から探す', link: '/biomes/', wide: true },
+      { t: 'ドロップ品' }, { t: '系統別' }
     ]
   },
   {
@@ -90,8 +91,9 @@ const cats = [
   {
     title: 'バイオーム・マップ',
     items: [
-      { t: 'バイオーム一覧' }, { t: '湧き対応表' }, { t: 'ネザー' },
-      { t: '果ての世界' }, { t: '座標メモ' }
+      { t: 'バイオーム別の出現モンスター', link: '/biomes/', wide: true },
+      { t: 'ネザー', link: '/biomes/nether' }, { t: '果ての世界', link: '/biomes/end' },
+      { t: 'バイオーム一覧' }, { t: '座標メモ' }
     ]
   },
   {
@@ -111,6 +113,7 @@ const cats = [
 ]
 
 const log = [
+  { d: '08-29', t: '出現場所・ドロップ品・呪文を追加', link: '/biomes/', who: 'Claude' },
   { d: '08-29', t: 'モンスター図鑑 579体を追加', link: '/monsters/', who: 'Claude' },
   { d: '08-29', t: '魔王・ボス 17体を追加', link: '/bosses/', who: 'Claude' },
   { d: '08-26', t: '職業一覧', link: '/jobs/', who: 'Claude' },
