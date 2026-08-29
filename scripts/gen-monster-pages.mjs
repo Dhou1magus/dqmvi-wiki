@@ -8,6 +8,9 @@
  *   unzip -o -q DQMVI-0.25.41.jar 'assets/dqmvi/*.tsv' 'assets/dqmvi/lang/*' -d /tmp/dqmvi
  *   node scripts/gen-monster-pages.mjs /tmp/dqmvi/assets/dqmvi
  *
+ * ★載せてよいのは「実際にゲームを遊んでいて分かること」だけ。
+ *   内部の数値（移動速度・表示倍率・抽選確率・内部ID など）は画面に出ないので載せない。
+ *
  * 読むファイル:
  *   monster_stats.tsv  … 全モンスターの数値（並び順が図鑑順）
  *   lang/ja_jp.json    … 日本語名。item.dqmvi.<id>_spawn_egg から引く
@@ -200,18 +203,6 @@ function monsterPage(m, { boss }) {
   lines.push('```')
   lines.push('')
 
-  // 詳細
-  lines.push('## そのほかのデータ')
-  lines.push('')
-  lines.push('| 項目 | 値 |')
-  lines.push('| --- | --- |')
-  lines.push(`| 移動速度 | ${cell(m.movementSpeed)} |`)
-  lines.push(`| 表示倍率 | ${cell(m.renderScale)} |`)
-  lines.push(`| 炎ダメージ無効 | ${m.fireImmune === 'true' ? 'する' : 'しない'} |`)
-  lines.push(`| Minecraft経験値 | ${num(m.xpReward)} |`)
-  lines.push(`| モンスターID | \`${cell(m.id)}\` |`)
-  lines.push('')
-
   // ── 逆コンパイルで判明したデータ ──
   const x = extrasFor(m.id)
   if (x) {
@@ -232,11 +223,11 @@ function monsterPage(m, { boss }) {
     if (x.drops?.length) {
       lines.push('## ドロップ品')
       lines.push('')
-      lines.push('| 区分 | アイテム | 確率 |')
-      lines.push('| --- | --- | ---: |')
-      for (const d of x.drops) lines.push(`| ${cell(d.tier)} | ${cell(d.item)} | 1/${num(d.oneIn)} |`)
+      lines.push('| 区分 | アイテム |')
+      lines.push('| --- | --- |')
+      for (const d of x.drops) lines.push(`| ${cell(d.tier)} | ${cell(d.item)} |`)
       lines.push('')
-      lines.push('このほかに「オブジェ」と「フィギュア」が各1/50で落ちます（飾り用のため一覧からは省いています）。')
+      lines.push('このほかに、飾り用の「オブジェ」と「フィギュア」も落とします。')
       lines.push('')
     }
 
