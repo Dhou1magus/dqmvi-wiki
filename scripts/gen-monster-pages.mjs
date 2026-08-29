@@ -37,6 +37,7 @@ if (!SRC) {
 const DOCS = 'docs'
 const MON_DIR = join(DOCS, 'monsters')
 const BOSS_DIR = join(DOCS, 'bosses')
+const BIOME_DIR = join(DOCS, 'biomes')
 
 /**
  * この見出しより下は、再生成しても書き換えずに引き継ぐ（各ページの手書き部分）。
@@ -60,6 +61,17 @@ function readTsv(path) {
   }
   return out
 }
+
+/**
+ * 逆コンパイルで取り出した追加データ（系統・活動時間・弱点・ドロップ・呪文・出現場所）。
+ * 出どころは com.dqm.data.DqmvMonsterListData / DqmvMonsterDexMagicData /
+ * DqmvMonsterSpawnPools / DqmvDimensionMonsters。取り出し方は README を参照。
+ * ファイルが無ければ、この部分だけ省いて生成する。
+ */
+const EXTRAS_PATH = join('scripts', 'data', 'monster-extras.json')
+let EXTRAS = { monsters: {}, biomes: {} }
+if (existsSync(EXTRAS_PATH)) EXTRAS = JSON.parse(readFileSync(EXTRAS_PATH, 'utf8'))
+const extrasFor = (id) => EXTRAS.monsters?.[id] ?? null
 
 const stats = readTsv(join(SRC, 'monster_stats.tsv'))
 const bossAi = readTsv(join(SRC, 'boss_ai.tsv'))
@@ -86,6 +98,19 @@ for (const [k, v] of Object.entries(lang)) {
 }
 const spellName = (id) => SPELL.get(id) ?? id
 
+/**
+ * 弱点の意味。Weakness.apply の実装より:
+ *   弱点属性の呪文はダメージ2倍 / 「強」は半減 / 「無敵」は0
+ */
+const WEAKNESS_NOTE = {
+  '炎': '炎系の呪文でダメージ2倍',
+  '氷': '氷系の呪文でダメージ2倍',
+  '爆': '爆発系の呪文でダメージ2倍',
+  '風': '風系の呪文でダメージ2倍',
+  '強': '呪文ダメージが半分になる',
+  '無敵': '呪文ダメージを受けつけない'
+}
+
 /** 魔王AIの属性 */
 const COLOR = { fire: '炎', ice: '氷', thunder: '雷', dark: '闇', holy: '光' }
 const colorName = (c) => COLOR[c] ?? c
@@ -96,6 +121,14 @@ const cell = (v) => String(v ?? '').replace(/\|/g, '｜').trim()
 const num = (v) => {
   const n = Number(v)
   return Number.isFinite(n) ? n.toLocaleString('en-US') : cell(v)
+}
+/**
+ * HP・こうげき・しゅびは表では四捨五入する。
+ * MOD側も図鑑画面で Math.round してから出しているので、それに合わせる。
+ */
+const rnum = (v) => {
+  const n = Number(v)
+  return Number.isFinite(n) ? Math.round(n).toLocaleString('en-US') : cell(v)
 }
 
 /** 強さの帯。EXPで分ける（jarに系統データが無いため） */
@@ -156,10 +189,10 @@ function monsterPage(m, { boss }) {
   lines.push('## ステータス')
   lines.push('')
   lines.push('```stats')
-  lines.push(`HP | ${num(m.health)}`)
+  lines.push(`HP | ${rnum(m.health)}`)
   lines.push(`MP | ${num(m.maxMp)}`)
-  lines.push(`こうげき | ${num(m.attackDamage)}`)
-  lines.push(`しゅび | ${num(m.defense)}`)
+  lines.push(`こうげき | ${rnum(m.attackDamage)}`)
+  lines.push(`しゅび | ${rnum(m.defense)}`)
   lines.push(`まりょく | ${num(m.magicPower)}`)
   lines.push(`魔法しゅび | ${num(m.magicDefense)}`)
   lines.push(`EXP | ${num(exp)}${boss ? ' !' : ''}`)
@@ -178,6 +211,44 @@ function monsterPage(m, { boss }) {
   lines.push(`| Minecraft経験値 | ${num(m.xpReward)} |`)
   lines.push(`| モンスターID | \`${cell(m.id)}\` |`)
   lines.push('')
+
+  // ── 逆コンパイルで判明したデータ ──
+  const x = extrasFor(m.id)
+  if (x) {
+    lines.push('## 生態')
+    lines.push('')
+    lines.push('| 項目 | 内容 |')
+    lines.push('| --- | --- |')
+    if (x.species) lines.push(`| 系統 | ${cell(x.species)} |`)
+    if (x.dayTime) lines.push(`| 活動時間 | ${cell(x.dayTime)} |`)
+    if (x.weakness) {
+      const note = WEAKNESS_NOTE[x.weakness]
+      lines.push(`| 弱点 | ${cell(x.weakness)}${note ? `（${note}）` : ''} |`)
+    }
+    if (x.rare) lines.push('| レア個体 | レア枠。ふつうの湧きでは出にくい |')
+    lines.push(`| 出現場所 | ${x.places?.length ? x.places.map(cell).join('・') : '通常のバイオーム全域'} |`)
+    lines.push('')
+
+    if (x.drops?.length) {
+      lines.push('## ドロップ品')
+      lines.push('')
+      lines.push('| 区分 | アイテム | 確率 |')
+      lines.push('| --- | --- | ---: |')
+      for (const d of x.drops) lines.push(`| ${cell(d.tier)} | ${cell(d.item)} | 1/${num(d.oneIn)} |`)
+      lines.push('')
+      lines.push('このほかに「オブジェ」と「フィギュア」が各1/50で落ちます（飾り用のため一覧からは省いています）。')
+      lines.push('')
+    }
+
+    if (x.magic?.length) {
+      lines.push('## 使う呪文')
+      lines.push('')
+      lines.push('| 種類 | 呪文 |')
+      lines.push('| --- | --- |')
+      for (const g of x.magic) lines.push(`| ${cell(g.kind)} | ${cell(g.name)} |`)
+      lines.push('')
+    }
+  }
 
   if (boss && b) {
     lines.push('## 行動パターン')
@@ -207,6 +278,7 @@ function monsterPage(m, { boss }) {
   lines.push('')
   lines.push(boss ? '- [魔王・ボス一覧](/bosses/)' : '- [モンスター図鑑](/monsters/)')
   lines.push(boss ? '- [モンスター図鑑](/monsters/)' : '- [魔王・ボス一覧](/bosses/)')
+  lines.push('- [出現場所から探す](/biomes/)')
   lines.push('')
   lines.push(KEEP_HEADING)
   lines.push('')
@@ -242,10 +314,11 @@ function describeAction(a) {
 
 // ── 一覧ページ ────────────────────────────────────────────
 function tableRows(list, dir) {
-  const out = ['| モンスター | HP | こうげき | しゅび | まりょく | EXP | G |',
-               '| --- | ---: | ---: | ---: | ---: | ---: | ---: |']
+  const out = ['| モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |',
+               '| --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |']
   for (const m of list) {
-    out.push(`| [${cell(jpName(m.id))}](/${dir}/${m.id}) | ${num(m.health)} | ${num(m.attackDamage)} | ${num(m.defense)} | ${num(m.magicPower)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
+    const x = extrasFor(m.id) ?? {}
+    out.push(`| [${cell(jpName(m.id))}](/${dir}/${m.id}) | ${cell(x.species ?? '—')} | ${cell(x.weakness ?? '—')} | ${cell((x.dayTime ?? '—').replace('のみ', ''))} | ${rnum(m.health)} | ${rnum(m.attackDamage)} | ${rnum(m.defense)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
   }
   return out
 }
@@ -317,6 +390,64 @@ function bossIndex(bosses) {
   return lines.join('\n')
 }
 
+// ── 出現場所のページ ──────────────────────────────────────
+function biomePage(bid, b, normals, bosses) {
+  const known = new Set(b.ids)
+  const list = [...normals, ...bosses].filter((m) => known.has(m.id))
+  const lines = []
+  lines.push('---')
+  lines.push(`title: ${b.name}`)
+  lines.push(`description: DQMVIの「${b.name}」に出現するモンスター${list.length}体の一覧。系統・弱点・活動時間・ステータスつき。`)
+  lines.push('---')
+  lines.push('')
+  lines.push(`# ${b.name}`)
+  lines.push('')
+  lines.push(`ここに湧く専用のモンスターは **${list.length}体** です。このほかに、どこにでも出る通常のモンスターも湧きます。`)
+  lines.push('')
+  if (list.length) {
+    const dirOf = (m) => (bossById.has(m.id) ? 'bosses' : 'monsters')
+    lines.push('| モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |')
+    lines.push('| --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |')
+    for (const m of list.sort((a, c) => (Number(a.dqExperience) || 0) - (Number(c.dqExperience) || 0))) {
+      const x = extrasFor(m.id) ?? {}
+      lines.push(`| [${cell(jpName(m.id))}](/${dirOf(m)}/${m.id}) | ${cell(x.species ?? '—')} | ${cell(x.weakness ?? '—')} | ${cell((x.dayTime ?? '—').replace('のみ', ''))} | ${rnum(m.health)} | ${rnum(m.attackDamage)} | ${rnum(m.defense)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
+    }
+    lines.push('')
+  }
+  lines.push('## 関連ページ')
+  lines.push('')
+  lines.push('- [出現場所から探す](/biomes/)')
+  lines.push('- [モンスター図鑑](/monsters/)')
+  lines.push('')
+  lines.push('## 攻略メモ')
+  lines.push('')
+  const kept = keptPart(join(BIOME_DIR, `${bid}.md`))
+  return lines.join('\n') + '\n' + (kept || EMPTY_NOTE) + '\n'
+}
+
+function biomeIndex(entries) {
+  const lines = []
+  lines.push('---')
+  lines.push('title: 出現場所から探す')
+  lines.push('description: DQMVIのオリジナルバイオーム・ネザー・果ての世界・海に、それぞれどのモンスターが湧くかの一覧。')
+  lines.push('---')
+  lines.push('')
+  lines.push('# 出現場所から探す')
+  lines.push('')
+  lines.push('専用のモンスターが決まっている場所の一覧です。ここに載っていないモンスターは、通常のバイオーム全域に湧きます。')
+  lines.push('')
+  lines.push('| 場所 | 専用モンスター |')
+  lines.push('| --- | ---: |')
+  for (const [bid, b] of entries) lines.push(`| [${cell(b.name)}](/biomes/${bid}) | ${b.ids.length}体 |`)
+  lines.push('')
+  lines.push('::: tip 湧く場所が決まっていないモンスター')
+  lines.push('MODは「通常」「やや強い」「強い」「レア」といった強さ別のまとまりからも抽選します。')
+  lines.push('そちらから湧くモンスターは特定のバイオームに紐づいていないため、この一覧には出てきません。')
+  lines.push(':::')
+  lines.push('')
+  return lines.join('\n')
+}
+
 // ── 実行 ──────────────────────────────────────────────────
 mkdirSync(MON_DIR, { recursive: true })
 mkdirSync(BOSS_DIR, { recursive: true })
@@ -335,6 +466,16 @@ for (const m of bosses) {
 }
 writeFileSync(join(MON_DIR, 'index.md'), monsterIndex(normals), 'utf8')
 writeFileSync(join(BOSS_DIR, 'index.md'), bossIndex(bosses), 'utf8')
+
+const biomeEntries = Object.entries(EXTRAS.biomes ?? {})
+if (biomeEntries.length) {
+  mkdirSync(BIOME_DIR, { recursive: true })
+  for (const [bid, b] of biomeEntries) {
+    writeFileSync(join(BIOME_DIR, `${bid}.md`), biomePage(bid, b, normals, bosses), 'utf8')
+  }
+  writeFileSync(join(BIOME_DIR, 'index.md'), biomeIndex(biomeEntries), 'utf8')
+  console.log(`出現場所:       ${biomeEntries.length}エリア`)
+}
 
 console.log(`一般モンスター: ${normals.length}体`)
 console.log(`魔王ボス:       ${bosses.length}体`)
