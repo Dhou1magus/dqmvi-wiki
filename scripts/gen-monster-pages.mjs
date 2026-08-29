@@ -1,0 +1,335 @@
+#!/usr/bin/env node
+/**
+ * MOD本体のデータから、モンスター1体1ページのMarkdownを生成する。
+ *
+ *   node scripts/gen-monster-pages.mjs <展開したassets/dqmviのパス>
+ *
+ * 例:
+ *   unzip -o -q DQMVI-0.25.41.jar 'assets/dqmvi/*.tsv' 'assets/dqmvi/lang/*' -d /tmp/dqmvi
+ *   node scripts/gen-monster-pages.mjs /tmp/dqmvi/assets/dqmvi
+ *
+ * 読むファイル:
+ *   monster_stats.tsv  … 全モンスターの数値（並び順が図鑑順）
+ *   lang/ja_jp.json    … 日本語名。item.dqmvi.<id>_spawn_egg から引く
+ *   boss_ai.tsv        … 魔王ボスの肩書き・フェーズ・行動ローテーション
+ *
+ * 出すもの:
+ *   docs/monsters/<id>.md   一般モンスター
+ *   docs/monsters/index.md  一覧（強さ帯ごと）
+ *   docs/bosses/<id>.md     魔王ボス
+ *   docs/bosses/index.md    ボス一覧
+ *
+ * ★MODのバージョンが上がったら、新しいjarを展開して実行し直すだけでよい。
+ *   手でページを書き換えると次の再生成で消える。加筆は「攻略メモ」欄に書く
+ *   （下の KEEP_MARK 以降は再生成時にそのまま引き継がれる）。
+ */
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs'
+import { join } from 'node:path'
+
+const SRC = process.argv[2]
+if (!SRC) {
+  console.error('使い方: node scripts/gen-monster-pages.mjs <展開したassets/dqmviのパス>')
+  process.exit(1)
+}
+
+const DOCS = 'docs'
+const MON_DIR = join(DOCS, 'monsters')
+const BOSS_DIR = join(DOCS, 'bosses')
+
+/** ここから下は再生成しても残す（各ページの手書き部分） */
+const KEEP_MARK = '<!-- ここから下は再生成しても消えません -->'
+
+// ── 読み込み ──────────────────────────────────────────────
+function readTsv(path) {
+  const lines = readFileSync(path, 'utf8').split(/\r?\n/)
+  let head = null
+  const out = []
+  for (const line of lines) {
+    if (!line.trim() || line.startsWith('#')) continue
+    const cols = line.split('\t')
+    if (!head) { head = cols; continue }
+    out.push(Object.fromEntries(head.map((h, i) => [h, cols[i] ?? ''])))
+  }
+  return out
+}
+
+const stats = readTsv(join(SRC, 'monster_stats.tsv'))
+const bossAi = readTsv(join(SRC, 'boss_ai.tsv'))
+const lang = JSON.parse(readFileSync(join(SRC, 'lang', 'ja_jp.json'), 'utf8'))
+
+const bossById = new Map(bossAi.map((b) => [b.id, b]))
+
+/** 日本語名。モンスターは entity ではなくスポーンエッグのアイテム名から引く */
+function jpName(id) {
+  const raw = lang[`item.dqmvi.${id}_spawn_egg`]
+  if (!raw) return id
+  return raw.replace(/^DQM\s+/, '').replace(/\s*の?スポーンエッグ$/, '').trim()
+}
+
+/**
+ * 呪文の日本語名。MODは呪文名そのものを持っていないが、
+ * 同名の杖・書アイテム（legacy_item_<呪文ID>）に「マヒャドの杖」の形で入っているので
+ * そこから「の杖 / の書 / の印」を落として引く。
+ */
+const SPELL = new Map()
+for (const [k, v] of Object.entries(lang)) {
+  const m = /^item\.dqmvi\.legacy_item_(.+)$/.exec(k)
+  if (m && !SPELL.has(m[1])) SPELL.set(m[1], String(v).replace(/の(杖|書|印|玉|剣)$/, '').trim())
+}
+const spellName = (id) => SPELL.get(id) ?? id
+
+/** 魔王AIの属性 */
+const COLOR = { fire: '炎', ice: '氷', thunder: '雷', dark: '闇', holy: '光' }
+const colorName = (c) => COLOR[c] ?? c
+
+// ── 出力用のヘルパ ────────────────────────────────────────
+/** 表のセルに入れる。| は表を壊すので全角に逃がす */
+const cell = (v) => String(v ?? '').replace(/\|/g, '｜').trim()
+const num = (v) => {
+  const n = Number(v)
+  return Number.isFinite(n) ? n.toLocaleString('en-US') : cell(v)
+}
+
+/** 強さの帯。EXPで分ける（jarに系統データが無いため） */
+const BANDS = [
+  { key: 'beginner', name: '序盤', desc: 'EXP 50未満', max: 50 },
+  { key: 'middle',   name: '中盤', desc: 'EXP 50〜199', max: 200 },
+  { key: 'late',     name: '終盤', desc: 'EXP 200〜999', max: 1000 },
+  { key: 'strong',   name: '強敵', desc: 'EXP 1000以上', max: Infinity }
+]
+function bandOf(exp) {
+  return BANDS.find((b) => exp < b.max) ?? BANDS[BANDS.length - 1]
+}
+
+/** 既存ページの手書き部分を拾う */
+function keptPart(path) {
+  if (!existsSync(path)) return ''
+  const cur = readFileSync(path, 'utf8')
+  const i = cur.indexOf(KEEP_MARK)
+  return i === -1 ? '' : cur.slice(i + KEEP_MARK.length).replace(/^\n+/, '')
+}
+
+// ── 1体ぶんのページ ───────────────────────────────────────
+function monsterPage(m, { boss }) {
+  const name = jpName(m.id)
+  const exp = Number(m.dqExperience) || 0
+  const gold = Number(m.dqGold) || 0
+  const b = bossById.get(m.id)
+
+  const desc = boss
+    ? `DQMVIの魔王ボス「${name}」の攻略データ。HP${num(m.health)} / 経験値${num(exp)} / ${num(gold)}G。フェーズごとの行動パターンとステータスをまとめています。`
+    : `DQMVIのモンスター「${name}」のステータス。HP${num(m.health)} / こうげき${num(m.attackDamage)} / しゅび${num(m.defense)} / 経験値${num(exp)} / ${num(gold)}G。`
+
+  const lines = []
+  lines.push('---')
+  lines.push(`title: ${name}`)
+  lines.push(`description: ${desc}`)
+  lines.push('---')
+  lines.push('')
+  lines.push(`# ${name}`)
+  lines.push('')
+
+  if (boss && b) {
+    lines.push(`**${cell(b.title)}** ・ ${colorName(b.color)}属性 ・ ${(b.phases || '').trim() ? `${b.phases.split(',').length + 1}フェーズ` : '1フェーズ'}`)
+  } else {
+    lines.push(`${bandOf(exp).name}のモンスター。`)
+  }
+  lines.push('')
+
+  // ステータス枠（テーマの ```stats 記法）
+  lines.push('## ステータス')
+  lines.push('')
+  lines.push('```stats')
+  lines.push(`HP | ${num(m.health)}`)
+  lines.push(`MP | ${num(m.maxMp)}`)
+  lines.push(`こうげき | ${num(m.attackDamage)}`)
+  lines.push(`しゅび | ${num(m.defense)}`)
+  lines.push(`まりょく | ${num(m.magicPower)}`)
+  lines.push(`魔法しゅび | ${num(m.magicDefense)}`)
+  lines.push(`EXP | ${num(exp)}${boss ? ' !' : ''}`)
+  lines.push(`ゴールド | ${num(gold)}`)
+  lines.push('```')
+  lines.push('')
+
+  // 詳細
+  lines.push('## そのほかのデータ')
+  lines.push('')
+  lines.push('| 項目 | 値 |')
+  lines.push('| --- | --- |')
+  lines.push(`| 移動速度 | ${cell(m.movementSpeed)} |`)
+  lines.push(`| 表示倍率 | ${cell(m.renderScale)} |`)
+  lines.push(`| 炎ダメージ無効 | ${m.fireImmune === 'true' ? 'する' : 'しない'} |`)
+  lines.push(`| Minecraft経験値 | ${num(m.xpReward)} |`)
+  lines.push(`| モンスターID | \`${cell(m.id)}\` |`)
+  lines.push('')
+
+  if (boss && b) {
+    lines.push('## 行動パターン')
+    lines.push('')
+    const thresholds = (b.phases || '').split(',').map((s) => s.trim()).filter(Boolean)
+    const rots = [b.rot1, b.rot2, b.rot3].filter((r) => r && r.trim())
+    rots.forEach((rot, i) => {
+      const from = i === 0 ? '100' : thresholds[i - 1]
+      const to = thresholds[i] ?? '0'
+      lines.push(`### 第${i + 1}フェーズ（HP ${from}%〜${to}%）`)
+      lines.push('')
+      lines.push('この順番で上から繰り返します。')
+      lines.push('')
+      rot.split(',').map((s) => s.trim()).filter(Boolean).forEach((act, j) => {
+        lines.push(`${j + 1}. ${describeAction(act)}`)
+      })
+      lines.push('')
+    })
+    lines.push('::: tip 詠唱と溜めが狙いどころ')
+    lines.push('`詠唱` 中は最大HPの8%ぶんのダメージを与えると打ち消せます。守り切られると威力が1.5倍になります。')
+    lines.push('`パワー溜め` の直後は大きな隙ができるので、そこで一気に削ります。')
+    lines.push(':::')
+    lines.push('')
+  }
+
+  lines.push('## 関連ページ')
+  lines.push('')
+  lines.push(boss ? '- [魔王・ボス一覧](/bosses/)' : '- [モンスター図鑑](/monsters/)')
+  lines.push(boss ? '- [モンスター図鑑](/monsters/)' : '- [魔王・ボス一覧](/bosses/)')
+  lines.push('')
+  lines.push('::: warning 数値の出どころ')
+  lines.push('このページの数値はMOD本体のデータから自動生成しています。攻略のコツや出現場所など、')
+  lines.push('実際に遊んで分かったことは下に書き足してください。書き足したぶんは再生成しても消えません。')
+  lines.push(':::')
+  lines.push('')
+  lines.push('## 攻略メモ')
+  lines.push('')
+  lines.push(KEEP_MARK)
+  lines.push('')
+
+  const kept = keptPart(join(boss ? BOSS_DIR : MON_DIR, `${m.id}.md`))
+  return lines.join('\n') + (kept || '（まだありません。気づいたことがあれば書き足してください）\n')
+}
+
+/** boss_ai.tsv の行動記法を日本語にする */
+function describeAction(a) {
+  const [kind, ...args] = a.split(':')
+  const t = {
+    wait: '様子見（隙ができる）',
+    wave: 'いてつくはどう（こちらの強化を消す）',
+    shockwave: '衝撃波',
+    roar: '咆哮'
+  }[kind]
+  if (t) return t
+  if (kind === 'spell') return `呪文 **${spellName(args[0])}**`
+  if (kind === 'cast') return `詠唱 **${spellName(args[0])}**（${args[1]}秒・打ち消し可）`
+  if (kind === 'charge') return `パワー溜め（${args[0]}秒・次の一手が1.6倍）`
+  if (kind === 'meteor') return `メテオ ${args[0]}発`
+  if (kind === 'pillar') return `${colorName(args[0])}属性の柱 ${args[1]}本`
+  if (kind === 'summon') return `**${jpName(args[0])}** を ${args[1]}体 召喚`
+  if (kind === 'heal') return `自己回復（最大HPの${args[0]}%）`
+  if (kind === 'retreat') return `後退して回復（HP${args[0]}%ぶん・追撃のチャンス）`
+  if (kind === 'barrier') return `防壁を張る（${{ crack: '打撃に強くなる', physical: '物理に強くなる', magic: '呪文に強くなる' }[args[0]] ?? args[0]}・${args[1]}）`
+  if (kind === 'dome') return `結界ドームに籠もる（${args[0]}秒・無敵）`
+  if (kind === 'cage') return `一番近い相手を檻に閉じ込める（${args[0]}秒・壊して脱出可）`
+  return `\`${a}\``
+}
+
+// ── 一覧ページ ────────────────────────────────────────────
+function tableRows(list, dir) {
+  const out = ['| モンスター | HP | こうげき | しゅび | まりょく | EXP | G |',
+               '| --- | ---: | ---: | ---: | ---: | ---: | ---: |']
+  for (const m of list) {
+    out.push(`| [${cell(jpName(m.id))}](/${dir}/${m.id}) | ${num(m.health)} | ${num(m.attackDamage)} | ${num(m.defense)} | ${num(m.magicPower)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
+  }
+  return out
+}
+
+function monsterIndex(normals) {
+  const lines = []
+  lines.push('---')
+  lines.push('title: モンスター図鑑')
+  lines.push(`description: DQMVIに登場するモンスター${normals.length}体のHP・こうげき・しゅび・経験値・ゴールドの一覧。強さの帯ごとにまとめています。`)
+  lines.push('---')
+  lines.push('')
+  lines.push('# モンスター図鑑')
+  lines.push('')
+  lines.push(`DQMVIに登場するモンスター **${normals.length}体** の一覧です。名前を押すと個別ページに移動します。`)
+  lines.push('魔王クラスのボスは [魔王・ボス一覧](/bosses/) にまとめています。')
+  lines.push('')
+  lines.push('::: tip 探し方')
+  lines.push('名前が分かっているときは、右上（スマホは上部）の**検索**にモンスター名を入れるのがいちばん早いです。')
+  lines.push(':::')
+  lines.push('')
+  for (const band of BANDS) {
+    const list = normals.filter((m) => bandOf(Number(m.dqExperience) || 0).key === band.key)
+      .sort((a, b) => (Number(a.dqExperience) || 0) - (Number(b.dqExperience) || 0))
+    if (!list.length) continue
+    lines.push(`## ${band.name}（${band.desc}）`)
+    lines.push('')
+    lines.push(`${list.length}体。倒したときの経験値が低い順に並べています。`)
+    lines.push('')
+    lines.push(...tableRows(list, 'monsters'))
+    lines.push('')
+  }
+  lines.push('---')
+  lines.push('')
+  lines.push('数値はMOD本体のデータから自動生成しています。出現場所・ドロップ品・配合はMOD内部のプログラムに書かれているため、このページにはまだ載っていません。')
+  lines.push('')
+  return lines.join('\n')
+}
+
+function bossIndex(bosses) {
+  const lines = []
+  lines.push('---')
+  lines.push('title: 魔王・ボス一覧')
+  lines.push(`description: DQMVIの魔王・ボス${bosses.length}体の攻略データ。HP・経験値・フェーズ数・行動パターンの一覧。`)
+  lines.push('---')
+  lines.push('')
+  lines.push('# 魔王・ボス一覧')
+  lines.push('')
+  lines.push(`専用の行動パターン（魔王AI）を持つ **${bosses.length}体** です。フェーズごとに戦い方が変わります。`)
+  lines.push('通常のモンスターは [モンスター図鑑](/monsters/) にまとめています。')
+  lines.push('')
+  lines.push('| ボス | 肩書き | 属性 | フェーズ | HP | EXP | G |')
+  lines.push('| --- | --- | :--: | :--: | ---: | ---: | ---: |')
+  for (const m of bosses.slice().sort((a, b) => (Number(a.health) || 0) - (Number(b.health) || 0))) {
+    const b = bossById.get(m.id)
+    const phases = (b?.phases || '').trim() ? b.phases.split(',').length + 1 : 1
+    lines.push(`| [${cell(jpName(m.id))}](/bosses/${m.id}) | ${cell(b?.title)} | ${colorName(b?.color)} | ${phases} | ${num(m.health)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
+  }
+  lines.push('')
+  lines.push('## 行動の読み方')
+  lines.push('')
+  lines.push('| 表記 | 意味 |')
+  lines.push('| --- | --- |')
+  lines.push('| いてつくはどう | こちらにかけた強化を全部消される |')
+  lines.push('| 詠唱 | 最大HPの8%ぶんダメージを与えると打ち消せる。守り切られると威力1.5倍 |')
+  lines.push('| パワー溜め | 次の一手が1.6倍。終わった直後に大きな隙ができる |')
+  lines.push('| 後退して回復 | 追撃のチャンス |')
+  lines.push('| 結界ドーム | 籠もっている間は無敵 |')
+  lines.push('')
+  return lines.join('\n')
+}
+
+// ── 実行 ──────────────────────────────────────────────────
+mkdirSync(MON_DIR, { recursive: true })
+mkdirSync(BOSS_DIR, { recursive: true })
+
+const bosses = stats.filter((m) => bossById.has(m.id))
+const normals = stats.filter((m) => !bossById.has(m.id))
+
+let written = 0
+for (const m of normals) {
+  writeFileSync(join(MON_DIR, `${m.id}.md`), monsterPage(m, { boss: false }), 'utf8')
+  written++
+}
+for (const m of bosses) {
+  writeFileSync(join(BOSS_DIR, `${m.id}.md`), monsterPage(m, { boss: true }), 'utf8')
+  written++
+}
+writeFileSync(join(MON_DIR, 'index.md'), monsterIndex(normals), 'utf8')
+writeFileSync(join(BOSS_DIR, 'index.md'), bossIndex(bosses), 'utf8')
+
+console.log(`一般モンスター: ${normals.length}体`)
+console.log(`魔王ボス:       ${bosses.length}体`)
+console.log(`書き出し:       ${written + 2}ファイル`)
+for (const band of BANDS) {
+  const n = normals.filter((m) => bandOf(Number(m.dqExperience) || 0).key === band.key).length
+  console.log(`  ${band.name}（${band.desc}）: ${n}体`)
+}
