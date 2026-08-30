@@ -138,6 +138,7 @@ export default defineConfig({
       { text: '魔王・ボス', link: '/bosses/' },
       { text: '出現場所', link: '/biomes/' },
       { text: '職業', link: '/jobs/' },
+      { text: '呪文・特技', link: '/spells/' },
       { text: '編集のしかた', link: '/guide/edit' }
     ],
 
@@ -159,7 +160,9 @@ export default defineConfig({
           { text: 'モンスター図鑑（579体）', link: '/monsters/' },
           { text: '魔王・ボス一覧（17体）', link: '/bosses/' },
           { text: '出現場所から探す', link: '/biomes/' },
-          { text: '職業一覧', link: '/jobs/' }
+          { text: '職業一覧（18種）', link: '/jobs/' },
+          { text: '呪文一覧（69種）', link: '/spells/' },
+          { text: '特技一覧（102種）', link: '/skills/' }
         ]
       },
       {

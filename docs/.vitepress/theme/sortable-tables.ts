@@ -3,8 +3,9 @@
  *
  * このwikiは markdown.html: false（本文に生のHTMLを書けない）ので、
  * 表にclassを付けて目印にはできない。かわりに
- *   ・一覧ページ（frontmatter の pageClass: wide-page）の中で
- *   ・先頭の見出しが「No.」の表
+ * 一覧ページ（frontmatter の pageClass: wide-page）の中の表のうち、
+ *   ・先頭の見出しが「No.」のもの（モンスター図鑑など）か、
+ *   ・pageClass に sortable-list も書いてあるページの表
  * だけを対象にする。ボス一覧の「行動の読み方」のような短い表には手を出さない。
  * ★生成側の見出しを変えるときは SORTABLE_FIRST_HEADER も直すこと。
  *
@@ -117,7 +118,8 @@ export function setupSortableTables(): void {
     markNoWrapColumns(table)
 
     if (tbody.rows.length < 2) continue
-    if (headers[0].textContent?.trim() !== SORTABLE_FIRST_HEADER) continue
+    const optedIn = document.querySelector('.Layout.sortable-list') !== null
+    if (!optedIn && headers[0].textContent?.trim() !== SORTABLE_FIRST_HEADER) continue
     table.dataset.sortable = 'ready'
 
     const rows = [...tbody.rows]
