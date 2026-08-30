@@ -26,8 +26,10 @@ export const FEEDBACK_COOLDOWN_MINUTES = 10
  * フォームの中にスクロールバーが出るので、少し余裕をもたせてある。
  * フォームの質問を増やしたときは、この数値も増やすこと。
  *
- * 目安: 現在の3問で、実際の中身は パソコン約1030px / スマホ約1190px。
- * 「その他」を選ぶと入力欄が増えるぶん、さらに伸びる。
+ * 目安: 現在の3問で、実際の中身は パソコン約1130px / スマホ約1190px。
+ * 未入力のまま送信すると「必須の質問です」が各項目に出て50pxほど伸びるので、
+ * そのぶんを足してある。多めにしても、Googleの画面が伸びて白く埋まるだけで
+ * 見た目は崩れない（足りないとフォームの中にスクロールバーが出る）。
  */
-export const FEEDBACK_FORM_HEIGHT = 1130
+export const FEEDBACK_FORM_HEIGHT = 1200
 export const FEEDBACK_FORM_HEIGHT_NARROW = 1320
