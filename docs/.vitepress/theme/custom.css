@@ -40,7 +40,7 @@
   --copper-soft: #f3e5d8;
 
   --r: 6px;
-  --vp-layout-max-width: 1520px;
+  --vp-layout-max-width: 1880px;
 }
 
 .dark {
@@ -133,7 +133,13 @@ b, strong, th,
   background: var(--vp-c-brand-1);
   flex-shrink: 0;
 }
-.vp-doc p { max-width: 66ch; }
+/* ── 本文の幅 ──
+   VitePressの既定は、目次のあるページで本文が688pxに固定される。
+   画面が広くても本文だけ細く残ってしまうので上限を広げる。
+   段落の折り返し制限（既定66ch＝日本語で33字ほど）も外す。枠だけ広くて
+   文字が半分で折り返す状態になるため。 */
+.VPDoc.has-aside .content-container { max-width: 1160px; }
+.vp-doc p { max-width: none; }
 
 /* ── 表 ── */
 .vp-doc table {
@@ -163,8 +169,6 @@ b, strong, th,
 /* ── 一覧ページ（frontmatter に pageClass: wide-page）──
    モンスター名や系統が途中で折り返さないよう、本文の幅を広げて
    セルの改行を止める。それでも入りきらない画面では表だけ横スクロールする。 */
-.Layout.wide-page .VPDoc .container,
-.Layout.wide-page .VPDoc:not(.has-sidebar) .container { max-width: 1440px; }
 .Layout.wide-page .VPDoc.has-aside .content-container { max-width: 100%; }
 .Layout.wide-page .VPDoc:not(.has-sidebar) .content { max-width: 100%; }
 
@@ -181,13 +185,6 @@ b, strong, th,
 .Layout.wide-page .vp-doc th.nowrap,
 .Layout.wide-page .vp-doc td.nowrap { white-space: nowrap; }
 .Layout.wide-page .vp-doc td:first-child { color: var(--vp-c-text-3); }
-
-/* 一覧ページでは説明文の折り返し制限を外す。
-   .vp-doc p の max-width: 66ch は長い記事を読みやすくするための指定だが、
-   幅を広げた一覧ページでは、注記枠だけ横に長くて中の文字が半分の位置で
-   折り返す（枠だけ広くて中身が狭い）状態になってしまう。
-   ここに置く説明は数行なので、枠の幅いっぱいまで使わせる。 */
-.Layout.wide-page .vp-doc p { max-width: none; }
 
 /* ── 並べ替えできる表 ──
    見出しを押すとその列で並べ替わる。どの表を対象にするかの判定と処理は
