@@ -161,13 +161,13 @@ onUnmounted(stopTimer)
 .fb-frame iframe {
   display: block;
   width: 100%;
-  height: 900px;
+  height: 918px;
   border: 0;
 }
 .fb-skeleton {
   display: grid;
   place-items: center;
-  height: 900px;
+  height: 918px;
   color: var(--vp-c-text-3);
   font-size: 14px;
 }
