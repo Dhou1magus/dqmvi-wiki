@@ -1,27 +1,40 @@
 <script setup>
 import { useData, withBase } from 'vitepress'
 
-const { frontmatter } = useData()
+const { frontmatter, theme } = useData()
 
 // ───────────────────────────────────────────────────────────
 //  トップページの中身。ここを書き換えると表示が変わる。
 //  link を書けばリンクに、書かなければ「未作成」の灰色表示になる。
 // ───────────────────────────────────────────────────────────
+// 対応バージョンだけ手で直す。ページ数と最終更新は config.mts が
+// ビルドのたびに数えて渡してくるので、書き換えなくてもずれない。
 const meta = [
   { label: '対応バージョン', value: 'DQMVI 0.25.41' },
-  { label: '最終更新', value: '2026-08-29' },
-  { label: 'ページ数', value: '622' },
+  { label: '最終更新', value: theme.value.siteStats?.updated ?? '—' },
+  { label: 'ページ数', value: String(theme.value.siteStats?.pages ?? '—') },
   { label: '編集者', value: '募集中' }
 ]
 
 const start = [
   { n: 'FIRST', t: 'DQMVIとは', d: 'どんなMODなのか、何が追加されるのか', link: '/guide/what-is-dqmvi' },
   { n: 'SETUP', t: '導入方法', d: '前提MOD・推奨環境・つまずきポイント', link: '/guide/install' },
-  { n: 'HELP', t: 'よくある質問', d: '起動しない・湧かない・落ちるとき', link: '/guide/faq' },
+  { n: 'PLAY', t: '遊び方ガイド', d: '始め方から釣り・農業・鍛冶まで', link: '/play/' },
   { n: 'JOIN', t: '編集のしかた', d: 'ブラウザだけで参加できます', link: '/guide/edit' }
 ]
 
 const cats = [
+  {
+    title: '遊び方ガイド',
+    items: [
+      { t: 'はじめに（モンスターポート）', link: '/play/start', wide: true },
+      { t: '冒険のきほん', link: '/play/basics', wide: true },
+      { t: 'ペットと配合', link: '/play/pets' }, { t: 'ガンビット', link: '/play/gambit' },
+      { t: '鍛冶', link: '/play/smithing' }, { t: '農業', link: '/play/farming' },
+      { t: '釣り', link: '/play/fishing' }, { t: '施設と暮らし', link: '/play/facilities' },
+      { t: 'クエスト', link: '/play/quests' }
+    ]
+  },
   {
     title: '攻略チャート',
     items: [
@@ -41,51 +54,62 @@ const cats = [
   {
     title: 'なかまモンスター',
     items: [
-      { t: '仲間にする方法' }, { t: '配合' }, { t: 'なつき度' },
-      { t: 'おすすめ編成' }, { t: 'こころ一覧' }
+      { t: '仲間にする・育てる', link: '/play/pets', wide: true },
+      { t: '作戦（ガンビット）', link: '/play/gambit', wide: true },
+      { t: '配合', link: '/play/pets' },
+      { t: 'おすすめ編成' }, { t: '種族シナジー', link: '/play/pets' }
     ]
   },
   {
-    title: '職業・特技',
+    title: '職業',
     items: [
-      { t: '職業一覧', link: '/jobs/', wide: true },
-      { t: '転職のしかた' }, { t: '熟練度' }, { t: '特技一覧' },
-      { t: '上級職' }, { t: 'おすすめ職業' }
+      { t: '職業一覧 18種', link: '/jobs/', wide: true },
+      { t: '転職とサブ職業', link: '/play/jobs', wide: true },
+      { t: '必殺技', link: '/jobs/' }, { t: '武器の適性', link: '/jobs/' },
+      { t: 'おすすめ職業' }
     ]
   },
   {
-    title: '呪文・スキル',
+    title: '呪文・特技',
     items: [
-      { t: '攻撃呪文' }, { t: '回復呪文' }, { t: '補助呪文' },
-      { t: '移動呪文' }, { t: '消費MP一覧' }, { t: '習得条件' }
+      { t: '呪文一覧 69種', link: '/spells/', wide: true },
+      { t: '特技一覧 102種', link: '/skills/', wide: true },
+      { t: '消費MPで探す', link: '/spells/' }, { t: '武器別の特技', link: '/skills/' },
+      { t: '移動呪文' }
     ]
   },
   {
     title: '武器・防具',
     items: [
-      { t: '武器一覧' }, { t: '防具一覧' }, { t: '盾・兜' },
-      { t: 'アクセサリ' }, { t: '最強装備' }, { t: 'エンチャント' }
+      { t: '武器 221種', link: '/items/', wide: true },
+      { t: '防具 165種', link: '/items/', wide: true },
+      { t: '盾・アクセサリー 154種', link: '/items/', wide: true },
+      { t: '最強装備' }, { t: '転生装備', link: '/items/' }
     ]
   },
   {
     title: 'アイテム・素材',
     items: [
-      { t: '道具一覧' }, { t: '素材一覧' }, { t: 'ちいさなメダル' },
-      { t: '種・木の実' }, { t: 'たね泥棒対策' }, { t: '入手場所逆引き' }
+      { t: 'アイテム一覧 1071種', link: '/items/', wide: true },
+      { t: 'アイテムの使い方', link: '/play/items', wide: true },
+      { t: '素材 132種', link: '/items/' }, { t: '種・作物', link: '/play/farming' },
+      { t: 'ちいさなメダル' }, { t: '入手場所逆引き' }
     ]
   },
   {
-    title: '錬金・クラフト',
+    title: '鍛冶・クラフト',
     items: [
-      { t: '錬金レシピ' }, { t: 'クラフト台' }, { t: '装備の強化' },
-      { t: '素材の集め方' }, { t: '錬金効率' }
+      { t: '装備を作る（目押し）', link: '/play/smithing', wide: true },
+      { t: '品質と強化・分解', link: '/play/smithing', wide: true },
+      { t: 'レシピ一覧' }, { t: '素材の集め方' }
     ]
   },
   {
     title: 'ダンジョン・施設',
     items: [
-      { t: 'ダンジョン一覧' }, { t: '祠・遺跡' }, { t: '村・町' },
-      { t: '宝箱の中身' }, { t: '出現条件' }
+      { t: '拠点づくりとお店', link: '/play/facilities', wide: true },
+      { t: 'マジックツールダンジョン', link: '/play/facilities', wide: true },
+      { t: 'ダンジョン一覧' }, { t: '宝箱の中身' }, { t: '村・町' }
     ]
   },
   {
@@ -93,7 +117,7 @@ const cats = [
     items: [
       { t: 'バイオーム別の出現モンスター', link: '/biomes/', wide: true },
       { t: 'ネザー', link: '/biomes/nether' }, { t: '果ての世界', link: '/biomes/end' },
-      { t: 'バイオーム一覧' }, { t: '座標メモ' }
+      { t: 'バイオーム一覧', link: '/biomes/' }, { t: '座標メモ' }
     ]
   },
   {
@@ -107,21 +131,22 @@ const cats = [
     title: 'MOD情報・不具合', acc: true,
     items: [
       { t: '導入方法', link: '/guide/install' }, { t: 'よくある質問', link: '/guide/faq' },
-      { t: '前提MOD' }, { t: '競合MOD' }, { t: '不具合報告' }, { t: 'MOD更新履歴' }
+      { t: 'ご意見箱', link: '/guide/feedback' },
+      { t: '前提MOD' }, { t: '競合MOD' }, { t: 'MOD更新履歴' }
     ]
   }
 ]
 
 const log = [
-  { d: '08-29', t: '出現場所・ドロップ品・呪文を追加', link: '/biomes/', who: 'Claude' },
-  { d: '08-29', t: 'モンスター図鑑 579体を追加', link: '/monsters/', who: 'Claude' },
-  { d: '08-29', t: '魔王・ボス 17体を追加', link: '/bosses/', who: 'Claude' },
-  { d: '08-26', t: '職業一覧', link: '/jobs/', who: 'Claude' },
-  { d: '08-26', t: '編集のしかた', link: '/guide/edit', who: 'Claude' },
-  { d: '08-26', t: '導入方法', link: '/guide/install', who: 'Claude' }
+  { d: '08-30', t: 'アイテム一覧 1071種を追加', link: '/items/', who: 'Claude' },
+  { d: '08-30', t: '遊び方ガイド11ページを追加', link: '/play/', who: 'Claude' },
+  { d: '08-30', t: '呪文69種・特技102種を追加', link: '/spells/', who: 'Claude' },
+  { d: '08-30', t: '職業18種を実データに差し替え', link: '/jobs/', who: 'Claude' },
+  { d: '08-30', t: 'ご意見箱を設置', link: '/guide/feedback', who: 'Claude' },
+  { d: '08-29', t: 'モンスター図鑑 579体・魔王ボス17体', link: '/monsters/', who: 'Claude' }
 ]
 
-const wanted = ['各モンスターの攻略メモ・出現場所', '序盤の進め方', '武器一覧・防具一覧', '錬金レシピ']
+const wanted = ['各モンスターの攻略メモ', '序盤の進め方', '武器・防具の性能値', '配合の組み合わせ']
 </script>
 
 <template>

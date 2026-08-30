@@ -1,4 +1,26 @@
 import { defineConfig } from 'vitepress'
+import { readdirSync, statSync } from 'node:fs'
+import { join } from 'node:path'
+
+/**
+ * トップページに出す「ページ数」と「最終更新」を、ビルドのたびに数え直す。
+ * 手で書いていると必ず実態とずれるため。
+ */
+function countPages(dir: string): number {
+  let n = 0
+  for (const name of readdirSync(dir)) {
+    if (name === '.vitepress' || name === 'node_modules' || name === 'public') continue
+    const p = join(dir, name)
+    if (statSync(p).isDirectory()) n += countPages(p)
+    else if (name.endsWith('.md')) n++
+  }
+  return n
+}
+
+const SITE_STATS = {
+  pages: countPages('docs'),
+  updated: new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Tokyo' })
+}
 
 // ─────────────────────────────────────────────────────────────
 //  ★ここだけ自分の値に書き換えてください
@@ -131,6 +153,9 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    // トップページの見出し脇に出す数字（ビルド時に自動で数える）
+    siteStats: SITE_STATS,
+
     // ── 上部ナビ ──
     //  項目を横一列に並べると、幅768〜960pxの画面（タブレット横向きなど）で
     //  検索欄やテーマ切替と一緒に並びきらず、右にはみ出して横スクロールが出る。
