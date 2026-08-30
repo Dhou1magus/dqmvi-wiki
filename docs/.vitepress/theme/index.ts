@@ -1,6 +1,8 @@
-import { h } from 'vue'
+import { h, nextTick, onMounted, watch } from 'vue'
 import DefaultTheme from 'vitepress/theme'
+import { useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
+import { setupSortableTables } from './sortable-tables'
 import ThemeSwitch from './ThemeSwitch.vue'
 import PageActions from './PageActions.vue'
 import TopPage from './TopPage.vue'
@@ -18,5 +20,12 @@ export default {
       // トップページ（frontmatter に top: true があるページ）の中身
       'page-top': () => h(TopPage)
     })
+  },
+  setup() {
+    // 一覧の表の見出しを押して並べ替えられるようにする。
+    // ページを切り替えても読み込み直さないので、遷移のたびに付け直す
+    const route = useRoute()
+    onMounted(() => setupSortableTables())
+    watch(() => route.path, () => nextTick(setupSortableTables))
   }
 } satisfies Theme

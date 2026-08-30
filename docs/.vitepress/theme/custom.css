@@ -180,6 +180,49 @@ b, strong, th,
 .Layout.wide-page .vp-doc td { white-space: nowrap; }
 .Layout.wide-page .vp-doc td:first-child { color: var(--vp-c-text-3); }
 
+/* ── 並べ替えできる表 ──
+   見出しを押すとその列で並べ替わる。どの表を対象にするかの判定と処理は
+   theme/sortable-tables.ts（対象になった表に data-sortable="ready" が付く）。
+   矢印は上向き＝小さい順、下向き＝大きい順。 */
+table[data-sortable] th {
+  position: relative;
+  padding-right: 22px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.12s, background-color 0.12s;
+}
+table[data-sortable] th:hover { color: var(--vp-c-text-1); background: var(--vp-c-bg-soft); }
+table[data-sortable] th:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: -2px; }
+table[data-sortable] th[aria-sort="ascending"],
+table[data-sortable] th[aria-sort="descending"] { color: var(--vp-c-brand-1); }
+
+table[data-sortable] th::after {
+  content: "";
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  opacity: 0.3;
+}
+table[data-sortable] th:hover::after { opacity: 0.65; }
+/* 未選択：押せることが分かる程度の薄い下向き */
+table[data-sortable] th[aria-sort="none"]::after {
+  margin-top: -1px;
+  border-top-color: currentColor;
+}
+table[data-sortable] th[aria-sort="ascending"]::after {
+  margin-top: -5px;
+  border-bottom-color: var(--vp-c-brand-1);
+  opacity: 1;
+}
+table[data-sortable] th[aria-sort="descending"]::after {
+  margin-top: -1px;
+  border-top-color: var(--vp-c-brand-1);
+  opacity: 1;
+}
+
 /* ── 注記ブロック ── */
 .vp-doc .custom-block {
   border-radius: var(--r);

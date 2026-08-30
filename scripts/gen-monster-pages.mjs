@@ -211,21 +211,24 @@ function monsterPage(m, { boss }) {
 
   // ── 逆コンパイルで判明したデータ ──
   const x = extrasFor(m.id)
-  if (x) {
-    lines.push('## 生態')
-    lines.push('')
-    lines.push('| 項目 | 内容 |')
-    lines.push('| --- | --- |')
-    if (x.species) lines.push(`| 系統 | ${cell(x.species)} |`)
-    if (x.dayTime) lines.push(`| 活動時間 | ${cell(x.dayTime)} |`)
-    if (x.weakness) {
-      const note = WEAKNESS_NOTE[x.weakness]
-      lines.push(`| 弱点 | ${cell(x.weakness)}${note ? `（${note}）` : ''} |`)
-    }
-    if (x.rare) lines.push('| レア個体 | レア枠。ふつうの湧きでは出にくい |')
-    lines.push(`| 出現場所 | ${x.places?.length ? x.places.map(cell).join('・') : '通常のバイオーム全域'} |`)
-    lines.push('')
 
+  // 生態。図鑑No.だけは全モンスターに付くので、extras が無くてもこの表は出す
+  lines.push('## 生態')
+  lines.push('')
+  lines.push('| 項目 | 内容 |')
+  lines.push('| --- | --- |')
+  lines.push(`| 図鑑No. | ${m.dexNo} |`)
+  if (x?.species) lines.push(`| 系統 | ${cell(x.species)} |`)
+  if (x?.dayTime) lines.push(`| 活動時間 | ${cell(x.dayTime)} |`)
+  if (x?.weakness) {
+    const note = WEAKNESS_NOTE[x.weakness]
+    lines.push(`| 弱点 | ${cell(x.weakness)}${note ? `（${note}）` : ''} |`)
+  }
+  if (x?.rare) lines.push('| レア個体 | レア枠。ふつうの湧きでは出にくい |')
+  if (x) lines.push(`| 出現場所 | ${x.places?.length ? x.places.map(cell).join('・') : '通常のバイオーム全域'} |`)
+  lines.push('')
+
+  if (x) {
     if (x.drops?.length) {
       lines.push('## ドロップ品')
       lines.push('')
@@ -312,6 +315,8 @@ function describeAction(a) {
 // ── 一覧ページ ────────────────────────────────────────────
 function tableRows(list, dirOf) {
   const at = typeof dirOf === 'function' ? dirOf : () => dirOf
+  // ★先頭の見出しが「No.」の表だけが並べ替えの対象になる（theme/sortable-tables.ts）。
+  //   ここの見出しを変えるときは、あちらの SORTABLE_FIRST_HEADER も一緒に直すこと。
   const out = ['| No. | モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |',
                '| ---: | --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |']
   for (const m of list.slice().sort(byDex)) {
@@ -337,6 +342,7 @@ function monsterIndex(normals) {
   lines.push('')
   lines.push('::: tip 探し方')
   lines.push('名前が分かっているときは、右上（スマホは上部）の**検索**にモンスター名を入れるのがいちばん早いです。')
+  lines.push('表の見出しを押すと、その項目で並べ替えできます。もう一度押すと逆順になります。')
   lines.push(':::')
   lines.push('')
   lines.push(...tableRows(normals, 'monsters'))
