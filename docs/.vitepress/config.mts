@@ -132,15 +132,32 @@ export default defineConfig({
 
   themeConfig: {
     // ── 上部ナビ ──
+    //  項目を横一列に並べると、幅768〜960pxの画面（タブレット横向きなど）で
+    //  検索欄やテーマ切替と一緒に並びきらず、右にはみ出して横スクロールが出る。
+    //  VitePressがハンバーガーに切り替えるのは768px未満だけなので、
+    //  データ系はまとめてドロップダウンにして項目数を減らしてある。
     nav: [
       { text: 'はじめに', link: '/guide/what-is-dqmvi' },
       { text: '遊び方', link: '/play/' },
-      { text: 'モンスター', link: '/monsters/' },
-      { text: '魔王・ボス', link: '/bosses/' },
-      { text: '出現場所', link: '/biomes/' },
-      { text: '職業', link: '/jobs/' },
-      { text: '呪文・特技', link: '/spells/' },
-      { text: '編集のしかた', link: '/guide/edit' }
+      {
+        text: 'データ',
+        items: [
+          { text: 'モンスター図鑑（579体）', link: '/monsters/' },
+          { text: '魔王・ボス一覧（17体）', link: '/bosses/' },
+          { text: '出現場所から探す', link: '/biomes/' },
+          { text: '職業一覧（18種）', link: '/jobs/' },
+          { text: '呪文一覧（69種）', link: '/spells/' },
+          { text: '特技一覧（102種）', link: '/skills/' },
+          { text: 'アイテム一覧（1071種）', link: '/items/' }
+        ]
+      },
+      {
+        text: 'wikiについて',
+        items: [
+          { text: '編集のしかた', link: '/guide/edit' },
+          { text: 'ご意見箱', link: '/guide/feedback' }
+        ]
+      }
     ],
 
     // ── サイドバー ──
