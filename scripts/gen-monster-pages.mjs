@@ -77,6 +77,12 @@ if (existsSync(EXTRAS_PATH)) EXTRAS = JSON.parse(readFileSync(EXTRAS_PATH, 'utf8
 const extrasFor = (id) => EXTRAS.monsters?.[id] ?? null
 
 const stats = readTsv(join(SRC, 'monster_stats.tsv'))
+// monster_stats.tsv の並び順がそのままゲーム内の図鑑順（ファイル先頭の注記より）。
+// 行の位置が図鑑ナンバーになる。ボスも一般モンスターと同じ通し番号を使うので、
+// 図鑑ページ側では番号がところどころ飛ぶ（そこにボスが入っている）。
+stats.forEach((m, i) => { m.dexNo = i + 1 })
+/** 図鑑ナンバーの昇順 */
+const byDex = (a, b) => a.dexNo - b.dexNo
 const bossAi = readTsv(join(SRC, 'boss_ai.tsv'))
 const lang = JSON.parse(readFileSync(join(SRC, 'lang', 'ja_jp.json'), 'utf8'))
 
@@ -304,12 +310,13 @@ function describeAction(a) {
 }
 
 // ── 一覧ページ ────────────────────────────────────────────
-function tableRows(list, dir) {
-  const out = ['| モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |',
-               '| --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |']
-  for (const m of list) {
+function tableRows(list, dirOf) {
+  const at = typeof dirOf === 'function' ? dirOf : () => dirOf
+  const out = ['| No. | モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |',
+               '| ---: | --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |']
+  for (const m of list.slice().sort(byDex)) {
     const x = extrasFor(m.id) ?? {}
-    out.push(`| [${cell(jpName(m.id))}](/${dir}/${m.id}) | ${cell(x.species ?? '—')} | ${cell(x.weakness ?? '—')} | ${cell((x.dayTime ?? '—').replace('のみ', ''))} | ${rnum(m.health)} | ${rnum(m.attackDamage)} | ${rnum(m.defense)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
+    out.push(`| ${m.dexNo} | [${cell(jpName(m.id))}](/${at(m)}/${m.id}) | ${cell(x.species ?? '—')} | ${cell(x.weakness ?? '—')} | ${cell((x.dayTime ?? '—').replace('のみ', ''))} | ${rnum(m.health)} | ${rnum(m.attackDamage)} | ${rnum(m.defense)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
   }
   return out
 }
@@ -318,32 +325,21 @@ function monsterIndex(normals) {
   const lines = []
   lines.push('---')
   lines.push('title: モンスター図鑑')
-  lines.push(`description: DQMVIに登場するモンスター${normals.length}体のHP・こうげき・しゅび・経験値・ゴールドの一覧。強さの帯ごとにまとめています。`)
+  lines.push(`description: DQMVIに登場するモンスター${normals.length}体のHP・こうげき・しゅび・経験値・ゴールドの一覧。ゲーム内の図鑑ナンバー順。`)
+  lines.push('pageClass: wide-page')
+  lines.push('aside: false')
   lines.push('---')
   lines.push('')
   lines.push('# モンスター図鑑')
   lines.push('')
-  lines.push(`DQMVIに登場するモンスター **${normals.length}体** の一覧です。名前を押すと個別ページに移動します。`)
-  lines.push('魔王クラスのボスは [魔王・ボス一覧](/bosses/) にまとめています。')
+  lines.push(`DQMVIに登場するモンスター **${normals.length}体** を、ゲーム内の図鑑と同じ番号順に並べています。名前を押すと個別ページに移動します。`)
+  lines.push('番号が飛んでいるところには魔王クラスのボスが入ります。ボスは [魔王・ボス一覧](/bosses/) にまとめています。')
   lines.push('')
   lines.push('::: tip 探し方')
   lines.push('名前が分かっているときは、右上（スマホは上部）の**検索**にモンスター名を入れるのがいちばん早いです。')
   lines.push(':::')
   lines.push('')
-  for (const band of BANDS) {
-    const list = normals.filter((m) => bandOf(Number(m.dqExperience) || 0).key === band.key)
-      .sort((a, b) => (Number(a.dqExperience) || 0) - (Number(b.dqExperience) || 0))
-    if (!list.length) continue
-    lines.push(`## ${band.name}（${band.desc}）`)
-    lines.push('')
-    lines.push(`${list.length}体。倒したときの経験値が低い順に並べています。`)
-    lines.push('')
-    lines.push(...tableRows(list, 'monsters'))
-    lines.push('')
-  }
-  lines.push('---')
-  lines.push('')
-  lines.push('出現場所・ドロップ品・配合はまだ調査中です。')
+  lines.push(...tableRows(normals, 'monsters'))
   lines.push('')
   return lines.join('\n')
 }
@@ -353,19 +349,20 @@ function bossIndex(bosses) {
   lines.push('---')
   lines.push('title: 魔王・ボス一覧')
   lines.push(`description: DQMVIの魔王・ボス${bosses.length}体の攻略データ。HP・経験値・フェーズ数・行動パターンの一覧。`)
+  lines.push('pageClass: wide-page')
   lines.push('---')
   lines.push('')
   lines.push('# 魔王・ボス一覧')
   lines.push('')
-  lines.push(`専用の行動パターン（魔王AI）を持つ **${bosses.length}体** です。フェーズごとに戦い方が変わります。`)
+  lines.push(`専用の行動パターン（魔王AI）を持つ **${bosses.length}体** を、ゲーム内の図鑑と同じ番号順に並べています。フェーズごとに戦い方が変わります。`)
   lines.push('通常のモンスターは [モンスター図鑑](/monsters/) にまとめています。')
   lines.push('')
-  lines.push('| ボス | 肩書き | 属性 | フェーズ | HP | EXP | G |')
-  lines.push('| --- | --- | :--: | :--: | ---: | ---: | ---: |')
-  for (const m of bosses.slice().sort((a, b) => (Number(a.health) || 0) - (Number(b.health) || 0))) {
+  lines.push('| No. | ボス | 肩書き | 属性 | フェーズ | HP | EXP | G |')
+  lines.push('| ---: | --- | --- | :--: | :--: | ---: | ---: | ---: |')
+  for (const m of bosses.slice().sort(byDex)) {
     const b = bossById.get(m.id)
     const phases = (b?.phases || '').trim() ? b.phases.split(',').length + 1 : 1
-    lines.push(`| [${cell(jpName(m.id))}](/bosses/${m.id}) | ${cell(b?.title)} | ${colorName(b?.color)} | ${phases} | ${num(m.health)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
+    lines.push(`| ${m.dexNo} | [${cell(jpName(m.id))}](/bosses/${m.id}) | ${cell(b?.title)} | ${colorName(b?.color)} | ${phases} | ${num(m.health)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
   }
   lines.push('')
   lines.push('## 行動の読み方')
@@ -389,6 +386,7 @@ function biomePage(bid, b, normals, bosses) {
   lines.push('---')
   lines.push(`title: ${b.name}`)
   lines.push(`description: DQMVIの「${b.name}」に出現するモンスター${list.length}体の一覧。系統・弱点・活動時間・ステータスつき。`)
+  lines.push('pageClass: wide-page')
   lines.push('---')
   lines.push('')
   lines.push(`# ${b.name}`)
@@ -396,13 +394,7 @@ function biomePage(bid, b, normals, bosses) {
   lines.push(`ここに湧く専用のモンスターは **${list.length}体** です。このほかに、どこにでも出る通常のモンスターも湧きます。`)
   lines.push('')
   if (list.length) {
-    const dirOf = (m) => (bossById.has(m.id) ? 'bosses' : 'monsters')
-    lines.push('| モンスター | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |')
-    lines.push('| --- | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |')
-    for (const m of list.sort((a, c) => (Number(a.dqExperience) || 0) - (Number(c.dqExperience) || 0))) {
-      const x = extrasFor(m.id) ?? {}
-      lines.push(`| [${cell(jpName(m.id))}](/${dirOf(m)}/${m.id}) | ${cell(x.species ?? '—')} | ${cell(x.weakness ?? '—')} | ${cell((x.dayTime ?? '—').replace('のみ', ''))} | ${rnum(m.health)} | ${rnum(m.attackDamage)} | ${rnum(m.defense)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
-    }
+    lines.push(...tableRows(list, (m) => (bossById.has(m.id) ? 'bosses' : 'monsters')))
     lines.push('')
   }
   lines.push('## 関連ページ')
@@ -471,7 +463,4 @@ if (biomeEntries.length) {
 console.log(`一般モンスター: ${normals.length}体`)
 console.log(`魔王ボス:       ${bosses.length}体`)
 console.log(`書き出し:       ${written + 2}ファイル`)
-for (const band of BANDS) {
-  const n = normals.filter((m) => bandOf(Number(m.dqExperience) || 0).key === band.key).length
-  console.log(`  ${band.name}（${band.desc}）: ${n}体`)
-}
+console.log(`図鑑ナンバー:   1〜${Math.max(...stats.map((m) => m.dexNo))}（ボス込みの通し番号）`)

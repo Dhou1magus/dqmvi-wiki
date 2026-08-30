@@ -160,6 +160,33 @@ b, strong, th,
 }
 .vp-doc tbody tr:hover { background: var(--vp-c-bg-alt); }
 
+/* ── 一覧ページ（frontmatter に pageClass: wide-page）──
+   モンスター名や系統が途中で折り返さないよう、本文の幅を広げて
+   セルの改行を止める。それでも入りきらない画面では表だけ横スクロールする。 */
+.Layout.wide-page .VPDoc .container,
+.Layout.wide-page .VPDoc:not(.has-sidebar) .container { max-width: 1440px; }
+.Layout.wide-page .VPDoc.has-aside .content-container { max-width: 100%; }
+.Layout.wide-page .VPDoc:not(.has-sidebar) .content { max-width: 100%; }
+
+.Layout.wide-page .vp-doc table {
+  display: block;
+  width: max-content;
+  min-width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+.Layout.wide-page .vp-doc th,
+.Layout.wide-page .vp-doc td { white-space: nowrap; }
+.Layout.wide-page .vp-doc td:first-child { color: var(--vp-c-text-3); }
+
+/* 一覧は行数が多いので、見出し行を上に貼り付けて見失わないようにする */
+.Layout.wide-page .vp-doc thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 /* ── 注記ブロック ── */
 .vp-doc .custom-block {
   border-radius: var(--r);
