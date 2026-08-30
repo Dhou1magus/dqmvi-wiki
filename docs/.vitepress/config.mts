@@ -166,7 +166,8 @@ export default defineConfig({
         text: 'wikiの運営',
         collapsed: false,
         items: [
-          { text: '編集のしかた', link: '/guide/edit' }
+          { text: '編集のしかた', link: '/guide/edit' },
+          { text: 'ご意見箱', link: '/guide/feedback' }
         ]
       }
     ],
@@ -258,7 +259,10 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '有志による非公式wikiです。記載内容の正確性は保証されません。',
+      // このwikiへの意見を受け取る窓口。全ページの下から行けるようにしておく
+      message:
+        '有志による非公式wikiです。記載内容の正確性は保証されません。'
+        + ` <a href="/${REPO_NAME}/guide/feedback">ご意見箱</a>`,
       copyright: 'DQMVI 攻略wiki'
     }
   }

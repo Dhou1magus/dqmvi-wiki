@@ -48,7 +48,8 @@ const ALLOWED_FRONTMATTER = new Set([
   'title', 'titleTemplate', 'description', 'tagline',
   'layout', 'top', 'sidebar', 'aside', 'outline',
   'prev', 'next', 'editLink', 'lastUpdated',
-  'pageClass', 'navbar', 'footer', 'hero', 'features'
+  'pageClass', 'navbar', 'footer', 'hero', 'features',
+  'feedback'
 ])
 
 /**
