@@ -180,13 +180,6 @@ b, strong, th,
 .Layout.wide-page .vp-doc td { white-space: nowrap; }
 .Layout.wide-page .vp-doc td:first-child { color: var(--vp-c-text-3); }
 
-/* 一覧は行数が多いので、見出し行を上に貼り付けて見失わないようにする */
-.Layout.wide-page .vp-doc thead th {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
 /* ── 注記ブロック ── */
 .vp-doc .custom-block {
   border-radius: var(--r);
