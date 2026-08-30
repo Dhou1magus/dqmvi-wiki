@@ -138,7 +138,10 @@ b, strong, th,
    画面が広くても本文だけ細く残ってしまうので上限を広げる。
    段落の折り返し制限（既定66ch＝日本語で33字ほど）も外す。枠だけ広くて
    文字が半分で折り返す状態になるため。 */
-.VPDoc.has-aside .content-container { max-width: 1160px; }
+/* セレクタが長いのは、VitePress側が scoped スタイル
+   （.VPDoc.has-aside .content-container[data-v-xxxx]）で688pxを指定しており、
+   同じ強さでは勝てないため。クラスを1つ多く重ねて上書きしている。 */
+.Layout .VPContent .VPDoc.has-aside .content-container { max-width: 1160px; }
 .vp-doc p { max-width: none; }
 
 /* ── 表 ── */
