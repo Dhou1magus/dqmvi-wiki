@@ -134,6 +134,7 @@ export default defineConfig({
     // ── 上部ナビ ──
     nav: [
       { text: 'はじめに', link: '/guide/what-is-dqmvi' },
+      { text: '遊び方', link: '/play/' },
       { text: 'モンスター', link: '/monsters/' },
       { text: '魔王・ボス', link: '/bosses/' },
       { text: '出現場所', link: '/biomes/' },
@@ -151,6 +152,24 @@ export default defineConfig({
           { text: 'DQMVIとは', link: '/guide/what-is-dqmvi' },
           { text: '導入方法', link: '/guide/install' },
           { text: 'よくある質問', link: '/guide/faq' }
+        ]
+      },
+      {
+        text: '遊び方ガイド',
+        collapsed: false,
+        items: [
+          { text: '目次', link: '/play/' },
+          { text: 'はじめに', link: '/play/start' },
+          { text: '冒険のきほん', link: '/play/basics' },
+          { text: 'ペットと配合', link: '/play/pets' },
+          { text: 'ガンビット', link: '/play/gambit' },
+          { text: '転職とサブ職業', link: '/play/jobs' },
+          { text: 'アイテム', link: '/play/items' },
+          { text: '鍛冶', link: '/play/smithing' },
+          { text: '農業', link: '/play/farming' },
+          { text: '釣り', link: '/play/fishing' },
+          { text: '施設と暮らし', link: '/play/facilities' },
+          { text: 'クエスト', link: '/play/quests' }
         ]
       },
       {

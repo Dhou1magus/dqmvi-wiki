@@ -8,6 +8,9 @@
  *   ここに書いてあることは全部「遊んでいて分かること」にあたる。
  *
  * 読むファイル:
+ *   gambits.tsv         … ガンビットで選べる 対象・条件・行動 の一覧
+ *   gambit_presets.tsv  … あらかじめ用意された作戦の型。ルールは
+ *                         「対象|条件1|条件2|行動|引数」を ; でつないだ形
  *   adventure_guide.tsv … id / 解放段階 / 大分類 / 小分類 / タイトル / 本文
  *                         本文の改行は ⏎、1行の中の区切りは " / "
  *                         「消費MP: 2 / 基本威力: 8 / 範囲: 単体」のように
@@ -16,6 +19,7 @@
  * 書き出すファイル:
  *   docs/spells/index.md  呪文一覧
  *   docs/skills/index.md  特技一覧
+ *   docs/play/*.md        遊び方ガイド（大分類ごとに1ページ）
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
@@ -63,6 +67,22 @@ function parseBody(body) {
 }
 
 const guide = readGuide(join(SRC, 'adventure_guide.tsv'))
+
+/** タブ区切りを、1行目を見出しとして読む */
+function readTable(path) {
+  const rows = readFileSync(path, 'utf8').split(/\r?\n/)
+    .filter((l) => l.trim() && !l.startsWith('#')).map((l) => l.split('\t'))
+  const [head, ...body] = rows
+  return body.map((c) => Object.fromEntries(head.map((h, i) => [h, c[i] ?? ''])))
+}
+
+const gambits = readTable(join(SRC, 'gambits.tsv'))
+const presets = readTable(join(SRC, 'gambit_presets.tsv'))
+/** 「type:id」→ 表示名。プリセットのルールを日本語に直すのに使う */
+const gambitName = new Map(gambits.map((g) => [`${g.type}:${g.id}`, g.name]))
+/** どの種類にあるか分からない語も引けるように、id だけでも引けるようにする */
+const gambitById = new Map(gambits.map((g) => [g.id, g.name]))
+const gname = (type, id) => (id ? gambitName.get(`${type}:${id}`) ?? gambitById.get(id) ?? id : '')
 
 // ── 書き出しの部品 ────────────────────────────────────────
 const cell = (v) => String(v ?? '').replace(/\|/g, '\\|').replace(/\r?\n/g, ' ').trim() || '—'
@@ -171,6 +191,142 @@ function skillsPage() {
   return lines.join('\n')
 }
 
+// ── 遊び方ガイド ──────────────────────────────────────────
+/**
+ * 大分類ごとの1ページ。URLに使う名前と、ページの説明。
+ * ガンビットだけは分量があるので、ペットとは別のページに切り出す。
+ */
+const PLAY = [
+  { major: 'はじめに', slug: 'start', lead: 'ゲームを始めて最初にすることと、モンスターポートの使い方。' },
+  { major: '冒険のきほん', slug: 'basics', lead: 'ステータスの見かた、戦い方、死んだときの扱い、便利な操作。' },
+  { major: 'ペットと配合', slug: 'pets', lead: 'モンスターを仲間にして、育てて、配合するまで。', exclude: ['ガンビット'] },
+  { major: 'ペットと配合', slug: 'gambit', lead: 'ペットに戦い方を指示するガンビットの組み方。', only: ['ガンビット'], title: 'ガンビット' },
+  { major: '職業', slug: 'jobs', lead: '転職のしかたと、サブ職業のしくみ。', exclude: ['職業一覧'] },
+  { major: 'アイテム', slug: 'items', lead: '素材・種・道具・特殊効果のある武具について。' },
+  { major: '鍛冶', slug: 'smithing', lead: '装備を打つときの目押し、品質、強化と分解。' },
+  { major: '農業', slug: 'farming', lead: '種のまき方、収穫のコツ、交配。' },
+  { major: '釣り', slug: 'fishing', lead: '釣りの始め方、取り込み、ヌシと魚交換所。' },
+  { major: '施設と暮らし', slug: 'facilities', lead: '拠点づくり、お店、ダンジョンと遊び場。' },
+  { major: 'クエスト', slug: 'quests', lead: 'メインクエストと、町の人やお店からの依頼。' }
+]
+
+/** その大分類のうち、このページに載せる項目を小分類の順に並べる */
+function entriesFor(page) {
+  const list = guide.filter((e) => e.major === page.major
+    && !(page.exclude ?? []).includes(e.minor)
+    && (!page.only || page.only.includes(e.minor)))
+  // 同じ小分類がファイル内で離れて出てくるのでまとめる。順番は最初に出た位置
+  const groups = new Map()
+  for (const e of list) {
+    if (!groups.has(e.minor)) groups.set(e.minor, [])
+    groups.get(e.minor).push(e)
+  }
+  return groups
+}
+
+function playPage(page) {
+  const groups = entriesFor(page)
+  const count = [...groups.values()].reduce((n, g) => n + g.length, 0)
+  const title = page.title ?? page.major
+
+  const lines = []
+  lines.push(...frontmatter(title, `DQMVIの${title}について。${page.lead}`, ['outline: 2']))
+  lines.push(`# ${title}`)
+  lines.push('')
+  lines.push(page.lead)
+  lines.push('')
+  if (page.slug === 'jobs') {
+    lines.push('18種それぞれの能力や習得スキルは [職業一覧](/jobs/) にまとめています。')
+    lines.push('')
+  }
+  for (const [minor, items] of groups) {
+    lines.push(`## ${minor}`)
+    lines.push('')
+    for (const e of items) {
+      lines.push(`### ${e.title}`)
+      lines.push('')
+      for (const para of String(e.body).split('⏎').map((t) => t.trim()).filter(Boolean)) {
+        lines.push(para)
+        lines.push('')
+      }
+    }
+  }
+  if (page.slug === 'gambit') lines.push(...gambitReference())
+
+  lines.push('## 関連ページ')
+  lines.push('')
+  lines.push('- [遊び方ガイド](/play/)')
+  lines.push('- [呪文一覧](/spells/) / [特技一覧](/skills/)')
+  lines.push('')
+  return { text: lines.join('\n'), count, title }
+}
+
+/** ガンビットで選べるものと、用意されている型の一覧 */
+function gambitReference() {
+  const lines = []
+  const groups = [
+    ['target', '対象', 'だれを見るか'],
+    ['cond1', '条件', 'どんなときに動くか'],
+    ['cond2', '条件のくわしい指定', '条件と組み合わせて使う'],
+    ['action', '行動', '何をするか']
+  ]
+
+  lines.push('## 選べるもの')
+  lines.push('')
+  lines.push('1枚のルールは「対象・条件・行動」の組み合わせでできています。')
+  lines.push('')
+  for (const [type, label, lead] of groups) {
+    const list = gambits.filter((g) => g.type === type)
+    if (!list.length) continue
+    lines.push(`### ${label}（${list.length}種）`)
+    lines.push('')
+    lines.push(`${lead}。`)
+    lines.push('')
+    lines.push('| 名前 | 説明 |')
+    lines.push('| --- | --- |')
+    for (const g of list) lines.push(`| ${cell(g.name)} | ${cell(g.note)} |`)
+    lines.push('')
+  }
+
+  if (presets.length) {
+    lines.push('## あらかじめ用意された型')
+    lines.push('')
+    lines.push(`${presets.length}種類あります。上の行から順に見て、当てはまった時点でその行動をとります。`)
+    lines.push('')
+    for (const p of presets) {
+      const rules = p.rules.split(';').map((r) => r.split('|')).filter((r) => r.length >= 4)
+      if (!rules.length) continue
+      lines.push(`### ${p.name}`)
+      lines.push('')
+      lines.push('| 順 | 対象 | 条件 | 行動 |')
+      lines.push('| ---: | --- | --- | --- |')
+      rules.forEach(([target, c1, c2, action], i) => {
+        const cond = [gname('cond1', c1), gname('cond2', c2)].filter(Boolean).join(' ')
+        lines.push(`| ${i + 1} | ${cell(gname('target', target))} | ${cell(cond)} | ${cell(gname('action', action))} |`)
+      })
+      lines.push('')
+    }
+  }
+  return lines
+}
+
+function playIndex(made) {
+  const lines = []
+  lines.push(...frontmatter('遊び方ガイド',
+    'DQMVIの遊び方。始め方・冒険のきほん・ペット・職業・鍛冶・農業・釣り・施設・クエストの手引き。'))
+  lines.push('# 遊び方ガイド')
+  lines.push('')
+  lines.push('ゲーム内の「導きの書」に書かれている内容を、項目ごとにまとめたものです。')
+  lines.push('')
+  lines.push('| ページ | 内容 | 項目数 |')
+  lines.push('| --- | --- | ---: |')
+  for (const m of made) {
+    lines.push(`| [${cell(m.title)}](/play/${m.slug}) | ${cell(m.lead)} | ${m.count} |`)
+  }
+  lines.push('')
+  return lines.join('\n')
+}
+
 // ── 書き出し ──────────────────────────────────────────────
 for (const [dir, make] of [['spells', spellsPage], ['skills', skillsPage]]) {
   const d = join(DOCS, dir)
@@ -178,5 +334,18 @@ for (const [dir, make] of [['spells', spellsPage], ['skills', skillsPage]]) {
   writeFileSync(join(d, 'index.md'), make(), 'utf8')
 }
 
-console.log(`呪文: ${guide.filter((e) => e.major === '呪文').length}種`)
-console.log(`特技: ${guide.filter((e) => e.major === '特技').length}種`)
+const PLAY_DIR = join(DOCS, 'play')
+if (!existsSync(PLAY_DIR)) mkdirSync(PLAY_DIR, { recursive: true })
+const made = []
+for (const page of PLAY) {
+  const out = playPage(page)
+  if (!out.count) continue
+  writeFileSync(join(PLAY_DIR, `${page.slug}.md`), out.text, 'utf8')
+  made.push({ ...page, ...out })
+}
+writeFileSync(join(PLAY_DIR, 'index.md'), playIndex(made), 'utf8')
+
+console.log(`呪文:     ${guide.filter((e) => e.major === '呪文').length}種`)
+console.log(`特技:     ${guide.filter((e) => e.major === '特技').length}種`)
+console.log(`遊び方:   ${made.length}ページ / ${made.reduce((n, m) => n + m.count, 0)}項目`)
+for (const m of made) console.log(`  ${m.title}: ${m.count}項目`)
