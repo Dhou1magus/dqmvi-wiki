@@ -105,6 +105,19 @@ b, strong, th,
   font-size: 17.5px;
 }
 .VPNavBarMenuLink { font-size: 13.5px; }
+
+/* ── 幅768〜1000pxのナビ ──
+   VitePressがメニューをハンバーガーに畳むのは768px未満だけなので、
+   その少し上の幅では、サイト名・検索欄・メニュー・テーマ切替が
+   横一列に並びきらず右にはみ出して横スクロールが出る。
+   この範囲だけ、検索欄を虫めがねだけにして場所を空ける。 */
+@media (min-width: 768px) and (max-width: 1000px) {
+  .VPNavBarSearch .DocSearch-Button-Placeholder,
+  .VPNavBarSearch .DocSearch-Button-Keys { display: none; }
+  .VPNavBarSearch .DocSearch-Button { padding: 0 10px; }
+  .theme-switch button { width: 27px; }
+  .VPNavBarTitle .title { font-size: 15.5px; }
+}
 .VPSidebarItem.level-0 > .item > .text {
   font-size: 13.5px;
   letter-spacing: var(--label-ls);
