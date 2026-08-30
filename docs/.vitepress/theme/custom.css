@@ -146,7 +146,10 @@ b, strong, th,
    1880pxに広げたことで1440〜1880pxの画面で崩れた。
    左余白と同じ max() を width 側にも入れて、最低でも既定の幅を保つ。 */
 @media (min-width: 1440px) {
-  .VPSidebar {
+  /* .VPSidebar を2回書いているのは、VitePress側が scoped スタイル
+     （.VPSidebar[data-v-xxxx]）で指定していて、1回では強さが足りず
+     上書きできないため。 */
+  .Layout .VPSidebar.VPSidebar {
     width: calc(
       max(32px, (100% - (var(--vp-layout-max-width) - 64px)) / 2)
       + var(--vp-sidebar-width) - 32px
