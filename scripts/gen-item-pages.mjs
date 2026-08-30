@@ -4,8 +4,8 @@
  *
  *   node scripts/gen-item-pages.mjs <MODを展開した ext/assets/dqmvi のパス>
  *
- * 取れているのは名前と分類だけで、攻撃力や守備力の数値はMODのデータに
- * 含まれていない。数値が要るときは、そこから取り出す作業が別に必要。
+ * 数値は scripts/extract-equipment.py が MOD本体のjarから取り出した
+ * scripts/data/equipment.json を読む（無ければ名前だけのページになる）。
  *
  * 読むファイル:
  *   legacy_tabs.tsv   … 種別(item/block) / キー / タブ(分類)
@@ -25,6 +25,19 @@
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
+
+/** MOD本体から取り出した装備の数値。無くても名前だけで作れるようにしておく */
+const STATS_PATH = join('scripts', 'data', 'equipment.json')
+const STATS = existsSync(STATS_PATH)
+  ? JSON.parse(readFileSync(STATS_PATH, 'utf8'))
+  : { weapons: {}, armor: {}, shields: {}, accessories: {} }
+
+/** 倍率は小数が長く出るので2桁に丸める。1.19 のように末尾の0は消す */
+const mul = (v) => (v == null ? '—' : `×${Number(v).toFixed(2).replace(/\.?0+$/, '')}`)
+const int = (v) => (v == null ? '—' : String(v))
+/** 武器種の並び。ゲーム内の分類そのままで、推測は入れていない */
+const WEAPON_ORDER = ['剣', '勇者の剣', '槍', '短剣', '杖', '棍', '爪', '拳',
+                      'ハンマー', '斧', 'ムチ', '弓', 'ブーメラン', 'バニラ剣']
 
 const SRC = process.argv[2]
 if (!SRC) {
@@ -117,26 +130,134 @@ const PAGES = [
   { slug: 'tensei', group: '転生装備', lead: '転生したモンスターから手に入る装備。' }
 ]
 
+/** 職業ID → 名前（盾の適正職業に使う） */
+const JOB_NAME = new Map(
+  readFileSync(join(SRC, 'job_skills.tsv'), 'utf8').split(/\r?\n/)
+    .filter((l) => l.trim() && !l.startsWith('#')).slice(1)
+    .map((l) => l.split('\t')).map((c) => [Number(c[0]), c[1]])
+)
+/**
+ * 適正職業の並び。ほとんどの職業で使える盾は17職ぶん並んで読めなくなるので、
+ * その場合は「〜以外」の形にする。
+ */
+function jobList(ids) {
+  const list = ids ?? []
+  if (!list.length) return '—'
+  const all = [...JOB_NAME.keys()]
+  if (list.length === all.length) return 'すべての職業'
+  const out = list.map((i) => JOB_NAME.get(i) ?? i)
+  if (list.length > all.length - 4) {
+    const rest = all.filter((i) => !list.includes(i)).map((i) => JOB_NAME.get(i) ?? i)
+    return `${rest.join('・')} 以外`
+  }
+  return out.join('・')
+}
+
+/** 装備の種類ごとに、表の見出しと1行の作り方を決める */
+const SHAPE = {
+  武器: {
+    head: ['武器', 'こうげき', '攻撃倍率', '特殊効果'],
+    align: ['---', '---:', '---:', '---'],
+    row: (i, d) => [i.name, int(d.こうげき), mul(d.攻撃倍率), d.特殊効果 ?? '—'],
+    of: (key) => STATS.weapons[key] ?? {}
+  },
+  防具: {
+    head: ['防具', '部位', 'しゅび', '魔法しゅび', 'そのほか', '特殊効果'],
+    align: ['---', ':--:', '---:', '---:', '---', '---'],
+    row: (i, d) => [i.name, d.部位 ?? '—', mul(d.しゅび), mul(d.魔法しゅび),
+                    ['こうげき', 'HP', 'MP'].filter((k) => d[k]).map((k) => `${k} ${mul(d[k])}`).join('・') || '—',
+                    d.特殊効果 ?? '—'],
+    of: (key) => STATS.armor[key] ?? {}
+  },
+  盾: {
+    head: ['盾', 'しゅび', '魔法しゅび', '構え中', '適正職業', '特殊効果'],
+    align: ['---', '---:', '---:', '---:', '---', '---'],
+    row: (i, d) => [i.name, mul(d.しゅび), mul(d.魔法しゅび), mul(d.構え中),
+                    jobList(d.職業), d.特殊効果 ?? '—'],
+    of: (key) => STATS.shields[key] ?? {}
+  },
+  アクセサリー: {
+    head: ['アクセサリー', 'HP', 'MP', 'こうげき', 'しゅび', '魔法しゅび', 'まりょく', '特殊効果'],
+    align: ['---', '---:', '---:', '---:', '---:', '---:', '---:', '---'],
+    row: (i, d) => [i.name, ...['HP', 'MP', 'こうげき', 'しゅび', '魔法しゅび', 'まりょく']
+      .map((k) => (d[k] ? mul(d[k]) : '—')), d.特殊効果 ?? '—'],
+    of: (key) => STATS.accessories[key] ?? {}
+  }
+}
+
+/** 転生装備は武器・防具・盾・アクセサリーが混ざっているので、種別を見て振り分ける */
+function tenseiKind(key) {
+  if (STATS.weapons[key]?.こうげき != null || STATS.weapons[key]?.武器種) return '武器'
+  if (STATS.armor[key]) return '防具'
+  if (STATS.shields[key]) return '盾'
+  if (STATS.accessories[key]) return 'アクセサリー'
+  return null
+}
+
+function table(shape, list) {
+  const out = [`| ${shape.head.join(' | ')} |`, `| ${shape.align.join(' | ')} |`]
+  for (const i of list) out.push(`| ${shape.row(i, shape.of(i.key)).map(cell).join(' | ')} |`)
+  return out
+}
+
 function equipPage(page) {
   const list = pick(page.group)
   const lines = []
   lines.push('---')
   lines.push(`title: ${page.group}一覧`)
-  lines.push(`description: DQMVIの${page.group}${list.length}種の名前の一覧。${page.lead}`)
-  lines.push('pageClass: name-list')
+  lines.push(`description: DQMVIの${page.group}${list.length}種のデータ。${page.lead}`)
+  lines.push('pageClass: wide-page sortable-list')
   lines.push('---')
   lines.push('')
   lines.push(`# ${page.group}一覧`)
   lines.push('')
   lines.push(`${page.lead}全部で **${list.length}種** です。`)
   lines.push('')
-  lines.push('::: tip 探し方')
-  lines.push('名前が分かっているときは、右上（スマホは上部）の**検索**に入れるのがいちばん早いです。')
-  lines.push('並びはゲーム内の持ち物欄と同じ順なので、似た装備がまとまっています。')
+  lines.push('::: tip 見かた')
+  lines.push('倍率は、いまの能力に掛かる値です。見出しを押すとその項目で並べ替えできます。')
   lines.push(':::')
   lines.push('')
-  for (const i of list) lines.push(`- ${cell(i.name)}`)
-  lines.push('')
+
+  if (page.group === '武器') {
+    // 武器種はMODが持っている分類。見出しで区切る
+    const byKind = new Map()
+    for (const i of list) {
+      const k = STATS.weapons[i.key]?.武器種 ?? 'その他'
+      if (!byKind.has(k)) byKind.set(k, [])
+      byKind.get(k).push(i)
+    }
+    const order = [...WEAPON_ORDER, ...[...byKind.keys()].filter((k) => !WEAPON_ORDER.includes(k))]
+    for (const k of order) {
+      const group = byKind.get(k)
+      if (!group?.length) continue
+      lines.push(`## ${k}（${group.length}種）`)
+      lines.push('')
+      lines.push(...table(SHAPE.武器, group))
+      lines.push('')
+    }
+    lines.push('杖のうち呪文を唱えるためのものには、武器としての攻撃力がありません。')
+    lines.push('')
+  } else if (page.group === '転生装備') {
+    const byKind = new Map()
+    for (const i of list) {
+      const k = tenseiKind(i.key) ?? 'その他'
+      if (!byKind.has(k)) byKind.set(k, [])
+      byKind.get(k).push(i)
+    }
+    for (const k of ['武器', '防具', '盾', 'アクセサリー', 'その他']) {
+      const group = byKind.get(k)
+      if (!group?.length) continue
+      lines.push(`## ${k}（${group.length}種）`)
+      lines.push('')
+      if (SHAPE[k]) lines.push(...table(SHAPE[k], group))
+      else for (const i of group) lines.push(`- ${cell(i.name)}`)
+      lines.push('')
+    }
+  } else {
+    lines.push(...table(SHAPE[page.group], list))
+    lines.push('')
+  }
+
   lines.push('## 関連ページ')
   lines.push('')
   for (const p of PAGES) if (p.slug !== page.slug) lines.push(`- [${p.group}一覧](/items/${p.slug})`)

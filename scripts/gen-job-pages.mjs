@@ -9,6 +9,7 @@
  *   ゲーム内の職業画面に出るのでそのまま載せる。
  *
  * 読むファイル:
+ *   scripts/data/equipment.json … 盾の適正職業（MOD本体から取り出したもの）
  *   job_tables.tsv … 表に出す並び順、武器14種の適性ランク、能力6項目の伸びランク
  *   job_skills.tsv … 職業ごとの習得スキル（13段階）。種類は3つ
  *                      stat     … 能力が上がる
@@ -68,6 +69,27 @@ function table(path) {
   return body.map((c) => Object.fromEntries(head.map((h, i) => [h, c[i] ?? ''])))
 }
 
+/** 盾の適正職業。MOD本体から取り出した数値が無ければこの節は出さない */
+const EQUIP_PATH = join('scripts', 'data', 'equipment.json')
+const EQUIP = existsSync(EQUIP_PATH) ? JSON.parse(readFileSync(EQUIP_PATH, 'utf8')) : { shields: {} }
+const lang = JSON.parse(readFileSync(join(SRC, 'lang', 'ja_jp.json'), 'utf8'))
+/** 盾のidから日本語名を引く */
+function shieldName(key) {
+  for (const k of [`item.dqmvi.${key}`, `item.dqmvi.legacy_item_${key}`]) {
+    if (lang[k]) return String(lang[k]).replace(/^DQM\s+/, '').trim()
+  }
+  return key
+}
+/** 職業ID → その職業で構えられる盾（守備倍率の高い順） */
+const shieldsByJob = new Map()
+for (const [key, sp] of Object.entries(EQUIP.shields ?? {})) {
+  for (const id of sp.職業 ?? []) {
+    if (!shieldsByJob.has(id)) shieldsByJob.set(id, [])
+    shieldsByJob.get(id).push({ name: shieldName(key), ...sp })
+  }
+}
+for (const list of shieldsByJob.values()) list.sort((a, b) => (b.しゅび ?? 0) - (a.しゅび ?? 0))
+
 const tables = rows(join(SRC, 'job_tables.tsv'))
 const skills = table(join(SRC, 'job_skills.tsv'))
 
@@ -91,6 +113,8 @@ for (const list of jobSkills.values()) list.sort((a, b) => Number(a.level) - Num
 /** 表のセルに入れると困る文字を逃がす */
 const cell = (v) => String(v ?? '').replace(/\|/g, '\\|').trim() || '—'
 const num = (v) => (Number(v) || 0).toLocaleString('ja-JP')
+/** 倍率は2桁に丸める */
+const mul = (v) => (v == null ? '—' : `×${Number(v).toFixed(2).replace(/\.?0+$/, '')}`)
 
 /** すでにあるページから「## 攻略メモ」以降を取り出す */
 function keptPart(path) {
@@ -160,9 +184,26 @@ function jobPage(id) {
   }
   lines.push('')
 
+  const shields = shieldsByJob.get(id) ?? []
+  if (shields.length) {
+    lines.push('## 構えられる盾')
+    lines.push('')
+    lines.push(`この職業で使える盾は **${shields.length}種** です。守備倍率の高い順に並べています。`)
+    lines.push('')
+    lines.push('| 盾 | しゅび | 魔法しゅび | 構え中 |')
+    lines.push('| --- | ---: | ---: | ---: |')
+    for (const s of shields) {
+      lines.push(`| ${cell(s.name)} | ${mul(s.しゅび)} | ${mul(s.魔法しゅび)} | ${mul(s.構え中)} |`)
+    }
+    lines.push('')
+    lines.push('盾は[オフハンドに持って右クリック長押し](/items/shields)で構えます。')
+    lines.push('')
+  }
+
   lines.push('## 関連ページ')
   lines.push('')
   lines.push('- [職業一覧](/jobs/)')
+  if (shields.length) lines.push('- [盾一覧](/items/shields)')
   lines.push('- [モンスター図鑑](/monsters/)')
   lines.push('')
   lines.push(KEEP_HEADING)

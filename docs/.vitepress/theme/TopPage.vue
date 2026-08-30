@@ -85,7 +85,7 @@ const cats = [
       { t: '防具 165種', link: '/items/armor', wide: true },
       { t: '盾 38種', link: '/items/shields' }, { t: 'アクセサリー 116種', link: '/items/accessories' },
       { t: '転生装備 56種', link: '/items/tensei', wide: true },
-      { t: '最強装備' }
+      { t: '特殊効果つきの装備', link: '/items/weapons' }
     ]
   },
   {
@@ -139,7 +139,8 @@ const cats = [
 ]
 
 const log = [
-  { d: '08-30', t: 'アイテム一覧 1071種を追加', link: '/items/', who: 'Claude' },
+  { d: '08-31', t: '装備の攻撃力・倍率・特殊効果を追加', link: '/items/weapons', who: 'Claude' },
+  { d: '08-30', t: '装備を種類ごとの5ページに分割', link: '/items/', who: 'Claude' },
   { d: '08-30', t: '遊び方ガイド11ページを追加', link: '/play/', who: 'Claude' },
   { d: '08-30', t: '呪文69種・特技102種を追加', link: '/spells/', who: 'Claude' },
   { d: '08-30', t: '職業18種を実データに差し替え', link: '/jobs/', who: 'Claude' },
