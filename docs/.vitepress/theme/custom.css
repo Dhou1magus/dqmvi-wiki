@@ -209,6 +209,19 @@ b, strong, th,
 .Layout.wide-page .vp-doc td.nowrap { white-space: nowrap; }
 .Layout.wide-page .vp-doc td:first-child { color: var(--vp-c-text-3); }
 
+/* ── 名前だけを並べるページ（frontmatter に pageClass: name-list）──
+   武具は名前しか分かっていないので表にせず箇条書きにしている。
+   1列だと縦に長すぎるので段組みにする。 */
+.Layout.name-list .vp-doc ul {
+  column-width: 15em;
+  column-gap: 32px;
+  padding-left: 1.1em;
+}
+.Layout.name-list .vp-doc ul li {
+  break-inside: avoid;
+  margin: 0 0 2px;
+}
+
 /* ── 並べ替えできる表 ──
    見出しを押すとその列で並べ替わる。どの表を対象にするかの判定と処理は
    theme/sortable-tables.ts（対象になった表に data-sortable="ready" が付く）。

@@ -224,7 +224,12 @@ export default defineConfig({
           { text: '職業一覧（18種）', link: '/jobs/' },
           { text: '呪文一覧（69種）', link: '/spells/' },
           { text: '特技一覧（102種）', link: '/skills/' },
-          { text: 'アイテム一覧（1071種）', link: '/items/' }
+          { text: 'アイテム一覧（1071種）', link: '/items/' },
+          { text: '　武器（221種）', link: '/items/weapons' },
+          { text: '　防具（165種）', link: '/items/armor' },
+          { text: '　盾（38種）', link: '/items/shields' },
+          { text: '　アクセサリー（116種）', link: '/items/accessories' },
+          { text: '　転生装備（56種）', link: '/items/tensei' }
         ]
       },
       {

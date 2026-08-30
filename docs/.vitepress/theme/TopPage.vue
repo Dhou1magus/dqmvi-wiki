@@ -81,10 +81,11 @@ const cats = [
   {
     title: '武器・防具',
     items: [
-      { t: '武器 221種', link: '/items/', wide: true },
-      { t: '防具 165種', link: '/items/', wide: true },
-      { t: '盾・アクセサリー 154種', link: '/items/', wide: true },
-      { t: '最強装備' }, { t: '転生装備', link: '/items/' }
+      { t: '武器 221種', link: '/items/weapons', wide: true },
+      { t: '防具 165種', link: '/items/armor', wide: true },
+      { t: '盾 38種', link: '/items/shields' }, { t: 'アクセサリー 116種', link: '/items/accessories' },
+      { t: '転生装備 56種', link: '/items/tensei', wide: true },
+      { t: '最強装備' }
     ]
   },
   {
