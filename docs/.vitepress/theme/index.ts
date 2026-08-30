@@ -16,10 +16,10 @@ export default {
       // PC: ナビバーの右端 / スマホ: ハンバーガーメニューの中
       'nav-bar-content-after': () => h(ThemeSwitch),
       'nav-screen-content-after': () => h(ThemeSwitch),
-      // ご意見箱（frontmatter に feedback: true があるページだけ中身が出る）
-      'doc-after': () => h(FeedbackBox),
-      // 記事の末尾に「編集」「変更履歴・復元」の導線
-      'doc-footer-before': () => h(PageActions),
+      // 本文のすぐ下に、ご意見箱 →「編集」「変更履歴・復元」の順で並べる。
+      // doc-after は最終更新や前後ページよりさらに下になってしまうため使わない。
+      // ご意見箱は frontmatter に feedback: true があるページだけ中身が出る
+      'doc-footer-before': () => [h(FeedbackBox), h(PageActions)],
       // トップページ（frontmatter に top: true があるページ）の中身
       'page-top': () => h(TopPage)
     })

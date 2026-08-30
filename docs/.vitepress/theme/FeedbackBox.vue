@@ -1,7 +1,12 @@
 <script setup>
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { useData } from 'vitepress'
-import { FEEDBACK_FORM_URL, FEEDBACK_COOLDOWN_MINUTES } from './feedback-config'
+import {
+  FEEDBACK_FORM_URL,
+  FEEDBACK_COOLDOWN_MINUTES,
+  FEEDBACK_FORM_HEIGHT,
+  FEEDBACK_FORM_HEIGHT_NARROW
+} from './feedback-config'
 
 // frontmatter に feedback: true があるページにだけ出す
 const { frontmatter } = useData()
@@ -24,6 +29,12 @@ const formUrl = computed(() => {
     return ''
   }
 })
+
+// 枠の高さ。CSSからは変数として参照する
+const frameStyle = {
+  '--fb-h': `${Math.max(400, FEEDBACK_FORM_HEIGHT)}px`,
+  '--fb-h-narrow': `${Math.max(400, FEEDBACK_FORM_HEIGHT_NARROW)}px`
+}
 
 const COOLDOWN_MS = Math.max(1, FEEDBACK_COOLDOWN_MINUTES) * 60 * 1000
 const STORE_KEY = 'dqmvi-wiki:feedback-sent-at'
@@ -128,7 +139,7 @@ onUnmounted(stopTimer)
     </div>
 
     <!-- 投稿フォーム -->
-    <div v-else class="fb-frame">
+    <div v-else class="fb-frame" :style="frameStyle">
       <iframe
         v-if="mounted"
         :src="formUrl"
@@ -161,13 +172,13 @@ onUnmounted(stopTimer)
 .fb-frame iframe {
   display: block;
   width: 100%;
-  height: 918px;
+  height: var(--fb-h);
   border: 0;
 }
 .fb-skeleton {
   display: grid;
   place-items: center;
-  height: 918px;
+  height: var(--fb-h);
   color: var(--vp-c-text-3);
   font-size: 14px;
 }
@@ -198,8 +209,9 @@ onUnmounted(stopTimer)
   line-height: 1.7;
 }
 
+/* 幅が狭いと文字が折り返してフォームが縦に伸びるので、枠も高くする */
 @media (max-width: 640px) {
   .fb-frame iframe,
-  .fb-skeleton { height: 1100px; }
+  .fb-skeleton { height: var(--fb-h-narrow); }
 }
 </style>
