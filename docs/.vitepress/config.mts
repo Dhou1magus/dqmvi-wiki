@@ -181,7 +181,8 @@ export default defineConfig({
           { text: '出現場所から探す', link: '/biomes/' },
           { text: '職業一覧（18種）', link: '/jobs/' },
           { text: '呪文一覧（69種）', link: '/spells/' },
-          { text: '特技一覧（102種）', link: '/skills/' }
+          { text: '特技一覧（102種）', link: '/skills/' },
+          { text: 'アイテム一覧（1071種）', link: '/items/' }
         ]
       },
       {
