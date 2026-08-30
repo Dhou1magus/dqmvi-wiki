@@ -180,6 +180,13 @@ b, strong, th,
 .Layout.wide-page .vp-doc td { white-space: nowrap; }
 .Layout.wide-page .vp-doc td:first-child { color: var(--vp-c-text-3); }
 
+/* 一覧ページでは説明文の折り返し制限を外す。
+   .vp-doc p の max-width: 66ch は長い記事を読みやすくするための指定だが、
+   幅を広げた一覧ページでは、注記枠だけ横に長くて中の文字が半分の位置で
+   折り返す（枠だけ広くて中身が狭い）状態になってしまう。
+   ここに置く説明は数行なので、枠の幅いっぱいまで使わせる。 */
+.Layout.wide-page .vp-doc p { max-width: none; }
+
 /* ── 並べ替えできる表 ──
    見出しを押すとその列で並べ替わる。どの表を対象にするかの判定と処理は
    theme/sortable-tables.ts（対象になった表に data-sortable="ready" が付く）。
