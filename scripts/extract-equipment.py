@@ -133,20 +133,48 @@ def weapon_kinds():
     return {pid: kind_at(idx_to_off[i]) for pid, i in pairs if i in idx_to_off}
 
 
-def ids_of(method):
-    """isBowId / isBoomerangId のように、idを列挙するだけのメソッドから拾う"""
+def id_rules(method):
+    """isBowId / isBoomerangId の判定規則をそのまま写す。
+
+    MODは「末尾が yumi」「bougan を含む」「この5つのどれか」のように
+    規則で判定している。列挙ではないので、規則ごと持ってくる。
+    """
     m = [x for x in item_cf.methods if x['name'] == method]
     if not m or not m[0]['code']:
-        return set()
-    return {v for _, k, v in walk_offsets(item_cf, m[0]['code'])
-            if k == 'const' and isinstance(v, str) and v and '/' not in v}
+        return []
+    ops = walk_offsets(item_cf, m[0]['code'])
+    rules = []
+    for i in range(len(ops) - 1):
+        _, k, v = ops[i]
+        _, k2, v2 = ops[i + 1]
+        if (k == 'const' and isinstance(v, str) and v and k2 == 'call'
+                and v2 in ('endsWith', 'contains', 'equals')):
+            rules.append((v2, v))
+    return rules
+
+
+def matches(rules, pid):
+    for how, text in rules:
+        if how == 'endsWith' and pid.endswith(text):
+            return True
+        if how == 'contains' and text in pid:
+            return True
+        if how == 'equals' and pid == text:
+            return True
+    return False
 
 
 kinds = weapon_kinds()
-for pid in ids_of('isBowId'):
-    kinds.setdefault(pid, 'BOW')
-for pid in ids_of('isBoomerangId'):
-    kinds.setdefault(pid, 'BOOMERANG')
+bow_rules = id_rules('isBowId')
+boom_rules = id_rules('isBoomerangId')
+# 弓とブーメランは switch ではなく規則で判定されるので、
+# 攻撃力の表に載っている武器すべてに規則を当てて振り分ける
+for pid in list(tables['ATTACK']) + list(tables['MULTIPLIER']) + list(kinds):
+    if kinds.get(pid) in (None, 'NONE'):
+        if matches(bow_rules, pid):
+            kinds[pid] = 'BOW'
+        elif matches(boom_rules, pid):
+            kinds[pid] = 'BOOMERANG'
 
 # ── 特殊効果 ──────────────────────────────────────────────
 # 1行は e(番号, id, 効果の種類, 引数, 値1, 値2, 説明文) の形
