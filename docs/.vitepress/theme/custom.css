@@ -115,7 +115,7 @@ b, strong, th,
   .VPNavBarSearch .DocSearch-Button-Placeholder,
   .VPNavBarSearch .DocSearch-Button-Keys { display: none; }
   .VPNavBarSearch .DocSearch-Button { padding: 0 10px; }
-  .theme-switch button { width: 27px; }
+  .VPNavBar .theme-switch button { width: 27px; }
   .VPNavBarTitle .title { font-size: 15.5px; }
 }
 .VPSidebarItem.level-0 > .item > .text {
