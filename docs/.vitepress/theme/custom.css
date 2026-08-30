@@ -176,8 +176,10 @@ b, strong, th,
   overflow-x: auto;
   overscroll-behavior-x: contain;
 }
-.Layout.wide-page .vp-doc th,
-.Layout.wide-page .vp-doc td { white-space: nowrap; }
+/* 折り返しを止めるのは短い列だけ（印は theme/sortable-tables.ts が付ける）。
+   効果の説明文のような長い列まで一行にすると、表が横に伸びてしまう */
+.Layout.wide-page .vp-doc th.nowrap,
+.Layout.wide-page .vp-doc td.nowrap { white-space: nowrap; }
 .Layout.wide-page .vp-doc td:first-child { color: var(--vp-c-text-3); }
 
 /* 一覧ページでは説明文の折り返し制限を外す。

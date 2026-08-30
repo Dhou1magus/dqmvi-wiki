@@ -34,6 +34,14 @@ function isNumericColumn(rows: HTMLTableRowElement[], index: number): boolean {
 /** この見出しで始まる表だけを並べ替えの対象にする。生成側の見出しと合わせること */
 const SORTABLE_FIRST_HEADER = 'No.'
 
+/**
+ * 折り返しを止める列の、中身の長さの上限（文字数）。
+ * モンスター名や職業名・ランクのような短い列は途中で改行させたくないが、
+ * 効果の説明文のような長い列まで一行にすると、表が横に伸びてしまう。
+ * そこで列ごとに、いちばん長いセルがこの文字数以下なら折り返しを止める。
+ */
+const NOWRAP_MAX_LENGTH = 14
+
 const collator = new Intl.Collator('ja')
 
 /** 元の並び（図鑑ナンバー順）。同じ値が並んだときの順番をここで固定する */
@@ -77,15 +85,38 @@ function sortRows(
   })
 }
 
+/** 短い内容の列にだけ「折り返さない」印をつける */
+function markNoWrapColumns(table: HTMLTableElement): void {
+  const rows = [...(table.tBodies[0]?.rows ?? [])]
+  const headers = [...(table.tHead?.rows[0]?.cells ?? [])]
+  if (!rows.length || !headers.length) return
+
+  headers.forEach((th, i) => {
+    let longest = th.textContent?.trim().length ?? 0
+    for (const row of rows) {
+      const text = row.cells[i]?.textContent?.trim() ?? ''
+      if (text.length > longest) longest = text.length
+      if (longest > NOWRAP_MAX_LENGTH) return // この列は折り返させる
+    }
+    th.classList.add('nowrap')
+    for (const row of rows) row.cells[i]?.classList.add('nowrap')
+  })
+}
+
 export function setupSortableTables(): void {
   const tables = document.querySelectorAll<HTMLTableElement>('.Layout.wide-page .vp-doc table')
 
   for (const table of tables) {
-    if (table.dataset.sortable === 'ready') continue // 二重に付けない
+    if (table.dataset.tableReady === 'yes') continue // 二重に付けない
+    table.dataset.tableReady = 'yes'
 
     const tbody = table.tBodies[0]
     const headers = [...(table.tHead?.rows[0]?.cells ?? [])] as HTMLTableCellElement[]
-    if (!tbody || !headers.length || tbody.rows.length < 2) continue
+    if (!tbody || !headers.length) continue
+
+    markNoWrapColumns(table)
+
+    if (tbody.rows.length < 2) continue
     if (headers[0].textContent?.trim() !== SORTABLE_FIRST_HEADER) continue
     table.dataset.sortable = 'ready'
 
