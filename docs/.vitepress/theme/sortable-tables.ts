@@ -102,11 +102,14 @@ export function setupSortableTables(): void {
 
       const toggle = () => {
         const current = th.getAttribute('aria-sort')
-        // 最初の一押しは、数値なら大きい順・文字なら五十音順。もう一度押すと逆になる
+        // 最初の一押しは、数値の項目なら大きい順（強い順）、文字なら五十音順。
+        // ただし先頭のNo.列だけは1から順（＝元の並びに戻る）にする。
+        // もう一度押すと逆になる。
+        const firstPress: 'asc' | 'desc' = i === 0 || !numericColumn[i] ? 'asc' : 'desc'
         const direction: 'asc' | 'desc' =
           current === 'ascending' ? 'desc'
           : current === 'descending' ? 'asc'
-          : numericColumn[i] ? 'desc' : 'asc'
+          : firstPress
         sortRows(tbody, headers, i, direction, numericColumn[i])
       }
 
