@@ -17,28 +17,28 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [まおうのかげ](/monsters/maounokage) | 通常 | 物質 | 944 | 350 | ゴースト霧森・魔王の焦土・果ての世界 |
-| [セイレーンゴースト](/monsters/seire_ngo_suto) | 通常 | 物質 | 1,216 | 374 | 通常のバイオーム全域 |
-| [コスモアイ](/monsters/kosumoai) | 通常 | 悪魔 | 1,220 | 421 | 通常のバイオーム全域 |
-| [ベリアル](/monsters/beriaru) | 通常 | 悪魔 | 1,550 | 450 | 通常のバイオーム全域 |
-| [ダーククリスタル](/monsters/dark_crystal) | 通常 | 物質 | 1,258 | 451 | 通常のバイオーム全域 |
-| [バラモスゾンビ](/monsters/baramoszombie) | 通常 | ドラゴン | 1,442 | 469 | 通常のバイオーム全域 |
-| [シルバーマント](/monsters/sirubamanto) | 通常 | ゾンビ | 1,875 | 709 | 通常のバイオーム全域 |
-| [ヘルガーディアン](/monsters/herugadexian) | 通常 | 悪魔 | 2,350 | 711 | 通常のバイオーム全域 |
-| [アスラ王](/monsters/asuraou) | 通常 | ゾンビ | 2,963 | 807 | 通常のバイオーム全域 |
-| [デーモンアミゴ](/monsters/demonamigo) | 通常 | 悪魔 | 3,312 | 859 | 通常のバイオーム全域 |
-| [マクロベータ](/monsters/makurobeta) | レア | ゾンビ | 1,322 | 453 | 通常のバイオーム全域 |
-| [モノクロームナイト](/monsters/monokuroomunaito) | レア | 物質 | 1,505 | 460 | 通常のバイオーム全域 |
-| [グレートジンガー](/monsters/guretosinga) | レア | 物質 | 1,600 | 600 | 通常のバイオーム全域 |
-| [ダークスライム](/monsters/darkslime) | 超レア | スライム | 992 | 362 | 果ての世界 |
-| [しりょうのきし](/monsters/siryounokisi) | 超レア | ゾンビ | 1,072 | 369 | 魔物の骨荒野・果ての世界 |
-| [デスジャッカル](/monsters/desujakkaru) | 超レア | ゾンビ | 944 | 377 | 果ての世界 |
-| [ダゴン](/monsters/dagon) | 超レア | 自然 | 1,111 | 392 | 通常のバイオーム全域 |
-| [オーラー](/monsters/ora) | 超レア | 物質 | 920 | 413 | 通常のバイオーム全域 |
-| [シルバーデビル](/monsters/sirubadebiru) | 超レア | 悪魔 | 1,088 | 418 | 魔王の焦土・果ての世界 |
-| [アッシュリザード](/monsters/ash_lizard) | 超レア | ドラゴン | 1,449 | 457 | 通常のバイオーム全域 |
-| [根絶やしの竜](/monsters/nedayashinoryu) | 超レア | ドラゴン | 1,326 | 472 | 通常のバイオーム全域 |
-| [グレイトドラゴン](/monsters/gureitodoragon) | 超レア | ドラゴン | 1,550 | 550 | 通常のバイオーム全域 |
+| [まおうのかげ](/monsters/maounokage) | 通常 | [物質](/species/bussitu) | 944 | 350 | ゴースト霧森・魔王の焦土・果ての世界 |
+| [セイレーンゴースト](/monsters/seire_ngo_suto) | 通常 | [物質](/species/bussitu) | 1,216 | 374 | 通常のバイオーム全域 |
+| [コスモアイ](/monsters/kosumoai) | 通常 | [悪魔](/species/akuma) | 1,220 | 421 | 通常のバイオーム全域 |
+| [ベリアル](/monsters/beriaru) | 通常 | [悪魔](/species/akuma) | 1,550 | 450 | 通常のバイオーム全域 |
+| [ダーククリスタル](/monsters/dark_crystal) | 通常 | [物質](/species/bussitu) | 1,258 | 451 | 通常のバイオーム全域 |
+| [バラモスゾンビ](/monsters/baramoszombie) | 通常 | [ドラゴン](/species/dragon) | 1,442 | 469 | 通常のバイオーム全域 |
+| [シルバーマント](/monsters/sirubamanto) | 通常 | [ゾンビ](/species/zombie) | 1,875 | 709 | 通常のバイオーム全域 |
+| [ヘルガーディアン](/monsters/herugadexian) | 通常 | [悪魔](/species/akuma) | 2,350 | 711 | 通常のバイオーム全域 |
+| [アスラ王](/monsters/asuraou) | 通常 | [ゾンビ](/species/zombie) | 2,963 | 807 | 通常のバイオーム全域 |
+| [デーモンアミゴ](/monsters/demonamigo) | 通常 | [悪魔](/species/akuma) | 3,312 | 859 | 通常のバイオーム全域 |
+| [マクロベータ](/monsters/makurobeta) | レア | [ゾンビ](/species/zombie) | 1,322 | 453 | 通常のバイオーム全域 |
+| [モノクロームナイト](/monsters/monokuroomunaito) | レア | [物質](/species/bussitu) | 1,505 | 460 | 通常のバイオーム全域 |
+| [グレートジンガー](/monsters/guretosinga) | レア | [物質](/species/bussitu) | 1,600 | 600 | 通常のバイオーム全域 |
+| [ダークスライム](/monsters/darkslime) | 超レア | [スライム](/species/slime) | 992 | 362 | 果ての世界 |
+| [しりょうのきし](/monsters/siryounokisi) | 超レア | [ゾンビ](/species/zombie) | 1,072 | 369 | 魔物の骨荒野・果ての世界 |
+| [デスジャッカル](/monsters/desujakkaru) | 超レア | [ゾンビ](/species/zombie) | 944 | 377 | 果ての世界 |
+| [ダゴン](/monsters/dagon) | 超レア | [自然](/species/sizen) | 1,111 | 392 | 通常のバイオーム全域 |
+| [オーラー](/monsters/ora) | 超レア | [物質](/species/bussitu) | 920 | 413 | 通常のバイオーム全域 |
+| [シルバーデビル](/monsters/sirubadebiru) | 超レア | [悪魔](/species/akuma) | 1,088 | 418 | 魔王の焦土・果ての世界 |
+| [アッシュリザード](/monsters/ash_lizard) | 超レア | [ドラゴン](/species/dragon) | 1,449 | 457 | 通常のバイオーム全域 |
+| [根絶やしの竜](/monsters/nedayashinoryu) | 超レア | [ドラゴン](/species/dragon) | 1,326 | 472 | 通常のバイオーム全域 |
+| [グレイトドラゴン](/monsters/gureitodoragon) | 超レア | [ドラゴン](/species/dragon) | 1,550 | 550 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -46,6 +46,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

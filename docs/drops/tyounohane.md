@@ -17,14 +17,14 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [じんめんちょう](/monsters/zinmentyou) | 通常 | 自然 | 15 | 9 | キメラの断崖 |
-| [はなまきドラゴ](/monsters/hanamakidrago) | 通常 | ドラゴン | 32 | 11 | 通常のバイオーム全域 |
-| [リザードマン](/monsters/mandrake_major) | 通常 | ドラゴン | 24 | 12 | 通常のバイオーム全域 |
-| [かぼちゃの騎士](/monsters/kabochanokisi) | 通常 | ゾンビ | 26 | 14 | 通常のバイオーム全域 |
-| [ジャングラー](/monsters/feralslime) | 通常 | スライム | 23 | 14 | 通常のバイオーム全域 |
-| [ドラゴンキッズ](/monsters/doragonkizzu) | 通常 | ドラゴン | 24 | 16 | 通常のバイオーム全域 |
-| [ドラキー](/monsters/doraki) | 通常 | 悪魔 | 38 | 35 | キメラの断崖 |
-| [カバシラー](/monsters/swarmtroop) | レア | 自然 | 12 | 6 | 通常のバイオーム全域 |
+| [じんめんちょう](/monsters/zinmentyou) | 通常 | [自然](/species/sizen) | 15 | 9 | キメラの断崖 |
+| [はなまきドラゴ](/monsters/hanamakidrago) | 通常 | [ドラゴン](/species/dragon) | 32 | 11 | 通常のバイオーム全域 |
+| [リザードマン](/monsters/mandrake_major) | 通常 | [ドラゴン](/species/dragon) | 24 | 12 | 通常のバイオーム全域 |
+| [かぼちゃの騎士](/monsters/kabochanokisi) | 通常 | [ゾンビ](/species/zombie) | 26 | 14 | 通常のバイオーム全域 |
+| [ジャングラー](/monsters/feralslime) | 通常 | [スライム](/species/slime) | 23 | 14 | 通常のバイオーム全域 |
+| [ドラゴンキッズ](/monsters/doragonkizzu) | 通常 | [ドラゴン](/species/dragon) | 24 | 16 | 通常のバイオーム全域 |
+| [ドラキー](/monsters/doraki) | 通常 | [悪魔](/species/akuma) | 38 | 35 | キメラの断崖 |
+| [カバシラー](/monsters/swarmtroop) | レア | [自然](/species/sizen) | 12 | 6 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -32,6 +32,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

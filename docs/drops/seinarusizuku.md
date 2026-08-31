@@ -17,8 +17,8 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [クイーンスライム](/monsters/kuinsuraimu) | 通常 | スライム | 2,025 | 648 | 妖精の花畑 |
-| [ドラゴンソルジャー](/monsters/doragonsoruja) | 通常 | ドラゴン | 1,980 | 681 | ドラゴン火山帯・果ての世界 |
+| [クイーンスライム](/monsters/kuinsuraimu) | 通常 | [スライム](/species/slime) | 2,025 | 648 | 妖精の花畑 |
+| [ドラゴンソルジャー](/monsters/doragonsoruja) | 通常 | [ドラゴン](/species/dragon) | 1,980 | 681 | ドラゴン火山帯・果ての世界 |
 
 見出しを押すと並べ替えできます。
 
@@ -26,6 +26,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

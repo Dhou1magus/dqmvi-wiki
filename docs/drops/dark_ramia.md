@@ -17,7 +17,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ダークラーミア](/bosses/dark_ramia_big) | 通常 | 特殊 | 58,500 | 84,136 | 通常のバイオーム全域 |
+| [ダークラーミア](/bosses/dark_ramia_big) | 通常 | [特殊](/species/tokusyu) | 58,500 | 84,136 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -25,6 +25,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

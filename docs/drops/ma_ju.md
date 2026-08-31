@@ -17,17 +17,17 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [メタルスター](/monsters/metalstar) | レア | メタル | 165 | 700,000 | 通常のバイオーム全域 |
-| [ほうおう](/monsters/houou) | 超レア | 魔獣 | 1,809 | 588 | 通常のバイオーム全域 |
-| [ダースギズモ](/monsters/dgizumo) | 超レア | 物質 | 1,785 | 593 | 通常のバイオーム全域 |
-| [リューイーソー](/monsters/ryuiso) | 超レア | ゾンビ | 1,875 | 628 | 通常のバイオーム全域 |
-| [スラ・ブラスター](/monsters/slimeblaster) | 超レア | スライム | 1,790 | 632 | 通常のバイオーム全域 |
-| [デビルロード](/monsters/debirurodo) | 超レア | 悪魔 | 1,725 | 661 | 魔法の森・魔王の焦土 |
-| [ロイヤルブルーム](/monsters/roiyaruburumu) | 超レア | 自然 | 2,122 | 700 | 通常のバイオーム全域 |
-| [ヘルガーディアン](/monsters/herugadexian) | 超レア | 悪魔 | 2,350 | 711 | 通常のバイオーム全域 |
-| [アスラ王](/monsters/asuraou) | 超レア | ゾンビ | 2,963 | 807 | 通常のバイオーム全域 |
-| [ソードイド](/monsters/sozoido) | 超レア | ゾンビ | 2,396 | 834 | 果ての世界 |
-| [デスマーキュリー](/monsters/desumakyuri) | 超レア | 物質 | 2,777 | 900 | 通常のバイオーム全域 |
+| [メタルスター](/monsters/metalstar) | レア | [メタル](/species/metal) | 165 | 700,000 | 通常のバイオーム全域 |
+| [ほうおう](/monsters/houou) | 超レア | [魔獣](/species/majyu) | 1,809 | 588 | 通常のバイオーム全域 |
+| [ダースギズモ](/monsters/dgizumo) | 超レア | [物質](/species/bussitu) | 1,785 | 593 | 通常のバイオーム全域 |
+| [リューイーソー](/monsters/ryuiso) | 超レア | [ゾンビ](/species/zombie) | 1,875 | 628 | 通常のバイオーム全域 |
+| [スラ・ブラスター](/monsters/slimeblaster) | 超レア | [スライム](/species/slime) | 1,790 | 632 | 通常のバイオーム全域 |
+| [デビルロード](/monsters/debirurodo) | 超レア | [悪魔](/species/akuma) | 1,725 | 661 | 魔法の森・魔王の焦土 |
+| [ロイヤルブルーム](/monsters/roiyaruburumu) | 超レア | [自然](/species/sizen) | 2,122 | 700 | 通常のバイオーム全域 |
+| [ヘルガーディアン](/monsters/herugadexian) | 超レア | [悪魔](/species/akuma) | 2,350 | 711 | 通常のバイオーム全域 |
+| [アスラ王](/monsters/asuraou) | 超レア | [ゾンビ](/species/zombie) | 2,963 | 807 | 通常のバイオーム全域 |
+| [ソードイド](/monsters/sozoido) | 超レア | [ゾンビ](/species/zombie) | 2,396 | 834 | 果ての世界 |
+| [デスマーキュリー](/monsters/desumakyuri) | 超レア | [物質](/species/bussitu) | 2,777 | 900 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -35,6 +35,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

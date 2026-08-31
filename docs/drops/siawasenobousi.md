@@ -29,8 +29,8 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [マジカルハット](/monsters/majikaruhatto) | 超レア | 魔獣 | 824 | 333 | 魔法の森 |
-| [じごくのきし](/monsters/jigokunokisi) | 超レア | ゾンビ | 1,202 | 454 | 果ての世界 |
+| [マジカルハット](/monsters/majikaruhatto) | 超レア | [魔獣](/species/majyu) | 824 | 333 | 魔法の森 |
+| [じごくのきし](/monsters/jigokunokisi) | 超レア | [ゾンビ](/species/zombie) | 1,202 | 454 | 果ての世界 |
 
 見出しを押すと並べ替えできます。
 
@@ -38,6 +38,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

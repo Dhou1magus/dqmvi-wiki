@@ -17,21 +17,21 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ゴールデントーテム](/monsters/gorudentotemu) | 通常 | メタル | 25 | 105 | 通常のバイオーム全域 |
-| [わらいぶくろ](/monsters/waraibukuro) | レア | 物質 | 80 | 79 | ミミックの宝物窟 |
-| [ゴールドパール](/monsters/goldpearl) | レア | メタル | 142 | 121 | 通常のバイオーム全域 |
-| [テンタクルス](/monsters/tentacles) | レア | 自然 | 534 | 285 | 通常のバイオーム全域 |
-| [スライムエンペラー](/monsters/slimeemperor) | レア | スライム | 467 | 298 | 通常のバイオーム全域 |
-| [ゴーレム](/monsters/goremu) | レア | 物質 | 581 | 315 | ゴーレム岩石遺跡 |
-| [サタンメイル](/monsters/satanmeiru) | レア | 物質 | 609 | 340 | 通常のバイオーム全域 |
-| [黄泉の花](/monsters/yominohana) | 超レア | スライム | 34 | 42 | 通常のバイオーム全域 |
-| [ボル](/monsters/boru) | 超レア | 物質 | 45 | 42 | 通常のバイオーム全域 |
-| [デスマドモアゼル](/monsters/desumadomoazeru) | 超レア | 物質 | 80 | 47 | 通常のバイオーム全域 |
-| [つぼ](/monsters/tubo) | 超レア | 特殊 | 55 | 51 | ミミックの宝物窟 |
-| [ひとくい木箱](/monsters/hitokuikibako) | 超レア | 特殊 | 51 | 54 | ミミックの宝物窟 |
-| [スライムコロネ](/monsters/goonachegoodie) | 超レア | スライム | 45 | 54 | 通常のバイオーム全域 |
-| [メタッピー](/monsters/metappi) | 超レア | 物質 | 66 | 61 | 通常のバイオーム全域 |
-| [バブリン](/monsters/baburin) | 超レア | ゾンビ | 90 | 94 | 毒の大湿地 |
+| [ゴールデントーテム](/monsters/gorudentotemu) | 通常 | [メタル](/species/metal) | 25 | 105 | 通常のバイオーム全域 |
+| [わらいぶくろ](/monsters/waraibukuro) | レア | [物質](/species/bussitu) | 80 | 79 | ミミックの宝物窟 |
+| [ゴールドパール](/monsters/goldpearl) | レア | [メタル](/species/metal) | 142 | 121 | 通常のバイオーム全域 |
+| [テンタクルス](/monsters/tentacles) | レア | [自然](/species/sizen) | 534 | 285 | 通常のバイオーム全域 |
+| [スライムエンペラー](/monsters/slimeemperor) | レア | [スライム](/species/slime) | 467 | 298 | 通常のバイオーム全域 |
+| [ゴーレム](/monsters/goremu) | レア | [物質](/species/bussitu) | 581 | 315 | ゴーレム岩石遺跡 |
+| [サタンメイル](/monsters/satanmeiru) | レア | [物質](/species/bussitu) | 609 | 340 | 通常のバイオーム全域 |
+| [黄泉の花](/monsters/yominohana) | 超レア | [スライム](/species/slime) | 34 | 42 | 通常のバイオーム全域 |
+| [ボル](/monsters/boru) | 超レア | [物質](/species/bussitu) | 45 | 42 | 通常のバイオーム全域 |
+| [デスマドモアゼル](/monsters/desumadomoazeru) | 超レア | [物質](/species/bussitu) | 80 | 47 | 通常のバイオーム全域 |
+| [つぼ](/monsters/tubo) | 超レア | [特殊](/species/tokusyu) | 55 | 51 | ミミックの宝物窟 |
+| [ひとくい木箱](/monsters/hitokuikibako) | 超レア | [特殊](/species/tokusyu) | 51 | 54 | ミミックの宝物窟 |
+| [スライムコロネ](/monsters/goonachegoodie) | 超レア | [スライム](/species/slime) | 45 | 54 | 通常のバイオーム全域 |
+| [メタッピー](/monsters/metappi) | 超レア | [物質](/species/bussitu) | 66 | 61 | 通常のバイオーム全域 |
+| [バブリン](/monsters/baburin) | 超レア | [ゾンビ](/species/zombie) | 90 | 94 | 毒の大湿地 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

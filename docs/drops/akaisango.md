@@ -17,25 +17,25 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [おにこぞう](/monsters/onikozou) | 通常 | 悪魔 | 18 | 11 | 通常のバイオーム全域 |
-| [つかいま](/monsters/tukaima) | 通常 | 悪魔 | 25 | 13 | 通常のバイオーム全域 |
-| [おおめだま](/monsters/oomedama) | 通常 | 悪魔 | 45 | 39 | 通常のバイオーム全域 |
-| [スライムタワー](/monsters/suraimutawa) | 通常 | スライム | 70 | 86 | スライム湿原 |
-| [プチアーノン](/monsters/putianon) | 通常 | 自然 | 85 | 86 | 通常のバイオーム全域 |
-| [たこやり兵](/monsters/takoyarihei) | レア | 自然 | 18 | 9 | 通常のバイオーム全域 |
-| [エビルアップル](/monsters/ebiruapple) | レア | 自然 | 22 | 12 | タマゴロン草原・おばけキノコの森 |
-| [メーダ](/monsters/meda) | レア | 悪魔 | 16 | 13 | 通常のバイオーム全域 |
-| [ぐんたいガニ](/monsters/army_crab2) | レア | 自然 | 32 | 16 | 通常のバイオーム全域 |
-| [どくろあらい](/monsters/dokuroarai) | レア | 魔獣 | 38 | 39 | 魔物の骨荒野 |
-| [スライムつむり](/monsters/suraimutumuri) | レア | スライム | 41 | 44 | 沈没魔物海・海 |
-| [パールスライム](/monsters/pearlgel) | レア | スライム | 66 | 54 | 通常のバイオーム全域 |
-| [アクアスライム](/monsters/aquaslime) | レア | スライム | 59 | 55 | 沈没魔物海・海 |
-| [さまようたましい](/monsters/samayoutamasii) | レア | ゾンビ | 73 | 79 | ゴースト霧森・ネザー |
-| [ラリホービートル](/monsters/bedbug) | レア | 自然 | 86 | 90 | 通常のバイオーム全域 |
-| [ヘルコンドル](/monsters/hellcondor) | レア | 魔獣 | 120 | 120 | 通常のバイオーム全域 |
-| [ミニデーモン](/monsters/minidemon) | レア | 悪魔 | 170 | 145 | 通常のバイオーム全域 |
-| [キラークラブ](/monsters/killer_crab2) | レア | 自然 | 182 | 175 | 通常のバイオーム全域 |
-| [マグマロン](/monsters/magumaron) | レア | 自然 | 1,770 | 592 | 通常のバイオーム全域 |
+| [おにこぞう](/monsters/onikozou) | 通常 | [悪魔](/species/akuma) | 18 | 11 | 通常のバイオーム全域 |
+| [つかいま](/monsters/tukaima) | 通常 | [悪魔](/species/akuma) | 25 | 13 | 通常のバイオーム全域 |
+| [おおめだま](/monsters/oomedama) | 通常 | [悪魔](/species/akuma) | 45 | 39 | 通常のバイオーム全域 |
+| [スライムタワー](/monsters/suraimutawa) | 通常 | [スライム](/species/slime) | 70 | 86 | スライム湿原 |
+| [プチアーノン](/monsters/putianon) | 通常 | [自然](/species/sizen) | 85 | 86 | 通常のバイオーム全域 |
+| [たこやり兵](/monsters/takoyarihei) | レア | [自然](/species/sizen) | 18 | 9 | 通常のバイオーム全域 |
+| [エビルアップル](/monsters/ebiruapple) | レア | [自然](/species/sizen) | 22 | 12 | タマゴロン草原・おばけキノコの森 |
+| [メーダ](/monsters/meda) | レア | [悪魔](/species/akuma) | 16 | 13 | 通常のバイオーム全域 |
+| [ぐんたいガニ](/monsters/army_crab2) | レア | [自然](/species/sizen) | 32 | 16 | 通常のバイオーム全域 |
+| [どくろあらい](/monsters/dokuroarai) | レア | [魔獣](/species/majyu) | 38 | 39 | 魔物の骨荒野 |
+| [スライムつむり](/monsters/suraimutumuri) | レア | [スライム](/species/slime) | 41 | 44 | 沈没魔物海・海 |
+| [パールスライム](/monsters/pearlgel) | レア | [スライム](/species/slime) | 66 | 54 | 通常のバイオーム全域 |
+| [アクアスライム](/monsters/aquaslime) | レア | [スライム](/species/slime) | 59 | 55 | 沈没魔物海・海 |
+| [さまようたましい](/monsters/samayoutamasii) | レア | [ゾンビ](/species/zombie) | 73 | 79 | ゴースト霧森・ネザー |
+| [ラリホービートル](/monsters/bedbug) | レア | [自然](/species/sizen) | 86 | 90 | 通常のバイオーム全域 |
+| [ヘルコンドル](/monsters/hellcondor) | レア | [魔獣](/species/majyu) | 120 | 120 | 通常のバイオーム全域 |
+| [ミニデーモン](/monsters/minidemon) | レア | [悪魔](/species/akuma) | 170 | 145 | 通常のバイオーム全域 |
+| [キラークラブ](/monsters/killer_crab2) | レア | [自然](/species/sizen) | 182 | 175 | 通常のバイオーム全域 |
+| [マグマロン](/monsters/magumaron) | レア | [自然](/species/sizen) | 1,770 | 592 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -43,6 +43,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,13 +17,13 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ベスキング](/monsters/besuking) | 通常 | スライム | 368 | 238 | スライム湿原 |
-| [グレートジンガー](/monsters/guretosinga) | 通常 | 物質 | 1,600 | 600 | 通常のバイオーム全域 |
-| [デスニャーゴ](/monsters/desunyago) | レア | 魔獣 | 896 | 344 | 黄金の砂漠・果ての世界 |
-| [コスモアイ](/monsters/kosumoai) | レア | 悪魔 | 1,220 | 421 | 通常のバイオーム全域 |
-| [ガメゴンロード](/monsters/gamegonload) | レア | ドラゴン | 1,264 | 438 | 沈没魔物海・果ての世界・海 |
-| [ゴールデンドラゴン](/monsters/goldendragon) | レア | ドラゴン | 1,319 | 496 | 通常のバイオーム全域 |
-| [ダークナイト](/monsters/dakunaito) | レア | ゾンビ | 2,325 | 756 | 魔王の焦土 |
+| [ベスキング](/monsters/besuking) | 通常 | [スライム](/species/slime) | 368 | 238 | スライム湿原 |
+| [グレートジンガー](/monsters/guretosinga) | 通常 | [物質](/species/bussitu) | 1,600 | 600 | 通常のバイオーム全域 |
+| [デスニャーゴ](/monsters/desunyago) | レア | [魔獣](/species/majyu) | 896 | 344 | 黄金の砂漠・果ての世界 |
+| [コスモアイ](/monsters/kosumoai) | レア | [悪魔](/species/akuma) | 1,220 | 421 | 通常のバイオーム全域 |
+| [ガメゴンロード](/monsters/gamegonload) | レア | [ドラゴン](/species/dragon) | 1,264 | 438 | 沈没魔物海・果ての世界・海 |
+| [ゴールデンドラゴン](/monsters/goldendragon) | レア | [ドラゴン](/species/dragon) | 1,319 | 496 | 通常のバイオーム全域 |
+| [ダークナイト](/monsters/dakunaito) | レア | [ゾンビ](/species/zombie) | 2,325 | 756 | 魔王の焦土 |
 
 見出しを押すと並べ替えできます。
 
@@ -31,6 +31,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

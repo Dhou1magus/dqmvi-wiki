@@ -29,9 +29,9 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ドラゴンゾンビ](/monsters/dragonzombie) | 超レア | ドラゴン | 197 | 171 | 通常のバイオーム全域 |
-| [スライムプディング](/monsters/slimepudding) | 超レア | スライム | 191 | 172 | 通常のバイオーム全域 |
-| [ガメゴン](/monsters/gamegon) | 超レア | ドラゴン | 200 | 183 | 沈没魔物海・ネザー・海 |
+| [ドラゴンゾンビ](/monsters/dragonzombie) | 超レア | [ドラゴン](/species/dragon) | 197 | 171 | 通常のバイオーム全域 |
+| [スライムプディング](/monsters/slimepudding) | 超レア | [スライム](/species/slime) | 191 | 172 | 通常のバイオーム全域 |
+| [ガメゴン](/monsters/gamegon) | 超レア | [ドラゴン](/species/dragon) | 200 | 183 | 沈没魔物海・ネザー・海 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

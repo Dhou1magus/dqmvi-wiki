@@ -17,19 +17,19 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [テンタクルス](/monsters/tentacles) | 通常 | 自然 | 534 | 285 | 通常のバイオーム全域 |
-| [トレーナースライム](/monsters/trainerslime) | 通常 | スライム | 574 | 303 | 通常のバイオーム全域 |
-| [ゴーレム](/monsters/goremu) | 通常 | 物質 | 581 | 315 | ゴーレム岩石遺跡 |
-| [キングレオ](/monsters/kingreo1) | 通常 | 魔獣 | 630 | 320 | 黄金の砂漠・ネザー |
-| [キラーパンサー](/monsters/kirapan2) | 通常 | 魔獣 | 960 | 350 | 通常のバイオーム全域 |
-| [しにがみのきし](/monsters/sinigaminokisi) | 通常 | 悪魔 | 732 | 384 | ネザー |
-| [スノードラゴン](/monsters/snow_dragon) | 通常 | ドラゴン | 1,443 | 486 | 通常のバイオーム全域 |
-| [ゴッドライダー](/monsters/godraida) | 通常 | スライム | 3,000 | 876 | 通常のバイオーム全域 |
-| [タイガークロー](/monsters/taigakuro) | レア | 魔獣 | 512 | 299 | 通常のバイオーム全域 |
-| [ヘルクラッシャー](/monsters/herukurassya) | レア | ゾンビ | 621 | 320 | 通常のバイオーム全域 |
-| [ソードファントム](/monsters/sodofantomu) | 超レア | ゾンビ | 1,184 | 409 | 魔物の骨荒野・果ての世界 |
-| [じごくのざりがに](/monsters/jigokunozarigani) | 超レア | 自然 | 1,282 | 414 | 通常のバイオーム全域 |
-| [サイクロプス](/monsters/saikuropusu) | 超レア | 悪魔 | 1,488 | 441 | 通常のバイオーム全域 |
+| [テンタクルス](/monsters/tentacles) | 通常 | [自然](/species/sizen) | 534 | 285 | 通常のバイオーム全域 |
+| [トレーナースライム](/monsters/trainerslime) | 通常 | [スライム](/species/slime) | 574 | 303 | 通常のバイオーム全域 |
+| [ゴーレム](/monsters/goremu) | 通常 | [物質](/species/bussitu) | 581 | 315 | ゴーレム岩石遺跡 |
+| [キングレオ](/monsters/kingreo1) | 通常 | [魔獣](/species/majyu) | 630 | 320 | 黄金の砂漠・ネザー |
+| [キラーパンサー](/monsters/kirapan2) | 通常 | [魔獣](/species/majyu) | 960 | 350 | 通常のバイオーム全域 |
+| [しにがみのきし](/monsters/sinigaminokisi) | 通常 | [悪魔](/species/akuma) | 732 | 384 | ネザー |
+| [スノードラゴン](/monsters/snow_dragon) | 通常 | [ドラゴン](/species/dragon) | 1,443 | 486 | 通常のバイオーム全域 |
+| [ゴッドライダー](/monsters/godraida) | 通常 | [スライム](/species/slime) | 3,000 | 876 | 通常のバイオーム全域 |
+| [タイガークロー](/monsters/taigakuro) | レア | [魔獣](/species/majyu) | 512 | 299 | 通常のバイオーム全域 |
+| [ヘルクラッシャー](/monsters/herukurassya) | レア | [ゾンビ](/species/zombie) | 621 | 320 | 通常のバイオーム全域 |
+| [ソードファントム](/monsters/sodofantomu) | 超レア | [ゾンビ](/species/zombie) | 1,184 | 409 | 魔物の骨荒野・果ての世界 |
+| [じごくのざりがに](/monsters/jigokunozarigani) | 超レア | [自然](/species/sizen) | 1,282 | 414 | 通常のバイオーム全域 |
+| [サイクロプス](/monsters/saikuropusu) | 超レア | [悪魔](/species/akuma) | 1,488 | 441 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -37,6 +37,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -29,7 +29,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ゴードンヘッド](/monsters/godonheddo) | 通常 | 物質 | 6,189 | 8,519 | ゴーレム岩石遺跡・ネザー |
+| [ゴードンヘッド](/monsters/godonheddo) | 通常 | [物質](/species/bussitu) | 6,189 | 8,519 | ゴーレム岩石遺跡・ネザー |
 
 見出しを押すと並べ替えできます。
 
@@ -37,6 +37,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

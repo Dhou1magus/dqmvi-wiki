@@ -17,9 +17,9 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [いっかくうさぎ](/monsters/ikkakuusagi) | 通常 | 魔獣 | 18 | 11 | タマゴロン草原・氷結のトゲ平原 |
-| [ピンクモーモン](/monsters/pinkmomon) | 通常 | 悪魔 | 55 | 45 | 妖精の花畑 |
-| [モーモン](/monsters/momon) | レア | 悪魔 | 12 | 5 | タマゴロン草原・妖精の花畑 |
+| [いっかくうさぎ](/monsters/ikkakuusagi) | 通常 | [魔獣](/species/majyu) | 18 | 11 | タマゴロン草原・氷結のトゲ平原 |
+| [ピンクモーモン](/monsters/pinkmomon) | 通常 | [悪魔](/species/akuma) | 55 | 45 | 妖精の花畑 |
+| [モーモン](/monsters/momon) | レア | [悪魔](/species/akuma) | 12 | 5 | タマゴロン草原・妖精の花畑 |
 
 見出しを押すと並べ替えできます。
 
@@ -27,6 +27,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

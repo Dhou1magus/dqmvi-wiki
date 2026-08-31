@@ -28,10 +28,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ベビーサタン](/monsters/bebisatan) | 超レア | 悪魔 | 50 | 38 | 通常のバイオーム全域 |
-| [ピクシー](/monsters/pikusi2) | 超レア | 悪魔 | 45 | 41 | 通常のバイオーム全域 |
-| [ブル](/monsters/buru) | 超レア | 物質 | 45 | 42 | 通常のバイオーム全域 |
-| [くしざしツインズ](/monsters/kusizasituinzu) | 超レア | 自然 | 63 | 55 | 通常のバイオーム全域 |
+| [ベビーサタン](/monsters/bebisatan) | 超レア | [悪魔](/species/akuma) | 50 | 38 | 通常のバイオーム全域 |
+| [ピクシー](/monsters/pikusi2) | 超レア | [悪魔](/species/akuma) | 45 | 41 | 通常のバイオーム全域 |
+| [ブル](/monsters/buru) | 超レア | [物質](/species/bussitu) | 45 | 42 | 通常のバイオーム全域 |
+| [くしざしツインズ](/monsters/kusizasituinzu) | 超レア | [自然](/species/sizen) | 63 | 55 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

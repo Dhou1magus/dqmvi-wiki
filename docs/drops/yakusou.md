@@ -17,16 +17,16 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ぶちスライム](/monsters/butisuraimu) | レア | スライム | 8 | 4 | スライム湿原 |
-| [タマゴロン](/monsters/tamagoron) | レア | 自然 | 12 | 6 | タマゴロン草原 |
-| [とげぼうず](/monsters/togebouzu) | レア | 物質 | 13 | 7 | ゴーレム岩石遺跡 |
-| [マンドラ](/monsters/mandora) | レア | スライム | 15 | 9 | 通常のバイオーム全域 |
-| [おおがらす](/monsters/greatraven) | レア | 自然 | 12 | 9 | 通常のバイオーム全域 |
-| [ナスビナーラ](/monsters/nasubira) | レア | 自然 | 21 | 11 | おばけキノコの森 |
-| [まほうつかい](/monsters/magician) | レア | 悪魔 | 15 | 13 | 通常のバイオーム全域 |
-| [はさみくわがた](/monsters/scissorbeatle) | レア | 自然 | 26 | 14 | 通常のバイオーム全域 |
-| [ブチュチュンパ](/monsters/buchunpa) | レア | 自然 | 168 | 142 | 通常のバイオーム全域 |
-| [ピクシー](/monsters/pikusi) | レア | 悪魔 | 178 | 147 | 妖精の花畑 |
+| [ぶちスライム](/monsters/butisuraimu) | レア | [スライム](/species/slime) | 8 | 4 | スライム湿原 |
+| [タマゴロン](/monsters/tamagoron) | レア | [自然](/species/sizen) | 12 | 6 | タマゴロン草原 |
+| [とげぼうず](/monsters/togebouzu) | レア | [物質](/species/bussitu) | 13 | 7 | ゴーレム岩石遺跡 |
+| [マンドラ](/monsters/mandora) | レア | [スライム](/species/slime) | 15 | 9 | 通常のバイオーム全域 |
+| [おおがらす](/monsters/greatraven) | レア | [自然](/species/sizen) | 12 | 9 | 通常のバイオーム全域 |
+| [ナスビナーラ](/monsters/nasubira) | レア | [自然](/species/sizen) | 21 | 11 | おばけキノコの森 |
+| [まほうつかい](/monsters/magician) | レア | [悪魔](/species/akuma) | 15 | 13 | 通常のバイオーム全域 |
+| [はさみくわがた](/monsters/scissorbeatle) | レア | [自然](/species/sizen) | 26 | 14 | 通常のバイオーム全域 |
+| [ブチュチュンパ](/monsters/buchunpa) | レア | [自然](/species/sizen) | 168 | 142 | 通常のバイオーム全域 |
+| [ピクシー](/monsters/pikusi) | レア | [悪魔](/species/akuma) | 178 | 147 | 妖精の花畑 |
 
 見出しを押すと並べ替えできます。
 
@@ -34,6 +34,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,21 +17,21 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [フロストギズモ1](/monsters/fgizumo) | 通常 | 物質 | 78 | 83 | 通常のバイオーム全域 |
-| [ブリザード](/monsters/burizado) | 通常 | 物質 | 85 | 90 | 氷結のトゲ平原 |
-| [レッドマーマン](/monsters/redmerman) | 通常 | 自然 | 145 | 102 | 通常のバイオーム全域 |
-| [だいおうイカ](/monsters/daiouika) | 通常 | 自然 | 175 | 110 | 通常のバイオーム全域 |
-| [リビングハンマー](/monsters/living_hammer) | 通常 | 物質 | 151 | 114 | 通常のバイオーム全域 |
-| [マヒャドフライ](/monsters/mahyadofurai) | 通常 | 自然 | 122 | 137 | 通常のバイオーム全域 |
-| [じごくのよろい](/monsters/jigokunoyoroi) | 通常 | ゾンビ | 1,288 | 442 | 魔物の骨荒野・果ての世界 |
-| [じめじめバブル](/monsters/dankbubbleslime) | レア | スライム | 74 | 77 | 通常のバイオーム全域 |
-| [レッドスコーピオン](/monsters/reddosukopion) | レア | 自然 | 96 | 90 | 通常のバイオーム全域 |
-| [ひょうがまじん](/monsters/hyouganmajin) | レア | 物質 | 105 | 98 | 氷結のトゲ平原 |
-| [さまようたましい](/monsters/samayoutamasii) | 超レア | ゾンビ | 73 | 79 | ゴースト霧森・ネザー |
-| [ナイトウォーカー](/monsters/nightwalker) | 超レア | 悪魔 | 83 | 84 | ゴースト霧森・ネザー |
-| [ラリホービートル](/monsters/bedbug) | 超レア | 自然 | 86 | 90 | 通常のバイオーム全域 |
-| [トマトマーレ](/monsters/tomatomare) | 超レア | スライム | 80 | 92 | 通常のバイオーム全域 |
-| [ヘルコンドル](/monsters/hellcondor) | 超レア | 魔獣 | 120 | 120 | 通常のバイオーム全域 |
+| [フロストギズモ1](/monsters/fgizumo) | 通常 | [物質](/species/bussitu) | 78 | 83 | 通常のバイオーム全域 |
+| [ブリザード](/monsters/burizado) | 通常 | [物質](/species/bussitu) | 85 | 90 | 氷結のトゲ平原 |
+| [レッドマーマン](/monsters/redmerman) | 通常 | [自然](/species/sizen) | 145 | 102 | 通常のバイオーム全域 |
+| [だいおうイカ](/monsters/daiouika) | 通常 | [自然](/species/sizen) | 175 | 110 | 通常のバイオーム全域 |
+| [リビングハンマー](/monsters/living_hammer) | 通常 | [物質](/species/bussitu) | 151 | 114 | 通常のバイオーム全域 |
+| [マヒャドフライ](/monsters/mahyadofurai) | 通常 | [自然](/species/sizen) | 122 | 137 | 通常のバイオーム全域 |
+| [じごくのよろい](/monsters/jigokunoyoroi) | 通常 | [ゾンビ](/species/zombie) | 1,288 | 442 | 魔物の骨荒野・果ての世界 |
+| [じめじめバブル](/monsters/dankbubbleslime) | レア | [スライム](/species/slime) | 74 | 77 | 通常のバイオーム全域 |
+| [レッドスコーピオン](/monsters/reddosukopion) | レア | [自然](/species/sizen) | 96 | 90 | 通常のバイオーム全域 |
+| [ひょうがまじん](/monsters/hyouganmajin) | レア | [物質](/species/bussitu) | 105 | 98 | 氷結のトゲ平原 |
+| [さまようたましい](/monsters/samayoutamasii) | 超レア | [ゾンビ](/species/zombie) | 73 | 79 | ゴースト霧森・ネザー |
+| [ナイトウォーカー](/monsters/nightwalker) | 超レア | [悪魔](/species/akuma) | 83 | 84 | ゴースト霧森・ネザー |
+| [ラリホービートル](/monsters/bedbug) | 超レア | [自然](/species/sizen) | 86 | 90 | 通常のバイオーム全域 |
+| [トマトマーレ](/monsters/tomatomare) | 超レア | [スライム](/species/slime) | 80 | 92 | 通常のバイオーム全域 |
+| [ヘルコンドル](/monsters/hellcondor) | 超レア | [魔獣](/species/majyu) | 120 | 120 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

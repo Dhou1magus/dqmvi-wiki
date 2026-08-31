@@ -17,11 +17,11 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [わらいぶくろ](/monsters/waraibukuro) | 超レア | 物質 | 80 | 79 | ミミックの宝物窟 |
-| [ゴールドパール](/monsters/goldpearl) | 超レア | メタル | 142 | 121 | 通常のバイオーム全域 |
-| [おどる宝石](/monsters/odoruhouseki) | 超レア | 物質 | 162 | 142 | ミミックの宝物窟 |
-| [キングマーマン](/monsters/kingmerman) | 超レア | 自然 | 180 | 159 | 通常のバイオーム全域 |
-| [メタルドラゴン](/monsters/metarudoragon) | 超レア | 物質 | 255 | 212 | 通常のバイオーム全域 |
+| [わらいぶくろ](/monsters/waraibukuro) | 超レア | [物質](/species/bussitu) | 80 | 79 | ミミックの宝物窟 |
+| [ゴールドパール](/monsters/goldpearl) | 超レア | [メタル](/species/metal) | 142 | 121 | 通常のバイオーム全域 |
+| [おどる宝石](/monsters/odoruhouseki) | 超レア | [物質](/species/bussitu) | 162 | 142 | ミミックの宝物窟 |
+| [キングマーマン](/monsters/kingmerman) | 超レア | [自然](/species/sizen) | 180 | 159 | 通常のバイオーム全域 |
+| [メタルドラゴン](/monsters/metarudoragon) | 超レア | [物質](/species/bussitu) | 255 | 212 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -29,6 +29,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,14 +17,14 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [スピニー](/monsters/supini) | 通常 | 物質 | 72 | 75 | 通常のバイオーム全域 |
-| [プリンスライム](/monsters/puddingslime) | 通常 | スライム | 160 | 114 | 通常のバイオーム全域 |
-| [エビルポット](/monsters/malevolamp) | 通常 | 物質 | 172 | 147 | 通常のバイオーム全域 |
-| [バアラック](/monsters/baarakku2) | 通常 | 悪魔 | 175 | 148 | ネザー |
-| [ばくだんベビー](/monsters/bakudanbebi) | 通常 | 物質 | 170 | 152 | 通常のバイオーム全域 |
-| [まおうのつかい](/monsters/maounotsukai) | レア | ゾンビ | 184 | 191 | 通常のバイオーム全域 |
-| [スマイルロック](/monsters/sumairurokku) | レア | 物質 | 444 | 250 | ゴーレム岩石遺跡 |
-| [キラースター](/monsters/killer_star) | レア | 物質 | 564 | 312 | 通常のバイオーム全域 |
+| [スピニー](/monsters/supini) | 通常 | [物質](/species/bussitu) | 72 | 75 | 通常のバイオーム全域 |
+| [プリンスライム](/monsters/puddingslime) | 通常 | [スライム](/species/slime) | 160 | 114 | 通常のバイオーム全域 |
+| [エビルポット](/monsters/malevolamp) | 通常 | [物質](/species/bussitu) | 172 | 147 | 通常のバイオーム全域 |
+| [バアラック](/monsters/baarakku2) | 通常 | [悪魔](/species/akuma) | 175 | 148 | ネザー |
+| [ばくだんベビー](/monsters/bakudanbebi) | 通常 | [物質](/species/bussitu) | 170 | 152 | 通常のバイオーム全域 |
+| [まおうのつかい](/monsters/maounotsukai) | レア | [ゾンビ](/species/zombie) | 184 | 191 | 通常のバイオーム全域 |
+| [スマイルロック](/monsters/sumairurokku) | レア | [物質](/species/bussitu) | 444 | 250 | ゴーレム岩石遺跡 |
+| [キラースター](/monsters/killer_star) | レア | [物質](/species/bussitu) | 564 | 312 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -32,6 +32,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

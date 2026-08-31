@@ -17,21 +17,21 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [おばけうみうし](/monsters/obakeumiusi) | 通常 | 自然 | 45 | 38 | 沈没魔物海・海 |
-| [デスフラッター](/monsters/deathflutter2) | 通常 | 自然 | 38 | 43 | 通常のバイオーム全域 |
-| [メラリザード](/monsters/merazado) | 通常 | ドラゴン | 53 | 62 | 通常のバイオーム全域 |
-| [メーダロード](/monsters/medarodo) | 通常 | 悪魔 | 44 | 64 | 通常のバイオーム全域 |
-| [フーセンドラゴン](/monsters/fu_sen_dragon) | 通常 | ドラゴン | 155 | 107 | 通常のバイオーム全域 |
-| [ぶっちズッキーニャ](/monsters/buttizukinya) | 通常 | 自然 | 168 | 146 | 通常のバイオーム全域 |
-| [ボル](/monsters/boru) | レア | 物質 | 45 | 42 | 通常のバイオーム全域 |
-| [ダックスビル](/monsters/ducksbill) | レア | 魔獣 | 83 | 84 | ネザー |
-| [ドラキーマ](/monsters/dorakima) | レア | 悪魔 | 98 | 85 | ネザー |
-| [うらぎりこぞう](/monsters/uragirikozou2) | レア | 悪魔 | 90 | 95 | ネザー |
-| [おにぎりスライム](/monsters/onigirislime) | レア | スライム | 156 | 121 | 通常のバイオーム全域 |
-| [ガチャコッコ](/monsters/gatyakokko) | レア | 物質 | 166 | 145 | 通常のバイオーム全域 |
-| [ケムンクルス](/monsters/kemunkurusu) | レア | 悪魔 | 848 | 314 | 通常のバイオーム全域 |
-| [アックスドラゴン](/monsters/axedoragon) | レア | ドラゴン | 1,152 | 368 | ドラゴン火山帯 |
-| [ポムポムボム](/monsters/pombom) | レア | ゾンビ | 968 | 382 | 妖精の花畑・果ての世界 |
+| [おばけうみうし](/monsters/obakeumiusi) | 通常 | [自然](/species/sizen) | 45 | 38 | 沈没魔物海・海 |
+| [デスフラッター](/monsters/deathflutter2) | 通常 | [自然](/species/sizen) | 38 | 43 | 通常のバイオーム全域 |
+| [メラリザード](/monsters/merazado) | 通常 | [ドラゴン](/species/dragon) | 53 | 62 | 通常のバイオーム全域 |
+| [メーダロード](/monsters/medarodo) | 通常 | [悪魔](/species/akuma) | 44 | 64 | 通常のバイオーム全域 |
+| [フーセンドラゴン](/monsters/fu_sen_dragon) | 通常 | [ドラゴン](/species/dragon) | 155 | 107 | 通常のバイオーム全域 |
+| [ぶっちズッキーニャ](/monsters/buttizukinya) | 通常 | [自然](/species/sizen) | 168 | 146 | 通常のバイオーム全域 |
+| [ボル](/monsters/boru) | レア | [物質](/species/bussitu) | 45 | 42 | 通常のバイオーム全域 |
+| [ダックスビル](/monsters/ducksbill) | レア | [魔獣](/species/majyu) | 83 | 84 | ネザー |
+| [ドラキーマ](/monsters/dorakima) | レア | [悪魔](/species/akuma) | 98 | 85 | ネザー |
+| [うらぎりこぞう](/monsters/uragirikozou2) | レア | [悪魔](/species/akuma) | 90 | 95 | ネザー |
+| [おにぎりスライム](/monsters/onigirislime) | レア | [スライム](/species/slime) | 156 | 121 | 通常のバイオーム全域 |
+| [ガチャコッコ](/monsters/gatyakokko) | レア | [物質](/species/bussitu) | 166 | 145 | 通常のバイオーム全域 |
+| [ケムンクルス](/monsters/kemunkurusu) | レア | [悪魔](/species/akuma) | 848 | 314 | 通常のバイオーム全域 |
+| [アックスドラゴン](/monsters/axedoragon) | レア | [ドラゴン](/species/dragon) | 1,152 | 368 | ドラゴン火山帯 |
+| [ポムポムボム](/monsters/pombom) | レア | [ゾンビ](/species/zombie) | 968 | 382 | 妖精の花畑・果ての世界 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -29,9 +29,9 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [テンタクルス](/monsters/tentacles) | 超レア | 自然 | 534 | 285 | 通常のバイオーム全域 |
-| [キラースター](/monsters/killer_star) | 超レア | 物質 | 564 | 312 | 通常のバイオーム全域 |
-| [ゴーレム](/monsters/goremu) | 超レア | 物質 | 581 | 315 | ゴーレム岩石遺跡 |
+| [テンタクルス](/monsters/tentacles) | 超レア | [自然](/species/sizen) | 534 | 285 | 通常のバイオーム全域 |
+| [キラースター](/monsters/killer_star) | 超レア | [物質](/species/bussitu) | 564 | 312 | 通常のバイオーム全域 |
+| [ゴーレム](/monsters/goremu) | 超レア | [物質](/species/bussitu) | 581 | 315 | ゴーレム岩石遺跡 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

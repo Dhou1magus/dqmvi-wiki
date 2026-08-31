@@ -17,15 +17,15 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [リップス](/monsters/rippusu) | 通常 | 自然 | 18 | 11 | 通常のバイオーム全域 |
-| [ドロヌーバ](/monsters/doronuba) | 通常 | 自然 | 25 | 13 | 毒の大湿地 |
-| [スライムブレス](/monsters/suraimuburesu) | 通常 | スライム | 180 | 160 | スライム湿原 |
-| [スライム](/monsters/sura) | レア | スライム | 5 | 2 | スライム湿原・タマゴロン草原 |
-| [スライムベス](/monsters/suraimubesu) | レア | スライム | 7 | 2 | スライム湿原 |
-| [スライムB](/monsters/slime_b) | レア | スライム | 5 | 2 | スライム湿原・タマゴロン草原 |
-| [おにこぞう](/monsters/onikozou2) | レア | 悪魔 | 18 | 10 | 通常のバイオーム全域 |
-| [ボックススライムブルー](/monsters/boxsuraimu_ao) | レア | スライム | 15 | 13 | スライム湿原 |
-| [ウパソルジャー](/monsters/upasoruja) | レア | 自然 | 22 | 15 | 通常のバイオーム全域 |
+| [リップス](/monsters/rippusu) | 通常 | [自然](/species/sizen) | 18 | 11 | 通常のバイオーム全域 |
+| [ドロヌーバ](/monsters/doronuba) | 通常 | [自然](/species/sizen) | 25 | 13 | 毒の大湿地 |
+| [スライムブレス](/monsters/suraimuburesu) | 通常 | [スライム](/species/slime) | 180 | 160 | スライム湿原 |
+| [スライム](/monsters/sura) | レア | [スライム](/species/slime) | 5 | 2 | スライム湿原・タマゴロン草原 |
+| [スライムベス](/monsters/suraimubesu) | レア | [スライム](/species/slime) | 7 | 2 | スライム湿原 |
+| [スライムB](/monsters/slime_b) | レア | [スライム](/species/slime) | 5 | 2 | スライム湿原・タマゴロン草原 |
+| [おにこぞう](/monsters/onikozou2) | レア | [悪魔](/species/akuma) | 18 | 10 | 通常のバイオーム全域 |
+| [ボックススライムブルー](/monsters/boxsuraimu_ao) | レア | [スライム](/species/slime) | 15 | 13 | スライム湿原 |
+| [ウパソルジャー](/monsters/upasoruja) | レア | [自然](/species/sizen) | 22 | 15 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -33,6 +33,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

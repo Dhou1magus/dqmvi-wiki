@@ -17,21 +17,21 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ひとくいが](/monsters/hitokuiga) | 通常 | 自然 | 53 | 41 | キメラの断崖 |
-| [ハエおとこ](/monsters/heotoko) | 通常 | 自然 | 42 | 47 | 通常のバイオーム全域 |
-| [マーマン](/monsters/merman) | 通常 | 自然 | 63 | 55 | 通常のバイオーム全域 |
-| [くさった死体](/monsters/kusattasitai) | 通常 | ゾンビ | 80 | 60 | 通常のバイオーム全域 |
-| [しのどれい](/monsters/sinodorei) | 通常 | ゾンビ | 72 | 65 | 通常のバイオーム全域 |
-| [どくやずきん](/monsters/dokuyazukin) | 通常 | 悪魔 | 84 | 85 | 毒の大湿地・ネザー |
-| [ろうごくのぬし](/monsters/rougokunonusi) | 通常 | ゾンビ | 1,455 | 444 | 通常のバイオーム全域 |
-| [バリイドドッグ](/monsters/bariidodog) | レア | ゾンビ | 343 | 219 | 通常のバイオーム全域 |
-| [しりょうのきし](/monsters/siryounokisi) | レア | ゾンビ | 1,072 | 369 | 魔物の骨荒野・果ての世界 |
-| [バブルキング](/monsters/baburuking) | レア | スライム | 1,128 | 379 | スライム湿原・果ての世界 |
-| [クラーゴン](/monsters/kraagon) | レア | 自然 | 1,208 | 430 | 通常のバイオーム全域 |
-| [根絶やしの竜](/monsters/nedayashinoryu) | レア | ドラゴン | 1,326 | 472 | 通常のバイオーム全域 |
-| [じんめんちょう](/monsters/zinmentyou) | 超レア | 自然 | 15 | 9 | キメラの断崖 |
-| [はなまきドラゴ](/monsters/hanamakidrago) | 超レア | ドラゴン | 32 | 11 | 通常のバイオーム全域 |
-| [ジャングラー](/monsters/feralslime) | 超レア | スライム | 23 | 14 | 通常のバイオーム全域 |
+| [ひとくいが](/monsters/hitokuiga) | 通常 | [自然](/species/sizen) | 53 | 41 | キメラの断崖 |
+| [ハエおとこ](/monsters/heotoko) | 通常 | [自然](/species/sizen) | 42 | 47 | 通常のバイオーム全域 |
+| [マーマン](/monsters/merman) | 通常 | [自然](/species/sizen) | 63 | 55 | 通常のバイオーム全域 |
+| [くさった死体](/monsters/kusattasitai) | 通常 | [ゾンビ](/species/zombie) | 80 | 60 | 通常のバイオーム全域 |
+| [しのどれい](/monsters/sinodorei) | 通常 | [ゾンビ](/species/zombie) | 72 | 65 | 通常のバイオーム全域 |
+| [どくやずきん](/monsters/dokuyazukin) | 通常 | [悪魔](/species/akuma) | 84 | 85 | 毒の大湿地・ネザー |
+| [ろうごくのぬし](/monsters/rougokunonusi) | 通常 | [ゾンビ](/species/zombie) | 1,455 | 444 | 通常のバイオーム全域 |
+| [バリイドドッグ](/monsters/bariidodog) | レア | [ゾンビ](/species/zombie) | 343 | 219 | 通常のバイオーム全域 |
+| [しりょうのきし](/monsters/siryounokisi) | レア | [ゾンビ](/species/zombie) | 1,072 | 369 | 魔物の骨荒野・果ての世界 |
+| [バブルキング](/monsters/baburuking) | レア | [スライム](/species/slime) | 1,128 | 379 | スライム湿原・果ての世界 |
+| [クラーゴン](/monsters/kraagon) | レア | [自然](/species/sizen) | 1,208 | 430 | 通常のバイオーム全域 |
+| [根絶やしの竜](/monsters/nedayashinoryu) | レア | [ドラゴン](/species/dragon) | 1,326 | 472 | 通常のバイオーム全域 |
+| [じんめんちょう](/monsters/zinmentyou) | 超レア | [自然](/species/sizen) | 15 | 9 | キメラの断崖 |
+| [はなまきドラゴ](/monsters/hanamakidrago) | 超レア | [ドラゴン](/species/dragon) | 32 | 11 | 通常のバイオーム全域 |
+| [ジャングラー](/monsters/feralslime) | 超レア | [スライム](/species/slime) | 23 | 14 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

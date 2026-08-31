@@ -17,16 +17,16 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [バブルスライム](/monsters/bubsura) | 通常 | スライム | 12 | 6 | スライム湿原 |
-| [じんめんちょう](/monsters/zinmentyou) | レア | 自然 | 15 | 9 | キメラの断崖 |
-| [はなまきドラゴ](/monsters/hanamakidrago) | レア | ドラゴン | 32 | 11 | 通常のバイオーム全域 |
-| [かぼちゃの騎士](/monsters/kabochanokisi) | レア | ゾンビ | 26 | 14 | 通常のバイオーム全域 |
-| [ジャングラー](/monsters/feralslime) | レア | スライム | 23 | 14 | 通常のバイオーム全域 |
-| [どくやずきん](/monsters/dokuyazukin) | レア | 悪魔 | 84 | 85 | 毒の大湿地・ネザー |
-| [マタンゴ](/monsters/matango) | レア | 自然 | 90 | 91 | おばけキノコの森・ネザー |
-| [さんぞくウーパー](/monsters/sanzokuupa) | レア | 自然 | 90 | 95 | 通常のバイオーム全域 |
-| [チェリースライム](/monsters/cherryslime) | レア | スライム | 158 | 110 | 通常のバイオーム全域 |
-| [スカルゴン](/monsters/skalgon) | レア | ドラゴン | 175 | 145 | 通常のバイオーム全域 |
+| [バブルスライム](/monsters/bubsura) | 通常 | [スライム](/species/slime) | 12 | 6 | スライム湿原 |
+| [じんめんちょう](/monsters/zinmentyou) | レア | [自然](/species/sizen) | 15 | 9 | キメラの断崖 |
+| [はなまきドラゴ](/monsters/hanamakidrago) | レア | [ドラゴン](/species/dragon) | 32 | 11 | 通常のバイオーム全域 |
+| [かぼちゃの騎士](/monsters/kabochanokisi) | レア | [ゾンビ](/species/zombie) | 26 | 14 | 通常のバイオーム全域 |
+| [ジャングラー](/monsters/feralslime) | レア | [スライム](/species/slime) | 23 | 14 | 通常のバイオーム全域 |
+| [どくやずきん](/monsters/dokuyazukin) | レア | [悪魔](/species/akuma) | 84 | 85 | 毒の大湿地・ネザー |
+| [マタンゴ](/monsters/matango) | レア | [自然](/species/sizen) | 90 | 91 | おばけキノコの森・ネザー |
+| [さんぞくウーパー](/monsters/sanzokuupa) | レア | [自然](/species/sizen) | 90 | 95 | 通常のバイオーム全域 |
+| [チェリースライム](/monsters/cherryslime) | レア | [スライム](/species/slime) | 158 | 110 | 通常のバイオーム全域 |
+| [スカルゴン](/monsters/skalgon) | レア | [ドラゴン](/species/dragon) | 175 | 145 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -34,6 +34,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

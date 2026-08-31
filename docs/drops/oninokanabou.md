@@ -28,7 +28,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ボストロール](/monsters/bosutororu) | 超レア | 悪魔 | 1,384 | 373 | 魔王の焦土 |
+| [ボストロール](/monsters/bosutororu) | 超レア | [悪魔](/species/akuma) | 1,384 | 373 | 魔王の焦土 |
 
 見出しを押すと並べ替えできます。
 
@@ -36,6 +36,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

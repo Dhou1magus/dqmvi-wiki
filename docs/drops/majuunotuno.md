@@ -17,12 +17,12 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [アルミラージ](/monsters/arumiraji) | 通常 | 魔獣 | 59 | 47 | 黄金の砂漠 |
-| [デザートデーモン](/monsters/dezatodemon) | 通常 | 悪魔 | 80 | 70 | 通常のバイオーム全域 |
-| [ブラウニー](/monsters/burauni) | 通常 | 魔獣 | 75 | 93 | 通常のバイオーム全域 |
-| [アカツキショウグン](/monsters/akatsuki_shogun) | 通常 | ドラゴン | 212 | 184 | 通常のバイオーム全域 |
-| [ドラゴン](/monsters/dqmdragon) | 通常 | ドラゴン | 220 | 200 | ドラゴン火山帯・ネザー |
-| [ビッグハンマー](/monsters/bighanma) | 通常 | 魔獣 | 402 | 248 | 通常のバイオーム全域 |
+| [アルミラージ](/monsters/arumiraji) | 通常 | [魔獣](/species/majyu) | 59 | 47 | 黄金の砂漠 |
+| [デザートデーモン](/monsters/dezatodemon) | 通常 | [悪魔](/species/akuma) | 80 | 70 | 通常のバイオーム全域 |
+| [ブラウニー](/monsters/burauni) | 通常 | [魔獣](/species/majyu) | 75 | 93 | 通常のバイオーム全域 |
+| [アカツキショウグン](/monsters/akatsuki_shogun) | 通常 | [ドラゴン](/species/dragon) | 212 | 184 | 通常のバイオーム全域 |
+| [ドラゴン](/monsters/dqmdragon) | 通常 | [ドラゴン](/species/dragon) | 220 | 200 | ドラゴン火山帯・ネザー |
+| [ビッグハンマー](/monsters/bighanma) | 通常 | [魔獣](/species/majyu) | 402 | 248 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -30,6 +30,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

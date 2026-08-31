@@ -17,21 +17,21 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [メタルライダー](/monsters/metaruraida) | 通常 | スライム | 469 | 269 | 通常のバイオーム全域 |
-| [メタルスコーピオン](/monsters/metarusukopion) | 通常 | 自然 | 555 | 288 | 通常のバイオーム全域 |
-| [ホタテワラビー](/monsters/hotatewarabi) | 通常 | 魔獣 | 880 | 314 | 通常のバイオーム全域 |
-| [マッソ](/monsters/masso) | 通常 | ドラゴン | 1,860 | 705 | 通常のバイオーム全域 |
-| [ダークトロル](/monsters/darktororu) | 通常 | 悪魔 | 2,700 | 788 | 魔王の焦土 |
-| [黒怨王](/monsters/kokuenou) | レア | ゾンビ | 495 | 244 | 通常のバイオーム全域 |
-| [ヘルプラネット](/monsters/herupuranetto) | レア | 物質 | 459 | 263 | 通常のバイオーム全域 |
-| [ギガデーモン](/monsters/gugademon) | レア | ドラゴン | 601 | 305 | 通常のバイオーム全域 |
-| [メタルクラッシャー](/monsters/metarukurassya) | レア | 物質 | 555 | 311 | 通常のバイオーム全域 |
-| [ドラゴンソルジャー](/monsters/doragonsoruja) | レア | ドラゴン | 1,980 | 681 | ドラゴン火山帯・果ての世界 |
-| [キラーマシーン](/monsters/kiramasin) | レア | 物質 | 1,950 | 706 | 果ての世界 |
-| [シルバーマント](/monsters/sirubamanto) | レア | ゾンビ | 1,875 | 709 | 通常のバイオーム全域 |
-| [コロネホワイト](/monsters/pastypastry) | 超レア | スライム | 193 | 148 | 通常のバイオーム全域 |
-| [ベビーパンサー](/monsters/kirapan) | 超レア | 魔獣 | 168 | 160 | 通常のバイオーム全域 |
-| [モビルボディ](/monsters/mobirubodexi) | 超レア | 物質 | 199 | 165 | 通常のバイオーム全域 |
+| [メタルライダー](/monsters/metaruraida) | 通常 | [スライム](/species/slime) | 469 | 269 | 通常のバイオーム全域 |
+| [メタルスコーピオン](/monsters/metarusukopion) | 通常 | [自然](/species/sizen) | 555 | 288 | 通常のバイオーム全域 |
+| [ホタテワラビー](/monsters/hotatewarabi) | 通常 | [魔獣](/species/majyu) | 880 | 314 | 通常のバイオーム全域 |
+| [マッソ](/monsters/masso) | 通常 | [ドラゴン](/species/dragon) | 1,860 | 705 | 通常のバイオーム全域 |
+| [ダークトロル](/monsters/darktororu) | 通常 | [悪魔](/species/akuma) | 2,700 | 788 | 魔王の焦土 |
+| [黒怨王](/monsters/kokuenou) | レア | [ゾンビ](/species/zombie) | 495 | 244 | 通常のバイオーム全域 |
+| [ヘルプラネット](/monsters/herupuranetto) | レア | [物質](/species/bussitu) | 459 | 263 | 通常のバイオーム全域 |
+| [ギガデーモン](/monsters/gugademon) | レア | [ドラゴン](/species/dragon) | 601 | 305 | 通常のバイオーム全域 |
+| [メタルクラッシャー](/monsters/metarukurassya) | レア | [物質](/species/bussitu) | 555 | 311 | 通常のバイオーム全域 |
+| [ドラゴンソルジャー](/monsters/doragonsoruja) | レア | [ドラゴン](/species/dragon) | 1,980 | 681 | ドラゴン火山帯・果ての世界 |
+| [キラーマシーン](/monsters/kiramasin) | レア | [物質](/species/bussitu) | 1,950 | 706 | 果ての世界 |
+| [シルバーマント](/monsters/sirubamanto) | レア | [ゾンビ](/species/zombie) | 1,875 | 709 | 通常のバイオーム全域 |
+| [コロネホワイト](/monsters/pastypastry) | 超レア | [スライム](/species/slime) | 193 | 148 | 通常のバイオーム全域 |
+| [ベビーパンサー](/monsters/kirapan) | 超レア | [魔獣](/species/majyu) | 168 | 160 | 通常のバイオーム全域 |
+| [モビルボディ](/monsters/mobirubodexi) | 超レア | [物質](/species/bussitu) | 199 | 165 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

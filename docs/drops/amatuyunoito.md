@@ -17,18 +17,18 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [マクロベータ](/monsters/makurobeta) | 通常 | ゾンビ | 1,322 | 453 | 通常のバイオーム全域 |
-| [ニードルうさこ](/monsters/ni_doruusako) | 通常 | 物質 | 1,389 | 459 | 通常のバイオーム全域 |
-| [ほうおう](/monsters/houou) | 通常 | 魔獣 | 1,809 | 588 | 通常のバイオーム全域 |
-| [ダースギズモ](/monsters/dgizumo) | 通常 | 物質 | 1,785 | 593 | 通常のバイオーム全域 |
-| [エルダースライム](/monsters/elderslime) | レア | スライム | 1,548 | 428 | 通常のバイオーム全域 |
-| [マスタースライム](/monsters/masterslime) | レア | スライム | 1,130 | 435 | 通常のバイオーム全域 |
-| [ホタテワラビー](/monsters/hotatewarabi) | 超レア | 魔獣 | 880 | 314 | 通常のバイオーム全域 |
-| [メイジももんじゃ](/monsters/magemomonja) | 超レア | 魔獣 | 984 | 324 | 妖精の花畑 |
-| [デスニャーゴ](/monsters/desunyago) | 超レア | 魔獣 | 896 | 344 | 黄金の砂漠・果ての世界 |
-| [ドーラー](/monsters/dora) | 超レア | 物質 | 1,256 | 422 | 通常のバイオーム全域 |
-| [ソーラー](/monsters/sora) | 超レア | 物質 | 1,256 | 422 | 通常のバイオーム全域 |
-| [ゴールデンドラゴン](/monsters/goldendragon) | 超レア | ドラゴン | 1,319 | 496 | 通常のバイオーム全域 |
+| [マクロベータ](/monsters/makurobeta) | 通常 | [ゾンビ](/species/zombie) | 1,322 | 453 | 通常のバイオーム全域 |
+| [ニードルうさこ](/monsters/ni_doruusako) | 通常 | [物質](/species/bussitu) | 1,389 | 459 | 通常のバイオーム全域 |
+| [ほうおう](/monsters/houou) | 通常 | [魔獣](/species/majyu) | 1,809 | 588 | 通常のバイオーム全域 |
+| [ダースギズモ](/monsters/dgizumo) | 通常 | [物質](/species/bussitu) | 1,785 | 593 | 通常のバイオーム全域 |
+| [エルダースライム](/monsters/elderslime) | レア | [スライム](/species/slime) | 1,548 | 428 | 通常のバイオーム全域 |
+| [マスタースライム](/monsters/masterslime) | レア | [スライム](/species/slime) | 1,130 | 435 | 通常のバイオーム全域 |
+| [ホタテワラビー](/monsters/hotatewarabi) | 超レア | [魔獣](/species/majyu) | 880 | 314 | 通常のバイオーム全域 |
+| [メイジももんじゃ](/monsters/magemomonja) | 超レア | [魔獣](/species/majyu) | 984 | 324 | 妖精の花畑 |
+| [デスニャーゴ](/monsters/desunyago) | 超レア | [魔獣](/species/majyu) | 896 | 344 | 黄金の砂漠・果ての世界 |
+| [ドーラー](/monsters/dora) | 超レア | [物質](/species/bussitu) | 1,256 | 422 | 通常のバイオーム全域 |
+| [ソーラー](/monsters/sora) | 超レア | [物質](/species/bussitu) | 1,256 | 422 | 通常のバイオーム全域 |
+| [ゴールデンドラゴン](/monsters/goldendragon) | 超レア | [ドラゴン](/species/dragon) | 1,319 | 496 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -36,6 +36,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

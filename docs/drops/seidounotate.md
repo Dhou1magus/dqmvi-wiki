@@ -29,7 +29,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [シールドこぞう](/monsters/sirudokozou) | 超レア | 物質 | 40 | 51 | 通常のバイオーム全域 |
+| [シールドこぞう](/monsters/sirudokozou) | 超レア | [物質](/species/bussitu) | 40 | 51 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -37,6 +37,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

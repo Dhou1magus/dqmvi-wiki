@@ -17,13 +17,13 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [モーモン](/monsters/momon) | 通常 | 悪魔 | 12 | 5 | タマゴロン草原・妖精の花畑 |
-| [ギズモ2](/monsters/gizumo) | 通常 | 物質 | 22 | 12 | ゴーレム岩石遺跡 |
-| [スノーモン](/monsters/sunomon) | 通常 | 悪魔 | 36 | 36 | 氷結のトゲ平原 |
-| [いっかくうさぎ](/monsters/ikkakuusagi) | レア | 魔獣 | 18 | 11 | タマゴロン草原・氷結のトゲ平原 |
-| [ギズモ1](/monsters/gizumo_az) | レア | 物質 | 22 | 12 | 通常のバイオーム全域 |
-| [ももんじゃ](/monsters/momonja) | レア | 魔獣 | 23 | 16 | タマゴロン草原 |
-| [マポレーナ](/monsters/maporena) | レア | 悪魔 | 343 | 212 | 妖精の花畑 |
+| [モーモン](/monsters/momon) | 通常 | [悪魔](/species/akuma) | 12 | 5 | タマゴロン草原・妖精の花畑 |
+| [ギズモ2](/monsters/gizumo) | 通常 | [物質](/species/bussitu) | 22 | 12 | ゴーレム岩石遺跡 |
+| [スノーモン](/monsters/sunomon) | 通常 | [悪魔](/species/akuma) | 36 | 36 | 氷結のトゲ平原 |
+| [いっかくうさぎ](/monsters/ikkakuusagi) | レア | [魔獣](/species/majyu) | 18 | 11 | タマゴロン草原・氷結のトゲ平原 |
+| [ギズモ1](/monsters/gizumo_az) | レア | [物質](/species/bussitu) | 22 | 12 | 通常のバイオーム全域 |
+| [ももんじゃ](/monsters/momonja) | レア | [魔獣](/species/majyu) | 23 | 16 | タマゴロン草原 |
+| [マポレーナ](/monsters/maporena) | レア | [悪魔](/species/akuma) | 343 | 212 | 妖精の花畑 |
 
 見出しを押すと並べ替えできます。
 
@@ -31,6 +31,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

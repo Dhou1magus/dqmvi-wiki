@@ -97,6 +97,19 @@ const DROPPED = new Set()
   }
 }
 const dropSlug = (key) => key.replace(/^minecraft:/, 'mc_').replace(/[^A-Za-z0-9_]/g, '_')
+/**
+ * 「ドラゴン系に2倍のダメージ」のような効果から、その系統の一覧に繋ぐ。
+ * ★scripts/gen-monster-pages.mjs の SPECIES_SLUG と同じ対応表。片方だけ直さないこと。
+ */
+const SPECIES_SLUG = new Map([
+  ['スライム', 'slime'], ['ドラゴン', 'dragon'], ['悪魔', 'akuma'], ['ゾンビ', 'zombie'],
+  ['魔獣', 'majyu'], ['自然', 'sizen'], ['物質', 'bussitu'], ['メタル', 'metal'], ['特殊', 'tokusyu']
+])
+function withSpeciesLink(text) {
+  if (!text) return '—'
+  return String(text).replace(/(スライム|ドラゴン|悪魔|ゾンビ|魔獣|自然|物質|メタル)系/g,
+    (m, name) => `[${m}](/species/${SPECIES_SLUG.get(name)})`)
+}
 /** 装備の名前。モンスターから手に入るものはリンクにする */
 const itemLink = (i) => (DROPPED.has(i.key) ? `[${i.name}](/drops/${dropSlug(i.key)})` : i.name)
 
@@ -180,7 +193,7 @@ const SHAPE = {
   武器: {
     head: ['武器', 'こうげき', '攻撃倍率', '特殊効果'],
     align: ['---', '---:', '---:', '---'],
-    row: (i, d) => [itemLink(i), int(d.こうげき), mul(d.攻撃倍率), d.特殊効果 ?? '—'],
+    row: (i, d) => [itemLink(i), int(d.こうげき), mul(d.攻撃倍率), withSpeciesLink(d.特殊効果)],
     of: (key) => STATS.weapons[key] ?? {}
   },
   防具: {
@@ -188,21 +201,21 @@ const SHAPE = {
     align: ['---', ':--:', '---:', '---:', '---', '---'],
     row: (i, d) => [itemLink(i), d.部位 ?? '—', mul(d.しゅび), mul(d.魔法しゅび),
                     ['こうげき', 'HP', 'MP'].filter((k) => d[k]).map((k) => `${k} ${mul(d[k])}`).join('・') || '—',
-                    d.特殊効果 ?? '—'],
+                    withSpeciesLink(d.特殊効果)],
     of: (key) => STATS.armor[key] ?? {}
   },
   盾: {
     head: ['盾', 'しゅび', '魔法しゅび', '構え中', '適正職業', '特殊効果'],
     align: ['---', '---:', '---:', '---:', '---', '---'],
     row: (i, d) => [itemLink(i), mul(d.しゅび), mul(d.魔法しゅび), mul(d.構え中),
-                    jobList(d.職業), d.特殊効果 ?? '—'],
+                    jobList(d.職業), withSpeciesLink(d.特殊効果)],
     of: (key) => STATS.shields[key] ?? {}
   },
   アクセサリー: {
     head: ['アクセサリー', 'HP', 'MP', 'こうげき', 'しゅび', '魔法しゅび', 'まりょく', '特殊効果'],
     align: ['---', '---:', '---:', '---:', '---:', '---:', '---:', '---'],
     row: (i, d) => [itemLink(i), ...['HP', 'MP', 'こうげき', 'しゅび', '魔法しゅび', 'まりょく']
-      .map((k) => (d[k] ? mul(d[k]) : '—')), d.特殊効果 ?? '—'],
+      .map((k) => (d[k] ? mul(d[k]) : '—')), withSpeciesLink(d.特殊効果)],
     of: (key) => STATS.accessories[key] ?? {}
   }
 }

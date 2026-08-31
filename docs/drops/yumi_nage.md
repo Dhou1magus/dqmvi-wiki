@@ -17,9 +17,9 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [アカイライ](/monsters/akairai) | 超レア | 自然 | 1,650 | 646 | キメラの断崖 |
-| [クイーンスライム](/monsters/kuinsuraimu) | 超レア | スライム | 2,025 | 648 | 妖精の花畑 |
-| [魔天海フォルネー](/monsters/matenkaiforney) | 超レア | 自然 | 1,995 | 777 | 通常のバイオーム全域 |
+| [アカイライ](/monsters/akairai) | 超レア | [自然](/species/sizen) | 1,650 | 646 | キメラの断崖 |
+| [クイーンスライム](/monsters/kuinsuraimu) | 超レア | [スライム](/species/slime) | 2,025 | 648 | 妖精の花畑 |
+| [魔天海フォルネー](/monsters/matenkaiforney) | 超レア | [自然](/species/sizen) | 1,995 | 777 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -27,6 +27,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,11 +17,11 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ひょうがまじん](/monsters/hyouganmajin) | 通常 | 物質 | 105 | 98 | 氷結のトゲ平原 |
-| [ひょうけつのきし](/monsters/hyouketunokisi) | 通常 | 悪魔 | 230 | 262 | 氷結のトゲ平原 |
-| [フロストギズモ1](/monsters/fgizumo) | レア | 物質 | 78 | 83 | 通常のバイオーム全域 |
-| [パンドラチェスト](/monsters/tansu_pandora) | レア | 物質 | 99 | 90 | ミミックの宝物窟 |
-| [レッドマーマン](/monsters/redmerman) | レア | 自然 | 145 | 102 | 通常のバイオーム全域 |
+| [ひょうがまじん](/monsters/hyouganmajin) | 通常 | [物質](/species/bussitu) | 105 | 98 | 氷結のトゲ平原 |
+| [ひょうけつのきし](/monsters/hyouketunokisi) | 通常 | [悪魔](/species/akuma) | 230 | 262 | 氷結のトゲ平原 |
+| [フロストギズモ1](/monsters/fgizumo) | レア | [物質](/species/bussitu) | 78 | 83 | 通常のバイオーム全域 |
+| [パンドラチェスト](/monsters/tansu_pandora) | レア | [物質](/species/bussitu) | 99 | 90 | ミミックの宝物窟 |
+| [レッドマーマン](/monsters/redmerman) | レア | [自然](/species/sizen) | 145 | 102 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -29,6 +29,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

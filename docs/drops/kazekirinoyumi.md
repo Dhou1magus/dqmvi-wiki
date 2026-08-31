@@ -28,9 +28,9 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [グール](/monsters/guru) | 超レア | ゾンビ | 180 | 142 | 通常のバイオーム全域 |
-| [アローインプ](/monsters/aroinpu) | 超レア | 悪魔 | 178 | 154 | 通常のバイオーム全域 |
-| [ディアブラダ](/monsters/dexiaburada) | 超レア | 悪魔 | 161 | 156 | 通常のバイオーム全域 |
+| [グール](/monsters/guru) | 超レア | [ゾンビ](/species/zombie) | 180 | 142 | 通常のバイオーム全域 |
+| [アローインプ](/monsters/aroinpu) | 超レア | [悪魔](/species/akuma) | 178 | 154 | 通常のバイオーム全域 |
+| [ディアブラダ](/monsters/dexiaburada) | 超レア | [悪魔](/species/akuma) | 161 | 156 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -38,6 +38,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

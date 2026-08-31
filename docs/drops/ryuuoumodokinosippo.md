@@ -28,7 +28,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [りゅうおうもどき](/monsters/ryuuoumodoki) | 通常 | ドラゴン | 29,041 | 34,890 | 通常のバイオーム全域 |
+| [りゅうおうもどき](/monsters/ryuuoumodoki) | 通常 | [ドラゴン](/species/dragon) | 29,041 | 34,890 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -36,6 +36,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

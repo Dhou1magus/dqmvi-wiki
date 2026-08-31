@@ -17,21 +17,21 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [とげぼうず](/monsters/togebouzu) | 通常 | 物質 | 13 | 7 | ゴーレム岩石遺跡 |
-| [ビーンファイター](/monsters/binfaita) | 通常 | 自然 | 15 | 9 | 通常のバイオーム全域 |
-| [ナスビナーラ](/monsters/nasubira) | 通常 | 自然 | 21 | 11 | おばけキノコの森 |
-| [サボテンボール](/monsters/sabotenboru) | 通常 | 自然 | 23 | 12 | 黄金の砂漠 |
-| [マッシュスライム](/monsters/slimeshroom) | 通常 | スライム | 22 | 12 | 通常のバイオーム全域 |
-| [まほうつかい](/monsters/magician) | 通常 | 悪魔 | 15 | 13 | 通常のバイオーム全域 |
-| [きりかぶおばけ](/monsters/kirikabuobake) | 通常 | 自然 | 40 | 41 | タマゴロン草原・おばけキノコの森 |
-| [ズッキーニャ](/monsters/zukkinya) | レア | 自然 | 11 | 5 | タマゴロン草原 |
-| [バブルスライム](/monsters/bubsura) | レア | スライム | 12 | 6 | スライム湿原 |
-| [ライムスライム](/monsters/raimusuraimu) | レア | スライム | 18 | 11 | スライム湿原 |
-| [ファーラット](/monsters/faratto) | レア | 魔獣 | 24 | 11 | 氷結のトゲ平原 |
-| [スキッパー](/monsters/sukippaa) | レア | 悪魔 | 28 | 15 | 通常のバイオーム全域 |
-| [ゴースト](/monsters/ghost) | レア | ゾンビ | 39 | 35 | ゴースト霧森 |
-| [スピニー](/monsters/supini) | レア | 物質 | 72 | 75 | 通常のバイオーム全域 |
-| [石炭つむり](/monsters/coalslime) | レア | スライム | 150 | 110 | 通常のバイオーム全域 |
+| [とげぼうず](/monsters/togebouzu) | 通常 | [物質](/species/bussitu) | 13 | 7 | ゴーレム岩石遺跡 |
+| [ビーンファイター](/monsters/binfaita) | 通常 | [自然](/species/sizen) | 15 | 9 | 通常のバイオーム全域 |
+| [ナスビナーラ](/monsters/nasubira) | 通常 | [自然](/species/sizen) | 21 | 11 | おばけキノコの森 |
+| [サボテンボール](/monsters/sabotenboru) | 通常 | [自然](/species/sizen) | 23 | 12 | 黄金の砂漠 |
+| [マッシュスライム](/monsters/slimeshroom) | 通常 | [スライム](/species/slime) | 22 | 12 | 通常のバイオーム全域 |
+| [まほうつかい](/monsters/magician) | 通常 | [悪魔](/species/akuma) | 15 | 13 | 通常のバイオーム全域 |
+| [きりかぶおばけ](/monsters/kirikabuobake) | 通常 | [自然](/species/sizen) | 40 | 41 | タマゴロン草原・おばけキノコの森 |
+| [ズッキーニャ](/monsters/zukkinya) | レア | [自然](/species/sizen) | 11 | 5 | タマゴロン草原 |
+| [バブルスライム](/monsters/bubsura) | レア | [スライム](/species/slime) | 12 | 6 | スライム湿原 |
+| [ライムスライム](/monsters/raimusuraimu) | レア | [スライム](/species/slime) | 18 | 11 | スライム湿原 |
+| [ファーラット](/monsters/faratto) | レア | [魔獣](/species/majyu) | 24 | 11 | 氷結のトゲ平原 |
+| [スキッパー](/monsters/sukippaa) | レア | [悪魔](/species/akuma) | 28 | 15 | 通常のバイオーム全域 |
+| [ゴースト](/monsters/ghost) | レア | [ゾンビ](/species/zombie) | 39 | 35 | ゴースト霧森 |
+| [スピニー](/monsters/supini) | レア | [物質](/species/bussitu) | 72 | 75 | 通常のバイオーム全域 |
+| [石炭つむり](/monsters/coalslime) | レア | [スライム](/species/slime) | 150 | 110 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,16 +17,16 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [トロルキング](/monsters/tororuking) | 通常 | 悪魔 | 3,150 | 867 | 通常のバイオーム全域 |
-| [スラ・ブラスター](/monsters/slimeblaster) | レア | スライム | 1,790 | 632 | 通常のバイオーム全域 |
-| [ヘルガーディアン](/monsters/herugadexian) | レア | 悪魔 | 2,350 | 711 | 通常のバイオーム全域 |
-| [パンドラボックス](/monsters/pandorabox) | レア | 物質 | 2,100 | 726 | ミミックの宝物窟 |
-| [トロルボンバー](/monsters/tororubonba) | レア | 悪魔 | 2,625 | 752 | 果ての世界 |
-| [ギガンテス](/monsters/gigantesu) | レア | 悪魔 | 2,655 | 766 | 通常のバイオーム全域 |
-| [ドラゴンダーク](/monsters/dragondarknaito) | レア | ドラゴン | 2,850 | 819 | ドラゴン火山帯 |
-| [ガメゴンレジェンド](/monsters/gamegonrejendo) | レア | ドラゴン | 2,700 | 822 | 海 |
-| [デスマーキュリー](/monsters/desumakyuri) | レア | 物質 | 2,777 | 900 | 通常のバイオーム全域 |
-| [ブラックドラゴン](/monsters/blackdoragon) | レア | ドラゴン | 3,124 | 1,033 | 果ての世界 |
+| [トロルキング](/monsters/tororuking) | 通常 | [悪魔](/species/akuma) | 3,150 | 867 | 通常のバイオーム全域 |
+| [スラ・ブラスター](/monsters/slimeblaster) | レア | [スライム](/species/slime) | 1,790 | 632 | 通常のバイオーム全域 |
+| [ヘルガーディアン](/monsters/herugadexian) | レア | [悪魔](/species/akuma) | 2,350 | 711 | 通常のバイオーム全域 |
+| [パンドラボックス](/monsters/pandorabox) | レア | [物質](/species/bussitu) | 2,100 | 726 | ミミックの宝物窟 |
+| [トロルボンバー](/monsters/tororubonba) | レア | [悪魔](/species/akuma) | 2,625 | 752 | 果ての世界 |
+| [ギガンテス](/monsters/gigantesu) | レア | [悪魔](/species/akuma) | 2,655 | 766 | 通常のバイオーム全域 |
+| [ドラゴンダーク](/monsters/dragondarknaito) | レア | [ドラゴン](/species/dragon) | 2,850 | 819 | ドラゴン火山帯 |
+| [ガメゴンレジェンド](/monsters/gamegonrejendo) | レア | [ドラゴン](/species/dragon) | 2,700 | 822 | 海 |
+| [デスマーキュリー](/monsters/desumakyuri) | レア | [物質](/species/bussitu) | 2,777 | 900 | 通常のバイオーム全域 |
+| [ブラックドラゴン](/monsters/blackdoragon) | レア | [ドラゴン](/species/dragon) | 3,124 | 1,033 | 果ての世界 |
 
 見出しを押すと並べ替えできます。
 
@@ -34,6 +34,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

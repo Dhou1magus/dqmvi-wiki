@@ -17,15 +17,15 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [メガザルロック](/monsters/megazarurokku) | 超レア | 物質 | 896 | 340 | ゴーレム岩石遺跡 |
-| [じごくのハサミ](/monsters/jigokunohasami) | 超レア | 自然 | 1,024 | 346 | 沈没魔物海・海 |
-| [ポムポムボム](/monsters/pombom) | 超レア | ゾンビ | 968 | 382 | 妖精の花畑・果ての世界 |
-| [エクソダス](/monsters/ekusodasu) | 超レア | ゾンビ | 1,098 | 426 | 果ての世界 |
-| [ろうごくのぬし](/monsters/rougokunonusi) | 超レア | ゾンビ | 1,455 | 444 | 通常のバイオーム全域 |
-| [ベリアル](/monsters/beriaru) | 超レア | 悪魔 | 1,550 | 450 | 通常のバイオーム全域 |
-| [ニードルうさこ](/monsters/ni_doruusako) | 超レア | 物質 | 1,389 | 459 | 通常のバイオーム全域 |
-| [キングレオⅡ](/monsters/kingreo2) | 超レア | 魔獣 | 1,440 | 482 | 果ての世界 |
-| [グレートジンガー](/monsters/guretosinga) | 超レア | 物質 | 1,600 | 600 | 通常のバイオーム全域 |
+| [メガザルロック](/monsters/megazarurokku) | 超レア | [物質](/species/bussitu) | 896 | 340 | ゴーレム岩石遺跡 |
+| [じごくのハサミ](/monsters/jigokunohasami) | 超レア | [自然](/species/sizen) | 1,024 | 346 | 沈没魔物海・海 |
+| [ポムポムボム](/monsters/pombom) | 超レア | [ゾンビ](/species/zombie) | 968 | 382 | 妖精の花畑・果ての世界 |
+| [エクソダス](/monsters/ekusodasu) | 超レア | [ゾンビ](/species/zombie) | 1,098 | 426 | 果ての世界 |
+| [ろうごくのぬし](/monsters/rougokunonusi) | 超レア | [ゾンビ](/species/zombie) | 1,455 | 444 | 通常のバイオーム全域 |
+| [ベリアル](/monsters/beriaru) | 超レア | [悪魔](/species/akuma) | 1,550 | 450 | 通常のバイオーム全域 |
+| [ニードルうさこ](/monsters/ni_doruusako) | 超レア | [物質](/species/bussitu) | 1,389 | 459 | 通常のバイオーム全域 |
+| [キングレオⅡ](/monsters/kingreo2) | 超レア | [魔獣](/species/majyu) | 1,440 | 482 | 果ての世界 |
+| [グレートジンガー](/monsters/guretosinga) | 超レア | [物質](/species/bussitu) | 1,600 | 600 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -33,6 +33,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -49,7 +49,7 @@ const cats = [
       { t: '魔王・ボス 17体', link: '/bosses/', wide: true },
       { t: '出現場所から探す', link: '/biomes/', wide: true },
       { t: 'ドロップ品から探す 223種', link: '/drops/', wide: true },
-      { t: '系統別' }
+      { t: '系統から探す 9系統', link: '/species/', wide: true }
     ]
   },
   {
@@ -103,7 +103,7 @@ const cats = [
     items: [
       { t: '装備を作る（目押し）', link: '/play/smithing', wide: true },
       { t: '品質と強化・分解', link: '/play/smithing', wide: true },
-      { t: 'レシピ一覧' }, { t: '素材の集め方' }
+      { t: 'レシピ一覧' }, { t: '素材の集め方', link: '/drops/' }
     ]
   },
   {
@@ -140,6 +140,7 @@ const cats = [
 ]
 
 const log = [
+  { d: '08-31', t: '系統から探すページを追加', link: '/species/', who: 'Claude' },
   { d: '08-31', t: 'ドロップ品からの逆引き 223種を追加', link: '/drops/', who: 'Claude' },
   { d: '08-31', t: 'MOD 0.25.84 に対応（モンスター7体・呪文の威力を更新）', link: '/monsters/', who: 'Claude' },
   { d: '08-31', t: '装備の攻撃力・倍率・特殊効果を追加', link: '/items/weapons', who: 'Claude' },

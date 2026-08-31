@@ -17,10 +17,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [スターキメラ](/monsters/starkimera) | レア | 自然 | 1,770 | 628 | 魔法の森・キメラの断崖 |
-| [デーモンソード](/monsters/demonsodo) | レア | ゾンビ | 2,222 | 867 | 果ての世界 |
-| [メイジキメラ](/monsters/meijikimera) | 超レア | 自然 | 186 | 168 | キメラの断崖 |
-| [キースドラゴン](/monsters/keethdragon2) | 超レア | ドラゴン | 205 | 178 | 通常のバイオーム全域 |
+| [スターキメラ](/monsters/starkimera) | レア | [自然](/species/sizen) | 1,770 | 628 | 魔法の森・キメラの断崖 |
+| [デーモンソード](/monsters/demonsodo) | レア | [ゾンビ](/species/zombie) | 2,222 | 867 | 果ての世界 |
+| [メイジキメラ](/monsters/meijikimera) | 超レア | [自然](/species/sizen) | 186 | 168 | キメラの断崖 |
+| [キースドラゴン](/monsters/keethdragon2) | 超レア | [ドラゴン](/species/dragon) | 205 | 178 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -28,6 +28,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

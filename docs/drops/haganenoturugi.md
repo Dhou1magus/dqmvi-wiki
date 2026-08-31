@@ -28,15 +28,15 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [どれいへいし](/monsters/doreiheisi) | 超レア | ゾンビ | 144 | 98 | 通常のバイオーム全域 |
-| [スライムナイト](/monsters/suraimunaito) | 超レア | スライム | 98 | 99 | 通常のバイオーム全域 |
-| [ボーンファイター](/monsters/bonfaita) | 超レア | ゾンビ | 146 | 107 | 通常のバイオーム全域 |
-| [プリンスライム](/monsters/puddingslime) | 超レア | スライム | 160 | 114 | 通常のバイオーム全域 |
-| [ガニラス](/monsters/ganiras2) | 超レア | 自然 | 135 | 115 | 通常のバイオーム全域 |
-| [スライムカルゴ](/monsters/snailslime) | 超レア | スライム | 159 | 117 | 沈没魔物海・海 |
-| [りゅうせんし](/monsters/mandrake_marauder) | 超レア | ドラゴン | 145 | 121 | 通常のバイオーム全域 |
-| [ベリースライム](/monsters/berryslime) | 超レア | スライム | 148 | 126 | 通常のバイオーム全域 |
-| [スライムダーク](/monsters/slime_dark) | 超レア | スライム | 162 | 129 | 通常のバイオーム全域 |
+| [どれいへいし](/monsters/doreiheisi) | 超レア | [ゾンビ](/species/zombie) | 144 | 98 | 通常のバイオーム全域 |
+| [スライムナイト](/monsters/suraimunaito) | 超レア | [スライム](/species/slime) | 98 | 99 | 通常のバイオーム全域 |
+| [ボーンファイター](/monsters/bonfaita) | 超レア | [ゾンビ](/species/zombie) | 146 | 107 | 通常のバイオーム全域 |
+| [プリンスライム](/monsters/puddingslime) | 超レア | [スライム](/species/slime) | 160 | 114 | 通常のバイオーム全域 |
+| [ガニラス](/monsters/ganiras2) | 超レア | [自然](/species/sizen) | 135 | 115 | 通常のバイオーム全域 |
+| [スライムカルゴ](/monsters/snailslime) | 超レア | [スライム](/species/slime) | 159 | 117 | 沈没魔物海・海 |
+| [りゅうせんし](/monsters/mandrake_marauder) | 超レア | [ドラゴン](/species/dragon) | 145 | 121 | 通常のバイオーム全域 |
+| [ベリースライム](/monsters/berryslime) | 超レア | [スライム](/species/slime) | 148 | 126 | 通常のバイオーム全域 |
+| [スライムダーク](/monsters/slime_dark) | 超レア | [スライム](/species/slime) | 162 | 129 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -44,6 +44,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

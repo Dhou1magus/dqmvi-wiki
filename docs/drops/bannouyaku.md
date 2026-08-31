@@ -17,10 +17,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [プヨンターゲット](/monsters/puyon) | レア | ゾンビ | 944 | 335 | 毒の大湿地 |
-| [ごくらくちょう](/monsters/gokurakuchou) | レア | 魔獣 | 969 | 353 | 通常のバイオーム全域 |
-| [きのみのせいれい](/monsters/kinominoseirei) | 超レア | スライム | 174 | 134 | 通常のバイオーム全域 |
-| [ヘルゴースト](/monsters/herughost) | 超レア | ゾンビ | 174 | 144 | ゴースト霧森 |
+| [プヨンターゲット](/monsters/puyon) | レア | [ゾンビ](/species/zombie) | 944 | 335 | 毒の大湿地 |
+| [ごくらくちょう](/monsters/gokurakuchou) | レア | [魔獣](/species/majyu) | 969 | 353 | 通常のバイオーム全域 |
+| [きのみのせいれい](/monsters/kinominoseirei) | 超レア | [スライム](/species/slime) | 174 | 134 | 通常のバイオーム全域 |
+| [ヘルゴースト](/monsters/herughost) | 超レア | [ゾンビ](/species/zombie) | 174 | 144 | ゴースト霧森 |
 
 見出しを押すと並べ替えできます。
 
@@ -28,6 +28,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,20 +17,20 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ベビーサタン](/monsters/bebisatan) | 通常 | 悪魔 | 50 | 38 | 通常のバイオーム全域 |
-| [メランザーナ](/monsters/meranzana) | 通常 | 自然 | 44 | 40 | おばけキノコの森 |
-| [ピクシー](/monsters/pikusi2) | 通常 | 悪魔 | 45 | 41 | 通常のバイオーム全域 |
-| [くしざしツインズ](/monsters/kusizasituinzu) | 通常 | 自然 | 63 | 55 | 通常のバイオーム全域 |
-| [スペクテット](/monsters/supekutetto) | 通常 | 悪魔 | 93 | 86 | 通常のバイオーム全域 |
-| [エビルスピリッツ](/monsters/evilspirits) | 通常 | ゾンビ | 95 | 110 | ネザー |
-| [ピンクモーモン](/monsters/pinkmomon) | レア | 悪魔 | 55 | 45 | 妖精の花畑 |
-| [のろいのランプ](/monsters/malevolantern) | レア | 物質 | 46 | 46 | 通常のバイオーム全域 |
-| [オベルジーヌ](/monsters/oberujinu) | レア | 自然 | 95 | 81 | おばけキノコの森 |
-| [グール](/monsters/guru) | レア | ゾンビ | 180 | 142 | 通常のバイオーム全域 |
-| [モビルヘッド](/monsters/mobiruheddo) | レア | 物質 | 134 | 142 | 通常のバイオーム全域 |
-| [アローインプ](/monsters/aroinpu) | レア | 悪魔 | 178 | 154 | 通常のバイオーム全域 |
-| [おにこぞう](/monsters/onikozou) | 超レア | 悪魔 | 18 | 11 | 通常のバイオーム全域 |
-| [おおめだま](/monsters/oomedama) | 超レア | 悪魔 | 45 | 39 | 通常のバイオーム全域 |
+| [ベビーサタン](/monsters/bebisatan) | 通常 | [悪魔](/species/akuma) | 50 | 38 | 通常のバイオーム全域 |
+| [メランザーナ](/monsters/meranzana) | 通常 | [自然](/species/sizen) | 44 | 40 | おばけキノコの森 |
+| [ピクシー](/monsters/pikusi2) | 通常 | [悪魔](/species/akuma) | 45 | 41 | 通常のバイオーム全域 |
+| [くしざしツインズ](/monsters/kusizasituinzu) | 通常 | [自然](/species/sizen) | 63 | 55 | 通常のバイオーム全域 |
+| [スペクテット](/monsters/supekutetto) | 通常 | [悪魔](/species/akuma) | 93 | 86 | 通常のバイオーム全域 |
+| [エビルスピリッツ](/monsters/evilspirits) | 通常 | [ゾンビ](/species/zombie) | 95 | 110 | ネザー |
+| [ピンクモーモン](/monsters/pinkmomon) | レア | [悪魔](/species/akuma) | 55 | 45 | 妖精の花畑 |
+| [のろいのランプ](/monsters/malevolantern) | レア | [物質](/species/bussitu) | 46 | 46 | 通常のバイオーム全域 |
+| [オベルジーヌ](/monsters/oberujinu) | レア | [自然](/species/sizen) | 95 | 81 | おばけキノコの森 |
+| [グール](/monsters/guru) | レア | [ゾンビ](/species/zombie) | 180 | 142 | 通常のバイオーム全域 |
+| [モビルヘッド](/monsters/mobiruheddo) | レア | [物質](/species/bussitu) | 134 | 142 | 通常のバイオーム全域 |
+| [アローインプ](/monsters/aroinpu) | レア | [悪魔](/species/akuma) | 178 | 154 | 通常のバイオーム全域 |
+| [おにこぞう](/monsters/onikozou) | 超レア | [悪魔](/species/akuma) | 18 | 11 | 通常のバイオーム全域 |
+| [おおめだま](/monsters/oomedama) | 超レア | [悪魔](/species/akuma) | 45 | 39 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -38,6 +38,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

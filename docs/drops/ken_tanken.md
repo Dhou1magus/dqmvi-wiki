@@ -17,10 +17,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [かげのきし](/monsters/kagenokisi) | 超レア | ゾンビ | 1,950 | 676 | 魔物の骨荒野・ゴースト霧森 |
-| [デンガー](/monsters/denga) | 超レア | スライム | 2,625 | 791 | 通常のバイオーム全域 |
-| [エンゼルアーマー](/monsters/enzeruaamaa) | 超レア | 物質 | 3,069 | 919 | 通常のバイオーム全域 |
-| [光の番人](/monsters/hikarinobannin) | 超レア | ドラゴン | 2,863 | 953 | 通常のバイオーム全域 |
+| [かげのきし](/monsters/kagenokisi) | 超レア | [ゾンビ](/species/zombie) | 1,950 | 676 | 魔物の骨荒野・ゴースト霧森 |
+| [デンガー](/monsters/denga) | 超レア | [スライム](/species/slime) | 2,625 | 791 | 通常のバイオーム全域 |
+| [エンゼルアーマー](/monsters/enzeruaamaa) | 超レア | [物質](/species/bussitu) | 3,069 | 919 | 通常のバイオーム全域 |
+| [光の番人](/monsters/hikarinobannin) | 超レア | [ドラゴン](/species/dragon) | 2,863 | 953 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -28,6 +28,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

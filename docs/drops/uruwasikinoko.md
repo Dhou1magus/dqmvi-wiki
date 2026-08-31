@@ -17,24 +17,24 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [あやしいかげ](/monsters/ayasiikage) | 通常 | 物質 | 42 | 44 | 通常のバイオーム全域 |
-| [もりもりベス](/monsters/beshemothslime) | 通常 | スライム | 78 | 86 | 通常のバイオーム全域 |
-| [マタンゴ](/monsters/matango) | 通常 | 自然 | 90 | 91 | おばけキノコの森・ネザー |
-| [ソイソルジャー](/monsters/soisoruja) | 通常 | 自然 | 88 | 92 | 通常のバイオーム全域 |
-| [さんぞくウーパー](/monsters/sanzokuupa) | 通常 | 自然 | 90 | 95 | 通常のバイオーム全域 |
-| [ホイップスライム](/monsters/whipslime) | 通常 | スライム | 151 | 108 | 通常のバイオーム全域 |
-| [グール](/monsters/guru) | 通常 | ゾンビ | 180 | 142 | 通常のバイオーム全域 |
-| [スカルゴン](/monsters/skalgon) | 通常 | ドラゴン | 175 | 145 | 通常のバイオーム全域 |
-| [アローインプ](/monsters/aroinpu) | 通常 | 悪魔 | 178 | 154 | 通常のバイオーム全域 |
-| [げんじゅつし](/monsters/genjutusi) | レア | 悪魔 | 75 | 72 | 魔法の森・ネザー |
-| [やみしばり](/monsters/yamishibari) | レア | ゾンビ | 82 | 93 | 通常のバイオーム全域 |
-| [シャイニング](/monsters/shainingu) | レア | 物質 | 105 | 96 | 通常のバイオーム全域 |
-| [しにがみ](/monsters/meanspirit) | レア | ゾンビ | 145 | 105 | 通常のバイオーム全域 |
-| [ヒートギズモ1](/monsters/hgizumo) | レア | 物質 | 490 | 248 | ネザー |
-| [だいおうキッズ](/monsters/daioukizzu) | レア | 自然 | 622 | 277 | 通常のバイオーム全域 |
-| [ゴーストベリー](/monsters/ghostberry) | レア | 物質 | 6,103 | 7,440 | 通常のバイオーム全域 |
-| [おばけきのこ](/monsters/obakekinoko) | 超レア | 自然 | 25 | 12 | おばけキノコの森 |
-| [つかいま](/monsters/tukaima) | 超レア | 悪魔 | 25 | 13 | 通常のバイオーム全域 |
+| [あやしいかげ](/monsters/ayasiikage) | 通常 | [物質](/species/bussitu) | 42 | 44 | 通常のバイオーム全域 |
+| [もりもりベス](/monsters/beshemothslime) | 通常 | [スライム](/species/slime) | 78 | 86 | 通常のバイオーム全域 |
+| [マタンゴ](/monsters/matango) | 通常 | [自然](/species/sizen) | 90 | 91 | おばけキノコの森・ネザー |
+| [ソイソルジャー](/monsters/soisoruja) | 通常 | [自然](/species/sizen) | 88 | 92 | 通常のバイオーム全域 |
+| [さんぞくウーパー](/monsters/sanzokuupa) | 通常 | [自然](/species/sizen) | 90 | 95 | 通常のバイオーム全域 |
+| [ホイップスライム](/monsters/whipslime) | 通常 | [スライム](/species/slime) | 151 | 108 | 通常のバイオーム全域 |
+| [グール](/monsters/guru) | 通常 | [ゾンビ](/species/zombie) | 180 | 142 | 通常のバイオーム全域 |
+| [スカルゴン](/monsters/skalgon) | 通常 | [ドラゴン](/species/dragon) | 175 | 145 | 通常のバイオーム全域 |
+| [アローインプ](/monsters/aroinpu) | 通常 | [悪魔](/species/akuma) | 178 | 154 | 通常のバイオーム全域 |
+| [げんじゅつし](/monsters/genjutusi) | レア | [悪魔](/species/akuma) | 75 | 72 | 魔法の森・ネザー |
+| [やみしばり](/monsters/yamishibari) | レア | [ゾンビ](/species/zombie) | 82 | 93 | 通常のバイオーム全域 |
+| [シャイニング](/monsters/shainingu) | レア | [物質](/species/bussitu) | 105 | 96 | 通常のバイオーム全域 |
+| [しにがみ](/monsters/meanspirit) | レア | [ゾンビ](/species/zombie) | 145 | 105 | 通常のバイオーム全域 |
+| [ヒートギズモ1](/monsters/hgizumo) | レア | [物質](/species/bussitu) | 490 | 248 | ネザー |
+| [だいおうキッズ](/monsters/daioukizzu) | レア | [自然](/species/sizen) | 622 | 277 | 通常のバイオーム全域 |
+| [ゴーストベリー](/monsters/ghostberry) | レア | [物質](/species/bussitu) | 6,103 | 7,440 | 通常のバイオーム全域 |
+| [おばけきのこ](/monsters/obakekinoko) | 超レア | [自然](/species/sizen) | 25 | 12 | おばけキノコの森 |
+| [つかいま](/monsters/tukaima) | 超レア | [悪魔](/species/akuma) | 25 | 13 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -42,6 +42,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

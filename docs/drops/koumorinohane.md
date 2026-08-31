@@ -17,12 +17,12 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ナイトウイプス](/monsters/naitouipusu) | 通常 | ゾンビ | 20 | 9 | 通常のバイオーム全域 |
-| [スキッパー](/monsters/sukippaa) | 通常 | 悪魔 | 28 | 15 | 通常のバイオーム全域 |
-| [キャタピラー](/monsters/caterpillar) | 通常 | 自然 | 24 | 15 | 通常のバイオーム全域 |
-| [ゆうれい](/monsters/spirit) | レア | ゾンビ | 16 | 11 | 通常のバイオーム全域 |
-| [ドラキー](/monsters/doraki) | レア | 悪魔 | 38 | 35 | キメラの断崖 |
-| [メイジドラキー](/monsters/meijidoraki) | レア | 悪魔 | 176 | 156 | 通常のバイオーム全域 |
+| [ナイトウイプス](/monsters/naitouipusu) | 通常 | [ゾンビ](/species/zombie) | 20 | 9 | 通常のバイオーム全域 |
+| [スキッパー](/monsters/sukippaa) | 通常 | [悪魔](/species/akuma) | 28 | 15 | 通常のバイオーム全域 |
+| [キャタピラー](/monsters/caterpillar) | 通常 | [自然](/species/sizen) | 24 | 15 | 通常のバイオーム全域 |
+| [ゆうれい](/monsters/spirit) | レア | [ゾンビ](/species/zombie) | 16 | 11 | 通常のバイオーム全域 |
+| [ドラキー](/monsters/doraki) | レア | [悪魔](/species/akuma) | 38 | 35 | キメラの断崖 |
+| [メイジドラキー](/monsters/meijidoraki) | レア | [悪魔](/species/akuma) | 176 | 156 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -30,6 +30,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

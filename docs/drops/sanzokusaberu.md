@@ -28,8 +28,8 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [がいこつ](/monsters/gaikotu) | 超レア | ゾンビ | 168 | 163 | 魔物の骨荒野・ネザー |
-| [しびれだんびら](/monsters/sibiredanbira) | 超レア | 物質 | 180 | 169 | ネザー |
+| [がいこつ](/monsters/gaikotu) | 超レア | [ゾンビ](/species/zombie) | 168 | 163 | 魔物の骨荒野・ネザー |
+| [しびれだんびら](/monsters/sibiredanbira) | 超レア | [物質](/species/bussitu) | 180 | 169 | ネザー |
 
 見出しを押すと並べ替えできます。
 
@@ -37,6 +37,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,16 +17,16 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [おおなめくじ](/monsters/oonamekuji) | 通常 | 自然 | 12 | 6 | 毒の大湿地 |
-| [ビッグハット](/monsters/bigguhatto) | 通常 | 魔獣 | 16 | 7 | タマゴロン草原 |
-| [びっくりサタン](/monsters/bikkurisatan) | レア | 悪魔 | 12 | 5 | 通常のバイオーム全域 |
-| [おばけきのこ](/monsters/obakekinoko) | レア | 自然 | 25 | 12 | おばけキノコの森 |
-| [ドロヌーバ](/monsters/doronuba) | レア | 自然 | 25 | 13 | 毒の大湿地 |
-| [マドハンド](/monsters/madohando) | レア | 物質 | 65 | 78 | ゴーレム岩石遺跡 |
-| [モコモコじゅう](/monsters/mokomokojuu) | レア | 魔獣 | 148 | 140 | 氷結のトゲ平原 |
-| [スモールグール](/monsters/sumoruguru) | レア | ゾンビ | 165 | 143 | 通常のバイオーム全域 |
-| [フェイスボール](/monsters/faceball) | レア | ゾンビ | 202 | 165 | ネザー |
-| [ヘルビートル](/monsters/fire_beatle) | レア | 自然 | 195 | 197 | 通常のバイオーム全域 |
+| [おおなめくじ](/monsters/oonamekuji) | 通常 | [自然](/species/sizen) | 12 | 6 | 毒の大湿地 |
+| [ビッグハット](/monsters/bigguhatto) | 通常 | [魔獣](/species/majyu) | 16 | 7 | タマゴロン草原 |
+| [びっくりサタン](/monsters/bikkurisatan) | レア | [悪魔](/species/akuma) | 12 | 5 | 通常のバイオーム全域 |
+| [おばけきのこ](/monsters/obakekinoko) | レア | [自然](/species/sizen) | 25 | 12 | おばけキノコの森 |
+| [ドロヌーバ](/monsters/doronuba) | レア | [自然](/species/sizen) | 25 | 13 | 毒の大湿地 |
+| [マドハンド](/monsters/madohando) | レア | [物質](/species/bussitu) | 65 | 78 | ゴーレム岩石遺跡 |
+| [モコモコじゅう](/monsters/mokomokojuu) | レア | [魔獣](/species/majyu) | 148 | 140 | 氷結のトゲ平原 |
+| [スモールグール](/monsters/sumoruguru) | レア | [ゾンビ](/species/zombie) | 165 | 143 | 通常のバイオーム全域 |
+| [フェイスボール](/monsters/faceball) | レア | [ゾンビ](/species/zombie) | 202 | 165 | ネザー |
+| [ヘルビートル](/monsters/fire_beatle) | レア | [自然](/species/sizen) | 195 | 197 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -34,6 +34,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

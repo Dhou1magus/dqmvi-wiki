@@ -20,7 +20,7 @@ pageClass: wide-page sortable-list
 | 種類 | 武器（剣） |
 | こうげき | 15 |
 | 攻撃倍率 | ×3.4 |
-| 特殊効果 | メタル系に2倍のダメージ |
+| 特殊効果 | [メタル系](/species/metal)に2倍のダメージ |
 
 倍率は、いまの能力に掛かる値です。
 
@@ -28,7 +28,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [はぐれメタル](/monsters/hagumeta) | 超レア | メタル | 13 | 10,500 | 通常のバイオーム全域 |
+| [はぐれメタル](/monsters/hagumeta) | 超レア | [メタル](/species/metal) | 13 | 10,500 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -36,6 +36,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

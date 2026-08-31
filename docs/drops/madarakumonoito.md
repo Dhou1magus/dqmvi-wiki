@@ -17,16 +17,16 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ギズモ1](/monsters/gizumo_az) | 通常 | 物質 | 22 | 12 | 通常のバイオーム全域 |
-| [フロストギズモ2](/monsters/furosutogizumo) | 通常 | 物質 | 82 | 82 | 氷結のトゲ平原 |
-| [ホロゴースト](/monsters/horoghost) | 通常 | 物質 | 182 | 141 | ゴースト霧森 |
-| [ボーンプリズナー](/monsters/bonpurizuna) | 通常 | ゾンビ | 232 | 172 | 通常のバイオーム全域 |
-| [ボーンナイト](/monsters/boneknight) | 通常 | ゾンビ | 192 | 183 | ネザー |
-| [ギズモ2](/monsters/gizumo) | レア | 物質 | 22 | 12 | ゴーレム岩石遺跡 |
-| [ドラゴスライム](/monsters/dragosuraimu) | レア | スライム | 36 | 35 | ドラゴン火山帯 |
-| [スライムアンノウン](/monsters/slimeunknown) | レア | 物質 | 60 | 51 | 通常のバイオーム全域 |
-| [ベロベロ](/monsters/berobero) | レア | ゾンビ | 80 | 82 | 毒の大湿地・ネザー |
-| [ドールマスター](/monsters/dollmaster) | レア | 特殊 | 371 | 216 | ミミックの宝物窟 |
+| [ギズモ1](/monsters/gizumo_az) | 通常 | [物質](/species/bussitu) | 22 | 12 | 通常のバイオーム全域 |
+| [フロストギズモ2](/monsters/furosutogizumo) | 通常 | [物質](/species/bussitu) | 82 | 82 | 氷結のトゲ平原 |
+| [ホロゴースト](/monsters/horoghost) | 通常 | [物質](/species/bussitu) | 182 | 141 | ゴースト霧森 |
+| [ボーンプリズナー](/monsters/bonpurizuna) | 通常 | [ゾンビ](/species/zombie) | 232 | 172 | 通常のバイオーム全域 |
+| [ボーンナイト](/monsters/boneknight) | 通常 | [ゾンビ](/species/zombie) | 192 | 183 | ネザー |
+| [ギズモ2](/monsters/gizumo) | レア | [物質](/species/bussitu) | 22 | 12 | ゴーレム岩石遺跡 |
+| [ドラゴスライム](/monsters/dragosuraimu) | レア | [スライム](/species/slime) | 36 | 35 | ドラゴン火山帯 |
+| [スライムアンノウン](/monsters/slimeunknown) | レア | [物質](/species/bussitu) | 60 | 51 | 通常のバイオーム全域 |
+| [ベロベロ](/monsters/berobero) | レア | [ゾンビ](/species/zombie) | 80 | 82 | 毒の大湿地・ネザー |
+| [ドールマスター](/monsters/dollmaster) | レア | [特殊](/species/tokusyu) | 371 | 216 | ミミックの宝物窟 |
 
 見出しを押すと並べ替えできます。
 
@@ -34,6 +34,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

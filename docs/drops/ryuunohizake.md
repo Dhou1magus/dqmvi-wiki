@@ -17,25 +17,25 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [じごくのざりがに](/monsters/jigokunozarigani) | 通常 | 自然 | 1,282 | 414 | 通常のバイオーム全域 |
-| [フーラー](/monsters/fura) | 通常 | 物質 | 1,400 | 466 | 通常のバイオーム全域 |
-| [キングレオⅡ](/monsters/kingreo2) | 通常 | 魔獣 | 1,440 | 482 | 果ての世界 |
-| [ドラゴントイズ](/monsters/doragontoizu) | 通常 | 物質 | 1,423 | 521 | 通常のバイオーム全域 |
-| [あくまのきし](/monsters/akumanokisi) | 通常 | 悪魔 | 1,521 | 542 | 果ての世界 |
-| [グレイトドラゴン](/monsters/gureitodoragon) | 通常 | ドラゴン | 1,550 | 550 | 通常のバイオーム全域 |
-| [ダークホビット](/monsters/dakuhobitto) | 通常 | 物質 | 1,725 | 678 | 通常のバイオーム全域 |
-| [謎のバケモノ](/monsters/nazonobakemono) | 通常 | ドラゴン | 2,853 | 994 | 通常のバイオーム全域 |
-| [どぐう戦士](/monsters/dgu_fighter) | レア | 物質 | 481 | 261 | 通常のバイオーム全域 |
-| [しにがみのきし](/monsters/sinigaminokisi) | レア | 悪魔 | 732 | 384 | ネザー |
-| [カラミティサン](/monsters/karamithisan) | レア | 物質 | 1,156 | 399 | 通常のバイオーム全域 |
-| [ホワイトジャッジ](/monsters/howaitojaji) | レア | ドラゴン | 1,600 | 461 | 通常のバイオーム全域 |
-| [ギーグハンマー](/monsters/giguhanma) | レア | ドラゴン | 3,125 | 702 | 通常のバイオーム全域 |
-| [デーモンアミゴ](/monsters/demonamigo) | レア | 悪魔 | 3,312 | 859 | 通常のバイオーム全域 |
-| [グレイブディガー](/monsters/gureibudiga) | レア | 魔獣 | 2,775 | 914 | 黄金の砂漠 |
-| [レッドサイクロン](/monsters/redsaikuron) | 超レア | 自然 | 518 | 267 | キメラの断崖 |
-| [マッドスミス](/monsters/maddosumisu) | 超レア | ゾンビ | 1,123 | 345 | 通常のバイオーム全域 |
-| [ドラゴンライダー](/monsters/dragonraida) | 超レア | ドラゴン | 1,160 | 420 | ドラゴン火山帯 |
-| [モノクロームナイト](/monsters/monokuroomunaito) | 超レア | 物質 | 1,505 | 460 | 通常のバイオーム全域 |
+| [じごくのざりがに](/monsters/jigokunozarigani) | 通常 | [自然](/species/sizen) | 1,282 | 414 | 通常のバイオーム全域 |
+| [フーラー](/monsters/fura) | 通常 | [物質](/species/bussitu) | 1,400 | 466 | 通常のバイオーム全域 |
+| [キングレオⅡ](/monsters/kingreo2) | 通常 | [魔獣](/species/majyu) | 1,440 | 482 | 果ての世界 |
+| [ドラゴントイズ](/monsters/doragontoizu) | 通常 | [物質](/species/bussitu) | 1,423 | 521 | 通常のバイオーム全域 |
+| [あくまのきし](/monsters/akumanokisi) | 通常 | [悪魔](/species/akuma) | 1,521 | 542 | 果ての世界 |
+| [グレイトドラゴン](/monsters/gureitodoragon) | 通常 | [ドラゴン](/species/dragon) | 1,550 | 550 | 通常のバイオーム全域 |
+| [ダークホビット](/monsters/dakuhobitto) | 通常 | [物質](/species/bussitu) | 1,725 | 678 | 通常のバイオーム全域 |
+| [謎のバケモノ](/monsters/nazonobakemono) | 通常 | [ドラゴン](/species/dragon) | 2,853 | 994 | 通常のバイオーム全域 |
+| [どぐう戦士](/monsters/dgu_fighter) | レア | [物質](/species/bussitu) | 481 | 261 | 通常のバイオーム全域 |
+| [しにがみのきし](/monsters/sinigaminokisi) | レア | [悪魔](/species/akuma) | 732 | 384 | ネザー |
+| [カラミティサン](/monsters/karamithisan) | レア | [物質](/species/bussitu) | 1,156 | 399 | 通常のバイオーム全域 |
+| [ホワイトジャッジ](/monsters/howaitojaji) | レア | [ドラゴン](/species/dragon) | 1,600 | 461 | 通常のバイオーム全域 |
+| [ギーグハンマー](/monsters/giguhanma) | レア | [ドラゴン](/species/dragon) | 3,125 | 702 | 通常のバイオーム全域 |
+| [デーモンアミゴ](/monsters/demonamigo) | レア | [悪魔](/species/akuma) | 3,312 | 859 | 通常のバイオーム全域 |
+| [グレイブディガー](/monsters/gureibudiga) | レア | [魔獣](/species/majyu) | 2,775 | 914 | 黄金の砂漠 |
+| [レッドサイクロン](/monsters/redsaikuron) | 超レア | [自然](/species/sizen) | 518 | 267 | キメラの断崖 |
+| [マッドスミス](/monsters/maddosumisu) | 超レア | [ゾンビ](/species/zombie) | 1,123 | 345 | 通常のバイオーム全域 |
+| [ドラゴンライダー](/monsters/dragonraida) | 超レア | [ドラゴン](/species/dragon) | 1,160 | 420 | ドラゴン火山帯 |
+| [モノクロームナイト](/monsters/monokuroomunaito) | 超レア | [物質](/species/bussitu) | 1,505 | 460 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -43,6 +43,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,8 +17,8 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [あくまのツボ](/monsters/akumanotubo) | 超レア | 特殊 | 165 | 182 | ミミックの宝物窟 |
-| [ミミック木箱](/monsters/mimikkukibako) | 超レア | 特殊 | 198 | 189 | ミミックの宝物窟 |
+| [あくまのツボ](/monsters/akumanotubo) | 超レア | [特殊](/species/tokusyu) | 165 | 182 | ミミックの宝物窟 |
+| [ミミック木箱](/monsters/mimikkukibako) | 超レア | [特殊](/species/tokusyu) | 198 | 189 | ミミックの宝物窟 |
 
 見出しを押すと並べ替えできます。
 
@@ -26,6 +26,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

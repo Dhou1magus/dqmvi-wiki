@@ -29,8 +29,8 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ゴールデンスライム](/monsters/gorudensuraimu) | 超レア | メタル | 32 | 300 | 通常のバイオーム全域 |
-| [プラチナキング](/monsters/puratinaking) | 超レア | メタル | 65 | 150,000 | 通常のバイオーム全域 |
+| [ゴールデンスライム](/monsters/gorudensuraimu) | 超レア | [メタル](/species/metal) | 32 | 300 | 通常のバイオーム全域 |
+| [プラチナキング](/monsters/puratinaking) | 超レア | [メタル](/species/metal) | 65 | 150,000 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -38,6 +38,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

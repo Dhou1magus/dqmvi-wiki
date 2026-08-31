@@ -41,6 +41,22 @@ const DOCS = 'docs'
 const MON_DIR = join(DOCS, 'monsters')
 const BOSS_DIR = join(DOCS, 'bosses')
 const BIOME_DIR = join(DOCS, 'biomes')
+const SPECIES_DIR = join(DOCS, 'species')
+
+/**
+ * 系統（スライム系・ドラゴン系…）のページ名。
+ * 「ドラゴン系に2倍のダメージ」の装備を拾ったとき、ドラゴン系が何かをすぐ引けるようにする。
+ * ★scripts/gen-item-pages.mjs にも同じ対応表がある。片方だけ直さないこと。
+ */
+const SPECIES_SLUG = new Map([
+  ['スライム', 'slime'], ['ドラゴン', 'dragon'], ['悪魔', 'akuma'], ['ゾンビ', 'zombie'],
+  ['魔獣', 'majyu'], ['自然', 'sizen'], ['物質', 'bussitu'], ['メタル', 'metal'], ['特殊', 'tokusyu']
+])
+/** 弱点の短い言い方。系統ページで「よく効く呪文」を出すのに使う */
+const WEAKNESS_SHORT = {
+  '炎': '炎系', '氷': '氷系', '爆': '爆発系', '風': '風系',
+  '強': '呪文が効きにくい', '無敵': '呪文がきかない'
+}
 
 /**
  * この見出しより下は、再生成しても書き換えずに引き継ぐ（各ページの手書き部分）。
@@ -75,6 +91,10 @@ const EXTRAS_PATH = join('scripts', 'data', 'monster-extras.json')
 let EXTRAS = { monsters: {}, biomes: {} }
 if (existsSync(EXTRAS_PATH)) EXTRAS = JSON.parse(readFileSync(EXTRAS_PATH, 'utf8'))
 const extrasFor = (id) => EXTRAS.monsters?.[id] ?? null
+
+/** 装備の数値。系統を名指しする装備の数を数えるのに使う。無くても動く */
+const EQUIP_PATH = join('scripts', 'data', 'equipment.json')
+const EQUIP = existsSync(EQUIP_PATH) ? JSON.parse(readFileSync(EQUIP_PATH, 'utf8')) : {}
 
 /**
  * ドロップ品の表示。飾り（オブジェ・フィギュア）以外は /drops/ の逆引きページに繋ぐ。
@@ -255,7 +275,11 @@ function monsterPage(m, { boss }) {
   lines.push('| 項目 | 内容 |')
   lines.push('| --- | --- |')
   lines.push(`| 図鑑No. | ${m.dexNo} |`)
-  if (x?.species) lines.push(`| 系統 | ${cell(x.species)} |`)
+  if (x?.species) {
+    // 系統は同じ系統の一覧に繋ぐ（「ドラゴン系に2倍」の装備を持ったときに辿れる）
+    const sp = SPECIES_SLUG.get(x.species)
+    lines.push(`| 系統 | ${sp ? `[${cell(x.species)}系](/species/${sp})` : cell(x.species)} |`)
+  }
   if (x?.dayTime) lines.push(`| 活動時間 | ${cell(x.dayTime)} |`)
   if (x?.weakness) {
     const note = WEAKNESS_NOTE[x.weakness]
@@ -479,6 +503,110 @@ function biomeIndex(entries) {
 }
 
 // ── 実行 ──────────────────────────────────────────────────
+
+/** その系統でいちばん多い弱点と活動時間を数える。手で書くと必ず実態とずれるため */
+function speciesTrend(list) {
+  const count = (pick) => {
+    const c = new Map()
+    for (const m of list) {
+      const v = pick(extrasFor(m.id) ?? {})
+      if (v) c.set(v, (c.get(v) ?? 0) + 1)
+    }
+    return [...c.entries()].sort((a, b) => b[1] - a[1])
+  }
+  const weak = count((x) => x.weakness)
+  const time = count((x) => x.dayTime)
+  // 過半数に届かないときは「主な傾向」とは言わない。無理にまとめると嘘になる
+  const say = (top, total, label) => {
+    if (!top) return '—'
+    const [name, n] = top
+    const text = label ? (label[name] ?? name) : name
+    if (n === total) return `${text}（全部）`
+    if (n * 2 <= total) return `${text}（${n}/${total}体・ばらつきあり）`
+    return `${text}（${n}/${total}体）`
+  }
+  return {
+    weakness: say(weak[0], list.length, WEAKNESS_SHORT),
+    dayTime: say(time[0], list.length)
+  }
+}
+
+/** その系統を名指しする装備の数（「ドラゴン系に2倍のダメージ」など） */
+function speciesGear(name) {
+  let n = 0
+  for (const sec of ['weapons', 'armor', 'shields', 'accessories']) {
+    for (const v of Object.values(EQUIP[sec] ?? {})) {
+      if (typeof v?.特殊効果 === 'string' && v.特殊効果.includes(`${name}系`)) n++
+    }
+  }
+  return n
+}
+// ── 系統のページ ──────────────────────────────────────────
+function speciesPage(name, list) {
+  const slug = SPECIES_SLUG.get(name) ?? name
+  const lines = []
+  lines.push('---')
+  lines.push(`title: ${name}系`)
+  lines.push(`description: DQMVIの${name}系モンスター${list.length}体の一覧。弱点・活動時間・ステータスつき。`)
+  lines.push('pageClass: wide-page')
+  lines.push('aside: false')
+  lines.push('---')
+  lines.push('')
+  lines.push(`# ${name}系`)
+  lines.push('')
+  const t = speciesTrend(list)
+  const gear = speciesGear(name)
+  lines.push(`${name}系のモンスターは **${list.length}体** です。`)
+  lines.push('')
+  lines.push('| 傾向 | 内容 |')
+  lines.push('| --- | --- |')
+  lines.push(`| 弱点の傾向 | ${cell(t.weakness)} |`)
+  lines.push(`| 活動時間 | ${cell(t.dayTime)} |`)
+  if (gear) lines.push(`| この系統に強い装備 | ${gear}種（「${name}系に2倍」など） |`)
+  lines.push('')
+  lines.push(...tableRows(list, (m) => (bossById.has(m.id) ? 'bosses' : 'monsters')))
+  lines.push('')
+  lines.push('## 関連ページ')
+  lines.push('')
+  lines.push('- [系統から探す](/species/)')
+  lines.push('- [モンスター図鑑](/monsters/)')
+  lines.push('- [ドロップ品から探す](/drops/)')
+  lines.push('')
+  lines.push(KEEP_HEADING)
+  lines.push('')
+  const kept = keptPart(join(SPECIES_DIR, `${slug}.md`))
+  return lines.join('\n') + (kept ? `\n${kept}\n` : `\n${EMPTY_NOTE}\n`)
+}
+
+function speciesIndex(groups) {
+  const lines = []
+  lines.push('---')
+  lines.push('title: 系統から探す')
+  lines.push(`description: DQMVIのモンスターを系統（スライム系・ドラゴン系など${groups.length}種）で分けた一覧。`)
+  lines.push('---')
+  lines.push('')
+  lines.push('# 系統から探す')
+  lines.push('')
+  lines.push('モンスターは **' + groups.length + '種類の系統** に分かれています。')
+  lines.push('「ドラゴン系に2倍のダメージ」のような装備を手に入れたとき、その系統がどれかをここで引けます。')
+  lines.push('')
+  lines.push('| 系統 | 数 | 弱点の傾向 | 活動時間 | 強い装備 |')
+  lines.push('| --- | ---: | --- | :--: | ---: |')
+  for (const [name, list] of groups) {
+    const t = speciesTrend(list)
+    const gear = speciesGear(name)
+    lines.push(`| [${cell(name)}系](/species/${SPECIES_SLUG.get(name) ?? name}) | ${list.length} | ${cell(t.weakness)} | ${cell(t.dayTime)} | ${gear || '—'} |`)
+  }
+  lines.push('')
+  lines.push('## 関連ページ')
+  lines.push('')
+  lines.push('- [モンスター図鑑](/monsters/)')
+  lines.push('- [出現場所から探す](/biomes/)')
+  lines.push('- [ドロップ品から探す](/drops/)')
+  lines.push('')
+  return lines.join('\n')
+}
+
 mkdirSync(MON_DIR, { recursive: true })
 mkdirSync(BOSS_DIR, { recursive: true })
 
@@ -505,6 +633,26 @@ if (biomeEntries.length) {
   }
   writeFileSync(join(BIOME_DIR, 'index.md'), biomeIndex(biomeEntries), 'utf8')
   console.log(`出現場所:       ${biomeEntries.length}エリア`)
+}
+
+// 系統ごとのページ。ボスも同じ系統の表に入れる
+{
+  const groups = new Map()
+  for (const m of [...normals, ...bosses]) {
+    const sp = extrasFor(m.id)?.species
+    if (!sp) continue
+    if (!groups.has(sp)) groups.set(sp, [])
+    groups.get(sp).push(m)
+  }
+  const entries = [...groups.entries()].sort((a, b) => b[1].length - a[1].length)
+  if (entries.length) {
+    mkdirSync(SPECIES_DIR, { recursive: true })
+    for (const [name, list] of entries) {
+      writeFileSync(join(SPECIES_DIR, `${SPECIES_SLUG.get(name) ?? name}.md`), speciesPage(name, list), 'utf8')
+    }
+    writeFileSync(join(SPECIES_DIR, 'index.md'), speciesIndex(entries), 'utf8')
+    console.log(`系統:           ${entries.length}種`)
+  }
 }
 
 console.log(`一般モンスター: ${normals.length}体`)

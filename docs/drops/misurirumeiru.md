@@ -29,7 +29,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [じごくのよろい](/monsters/jigokunoyoroi) | 超レア | ゾンビ | 1,288 | 442 | 魔物の骨荒野・果ての世界 |
+| [じごくのよろい](/monsters/jigokunoyoroi) | 超レア | [ゾンビ](/species/zombie) | 1,288 | 442 | 魔物の骨荒野・果ての世界 |
 
 見出しを押すと並べ替えできます。
 
@@ -37,6 +37,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,13 +17,13 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [メタルスター](/monsters/metalstar) | 通常 | メタル | 165 | 700,000 | 通常のバイオーム全域 |
-| [メタルキング](/monsters/metaking) | レア | メタル | 35 | 44,500 | 通常のバイオーム全域 |
-| [メタルカイザー](/monsters/metalkaiser) | レア | メタル | 34 | 51,405 | 通常のバイオーム全域 |
-| [ダイヤモンドスライム](/monsters/daiyamondosuraimu) | レア | メタル | 42 | 80,000 | 通常のバイオーム全域 |
-| [プラチナキング](/monsters/puratinaking) | レア | メタル | 65 | 150,000 | 通常のバイオーム全域 |
-| [はぐれメタルキング](/monsters/haguremetaruking) | レア | メタル | 135 | 500,000 | 通常のバイオーム全域 |
-| [メタルスライム](/monsters/metasura) | 超レア | メタル | 4 | 1,050 | 通常のバイオーム全域 |
+| [メタルスター](/monsters/metalstar) | 通常 | [メタル](/species/metal) | 165 | 700,000 | 通常のバイオーム全域 |
+| [メタルキング](/monsters/metaking) | レア | [メタル](/species/metal) | 35 | 44,500 | 通常のバイオーム全域 |
+| [メタルカイザー](/monsters/metalkaiser) | レア | [メタル](/species/metal) | 34 | 51,405 | 通常のバイオーム全域 |
+| [ダイヤモンドスライム](/monsters/daiyamondosuraimu) | レア | [メタル](/species/metal) | 42 | 80,000 | 通常のバイオーム全域 |
+| [プラチナキング](/monsters/puratinaking) | レア | [メタル](/species/metal) | 65 | 150,000 | 通常のバイオーム全域 |
+| [はぐれメタルキング](/monsters/haguremetaruking) | レア | [メタル](/species/metal) | 135 | 500,000 | 通常のバイオーム全域 |
+| [メタルスライム](/monsters/metasura) | 超レア | [メタル](/species/metal) | 4 | 1,050 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -31,6 +31,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

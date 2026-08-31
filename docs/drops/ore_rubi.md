@@ -17,10 +17,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [クイーンマチルダ](/monsters/kuinmatiruda) | 通常 | ゾンビ | 469 | 243 | ネザー |
-| [スライムエネルゴン](/monsters/slimeenergon) | 通常 | スライム | 491 | 268 | 通常のバイオーム全域 |
-| [パンドラ木箱](/monsters/pandorakibako) | 通常 | 特殊 | 536 | 290 | ミミックの宝物窟 |
-| [ようがんまじん](/monsters/youganmajin) | 超レア | 物質 | 556 | 285 | ネザー |
+| [クイーンマチルダ](/monsters/kuinmatiruda) | 通常 | [ゾンビ](/species/zombie) | 469 | 243 | ネザー |
+| [スライムエネルゴン](/monsters/slimeenergon) | 通常 | [スライム](/species/slime) | 491 | 268 | 通常のバイオーム全域 |
+| [パンドラ木箱](/monsters/pandorakibako) | 通常 | [特殊](/species/tokusyu) | 536 | 290 | ミミックの宝物窟 |
+| [ようがんまじん](/monsters/youganmajin) | 超レア | [物質](/species/bussitu) | 556 | 285 | ネザー |
 
 見出しを押すと並べ替えできます。
 
@@ -28,6 +28,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

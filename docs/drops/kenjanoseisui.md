@@ -17,12 +17,12 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [スターデビル](/monsters/sutaadebiru) | 超レア | 悪魔 | 400 | 249 | 通常のバイオーム全域 |
-| [どくどくゾンビ](/monsters/dokudokuzonbi) | 超レア | ゾンビ | 555 | 252 | 通常のバイオーム全域 |
-| [マネマネ](/monsters/manemane) | 超レア | ゾンビ | 486 | 260 | ネザー |
-| [スライムエネルゴン](/monsters/slimeenergon) | 超レア | スライム | 491 | 268 | 通常のバイオーム全域 |
-| [ネコノマンサー](/monsters/nekonomansa) | 超レア | 魔獣 | 488 | 288 | 通常のバイオーム全域 |
-| [とげジョボー](/monsters/togejobo) | 超レア | 物質 | 566 | 323 | 通常のバイオーム全域 |
+| [スターデビル](/monsters/sutaadebiru) | 超レア | [悪魔](/species/akuma) | 400 | 249 | 通常のバイオーム全域 |
+| [どくどくゾンビ](/monsters/dokudokuzonbi) | 超レア | [ゾンビ](/species/zombie) | 555 | 252 | 通常のバイオーム全域 |
+| [マネマネ](/monsters/manemane) | 超レア | [ゾンビ](/species/zombie) | 486 | 260 | ネザー |
+| [スライムエネルゴン](/monsters/slimeenergon) | 超レア | [スライム](/species/slime) | 491 | 268 | 通常のバイオーム全域 |
+| [ネコノマンサー](/monsters/nekonomansa) | 超レア | [魔獣](/species/majyu) | 488 | 288 | 通常のバイオーム全域 |
+| [とげジョボー](/monsters/togejobo) | 超レア | [物質](/species/bussitu) | 566 | 323 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -30,6 +30,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

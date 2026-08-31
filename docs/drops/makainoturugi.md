@@ -28,7 +28,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ダークナイト](/monsters/dakunaito) | 超レア | ゾンビ | 2,325 | 756 | 魔王の焦土 |
+| [ダークナイト](/monsters/dakunaito) | 超レア | [ゾンビ](/species/zombie) | 2,325 | 756 | 魔王の焦土 |
 
 見出しを押すと並べ替えできます。
 
@@ -36,6 +36,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,18 +17,18 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [はじけドーラ](/monsters/hajike_dora) | 通常 | ドラゴン | 25 | 12 | 通常のバイオーム全域 |
-| [黄泉の花](/monsters/yominohana) | 通常 | スライム | 34 | 42 | 通常のバイオーム全域 |
-| [ベル](/monsters/bell) | 通常 | 物質 | 63 | 45 | 通常のバイオーム全域 |
-| [ひとくい木箱](/monsters/hitokuikibako) | 通常 | 特殊 | 51 | 54 | ミミックの宝物窟 |
-| [メタッピー](/monsters/metappi) | 通常 | 物質 | 66 | 61 | 通常のバイオーム全域 |
-| [レッドハンター](/monsters/redhanta) | 通常 | 物質 | 70 | 62 | 通常のバイオーム全域 |
-| [もりもりスライム](/monsters/behemothslime) | レア | スライム | 42 | 43 | 通常のバイオーム全域 |
-| [つららスライム](/monsters/slimecicle) | レア | スライム | 58 | 50 | 通常のバイオーム全域 |
-| [スライムファング](/monsters/wildslime) | レア | スライム | 63 | 56 | 通常のバイオーム全域 |
-| [スケアフレイル](/monsters/sukeafureiru) | レア | 悪魔 | 77 | 63 | 通常のバイオーム全域 |
-| [ドロザラー](/monsters/dorozara) | 超レア | 物質 | 14 | 6 | ゴーレム岩石遺跡 |
-| [どくろあらい](/monsters/dokuroarai) | 超レア | 魔獣 | 38 | 39 | 魔物の骨荒野 |
+| [はじけドーラ](/monsters/hajike_dora) | 通常 | [ドラゴン](/species/dragon) | 25 | 12 | 通常のバイオーム全域 |
+| [黄泉の花](/monsters/yominohana) | 通常 | [スライム](/species/slime) | 34 | 42 | 通常のバイオーム全域 |
+| [ベル](/monsters/bell) | 通常 | [物質](/species/bussitu) | 63 | 45 | 通常のバイオーム全域 |
+| [ひとくい木箱](/monsters/hitokuikibako) | 通常 | [特殊](/species/tokusyu) | 51 | 54 | ミミックの宝物窟 |
+| [メタッピー](/monsters/metappi) | 通常 | [物質](/species/bussitu) | 66 | 61 | 通常のバイオーム全域 |
+| [レッドハンター](/monsters/redhanta) | 通常 | [物質](/species/bussitu) | 70 | 62 | 通常のバイオーム全域 |
+| [もりもりスライム](/monsters/behemothslime) | レア | [スライム](/species/slime) | 42 | 43 | 通常のバイオーム全域 |
+| [つららスライム](/monsters/slimecicle) | レア | [スライム](/species/slime) | 58 | 50 | 通常のバイオーム全域 |
+| [スライムファング](/monsters/wildslime) | レア | [スライム](/species/slime) | 63 | 56 | 通常のバイオーム全域 |
+| [スケアフレイル](/monsters/sukeafureiru) | レア | [悪魔](/species/akuma) | 77 | 63 | 通常のバイオーム全域 |
+| [ドロザラー](/monsters/dorozara) | 超レア | [物質](/species/bussitu) | 14 | 6 | ゴーレム岩石遺跡 |
+| [どくろあらい](/monsters/dokuroarai) | 超レア | [魔獣](/species/majyu) | 38 | 39 | 魔物の骨荒野 |
 
 見出しを押すと並べ替えできます。
 
@@ -36,6 +36,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

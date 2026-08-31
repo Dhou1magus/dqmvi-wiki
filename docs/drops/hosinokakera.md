@@ -17,10 +17,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ボックススライムオレンジ](/monsters/boxsuraimu) | 通常 | スライム | 183 | 160 | スライム湿原 |
-| [アイアンクック](/monsters/aiankukku) | 通常 | 物質 | 188 | 166 | 通常のバイオーム全域 |
-| [スライムプディング](/monsters/slimepudding) | 通常 | スライム | 191 | 172 | 通常のバイオーム全域 |
-| [マリンスライム](/monsters/marinsuraimu) | レア | スライム | 178 | 167 | 海 |
+| [ボックススライムオレンジ](/monsters/boxsuraimu) | 通常 | [スライム](/species/slime) | 183 | 160 | スライム湿原 |
+| [アイアンクック](/monsters/aiankukku) | 通常 | [物質](/species/bussitu) | 188 | 166 | 通常のバイオーム全域 |
+| [スライムプディング](/monsters/slimepudding) | 通常 | [スライム](/species/slime) | 191 | 172 | 通常のバイオーム全域 |
+| [マリンスライム](/monsters/marinsuraimu) | レア | [スライム](/species/slime) | 178 | 167 | 海 |
 
 見出しを押すと並べ替えできます。
 
@@ -28,6 +28,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

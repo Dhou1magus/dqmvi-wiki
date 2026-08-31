@@ -17,12 +17,12 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [うずしおキング](/monsters/uzusioking) | レア | 自然 | 99 | 94 | 通常のバイオーム全域 |
-| [かえんムカデ](/monsters/flame_centipede) | レア | 自然 | 110 | 95 | 通常のバイオーム全域 |
-| [リビングハンマー](/monsters/living_hammer) | レア | 物質 | 151 | 114 | 通常のバイオーム全域 |
-| [りゅうせんし](/monsters/mandrake_marauder) | レア | ドラゴン | 145 | 121 | 通常のバイオーム全域 |
-| [マヒャドフライ](/monsters/mahyadofurai) | レア | 自然 | 122 | 137 | 通常のバイオーム全域 |
-| [キラースコップ](/monsters/kirasuko) | 超レア | 魔獣 | 87 | 91 | 通常のバイオーム全域 |
+| [うずしおキング](/monsters/uzusioking) | レア | [自然](/species/sizen) | 99 | 94 | 通常のバイオーム全域 |
+| [かえんムカデ](/monsters/flame_centipede) | レア | [自然](/species/sizen) | 110 | 95 | 通常のバイオーム全域 |
+| [リビングハンマー](/monsters/living_hammer) | レア | [物質](/species/bussitu) | 151 | 114 | 通常のバイオーム全域 |
+| [りゅうせんし](/monsters/mandrake_marauder) | レア | [ドラゴン](/species/dragon) | 145 | 121 | 通常のバイオーム全域 |
+| [マヒャドフライ](/monsters/mahyadofurai) | レア | [自然](/species/sizen) | 122 | 137 | 通常のバイオーム全域 |
+| [キラースコップ](/monsters/kirasuko) | 超レア | [魔獣](/species/majyu) | 87 | 91 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -30,6 +30,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

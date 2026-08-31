@@ -17,17 +17,17 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [じごくのつかい](/monsters/jigokunotukai) | レア | 悪魔 | 473 | 263 | 魔王の焦土 |
-| [まおうのランプ](/monsters/annihilantern) | レア | 物質 | 435 | 264 | 通常のバイオーム全域 |
-| [ネコノマンサー](/monsters/nekonomansa) | レア | 魔獣 | 488 | 288 | 通常のバイオーム全域 |
-| [ゾンビマスター](/monsters/zonbimasuta) | レア | ゾンビ | 521 | 300 | 通常のバイオーム全域 |
-| [ドルイド](/monsters/doruido) | 超レア | 悪魔 | 486 | 254 | 魔法の森・ネザー |
-| [ブラックベジター](/monsters/burakkubejita) | 超レア | 自然 | 532 | 260 | おばけキノコの森・ネザー |
-| [バアラック](/monsters/barakku) | 超レア | 悪魔 | 497 | 264 | 通常のバイオーム全域 |
-| [ザバン](/monsters/zaban) | 超レア | 自然 | 456 | 274 | 通常のバイオーム全域 |
-| [ベルザブル](/monsters/berusaburu) | 超レア | 自然 | 489 | 288 | 通常のバイオーム全域 |
-| [だいまどう](/monsters/daimadou) | 超レア | 悪魔 | 486 | 293 | ネザー |
-| [スカルドン](/monsters/skuldon) | 超レア | ドラゴン | 661 | 389 | 通常のバイオーム全域 |
+| [じごくのつかい](/monsters/jigokunotukai) | レア | [悪魔](/species/akuma) | 473 | 263 | 魔王の焦土 |
+| [まおうのランプ](/monsters/annihilantern) | レア | [物質](/species/bussitu) | 435 | 264 | 通常のバイオーム全域 |
+| [ネコノマンサー](/monsters/nekonomansa) | レア | [魔獣](/species/majyu) | 488 | 288 | 通常のバイオーム全域 |
+| [ゾンビマスター](/monsters/zonbimasuta) | レア | [ゾンビ](/species/zombie) | 521 | 300 | 通常のバイオーム全域 |
+| [ドルイド](/monsters/doruido) | 超レア | [悪魔](/species/akuma) | 486 | 254 | 魔法の森・ネザー |
+| [ブラックベジター](/monsters/burakkubejita) | 超レア | [自然](/species/sizen) | 532 | 260 | おばけキノコの森・ネザー |
+| [バアラック](/monsters/barakku) | 超レア | [悪魔](/species/akuma) | 497 | 264 | 通常のバイオーム全域 |
+| [ザバン](/monsters/zaban) | 超レア | [自然](/species/sizen) | 456 | 274 | 通常のバイオーム全域 |
+| [ベルザブル](/monsters/berusaburu) | 超レア | [自然](/species/sizen) | 489 | 288 | 通常のバイオーム全域 |
+| [だいまどう](/monsters/daimadou) | 超レア | [悪魔](/species/akuma) | 486 | 293 | ネザー |
+| [スカルドン](/monsters/skuldon) | 超レア | [ドラゴン](/species/dragon) | 661 | 389 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -35,6 +35,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -29,7 +29,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [がいこつけんし](/monsters/gaikotukensi) | 超レア | ゾンビ | 329 | 225 | 魔物の骨荒野 |
+| [がいこつけんし](/monsters/gaikotukensi) | 超レア | [ゾンビ](/species/zombie) | 329 | 225 | 魔物の骨荒野 |
 
 見出しを押すと並べ替えできます。
 
@@ -37,6 +37,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

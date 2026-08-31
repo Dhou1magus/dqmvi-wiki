@@ -17,23 +17,23 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [キングレオⅢ](/monsters/kingreo3) | 通常 | 魔獣 | 2,430 | 774 | 魔王の焦土・果ての世界 |
-| [ビッグモアイ](/monsters/biggumoai) | 通常 | 物質 | 2,925 | 809 | ゴーレム岩石遺跡 |
-| [キースドラゴン](/monsters/kisudragon) | レア | ドラゴン | 1,264 | 418 | ドラゴン火山帯 |
-| [アッシュリザード](/monsters/ash_lizard) | レア | ドラゴン | 1,449 | 457 | 通常のバイオーム全域 |
-| [キングレオⅡ](/monsters/kingreo2) | レア | 魔獣 | 1,440 | 482 | 果ての世界 |
-| [ガニラス](/monsters/ganirasu) | 超レア | 自然 | 960 | 376 | 沈没魔物海・果ての世界・海 |
-| [カラミティサン](/monsters/karamithisan) | 超レア | 物質 | 1,156 | 399 | 通常のバイオーム全域 |
-| [エルダースライム](/monsters/elderslime) | 超レア | スライム | 1,548 | 428 | 通常のバイオーム全域 |
-| [暗黒の使い](/monsters/ankokunotsukai) | 超レア | ゾンビ | 1,407 | 434 | 通常のバイオーム全域 |
-| [マスタースライム](/monsters/masterslime) | 超レア | スライム | 1,130 | 435 | 通常のバイオーム全域 |
-| [ガメゴンロード](/monsters/gamegonload) | 超レア | ドラゴン | 1,264 | 438 | 沈没魔物海・果ての世界・海 |
-| [ダースドラゴン](/monsters/dasudragon) | 超レア | ドラゴン | 1,384 | 442 | ドラゴン火山帯・果ての世界 |
-| [マクロベータ](/monsters/makurobeta) | 超レア | ゾンビ | 1,322 | 453 | 通常のバイオーム全域 |
-| [スラキャンサー](/monsters/slimecanser) | 超レア | スライム | 1,122 | 454 | 通常のバイオーム全域 |
-| [ホワイトジャッジ](/monsters/howaitojaji) | 超レア | ドラゴン | 1,600 | 461 | 通常のバイオーム全域 |
-| [フーラー](/monsters/fura) | 超レア | 物質 | 1,400 | 466 | 通常のバイオーム全域 |
-| [スラワッショイ](/monsters/slimewashoi) | 超レア | スライム | 1,521 | 506 | 通常のバイオーム全域 |
+| [キングレオⅢ](/monsters/kingreo3) | 通常 | [魔獣](/species/majyu) | 2,430 | 774 | 魔王の焦土・果ての世界 |
+| [ビッグモアイ](/monsters/biggumoai) | 通常 | [物質](/species/bussitu) | 2,925 | 809 | ゴーレム岩石遺跡 |
+| [キースドラゴン](/monsters/kisudragon) | レア | [ドラゴン](/species/dragon) | 1,264 | 418 | ドラゴン火山帯 |
+| [アッシュリザード](/monsters/ash_lizard) | レア | [ドラゴン](/species/dragon) | 1,449 | 457 | 通常のバイオーム全域 |
+| [キングレオⅡ](/monsters/kingreo2) | レア | [魔獣](/species/majyu) | 1,440 | 482 | 果ての世界 |
+| [ガニラス](/monsters/ganirasu) | 超レア | [自然](/species/sizen) | 960 | 376 | 沈没魔物海・果ての世界・海 |
+| [カラミティサン](/monsters/karamithisan) | 超レア | [物質](/species/bussitu) | 1,156 | 399 | 通常のバイオーム全域 |
+| [エルダースライム](/monsters/elderslime) | 超レア | [スライム](/species/slime) | 1,548 | 428 | 通常のバイオーム全域 |
+| [暗黒の使い](/monsters/ankokunotsukai) | 超レア | [ゾンビ](/species/zombie) | 1,407 | 434 | 通常のバイオーム全域 |
+| [マスタースライム](/monsters/masterslime) | 超レア | [スライム](/species/slime) | 1,130 | 435 | 通常のバイオーム全域 |
+| [ガメゴンロード](/monsters/gamegonload) | 超レア | [ドラゴン](/species/dragon) | 1,264 | 438 | 沈没魔物海・果ての世界・海 |
+| [ダースドラゴン](/monsters/dasudragon) | 超レア | [ドラゴン](/species/dragon) | 1,384 | 442 | ドラゴン火山帯・果ての世界 |
+| [マクロベータ](/monsters/makurobeta) | 超レア | [ゾンビ](/species/zombie) | 1,322 | 453 | 通常のバイオーム全域 |
+| [スラキャンサー](/monsters/slimecanser) | 超レア | [スライム](/species/slime) | 1,122 | 454 | 通常のバイオーム全域 |
+| [ホワイトジャッジ](/monsters/howaitojaji) | 超レア | [ドラゴン](/species/dragon) | 1,600 | 461 | 通常のバイオーム全域 |
+| [フーラー](/monsters/fura) | 超レア | [物質](/species/bussitu) | 1,400 | 466 | 通常のバイオーム全域 |
+| [スラワッショイ](/monsters/slimewashoi) | 超レア | [スライム](/species/slime) | 1,521 | 506 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -41,6 +41,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

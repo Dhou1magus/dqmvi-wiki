@@ -17,35 +17,35 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ベホイミスライム](/monsters/behoimisuraimu) | 通常 | スライム | 68 | 77 | 妖精の花畑・ネザー・海 |
-| [ベホイムスライム](/monsters/behoimusuraimu) | 通常 | スライム | 168 | 156 | 海 |
-| [レッドサイクロン](/monsters/redsaikuron) | 通常 | 自然 | 518 | 267 | キメラの断崖 |
-| [ケダモン](/monsters/kedamon) | レア | 魔獣 | 178 | 142 | 通常のバイオーム全域 |
-| [ダンスニードル](/monsters/dansunidoru) | レア | 自然 | 176 | 148 | 通常のバイオーム全域 |
-| [スカイドラゴン](/monsters/skydragon) | レア | ドラゴン | 205 | 172 | 通常のバイオーム全域 |
-| [チョコタワー](/monsters/chocotower) | レア | スライム | 204 | 181 | 通常のバイオーム全域 |
-| [だんごスライム](/monsters/dangoslime) | レア | スライム | 215 | 183 | 通常のバイオーム全域 |
-| [ベスキング](/monsters/besuking) | レア | スライム | 368 | 238 | スライム湿原 |
-| [モーモン](/monsters/momon) | 超レア | 悪魔 | 12 | 5 | タマゴロン草原・妖精の花畑 |
-| [バブルスライム](/monsters/bubsura) | 超レア | スライム | 12 | 6 | スライム湿原 |
-| [タマゴロン](/monsters/tamagoron) | 超レア | 自然 | 12 | 6 | タマゴロン草原 |
-| [おおがらす](/monsters/greatraven) | 超レア | 自然 | 12 | 9 | 通常のバイオーム全域 |
-| [おにこぞう](/monsters/onikozou2) | 超レア | 悪魔 | 18 | 10 | 通常のバイオーム全域 |
-| [マッシュスライム](/monsters/slimeshroom) | 超レア | スライム | 22 | 12 | 通常のバイオーム全域 |
-| [ボックススライムブルー](/monsters/boxsuraimu_ao) | 超レア | スライム | 15 | 13 | スライム湿原 |
-| [かぼちゃの騎士](/monsters/kabochanokisi) | 超レア | ゾンビ | 26 | 14 | 通常のバイオーム全域 |
-| [ウパソルジャー](/monsters/upasoruja) | 超レア | 自然 | 22 | 15 | 通常のバイオーム全域 |
-| [ドラゴスライム](/monsters/dragosuraimu) | 超レア | スライム | 36 | 35 | ドラゴン火山帯 |
-| [もりもりスライム](/monsters/behemothslime) | 超レア | スライム | 42 | 43 | 通常のバイオーム全域 |
-| [スライムつむり](/monsters/suraimutumuri) | 超レア | スライム | 41 | 44 | 沈没魔物海・海 |
-| [ボックススライムレッド](/monsters/boxsuraimu_aka) | 超レア | スライム | 48 | 50 | 通常のバイオーム全域 |
-| [つららスライム](/monsters/slimecicle) | 超レア | スライム | 58 | 50 | 通常のバイオーム全域 |
-| [たんすミミック](/monsters/tansu) | 超レア | 物質 | 57 | 51 | ミミックの宝物窟 |
-| [スピンスライム](/monsters/spinslime) | 超レア | スライム | 62 | 52 | 通常のバイオーム全域 |
-| [パールスライム](/monsters/pearlgel) | 超レア | スライム | 66 | 54 | 通常のバイオーム全域 |
-| [りゅうき兵](/monsters/mandrake_mercenary) | 超レア | ドラゴン | 64 | 54 | 通常のバイオーム全域 |
-| [アクアスライム](/monsters/aquaslime) | 超レア | スライム | 59 | 55 | 沈没魔物海・海 |
-| [スライムファング](/monsters/wildslime) | 超レア | スライム | 63 | 56 | 通常のバイオーム全域 |
+| [ベホイミスライム](/monsters/behoimisuraimu) | 通常 | [スライム](/species/slime) | 68 | 77 | 妖精の花畑・ネザー・海 |
+| [ベホイムスライム](/monsters/behoimusuraimu) | 通常 | [スライム](/species/slime) | 168 | 156 | 海 |
+| [レッドサイクロン](/monsters/redsaikuron) | 通常 | [自然](/species/sizen) | 518 | 267 | キメラの断崖 |
+| [ケダモン](/monsters/kedamon) | レア | [魔獣](/species/majyu) | 178 | 142 | 通常のバイオーム全域 |
+| [ダンスニードル](/monsters/dansunidoru) | レア | [自然](/species/sizen) | 176 | 148 | 通常のバイオーム全域 |
+| [スカイドラゴン](/monsters/skydragon) | レア | [ドラゴン](/species/dragon) | 205 | 172 | 通常のバイオーム全域 |
+| [チョコタワー](/monsters/chocotower) | レア | [スライム](/species/slime) | 204 | 181 | 通常のバイオーム全域 |
+| [だんごスライム](/monsters/dangoslime) | レア | [スライム](/species/slime) | 215 | 183 | 通常のバイオーム全域 |
+| [ベスキング](/monsters/besuking) | レア | [スライム](/species/slime) | 368 | 238 | スライム湿原 |
+| [モーモン](/monsters/momon) | 超レア | [悪魔](/species/akuma) | 12 | 5 | タマゴロン草原・妖精の花畑 |
+| [バブルスライム](/monsters/bubsura) | 超レア | [スライム](/species/slime) | 12 | 6 | スライム湿原 |
+| [タマゴロン](/monsters/tamagoron) | 超レア | [自然](/species/sizen) | 12 | 6 | タマゴロン草原 |
+| [おおがらす](/monsters/greatraven) | 超レア | [自然](/species/sizen) | 12 | 9 | 通常のバイオーム全域 |
+| [おにこぞう](/monsters/onikozou2) | 超レア | [悪魔](/species/akuma) | 18 | 10 | 通常のバイオーム全域 |
+| [マッシュスライム](/monsters/slimeshroom) | 超レア | [スライム](/species/slime) | 22 | 12 | 通常のバイオーム全域 |
+| [ボックススライムブルー](/monsters/boxsuraimu_ao) | 超レア | [スライム](/species/slime) | 15 | 13 | スライム湿原 |
+| [かぼちゃの騎士](/monsters/kabochanokisi) | 超レア | [ゾンビ](/species/zombie) | 26 | 14 | 通常のバイオーム全域 |
+| [ウパソルジャー](/monsters/upasoruja) | 超レア | [自然](/species/sizen) | 22 | 15 | 通常のバイオーム全域 |
+| [ドラゴスライム](/monsters/dragosuraimu) | 超レア | [スライム](/species/slime) | 36 | 35 | ドラゴン火山帯 |
+| [もりもりスライム](/monsters/behemothslime) | 超レア | [スライム](/species/slime) | 42 | 43 | 通常のバイオーム全域 |
+| [スライムつむり](/monsters/suraimutumuri) | 超レア | [スライム](/species/slime) | 41 | 44 | 沈没魔物海・海 |
+| [ボックススライムレッド](/monsters/boxsuraimu_aka) | 超レア | [スライム](/species/slime) | 48 | 50 | 通常のバイオーム全域 |
+| [つららスライム](/monsters/slimecicle) | 超レア | [スライム](/species/slime) | 58 | 50 | 通常のバイオーム全域 |
+| [たんすミミック](/monsters/tansu) | 超レア | [物質](/species/bussitu) | 57 | 51 | ミミックの宝物窟 |
+| [スピンスライム](/monsters/spinslime) | 超レア | [スライム](/species/slime) | 62 | 52 | 通常のバイオーム全域 |
+| [パールスライム](/monsters/pearlgel) | 超レア | [スライム](/species/slime) | 66 | 54 | 通常のバイオーム全域 |
+| [りゅうき兵](/monsters/mandrake_mercenary) | 超レア | [ドラゴン](/species/dragon) | 64 | 54 | 通常のバイオーム全域 |
+| [アクアスライム](/monsters/aquaslime) | 超レア | [スライム](/species/slime) | 59 | 55 | 沈没魔物海・海 |
+| [スライムファング](/monsters/wildslime) | 超レア | [スライム](/species/slime) | 63 | 56 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -53,6 +53,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,16 +17,16 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ブラッディハンド](/monsters/buraddihando) | 通常 | 物質 | 389 | 235 | 毒の大湿地 |
-| [ミミック](/monsters/mimikku) | 通常 | 物質 | 522 | 277 | ミミックの宝物窟 |
-| [メガザルロック](/monsters/megazarurokku) | 通常 | 物質 | 896 | 340 | ゴーレム岩石遺跡 |
-| [エクソダス](/monsters/ekusodasu) | 通常 | ゾンビ | 1,098 | 426 | 果ての世界 |
-| [キラーアーマー](/monsters/kiraama) | 通常 | ゾンビ | 2,250 | 739 | 通常のバイオーム全域 |
-| [ケムンクルス](/monsters/kemunkurusu) | 超レア | 悪魔 | 848 | 314 | 通常のバイオーム全域 |
-| [プヨンターゲット](/monsters/puyon) | 超レア | ゾンビ | 944 | 335 | 毒の大湿地 |
-| [ジェントルダンス](/monsters/zyentorudansu) | 超レア | 悪魔 | 1,031 | 350 | 通常のバイオーム全域 |
-| [ごくらくちょう](/monsters/gokurakuchou) | 超レア | 魔獣 | 969 | 353 | 通常のバイオーム全域 |
-| [パペットマン](/monsters/papettoman) | 超レア | 物質 | 840 | 357 | 果ての世界 |
+| [ブラッディハンド](/monsters/buraddihando) | 通常 | [物質](/species/bussitu) | 389 | 235 | 毒の大湿地 |
+| [ミミック](/monsters/mimikku) | 通常 | [物質](/species/bussitu) | 522 | 277 | ミミックの宝物窟 |
+| [メガザルロック](/monsters/megazarurokku) | 通常 | [物質](/species/bussitu) | 896 | 340 | ゴーレム岩石遺跡 |
+| [エクソダス](/monsters/ekusodasu) | 通常 | [ゾンビ](/species/zombie) | 1,098 | 426 | 果ての世界 |
+| [キラーアーマー](/monsters/kiraama) | 通常 | [ゾンビ](/species/zombie) | 2,250 | 739 | 通常のバイオーム全域 |
+| [ケムンクルス](/monsters/kemunkurusu) | 超レア | [悪魔](/species/akuma) | 848 | 314 | 通常のバイオーム全域 |
+| [プヨンターゲット](/monsters/puyon) | 超レア | [ゾンビ](/species/zombie) | 944 | 335 | 毒の大湿地 |
+| [ジェントルダンス](/monsters/zyentorudansu) | 超レア | [悪魔](/species/akuma) | 1,031 | 350 | 通常のバイオーム全域 |
+| [ごくらくちょう](/monsters/gokurakuchou) | 超レア | [魔獣](/species/majyu) | 969 | 353 | 通常のバイオーム全域 |
+| [パペットマン](/monsters/papettoman) | 超レア | [物質](/species/bussitu) | 840 | 357 | 果ての世界 |
 
 見出しを押すと並べ替えできます。
 
@@ -34,6 +34,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

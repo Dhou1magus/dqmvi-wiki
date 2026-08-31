@@ -17,17 +17,17 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ぶちスライム](/monsters/butisuraimu) | 通常 | スライム | 8 | 4 | スライム湿原 |
-| [カバシラー](/monsters/swarmtroop) | 通常 | 自然 | 12 | 6 | 通常のバイオーム全域 |
-| [マンドラ](/monsters/mandora) | 通常 | スライム | 15 | 9 | 通常のバイオーム全域 |
-| [メーダ](/monsters/meda) | 通常 | 悪魔 | 16 | 13 | 通常のバイオーム全域 |
-| [ナイトウイプス](/monsters/naitouipusu) | レア | ゾンビ | 20 | 9 | 通常のバイオーム全域 |
-| [ビーンファイター](/monsters/binfaita) | レア | 自然 | 15 | 9 | 通常のバイオーム全域 |
-| [レモンスライム](/monsters/remonsuraimu) | レア | スライム | 20 | 11 | スライム湿原・黄金の砂漠 |
-| [キャタピラー](/monsters/caterpillar) | レア | 自然 | 24 | 15 | 通常のバイオーム全域 |
-| [おおめだま](/monsters/oomedama) | レア | 悪魔 | 45 | 39 | 通常のバイオーム全域 |
-| [おおきづち](/monsters/ookiduti) | レア | 魔獣 | 42 | 40 | 通常のバイオーム全域 |
-| [りゅうき兵](/monsters/mandrake_mercenary) | レア | ドラゴン | 64 | 54 | 通常のバイオーム全域 |
+| [ぶちスライム](/monsters/butisuraimu) | 通常 | [スライム](/species/slime) | 8 | 4 | スライム湿原 |
+| [カバシラー](/monsters/swarmtroop) | 通常 | [自然](/species/sizen) | 12 | 6 | 通常のバイオーム全域 |
+| [マンドラ](/monsters/mandora) | 通常 | [スライム](/species/slime) | 15 | 9 | 通常のバイオーム全域 |
+| [メーダ](/monsters/meda) | 通常 | [悪魔](/species/akuma) | 16 | 13 | 通常のバイオーム全域 |
+| [ナイトウイプス](/monsters/naitouipusu) | レア | [ゾンビ](/species/zombie) | 20 | 9 | 通常のバイオーム全域 |
+| [ビーンファイター](/monsters/binfaita) | レア | [自然](/species/sizen) | 15 | 9 | 通常のバイオーム全域 |
+| [レモンスライム](/monsters/remonsuraimu) | レア | [スライム](/species/slime) | 20 | 11 | スライム湿原・黄金の砂漠 |
+| [キャタピラー](/monsters/caterpillar) | レア | [自然](/species/sizen) | 24 | 15 | 通常のバイオーム全域 |
+| [おおめだま](/monsters/oomedama) | レア | [悪魔](/species/akuma) | 45 | 39 | 通常のバイオーム全域 |
+| [おおきづち](/monsters/ookiduti) | レア | [魔獣](/species/majyu) | 42 | 40 | 通常のバイオーム全域 |
+| [りゅうき兵](/monsters/mandrake_mercenary) | レア | [ドラゴン](/species/dragon) | 64 | 54 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -35,6 +35,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

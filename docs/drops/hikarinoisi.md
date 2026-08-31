@@ -17,17 +17,17 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ゴールデンスライム](/monsters/gorudensuraimu) | 通常 | メタル | 32 | 300 | 通常のバイオーム全域 |
-| [スラ・ブラスター](/monsters/slimeblaster) | 通常 | スライム | 1,790 | 632 | 通常のバイオーム全域 |
-| [ストーンマン](/monsters/stonman) | 通常 | 物質 | 2,580 | 792 | ゴーレム岩石遺跡 |
-| [デスマーキュリー](/monsters/desumakyuri) | 通常 | 物質 | 2,777 | 900 | 通常のバイオーム全域 |
-| [メタルカイザー](/monsters/metalkaiser) | 通常 | メタル | 34 | 51,405 | 通常のバイオーム全域 |
-| [キングレオⅢ](/monsters/kingreo3) | レア | 魔獣 | 2,430 | 774 | 魔王の焦土・果ての世界 |
-| [アスラ王](/monsters/asuraou) | レア | ゾンビ | 2,963 | 807 | 通常のバイオーム全域 |
-| [トロルキング](/monsters/tororuking) | レア | 悪魔 | 3,150 | 867 | 通常のバイオーム全域 |
-| [ゴッドライダー](/monsters/godraida) | レア | スライム | 3,000 | 876 | 通常のバイオーム全域 |
-| [エンゼルアーマー](/monsters/enzeruaamaa) | レア | 物質 | 3,069 | 919 | 通常のバイオーム全域 |
-| [キラーマシン2](/monsters/kiramasin2) | レア | 物質 | 3,300 | 931 | 通常のバイオーム全域 |
+| [ゴールデンスライム](/monsters/gorudensuraimu) | 通常 | [メタル](/species/metal) | 32 | 300 | 通常のバイオーム全域 |
+| [スラ・ブラスター](/monsters/slimeblaster) | 通常 | [スライム](/species/slime) | 1,790 | 632 | 通常のバイオーム全域 |
+| [ストーンマン](/monsters/stonman) | 通常 | [物質](/species/bussitu) | 2,580 | 792 | ゴーレム岩石遺跡 |
+| [デスマーキュリー](/monsters/desumakyuri) | 通常 | [物質](/species/bussitu) | 2,777 | 900 | 通常のバイオーム全域 |
+| [メタルカイザー](/monsters/metalkaiser) | 通常 | [メタル](/species/metal) | 34 | 51,405 | 通常のバイオーム全域 |
+| [キングレオⅢ](/monsters/kingreo3) | レア | [魔獣](/species/majyu) | 2,430 | 774 | 魔王の焦土・果ての世界 |
+| [アスラ王](/monsters/asuraou) | レア | [ゾンビ](/species/zombie) | 2,963 | 807 | 通常のバイオーム全域 |
+| [トロルキング](/monsters/tororuking) | レア | [悪魔](/species/akuma) | 3,150 | 867 | 通常のバイオーム全域 |
+| [ゴッドライダー](/monsters/godraida) | レア | [スライム](/species/slime) | 3,000 | 876 | 通常のバイオーム全域 |
+| [エンゼルアーマー](/monsters/enzeruaamaa) | レア | [物質](/species/bussitu) | 3,069 | 919 | 通常のバイオーム全域 |
+| [キラーマシン2](/monsters/kiramasin2) | レア | [物質](/species/bussitu) | 3,300 | 931 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -35,6 +35,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,20 +17,20 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ズッキーニャ](/monsters/zukkinya) | 通常 | 自然 | 11 | 5 | タマゴロン草原 |
-| [タコメット](/monsters/takometto) | 通常 | 自然 | 35 | 40 | 通常のバイオーム全域 |
-| [ウパパロン](/monsters/upaparon) | 通常 | 自然 | 45 | 41 | 通常のバイオーム全域 |
-| [シールドこぞう](/monsters/sirudokozou) | 通常 | 物質 | 40 | 51 | 通常のバイオーム全域 |
-| [マリンスライム](/monsters/marinsuraimu) | 通常 | スライム | 178 | 167 | 海 |
-| [つちわらし](/monsters/tutiwarasi) | レア | ゾンビ | 25 | 14 | 通常のバイオーム全域 |
-| [ポンコツ兵](/monsters/ponkotuhei) | レア | 物質 | 26 | 17 | 通常のバイオーム全域 |
-| [タップデビル](/monsters/tappudebiru) | レア | 悪魔 | 37 | 36 | 通常のバイオーム全域 |
-| [ぬかどこスライム](/monsters/pickledslime) | レア | スライム | 45 | 42 | 通常のバイオーム全域 |
-| [しびれくらげ](/monsters/sibirekurage) | レア | スライム | 53 | 45 | 海 |
-| [ベル](/monsters/bell) | レア | 物質 | 63 | 45 | 通常のバイオーム全域 |
-| [ストーンスライム](/monsters/rubbleslime) | レア | スライム | 54 | 52 | 通常のバイオーム全域 |
-| [スピンスライム](/monsters/spinslime) | レア | スライム | 62 | 52 | 通常のバイオーム全域 |
-| [かくとうパンサー](/monsters/kakutoupansa) | レア | 魔獣 | 66 | 60 | 通常のバイオーム全域 |
+| [ズッキーニャ](/monsters/zukkinya) | 通常 | [自然](/species/sizen) | 11 | 5 | タマゴロン草原 |
+| [タコメット](/monsters/takometto) | 通常 | [自然](/species/sizen) | 35 | 40 | 通常のバイオーム全域 |
+| [ウパパロン](/monsters/upaparon) | 通常 | [自然](/species/sizen) | 45 | 41 | 通常のバイオーム全域 |
+| [シールドこぞう](/monsters/sirudokozou) | 通常 | [物質](/species/bussitu) | 40 | 51 | 通常のバイオーム全域 |
+| [マリンスライム](/monsters/marinsuraimu) | 通常 | [スライム](/species/slime) | 178 | 167 | 海 |
+| [つちわらし](/monsters/tutiwarasi) | レア | [ゾンビ](/species/zombie) | 25 | 14 | 通常のバイオーム全域 |
+| [ポンコツ兵](/monsters/ponkotuhei) | レア | [物質](/species/bussitu) | 26 | 17 | 通常のバイオーム全域 |
+| [タップデビル](/monsters/tappudebiru) | レア | [悪魔](/species/akuma) | 37 | 36 | 通常のバイオーム全域 |
+| [ぬかどこスライム](/monsters/pickledslime) | レア | [スライム](/species/slime) | 45 | 42 | 通常のバイオーム全域 |
+| [しびれくらげ](/monsters/sibirekurage) | レア | [スライム](/species/slime) | 53 | 45 | 海 |
+| [ベル](/monsters/bell) | レア | [物質](/species/bussitu) | 63 | 45 | 通常のバイオーム全域 |
+| [ストーンスライム](/monsters/rubbleslime) | レア | [スライム](/species/slime) | 54 | 52 | 通常のバイオーム全域 |
+| [スピンスライム](/monsters/spinslime) | レア | [スライム](/species/slime) | 62 | 52 | 通常のバイオーム全域 |
+| [かくとうパンサー](/monsters/kakutoupansa) | レア | [魔獣](/species/majyu) | 66 | 60 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -38,6 +38,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

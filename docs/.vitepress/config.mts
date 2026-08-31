@@ -45,6 +45,7 @@ function countMd(dir: string): number {
 const N_MONSTERS = countMd('docs/monsters')
 const N_BOSSES = countMd('docs/bosses')
 const N_DROPS = countMd('docs/drops')
+const N_SPECIES = countMd('docs/species')
 
 const SITE_STATS = {
   pages: countPages('docs'),
@@ -201,6 +202,7 @@ export default defineConfig({
           { text: `魔王・ボス一覧（${N_BOSSES}体）`, link: '/bosses/' },
           { text: '出現場所から探す', link: '/biomes/' },
           { text: `ドロップ品から探す（${N_DROPS}種）`, link: '/drops/' },
+          { text: `系統から探す（${N_SPECIES}系統）`, link: '/species/' },
           { text: '職業一覧（18種）', link: '/jobs/' },
           { text: '呪文一覧（69種）', link: '/spells/' },
           { text: '特技一覧（102種）', link: '/skills/' },
@@ -253,6 +255,7 @@ export default defineConfig({
           { text: `魔王・ボス一覧（${N_BOSSES}体）`, link: '/bosses/' },
           { text: '出現場所から探す', link: '/biomes/' },
           { text: `ドロップ品から探す（${N_DROPS}種）`, link: '/drops/' },
+          { text: `系統から探す（${N_SPECIES}系統）`, link: '/species/' },
           { text: '職業一覧（18種）', link: '/jobs/' },
           { text: '呪文一覧（69種）', link: '/spells/' },
           { text: '特技一覧（102種）', link: '/skills/' },

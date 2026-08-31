@@ -17,13 +17,13 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [マッドスミス](/monsters/maddosumisu) | レア | ゾンビ | 1,123 | 345 | 通常のバイオーム全域 |
-| [オーラー](/monsters/ora) | レア | 物質 | 920 | 413 | 通常のバイオーム全域 |
-| [ドラゴンライダー](/monsters/dragonraida) | レア | ドラゴン | 1,160 | 420 | ドラゴン火山帯 |
-| [ニードルうさこ](/monsters/ni_doruusako) | レア | 物質 | 1,389 | 459 | 通常のバイオーム全域 |
-| [うらぎりこぞう](/monsters/uragirikozou) | レア | 悪魔 | 1,665 | 567 | 通常のバイオーム全域 |
-| [アルミラージ](/monsters/arumiraji) | 超レア | 魔獣 | 59 | 47 | 黄金の砂漠 |
-| [スライムタワー](/monsters/suraimutawa) | 超レア | スライム | 70 | 86 | スライム湿原 |
+| [マッドスミス](/monsters/maddosumisu) | レア | [ゾンビ](/species/zombie) | 1,123 | 345 | 通常のバイオーム全域 |
+| [オーラー](/monsters/ora) | レア | [物質](/species/bussitu) | 920 | 413 | 通常のバイオーム全域 |
+| [ドラゴンライダー](/monsters/dragonraida) | レア | [ドラゴン](/species/dragon) | 1,160 | 420 | ドラゴン火山帯 |
+| [ニードルうさこ](/monsters/ni_doruusako) | レア | [物質](/species/bussitu) | 1,389 | 459 | 通常のバイオーム全域 |
+| [うらぎりこぞう](/monsters/uragirikozou) | レア | [悪魔](/species/akuma) | 1,665 | 567 | 通常のバイオーム全域 |
+| [アルミラージ](/monsters/arumiraji) | 超レア | [魔獣](/species/majyu) | 59 | 47 | 黄金の砂漠 |
+| [スライムタワー](/monsters/suraimutawa) | 超レア | [スライム](/species/slime) | 70 | 86 | スライム湿原 |
 
 見出しを押すと並べ替えできます。
 
@@ -31,6 +31,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

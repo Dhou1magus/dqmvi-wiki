@@ -17,10 +17,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [マージマタンゴ](/monsters/magematango) | 超レア | 自然 | 1,785 | 590 | 魔法の森・おばけキノコの森 |
-| [マグマロン](/monsters/magumaron) | 超レア | 自然 | 1,770 | 592 | 通常のバイオーム全域 |
-| [スターキメラ](/monsters/starkimera) | 超レア | 自然 | 1,770 | 628 | 魔法の森・キメラの断崖 |
-| [デーモンソード](/monsters/demonsodo) | 超レア | ゾンビ | 2,222 | 867 | 果ての世界 |
+| [マージマタンゴ](/monsters/magematango) | 超レア | [自然](/species/sizen) | 1,785 | 590 | 魔法の森・おばけキノコの森 |
+| [マグマロン](/monsters/magumaron) | 超レア | [自然](/species/sizen) | 1,770 | 592 | 通常のバイオーム全域 |
+| [スターキメラ](/monsters/starkimera) | 超レア | [自然](/species/sizen) | 1,770 | 628 | 魔法の森・キメラの断崖 |
+| [デーモンソード](/monsters/demonsodo) | 超レア | [ゾンビ](/species/zombie) | 2,222 | 867 | 果ての世界 |
 
 見出しを押すと並べ替えできます。
 
@@ -28,6 +28,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

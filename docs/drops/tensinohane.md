@@ -17,18 +17,18 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [タホドラキー](/monsters/tahodoraki) | 通常 | 悪魔 | 72 | 81 | キメラの断崖・ネザー |
-| [ドラキーマ](/monsters/dorakima) | 通常 | 悪魔 | 98 | 85 | ネザー |
-| [うらぎりこぞう](/monsters/uragirikozou2) | 通常 | 悪魔 | 90 | 95 | ネザー |
-| [おにぎりスライム](/monsters/onigirislime) | 通常 | スライム | 156 | 121 | 通常のバイオーム全域 |
-| [ガチャコッコ](/monsters/gatyakokko) | 通常 | 物質 | 166 | 145 | 通常のバイオーム全域 |
-| [エンゼルスライム](/monsters/enzeruslime) | 通常 | スライム | 343 | 210 | 妖精の花畑 |
-| [プオーン](/monsters/puohn) | 通常 | 魔獣 | 411 | 261 | 通常のバイオーム全域 |
-| [マジカルハット](/monsters/majikaruhatto) | 通常 | 魔獣 | 824 | 333 | 魔法の森 |
-| [じごくのきし](/monsters/jigokunokisi) | 通常 | ゾンビ | 1,202 | 454 | 果ての世界 |
-| [メイジももんじゃ](/monsters/magemomonja) | レア | 魔獣 | 984 | 324 | 妖精の花畑 |
-| [ピンクモーモン](/monsters/pinkmomon) | 超レア | 悪魔 | 55 | 45 | 妖精の花畑 |
-| [ダンスニードル](/monsters/dansunidoru) | 超レア | 自然 | 176 | 148 | 通常のバイオーム全域 |
+| [タホドラキー](/monsters/tahodoraki) | 通常 | [悪魔](/species/akuma) | 72 | 81 | キメラの断崖・ネザー |
+| [ドラキーマ](/monsters/dorakima) | 通常 | [悪魔](/species/akuma) | 98 | 85 | ネザー |
+| [うらぎりこぞう](/monsters/uragirikozou2) | 通常 | [悪魔](/species/akuma) | 90 | 95 | ネザー |
+| [おにぎりスライム](/monsters/onigirislime) | 通常 | [スライム](/species/slime) | 156 | 121 | 通常のバイオーム全域 |
+| [ガチャコッコ](/monsters/gatyakokko) | 通常 | [物質](/species/bussitu) | 166 | 145 | 通常のバイオーム全域 |
+| [エンゼルスライム](/monsters/enzeruslime) | 通常 | [スライム](/species/slime) | 343 | 210 | 妖精の花畑 |
+| [プオーン](/monsters/puohn) | 通常 | [魔獣](/species/majyu) | 411 | 261 | 通常のバイオーム全域 |
+| [マジカルハット](/monsters/majikaruhatto) | 通常 | [魔獣](/species/majyu) | 824 | 333 | 魔法の森 |
+| [じごくのきし](/monsters/jigokunokisi) | 通常 | [ゾンビ](/species/zombie) | 1,202 | 454 | 果ての世界 |
+| [メイジももんじゃ](/monsters/magemomonja) | レア | [魔獣](/species/majyu) | 984 | 324 | 妖精の花畑 |
+| [ピンクモーモン](/monsters/pinkmomon) | 超レア | [悪魔](/species/akuma) | 55 | 45 | 妖精の花畑 |
+| [ダンスニードル](/monsters/dansunidoru) | 超レア | [自然](/species/sizen) | 176 | 148 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -36,6 +36,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

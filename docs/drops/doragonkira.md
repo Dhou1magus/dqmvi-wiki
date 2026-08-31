@@ -20,7 +20,7 @@ pageClass: wide-page sortable-list
 | 種類 | 武器（剣） |
 | こうげき | 9 |
 | 攻撃倍率 | ×2.55 |
-| 特殊効果 | ドラゴン系に2倍のダメージ |
+| 特殊効果 | [ドラゴン系](/species/dragon)に2倍のダメージ |
 
 倍率は、いまの能力に掛かる値です。
 
@@ -28,11 +28,11 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [エレフローパー](/monsters/elefloper) | 超レア | 自然 | 517 | 287 | 通常のバイオーム全域 |
-| [まかいファイター](/monsters/commandragor) | 超レア | ドラゴン | 555 | 304 | 通常のバイオーム全域 |
-| [ドラゴンナイト](/monsters/dragonnaito) | 超レア | ドラゴン | 574 | 311 | ドラゴン火山帯 |
-| [ダークネビュラス](/monsters/dakunepyurasu) | 超レア | 物質 | 600 | 322 | 通常のバイオーム全域 |
-| [サタンメイル](/monsters/satanmeiru) | 超レア | 物質 | 609 | 340 | 通常のバイオーム全域 |
+| [エレフローパー](/monsters/elefloper) | 超レア | [自然](/species/sizen) | 517 | 287 | 通常のバイオーム全域 |
+| [まかいファイター](/monsters/commandragor) | 超レア | [ドラゴン](/species/dragon) | 555 | 304 | 通常のバイオーム全域 |
+| [ドラゴンナイト](/monsters/dragonnaito) | 超レア | [ドラゴン](/species/dragon) | 574 | 311 | ドラゴン火山帯 |
+| [ダークネビュラス](/monsters/dakunepyurasu) | 超レア | [物質](/species/bussitu) | 600 | 322 | 通常のバイオーム全域 |
+| [サタンメイル](/monsters/satanmeiru) | 超レア | [物質](/species/bussitu) | 609 | 340 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -40,6 +40,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

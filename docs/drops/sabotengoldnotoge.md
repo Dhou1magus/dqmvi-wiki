@@ -28,7 +28,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [サボテンゴールド](/monsters/sabotengold) | 通常 | 自然 | 1,134 | 2,063 | 黄金の砂漠 |
+| [サボテンゴールド](/monsters/sabotengold) | 通常 | [自然](/species/sizen) | 1,134 | 2,063 | 黄金の砂漠 |
 
 見出しを押すと並べ替えできます。
 
@@ -36,6 +36,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

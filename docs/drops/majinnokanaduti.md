@@ -28,10 +28,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [プオーン](/monsters/puohn) | 超レア | 魔獣 | 411 | 261 | 通常のバイオーム全域 |
-| [トロル](/monsters/tororu) | 超レア | 悪魔 | 679 | 287 | 通常のバイオーム全域 |
-| [グレイトライドン](/monsters/greatridon) | 超レア | ゾンビ | 521 | 298 | ネザー |
-| [ヘルクラッシャー](/monsters/herukurassya) | 超レア | ゾンビ | 621 | 320 | 通常のバイオーム全域 |
+| [プオーン](/monsters/puohn) | 超レア | [魔獣](/species/majyu) | 411 | 261 | 通常のバイオーム全域 |
+| [トロル](/monsters/tororu) | 超レア | [悪魔](/species/akuma) | 679 | 287 | 通常のバイオーム全域 |
+| [グレイトライドン](/monsters/greatridon) | 超レア | [ゾンビ](/species/zombie) | 521 | 298 | ネザー |
+| [ヘルクラッシャー](/monsters/herukurassya) | 超レア | [ゾンビ](/species/zombie) | 621 | 320 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -39,6 +39,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

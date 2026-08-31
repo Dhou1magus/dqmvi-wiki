@@ -154,24 +154,37 @@ const mul = (v) => (v == null ? '—' : `×${Number(v).toFixed(2).replace(/\.?0+
 const dirOf = (id) => (bossIds.has(id) ? 'bosses' : 'monsters')
 const linkTo = (id) => `[${cell(monsterName(id))}](/${dirOf(id)}/${id})`
 
+/**
+ * 「ドラゴン系に2倍のダメージ」のような効果から、その系統の一覧に繋ぐ。
+ * ★scripts/gen-monster-pages.mjs の SPECIES_SLUG と同じ対応表。片方だけ直さないこと。
+ */
+const SPECIES_SLUG = new Map([
+  ['スライム', 'slime'], ['ドラゴン', 'dragon'], ['悪魔', 'akuma'], ['ゾンビ', 'zombie'],
+  ['魔獣', 'majyu'], ['自然', 'sizen'], ['物質', 'bussitu'], ['メタル', 'metal'], ['特殊', 'tokusyu']
+])
+const withSpeciesLink = (text) => (text
+  ? String(text).replace(/(スライム|ドラゴン|悪魔|ゾンビ|魔獣|自然|物質|メタル)系/g,
+      (m, name) => `[${m}](/species/${SPECIES_SLUG.get(name)})`)
+  : '—')
+
 /** 装備なら、その数値を「項目: 値」の並びで返す。装備でなければ null */
 function equipRows(key) {
   const w = EQ.weapons?.[key]
   if (w) {
     return [['種類', `武器（${w.武器種 ?? '—'}）`], ['こうげき', w.こうげき ?? '—'],
-            ['攻撃倍率', mul(w.攻撃倍率)], ['特殊効果', w.特殊効果 ?? '—']]
+            ['攻撃倍率', mul(w.攻撃倍率)], ['特殊効果', withSpeciesLink(w.特殊効果)]]
   }
   const a = EQ.armor?.[key]
   if (a) {
     const other = ['こうげき', 'HP', 'MP'].filter((k) => a[k]).map((k) => `${k} ${mul(a[k])}`).join('・')
     return [['種類', `防具（${a.部位 ?? '—'}）`], ['しゅび', mul(a.しゅび)],
             ['魔法しゅび', mul(a.魔法しゅび)], ['そのほか', other || '—'],
-            ['特殊効果', a.特殊効果 ?? '—']]
+            ['特殊効果', withSpeciesLink(a.特殊効果)]]
   }
   const s = EQ.shields?.[key]
   if (s) {
     return [['種類', '盾'], ['しゅび', mul(s.しゅび)], ['魔法しゅび', mul(s.魔法しゅび)],
-            ['構え中', mul(s.構え中)], ['特殊効果', s.特殊効果 ?? '—']]
+            ['構え中', mul(s.構え中)], ['特殊効果', withSpeciesLink(s.特殊効果)]]
   }
   const c = EQ.accessories?.[key]
   if (c) {
@@ -179,7 +192,7 @@ function equipRows(key) {
     for (const k of ['HP', 'MP', 'こうげき', 'しゅび', '魔法しゅび', 'まりょく']) {
       if (c[k]) rows.push([k, mul(c[k])])
     }
-    if (c.特殊効果) rows.push(['特殊効果', c.特殊効果])
+    if (c.特殊効果) rows.push(['特殊効果', withSpeciesLink(c.特殊効果)])
     return rows
   }
   return null
@@ -239,7 +252,7 @@ function itemPage(it) {
   for (const f of it.from) {
     const m = statById.get(f.id)
     const x = EXTRAS.monsters[f.id] ?? {}
-    lines.push(`| ${linkTo(f.id)} | ${cell(TIER_SHORT[f.tier] ?? f.tier)} | ${cell(x.species ?? '—')} | ${num(m?.health)} | ${num(m?.dqExperience)} | ${cell(x.places?.length ? x.places.join('・') : '通常のバイオーム全域')} |`)
+    lines.push(`| ${linkTo(f.id)} | ${cell(TIER_SHORT[f.tier] ?? f.tier)} | ${x.species && SPECIES_SLUG.has(x.species) ? `[${cell(x.species)}](/species/${SPECIES_SLUG.get(x.species)})` : cell(x.species ?? '—')} | ${num(m?.health)} | ${num(m?.dqExperience)} | ${cell(x.places?.length ? x.places.join('・') : '通常のバイオーム全域')} |`)
   }
   lines.push('')
   lines.push('見出しを押すと並べ替えできます。')
@@ -248,6 +261,7 @@ function itemPage(it) {
   lines.push('')
   lines.push('- [ドロップ品から探す](/drops/)')
   lines.push('- [モンスター図鑑](/monsters/)')
+  lines.push('- [系統から探す](/species/)')
   lines.push('- [アイテム一覧](/items/)')
   lines.push('')
   return lines.join('\n')
@@ -285,6 +299,7 @@ function indexPage() {
   lines.push('## 関連ページ')
   lines.push('')
   lines.push('- [モンスター図鑑](/monsters/)')
+  lines.push('- [系統から探す](/species/)')
   lines.push('- [アイテム一覧](/items/)')
   lines.push('- [出現場所から探す](/biomes/)')
   lines.push('')

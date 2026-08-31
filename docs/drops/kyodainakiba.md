@@ -17,16 +17,16 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [おばけキャンドル](/monsters/obakekyandoru) | 通常 | 物質 | 37 | 42 | ミミックの宝物窟 |
-| [つぼ](/monsters/tubo) | 通常 | 特殊 | 55 | 51 | ミミックの宝物窟 |
-| [かくとうパンサー](/monsters/kakutoupansa) | 通常 | 魔獣 | 66 | 60 | 通常のバイオーム全域 |
-| [トンブレロ](/monsters/tonburero) | 通常 | 魔獣 | 91 | 84 | 黄金の砂漠 |
-| [ドラゴン](/monsters/dragon2) | 通常 | ドラゴン | 183 | 152 | 通常のバイオーム全域 |
-| [バリイドドッグ](/monsters/bariidodog) | 通常 | ゾンビ | 343 | 219 | 通常のバイオーム全域 |
-| [デッドペッカー](/monsters/deddopekka) | 通常 | 自然 | 371 | 235 | おばけキノコの森 |
-| [ドラゴン](/monsters/dqmdragon) | レア | ドラゴン | 220 | 200 | ドラゴン火山帯・ネザー |
-| [スカルガルー](/monsters/skullgaroo) | レア | 魔獣 | 364 | 230 | 黄金の砂漠 |
-| [トレーナースライム](/monsters/trainerslime) | レア | スライム | 574 | 303 | 通常のバイオーム全域 |
+| [おばけキャンドル](/monsters/obakekyandoru) | 通常 | [物質](/species/bussitu) | 37 | 42 | ミミックの宝物窟 |
+| [つぼ](/monsters/tubo) | 通常 | [特殊](/species/tokusyu) | 55 | 51 | ミミックの宝物窟 |
+| [かくとうパンサー](/monsters/kakutoupansa) | 通常 | [魔獣](/species/majyu) | 66 | 60 | 通常のバイオーム全域 |
+| [トンブレロ](/monsters/tonburero) | 通常 | [魔獣](/species/majyu) | 91 | 84 | 黄金の砂漠 |
+| [ドラゴン](/monsters/dragon2) | 通常 | [ドラゴン](/species/dragon) | 183 | 152 | 通常のバイオーム全域 |
+| [バリイドドッグ](/monsters/bariidodog) | 通常 | [ゾンビ](/species/zombie) | 343 | 219 | 通常のバイオーム全域 |
+| [デッドペッカー](/monsters/deddopekka) | 通常 | [自然](/species/sizen) | 371 | 235 | おばけキノコの森 |
+| [ドラゴン](/monsters/dqmdragon) | レア | [ドラゴン](/species/dragon) | 220 | 200 | ドラゴン火山帯・ネザー |
+| [スカルガルー](/monsters/skullgaroo) | レア | [魔獣](/species/majyu) | 364 | 230 | 黄金の砂漠 |
+| [トレーナースライム](/monsters/trainerslime) | レア | [スライム](/species/slime) | 574 | 303 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -34,6 +34,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

@@ -17,13 +17,13 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [がいこつ](/monsters/gaikotu) | 通常 | ゾンビ | 168 | 163 | 魔物の骨荒野・ネザー |
-| [デビルアンカー](/monsters/devil_anchor) | 通常 | 物質 | 205 | 194 | 通常のバイオーム全域 |
-| [がいこつけんし](/monsters/gaikotukensi) | 通常 | ゾンビ | 329 | 225 | 魔物の骨荒野 |
-| [しりょう](/monsters/siryou) | 通常 | ゾンビ | 378 | 246 | 魔物の骨荒野 |
-| [メラゴースト](/monsters/meragosuto) | レア | ゾンビ | 36 | 34 | ゴースト霧森 |
-| [おばけキャンドル](/monsters/obakekyandoru) | レア | 物質 | 37 | 42 | ミミックの宝物窟 |
-| [つちわらし](/monsters/tutiwarasi) | 超レア | ゾンビ | 25 | 14 | 通常のバイオーム全域 |
+| [がいこつ](/monsters/gaikotu) | 通常 | [ゾンビ](/species/zombie) | 168 | 163 | 魔物の骨荒野・ネザー |
+| [デビルアンカー](/monsters/devil_anchor) | 通常 | [物質](/species/bussitu) | 205 | 194 | 通常のバイオーム全域 |
+| [がいこつけんし](/monsters/gaikotukensi) | 通常 | [ゾンビ](/species/zombie) | 329 | 225 | 魔物の骨荒野 |
+| [しりょう](/monsters/siryou) | 通常 | [ゾンビ](/species/zombie) | 378 | 246 | 魔物の骨荒野 |
+| [メラゴースト](/monsters/meragosuto) | レア | [ゾンビ](/species/zombie) | 36 | 34 | ゴースト霧森 |
+| [おばけキャンドル](/monsters/obakekyandoru) | レア | [物質](/species/bussitu) | 37 | 42 | ミミックの宝物窟 |
+| [つちわらし](/monsters/tutiwarasi) | 超レア | [ゾンビ](/species/zombie) | 25 | 14 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -31,6 +31,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ

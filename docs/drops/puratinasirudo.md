@@ -29,10 +29,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | ---: | ---: | --- |
-| [ヘルプラネット](/monsters/herupuranetto) | 超レア | 物質 | 459 | 263 | 通常のバイオーム全域 |
-| [ビッグフェイス](/monsters/biggufeisu) | 超レア | 物質 | 522 | 294 | 通常のバイオーム全域 |
-| [バルンバ](/monsters/balloon_ba) | 超レア | ドラゴン | 546 | 335 | 通常のバイオーム全域 |
-| [ダースドラゴン](/monsters/darthdragon2) | 超レア | ドラゴン | 627 | 357 | 通常のバイオーム全域 |
+| [ヘルプラネット](/monsters/herupuranetto) | 超レア | [物質](/species/bussitu) | 459 | 263 | 通常のバイオーム全域 |
+| [ビッグフェイス](/monsters/biggufeisu) | 超レア | [物質](/species/bussitu) | 522 | 294 | 通常のバイオーム全域 |
+| [バルンバ](/monsters/balloon_ba) | 超レア | [ドラゴン](/species/dragon) | 546 | 335 | 通常のバイオーム全域 |
+| [ダースドラゴン](/monsters/darthdragon2) | 超レア | [ドラゴン](/species/dragon) | 627 | 357 | 通常のバイオーム全域 |
 
 見出しを押すと並べ替えできます。
 
@@ -40,6 +40,7 @@ pageClass: wide-page sortable-list
 
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
 - [アイテム一覧](/items/)
 
 ## 攻略メモ
