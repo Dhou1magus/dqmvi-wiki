@@ -7,10 +7,10 @@ const { frontmatter, theme } = useData()
 //  トップページの中身。ここを書き換えると表示が変わる。
 //  link を書けばリンクに、書かなければ「未作成」の灰色表示になる。
 // ───────────────────────────────────────────────────────────
-// 対応バージョンだけ手で直す。ページ数と最終更新は config.mts が
-// ビルドのたびに数えて渡してくるので、書き換えなくてもずれない。
+// ここは全部 config.mts がビルドのたびに数えて渡してくる。
+// 対応バージョンも、MODから取り出したデータのjar名から読むので手で直さなくてよい。
 const meta = [
-  { label: '対応バージョン', value: 'DQMVI 0.25.41' },
+  { label: '対応バージョン', value: theme.value.siteStats?.modVersion ?? 'DQMVI' },
   { label: '最終更新', value: theme.value.siteStats?.updated ?? '—' },
   { label: 'ページ数', value: String(theme.value.siteStats?.pages ?? '—') },
   { label: '編集者', value: '募集中' }

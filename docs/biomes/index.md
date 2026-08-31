@@ -26,7 +26,7 @@ description: DQMVIのオリジナルバイオーム・ネザー・果ての世�
 | [毒の大湿地](/biomes/poison_marsh) | 10体 |
 | [黄金の砂漠](/biomes/golden_desert) | 10体 |
 | [ネザー](/biomes/nether) | 58体 |
-| [果ての世界](/biomes/end) | 26体 |
+| [果ての世界](/biomes/end) | 28体 |
 | [海](/biomes/sea) | 21体 |
 
 ::: tip 湧く場所が決まっていないモンスター

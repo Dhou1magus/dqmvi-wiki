@@ -1,6 +1,20 @@
 import { defineConfig } from 'vitepress'
-import { readdirSync, statSync } from 'node:fs'
+import { readdirSync, statSync, readFileSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
+
+/**
+ * 対応バージョン。MODから取り出したデータに、元にしたjarの名前が入っている。
+ * そこから読むので、新しいjarで作り直せば表示も自動でついてくる。
+ */
+function modVersion(): string {
+  for (const f of ['scripts/data/monster-extras.json', 'scripts/data/equipment.json']) {
+    if (!existsSync(f)) continue
+    const jar = String(JSON.parse(readFileSync(f, 'utf8')).jar ?? '')
+    const hit = jar.match(/(\d+\.\d+\.\d+)/)
+    if (hit) return `DQMVI ${hit[1]}`
+  }
+  return 'DQMVI'
+}
 
 /**
  * トップページに出す「ページ数」と「最終更新」を、ビルドのたびに数え直す。
@@ -19,7 +33,8 @@ function countPages(dir: string): number {
 
 const SITE_STATS = {
   pages: countPages('docs'),
-  updated: new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Tokyo' })
+  updated: new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Tokyo' }),
+  modVersion: modVersion()
 }
 
 // ─────────────────────────────────────────────────────────────

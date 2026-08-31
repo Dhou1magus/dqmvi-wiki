@@ -5,7 +5,7 @@
  *   node scripts/gen-monster-pages.mjs <展開したassets/dqmviのパス>
  *
  * 例:
- *   unzip -o -q DQMVI-0.25.41.jar 'assets/dqmvi/*.tsv' 'assets/dqmvi/lang/*' -d /tmp/dqmvi
+ *   unzip -o -q DQMVI-0.25.84.jar 'assets/dqmvi/*.tsv' 'assets/dqmvi/lang/*' -d /tmp/dqmvi
  *   node scripts/gen-monster-pages.mjs /tmp/dqmvi/assets/dqmvi
  *
  * ★載せてよいのは「実際にゲームを遊んでいて分かること」だけ。
@@ -75,6 +75,32 @@ const EXTRAS_PATH = join('scripts', 'data', 'monster-extras.json')
 let EXTRAS = { monsters: {}, biomes: {} }
 if (existsSync(EXTRAS_PATH)) EXTRAS = JSON.parse(readFileSync(EXTRAS_PATH, 'utf8'))
 const extrasFor = (id) => EXTRAS.monsters?.[id] ?? null
+
+/**
+ * 版ずれの見張り。
+ * assets(TSV) は展開したjarから、追加データと装備データは
+ * scripts/extract-*.py が作ったJSONから来る。この3つが違うjarだと、
+ * 古い数字と新しい数字が混ざったページができてしまう。
+ * バージョンが揃っていなければ、ここで止めて教える。
+ */
+{
+  const version = (s) => String(s ?? '').match(/(\d+\.\d+\.\d+)/)?.[1] ?? null
+  const eqPath = join('scripts', 'data', 'equipment.json')
+  const seen = new Map()
+  if (EXTRAS.jar) seen.set(version(EXTRAS.jar), 'monster-extras.json')
+  if (existsSync(eqPath)) {
+    const v = version(JSON.parse(readFileSync(eqPath, 'utf8')).jar)
+    if (v && !seen.has(v)) seen.set(v, 'equipment.json')
+  }
+  const fromSrc = version(SRC) ?? version(process.env.DQMVI_JAR)
+  if (fromSrc && !seen.has(fromSrc)) seen.set(fromSrc, '展開したassets')
+  if (seen.size > 1) {
+    console.error('中止: MODのバージョンが揃っていません。')
+    for (const [v, where] of seen) console.error(`  ${v}  ← ${where}`)
+    console.error('同じjarで extract-*.py を流し直してから、もう一度実行してください。')
+    process.exit(1)
+  }
+}
 
 const stats = readTsv(join(SRC, 'monster_stats.tsv'))
 // monster_stats.tsv の並び順がそのままゲーム内の図鑑順（ファイル先頭の注記より）。
@@ -234,9 +260,9 @@ function monsterPage(m, { boss }) {
       lines.push('')
       lines.push('| 区分 | アイテム |')
       lines.push('| --- | --- |')
+      // ドロップ枠はモンスターごとに数が違う。飾りの「オブジェ」「フィギュア」が
+      // 付くのは一部だけなので、あるものだけをそのまま出す。
       for (const d of x.drops) lines.push(`| ${cell(d.tier)} | ${cell(d.item)} |`)
-      lines.push('')
-      lines.push('このほかに、飾り用の「オブジェ」と「フィギュア」も落とします。')
       lines.push('')
     }
 
