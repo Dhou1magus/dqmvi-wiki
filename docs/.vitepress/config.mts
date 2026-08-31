@@ -31,6 +31,21 @@ function countPages(dir: string): number {
   return n
 }
 
+/**
+ * フォルダの中の .md を数える（index.md は除く）。
+ * ナビの「（586体）」のような数を手で書くと、MODが更新されたとき必ず古くなる。
+ */
+function countMd(dir: string): number {
+  try {
+    return readdirSync(dir).filter((f) => f.endsWith('.md') && f !== 'index.md').length
+  } catch {
+    return 0
+  }
+}
+const N_MONSTERS = countMd('docs/monsters')
+const N_BOSSES = countMd('docs/bosses')
+const N_DROPS = countMd('docs/drops')
+
 const SITE_STATS = {
   pages: countPages('docs'),
   updated: new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Tokyo' }),
@@ -182,9 +197,10 @@ export default defineConfig({
       {
         text: 'データ',
         items: [
-          { text: 'モンスター図鑑（579体）', link: '/monsters/' },
-          { text: '魔王・ボス一覧（17体）', link: '/bosses/' },
+          { text: `モンスター図鑑（${N_MONSTERS}体）`, link: '/monsters/' },
+          { text: `魔王・ボス一覧（${N_BOSSES}体）`, link: '/bosses/' },
           { text: '出現場所から探す', link: '/biomes/' },
+          { text: `ドロップ品から探す（${N_DROPS}種）`, link: '/drops/' },
           { text: '職業一覧（18種）', link: '/jobs/' },
           { text: '呪文一覧（69種）', link: '/spells/' },
           { text: '特技一覧（102種）', link: '/skills/' },
@@ -233,9 +249,10 @@ export default defineConfig({
         text: 'データ',
         collapsed: false,
         items: [
-          { text: 'モンスター図鑑（579体）', link: '/monsters/' },
-          { text: '魔王・ボス一覧（17体）', link: '/bosses/' },
+          { text: `モンスター図鑑（${N_MONSTERS}体）`, link: '/monsters/' },
+          { text: `魔王・ボス一覧（${N_BOSSES}体）`, link: '/bosses/' },
           { text: '出現場所から探す', link: '/biomes/' },
+          { text: `ドロップ品から探す（${N_DROPS}種）`, link: '/drops/' },
           { text: '職業一覧（18種）', link: '/jobs/' },
           { text: '呪文一覧（69種）', link: '/spells/' },
           { text: '特技一覧（102種）', link: '/skills/' },

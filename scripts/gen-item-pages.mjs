@@ -78,6 +78,28 @@ const isShield = (name, ord) => SHIELD_NAME.test(name) || (ord !== null && ord >
 
 const lang = JSON.parse(readFileSync(join(SRC, 'lang', 'ja_jp.json'), 'utf8'))
 
+/**
+ * モンスターが落とす品のキー。落ちるものは /drops/ の逆引きページに繋ぐ。
+ * ★ページ名の作り方は scripts/gen-drop-pages.mjs の slugOf と必ず揃えること。
+ */
+const DROPPED = new Set()
+{
+  const path = join('scripts', 'data', 'monster-extras.json')
+  if (existsSync(path)) {
+    const extras = JSON.parse(readFileSync(path, 'utf8'))
+    for (const m of Object.values(extras.monsters ?? {})) {
+      for (const d of m.drops ?? []) {
+        if (!/オブジェ|フィギュア/.test(d.item) && d.key) {
+          DROPPED.add(d.key.replace(/^legacy_(item|block)_/, ''))
+        }
+      }
+    }
+  }
+}
+const dropSlug = (key) => key.replace(/^minecraft:/, 'mc_').replace(/[^A-Za-z0-9_]/g, '_')
+/** 装備の名前。モンスターから手に入るものはリンクにする */
+const itemLink = (i) => (DROPPED.has(i.key) ? `[${i.name}](/drops/${dropSlug(i.key)})` : i.name)
+
 /** 日本語名。アイテム・古いアイテム・ブロックの順に探す */
 function jpName(key) {
   for (const k of [`item.dqmvi.${key}`, `item.dqmvi.legacy_item_${key}`, `block.dqmvi.${key}`]) {
@@ -158,13 +180,13 @@ const SHAPE = {
   武器: {
     head: ['武器', 'こうげき', '攻撃倍率', '特殊効果'],
     align: ['---', '---:', '---:', '---'],
-    row: (i, d) => [i.name, int(d.こうげき), mul(d.攻撃倍率), d.特殊効果 ?? '—'],
+    row: (i, d) => [itemLink(i), int(d.こうげき), mul(d.攻撃倍率), d.特殊効果 ?? '—'],
     of: (key) => STATS.weapons[key] ?? {}
   },
   防具: {
     head: ['防具', '部位', 'しゅび', '魔法しゅび', 'そのほか', '特殊効果'],
     align: ['---', ':--:', '---:', '---:', '---', '---'],
-    row: (i, d) => [i.name, d.部位 ?? '—', mul(d.しゅび), mul(d.魔法しゅび),
+    row: (i, d) => [itemLink(i), d.部位 ?? '—', mul(d.しゅび), mul(d.魔法しゅび),
                     ['こうげき', 'HP', 'MP'].filter((k) => d[k]).map((k) => `${k} ${mul(d[k])}`).join('・') || '—',
                     d.特殊効果 ?? '—'],
     of: (key) => STATS.armor[key] ?? {}
@@ -172,14 +194,14 @@ const SHAPE = {
   盾: {
     head: ['盾', 'しゅび', '魔法しゅび', '構え中', '適正職業', '特殊効果'],
     align: ['---', '---:', '---:', '---:', '---', '---'],
-    row: (i, d) => [i.name, mul(d.しゅび), mul(d.魔法しゅび), mul(d.構え中),
+    row: (i, d) => [itemLink(i), mul(d.しゅび), mul(d.魔法しゅび), mul(d.構え中),
                     jobList(d.職業), d.特殊効果 ?? '—'],
     of: (key) => STATS.shields[key] ?? {}
   },
   アクセサリー: {
     head: ['アクセサリー', 'HP', 'MP', 'こうげき', 'しゅび', '魔法しゅび', 'まりょく', '特殊効果'],
     align: ['---', '---:', '---:', '---:', '---:', '---:', '---:', '---'],
-    row: (i, d) => [i.name, ...['HP', 'MP', 'こうげき', 'しゅび', '魔法しゅび', 'まりょく']
+    row: (i, d) => [itemLink(i), ...['HP', 'MP', 'こうげき', 'しゅび', '魔法しゅび', 'まりょく']
       .map((k) => (d[k] ? mul(d[k]) : '—')), d.特殊効果 ?? '—'],
     of: (key) => STATS.accessories[key] ?? {}
   }
@@ -250,7 +272,7 @@ function equipPage(page) {
       lines.push(`## ${k}（${group.length}種）`)
       lines.push('')
       if (SHAPE[k]) lines.push(...table(SHAPE[k], group))
-      else for (const i of group) lines.push(`- ${cell(i.name)}`)
+      else for (const i of group) lines.push(`- ${cell(itemLink(i))}`)
       lines.push('')
     }
   } else {
@@ -297,7 +319,7 @@ function indexPage() {
   lines.push('')
   lines.push('| アイテム | 分類 |')
   lines.push('| --- | :--: |')
-  for (const i of others) lines.push(`| ${cell(i.name)} | ${cell(i.group)} |`)
+  for (const i of others) lines.push(`| ${cell(itemLink(i))} | ${cell(i.group)} |`)
   lines.push('')
   lines.push('## 関連ページ')
   lines.push('')

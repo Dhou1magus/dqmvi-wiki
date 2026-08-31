@@ -45,10 +45,11 @@ const cats = [
   {
     title: 'モンスター',
     items: [
-      { t: 'モンスター図鑑 579体', link: '/monsters/', wide: true },
+      { t: 'モンスター図鑑 586体', link: '/monsters/', wide: true },
       { t: '魔王・ボス 17体', link: '/bosses/', wide: true },
       { t: '出現場所から探す', link: '/biomes/', wide: true },
-      { t: 'ドロップ品' }, { t: '系統別' }
+      { t: 'ドロップ品から探す 223種', link: '/drops/', wide: true },
+      { t: '系統別' }
     ]
   },
   {
@@ -94,7 +95,7 @@ const cats = [
       { t: 'アイテム一覧 1071種', link: '/items/', wide: true },
       { t: 'アイテムの使い方', link: '/play/items', wide: true },
       { t: '素材 132種', link: '/items/' }, { t: '種・作物', link: '/play/farming' },
-      { t: 'ちいさなメダル' }, { t: '入手場所逆引き' }
+      { t: '入手場所逆引き', link: '/drops/', wide: true }, { t: 'ちいさなメダル' }
     ]
   },
   {
@@ -139,6 +140,8 @@ const cats = [
 ]
 
 const log = [
+  { d: '08-31', t: 'ドロップ品からの逆引き 223種を追加', link: '/drops/', who: 'Claude' },
+  { d: '08-31', t: 'MOD 0.25.84 に対応（モンスター7体・呪文の威力を更新）', link: '/monsters/', who: 'Claude' },
   { d: '08-31', t: '装備の攻撃力・倍率・特殊効果を追加', link: '/items/weapons', who: 'Claude' },
   { d: '08-30', t: '装備を種類ごとの5ページに分割', link: '/items/', who: 'Claude' },
   { d: '08-30', t: '遊び方ガイド11ページを追加', link: '/play/', who: 'Claude' },
@@ -148,7 +151,7 @@ const log = [
   { d: '08-29', t: 'モンスター図鑑 579体・魔王ボス17体', link: '/monsters/', who: 'Claude' }
 ]
 
-const wanted = ['各モンスターの攻略メモ', '序盤の進め方', '武器・防具の性能値', '配合の組み合わせ']
+const wanted = ['各モンスターの攻略メモ', '序盤の進め方', 'レベル上げ・金策', '系統別の一覧']
 </script>
 
 <template>

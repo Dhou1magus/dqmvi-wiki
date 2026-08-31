@@ -77,6 +77,17 @@ if (existsSync(EXTRAS_PATH)) EXTRAS = JSON.parse(readFileSync(EXTRAS_PATH, 'utf8
 const extrasFor = (id) => EXTRAS.monsters?.[id] ?? null
 
 /**
+ * ドロップ品の表示。飾り（オブジェ・フィギュア）以外は /drops/ の逆引きページに繋ぐ。
+ * ★ページ名の作り方は scripts/gen-drop-pages.mjs の slugOf と必ず揃えること。
+ */
+function dropLink(d) {
+  if (/オブジェ|フィギュア/.test(d.item) || !d.key) return cell(d.item)
+  const slug = d.key.replace(/^legacy_(item|block)_/, '')
+    .replace(/^minecraft:/, 'mc_').replace(/[^A-Za-z0-9_]/g, '_')
+  return `[${cell(d.item)}](/drops/${slug})`
+}
+
+/**
  * 版ずれの見張り。
  * assets(TSV) は展開したjarから、追加データと装備データは
  * scripts/extract-*.py が作ったJSONから来る。この3つが違うjarだと、
@@ -262,7 +273,11 @@ function monsterPage(m, { boss }) {
       lines.push('| --- | --- |')
       // ドロップ枠はモンスターごとに数が違う。飾りの「オブジェ」「フィギュア」が
       // 付くのは一部だけなので、あるものだけをそのまま出す。
-      for (const d of x.drops) lines.push(`| ${cell(d.tier)} | ${cell(d.item)} |`)
+      // 飾り以外は、そのアイテムを落とす他のモンスターを引ける逆引きページに繋ぐ
+      // （ページを作っているのは gen-drop-pages.mjs。飾りにはページが無い）。
+      for (const d of x.drops) {
+        lines.push(`| ${cell(d.tier)} | ${dropLink(d)} |`)
+      }
       lines.push('')
     }
 

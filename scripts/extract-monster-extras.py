@@ -176,7 +176,8 @@ for rec in records:
                 and rec[i + 1][0] == 'const' and isinstance(rec[i + 1][1], int)
                 and rec[i + 2] == ('call', '<init>')):
             drops.append({'tier': DROP_LABEL[len(drops)] if len(drops) < 5 else f'枠{len(drops) + 1}',
-                          'item': item_name(rec[i][1]), 'oneIn': rec[i + 1][1]})
+                          'key': rec[i][1], 'item': item_name(rec[i][1]),
+                          'oneIn': rec[i + 1][1]})
             i += 3
         else:
             if rec[i][0] == 'const' and isinstance(rec[i][1], str) and rec[i][1]:
