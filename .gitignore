@@ -6,6 +6,3 @@ docs/.vitepress/.temp
 *.log
 docs/.vitepress/*.timestamp-*.mjs
 _to_delete/
-
-# git の履歴の控え（2026-09-03 に履歴を作り直したときのもの。コミットしない）
-*.bundle
