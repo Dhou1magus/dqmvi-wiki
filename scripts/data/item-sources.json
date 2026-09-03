@@ -1,0 +1,4515 @@
+{
+ "jar": "DQMVI-0.25.84.jar",
+ "sources": {
+  "abunaimizugisita": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "abunaimizugiue": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "akaisango": [
+   "宝箱",
+   "魚交換所",
+   "採取"
+  ],
+  "akashi_ground": [
+   "カジノ"
+  ],
+  "akashi_sea": [
+   "カジノ"
+  ],
+  "akashi_sky": [
+   "カジノ"
+  ],
+  "akumanomuti": [
+   "鍛冶"
+  ],
+  "akumanopiasu": [
+   "系統のレアドロップ"
+  ],
+  "akumanosippo": [
+   "カジノ"
+  ],
+  "akumanotatu": [
+   "系統のレアドロップ"
+  ],
+  "akumanotume": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "amatuyunoito": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "amitaitu": [
+   "鍛冶"
+  ],
+  "aporonnoono": [
+   "鍛冶"
+  ],
+  "arakuremasuku": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "as": [
+   "宝箱"
+  ],
+  "asasindaga": [
+   "鍛冶"
+  ],
+  "ayakasisou": [
+   "宝箱",
+   "魚交換所",
+   "採取"
+  ],
+  "ayasiikobin": [
+   "宝箱",
+   "鍛冶",
+   "道具屋",
+   "魚交換所"
+  ],
+  "ba": [
+   "宝箱"
+  ],
+  "bakudanisi": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "bakudanisi_block": [
+   "鍛冶"
+  ],
+  "banisutu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "bannouyaku": [
+   "宝箱",
+   "鍛冶",
+   "道具屋",
+   "魚交換所"
+  ],
+  "basutawipu": [
+   "鍛冶"
+  ],
+  "batoruribon": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "batorutyoka": [
+   "カジノ"
+  ],
+  "bekkou": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "bekkou_block": [
+   "鍛冶"
+  ],
+  "berupiasu": [
+   "鍛冶"
+  ],
+  "bigbougan": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "binasunonamida": [
+   "メダル王"
+  ],
+  "bougu": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "bouguya_b": [
+   "鍛冶"
+  ],
+  "bousounokado": [
+   "メダル王"
+  ],
+  "bsword1": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "bsword2": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "bsword3": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "bsword4": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "bsword5": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "bu": [
+   "宝箱"
+  ],
+  "budoubandana": [
+   "鍛冶"
+  ],
+  "budouekisu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "budougi": [
+   "鍛冶"
+  ],
+  "budougirisuto": [
+   "鍛冶"
+  ],
+  "budounokutu": [
+   "鍛冶"
+  ],
+  "bukiya_b": [
+   "鍛冶"
+  ],
+  "bumeran": [
+   "宝箱",
+   "鍛冶",
+   "武器屋",
+   "すごろく"
+  ],
+  "buounohatigane": [
+   "鍛冶"
+  ],
+  "buounokutu": [
+   "鍛冶"
+  ],
+  "buounosutu": [
+   "鍛冶"
+  ],
+  "buounoudeate": [
+   "鍛冶"
+  ],
+  "burizadoakkusu": [
+   "鍛冶"
+  ],
+  "buruoubu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "businnobandana": [
+   "鍛冶"
+  ],
+  "businnobudougi": [
+   "鍛冶"
+  ],
+  "businnobutu": [
+   "鍛冶"
+  ],
+  "businnokon": [
+   "鍛冶"
+  ],
+  "businrisuto": [
+   "鍛冶"
+  ],
+  "bussitu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "buturi17_f": [
+   "カジノ"
+  ],
+  "catgata": [
+   "鍛冶"
+  ],
+  "chestb1": [
+   "鍛冶"
+  ],
+  "chestb2": [
+   "鍛冶"
+  ],
+  "chestb3": [
+   "鍛冶"
+  ],
+  "chestb4": [
+   "鍛冶"
+  ],
+  "chestb5": [
+   "鍛冶"
+  ],
+  "chestb6": [
+   "鍛冶"
+  ],
+  "chestb7": [
+   "鍛冶"
+  ],
+  "chestb8": [
+   "鍛冶"
+  ],
+  "chestb9": [
+   "鍛冶"
+  ],
+  "cloth_0": [
+   "鍛冶"
+  ],
+  "cloth_1": [
+   "鍛冶"
+  ],
+  "cloth_10": [
+   "鍛冶"
+  ],
+  "cloth_11": [
+   "鍛冶"
+  ],
+  "cloth_12": [
+   "鍛冶"
+  ],
+  "cloth_13": [
+   "鍛冶"
+  ],
+  "cloth_14": [
+   "鍛冶"
+  ],
+  "cloth_15": [
+   "鍛冶"
+  ],
+  "cloth_2": [
+   "鍛冶"
+  ],
+  "cloth_3": [
+   "鍛冶"
+  ],
+  "cloth_4": [
+   "鍛冶"
+  ],
+  "cloth_5": [
+   "鍛冶"
+  ],
+  "cloth_6": [
+   "鍛冶"
+  ],
+  "cloth_7": [
+   "鍛冶"
+  ],
+  "cloth_8": [
+   "鍛冶"
+  ],
+  "cloth_9": [
+   "鍛冶"
+  ],
+  "coal_block": [
+   "鍛冶"
+  ],
+  "coin_fountain": [
+   "カジノ"
+  ],
+  "colosseum_block": [
+   "鍛冶"
+  ],
+  "daiakumanomuti": [
+   "鍛冶"
+  ],
+  "daikokubasira": [
+   "鍛冶"
+  ],
+  "daimadougurobu": [
+   "鍛冶"
+  ],
+  "daimadounobousi": [
+   "鍛冶"
+  ],
+  "daimadounorobu": [
+   "鍛冶"
+  ],
+  "daimadounosyuzu": [
+   "鍛冶"
+  ],
+  "daitensinoyumi": [
+   "鍛冶"
+  ],
+  "daitikudaki": [
+   "鍛冶"
+  ],
+  "daitinokanaduti": [
+   "鍛冶"
+  ],
+  "daitinoryuugyoku": [
+   "コロシアム"
+  ],
+  "daiza_b": [
+   "鍛冶"
+  ],
+  "daiza_e": [
+   "鍛冶"
+  ],
+  "daiza_r": [
+   "鍛冶"
+  ],
+  "dansanobutu": [
+   "鍛冶"
+  ],
+  "dansanohanekazaribando": [
+   "鍛冶"
+  ],
+  "dansanosyatu": [
+   "鍛冶"
+  ],
+  "dansanozubon": [
+   "鍛冶"
+  ],
+  "darksirudo": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "demonsupia": [
+   "鍛冶"
+  ],
+  "densetu": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "densetunoburokkukuzusinokubikazari": [
+   "カジノ"
+  ],
+  "desutoroiya": [
+   "鍛冶"
+  ],
+  "dm": [
+   "宝箱"
+  ],
+  "dokubari": [
+   "鍛冶"
+  ],
+  "dokudokuhedoro": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "dokuganokona": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "dokuganonaifu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "dokukesisou": [
+   "宝箱",
+   "道具屋",
+   "農業",
+   "福引"
+  ],
+  "dokukesisou2": [
+   "農業"
+  ],
+  "dokukesisou3": [
+   "農業"
+  ],
+  "dokukesisou_seed": [
+   "宝箱",
+   "農業"
+  ],
+  "dokukesisou_seed2": [
+   "農業"
+  ],
+  "dokukesisou_seed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "doragonkira": [
+   "鍛冶"
+  ],
+  "doragonkuro": [
+   "鍛冶"
+  ],
+  "doragonmeiru": [
+   "鍛冶"
+  ],
+  "doragonnonamida": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "doragonnonamida_block": [
+   "鍛冶"
+  ],
+  "doragonrobu": [
+   "鍛冶"
+  ],
+  "doragonroddo": [
+   "鍛冶"
+  ],
+  "doragonsureiya": [
+   "鍛冶"
+  ],
+  "doragonteiru": [
+   "鍛冶"
+  ],
+  "dorirunakkuru": [
+   "鍛冶"
+  ],
+  "dorokunoyubiwa": [
+   "系統のレアドロップ"
+  ],
+  "douguya_b": [
+   "鍛冶"
+  ],
+  "dounoturugi": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "dqmbed_b": [
+   "鍛冶"
+  ],
+  "dragonsirudo": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "dt": [
+   "宝箱"
+  ],
+  "eichinotane": [
+   "すごろく",
+   "農業"
+  ],
+  "eiyuunoyari": [
+   "鍛冶"
+  ],
+  "eiyuuounoken": [
+   "鍛冶"
+  ],
+  "enbunokon": [
+   "鍛冶"
+  ],
+  "entotu_b": [
+   "鍛冶"
+  ],
+  "entotu_s": [
+   "鍛冶"
+  ],
+  "ettinahon": [
+   "モンスター図鑑の記念"
+  ],
+  "fantomumasuku": [
+   "鍛冶"
+  ],
+  "farm_pet_storage_block": [
+   "鍛冶"
+  ],
+  "figure_shelf_half": [
+   "鍛冶"
+  ],
+  "figure_shelf_half_glass": [
+   "鍛冶"
+  ],
+  "figure_shelf_stair": [
+   "鍛冶"
+  ],
+  "figure_shelf_stair_glass": [
+   "鍛冶"
+  ],
+  "figure_shelf_stone_half": [
+   "鍛冶"
+  ],
+  "figure_shelf_stone_stair": [
+   "鍛冶"
+  ],
+  "flower00": [
+   "採取"
+  ],
+  "flower01": [
+   "採取"
+  ],
+  "flower02": [
+   "採取"
+  ],
+  "flower03": [
+   "採取"
+  ],
+  "flower04": [
+   "採取"
+  ],
+  "flower05": [
+   "採取"
+  ],
+  "flower06": [
+   "採取"
+  ],
+  "flower07": [
+   "採取"
+  ],
+  "flower08": [
+   "採取"
+  ],
+  "flower09": [
+   "採取"
+  ],
+  "formation10": [
+   "カジノ"
+  ],
+  "formation3": [
+   "メダル王"
+  ],
+  "formation4": [
+   "メダル王"
+  ],
+  "formation5": [
+   "メダル王"
+  ],
+  "formation6": [
+   "福引"
+  ],
+  "formation7": [
+   "福引"
+  ],
+  "formation8": [
+   "カジノ"
+  ],
+  "formation9": [
+   "カジノ"
+  ],
+  "fubukinoiyaring": [
+   "カジノ"
+  ],
+  "fubukinoono": [
+   "鍛冶"
+  ],
+  "fukubikiken": [
+   "モンスター（まれに）"
+  ],
+  "fukuro": [
+   "鍛冶"
+  ],
+  "fukuro2": [
+   "鍛冶"
+  ],
+  "fukuro2_ex": [
+   "鍛冶"
+  ],
+  "fukuro3": [
+   "鍛冶"
+  ],
+  "fukuro3_ex": [
+   "鍛冶"
+  ],
+  "fukuro_ex": [
+   "鍛冶"
+  ],
+  "funsainooonata": [
+   "鍛冶"
+  ],
+  "fureimukatta": [
+   "鍛冶"
+  ],
+  "fusiginaborero": [
+   "メダル王"
+  ],
+  "fuujinnnotate": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "fuwakunonekkuresu": [
+   "カジノ"
+  ],
+  "gamanoabura": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "gambit_act_attack": [
+   "道具屋"
+  ],
+  "gambit_act_follow_owner": [
+   "道具屋"
+  ],
+  "gambit_act_intercept": [
+   "道具屋"
+  ],
+  "gambit_act_wait": [
+   "道具屋"
+  ],
+  "gambit_comp_ge_percent50": [
+   "道具屋"
+  ],
+  "gambit_comp_le_percent50": [
+   "道具屋"
+  ],
+  "gambit_cond_always": [
+   "道具屋"
+  ],
+  "gambit_target_ally": [
+   "道具屋"
+  ],
+  "gambit_target_dir_east": [
+   "道具屋"
+  ],
+  "gambit_target_dir_north": [
+   "道具屋"
+  ],
+  "gambit_target_dir_south": [
+   "道具屋"
+  ],
+  "gambit_target_dir_west": [
+   "道具屋"
+  ],
+  "gambit_target_foe": [
+   "道具屋"
+  ],
+  "gambit_target_owner": [
+   "道具屋"
+  ],
+  "gambit_target_self": [
+   "道具屋"
+  ],
+  "genmanotate": [
+   "鍛冶"
+  ],
+  "genmaseki": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "genmaseki_b": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "genmaseki_block": [
+   "鍛冶"
+  ],
+  "genmaseki_g": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "gigakurassya": [
+   "鍛冶"
+  ],
+  "ginganoturugi": [
+   "鍛冶"
+  ],
+  "ginganoturugi2": [
+   "鍛冶",
+   "メダル王"
+  ],
+  "ginka": [
+   "宝箱"
+  ],
+  "ginnoyubiwa": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "glass": [
+   "鍛冶"
+  ],
+  "glass_black": [
+   "鍛冶"
+  ],
+  "glass_blue": [
+   "鍛冶"
+  ],
+  "glass_brown": [
+   "鍛冶"
+  ],
+  "glass_cyan": [
+   "鍛冶"
+  ],
+  "glass_gray": [
+   "鍛冶"
+  ],
+  "glass_green": [
+   "鍛冶"
+  ],
+  "glass_light_blue": [
+   "鍛冶"
+  ],
+  "glass_lime": [
+   "鍛冶"
+  ],
+  "glass_magenta": [
+   "鍛冶"
+  ],
+  "glass_orange": [
+   "鍛冶"
+  ],
+  "glass_pink": [
+   "鍛冶"
+  ],
+  "glass_purple": [
+   "鍛冶"
+  ],
+  "glass_red": [
+   "鍛冶"
+  ],
+  "glass_silver": [
+   "鍛冶"
+  ],
+  "glass_white": [
+   "鍛冶"
+  ],
+  "glass_yellow": [
+   "鍛冶"
+  ],
+  "godakkusu": [
+   "鍛冶"
+  ],
+  "godakkusu2": [
+   "鍛冶"
+  ],
+  "gold_t": [
+   "福引"
+  ],
+  "goldburesuretto": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "goldring": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "goldtorei": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "gouketunoudewa": [
+   "鍛冶"
+  ],
+  "gouketunoudewa2": [
+   "鍛冶"
+  ],
+  "gouketunoudewa3": [
+   "鍛冶"
+  ],
+  "gouketunoudewa4": [
+   "鍛冶"
+  ],
+  "gourikinotane": [
+   "農業"
+  ],
+  "guard_pet_storage_block": [
+   "鍛冶"
+  ],
+  "guidance_book": [
+   "鍛冶"
+  ],
+  "guradiusu": [
+   "鍛冶"
+  ],
+  "gurakosunoyari": [
+   "鍛冶"
+  ],
+  "guranbanianokutu": [
+   "鍛冶"
+  ],
+  "guranbaniarisuto": [
+   "鍛冶"
+  ],
+  "guranbaniarobu": [
+   "鍛冶"
+  ],
+  "gurantaban": [
+   "鍛冶"
+  ],
+  "gureipunirunomuti": [
+   "鍛冶"
+  ],
+  "gureitoakusu": [
+   "鍛冶"
+  ],
+  "guringamunomuti": [
+   "鍛冶"
+  ],
+  "gurinoubu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "gurugurumegane": [
+   "カジノ"
+  ],
+  "hadokunonekkuresu": [
+   "カジノ"
+  ],
+  "hadokunoring": [
+   "鍛冶"
+  ],
+  "hadokunoring2": [
+   "鍛冶"
+  ],
+  "hafuunonekkuresu": [
+   "カジノ"
+  ],
+  "haganenobumeran": [
+   "鍛冶"
+  ],
+  "haganenokabuto": [
+   "鍛冶"
+  ],
+  "haganenokon": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "haganenokote": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "haganenokutu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "haganenoobane": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "haganenoono": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "haganenotate": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "haganenoturugi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "haganenoyari": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "haganenoyoroi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "hagennonekkuresu": [
+   "カジノ"
+  ],
+  "hagennoring": [
+   "鍛冶"
+  ],
+  "hagennoring2": [
+   "鍛冶"
+  ],
+  "haguremetarunoturugi": [
+   "メダル王"
+  ],
+  "haigou": [
+   "鍛冶"
+  ],
+  "haigou2": [
+   "鍛冶"
+  ],
+  "haihiru": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "haipanova": [
+   "鍛冶"
+  ],
+  "haipanova2": [
+   "鍛冶"
+  ],
+  "hajanonekkuresu": [
+   "カジノ"
+  ],
+  "hajanoturugi": [
+   "鍛冶"
+  ],
+  "hakai": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "hakainotekkyuu": [
+   "鍛冶"
+  ],
+  "hakainotekkyuu2": [
+   "鍛冶"
+  ],
+  "hako_k": [
+   "鍛冶"
+  ],
+  "hakuainoyubiwa": [
+   "カジノ"
+  ],
+  "hakutyounoyumi": [
+   "鍛冶"
+  ],
+  "hametunotate": [
+   "すごろく"
+  ],
+  "hananomitu": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "hansamusukafu": [
+   "メダル王"
+  ],
+  "haounoono": [
+   "鍛冶"
+  ],
+  "hardened_clay": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_black": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_blue": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_brown": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_cyan": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_gray": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_green": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_light_blue": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_lime": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_magenta": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_orange": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_pink": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_purple": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_red": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_silver": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_white": [
+   "鍛冶"
+  ],
+  "hardened_clay_stained_yellow": [
+   "鍛冶"
+  ],
+  "haruberuto": [
+   "鍛冶"
+  ],
+  "hasira_b": [
+   "鍛冶"
+  ],
+  "hasiranaka_b": [
+   "鍛冶"
+  ],
+  "hasiraue_b": [
+   "鍛冶"
+  ],
+  "hatennogeturin": [
+   "鍛冶"
+  ],
+  "hay_block_side": [
+   "鍛冶"
+  ],
+  "hayabusanotume": [
+   "鍛冶"
+  ],
+  "hayabusanoturugi": [
+   "メダル王"
+  ],
+  "hayabusanoturugikai": [
+   "メダル王"
+  ],
+  "hayatenoring": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "hebinonukegara": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "heisinoken": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "hepaitosunohidane": [
+   "鍛冶"
+  ],
+  "hikarinoisi": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "hikarinoisi_block": [
+   "鍛冶"
+  ],
+  "hikarinoiyaring": [
+   "カジノ"
+  ],
+  "hikarinoturugi": [
+   "鍛冶"
+  ],
+  "hiramekijueru": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "hiryou": [
+   "鍛冶",
+   "福引"
+  ],
+  "hiryou2": [
+   "鍛冶"
+  ],
+  "hiryou3": [
+   "鍛冶"
+  ],
+  "hisekityounoyumi": [
+   "鍛冶"
+  ],
+  "hondana_b": [
+   "鍛冶"
+  ],
+  "honehone": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "honoo_ryuu": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "honoo_seed": [
+   "宝箱",
+   "農業"
+  ],
+  "honoo_seed2": [
+   "農業"
+  ],
+  "honoo_seed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "honoonobumeran": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "honoonoiyaring": [
+   "カジノ"
+  ],
+  "honoonomi": [
+   "農業"
+  ],
+  "honoonomi2": [
+   "農業"
+  ],
+  "honoonomi3": [
+   "農業"
+  ],
+  "honoonotate": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "honoonotume": [
+   "鍛冶"
+  ],
+  "honoonoturugi": [
+   "鍛冶"
+  ],
+  "honoonoyoroi": [
+   "鍛冶"
+  ],
+  "horiransu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "hosifuru": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "hosifurupiasu": [
+   "鍛冶"
+  ],
+  "hosifurupiasu2": [
+   "鍛冶"
+  ],
+  "hosikudaki": [
+   "鍛冶"
+  ],
+  "hosikuzunoturugi": [
+   "鍛冶"
+  ],
+  "hosinokakera": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "hosinokakera_block": [
+   "鍛冶"
+  ],
+  "hosinokubikazari": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "hosinopiasu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "hosizoranokubikazari": [
+   "鍛冶"
+  ],
+  "hosizoranokubikazari2": [
+   "鍛冶"
+  ],
+  "hosizoranokubikazari3": [
+   "鍛冶"
+  ],
+  "hosizoranokubikazari4": [
+   "鍛冶"
+  ],
+  "howaitosirudo": [
+   "鍛冶"
+  ],
+  "hyoutyounohane": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "ibaranomuti": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "ido_b": [
+   "鍛冶"
+  ],
+  "idooke_b": [
+   "鍛冶"
+  ],
+  "ierooubu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "igurudaga": [
+   "鍛冶"
+  ],
+  "igurufeza": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "ikarinotatu": [
+   "鍛冶"
+  ],
+  "ikarinotatu2": [
+   "鍛冶"
+  ],
+  "ikarinotatu3": [
+   "鍛冶"
+  ],
+  "ikarinotatu4": [
+   "鍛冶"
+  ],
+  "ikazutinotama": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "ikazutinotama_block": [
+   "鍛冶"
+  ],
+  "imetyenring": [
+   "メダル王"
+  ],
+  "inazumanoyari": [
+   "鍛冶"
+  ],
+  "inferunosword": [
+   "鍛冶"
+  ],
+  "inorinokado": [
+   "カジノ"
+  ],
+  "inorinoyubiwa": [
+   "鍛冶"
+  ],
+  "inotinoburesuretto": [
+   "カジノ"
+  ],
+  "inotinoisi": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "inotinoisi_block": [
+   "鍛冶"
+  ],
+  "inotinoyubiwa": [
+   "鍛冶"
+  ],
+  "interimegane": [
+   "メダル王"
+  ],
+  "interinoudewa": [
+   "カジノ"
+  ],
+  "isinotukue_b": [
+   "鍛冶"
+  ],
+  "isinotume": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "isu_b": [
+   "鍛冶"
+  ],
+  "iyasi_seed": [
+   "宝箱",
+   "農業"
+  ],
+  "iyasi_seed2": [
+   "農業"
+  ],
+  "iyasi_seed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "iyasinomi": [
+   "農業",
+   "すごろく"
+  ],
+  "iyasinomi2": [
+   "農業"
+  ],
+  "iyasinomi3": [
+   "農業"
+  ],
+  "iyasinoudewa": [
+   "鍛冶"
+  ],
+  "jaiantokurabu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "jigokumasou": [
+   "鍛冶"
+  ],
+  "jigokumasou2": [
+   "鍛冶"
+  ],
+  "jigokunoyumi": [
+   "鍛冶"
+  ],
+  "joteinomuti": [
+   "鍛冶"
+  ],
+  "jouyakusou": [
+   "宝箱",
+   "鍛冶",
+   "道具屋",
+   "魚交換所"
+  ],
+  "juryokunomoto": [
+   "宝箱",
+   "魚交換所",
+   "採取"
+  ],
+  "juujika_b": [
+   "鍛冶"
+  ],
+  "kagaminoisi": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "kagaminoisi_block": [
+   "鍛冶"
+  ],
+  "kagaribi_b": [
+   "鍛冶"
+  ],
+  "kaidanstone0": [
+   "鍛冶"
+  ],
+  "kaidanstone1": [
+   "鍛冶"
+  ],
+  "kaidanstone10": [
+   "鍛冶"
+  ],
+  "kaidanstone11": [
+   "鍛冶"
+  ],
+  "kaidanstone12": [
+   "鍛冶"
+  ],
+  "kaidanstone13": [
+   "鍛冶"
+  ],
+  "kaidanstone14": [
+   "鍛冶"
+  ],
+  "kaidanstone15": [
+   "鍛冶"
+  ],
+  "kaidanstone16": [
+   "鍛冶"
+  ],
+  "kaidanstone17": [
+   "鍛冶"
+  ],
+  "kaidanstone18": [
+   "鍛冶"
+  ],
+  "kaidanstone19": [
+   "鍛冶"
+  ],
+  "kaidanstone2": [
+   "鍛冶"
+  ],
+  "kaidanstone20": [
+   "鍛冶"
+  ],
+  "kaidanstone21": [
+   "鍛冶"
+  ],
+  "kaidanstone22": [
+   "鍛冶"
+  ],
+  "kaidanstone23": [
+   "鍛冶"
+  ],
+  "kaidanstone24": [
+   "鍛冶"
+  ],
+  "kaidanstone25": [
+   "鍛冶"
+  ],
+  "kaidanstone26": [
+   "鍛冶"
+  ],
+  "kaidanstone27": [
+   "鍛冶"
+  ],
+  "kaidanstone28": [
+   "鍛冶"
+  ],
+  "kaidanstone29": [
+   "鍛冶"
+  ],
+  "kaidanstone3": [
+   "鍛冶"
+  ],
+  "kaidanstone30": [
+   "鍛冶"
+  ],
+  "kaidanstone31": [
+   "鍛冶"
+  ],
+  "kaidanstone32": [
+   "鍛冶"
+  ],
+  "kaidanstone33": [
+   "鍛冶"
+  ],
+  "kaidanstone34": [
+   "鍛冶"
+  ],
+  "kaidanstone35": [
+   "鍛冶"
+  ],
+  "kaidanstone36": [
+   "鍛冶"
+  ],
+  "kaidanstone37": [
+   "鍛冶"
+  ],
+  "kaidanstone38": [
+   "鍛冶"
+  ],
+  "kaidanstone4": [
+   "鍛冶"
+  ],
+  "kaidanstone5": [
+   "鍛冶"
+  ],
+  "kaidanstone6": [
+   "鍛冶"
+  ],
+  "kaidanstone7": [
+   "鍛冶"
+  ],
+  "kaidanstone8": [
+   "鍛冶"
+  ],
+  "kaidanstone9": [
+   "鍛冶"
+  ],
+  "kaifuku00": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "kaifuku01": [
+   "鍛冶"
+  ],
+  "kaifuku02": [
+   "鍛冶"
+  ],
+  "kaifuku03": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "kaifuku04": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "kaifuku05": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "kairosuakkusu": [
+   "鍛冶"
+  ],
+  "kaisinnokado": [
+   "メダル王"
+  ],
+  "kaizokuounokubikazari": [
+   "すごろく"
+  ],
+  "kajihidensho": [
+   "依頼の報酬"
+  ],
+  "kaminarinoiyaring": [
+   "カジノ"
+  ],
+  "karisumasukafu": [
+   "メダル王"
+  ],
+  "karubebuto": [
+   "鍛冶"
+  ],
+  "karyuudonoyumi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kawanobousi": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "kawanokote": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "kawanokutu": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "kawanomuti": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "kawanotate": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "kawanoyoroi": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "kazekirinohane": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "kazekirinoyumi": [
+   "鍛冶"
+  ],
+  "kazenobumeran": [
+   "鍛冶"
+  ],
+  "kazenoiyaring": [
+   "カジノ"
+  ],
+  "ke": [
+   "宝箱"
+  ],
+  "keiken_no_seiten": [
+   "カジノ"
+  ],
+  "keikogi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "keikoginobandana": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "keikoginokutu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "keikogisita": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "keironnoyumi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kemono08_f": [
+   "カジノ"
+  ],
+  "ken_tanken": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "kenjanobousi": [
+   "鍛冶"
+  ],
+  "kenjanoisi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kenjanokutu": [
+   "鍛冶"
+  ],
+  "kenjanoroubu": [
+   "鍛冶"
+  ],
+  "kenjanoseisui": [
+   "宝箱",
+   "鍛冶",
+   "道具屋"
+  ],
+  "kenjanotebukuro": [
+   "鍛冶"
+  ],
+  "kenpouginobando": [
+   "鍛冶"
+  ],
+  "kenpouginokutu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kenpougirisuto": [
+   "鍛冶"
+  ],
+  "kenpougiue": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kimeranotubasa": [
+   "宝箱",
+   "鍛冶",
+   "道具屋"
+  ],
+  "kingakkusu": [
+   "鍛冶"
+  ],
+  "kingdaiya": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "kingdaiya_block": [
+   "鍛冶"
+  ],
+  "kinkai": [
+   "鍛冶",
+   "魚交換所"
+  ],
+  "kinkai_block": [
+   "鍛冶"
+  ],
+  "kinnopiasu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kinobousi": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "kinoisu_b": [
+   "鍛冶"
+  ],
+  "kinoono": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kinunoroubu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kinunotebukuro": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kirapiasu2": [
+   "鍛冶",
+   "メダル王"
+  ],
+  "kisekinonekkuresu": [
+   "モンスター図鑑の記念"
+  ],
+  "kisekinoturugi": [
+   "メダル王"
+  ],
+  "kisekinoturugikai": [
+   "鍛冶"
+  ],
+  "kisekinoyubiwa": [
+   "すごろく"
+  ],
+  "kitonsirudo": [
+   "鍛冶"
+  ],
+  "kiyomenomizu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "kobokunoyumi": [
+   "鍛冶"
+  ],
+  "kobusi": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "kobusi2": [
+   "鍛冶"
+  ],
+  "kobusi3": [
+   "鍛冶"
+  ],
+  "kobusi32": [
+   "鍛冶"
+  ],
+  "kogarasinodaga": [
+   "鍛冶"
+  ],
+  "komettoejji": [
+   "鍛冶"
+  ],
+  "konbou": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "koori_metaru": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "koorinobumeran": [
+   "鍛冶"
+  ],
+  "koorinoiyaring": [
+   "カジノ"
+  ],
+  "koorinokessyou": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "koorinokessyou_block": [
+   "鍛冶"
+  ],
+  "koorinotate": [
+   "鍛冶"
+  ],
+  "koorinotume": [
+   "鍛冶"
+  ],
+  "koorinoyaiba": [
+   "鍛冶"
+  ],
+  "koumorinohane": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "kudamononaifu": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "kuresentoejji": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kurosubumeran": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "kyodaihigetokage": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "kyodainakiba": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "kyodaisupana": [
+   "鍛冶"
+  ],
+  "littlemedal": [
+   "宝箱",
+   "福引",
+   "すごろく",
+   "依頼の報酬",
+   "精錬"
+  ],
+  "lucky_bell": [
+   "カジノ"
+  ],
+  "ma": [
+   "宝箱"
+  ],
+  "ma_ju": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "madarakumonoito": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "madorominokon": [
+   "鍛冶"
+  ],
+  "madousinosandaru": [
+   "鍛冶"
+  ],
+  "magic_tool10": [
+   "鍛冶"
+  ],
+  "magic_tool5": [
+   "鍛冶"
+  ],
+  "mahou": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "mahounobousi": [
+   "鍛冶"
+  ],
+  "mahounohoui": [
+   "鍛冶"
+  ],
+  "mahounokagi": [
+   "宝箱"
+  ],
+  "mahounokutu": [
+   "鍛冶"
+  ],
+  "mahounomi_i": [
+   "農業",
+   "すごろく"
+  ],
+  "mahounomi_i2": [
+   "農業"
+  ],
+  "mahounomi_i3": [
+   "農業"
+  ],
+  "mahounomiseed": [
+   "宝箱",
+   "農業"
+  ],
+  "mahounomiseed2": [
+   "農業"
+  ],
+  "mahounomiseed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "mahounopiasu": [
+   "鍛冶"
+  ],
+  "mahounotate": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "mahounotebukuro": [
+   "鍛冶"
+  ],
+  "mahoustaff01": [
+   "鍛冶"
+  ],
+  "mahoustaff02": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "mahoustaff03": [
+   "鍛冶"
+  ],
+  "mahoustaff04": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "mahoustaff05": [
+   "鍛冶"
+  ],
+  "mahoustaff06": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "mahoustaff07": [
+   "鍛冶"
+  ],
+  "mahoustaff08": [
+   "鍛冶"
+  ],
+  "mahoustaff09": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "mahoustaff10": [
+   "鍛冶"
+  ],
+  "mahoustaff11": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "mahoustaff12": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "mahoustaff13": [
+   "鍛冶"
+  ],
+  "mahoustaff14": [
+   "鍛冶"
+  ],
+  "mahoustaff15": [
+   "鍛冶"
+  ],
+  "mahoustaff16": [
+   "鍛冶"
+  ],
+  "mahoustaff17": [
+   "鍛冶"
+  ],
+  "mahoustaff18": [
+   "鍛冶"
+  ],
+  "majinnokanaduti": [
+   "鍛冶"
+  ],
+  "majuu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "majuunokawa": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "majuunotume": [
+   "鍛冶"
+  ],
+  "majuunotuno": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "makainoturugi": [
+   "鍛冶"
+  ],
+  "makenreipia": [
+   "鍛冶"
+  ],
+  "maki_b": [
+   "鍛冶"
+  ],
+  "mamori_seed": [
+   "宝箱",
+   "農業"
+  ],
+  "mamori_seed2": [
+   "農業"
+  ],
+  "mamori_seed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "mamorinokado": [
+   "メダル王"
+  ],
+  "mamorinorubi": [
+   "鍛冶"
+  ],
+  "mamorinotane": [
+   "宝箱",
+   "農業",
+   "福引"
+  ],
+  "mamorinotane2": [
+   "農業"
+  ],
+  "mamorinotane3": [
+   "農業"
+  ],
+  "mamorinoudewa": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "mamorinoudewa2": [
+   "鍛冶"
+  ],
+  "mamorinoudewa3": [
+   "鍛冶"
+  ],
+  "mamorinoudewa4": [
+   "鍛冶"
+  ],
+  "mangetunokubiwa": [
+   "カジノ"
+  ],
+  "mangetunoring": [
+   "鍛冶"
+  ],
+  "mangetunoring2": [
+   "鍛冶"
+  ],
+  "maryokunotane_i": [
+   "農業"
+  ],
+  "maryokunotane_i2": [
+   "農業"
+  ],
+  "maryokunotane_i3": [
+   "農業"
+  ],
+  "maryokunotaneseed": [
+   "宝箱",
+   "農業"
+  ],
+  "maryokunotaneseed2": [
+   "農業"
+  ],
+  "maryokunotaneseed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "maryokunotuti": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "mayokenoseiin": [
+   "鍛冶"
+  ],
+  "mayokenotume": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "me": [
+   "宝箱"
+  ],
+  "megaminomuti": [
+   "鍛冶"
+  ],
+  "megaminotate": [
+   "鍛冶"
+  ],
+  "megaminoyubiwa": [
+   "鍛冶"
+  ],
+  "meijikimeranohane": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "meta": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "metaloubu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "metaru": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "metaru_block": [
+   "鍛冶"
+  ],
+  "metaru_t": [
+   "福引"
+  ],
+  "metaru_t2": [
+   "福引"
+  ],
+  "metarukingnokabuto": [
+   "メダル王"
+  ],
+  "metarukingnokote": [
+   "メダル王"
+  ],
+  "metarukingnokutu": [
+   "メダル王"
+  ],
+  "metarukingnotate": [
+   "メダル王",
+   "すごろく"
+  ],
+  "metarukingnoturugi": [
+   "メダル王"
+  ],
+  "metarukingnoyari": [
+   "鍛冶"
+  ],
+  "metarukingnoyoroi": [
+   "メダル王",
+   "すごろく"
+  ],
+  "meteoejji": [
+   "鍛冶"
+  ],
+  "mezamasityoka": [
+   "カジノ"
+  ],
+  "midorinokoke": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "migakizuna": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "migakizuna_block": [
+   "鍛冶"
+  ],
+  "mikagaminotate": [
+   "鍛冶",
+   "すごろく"
+  ],
+  "mikawasinofuku": [
+   "鍛冶"
+  ],
+  "mikawasinokado": [
+   "メダル王"
+  ],
+  "minagorosinoken": [
+   "鍛冶"
+  ],
+  "mirayoroi": [
+   "鍛冶"
+  ],
+  "miriondaga": [
+   "鍛冶"
+  ],
+  "misriru": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "misriru2": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "misriru_block": [
+   "鍛冶"
+  ],
+  "misuriruguribu": [
+   "鍛冶"
+  ],
+  "misuriruherumu": [
+   "鍛冶"
+  ],
+  "misurirumeiru": [
+   "鍛冶"
+  ],
+  "misuritugantoretto": [
+   "鍛冶"
+  ],
+  "miwakunoribon": [
+   "鍛冶"
+  ],
+  "mizunohagoromo": [
+   "鍛冶"
+  ],
+  "mk": [
+   "宝箱"
+  ],
+  "mm": [
+   "宝箱"
+  ],
+  "monosasizao": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "moon": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "moon_block": [
+   "鍛冶"
+  ],
+  "moonakkusu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "morohanoturugi": [
+   "鍛冶"
+  ],
+  "mugennoyumi": [
+   "鍛冶"
+  ],
+  "nebanebazeri": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "nekomimibando": [
+   "鍛冶"
+  ],
+  "nekozuna": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "nessanoiyaring": [
+   "カジノ"
+  ],
+  "new_b": [
+   "鍛冶"
+  ],
+  "ni": [
+   "宝箱"
+  ],
+  "nijiirononunokire": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "nijinosizuku": [
+   "すごろく"
+  ],
+  "niku1": [
+   "宝箱"
+  ],
+  "niku2": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "niku3": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "niku4": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "nogyohidensho": [
+   "依頼の報酬"
+  ],
+  "nyoraikon": [
+   "鍛冶"
+  ],
+  "nyoraikon2": [
+   "鍛冶"
+  ],
+  "oberonnokutu": [
+   "鍛冶"
+  ],
+  "odinbou": [
+   "鍛冶"
+  ],
+  "odorikonofuku": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "odorikonokamikazari": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "odorikonomyuru": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "odorikononisokkusu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "okane": [
+   "宝箱",
+   "鍛冶",
+   "すごろく"
+  ],
+  "okane100": [
+   "宝箱",
+   "鍛冶",
+   "すごろく"
+  ],
+  "okane10000": [
+   "宝箱"
+  ],
+  "okane500": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "oke_b": [
+   "鍛冶"
+  ],
+  "omoidenoribon": [
+   "すごろく"
+  ],
+  "onabenofuta": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "oninokanabou": [
+   "鍛冶"
+  ],
+  "ono_tuti_kon": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "oogasirudo": [
+   "鍛冶"
+  ],
+  "ookanaduti": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "ookiihanaka_b": [
+   "鍛冶"
+  ],
+  "ookiihasita_b": [
+   "鍛冶"
+  ],
+  "ookiihaue_b": [
+   "鍛冶"
+  ],
+  "ookiikinotukue_b": [
+   "鍛冶"
+  ],
+  "oowasinotume": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "oredetector": [
+   "鍛冶"
+  ],
+  "oriharukon": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "oriharukon2": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "oriharukon_block": [
+   "鍛冶"
+  ],
+  "oriharukonbou": [
+   "鍛冶"
+  ],
+  "oriharukonnotume": [
+   "鍛冶"
+  ],
+  "osyarenaberuto": [
+   "カジノ"
+  ],
+  "ougon": [
+   "農業"
+  ],
+  "ougon2": [
+   "農業"
+  ],
+  "ougon3": [
+   "農業"
+  ],
+  "ougon4": [
+   "農業"
+  ],
+  "ougon_seed": [
+   "宝箱",
+   "農業"
+  ],
+  "ougon_seed2": [
+   "農業"
+  ],
+  "ougon_seed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "ougon_seed4": [
+   "農業"
+  ],
+  "ougonnotume": [
+   "鍛冶"
+  ],
+  "oujanoturugi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "oyabunnotate": [
+   "鍛冶"
+  ],
+  "pa": [
+   "宝箱"
+  ],
+  "paapuruoubu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "papasunoturuginew": [
+   "鍛冶"
+  ],
+  "parutizan": [
+   "鍛冶"
+  ],
+  "pawaberuto": [
+   "メダル王"
+  ],
+  "pentaguramu": [
+   "鍛冶"
+  ],
+  "pet_storage_block": [
+   "鍛冶"
+  ],
+  "petsyuunou": [
+   "鍛冶"
+  ],
+  "pinkparu": [
+   "鍛冶"
+  ],
+  "planks_birch": [
+   "鍛冶"
+  ],
+  "planks_jungle": [
+   "鍛冶"
+  ],
+  "planks_oak": [
+   "鍛冶"
+  ],
+  "planks_spruce": [
+   "鍛冶"
+  ],
+  "puratina": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "puratina2": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "puratina_block": [
+   "鍛冶"
+  ],
+  "puratinagantoretto": [
+   "鍛冶"
+  ],
+  "puratinaguribu": [
+   "鍛冶"
+  ],
+  "puratinaheddo": [
+   "鍛冶"
+  ],
+  "puratinameiru": [
+   "鍛冶"
+  ],
+  "puratinasirudo": [
+   "鍛冶",
+   "メダル王"
+  ],
+  "puratinasword": [
+   "宝箱",
+   "鍛冶",
+   "メダル王"
+  ],
+  "puratinatorei": [
+   "鍛冶"
+  ],
+  "purinsesugurobu": [
+   "鍛冶"
+  ],
+  "purinsesuhiru": [
+   "鍛冶"
+  ],
+  "purinsesurobu": [
+   "鍛冶"
+  ],
+  "purinsesutexiara": [
+   "鍛冶"
+  ],
+  "quartzblock0": [
+   "鍛冶"
+  ],
+  "quartzblock0_slab": [
+   "鍛冶"
+  ],
+  "quartzblock1": [
+   "鍛冶"
+  ],
+  "quartzblock1_slab": [
+   "鍛冶"
+  ],
+  "quartzblock2": [
+   "鍛冶"
+  ],
+  "quartzblock2_slab": [
+   "鍛冶"
+  ],
+  "quartzblock3": [
+   "鍛冶"
+  ],
+  "quartzblock3_slab": [
+   "鍛冶"
+  ],
+  "radatomubutu": [
+   "鍛冶"
+  ],
+  "radatomugurobu": [
+   "鍛冶"
+  ],
+  "radatomukabuto": [
+   "鍛冶"
+  ],
+  "radatomunoyoroi": [
+   "鍛冶"
+  ],
+  "raiannobutu": [
+   "鍛冶"
+  ],
+  "raiannogurobu": [
+   "鍛冶"
+  ],
+  "raiannokabuto": [
+   "鍛冶"
+  ],
+  "raiannoyoroi": [
+   "鍛冶"
+  ],
+  "raikounoiyaring": [
+   "カジノ"
+  ],
+  "raitoningudaga": [
+   "鍛冶"
+  ],
+  "raitoningusword": [
+   "鍛冶"
+  ],
+  "raitosirudo": [
+   "鍛冶"
+  ],
+  "raitosyamusiru": [
+   "鍛冶"
+  ],
+  "rakkipendanto": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "rasetumasou": [
+   "鍛冶"
+  ],
+  "re": [
+   "宝箱"
+  ],
+  "redoubu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "redstone_toumei": [
+   "鍛冶"
+  ],
+  "reiniroddo": [
+   "鍛冶"
+  ],
+  "reipia": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "rengokunohane": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "rezamanto": [
+   "宝箱",
+   "鍛冶",
+   "すごろく"
+  ],
+  "rinnenotate": [
+   "鍛冶"
+  ],
+  "riremitonomakimono": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "risaikurusuton": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "riseinonekkuresu": [
+   "カジノ"
+  ],
+  "riseinoring": [
+   "鍛冶"
+  ],
+  "riseinoring2": [
+   "鍛冶"
+  ],
+  "roiyarubajjji": [
+   "鍛冶"
+  ],
+  "roiyarutyamu": [
+   "カジノ"
+  ],
+  "roresiabutu": [
+   "鍛冶"
+  ],
+  "roresiagurobu": [
+   "鍛冶"
+  ],
+  "roresiametto": [
+   "鍛冶"
+  ],
+  "roresianofuku": [
+   "鍛冶"
+  ],
+  "rotonokabuto": [
+   "鍛冶"
+  ],
+  "rotonokote": [
+   "鍛冶"
+  ],
+  "rotonokutu": [
+   "鍛冶"
+  ],
+  "rotonotate": [
+   "鍛冶"
+  ],
+  "rotonoturugi": [
+   "鍛冶"
+  ],
+  "rotonoyoroi": [
+   "鍛冶"
+  ],
+  "rougabou": [
+   "鍛冶"
+  ],
+  "rua1": [
+   "鍛冶"
+  ],
+  "rua10": [
+   "鍛冶"
+  ],
+  "rua11": [
+   "釣り図鑑の完成"
+  ],
+  "rua2": [
+   "鍛冶"
+  ],
+  "rua3": [
+   "鍛冶"
+  ],
+  "rua4": [
+   "鍛冶"
+  ],
+  "rua5": [
+   "鍛冶"
+  ],
+  "rua6": [
+   "鍛冶"
+  ],
+  "rua7": [
+   "鍛冶"
+  ],
+  "rua8": [
+   "鍛冶"
+  ],
+  "rua9": [
+   "鍛冶"
+  ],
+  "rubinogenseki": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "rubinogenseki_block": [
+   "鍛冶"
+  ],
+  "ryuukisinobutu": [
+   "鍛冶"
+  ],
+  "ryuukisinokabuto": [
+   "鍛冶"
+  ],
+  "ryuukisinokote": [
+   "鍛冶"
+  ],
+  "ryuukisinoyoroi": [
+   "鍛冶"
+  ],
+  "ryuunohizake": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "ryuunonamida": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "ryuunonamida_block": [
+   "鍛冶"
+  ],
+  "ryuunoomamori": [
+   "カジノ"
+  ],
+  "ryuunouroko": [
+   "系統のレアドロップ"
+  ],
+  "ryuuseinoturugi": [
+   "鍛冶"
+  ],
+  "sabitakabuto": [
+   "宝箱"
+  ],
+  "sabitakote": [
+   "宝箱"
+  ],
+  "sabitakutu": [
+   "宝箱"
+  ],
+  "sabitarotonoturugi": [
+   "宝箱"
+  ],
+  "sabitatate": [
+   "宝箱"
+  ],
+  "sabitayoroi": [
+   "宝箱"
+  ],
+  "saezurinomitu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "saigonokagi": [
+   "宝箱"
+  ],
+  "sajinnoyari": [
+   "鍛冶"
+  ],
+  "sakana0": [
+   "釣り"
+  ],
+  "sakana1": [
+   "釣り"
+  ],
+  "sakana10": [
+   "釣り"
+  ],
+  "sakana11": [
+   "釣り"
+  ],
+  "sakana12": [
+   "釣り"
+  ],
+  "sakana13": [
+   "釣り"
+  ],
+  "sakana14": [
+   "釣り"
+  ],
+  "sakana15": [
+   "釣り"
+  ],
+  "sakana16": [
+   "釣り"
+  ],
+  "sakana17": [
+   "釣り"
+  ],
+  "sakana18": [
+   "釣り"
+  ],
+  "sakana19": [
+   "釣り"
+  ],
+  "sakana2": [
+   "釣り"
+  ],
+  "sakana20": [
+   "釣り"
+  ],
+  "sakana21": [
+   "釣り"
+  ],
+  "sakana22": [
+   "釣り"
+  ],
+  "sakana23": [
+   "釣り"
+  ],
+  "sakana24": [
+   "釣り"
+  ],
+  "sakana25": [
+   "釣り"
+  ],
+  "sakana26": [
+   "釣り"
+  ],
+  "sakana27": [
+   "釣り"
+  ],
+  "sakana28": [
+   "釣り"
+  ],
+  "sakana29": [
+   "釣り"
+  ],
+  "sakana3": [
+   "釣り"
+  ],
+  "sakana30": [
+   "釣り"
+  ],
+  "sakana31": [
+   "釣り"
+  ],
+  "sakana32": [
+   "釣り"
+  ],
+  "sakana33": [
+   "釣り"
+  ],
+  "sakana34": [
+   "釣り"
+  ],
+  "sakana35": [
+   "釣り"
+  ],
+  "sakana36": [
+   "釣り"
+  ],
+  "sakana37": [
+   "釣り"
+  ],
+  "sakana38": [
+   "釣り"
+  ],
+  "sakana39": [
+   "釣り"
+  ],
+  "sakana4": [
+   "釣り"
+  ],
+  "sakana40": [
+   "釣り"
+  ],
+  "sakana41": [
+   "釣り"
+  ],
+  "sakana42": [
+   "釣り"
+  ],
+  "sakana43": [
+   "釣り"
+  ],
+  "sakana44": [
+   "釣り"
+  ],
+  "sakana45": [
+   "釣り"
+  ],
+  "sakana46": [
+   "釣り"
+  ],
+  "sakana47": [
+   "釣り"
+  ],
+  "sakana48": [
+   "釣り"
+  ],
+  "sakana49": [
+   "釣り"
+  ],
+  "sakana5": [
+   "釣り"
+  ],
+  "sakana50": [
+   "釣り"
+  ],
+  "sakana51": [
+   "釣り"
+  ],
+  "sakana52": [
+   "釣り"
+  ],
+  "sakana53": [
+   "釣り"
+  ],
+  "sakana54": [
+   "釣り"
+  ],
+  "sakana55": [
+   "釣り"
+  ],
+  "sakana56": [
+   "釣り"
+  ],
+  "sakana57": [
+   "釣り"
+  ],
+  "sakana58": [
+   "釣り"
+  ],
+  "sakana59": [
+   "釣り"
+  ],
+  "sakana6": [
+   "釣り"
+  ],
+  "sakana60": [
+   "釣り"
+  ],
+  "sakana61": [
+   "釣り"
+  ],
+  "sakana62": [
+   "釣り"
+  ],
+  "sakana63": [
+   "釣り"
+  ],
+  "sakana64": [
+   "釣り"
+  ],
+  "sakana65": [
+   "釣り"
+  ],
+  "sakana66": [
+   "釣り"
+  ],
+  "sakana67": [
+   "釣り"
+  ],
+  "sakana68": [
+   "釣り"
+  ],
+  "sakana69": [
+   "釣り"
+  ],
+  "sakana7": [
+   "釣り"
+  ],
+  "sakana70": [
+   "釣り"
+  ],
+  "sakana71": [
+   "釣り"
+  ],
+  "sakana72": [
+   "釣り"
+  ],
+  "sakana73": [
+   "釣り"
+  ],
+  "sakana74": [
+   "釣り"
+  ],
+  "sakana75": [
+   "釣り"
+  ],
+  "sakana76": [
+   "釣り"
+  ],
+  "sakana77": [
+   "釣り"
+  ],
+  "sakana78": [
+   "釣り"
+  ],
+  "sakana79": [
+   "釣り"
+  ],
+  "sakana8": [
+   "釣り"
+  ],
+  "sakana80": [
+   "釣り"
+  ],
+  "sakana81": [
+   "釣り"
+  ],
+  "sakana82": [
+   "釣り"
+  ],
+  "sakana83": [
+   "釣り"
+  ],
+  "sakana84": [
+   "釣り"
+  ],
+  "sakana85": [
+   "釣り"
+  ],
+  "sakana86": [
+   "釣り"
+  ],
+  "sakana87": [
+   "釣り"
+  ],
+  "sakana88": [
+   "釣り"
+  ],
+  "sakana89": [
+   "釣り"
+  ],
+  "sakana9": [
+   "釣り"
+  ],
+  "sakana90": [
+   "釣り"
+  ],
+  "sakana91": [
+   "釣り"
+  ],
+  "sakana92": [
+   "釣り"
+  ],
+  "sakana93": [
+   "釣り"
+  ],
+  "sakana94": [
+   "釣り"
+  ],
+  "sakana95": [
+   "釣り"
+  ],
+  "sakana96": [
+   "釣り"
+  ],
+  "sakana97": [
+   "釣り"
+  ],
+  "sakana98": [
+   "釣り"
+  ],
+  "sakana99": [
+   "釣り"
+  ],
+  "sakuretto": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "sandaru": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "sandstone0": [
+   "鍛冶"
+  ],
+  "sandstone0_slab": [
+   "鍛冶"
+  ],
+  "sandstone1": [
+   "鍛冶"
+  ],
+  "sandstone1_slab": [
+   "鍛冶"
+  ],
+  "sandstone2": [
+   "鍛冶"
+  ],
+  "sandstone2_slab": [
+   "鍛冶"
+  ],
+  "sandstone3": [
+   "鍛冶"
+  ],
+  "sandstone3_slab": [
+   "鍛冶"
+  ],
+  "sanzokusaberu": [
+   "鍛冶"
+  ],
+  "saramanda": [
+   "鍛冶"
+  ],
+  "satorinokanmuri": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "satorinokutu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "satorinotebukuro": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "satorinowanpisu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "sazankurosu": [
+   "鍛冶"
+  ],
+  "sbukiya": [
+   "宝箱"
+  ],
+  "scout_ticket_odoruhouseki": [
+   "カジノ"
+  ],
+  "sdama": [
+   "宝箱"
+  ],
+  "se": [
+   "宝箱"
+  ],
+  "sefiramunoyumi": [
+   "鍛冶"
+  ],
+  "sefiramunoyumi2": [
+   "鍛冶"
+  ],
+  "sefiramurobu": [
+   "鍛冶"
+  ],
+  "seidounotate": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "seijanobutu": [
+   "鍛冶"
+  ],
+  "seijanohai": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "seijanohoui": [
+   "鍛冶"
+  ],
+  "seijanoinori": [
+   "鍛冶"
+  ],
+  "seijanokakarotto": [
+   "鍛冶"
+  ],
+  "seijanotaitu": [
+   "鍛冶"
+  ],
+  "seijonotate": [
+   "鍛冶"
+  ],
+  "seijukunokubikazari": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "seikaku_no_sho": [
+   "カジノ"
+  ],
+  "seikisinotate": [
+   "鍛冶"
+  ],
+  "seinarunaifu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "seinarusizuku": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "seireiseki": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "seireiseki_block": [
+   "鍛冶"
+  ],
+  "seisui": [
+   "鍛冶"
+  ],
+  "sekaijunoha": [
+   "宝箱",
+   "鍛冶",
+   "道具屋",
+   "魚交換所",
+   "すごろく"
+  ],
+  "sensinobutu": [
+   "鍛冶"
+  ],
+  "sensinogurobu": [
+   "鍛冶"
+  ],
+  "sensinokabuto": [
+   "鍛冶"
+  ],
+  "sensinotate": [
+   "鍛冶"
+  ],
+  "sensinoyoroi": [
+   "鍛冶"
+  ],
+  "sginkou": [
+   "宝箱"
+  ],
+  "siawasenobousi": [
+   "メダル王"
+  ],
+  "siawasenokutu": [
+   "メダル王"
+  ],
+  "sibusunaifu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "singonnojuzu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "sinigaminokubikazari": [
+   "系統のレアドロップ"
+  ],
+  "sinkannobousi": [
+   "鍛冶"
+  ],
+  "sinkannobutu": [
+   "鍛冶"
+  ],
+  "sinkannoepuron": [
+   "鍛冶"
+  ],
+  "sinkannogurobu": [
+   "鍛冶"
+  ],
+  "sinkanohiseki": [
+   "カジノ"
+  ],
+  "sinken": [
+   "鍛冶"
+  ],
+  "sinken2": [
+   "鍛冶"
+  ],
+  "sinpinoyoroi": [
+   "メダル王"
+  ],
+  "sinryuunotume": [
+   "鍛冶"
+  ],
+  "sinryuunotume2": [
+   "鍛冶"
+  ],
+  "sippuunokado": [
+   "メダル王"
+  ],
+  "siroikaigara": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "sirubatorei": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "sizen": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "sizen41_f": [
+   "カジノ"
+  ],
+  "skaitori": [
+   "宝箱"
+  ],
+  "skajino1": [
+   "宝箱"
+  ],
+  "skajino2": [
+   "宝箱"
+  ],
+  "skajino3": [
+   "宝箱"
+  ],
+  "smith_pet_storage_block": [
+   "鍛冶"
+  ],
+  "so": [
+   "宝箱"
+  ],
+  "sodobureika": [
+   "鍛冶"
+  ],
+  "sosararing": [
+   "鍛冶"
+  ],
+  "ssyuuriya": [
+   "宝箱"
+  ],
+  "starbutu": [
+   "鍛冶"
+  ],
+  "starhatto": [
+   "鍛冶"
+  ],
+  "starnasutu": [
+   "鍛冶"
+  ],
+  "starzubon": [
+   "鍛冶"
+  ],
+  "stone_b1": [
+   "鍛冶"
+  ],
+  "stone_b1_slab": [
+   "鍛冶"
+  ],
+  "stone_b2": [
+   "鍛冶"
+  ],
+  "stone_b2_slab": [
+   "鍛冶"
+  ],
+  "stone_b3": [
+   "鍛冶"
+  ],
+  "stone_b3_slab": [
+   "鍛冶"
+  ],
+  "stone_bl": [
+   "鍛冶"
+  ],
+  "stone_bl_slab": [
+   "鍛冶"
+  ],
+  "stone_br": [
+   "鍛冶"
+  ],
+  "stone_br_slab": [
+   "鍛冶"
+  ],
+  "stone_g1": [
+   "鍛冶"
+  ],
+  "stone_g1_slab": [
+   "鍛冶"
+  ],
+  "stone_g2": [
+   "鍛冶"
+  ],
+  "stone_g2_slab": [
+   "鍛冶"
+  ],
+  "stone_g3": [
+   "鍛冶"
+  ],
+  "stone_g3_slab": [
+   "鍛冶"
+  ],
+  "stone_o1": [
+   "鍛冶"
+  ],
+  "stone_o1_slab": [
+   "鍛冶"
+  ],
+  "stone_o2": [
+   "鍛冶"
+  ],
+  "stone_o2_slab": [
+   "鍛冶"
+  ],
+  "stone_p": [
+   "鍛冶"
+  ],
+  "stone_p_slab": [
+   "鍛冶"
+  ],
+  "stone_pi": [
+   "鍛冶"
+  ],
+  "stone_pi_slab": [
+   "鍛冶"
+  ],
+  "stone_r1": [
+   "鍛冶"
+  ],
+  "stone_r1_slab": [
+   "鍛冶"
+  ],
+  "stone_r2": [
+   "鍛冶"
+  ],
+  "stone_r2_slab": [
+   "鍛冶"
+  ],
+  "stone_w": [
+   "鍛冶"
+  ],
+  "stone_w_slab": [
+   "鍛冶"
+  ],
+  "stone_y": [
+   "鍛冶"
+  ],
+  "stone_y_slab": [
+   "鍛冶"
+  ],
+  "stonebrick0": [
+   "鍛冶"
+  ],
+  "stonebrick0_slab": [
+   "鍛冶"
+  ],
+  "stonebrick0_stairs": [
+   "鍛冶"
+  ],
+  "stonebrick1": [
+   "鍛冶"
+  ],
+  "stonebrick1_slab": [
+   "鍛冶"
+  ],
+  "stonebrick2": [
+   "鍛冶"
+  ],
+  "stonebrick2_slab": [
+   "鍛冶"
+  ],
+  "stonebrick3": [
+   "鍛冶"
+  ],
+  "stonebrick3_slab": [
+   "鍛冶"
+  ],
+  "stonebrick4": [
+   "鍛冶"
+  ],
+  "stonebrick4_slab": [
+   "鍛冶"
+  ],
+  "stonebrick5": [
+   "鍛冶"
+  ],
+  "stonebrick5_slab": [
+   "鍛冶"
+  ],
+  "stonebrick6": [
+   "鍛冶"
+  ],
+  "stonebrick6_slab": [
+   "鍛冶"
+  ],
+  "stonebrick7": [
+   "鍛冶"
+  ],
+  "stonebrick7_slab": [
+   "鍛冶"
+  ],
+  "su": [
+   "宝箱"
+  ],
+  "subayasa_seed": [
+   "宝箱",
+   "農業"
+  ],
+  "subayasa_seed2": [
+   "農業"
+  ],
+  "subayasa_seed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "subayasanotane": [
+   "宝箱",
+   "農業",
+   "福引",
+   "すごろく"
+  ],
+  "subayasanotane2": [
+   "農業"
+  ],
+  "subayasanotane3": [
+   "農業"
+  ],
+  "subjob_proof_as": [
+   "宝箱"
+  ],
+  "subjob_proof_ba": [
+   "宝箱"
+  ],
+  "subjob_proof_bu": [
+   "宝箱"
+  ],
+  "subjob_proof_dm": [
+   "宝箱"
+  ],
+  "subjob_proof_dt": [
+   "宝箱"
+  ],
+  "subjob_proof_ke": [
+   "宝箱"
+  ],
+  "subjob_proof_ma": [
+   "宝箱"
+  ],
+  "subjob_proof_me": [
+   "宝箱"
+  ],
+  "subjob_proof_mk": [
+   "宝箱"
+  ],
+  "subjob_proof_mm": [
+   "宝箱"
+  ],
+  "subjob_proof_ni": [
+   "宝箱"
+  ],
+  "subjob_proof_pa": [
+   "宝箱"
+  ],
+  "subjob_proof_re": [
+   "宝箱"
+  ],
+  "subjob_proof_se": [
+   "宝箱"
+  ],
+  "subjob_proof_so": [
+   "宝箱"
+  ],
+  "subjob_proof_su": [
+   "宝箱"
+  ],
+  "subjob_proof_to": [
+   "宝箱"
+  ],
+  "subjob_proof_yu": [
+   "宝箱"
+  ],
+  "sugoroku_ticket": [
+   "カジノ"
+  ],
+  "suiseinoturugi": [
+   "鍛冶"
+  ],
+  "suparing": [
+   "鍛冶"
+  ],
+  "suraimu": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "suraimu14_f": [
+   "カジノ"
+  ],
+  "suraimu15_f": [
+   "カジノ"
+  ],
+  "suraimuhead": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "suraimunofuku": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "suraimunokanmuri": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "suraimunokanmuri_k": [
+   "系統のレアドロップ"
+  ],
+  "suraimuosyarebana": [
+   "宝箱",
+   "魚交換所",
+   "採取"
+  ],
+  "suraimupiasu": [
+   "系統のレアドロップ"
+  ],
+  "suraimusyotto": [
+   "鍛冶"
+  ],
+  "suraimutorei": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "suraimuzeri": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "sutekinasabo": [
+   "鍛冶"
+  ],
+  "syotobou": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "syuranokon": [
+   "鍛冶"
+  ],
+  "syutyuunokado": [
+   "メダル王"
+  ],
+  "syuuri": [
+   "宝箱"
+  ],
+  "tabibitonofuku": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "tabibitonotebukuro": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "taimatu2_b": [
+   "鍛冶"
+  ],
+  "taimatu_b": [
+   "鍛冶"
+  ],
+  "taiyounoisi": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "taiyounoisi2": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "taiyounoisi_block": [
+   "鍛冶"
+  ],
+  "takenoyari": [
+   "宝箱",
+   "鍛冶",
+   "武器屋"
+  ],
+  "tamaganenoturugi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "tamahaganenomuti": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "taru": [
+   "鍛冶"
+  ],
+  "taru_b": [
+   "鍛冶"
+  ],
+  "tatujinnoono": [
+   "鍛冶"
+  ],
+  "tekkoukagi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "tekkouseki": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "tekkouseki_block": [
+   "鍛冶"
+  ],
+  "tenbinbou": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "tenkuu": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "tenkuunobutu": [
+   "鍛冶"
+  ],
+  "tenkuunofuku": [
+   "鍛冶"
+  ],
+  "tenkuunogurobu": [
+   "鍛冶"
+  ],
+  "tenkuunokabuto": [
+   "鍛冶"
+  ],
+  "tenkuunotate": [
+   "鍛冶"
+  ],
+  "tenkuunoturugi": [
+   "鍛冶",
+   "メダル王"
+  ],
+  "tenkuunoyoroi": [
+   "鍛冶"
+  ],
+  "tenmeinoturugi": [
+   "鍛冶"
+  ],
+  "tensinohane": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "tensinopiasu": [
+   "鍛冶"
+  ],
+  "tensinosoma": [
+   "宝箱",
+   "鍛冶",
+   "道具屋"
+  ],
+  "tensinoyumi": [
+   "鍛冶"
+  ],
+  "tetunokugi": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "tetunoturugi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "tetunoyari": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "tiisaikinotukue_b": [
+   "鍛冶"
+  ],
+  "tikainopendanto": [
+   "カジノ"
+  ],
+  "tikara_seed": [
+   "宝箱",
+   "農業"
+  ],
+  "tikara_seed2": [
+   "農業"
+  ],
+  "tikara_seed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "tikaranorubi": [
+   "鍛冶"
+  ],
+  "tikaranotane": [
+   "宝箱",
+   "農業",
+   "福引"
+  ],
+  "tikaranotane2": [
+   "農業"
+  ],
+  "tikaranotane3": [
+   "農業"
+  ],
+  "tikaranotate": [
+   "鍛冶"
+  ],
+  "tikaranoyubiwa": [
+   "鍛冶"
+  ],
+  "to": [
+   "宝箱"
+  ],
+  "togetogenokiba": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "tokinosuisyou": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "tokinosuisyou_block": [
+   "鍛冶"
+  ],
+  "tokuyakusou": [
+   "宝箱",
+   "鍛冶",
+   "道具屋",
+   "魚交換所"
+  ],
+  "toraidento": [
+   "鍛冶"
+  ],
+  "toririondaga": [
+   "鍛冶"
+  ],
+  "toririondaga2": [
+   "鍛冶"
+  ],
+  "toukonekisu": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "toukou02": [
+   "宝箱"
+  ],
+  "toukou03": [
+   "宝箱"
+  ],
+  "toukou07": [
+   "宝箱"
+  ],
+  "toukou08": [
+   "宝箱"
+  ],
+  "toukou09": [
+   "宝箱"
+  ],
+  "toukou10": [
+   "宝箱"
+  ],
+  "toukou11": [
+   "宝箱"
+  ],
+  "toukou13": [
+   "宝箱"
+  ],
+  "toukou16": [
+   "宝箱"
+  ],
+  "toukou17": [
+   "宝箱"
+  ],
+  "toukou30": [
+   "宝箱"
+  ],
+  "toukou31": [
+   "宝箱"
+  ],
+  "toukou32": [
+   "宝箱"
+  ],
+  "toukou33": [
+   "宝箱"
+  ],
+  "toukou34": [
+   "宝箱"
+  ],
+  "toukou35": [
+   "宝箱"
+  ],
+  "toukou40": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "toumei": [
+   "鍛冶"
+  ],
+  "touzokunokagi": [
+   "宝箱"
+  ],
+  "town1": [
+   "鍛冶"
+  ],
+  "town10": [
+   "鍛冶"
+  ],
+  "town10_slab": [
+   "鍛冶"
+  ],
+  "town10_stairs": [
+   "鍛冶"
+  ],
+  "town11": [
+   "鍛冶"
+  ],
+  "town11_slab": [
+   "鍛冶"
+  ],
+  "town11_stairs": [
+   "鍛冶"
+  ],
+  "town12": [
+   "鍛冶"
+  ],
+  "town12_slab": [
+   "鍛冶"
+  ],
+  "town12_stairs": [
+   "鍛冶"
+  ],
+  "town13": [
+   "鍛冶"
+  ],
+  "town13_slab": [
+   "鍛冶"
+  ],
+  "town13_stairs": [
+   "鍛冶"
+  ],
+  "town14": [
+   "鍛冶"
+  ],
+  "town14_slab": [
+   "鍛冶"
+  ],
+  "town14_stairs": [
+   "鍛冶"
+  ],
+  "town15": [
+   "鍛冶"
+  ],
+  "town15_slab": [
+   "鍛冶"
+  ],
+  "town15_stairs": [
+   "鍛冶"
+  ],
+  "town16": [
+   "鍛冶"
+  ],
+  "town16_slab": [
+   "鍛冶"
+  ],
+  "town16_stairs": [
+   "鍛冶"
+  ],
+  "town1_slab": [
+   "鍛冶"
+  ],
+  "town1_stairs": [
+   "鍛冶"
+  ],
+  "town2": [
+   "鍛冶"
+  ],
+  "town21": [
+   "鍛冶"
+  ],
+  "town210": [
+   "鍛冶"
+  ],
+  "town210_slab": [
+   "鍛冶"
+  ],
+  "town210_stairs": [
+   "鍛冶"
+  ],
+  "town211": [
+   "鍛冶"
+  ],
+  "town211_slab": [
+   "鍛冶"
+  ],
+  "town211_stairs": [
+   "鍛冶"
+  ],
+  "town212": [
+   "鍛冶"
+  ],
+  "town212_slab": [
+   "鍛冶"
+  ],
+  "town212_stairs": [
+   "鍛冶"
+  ],
+  "town213": [
+   "鍛冶"
+  ],
+  "town213_slab": [
+   "鍛冶"
+  ],
+  "town213_stairs": [
+   "鍛冶"
+  ],
+  "town214": [
+   "鍛冶"
+  ],
+  "town214_slab": [
+   "鍛冶"
+  ],
+  "town214_stairs": [
+   "鍛冶"
+  ],
+  "town215": [
+   "鍛冶"
+  ],
+  "town215_slab": [
+   "鍛冶"
+  ],
+  "town215_stairs": [
+   "鍛冶"
+  ],
+  "town216": [
+   "鍛冶"
+  ],
+  "town216_slab": [
+   "鍛冶"
+  ],
+  "town216_stairs": [
+   "鍛冶"
+  ],
+  "town21_slab": [
+   "鍛冶"
+  ],
+  "town21_stairs": [
+   "鍛冶"
+  ],
+  "town22": [
+   "鍛冶"
+  ],
+  "town22_slab": [
+   "鍛冶"
+  ],
+  "town22_stairs": [
+   "鍛冶"
+  ],
+  "town23": [
+   "鍛冶"
+  ],
+  "town23_slab": [
+   "鍛冶"
+  ],
+  "town23_stairs": [
+   "鍛冶"
+  ],
+  "town24": [
+   "鍛冶"
+  ],
+  "town24_slab": [
+   "鍛冶"
+  ],
+  "town24_stairs": [
+   "鍛冶"
+  ],
+  "town25": [
+   "鍛冶"
+  ],
+  "town25_slab": [
+   "鍛冶"
+  ],
+  "town25_stairs": [
+   "鍛冶"
+  ],
+  "town26": [
+   "鍛冶"
+  ],
+  "town26_slab": [
+   "鍛冶"
+  ],
+  "town26_stairs": [
+   "鍛冶"
+  ],
+  "town27": [
+   "鍛冶"
+  ],
+  "town27_slab": [
+   "鍛冶"
+  ],
+  "town27_stairs": [
+   "鍛冶"
+  ],
+  "town28": [
+   "鍛冶"
+  ],
+  "town28_slab": [
+   "鍛冶"
+  ],
+  "town28_stairs": [
+   "鍛冶"
+  ],
+  "town29": [
+   "鍛冶"
+  ],
+  "town29_slab": [
+   "鍛冶"
+  ],
+  "town2_slab": [
+   "鍛冶"
+  ],
+  "town2_stairs": [
+   "鍛冶"
+  ],
+  "town3": [
+   "鍛冶"
+  ],
+  "town3_slab": [
+   "鍛冶"
+  ],
+  "town3_stairs": [
+   "鍛冶"
+  ],
+  "town4": [
+   "鍛冶"
+  ],
+  "town4_slab": [
+   "鍛冶"
+  ],
+  "town4_stairs": [
+   "鍛冶"
+  ],
+  "town5": [
+   "鍛冶"
+  ],
+  "town5_slab": [
+   "鍛冶"
+  ],
+  "town5_stairs": [
+   "鍛冶"
+  ],
+  "town6": [
+   "鍛冶"
+  ],
+  "town6_slab": [
+   "鍛冶"
+  ],
+  "town6_stairs": [
+   "鍛冶"
+  ],
+  "town7": [
+   "鍛冶"
+  ],
+  "town7_slab": [
+   "鍛冶"
+  ],
+  "town7_stairs": [
+   "鍛冶"
+  ],
+  "town8": [
+   "鍛冶"
+  ],
+  "town8_slab": [
+   "鍛冶"
+  ],
+  "town8_stairs": [
+   "鍛冶"
+  ],
+  "town9": [
+   "鍛冶"
+  ],
+  "town9_slab": [
+   "鍛冶"
+  ],
+  "town9_stairs": [
+   "鍛冶"
+  ],
+  "town_music": [
+   "鍛冶"
+  ],
+  "town_music_s": [
+   "鍛冶"
+  ],
+  "town_music_ss": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_b1": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_b2": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_b3": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_bl": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_br": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_g1": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_g2": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_g3": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_o1": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_o2": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_p": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_pi": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_r1": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_r2": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_w": [
+   "鍛冶"
+  ],
+  "townmeta3_glow_stone_y": [
+   "鍛冶"
+  ],
+  "tukemonoisi": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "tukinomegumi": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "turizao1": [
+   "鍛冶"
+  ],
+  "turizao10": [
+   "鍛冶"
+  ],
+  "turizao11": [
+   "釣り図鑑の完成"
+  ],
+  "turizao2": [
+   "鍛冶"
+  ],
+  "turizao3": [
+   "鍛冶"
+  ],
+  "turizao4": [
+   "鍛冶"
+  ],
+  "turizao5": [
+   "鍛冶"
+  ],
+  "turizao6": [
+   "鍛冶"
+  ],
+  "turizao7": [
+   "鍛冶"
+  ],
+  "turizao8": [
+   "鍛冶"
+  ],
+  "turizao9": [
+   "鍛冶"
+  ],
+  "tutinoiyaring": [
+   "カジノ"
+  ],
+  "tyouguringamunomuti": [
+   "鍛冶"
+  ],
+  "tyouguringamunomuti2": [
+   "鍛冶"
+  ],
+  "tyounekutai": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "tyounohane": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "umanofun": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "uraminohouju": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "uroborosunotate": [
+   "鍛冶"
+  ],
+  "urokonotate": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "urokonotate2": [
+   "宝箱",
+   "鍛冶",
+   "防具屋"
+  ],
+  "urokonoyoroi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "uruwasikinoko": [
+   "宝箱",
+   "魚交換所",
+   "採取"
+  ],
+  "usaginosippo": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "usamimibando": [
+   "鍛冶"
+  ],
+  "usinofun": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "varukirisword": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "wall_clay": [
+   "鍛冶"
+  ],
+  "wall_glass": [
+   "鍛冶"
+  ],
+  "wall_kouseki1": [
+   "鍛冶"
+  ],
+  "wall_kouseki2": [
+   "鍛冶"
+  ],
+  "wall_stone": [
+   "鍛冶"
+  ],
+  "wall_wood": [
+   "鍛冶"
+  ],
+  "wohanma": [
+   "宝箱",
+   "鍛冶",
+   "すごろく"
+  ],
+  "wohanmakai": [
+   "鍛冶"
+  ],
+  "yadoya_b": [
+   "鍛冶"
+  ],
+  "yaibanobumeran": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "yaibanoyoroi": [
+   "鍛冶"
+  ],
+  "yajirusiaka": [
+   "鍛冶"
+  ],
+  "yajirusiaka2": [
+   "鍛冶"
+  ],
+  "yajirusiao": [
+   "鍛冶"
+  ],
+  "yajirusiao2": [
+   "鍛冶"
+  ],
+  "yajirusibatu_b": [
+   "鍛冶"
+  ],
+  "yajirusiblock": [
+   "鍛冶"
+  ],
+  "yajirusiblock2": [
+   "鍛冶"
+  ],
+  "yajirusiblock3": [
+   "鍛冶"
+  ],
+  "yajirusiblock4": [
+   "鍛冶"
+  ],
+  "yajirusidaidai": [
+   "鍛冶"
+  ],
+  "yajirusidaidai2": [
+   "鍛冶"
+  ],
+  "yajirusihai": [
+   "鍛冶"
+  ],
+  "yajirusihai2": [
+   "鍛冶"
+  ],
+  "yajirusikiiro": [
+   "鍛冶"
+  ],
+  "yajirusikiiro2": [
+   "鍛冶"
+  ],
+  "yajirusikoimidori": [
+   "鍛冶"
+  ],
+  "yajirusikoimidori2": [
+   "鍛冶"
+  ],
+  "yajirusikon": [
+   "鍛冶"
+  ],
+  "yajirusikon2": [
+   "鍛冶"
+  ],
+  "yajirusikuro": [
+   "鍛冶"
+  ],
+  "yajirusikuro2": [
+   "鍛冶"
+  ],
+  "yajirusimaru_b": [
+   "鍛冶"
+  ],
+  "yajirusimidori": [
+   "鍛冶"
+  ],
+  "yajirusimidori2": [
+   "鍛冶"
+  ],
+  "yajirusimurasaki": [
+   "鍛冶"
+  ],
+  "yajirusimurasaki2": [
+   "鍛冶"
+  ],
+  "yajirusipink": [
+   "鍛冶"
+  ],
+  "yajirusipink2": [
+   "鍛冶"
+  ],
+  "yajirusisiro": [
+   "鍛冶"
+  ],
+  "yajirusisiro2": [
+   "鍛冶"
+  ],
+  "yajirusisita_b": [
+   "鍛冶"
+  ],
+  "yajirusitya": [
+   "鍛冶"
+  ],
+  "yajirusitya2": [
+   "鍛冶"
+  ],
+  "yajirusiue_b": [
+   "鍛冶"
+  ],
+  "yajirusiusuao": [
+   "鍛冶"
+  ],
+  "yajirusiusuao2": [
+   "鍛冶"
+  ],
+  "yakusou": [
+   "宝箱",
+   "道具屋",
+   "農業",
+   "福引"
+  ],
+  "yakusou2": [
+   "農業"
+  ],
+  "yakusou3": [
+   "農業"
+  ],
+  "yakusou_seed": [
+   "宝箱",
+   "農業",
+   "福引"
+  ],
+  "yakusou_seed2": [
+   "農業"
+  ],
+  "yakusou_seed3": [
+   "鍛冶",
+   "農業"
+  ],
+  "yari_muti_tume": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "yawarakauru": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "yogoretahoutai": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "yorunotobari": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "yougansekinokakera": [
+   "宝箱",
+   "鍛冶",
+   "魚交換所"
+  ],
+  "yougansekinokakera_block": [
+   "鍛冶"
+  ],
+  "youseinokubikazari": [
+   "カジノ"
+  ],
+  "youseinoudewa": [
+   "鍛冶"
+  ],
+  "yu": [
+   "宝箱"
+  ],
+  "yumi_nage": [
+   "宝箱",
+   "魚交換所"
+  ],
+  "yusyanogurobu": [
+   "鍛冶"
+  ],
+  "yuusyanobutu": [
+   "鍛冶"
+  ],
+  "yuusyanofuku": [
+   "鍛冶"
+  ],
+  "yuusyanokanmuri": [
+   "鍛冶"
+  ],
+  "yuusyanoturugi": [
+   "鍛冶"
+  ],
+  "yuusyanoturugi2": [
+   "鍛冶"
+  ],
+  "yuusyanoturuginew": [
+   "鍛冶"
+  ],
+  "yuuwakunoyumi": [
+   "宝箱",
+   "鍛冶"
+  ],
+  "zonbi24_f": [
+   "カジノ"
+  ]
+ }
+}

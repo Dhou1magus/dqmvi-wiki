@@ -1,0 +1,39 @@
+---
+title: ホネホネ
+description: DQMVIの「ホネホネ」を落とすモンスター7体の一覧。いちばん弱いのはがいこつ（通常・EXP163）。
+pageClass: wide-page sortable-list
+---
+
+# ホネホネ
+
+素材。**7体**のモンスターが落とします。
+
+::: tip ねらい目
+**がいこつ**（通常ドロップ・EXP163）。
+落とす枠がいちばん手前で、そのなかで一番弱い相手です。
+:::
+
+## 落とすモンスター
+
+| モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
+| --- | :--: | :--: | :--: | ---: | ---: | --- |
+| [がいこつ](/monsters/gaikotu) | 通常 | 4 | [ゾンビ](/species/zombie) | 168 | 163 | 魔物の骨荒野・ネザー |
+| [デビルアンカー](/monsters/devil_anchor) | 通常 | 4 | [物質](/species/bussitu) | 205 | 194 | ふつうの土地 |
+| [がいこつけんし](/monsters/gaikotukensi) | 通常 | 5 | [ゾンビ](/species/zombie) | 329 | 225 | 魔物の骨荒野 |
+| [しりょう](/monsters/siryou) | 通常 | 5 | [ゾンビ](/species/zombie) | 378 | 246 | 魔物の骨荒野 |
+| [メラゴースト](/monsters/meragosuto) | レア | 2 | [ゾンビ](/species/zombie) | 36 | 34 | ゴースト霧森 |
+| [おばけキャンドル](/monsters/obakekyandoru) | レア | 2 | [物質](/species/bussitu) | 37 | 42 | ミミックの宝物窟 |
+| [つちわらし](/monsters/tutiwarasi) | 超レア | 1 | [ゾンビ](/species/zombie) | 25 | 14 | ふつうの土地 |
+
+見出しを押すと並べ替えできます。
+
+## 関連ページ
+
+- [ドロップ品から探す](/drops/)
+- [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
+- [アイテム一覧](/items/)
+
+## 攻略メモ
+
+（未記入）

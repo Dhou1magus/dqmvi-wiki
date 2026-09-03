@@ -1,0 +1,14 @@
+# 改行コードはリポジトリ内・作業フォルダともにLFで統一する。
+# これが無いとWindowsで開いた時点でCRLFになり、中身を変えていないのに
+# 「全行変更」の差分が出てレビューできなくなる。
+* text=auto eol=lf
+
+# 画像・フォントは変換しない（壊れる）
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary

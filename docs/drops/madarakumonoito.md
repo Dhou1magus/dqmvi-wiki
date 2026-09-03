@@ -1,0 +1,42 @@
+---
+title: まだらクモ糸
+description: DQMVIの「まだらクモ糸」を落とすモンスター10体の一覧。いちばん弱いのはギズモ1（通常・EXP12）。
+pageClass: wide-page sortable-list
+---
+
+# まだらクモ糸
+
+素材。**10体**のモンスターが落とします。
+
+::: tip ねらい目
+**ギズモ1**（通常ドロップ・EXP12）。
+落とす枠がいちばん手前で、そのなかで一番弱い相手です。
+:::
+
+## 落とすモンスター
+
+| モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
+| --- | :--: | :--: | :--: | ---: | ---: | --- |
+| [ギズモ1](/monsters/gizumo_az) | 通常 | 1 | [物質](/species/bussitu) | 22 | 12 | ふつうの土地 |
+| [フロストギズモ2](/monsters/furosutogizumo) | 通常 | 3 | [物質](/species/bussitu) | 82 | 82 | 氷結のトゲ平原 |
+| [ホロゴースト](/monsters/horoghost) | 通常 | 4 | [物質](/species/bussitu) | 182 | 141 | ゴースト霧森 |
+| [ボーンプリズナー](/monsters/bonpurizuna) | 通常 | 4 | [ゾンビ](/species/zombie) | 232 | 172 | ふつうの土地 |
+| [ボーンナイト](/monsters/boneknight) | 通常 | 4 | [ゾンビ](/species/zombie) | 192 | 183 | ネザー |
+| [ギズモ2](/monsters/gizumo) | レア | 1 | [物質](/species/bussitu) | 22 | 12 | ゴーレム岩石遺跡 |
+| [ドラゴスライム](/monsters/dragosuraimu) | レア | 2 | [スライム](/species/slime) | 36 | 35 | ドラゴン火山帯 |
+| [スライムアンノウン](/monsters/slimeunknown) | レア | 2 | [物質](/species/bussitu) | 60 | 51 | ふつうの土地 |
+| [ベロベロ](/monsters/berobero) | レア | 3 | [ゾンビ](/species/zombie) | 80 | 82 | 毒の大湿地・ネザー |
+| [ドールマスター](/monsters/dollmaster) | レア | 5 | [特殊](/species/tokusyu) | 371 | 216 | ミミックの宝物窟 |
+
+見出しを押すと並べ替えできます。
+
+## 関連ページ
+
+- [ドロップ品から探す](/drops/)
+- [モンスター図鑑](/monsters/)
+- [系統から探す](/species/)
+- [アイテム一覧](/items/)
+
+## 攻略メモ
+
+（未記入）
