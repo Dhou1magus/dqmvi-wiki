@@ -17,6 +17,42 @@ function modVersion(): string {
 }
 
 /**
+ * 図鑑の「画像」列に出す画像を探す。
+ * 生成側（scripts/gen-monster-pages.mjs）は行に ![名前](/img/monsters/<ID>.png) と書くだけで、
+ * 実際にどのファイルを出すかはビルドのたびにここで決める:
+ *   docs/public/img/monsters/<ID>.png か <名前>.png（png / jpg / jpeg / gif / webp / avif）があればそれ、
+ *   無ければ透明の /img/blank.png（枠だけ。theme/custom.css が正方形にする）。
+ * → 画像を置いて push するだけで次の公開に載る。表の再生成は要らない（2026-09-03 よっしー
+ *   「配置してみましたが表示されません」→ 再生成しないと差し替わらない作りだったのを直した）。
+ * ★拡張子は小文字だけ拾う。.PNG は Vite が画像と見なさず、参照するとビルドが落ちるため。
+ * ★存在しないファイルを src に残すと「Rollup failed to resolve import」でビルドが落ちるので、
+ *   必ず blank.png に落とす。
+ */
+const MONSTER_IMG_DIR = 'docs/public/img/monsters'
+const MONSTER_IMG_EXTS = ['png', 'jpg', 'jpeg', 'gif', 'webp', 'avif']
+const warnedImages = new Set<string>()
+function findMonsterImage(id: string, name: string): string | undefined {
+  if (!existsSync(MONSTER_IMG_DIR)) return undefined
+  const files = new Map<string, string>()
+  for (const f of readdirSync(MONSTER_IMG_DIR)) {
+    const ext = f.slice(f.lastIndexOf('.') + 1)
+    if (MONSTER_IMG_EXTS.includes(ext)) files.set(f.toLowerCase(), f)
+    else if (MONSTER_IMG_EXTS.includes(ext.toLowerCase()) && !warnedImages.has(f)) {
+      warnedImages.add(f)
+      console.warn(`注意: ${MONSTER_IMG_DIR}/${f} は拡張子を小文字（.${ext.toLowerCase()}）にしないと載りません`)
+    }
+  }
+  for (const stem of [id, name]) {
+    if (!stem) continue
+    for (const ext of MONSTER_IMG_EXTS) {
+      const f = files.get(`${stem}.${ext}`.toLowerCase())
+      if (f) return f
+    }
+  }
+  return undefined
+}
+
+/**
  * トップページに出す「ページ数」と「最終更新」を、ビルドのたびに数え直す。
  * 手で書いていると必ず実態とずれるため。
  */
@@ -234,6 +270,24 @@ export default defineConfig({
           ? codeRule(tokens, idx, options, env, self)
           : `<code>${md.utils.escapeHtml(tokens[idx].content)}</code>`
         return out.replace(/\{/g, '&#123;').replace(/\}/g, '&#125;')
+      }
+
+      // ── 図鑑の「画像」列: /img/monsters/<ID>.png を、置いてある画像に差し替える ──
+      // 上の findMonsterImage を参照。VitePress 側の画像ルール（遅延読み込みの付与）の手前で src を決める。
+      const imageRule = md.renderer.rules.image!
+      md.renderer.rules.image = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        const hit = (token.attrGet('src') ?? '').match(/^\/img\/monsters\/([^/]+)\.[A-Za-z0-9]+$/)
+        if (hit) {
+          const found = findMonsterImage(decodeURIComponent(hit[1]), token.content.trim())
+          if (found) {
+            token.attrSet('src', `/img/monsters/${encodeURIComponent(found)}`)
+          } else {
+            token.attrSet('src', '/img/blank.png')
+            token.children = [] // alt を空にする（枠だけなので読み上げも不要）
+          }
+        }
+        return imageRule(tokens, idx, options, env, self)
       }
 
       const fence = md.renderer.rules.fence!

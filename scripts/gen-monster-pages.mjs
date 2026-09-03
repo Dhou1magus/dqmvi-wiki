@@ -15,11 +15,10 @@
  *   monster_stats.tsv  … 全モンスターの数値（並び順が図鑑順）
  *   lang/ja_jp.json    … 日本語名。item.dqmvi.<id>_spawn_egg から引く
  *   boss_ai.tsv        … 魔王ボスの肩書き・フェーズ・行動ローテーション
- *   docs/public/img/monsters/ … 図鑑の「画像」列に出す画像（あれば。無ければ枠だけ）
  *
  * 出すもの:
  *   docs/monsters/<id>.md   一般モンスター
- *   docs/monsters/index.md  一覧（強さ帯ごと）
+ *   docs/monsters/index.md  一覧（図鑑。「画像」列は /img/monsters/<ID>.png を指し、ビルド時に実物へ差し替わる）
  *   docs/bosses/<id>.md     魔王ボス
  *   docs/bosses/index.md    ボス一覧
  *
@@ -162,43 +161,18 @@ function jpName(id) {
 
 // ── 図鑑の「画像」列 ─────────────────────────────────────────
 /**
- * docs/public/img/monsters/ に、そのモンスターの画像があればそれを出す。ファイル名は
- *   <モンスターID>.png … ページのURLの最後の部分（/monsters/sura なら sura.png）
- *   <モンスター名>.png … 日本語名そのまま（スライム.png）
- * のどちらでもよく、png のほか jpg / jpeg / gif / webp / avif も可。
- * 無いあいだは透明な /img/blank.png を置いて、枠だけを見せる
- * （見た目は theme/custom.css の「一覧の画像の列」。正方形に縮めて表示する）。
- * ★画像を足すときはファイルを置くだけでよい。行を手で書き換えなくても次の再生成で拾う。
- *   （2026-09-03 よっしー「正方形の画像を貼れるスペースだけ作って」）
+ * 行には ![名前](/img/monsters/<ID>.png) と書くだけ。実際に出す画像はビルドのたびに
+ * docs/.vitepress/config.mts の findMonsterImage が決める（docs/public/img/monsters/ に
+ * <ID>.png か <名前>.png があればそれ、無ければ透明の /img/blank.png で枠だけ。png のほか
+ * jpg / jpeg / gif / webp / avif も可）。
+ * ★画像を置いて push するだけで次の公開に載る。ここを再生成する必要はない。
+ *   （2026-09-03 よっしー「正方形の画像を貼れるスペースだけ作って」→「配置したが表示されない」）
+ * ★名前に [ ] が入ると alt が壊れるので外す。数値を伏せるモンスター（HIDDEN）は枠だけ。
  */
-const IMG_DIR = join(DOCS, 'public', 'img', 'monsters')
-const IMG_URL = '/img/monsters'
 const BLANK_IMG = '/img/blank.png'
-const IMG_EXTS = ['png', 'jpg', 'jpeg', 'gif', 'webp', 'avif']
-/**
- * 小文字にした名前 → 実際のファイル名（SURA.png のような大文字違いも拾う）。
- * ★拡張子だけは小文字でないと載せない。.PNG のような大文字の拡張子は Vite が画像と
- *   見なさず、ビルドが「Rollup failed to resolve import」で止まる（2026-09-03 に確認）。
- */
-const IMG_FILES = new Map()
-for (const f of existsSync(IMG_DIR) ? readdirSync(IMG_DIR) : []) {
-  if (f.startsWith('.')) continue
-  const ext = f.slice(f.lastIndexOf('.') + 1)
-  if (IMG_EXTS.includes(ext)) IMG_FILES.set(f.toLowerCase(), f)
-  else if (IMG_EXTS.includes(ext.toLowerCase())) console.warn(`注意: ${join(IMG_DIR, f)} は拡張子を小文字（.${ext.toLowerCase()}）にしないと載りません`)
-}
 function imageCell(m) {
   if (HIDDEN.has(m.id)) return `![](${BLANK_IMG})`
-  const name = jpName(m.id)
-  for (const stem of [m.id, name]) {
-    for (const ext of IMG_EXTS) {
-      const file = IMG_FILES.get(`${stem}.${ext}`.toLowerCase())
-      if (!file) continue
-      const url = `${IMG_URL}/${encodeURI(file).replace(/\(/g, '%28').replace(/\)/g, '%29')}`
-      return `![${name.replace(/[\[\]]/g, '')}](${url})`
-    }
-  }
-  return `![](${BLANK_IMG})`
+  return `![${jpName(m.id).replace(/[\[\]]/g, '')}](/img/monsters/${m.id}.png)`
 }
 
 /**
