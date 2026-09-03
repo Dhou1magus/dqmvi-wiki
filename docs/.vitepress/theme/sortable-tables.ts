@@ -144,28 +144,30 @@ function markNoWrapColumns(table: HTMLTableElement): void {
 
 /**
  * 横にはみ出す表で、名前の列（図鑑では画像の列も）を左端に固定する。手前の No. 列は下にもぐる。
- * 2列固定するときは、2列目の left を1列目の幅ぶんずらす（CSS だけでは幅が分からない）。
- * 画面の幅が変わると要否が変わるので、resize のたびに付け直す。
+ * 画像＋名前では広すぎる画面（幅375pxのスマホの図鑑がぎりぎり超える）では名前だけ固定し、
+ * それでも広すぎれば固定しない。2列固定するときは、2列目の left を1列目の幅ぶんずらす
+ * （CSS だけでは幅が分からない）。画面の幅が変わると要否が変わるので、resize のたびに付け直す。
  */
 function markStickyColumns(table: HTMLTableElement): void {
   const rows = [...(table.tBodies[0]?.rows ?? [])]
   const headers = [...(table.tHead?.rows[0]?.cells ?? [])]
   if (!rows.length || !headers.length) return
-  const cols = stickyColumnsOf(headers)
+  let cols = stickyColumnsOf(headers)
   const cellsOf = (i: number) => [headers[i], ...rows.map((r) => r.cells[i])].filter(Boolean) as HTMLTableCellElement[]
+  const widthOf = (i: number) => headers[i].getBoundingClientRect().width
 
   for (const i of cols) for (const c of cellsOf(i)) { c.classList.remove('sticky-col'); c.style.left = '' }
   if (table.scrollWidth <= table.clientWidth + 1) return // はみ出していなければ固定しない
-  const widths = cols.map((i) => headers[i].getBoundingClientRect().width)
-  if (widths.reduce((a, b) => a + b, 0) > table.clientWidth * STICKY_MAX_RATIO) return
+  const limit = table.clientWidth * STICKY_MAX_RATIO
+  while (cols.length && cols.reduce((sum, i) => sum + widthOf(i), 0) > limit) cols = cols.slice(1)
   let left = 0
-  cols.forEach((i, k) => {
+  for (const i of cols) {
     for (const c of cellsOf(i)) {
       c.classList.add('sticky-col')
       if (left) c.style.left = `${left}px`
     }
-    left += widths[k]
-  })
+    left += widthOf(i)
+  }
 }
 
 function refreshStickyColumns(): void {
