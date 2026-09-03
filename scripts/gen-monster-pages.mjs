@@ -15,6 +15,7 @@
  *   monster_stats.tsv  … 全モンスターの数値（並び順が図鑑順）
  *   lang/ja_jp.json    … 日本語名。item.dqmvi.<id>_spawn_egg から引く
  *   boss_ai.tsv        … 魔王ボスの肩書き・フェーズ・行動ローテーション
+ *   docs/public/img/monsters/ … 図鑑の「画像」列に出す画像（あれば。無ければ枠だけ）
  *
  * 出すもの:
  *   docs/monsters/<id>.md   一般モンスター
@@ -157,6 +158,47 @@ function jpName(id) {
   const raw = lang[`item.dqmvi.${id}_spawn_egg`]
   if (!raw) return id
   return raw.replace(/^DQM\s+/, '').replace(/\s*の?スポーンエッグ$/, '').trim()
+}
+
+// ── 図鑑の「画像」列 ─────────────────────────────────────────
+/**
+ * docs/public/img/monsters/ に、そのモンスターの画像があればそれを出す。ファイル名は
+ *   <モンスターID>.png … ページのURLの最後の部分（/monsters/sura なら sura.png）
+ *   <モンスター名>.png … 日本語名そのまま（スライム.png）
+ * のどちらでもよく、png のほか jpg / jpeg / gif / webp / avif も可。
+ * 無いあいだは透明な /img/blank.png を置いて、枠だけを見せる
+ * （見た目は theme/custom.css の「一覧の画像の列」。正方形に縮めて表示する）。
+ * ★画像を足すときはファイルを置くだけでよい。行を手で書き換えなくても次の再生成で拾う。
+ *   （2026-09-03 よっしー「正方形の画像を貼れるスペースだけ作って」）
+ */
+const IMG_DIR = join(DOCS, 'public', 'img', 'monsters')
+const IMG_URL = '/img/monsters'
+const BLANK_IMG = '/img/blank.png'
+const IMG_EXTS = ['png', 'jpg', 'jpeg', 'gif', 'webp', 'avif']
+/**
+ * 小文字にした名前 → 実際のファイル名（SURA.png のような大文字違いも拾う）。
+ * ★拡張子だけは小文字でないと載せない。.PNG のような大文字の拡張子は Vite が画像と
+ *   見なさず、ビルドが「Rollup failed to resolve import」で止まる（2026-09-03 に確認）。
+ */
+const IMG_FILES = new Map()
+for (const f of existsSync(IMG_DIR) ? readdirSync(IMG_DIR) : []) {
+  if (f.startsWith('.')) continue
+  const ext = f.slice(f.lastIndexOf('.') + 1)
+  if (IMG_EXTS.includes(ext)) IMG_FILES.set(f.toLowerCase(), f)
+  else if (IMG_EXTS.includes(ext.toLowerCase())) console.warn(`注意: ${join(IMG_DIR, f)} は拡張子を小文字（.${ext.toLowerCase()}）にしないと載りません`)
+}
+function imageCell(m) {
+  if (HIDDEN.has(m.id)) return `![](${BLANK_IMG})`
+  const name = jpName(m.id)
+  for (const stem of [m.id, name]) {
+    for (const ext of IMG_EXTS) {
+      const file = IMG_FILES.get(`${stem}.${ext}`.toLowerCase())
+      if (!file) continue
+      const url = `${IMG_URL}/${encodeURI(file).replace(/\(/g, '%28').replace(/\)/g, '%29')}`
+      return `![${name.replace(/[\[\]]/g, '')}](${url})`
+    }
+  }
+  return `![](${BLANK_IMG})`
 }
 
 /**
@@ -415,19 +457,24 @@ function describeAction(a) {
 }
 
 // ── 一覧ページ ────────────────────────────────────────────
-function tableRows(list, dirOf) {
+function tableRows(list, dirOf, { image = false } = {}) {
   const at = typeof dirOf === 'function' ? dirOf : () => dirOf
   // ★先頭の見出しが「No.」の表だけが並べ替えの対象になる（theme/sortable-tables.ts）。
   //   ここの見出しを変えるときは、あちらの SORTABLE_FIRST_HEADER も一緒に直すこと。
-  const out = ['| No. | モンスター | ランク | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |',
-               '| ---: | --- | :--: | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |']
+  //   「画像」の列（図鑑だけ。image: true）も、あちらの IMAGE_HEADER と同じ文字にしておくこと
+  //   （並べ替えの対象から外し、名前の列と一緒に左に固定するための目印）。
+  const head = image ? '| No. | 画像 | モンスター |' : '| No. | モンスター |'
+  const rule = image ? '| ---: | :--: | --- |' : '| ---: | --- |'
+  const out = [`${head} ランク | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |`,
+               `${rule} :--: | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |`]
   for (const m of list.slice().sort(byDex)) {
     const x = extrasFor(m.id) ?? {}
+    const pic = image ? ` ${imageCell(m)} |` : ''
     if (HIDDEN.has(m.id)) {
-      out.push(`| ${MASK} | [${cell(jpName(m.id))}](/${at(m)}/${m.id}) | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} |`)
+      out.push(`| ${MASK} |${pic} [${cell(jpName(m.id))}](/${at(m)}/${m.id}) | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} |`)
       continue
     }
-    out.push(`| ${m.dexNo} | [${cell(jpName(m.id))}](/${at(m)}/${m.id}) | ${x.rank ?? '—'} | ${cell(x.species ?? '—')} | ${cell(x.weakness ?? '—')} | ${cell((x.dayTime ?? '—').replace('のみ', ''))} | ${rnum(m.health)} | ${rnum(m.attackDamage)} | ${rnum(m.defense)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
+    out.push(`| ${m.dexNo} |${pic} [${cell(jpName(m.id))}](/${at(m)}/${m.id}) | ${x.rank ?? '—'} | ${cell(x.species ?? '—')} | ${cell(x.weakness ?? '—')} | ${cell((x.dayTime ?? '—').replace('のみ', ''))} | ${rnum(m.health)} | ${rnum(m.attackDamage)} | ${rnum(m.defense)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
   }
   return out
 }
@@ -454,8 +501,9 @@ function monsterIndex(normals) {
   lines.push(':::')
   lines.push('')
   const path = join(MON_DIR, 'index.md')
-  const extra = extraRows(path, new Set(normals.map((m) => plainName(jpName(m.id)))), { nameCol: 1, header: '| No.' })
-  lines.push(...tableRows(normals, 'monsters'))
+  // 図鑑だけ「画像」の列がある（No. | 画像 | モンスター …）ので、名前は3列目
+  const extra = extraRows(path, new Set(normals.map((m) => plainName(jpName(m.id)))), { nameCol: 2, nameHeader: 'モンスター', header: '| No.' })
+  lines.push(...tableRows(normals, 'monsters', { image: true }))
   lines.push(...(extra.get('')?.rows ?? []))
   lines.push('')
   lines.push(...leftoverTables(extra, new Set()))
@@ -514,7 +562,7 @@ function biomePage(bid, b, normals, bosses) {
     : 'この場所のランク（バイオーム名の横に出る数字）が、それぞれの「ランク」以上になると湧きます。まだ1体も条件を満たさないうちは、ふつうの土地と同じモンスターが湧きます。'))
   lines.push('')
   const path = join(BIOME_DIR, `${bid}.md`)
-  const extra = extraRows(path, new Set(list.map((m) => plainName(jpName(m.id)))), { nameCol: 1, header: '| No.' })
+  const extra = extraRows(path, new Set(list.map((m) => plainName(jpName(m.id)))), { nameCol: 1, nameHeader: 'モンスター', header: '| No.' })
   if (list.length) {
     lines.push(...tableRows(list, (m) => (bossById.has(m.id) ? 'bosses' : 'monsters')))
     lines.push(...(extra.get('')?.rows ?? []))
@@ -622,7 +670,7 @@ function speciesPage(name, list) {
   if (gear) lines.push(`| この系統に強い装備 | ${gear}種（「${name}系に2倍」など） |`)
   lines.push('')
   const path = join(SPECIES_DIR, `${slug}.md`)
-  const extra = extraRows(path, new Set(list.map((m) => plainName(jpName(m.id)))), { nameCol: 1, header: '| No.' })
+  const extra = extraRows(path, new Set(list.map((m) => plainName(jpName(m.id)))), { nameCol: 1, nameHeader: 'モンスター', header: '| No.' })
   lines.push(...tableRows(list, (m) => (bossById.has(m.id) ? 'bosses' : 'monsters')))
   lines.push(...(extra.get('')?.rows ?? []))
   lines.push('')

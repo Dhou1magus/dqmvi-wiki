@@ -36,11 +36,22 @@ function isNumericColumn(rows: HTMLTableRowElement[], index: number): boolean {
 const SORTABLE_FIRST_HEADER = 'No.'
 
 /**
+ * 画像の列の見出し（図鑑の「No. | 画像 | モンスター」）。生成側と合わせること。
+ * この列は並べ替えの対象にせず、名前の列とも数えない。横にはみ出したときは
+ * 名前の列と一緒に左に固定する（絵で探せるように）。
+ */
+const IMAGE_HEADER = '画像'
+
+const headerText = (th: HTMLTableCellElement | undefined): string => th?.textContent?.trim() ?? ''
+/** 並べ替えの対象になる見出しか。画像の列は押せないままにする */
+const isSortableHeader = (th: HTMLTableCellElement): boolean => headerText(th) !== IMAGE_HEADER
+
+/**
  * 折り返しを止める列の、中身の長さの上限（文字数）。
  * モンスター名や職業名・ランクのような短い列は途中で改行させたくないが、
  * 効果の説明文のような長い列まで一行にすると、表が横に伸びてしまう。
  * そこで列ごとに、いちばん長いセルがこの文字数以下なら折り返しを止める。
- * 名前の列（1列目。図鑑のように1列目が No. なら2列目）は長さに関係なく止める。
+ * 名前の列（1列目。図鑑のように1列目が No. なら2列目、「画像」の次）は長さに関係なく止める。
  * ★折り返す列が横に入りきらないと、スマホでは1文字ずつ改行されて縦に細長くなる
  *   （2026-09-03 指摘）。折り返す列は custom.css の word-break: keep-all で
  *   「、」「・」のような区切りでだけ折り返すようにしてある。
@@ -50,7 +61,7 @@ const NOWRAP_MAX_LENGTH = 20
 /**
  * 横にはみ出す表では、名前の列を左に固定して横スクロールしても見えるようにする。
  * 固定する列が表の見えている幅のこの割合より広いと、残りが見えなくなるので固定しない
- * （スマホの図鑑で名前の列は 58% ほど。アイテム一覧の30文字の品名は超えるので固定しない）。
+ * （スマホの図鑑で画像＋名前の列は 6 割ほど。アイテム一覧の30文字の品名は超えるので固定しない）。
  */
 const STICKY_MAX_RATIO = 0.7
 
@@ -93,13 +104,21 @@ function sortRows(
   tbody.appendChild(fragment)
 
   headers.forEach((th, i) => {
+    if (!isSortableHeader(th)) return
     th.setAttribute('aria-sort', i !== index ? 'none' : direction === 'asc' ? 'ascending' : 'descending')
   })
 }
 
-/** 名前の列の位置。図鑑のように1列目が No. なら2列目 */
+/** 名前の列の位置。図鑑のように1列目が No. なら2列目、そのあとに「画像」があればその次 */
 function nameColumnOf(headers: HTMLTableCellElement[]): number {
-  return headers[0]?.textContent?.trim() === SORTABLE_FIRST_HEADER ? 1 : 0
+  const i = headers.findIndex((th) => headerText(th) !== SORTABLE_FIRST_HEADER && headerText(th) !== IMAGE_HEADER)
+  return i < 0 ? 0 : i
+}
+
+/** 左に固定する列。名前の列と、そのすぐ左にある画像の列（図鑑） */
+function stickyColumnsOf(headers: HTMLTableCellElement[]): number[] {
+  const nameCol = nameColumnOf(headers)
+  return nameCol > 0 && headerText(headers[nameCol - 1]) === IMAGE_HEADER ? [nameCol - 1, nameCol] : [nameCol]
 }
 
 /** 名前の列と、短い内容の列に「折り返さない」印をつける */
@@ -124,20 +143,29 @@ function markNoWrapColumns(table: HTMLTableElement): void {
 }
 
 /**
- * 横にはみ出す表で、名前の列を左端に固定する（図鑑では手前の No. 列が下にもぐる）。
+ * 横にはみ出す表で、名前の列（図鑑では画像の列も）を左端に固定する。手前の No. 列は下にもぐる。
+ * 2列固定するときは、2列目の left を1列目の幅ぶんずらす（CSS だけでは幅が分からない）。
  * 画面の幅が変わると要否が変わるので、resize のたびに付け直す。
  */
 function markStickyColumns(table: HTMLTableElement): void {
   const rows = [...(table.tBodies[0]?.rows ?? [])]
   const headers = [...(table.tHead?.rows[0]?.cells ?? [])]
   if (!rows.length || !headers.length) return
-  const nameCol = nameColumnOf(headers)
-  const cells = [headers[nameCol], ...rows.map((r) => r.cells[nameCol])].filter(Boolean) as HTMLTableCellElement[]
+  const cols = stickyColumnsOf(headers)
+  const cellsOf = (i: number) => [headers[i], ...rows.map((r) => r.cells[i])].filter(Boolean) as HTMLTableCellElement[]
 
-  for (const c of cells) c.classList.remove('sticky-col')
+  for (const i of cols) for (const c of cellsOf(i)) { c.classList.remove('sticky-col'); c.style.left = '' }
   if (table.scrollWidth <= table.clientWidth + 1) return // はみ出していなければ固定しない
-  if (headers[nameCol].getBoundingClientRect().width > table.clientWidth * STICKY_MAX_RATIO) return
-  for (const c of cells) c.classList.add('sticky-col')
+  const widths = cols.map((i) => headers[i].getBoundingClientRect().width)
+  if (widths.reduce((a, b) => a + b, 0) > table.clientWidth * STICKY_MAX_RATIO) return
+  let left = 0
+  cols.forEach((i, k) => {
+    for (const c of cellsOf(i)) {
+      c.classList.add('sticky-col')
+      if (left) c.style.left = `${left}px`
+    }
+    left += widths[k]
+  })
 }
 
 function refreshStickyColumns(): void {
@@ -184,6 +212,10 @@ export function setupSortableTables(): void {
     const numericColumn = headers.map((_, i) => isNumericColumn(rows, i))
 
     headers.forEach((th, i) => {
+      if (!isSortableHeader(th)) {
+        th.classList.add('no-sort')
+        return
+      }
       const label = th.textContent?.trim() ?? ''
       th.tabIndex = 0
       th.setAttribute('role', 'button')

@@ -190,6 +190,7 @@ const wanted = computed(() => {
 })
 
 const log = [
+  { d: '09-03', t: '図鑑に「画像」の列を用意（画像はこれから。載せ方は編集ガイド）', link: '/monsters/', who: 'Claude' },
   { d: '09-03', t: '素材・種・釣りなどの一覧に「入手方法」を追加', link: '/items/materials', who: 'Claude' },
   { d: '09-03', t: 'アイテムを分類ごとのページに分けた（素材・種・釣り・特殊・建物・呪文・装飾）', link: '/items/', who: 'Claude' },
   { d: '09-03', t: 'アイテム834種に個別ページを用意（中身はこれから）', link: '/items/', who: 'Claude' },

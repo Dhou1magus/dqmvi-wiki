@@ -62,9 +62,12 @@ const cells = (line) => line.trim().replace(/^\|/, '').replace(/\|$/, '').split(
  * 表が最初の h2 より前にあれば '' が鍵。行はそのままの文字列なので、
  * 生成側は同じ表の末尾に rows を足せばよい。生成側に無い見出しなら head ごと出せる。
  * 名前が1列目でない表（図鑑の No. 付きの表）は nameCol で列を指定する。
+ * nameHeader（名前の列の見出し。「モンスター」など）を渡すと、見出し行からその列の位置を探して
+ * nameCol より優先する。列を足したり減らしたりした後でも、古い並びの表から名前を正しく拾える
+ * （2026-09-03 図鑑に「画像」列を足したとき、全行が「知らない行」扱いで二重になった）。
  * ページに種類の違う表が混ざるときは header（見出し行の書き出し）で対象の表を絞る。
  */
-export function extraRows(path, known, { nameCol = 0, header = '' } = {}) {
+export function extraRows(path, known, { nameCol = 0, nameHeader = '', header = '' } = {}) {
   const out = new Map()
   if (!existsSync(path)) return out
   let section = ''
@@ -72,16 +75,24 @@ export function extraRows(path, known, { nameCol = 0, header = '' } = {}) {
   let wanted = true
   let rowNo = 0
   let head = []
+  let col = nameCol
   for (const raw of readFileSync(path, 'utf8').split('\n')) {
     const line = raw.trimEnd()
     if (/^##\s/.test(line)) { section = headingKey(line); inTable = false; continue }
     if (!line.startsWith('|')) { inTable = false; continue }
-    if (!inTable) { inTable = true; rowNo = 0; head = []; wanted = !header || line.startsWith(header) }
+    if (!inTable) { inTable = true; rowNo = 0; head = []; col = nameCol; wanted = !header || line.startsWith(header) }
     if (!wanted) continue                        // 見出しが違う表（傾向の表など）は見ない
     rowNo++
-    if (rowNo <= 2) { head.push(line); continue }   // 見出し行と区切り行
+    if (rowNo <= 2) {                            // 見出し行と区切り行
+      head.push(line)
+      if (rowNo === 1 && nameHeader) {
+        const i = cells(line).findIndex((c) => plainName(c) === nameHeader)
+        if (i >= 0) col = i
+      }
+      continue
+    }
     if (/^\|\s*:?-+/.test(line)) continue
-    const name = plainName(cells(line)[nameCol])
+    const name = plainName(cells(line)[col])
     if (!name || known.has(name)) continue
     if (!out.has(section)) out.set(section, { head: head.slice(), rows: [] })
     out.get(section).rows.push(line)

@@ -235,11 +235,33 @@ b, strong, th,
 .Layout.wide-page .vp-doc th.sticky-col { background: var(--vp-c-bg-alt); }
 .Layout.wide-page .vp-doc tbody tr:hover td.sticky-col { background: var(--vp-c-bg-alt); }
 
+/* ── 一覧の画像の列（図鑑の「画像」）──
+   セルの中身が画像1枚だけなら、正方形のサムネイル枠に縮めて出す（縦横比は保つ）。
+   まだ画像が無い行には透明な /img/blank.png が置いてあり、薄い四角の枠だけが見える
+   （どの画像を出すかは scripts/gen-monster-pages.mjs の imageCell）。
+   ★画像は必ず docs/public/ 内のもの。外部URLは security-lint が止める。 */
+.Layout.wide-page .vp-doc td:has(> img:only-child) {
+  padding: 4px 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+.Layout.wide-page .vp-doc td > img:only-child {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+.Layout.wide-page .vp-doc td > img[src$="/img/blank.png"] { background: var(--vp-c-default-soft); }
+
 /* スマホでは表の文字と余白を少し詰めて、横スクロールなしで見える列を増やす */
 @media (max-width: 640px) {
   .Layout.wide-page .vp-doc table { font-size: 12.5px; }
   .Layout.wide-page .vp-doc th,
   .Layout.wide-page .vp-doc td { padding: 6px 10px; }
+  .Layout.wide-page .vp-doc td:has(> img:only-child) { padding: 4px 6px; }
+  .Layout.wide-page .vp-doc td > img:only-child { width: 32px; height: 32px; }
 }
 
 /* ── 名前だけを並べるページ（frontmatter に pageClass: name-list）──
@@ -267,6 +289,10 @@ table[data-sortable] th {
   transition: color 0.12s, background-color 0.12s;
 }
 table[data-sortable] th:hover { color: var(--vp-c-text-1); background: var(--vp-c-bg-soft); }
+/* 画像の列は並べ替えられない（印は theme/sortable-tables.ts が付ける） */
+table[data-sortable] th.no-sort { padding-right: 16px; cursor: default; }
+table[data-sortable] th.no-sort:hover { color: var(--vp-c-text-2); background: var(--vp-c-bg-alt); }
+table[data-sortable] th.no-sort::after { display: none; }
 table[data-sortable] th:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: -2px; }
 table[data-sortable] th[aria-sort="ascending"],
 table[data-sortable] th[aria-sort="descending"] { color: var(--vp-c-brand-1); }

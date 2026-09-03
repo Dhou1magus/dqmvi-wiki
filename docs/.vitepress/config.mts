@@ -201,6 +201,8 @@ export default defineConfig({
   markdown: {
     html: false,
     linkify: false,
+    // 本文の画像は見えるところまで来てから読む（図鑑の586行ぶんの画像を一度に取りにいかない）
+    image: { lazyLoading: true },
     config(md) {
       // ```stats ブロックをステータス枠に変換する
       //   HP | 6
