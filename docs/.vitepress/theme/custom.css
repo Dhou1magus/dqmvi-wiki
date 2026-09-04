@@ -1034,6 +1034,8 @@ table[data-sortable] th[aria-sort="descending"]::after {
 }
 .vp-doc .dex-filter button:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 2px; }
 .vp-doc tr.dex-hide { display: none; }
+.vp-doc p.dex-empty { margin: 8px 0 0; font-size: 13px; color: var(--vp-c-text-2); }
+.vp-doc p.dex-empty[hidden] { display: none; }
 @media (max-width: 640px) {
   .vp-doc .dex-filter button { font-size: 12px; padding: 7px 9px; }
 }

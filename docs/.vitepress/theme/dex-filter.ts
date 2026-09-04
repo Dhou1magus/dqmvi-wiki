@@ -79,12 +79,22 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
     return b
   }
 
+  // 1行も残らないとき（ボス・コインボスがまだ空のときなど）に表の下に出す
+  const empty = document.createElement('p')
+  empty.className = 'dex-empty'
+  empty.textContent = 'この条件にあてはまるモンスターはいません。'
+  empty.hidden = true
+
   const apply = () => {
+    let shown = 0
     for (const r of rows) {
       const okRank = selectedRanks.size === 0 || (rank.get(r) !== null && selectedRanks.has(rank.get(r) as number))
       const okKind = selectedKinds.size === 0 || selectedKinds.has(kind.get(r) ?? '雑魚')
-      r.classList.toggle(HIDE_CLASS, !(okRank && okKind))
+      const hide = !(okRank && okKind)
+      r.classList.toggle(HIDE_CLASS, hide)
+      if (!hide) shown++
     }
+    empty.hidden = shown > 0
     for (const b of bar.querySelectorAll<HTMLButtonElement>('button')) {
       const on = b.dataset.group === 'rank' ? selectedRanks.has(Number(b.dataset.value))
         : b.dataset.group === 'kind' ? selectedKinds.has(b.dataset.value ?? '')
@@ -124,6 +134,7 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
   })
 
   bar.append(rankWrap, kindWrap, all)
+  table.insertAdjacentElement('afterend', empty)
   apply()
   return bar
 }
