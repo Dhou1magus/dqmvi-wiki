@@ -8,7 +8,6 @@ const { frontmatter, theme } = useData()
 //  トップページ
 // ───────────────────────────────────────────────────────────
 const stats = computed(() => theme.value.siteStats ?? {})
-const n = (key) => stats.value.counts?.[key]
 
 const meta = computed(() => [
   { label: '対応バージョン', value: stats.value.modVersion ?? 'DQMVI' },
@@ -30,25 +29,17 @@ const ICONS = {
   flag: 'M6 21V4M6 5h11l-2 3.5L17 12H6'
 }
 
-/** よく使う8つ。押しやすい大きさで一番上に置く */
-const primary = computed(() => [
-  { icon: 'book', t: 'モンスター図鑑', c: n('monsters'), unit: '体',
-    d: 'HP・弱点・ドロップ・出現場所', link: '/monsters/' },
-  { icon: 'box', t: 'ドロップ品から探す', c: n('drops'), unit: '種',
-    d: 'あの素材を落とすのは誰か', link: '/drops/' },
-  { icon: 'sword', t: '武器・防具', c: n('weapons') + n('armor') + n('shields') + n('accessories') + n('tensei'), unit: '種',
-    d: '攻撃力・倍率・特殊効果', link: '/items/' },
-  { icon: 'person', t: '職業', c: n('jobs'), unit: '種',
-    d: '伸びる能力・覚える技・必殺技', link: '/jobs/' },
-  { icon: 'spark', t: '呪文・特技', c: n('spells') + n('skills'), unit: '種',
-    d: '消費MP・威力・範囲', link: '/spells/' },
-  { icon: 'crown', t: '系統から探す', c: n('species'), unit: '系統',
-    d: 'ドラゴン系・メタル系の顔ぶれ', link: '/species/' },
-  { icon: 'pin', t: '出現場所から探す', c: n('biomes'), unit: 'カ所',
-    d: 'そのバイオームに湧く顔ぶれ', link: '/biomes/' },
-  { icon: 'flag', t: '遊び方ガイド', c: n('playPages'), unit: 'ページ',
-    d: '始め方・配合・鍛冶・農業・釣り', link: '/play/' }
-])
+/** よく使う8つ。押しやすい大きさで一番上に置く。件数は出さない（2026-09-03 よっしー指示） */
+const primary = [
+  { icon: 'book', t: 'モンスター図鑑', d: 'HP・弱点・ドロップ・出現場所', link: '/monsters/' },
+  { icon: 'box', t: 'ドロップ品から探す', d: 'あの素材を落とすのは誰か', link: '/drops/' },
+  { icon: 'sword', t: '武器・防具', d: '攻撃力・倍率・特殊効果', link: '/items/' },
+  { icon: 'person', t: '職業', d: '伸びる能力・覚える技・必殺技', link: '/jobs/' },
+  { icon: 'spark', t: '呪文・特技', d: '消費MP・威力・範囲', link: '/spells/' },
+  { icon: 'crown', t: '系統から探す', d: 'ドラゴン系・メタル系の顔ぶれ', link: '/species/' },
+  { icon: 'pin', t: '出現場所から探す', d: 'そのバイオームに湧く顔ぶれ', link: '/biomes/' },
+  { icon: 'flag', t: '遊び方ガイド', d: '始め方・配合・鍛冶・農業・釣り', link: '/play/' }
+]
 
 /** 「〜を知りたい」から引く導線。データの分類ではなく、その場の疑問で並べる */
 const questions = [
@@ -352,7 +343,6 @@ function onKey(event) {
       <a v-for="p in primary" :key="p.t" :href="withBase(p.link)" class="tile">
         <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[p.icon]" /></svg>
         <span class="t">{{ p.t }}<i v-if="p.spoiler" class="sp">ネタバレ</i></span>
-        <span class="c" v-if="p.c">{{ p.c.toLocaleString('ja-JP') }}<i>{{ p.unit }}</i></span>
         <span class="d">{{ p.d }}</span>
       </a>
     </div>

@@ -68,28 +68,14 @@ function countPages(dir: string): number {
 }
 
 /**
- * 生成スクリプトが数えた件数（scripts/data/counts.json）。トップページの表示に使う。
- * ★ナビとサイドバーには件数を出さない（2026-09-03 よっしー「(586体)とか(210種)とかの表記はいらない」）。
+ * トップページの帯に出す値。ページ数と最終更新はビルドのたびに数える。
+ * ★件数（586体・210種…）はナビ・サイドバー・トップの大ボタンのどこにも出さない
+ *   （2026-09-03 よっしー「(586体)とか(210種)とかの表記もいらない」「それもいらないです」）。
  */
-function modCounts(): Record<string, number> {
-  try {
-    return JSON.parse(readFileSync('scripts/data/counts.json', 'utf8'))
-  } catch {
-    return {}
-  }
-}
-
-/**
- * トップページに出す件数。scripts/gen-*.mjs が scripts/data/counts.json に書き込む。
- * ここで読んでトップページに渡すので、.vue に数を手書きしないこと。
- * ファイルが無くても動く（件数が出ないだけ）。
- */
-
 const SITE_STATS = {
   pages: countPages('docs'),
   updated: new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Tokyo' }),
-  modVersion: modVersion(),
-  counts: modCounts()
+  modVersion: modVersion()
 }
 
 // ─────────────────────────────────────────────────────────────

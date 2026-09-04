@@ -655,7 +655,7 @@ table[data-sortable] th[aria-sort="descending"]::after {
 .tile {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-areas: "ic t" "ic c" "d d";
+  grid-template-areas: "ic t" "d d";
   align-items: center;
   gap: 0 11px;
   min-height: 96px;
@@ -703,15 +703,6 @@ table[data-sortable] th[aria-sort="descending"]::after {
   vertical-align: 2px;
   white-space: nowrap;
 }
-.tile .c {
-  grid-area: c;
-  font-family: var(--f-display);
-  font-weight: 800;
-  font-size: 13px;
-  color: var(--vp-c-brand-1);
-  font-variant-numeric: tabular-nums;
-}
-.tile .c i { font-style: normal; font-size: 11px; margin-left: 1px; }
 .tile .d {
   grid-area: d;
   margin-top: 9px;
@@ -725,7 +716,7 @@ table[data-sortable] th[aria-sort="descending"]::after {
   .tiles { gap: 8px; }
   .tile {
     grid-template-columns: 1fr;
-    grid-template-areas: "ic" "t" "c";
+    grid-template-areas: "ic" "t";
     align-content: start;
     min-height: 84px;
     padding: 12px 11px;
@@ -733,7 +724,6 @@ table[data-sortable] th[aria-sort="descending"]::after {
   }
   .tile .ic { width: 22px; height: 22px; margin-bottom: 7px; }
   .tile .t { font-size: 14px; }
-  .tile .c { font-size: 12px; margin-top: 2px; }
   .tile .sp { margin-left: 5px; font-size: 9.5px; padding: 1px 4px; }
   .tile .d { display: none; }
 }
