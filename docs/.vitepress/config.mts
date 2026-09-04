@@ -68,16 +68,9 @@ function countPages(dir: string): number {
 }
 
 /**
- * フォルダの中の .md を数える（index.md は除く）。
- * ナビの「（586体）」のような数を手で書くと、MODが更新されたとき必ず古くなる。
+ * 生成スクリプトが数えた件数（scripts/data/counts.json）。トップページの表示に使う。
+ * ★ナビとサイドバーには件数を出さない（2026-09-03 よっしー「(586体)とか(210種)とかの表記はいらない」）。
  */
-function countMd(dir: string): number {
-  try {
-    return readdirSync(dir).filter((f) => f.endsWith('.md') && f !== 'index.md').length
-  } catch {
-    return 0
-  }
-}
 function modCounts(): Record<string, number> {
   try {
     return JSON.parse(readFileSync('scripts/data/counts.json', 'utf8'))
@@ -85,13 +78,6 @@ function modCounts(): Record<string, number> {
     return {}
   }
 }
-
-const N_MONSTERS = countMd('docs/monsters')
-const N_DROPS = countMd('docs/drops')
-const N_SPECIES = countMd('docs/species')
-/** 生成スクリプトが数えた件数（scripts/data/counts.json）。「（N種）」の表示に使う。無ければ数を出さない */
-const C = modCounts()
-const cnt = (key: string, unit: string) => (C[key] ? `（${C[key]}${unit}）` : '')
 
 /**
  * トップページに出す件数。scripts/gen-*.mjs が scripts/data/counts.json に書き込む。
@@ -345,14 +331,14 @@ export default defineConfig({
       {
         text: 'データ',
         items: [
-          { text: `モンスター図鑑（${N_MONSTERS}体）`, link: '/monsters/' },
+          { text: 'モンスター図鑑', link: '/monsters/' },
           { text: '出現場所から探す', link: '/biomes/' },
-          { text: `ドロップ品から探す（${N_DROPS}種）`, link: '/drops/' },
-          { text: `系統から探す（${N_SPECIES}系統）`, link: '/species/' },
-          { text: `職業一覧${cnt('jobs', '種')}`, link: '/jobs/' },
-          { text: `呪文一覧${cnt('spells', '種')}`, link: '/spells/' },
-          { text: `特技一覧${cnt('skills', '種')}`, link: '/skills/' },
-          { text: `アイテム一覧${cnt('items', '種')}`, link: '/items/' }
+          { text: 'ドロップ品から探す', link: '/drops/' },
+          { text: '系統から探す', link: '/species/' },
+          { text: '職業一覧', link: '/jobs/' },
+          { text: '呪文一覧', link: '/spells/' },
+          { text: '特技一覧', link: '/skills/' },
+          { text: 'アイテム一覧', link: '/items/' }
         ]
       },
       {
@@ -398,26 +384,26 @@ export default defineConfig({
         text: 'データ',
         collapsed: false,
         items: [
-          { text: `モンスター図鑑（${N_MONSTERS}体）`, link: '/monsters/' },
+          { text: 'モンスター図鑑', link: '/monsters/' },
           { text: '出現場所から探す', link: '/biomes/' },
-          { text: `ドロップ品から探す（${N_DROPS}種）`, link: '/drops/' },
-          { text: `系統から探す（${N_SPECIES}系統）`, link: '/species/' },
-          { text: `職業一覧${cnt('jobs', '種')}`, link: '/jobs/' },
-          { text: `呪文一覧${cnt('spells', '種')}`, link: '/spells/' },
-          { text: `特技一覧${cnt('skills', '種')}`, link: '/skills/' },
-          { text: `アイテム一覧${cnt('items', '種')}`, link: '/items/' },
-          { text: `　武器${cnt('weapons', '種')}`, link: '/items/weapons' },
-          { text: `　防具${cnt('armor', '種')}`, link: '/items/armor' },
-          { text: `　盾${cnt('shields', '種')}`, link: '/items/shields' },
-          { text: `　アクセサリー${cnt('accessories', '種')}`, link: '/items/accessories' },
-          { text: `　転生装備${cnt('tensei', '種')}`, link: '/items/tensei' },
-          { text: `　素材${cnt('materials', '種')}`, link: '/items/materials' },
-          { text: `　種${cnt('seeds', '種')}`, link: '/items/seeds' },
-          { text: `　釣り${cnt('fishing', '種')}`, link: '/items/fishing' },
-          { text: `　特殊${cnt('special', '種')}`, link: '/items/special' },
-          { text: `　建物${cnt('buildings', '種')}`, link: '/items/buildings' },
-          { text: `　呪文${cnt('magic', '種')}`, link: '/items/magic' },
-          { text: `　装飾${cnt('decoration', '種')}`, link: '/items/decoration' }
+          { text: 'ドロップ品から探す', link: '/drops/' },
+          { text: '系統から探す', link: '/species/' },
+          { text: '職業一覧', link: '/jobs/' },
+          { text: '呪文一覧', link: '/spells/' },
+          { text: '特技一覧', link: '/skills/' },
+          { text: 'アイテム一覧', link: '/items/' },
+          { text: '　武器', link: '/items/weapons' },
+          { text: '　防具', link: '/items/armor' },
+          { text: '　盾', link: '/items/shields' },
+          { text: '　アクセサリー', link: '/items/accessories' },
+          { text: '　転生装備', link: '/items/tensei' },
+          { text: '　素材', link: '/items/materials' },
+          { text: '　種', link: '/items/seeds' },
+          { text: '　釣り', link: '/items/fishing' },
+          { text: '　特殊', link: '/items/special' },
+          { text: '　建物', link: '/items/buildings' },
+          { text: '　呪文', link: '/items/magic' },
+          { text: '　装飾', link: '/items/decoration' }
         ]
       },
       {
