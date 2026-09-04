@@ -68,6 +68,26 @@ function countPages(dir: string): number {
 }
 
 /**
+ * 図鑑の絞り込みボタン（転生・ボス・コインボス）に使う、モンスターの種類の一覧。
+ * scripts/data/monster-kinds.json を手で書く（書き方はその中の「_説明」）。載っていないものは「雑魚」。
+ * 壊れたJSONでもビルドは止めず、警告を出して空にする（ボタンは出るが転生などが空になる）。
+ */
+function monsterKinds(): Record<string, string[]> {
+  try {
+    const raw = JSON.parse(readFileSync('scripts/data/monster-kinds.json', 'utf8')) as Record<string, unknown>
+    const out: Record<string, string[]> = {}
+    for (const [k, v] of Object.entries(raw)) {
+      if (k.startsWith('_') || !Array.isArray(v)) continue
+      out[k] = v.map((x) => String(x).trim()).filter(Boolean)
+    }
+    return out
+  } catch (e) {
+    console.warn(`注意: scripts/data/monster-kinds.json が読めません（${(e as Error).message}）。図鑑の種類の絞り込みが空になります`)
+    return {}
+  }
+}
+
+/**
  * トップページの帯に出す値。ページ数と最終更新はビルドのたびに数える。
  * ★件数（586体・210種…）はナビ・サイドバー・トップの大ボタンのどこにも出さない
  *   （2026-09-03 よっしー「(586体)とか(210種)とかの表記もいらない」「それもいらないです」）。
@@ -305,6 +325,8 @@ export default defineConfig({
   themeConfig: {
     // トップページの見出し脇に出す数字（ビルド時に自動で数える）
     siteStats: SITE_STATS,
+    // 図鑑の絞り込みボタン用（theme/dex-filter.ts が読む）
+    monsterKinds: monsterKinds(),
 
     // ── 上部ナビ ──
     //  項目を横一列に並べると、幅768〜960pxの画面（タブレット横向きなど）で

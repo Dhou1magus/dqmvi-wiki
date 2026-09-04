@@ -993,6 +993,51 @@ table[data-sortable] th[aria-sort="descending"]::after {
   * { transition: none !important; }
 }
 
+/* ── 図鑑の絞り込みボタン（theme/dex-filter.ts が表の上に作る）──
+   ランク1〜7 ／ 雑魚・転生・ボス・コインボス ／ すべて。押した組み合わせに合わない行は dex-hide で消す */
+.vp-doc .dex-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin: 0 0 12px;
+}
+.vp-doc .dex-filter .grp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.vp-doc .dex-filter button {
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 7px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-alt);
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.12s, background-color 0.12s, border-color 0.12s;
+}
+.vp-doc .dex-filter button:hover { color: var(--vp-c-text-1); border-color: var(--vp-c-text-3); }
+.vp-doc .dex-filter button[aria-pressed="true"] {
+  color: var(--vp-c-white, #fff);
+  background: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+.vp-doc .dex-filter button.all[aria-pressed="true"] {
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-divider);
+}
+.vp-doc .dex-filter button:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 2px; }
+.vp-doc tr.dex-hide { display: none; }
+@media (max-width: 640px) {
+  .vp-doc .dex-filter button { font-size: 12px; padding: 7px 9px; }
+}
+
 /* ── よくある質問のタグ（theme/faq-tags.ts が「タグ:」の段落に付ける）── */
 .vp-doc p.faq-tags {
   display: flex;

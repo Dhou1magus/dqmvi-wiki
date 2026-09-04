@@ -1,9 +1,10 @@
 import { h, nextTick, onMounted, watch } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import { useRoute } from 'vitepress'
+import { useRoute, useData } from 'vitepress'
 import type { Theme } from 'vitepress'
 import { setupSortableTables } from './sortable-tables'
 import { markFaqTags } from './faq-tags'
+import { setupDexFilter, type Kinds } from './dex-filter'
 import ThemeSwitch from './ThemeSwitch.vue'
 import PageActions from './PageActions.vue'
 import FeedbackBox from './FeedbackBox.vue'
@@ -29,7 +30,10 @@ export default {
     // 一覧の表の見出しを押して並べ替えられるようにする。
     // ページを切り替えても読み込み直さないので、遷移のたびに付け直す
     const route = useRoute()
-    const decorate = () => { setupSortableTables(); markFaqTags() }
+    // 図鑑の絞り込みボタン用の種類一覧（config.mts の themeConfig.monsterKinds）
+    const { theme } = useData()
+    const kinds = () => (theme.value as { monsterKinds?: Kinds }).monsterKinds
+    const decorate = () => { setupSortableTables(); markFaqTags(); setupDexFilter(kinds()) }
     onMounted(decorate)
     watch(() => route.path, () => nextTick(decorate))
   }
