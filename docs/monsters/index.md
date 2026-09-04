@@ -535,7 +535,7 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 514 | ![しろバラのきし](/img/monsters/sirobaranokisi.png) | [しろバラのきし](/monsters/sirobaranokisi) | 6 | 物質 | 強 | 昼 | 11,012 | 555 | 256 | 14,267 | 2,853 |
 | 515 | ![ダイヤモンドスライム](/img/monsters/daiyamondosuraimu.png) | [ダイヤモンドスライム](/monsters/daiyamondosuraimu) | 6 | メタル | 無敵 | 昼 | 42 | 148 | 10,000 | 80,000 | 750 |
 | 516 | ![プラチナキング](/img/monsters/puratinaking.png) | [プラチナキング](/monsters/puratinaking) | 6 | メタル | 無敵 | 夜 | 65 | 169 | 10,000 | 150,000 | 500 |
-| 517 | ![キラーマシーン](/img/monsters/kiramasin.png) | [キラーマシーン](/monsters/kiramasin) | 7 | 物質 | 強 | 夜 | 1,950 | 350 | 240 | 706 | 141 |
+| 517 | ![キラーマシン](/img/monsters/kiramasin.png) | [キラーマシン](/monsters/kiramasin) | 7 | 物質 | 強 | 夜 | 1,950 | 350 | 240 | 706 | 141 |
 | 518 | ![マージマタンゴ](/img/monsters/magematango.png) | [マージマタンゴ](/monsters/magematango) | 7 | 自然 | 氷 | 昼夜 | 1,785 | 297 | 180 | 590 | 118 |
 | 519 | ![トロルボンバー](/img/monsters/tororubonba.png) | [トロルボンバー](/monsters/tororubonba) | 7 | 悪魔 | 氷 | 夜 | 2,625 | 398 | 175 | 752 | 150 |
 | 520 | ![ドラゴンソルジャー](/img/monsters/doragonsoruja.png) | [ドラゴンソルジャー](/monsters/doragonsoruja) | 7 | ドラゴン | 氷 | 夜 | 1,980 | 364 | 194 | 681 | 136 |
