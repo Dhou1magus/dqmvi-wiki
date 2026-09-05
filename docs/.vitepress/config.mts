@@ -310,16 +310,24 @@ export default defineConfig({
         return `<div class="dq-stats" data-n="${lines.length}">${cells}</div>`
       }
 
-      // ── ランクの列: 中身が SSS〜E だけの列のセルに class dq-rank を付ける ──
-      // 職業一覧の「能力の伸び」「武器の適性」のような列を、等幅の正方形のマスで出すため
-      // （見た目は theme/custom.css の .dq-rank）。本文に HTML を書けないので、
-      // 表の中身を見てビルド時に印を付ける。空欄はあってもよい（新職業の行など）。
+      // ── 表の列に、中身を見てビルド時に印を付ける ──
+      // 本文に HTML を書けないので、表示側で使う class はここで付ける（見た目は theme/custom.css）。
+      //   dq-rank … 中身が SSS〜E だけの列（空欄は可）。職業一覧の「能力の伸び」「武器の適性」など。
+      //             等幅の正方形のマスにする。
+      //   nowrap  … いちばん長いセル（見出し込み）が NOWRAP_MAX_LENGTH 文字以下の列。途中で折り返さない。
+      //             長い文の列（効果の説明など）があると、ブラウザは短い列まで一緒に縮めて
+      //             「必殺技」→「必殺／技」のように割ってしまうため（2026-09-05 よっしー指摘）。
+      //             一覧ページ（wide-page）は theme/sortable-tables.ts も同じ印を付ける（名前の列は長さに関係なく）。
       const RANK = /^(SSS|SS|S|A|B|C|D|E)$/
-      md.core.ruler.push('dq_rank_cells', (state) => {
+      const NOWRAP_MAX_LENGTH = 14
+      // セルの markdown から表示される文字だけを残す（リンクは文字、画像は無し、強調の記号は外す）
+      const plainLength = (src: string) =>
+        [...src.replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/[*_`~]/g, '').replace(/\\([\\|*_`])/g, '$1').trim()].length
+      md.core.ruler.push('dq_table_columns', (state) => {
         const tokens = state.tokens
         for (let i = 0; i < tokens.length; i++) {
           if (tokens[i].type !== 'table_open') continue
-          const cols: { opens: typeof tokens; values: string[] }[] = []
+          const cols: { opens: typeof tokens; values: string[]; longest: number }[] = []
           let col = -1
           let inBody = false
           let j = i + 1
@@ -329,15 +337,19 @@ export default defineConfig({
             else if (t.type === 'tr_open') col = -1
             else if (t.type === 'th_open' || t.type === 'td_open') {
               col++
-              const c = (cols[col] ??= { opens: [], values: [] })
+              const c = (cols[col] ??= { opens: [], values: [], longest: 0 })
               c.opens.push(t)
               const next = tokens[j + 1]
-              if (inBody) c.values.push(next?.type === 'inline' ? next.content.trim() : '')
+              const src = next?.type === 'inline' ? next.content.trim() : ''
+              if (inBody) c.values.push(src)
+              c.longest = Math.max(c.longest, plainLength(src))
             }
           }
           for (const c of cols) {
             if (c.values.some((v) => RANK.test(v)) && c.values.every((v) => v === '' || RANK.test(v))) {
               for (const t of c.opens) t.attrJoin('class', 'dq-rank')
+            } else if (c.longest <= NOWRAP_MAX_LENGTH) {
+              for (const t of c.opens) t.attrJoin('class', 'nowrap')
             }
           }
           i = j

@@ -166,11 +166,14 @@ b, strong, th,
 
 /* ── 表 ──
    幅は中身に合わせる（2列の表を本文いっぱいに引き伸ばさない）。
-   本文より広くなる表は、セルの中で折り返す。一覧ページは下の wide-page で別扱い。 */
+   本文より広くなる表は、セルの中で折り返す。それでも入らない（折り返せない列ばかりの）表は
+   表だけ横スクロールする（display:block + overflow-x:auto。VitePress 標準と同じ。ページ全体が横に
+   はみ出さないための保険）。一覧ページは下の wide-page で別扱い。 */
 .vp-doc table {
-  display: table;
+  display: block;
   width: auto;
   max-width: 100%;
+  overflow-x: auto;
   font-size: 13.5px;
   border-collapse: collapse;
 }
@@ -191,6 +194,13 @@ b, strong, th,
   border: 1px solid var(--vp-c-divider);
 }
 .vp-doc tbody tr:hover { background: var(--vp-c-bg-alt); }
+/* 短い列（印 nowrap は config.mts がビルド時に付ける）は途中で折り返さない。
+   長い文の列があると、ブラウザは短い列まで一緒に縮めて「必殺／技」のように割るため（2026-09-05 指摘）。
+   折り返す列（効果の説明など）にも最低幅を持たせ、スマホで「遊び／人の」のように2文字ずつ
+   にならないようにする。入りきらない表は横スクロールになる（上の overflow-x）。 */
+.vp-doc th.nowrap,
+.vp-doc td.nowrap { white-space: nowrap; }
+.vp-doc td:not(.nowrap):not(.dq-rank) { min-width: 9em; }
 
 /* ── 一覧ページ（frontmatter に pageClass: wide-page）──
    モンスター名や系統が途中で折り返さないよう、本文の幅を広げて
