@@ -76,7 +76,8 @@ const cats = computed(() => [
     items: [
       { t: '仲間にする・育てる', link: '/play/pets', wide: true },
       { t: '作戦（ガンビット）', link: '/play/gambit', wide: true },
-      { t: '配合', link: '/play/pets' }, { t: '種族シナジー', link: '/play/pets' },
+      { t: '配合', link: '/play/pets' },
+      { t: '種族シナジー', link: '/play/pets' },
       { t: 'おすすめ編成' }
     ]
   },
@@ -94,7 +95,8 @@ const cats = computed(() => [
     items: [
       { t: '呪文一覧', link: '/spells/', wide: true },
       { t: '特技一覧', link: '/skills/', wide: true },
-      { t: '消費MPで探す', link: '/spells/' }, { t: '武器別の特技', link: '/skills/' },
+      { t: '消費MPで探す', link: '/spells/' },
+      { t: '武器別の特技', link: '/skills/' },
       { t: '移動呪文' }
     ]
   },
@@ -133,9 +135,9 @@ const cats = computed(() => [
   {
     title: 'ダンジョン・施設',
     items: [
+      { t: 'ダンジョン一覧' }, { t: '村・町一覧' },
       { t: '拠点づくりとお店', link: '/play/facilities', wide: true },
-      { t: 'マジックツールダンジョン', link: '/play/facilities', wide: true },
-      { t: 'ダンジョン一覧' }, { t: '宝箱の中身' }, { t: '村・町' }
+      { t: 'マジックツールダンジョン', link: '/play/facilities', wide: true }
     ]
   },
   {
