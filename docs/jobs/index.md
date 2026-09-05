@@ -34,14 +34,14 @@ SSS がいちばん高く、SS・S・A・B・C・D・E の順に下がります�
 | [勇者](/jobs/yuusha) | S | B | S | S | A | D |
 | [忍者](/jobs/ninja) | B | C | S | C | E | D |
 | [はぐれメタル](/jobs/haguremetal) | E | S | D | SS | S | S |
-| [鬼神闘士](/jobs/berserker) |||||||
-| [秘境ハンター](/jobs/travelscholar) |||||||
-| [吟遊詩人](/jobs/ginyuusizin) |||||||
-| [モンスターロード](/jobs/monstercommander) |||||||
-| [ゴーストマスター](/jobs/necromancer) |||||||
-| [ソウルマスター](/jobs/mimic) |||||||
-| [魔導銃士](/jobs/machinehunter) |||||||
-| [戦輪士](/jobs/battleringmaster) |||||||
+| [鬼神闘士](/jobs/berserker) | S | E | S | C | E | E |
+| [秘境ハンター](/jobs/travelscholar) | A | D | B | B | B | D |
+| [吟遊詩人](/jobs/ginyuusizin) | A | C | S | C | B | C |
+| [モンスターロード](/jobs/monstercommander) | A | B | E | A | C | A |
+| [ゴーストマスター](/jobs/necromancer) |C|S|D|D|S|A|
+| [ソウルマスター](/jobs/mimic) |D|C|D|D|B|C|
+| [魔導銃士](/jobs/machinehunter) |B|C|S|D|A|D|
+| [戦輪士](/jobs/battleringmaster) |A|D|S|B|C|C|
 
 ## 武器の適性
 
