@@ -290,10 +290,11 @@ export default defineConfig({
         const token = tokens[idx]
         if (token.info.trim() !== 'stats') return fence(tokens, idx, options, env, self)
 
-        const cells = token.content
+        const lines = token.content
           .split('\n')
           .map((line) => line.trim())
           .filter(Boolean)
+        const cells = lines
           .map((line) => {
             const [label, ...rest] = line.split('|')
             let value = rest.join('|').trim()
@@ -305,8 +306,43 @@ export default defineConfig({
           })
           .join('')
 
-        return `<div class="dq-stats">${cells}</div>`
+        // data-n（項目数）で列の数を決める。custom.css の .dq-stats[data-n="6"] などを参照
+        return `<div class="dq-stats" data-n="${lines.length}">${cells}</div>`
       }
+
+      // ── ランクの列: 中身が SSS〜E だけの列のセルに class dq-rank を付ける ──
+      // 職業一覧の「能力の伸び」「武器の適性」のような列を、等幅の正方形のマスで出すため
+      // （見た目は theme/custom.css の .dq-rank）。本文に HTML を書けないので、
+      // 表の中身を見てビルド時に印を付ける。空欄はあってもよい（新職業の行など）。
+      const RANK = /^(SSS|SS|S|A|B|C|D|E)$/
+      md.core.ruler.push('dq_rank_cells', (state) => {
+        const tokens = state.tokens
+        for (let i = 0; i < tokens.length; i++) {
+          if (tokens[i].type !== 'table_open') continue
+          const cols: { opens: typeof tokens; values: string[] }[] = []
+          let col = -1
+          let inBody = false
+          let j = i + 1
+          for (; j < tokens.length && tokens[j].type !== 'table_close'; j++) {
+            const t = tokens[j]
+            if (t.type === 'tbody_open') inBody = true
+            else if (t.type === 'tr_open') col = -1
+            else if (t.type === 'th_open' || t.type === 'td_open') {
+              col++
+              const c = (cols[col] ??= { opens: [], values: [] })
+              c.opens.push(t)
+              const next = tokens[j + 1]
+              if (inBody) c.values.push(next?.type === 'inline' ? next.content.trim() : '')
+            }
+          }
+          for (const c of cols) {
+            if (c.values.some((v) => RANK.test(v)) && c.values.every((v) => v === '' || RANK.test(v))) {
+              for (const t of c.opens) t.attrJoin('class', 'dq-rank')
+            }
+          }
+          i = j
+        }
+      })
     }
   },
 

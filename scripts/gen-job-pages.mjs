@@ -43,6 +43,9 @@ const WEAPONS = ['バニラ剣', '剣', '勇者の剣', '槍', '短剣', '杖', 
                  '拳', 'ハンマー', '斧', 'ムチ', '弓', 'ブーメラン']
 /** 能力の並び。stat 行はこの順で6個ならぶ */
 const STATS = ['HP', 'MP', 'こうげき', 'しゅび', 'まりょく', '魔法しゅび']
+/** 職業一覧の「能力の伸び」の見出し。列を正方形のマスにそろえるため短い呼び方にする
+ *  （2026-09-05 に本人が一覧を 攻撃/守備/魔力/魔守 に直した 4e9a6a8。個別ページの枠は STATS のまま） */
+const STATS_HEAD = ['HP', 'MP', '攻撃', '守備', '魔力', '魔守']
 
 /** URLに使う名前。日本語のままだと読みにくいのでローマ字にする */
 const SLUG = {
@@ -219,16 +222,19 @@ function jobPage(id) {
 function jobIndex() {
   const path = join(JOB_DIR, 'index.md')
   const extra = extraRows(path, new Set(order.map((id) => plainName(jobName.get(id)))))
+  // 職業の数は、手で足された行（0.27.72 の新職業8つ）も入れて数える。
+  // description に数を入れないのは本人の直し（4e9a6a8）に合わせたもの
+  const total = order.length + (extra.get('能力の伸び')?.rows.length ?? 0)
   const lines = []
   lines.push('---')
   lines.push('title: 職業一覧')
-  lines.push(`description: DQMVIの職業${order.length}種のデータ。能力の伸びと武器適性のランクを一覧で比べられます。`)
+  lines.push('description: DQMVIの職業のデータ。能力の伸びと武器適性のランクを一覧で比べられます。')
   lines.push('pageClass: wide-page')
   lines.push('---')
   lines.push('')
   lines.push('# 職業一覧')
   lines.push('')
-  lines.push(`DQMVIの職業は **${order.length}種** です。名前を押すと、習得スキルや必殺技が見られます。`)
+  lines.push(`DQMVIの職業は **${total}種** です。名前を押すと、習得スキルや必殺技が見られます。`)
   lines.push('')
   lines.push('::: tip ランクの見かた')
   lines.push('SSS がいちばん高く、SS・S・A・B・C・D・E の順に下がります。')
@@ -237,7 +243,7 @@ function jobIndex() {
 
   lines.push('## 能力の伸び')
   lines.push('')
-  lines.push(`| 職業 | ${STATS.join(' | ')} |`)
+  lines.push(`| 職業 | ${STATS_HEAD.join(' | ')} |`)
   lines.push(`| --- | ${STATS.map(() => ':--:').join(' | ')} |`)
   for (const id of order) {
     const st = statRank.get(id) ?? []

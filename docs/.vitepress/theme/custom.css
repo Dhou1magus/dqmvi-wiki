@@ -324,6 +324,35 @@ table[data-sortable] th[aria-sort="descending"]::after {
   opacity: 1;
 }
 
+/* ── ランクの列（SSS〜E だけが入っている列）は等幅の正方形のマス ──
+   印（class dq-rank）は config.mts がビルド時に付ける。職業一覧の「能力の伸び」「武器の適性」、
+   職業ページの「適性」など。列の幅が見出しの文字数で変わらないよう固定する
+   （見出しがマスより長い列だけ、その見出しの幅になる）。
+   .Layout を付けているのは、上の wide-page の余白指定（.Layout.wide-page …）より強くするため。 */
+.Layout .vp-doc table th.dq-rank,
+.Layout .vp-doc table td.dq-rank {
+  box-sizing: border-box;
+  width: 44px;
+  min-width: 44px;
+  padding: 0 4px;
+  text-align: center;
+  vertical-align: middle;
+}
+.Layout .vp-doc table td.dq-rank {
+  height: 44px;
+  font-family: var(--f-display);
+  font-weight: 700;
+  font-size: 15px;
+}
+/* 並べ替えできる表では、矢印を文字の右ではなく下に置く（マスが狭いため） */
+table[data-sortable] th.dq-rank { padding: 6px 4px 14px; }
+table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; margin: 0 -4px 0 0; }
+@media (max-width: 640px) {
+  .Layout .vp-doc table th.dq-rank,
+  .Layout .vp-doc table td.dq-rank { width: 40px; min-width: 40px; }
+  .Layout .vp-doc table td.dq-rank { height: 40px; font-size: 14px; }
+}
+
 /* ── 注記ブロック ── */
 .vp-doc .custom-block {
   border-radius: var(--r);
@@ -341,24 +370,37 @@ table[data-sortable] th[aria-sort="descending"]::after {
 .vp-doc .custom-block.tip .custom-block-title { color: var(--vp-c-brand-1); }
 .vp-doc .custom-block.warning .custom-block-title { color: var(--copper); }
 
-/* ── ステータス枠 ── */
+/* ── ステータス枠 ──
+   ```stats の枠。列の数は項目数で決める（data-n は config.mts が付ける）:
+     6項目（職業の「能力の伸び」）… 1行6マスの正方形。スマホは3マス×2行
+     8項目（モンスターの「ステータス」）… 4マス×2行。スマホは2マス×4行
+   以前の auto-fit は画面の幅しだいで 5＋1 のように割れて、空のマスが出ていた。 */
 .dq-stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  gap: 1px;
-  background: var(--vp-c-divider);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: var(--r);
-  overflow: hidden;
+  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  gap: 6px;
   margin: 22px 0;
 }
+.dq-stats[data-n="6"] { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.dq-stats[data-n="8"] { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .dq-stats > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-width: 0;
+  padding: 10px 6px;
+  text-align: center;
   background: var(--vp-c-bg-elv);
-  padding: 11px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: var(--r);
 }
+.dq-stats[data-n="6"] > div { aspect-ratio: 1 / 1; padding: 6px; }
 .dq-stats b {
   display: block;
   font-size: 12px;
+  line-height: 1.3;
   letter-spacing: var(--label-ls);
   color: var(--vp-c-text-2);
 }
@@ -372,7 +414,10 @@ table[data-sortable] th[aria-sort="descending"]::after {
 }
 .dq-stats span.hi { color: var(--copper); }
 @media (max-width: 640px) {
-  .dq-stats { grid-template-columns: repeat(2, 1fr); }
+  .dq-stats { gap: 5px; }
+  .dq-stats[data-n="6"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .dq-stats[data-n="8"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dq-stats span { font-size: 24px; }
 }
 
 /* ── ピル ── */
