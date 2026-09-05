@@ -82,7 +82,7 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
   // 1行も残らないとき（ボス・コインボスがまだ空のときなど）に表の下に出す
   const empty = document.createElement('p')
   empty.className = 'dex-empty'
-  empty.textContent = 'この条件にあてはまるモンスターはいません。'
+  empty.textContent = 'この条件にあてはまるモンスターはいないか、ネタバレになる可能性があるため掲載を控えています。'
   empty.hidden = true
 
   const apply = () => {
