@@ -32,6 +32,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, rmSync
 import { join } from 'node:path'
 import { recordCounts } from './lib/counts.mjs'
 import { extraRows, leftoverTables, finish, withExtraSections, mergeHandwrittenPages, plainName } from './lib/handwritten.mjs'
+import { fixMonsterName } from './lib/monster-names.mjs'
 
 const SRC = process.argv[2]
 if (!SRC) {
@@ -152,11 +153,11 @@ const HIDDEN = new Set(['flucifer'])
 const MASK = '???'
 const MASK5 = '?????'
 
-/** 日本語名。モンスターは entity ではなくスポーンエッグのアイテム名から引く */
+/** 日本語名。モンスターは entity ではなくスポーンエッグのアイテム名から引く（lib/monster-names.mjs の直しを当てる） */
 function jpName(id) {
   const raw = lang[`item.dqmvi.${id}_spawn_egg`]
-  if (!raw) return id
-  return raw.replace(/^DQM\s+/, '').replace(/\s*の?スポーンエッグ$/, '').trim()
+  if (!raw) return fixMonsterName(id, id)
+  return fixMonsterName(id, raw.replace(/^DQM\s+/, '').replace(/\s*の?スポーンエッグ$/, '').trim())
 }
 
 // ── 図鑑の「画像」列 ─────────────────────────────────────────

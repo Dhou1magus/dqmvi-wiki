@@ -27,7 +27,7 @@ pageClass: wide-page sortable-list
 | [ギガデーモン](/monsters/gugademon) | レア | 5 | [ドラゴン](/species/dragon) | 601 | 305 | ふつうの土地 |
 | [メタルクラッシャー](/monsters/metarukurassya) | レア | 5 | [物質](/species/bussitu) | 555 | 311 | ふつうの土地 |
 | [ドラゴンソルジャー](/monsters/doragonsoruja) | レア | 7 | [ドラゴン](/species/dragon) | 1,980 | 681 | ドラゴン火山帯・果ての世界 |
-| [キラーマシーン](/monsters/kiramasin) | レア | 7 | [物質](/species/bussitu) | 1,950 | 706 | 果ての世界 |
+| [キラーマシン](/monsters/kiramasin) | レア | 7 | [物質](/species/bussitu) | 1,950 | 706 | 果ての世界 |
 | [シルバーマント](/monsters/sirubamanto) | レア | 7 | [ゾンビ](/species/zombie) | 1,875 | 709 | ふつうの土地 |
 | [コロネホワイト](/monsters/pastypastry) | 超レア | 4 | [スライム](/species/slime) | 193 | 148 | ふつうの土地 |
 | [ベビーパンサー](/monsters/kirapan) | 超レア | 4 | [魔獣](/species/majyu) | 168 | 160 | ふつうの土地 |

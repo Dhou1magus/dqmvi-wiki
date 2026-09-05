@@ -27,6 +27,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { recordCounts } from './lib/counts.mjs'
 import { extraRows, leftoverTables, finish, withExtraSections, mergeHandwrittenPages, plainName } from './lib/handwritten.mjs'
+import { fixMonsterName } from './lib/monster-names.mjs'
 
 const SRC = process.argv[2]
 if (!SRC) {
@@ -77,11 +78,11 @@ stats.forEach((m, i) => { m.dexNo = i + 1 })
 const statById = new Map(stats.map((m) => [m.id, m]))
 const bossIds = new Set(readTsv('boss_ai.tsv').map((b) => b.id))
 
-/** モンスターの日本語名。スポーンエッグのアイテム名から引く */
+/** モンスターの日本語名。スポーンエッグのアイテム名から引く（lib/monster-names.mjs の直しを当てる） */
 function monsterName(id) {
   const raw = lang[`item.dqmvi.${id}_spawn_egg`]
-  if (!raw) return id
-  return raw.replace(/^DQM\s+/, '').replace(/\s*の?スポーンエッグ$/, '').trim()
+  if (!raw) return fixMonsterName(id, id)
+  return fixMonsterName(id, raw.replace(/^DQM\s+/, '').replace(/\s*の?スポーンエッグ$/, '').trim())
 }
 
 /** アイテムの分類。legacy_tabs.tsv のタブを日本語にする */

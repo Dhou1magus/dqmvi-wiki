@@ -1,6 +1,6 @@
 ---
 title: 隼の剣改
-description: DQMVIの「隼の剣改」を落とすモンスター1体の一覧。いちばん弱いのはキラーマシーン（超レア・EXP706）。
+description: DQMVIの「隼の剣改」を落とすモンスター1体の一覧。いちばん弱いのはキラーマシン（超レア・EXP706）。
 pageClass: wide-page sortable-list
 ---
 
@@ -9,7 +9,7 @@ pageClass: wide-page sortable-list
 武器。**1体**のモンスターが落とします。
 
 ::: tip ねらい目
-**キラーマシーン**（超レアドロップ・EXP706）。
+**キラーマシン**（超レアドロップ・EXP706）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -28,7 +28,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
-| [キラーマシーン](/monsters/kiramasin) | 超レア | 7 | [物質](/species/bussitu) | 1,950 | 706 | 果ての世界 |
+| [キラーマシン](/monsters/kiramasin) | 超レア | 7 | [物質](/species/bussitu) | 1,950 | 706 | 果ての世界 |
 
 見出しを押すと並べ替えできます。
 

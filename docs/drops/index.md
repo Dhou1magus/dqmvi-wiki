@@ -211,7 +211,7 @@ pageClass: wide-page sortable-list
 | [白いかいがら](/drops/siroikaigara) | 素材 | 14 | [ズッキーニャ](/monsters/zukkinya) | 通常 | 5 |
 | [爆弾石](/drops/bakudanisi) | 素材 | 8 | [スピニー](/monsters/supini) | 通常 | 75 |
 | [伐採マシンの鎌](/drops/bassaimasinnokama) | 転生装備 | 1 | [伐採マシン](/monsters/bassaimasin) | 通常 | 3,906 |
-| [隼の剣改](/drops/hayabusanoturugikai) | 武器 | 1 | [キラーマシーン](/monsters/kiramasin) | 超レア | 706 |
+| [隼の剣改](/drops/hayabusanoturugikai) | 武器 | 1 | [キラーマシン](/monsters/kiramasin) | 超レア | 706 |
 | [皮のぼうし](/drops/kawanobousi) | 防具 | 1 | [ビッグハット](/monsters/bigguhatto) | 超レア | 7 |
 | [氷鳥のはね](/drops/hyoutyounohane) | 素材 | 15 | [フロストギズモ1](/monsters/fgizumo) | 通常 | 83 |
 | [武闘エキス](/drops/budouekisu) | 素材 | 44 | [モビルボディ](/monsters/mobirubodexi) | 通常 | 165 |

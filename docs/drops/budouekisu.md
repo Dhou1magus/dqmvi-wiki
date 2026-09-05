@@ -34,7 +34,7 @@ pageClass: wide-page sortable-list
 | [スラキャンサー](/monsters/slimecanser) | 通常 | 6 | [スライム](/species/slime) | 1,122 | 454 | ふつうの土地 |
 | [かげのきし](/monsters/kagenokisi) | 通常 | 7 | [ゾンビ](/species/zombie) | 1,950 | 676 | 魔物の骨荒野・ゴースト霧森 |
 | [ギーグハンマー](/monsters/giguhanma) | 通常 | 7 | [ドラゴン](/species/dragon) | 3,125 | 702 | ふつうの土地 |
-| [キラーマシーン](/monsters/kiramasin) | 通常 | 7 | [物質](/species/bussitu) | 1,950 | 706 | 果ての世界 |
+| [キラーマシン](/monsters/kiramasin) | 通常 | 7 | [物質](/species/bussitu) | 1,950 | 706 | 果ての世界 |
 | [トロルボンバー](/monsters/tororubonba) | 通常 | 7 | [悪魔](/species/akuma) | 2,625 | 752 | 果ての世界 |
 | [ギガンテス](/monsters/gigantesu) | 通常 | 7 | [悪魔](/species/akuma) | 2,655 | 766 | ふつうの土地 |
 | [デンガー](/monsters/denga) | 通常 | 7 | [スライム](/species/slime) | 2,625 | 791 | ふつうの土地 |
