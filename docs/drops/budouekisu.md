@@ -1,12 +1,12 @@
 ---
 title: 武闘エキス
-description: DQMVIの「武闘エキス」を落とすモンスター47体の一覧。いちばん弱いのはモビルボディ（通常・EXP165）。
+description: DQMVIの「武闘エキス」を落とすモンスター44体の一覧。いちばん弱いのはモビルボディ（通常・EXP165）。
 pageClass: wide-page sortable-list
 ---
 
 # 武闘エキス
 
-素材。**47体**のモンスターが落とします。
+素材。**44体**のモンスターが落とします。
 
 ::: tip ねらい目
 **モビルボディ**（通常ドロップ・EXP165）。
@@ -32,14 +32,12 @@ pageClass: wide-page sortable-list
 | [クラーゴン](/monsters/kraagon) | 通常 | 6 | [自然](/species/sizen) | 1,208 | 430 | ふつうの土地 |
 | [サイクロプス](/monsters/saikuropusu) | 通常 | 6 | [悪魔](/species/akuma) | 1,488 | 441 | ふつうの土地 |
 | [スラキャンサー](/monsters/slimecanser) | 通常 | 6 | [スライム](/species/slime) | 1,122 | 454 | ふつうの土地 |
-| [ニジゴロン](/monsters/nizigoron) | 通常 | 6 | [スライム](/species/slime) | 1,167 | 456 | ふつうの土地 |
 | [かげのきし](/monsters/kagenokisi) | 通常 | 7 | [ゾンビ](/species/zombie) | 1,950 | 676 | 魔物の骨荒野・ゴースト霧森 |
 | [ギーグハンマー](/monsters/giguhanma) | 通常 | 7 | [ドラゴン](/species/dragon) | 3,125 | 702 | ふつうの土地 |
 | [キラーマシン](/monsters/kiramasin) | 通常 | 7 | [物質](/species/bussitu) | 1,950 | 706 | 果ての世界 |
 | [トロルボンバー](/monsters/tororubonba) | 通常 | 7 | [悪魔](/species/akuma) | 2,625 | 752 | 果ての世界 |
 | [ギガンテス](/monsters/gigantesu) | 通常 | 7 | [悪魔](/species/akuma) | 2,655 | 766 | ふつうの土地 |
 | [デンガー](/monsters/denga) | 通常 | 7 | [スライム](/species/slime) | 2,625 | 791 | ふつうの土地 |
-| [エビルエスターク](/monsters/ersatzestark) | 通常 | 7 | [物質](/species/bussitu) | 2,502 | 793 | ふつうの土地 |
 | [光の番人](/monsters/hikarinobannin) | 通常 | 7 | [ドラゴン](/species/dragon) | 2,863 | 953 | ふつうの土地 |
 | [ピンキーマッシュ](/monsters/pinkymash) | レア | 4 | [スライム](/species/slime) | 187 | 144 | ふつうの土地 |
 | [めいふのばんにん](/monsters/meifunobannin) | レア | 4 | [物質](/species/bussitu) | 204 | 193 | ふつうの土地 |
@@ -62,7 +60,6 @@ pageClass: wide-page sortable-list
 | [デュラハーン](/monsters/durahan) | 超レア | 4 | [悪魔](/species/akuma) | 211 | 165 | ふつうの土地 |
 | [ばくだんいわ](/monsters/bakudaniwa) | 超レア | 5 | [物質](/species/bussitu) | 371 | 229 | ゴーレム岩石遺跡 |
 | [デッドペッカー](/monsters/deddopekka) | 超レア | 5 | [自然](/species/sizen) | 371 | 235 | おばけキノコの森 |
-| [キングミミック](/monsters/kingumimikku) | 超レア | 6 | [悪魔](/species/akuma) | 1,019 | 341 | ふつうの土地 |
 | [セイレーンゴースト](/monsters/seire_ngo_suto) | 超レア | 6 | [物質](/species/bussitu) | 1,216 | 374 | ふつうの土地 |
 
 見出しを押すと並べ替えできます。

@@ -1,12 +1,12 @@
 ---
 title: メタルオーブ
-description: DQMVIの「メタルオーブ」を落とすモンスター10体の一覧。いちばん弱いのはメタルスター（通常・EXP700,000）。
+description: DQMVIの「メタルオーブ」を落とすモンスター7体の一覧。いちばん弱いのはメタルスター（通常・EXP700,000）。
 pageClass: wide-page sortable-list
 ---
 
 # メタルオーブ
 
-素材。**10体**のモンスターが落とします。
+素材。**7体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メタルスター**（通常ドロップ・EXP700,000）。
@@ -18,9 +18,6 @@ pageClass: wide-page sortable-list
 | モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
 | [メタルスター](/monsters/metalstar) | 通常 | 7 | [メタル](/species/metal) | 165 | 700,000 | ふつうの土地 |
-| [メタルゴッデス](/monsters/metal_goddess) | 通常 | 7 | [メタル](/species/metal) | 158 | 880,000 | ふつうの土地 |
-| [メタルゴッデス2](/monsters/metalgoddes2) | 通常 | 7 | [メタル](/species/metal) | 158 | 880,000 | ふつうの土地 |
-| [メタルセラフィム](/monsters/metal_seraphim) | 通常 | 7 | [メタル](/species/metal) | 183 | 924,564 | ふつうの土地 |
 | [メタルキング](/monsters/metaking) | レア | 5 | [メタル](/species/metal) | 35 | 44,500 | ふつうの土地 |
 | [メタルカイザー](/monsters/metalkaiser) | レア | 5 | [メタル](/species/metal) | 34 | 51,405 | ふつうの土地 |
 | [ダイヤモンドスライム](/monsters/daiyamondosuraimu) | レア | 6 | [メタル](/species/metal) | 42 | 80,000 | ふつうの土地 |

@@ -18,6 +18,7 @@
  *   monster_stats.tsv / boss_ai.tsv  … モンスターのHP・EXP・図鑑順・ボス判定
  *   legacy_tabs.tsv                  … アイテムの分類
  *   lang/ja_jp.json                  … 日本語名
+ *   scripts/data/monster-blank.json  … 中身を空欄にするモンスター（逆引きにも出さない）
  *
  * 書き出すもの:
  *   docs/drops/index.md   ドロップ品の一覧（1枚の表・並べ替え可）
@@ -28,6 +29,7 @@ import { join } from 'node:path'
 import { recordCounts } from './lib/counts.mjs'
 import { extraRows, leftoverTables, finish, withExtraSections, mergeHandwrittenPages, plainName } from './lib/handwritten.mjs'
 import { fixMonsterName } from './lib/monster-names.mjs'
+import { BLANK_MONSTERS } from './lib/blank-monsters.mjs'
 
 const SRC = process.argv[2]
 if (!SRC) {
@@ -117,9 +119,15 @@ const TIER_SHORT = { '通常ドロップ': '通常', 'レアドロップ': 'レ�
 
 /** key → { key, name, slug, group, from: [{ id, tier }] } */
 const itemsMap = new Map()
+/** 空欄のモンスターだけが落とす品の名前。一覧の「知らない行」の判定に足す（古い行が手書き扱いで戻らないように） */
+const blankOnlyNames = new Set()
 for (const [mid, x] of Object.entries(EXTRAS.monsters ?? {})) {
   if (!statById.has(mid)) continue // 図鑑に無い個体は載せない
   if (bossIds.has(mid)) continue // ★魔王ボスは載せない（ボスの情報は全部出さない方針）
+  if (BLANK_MONSTERS.has(mid)) { // ★空欄のモンスター（monster-blank.json）は逆引きに出さない
+    for (const d of x.drops ?? []) if (!isDecoration(d.item)) blankOnlyNames.add(plainName(d.item))
+    continue
+  }
   for (const d of x.drops ?? []) {
     if (isDecoration(d.item)) continue
     const bk = baseKey(d.key)
@@ -305,7 +313,7 @@ function indexPage() {
     lines.push(`| [${cell(it.name)}](/drops/${it.slug}) | ${cell(it.group)} | ${it.from.length} | ${linkTo(best.id)} | ${cell(TIER_SHORT[best.tier] ?? best.tier)} | ${num(statById.get(best.id)?.dqExperience)} |`)
   }
   const path = join(OUT_DIR, 'index.md')
-  const extra = extraRows(path, new Set(items.map((it) => plainName(it.name))))
+  const extra = extraRows(path, new Set([...items.map((it) => plainName(it.name)), ...blankOnlyNames]))
   lines.push(...(extra.get('')?.rows ?? []))
   lines.push('')
   lines.push(...leftoverTables(extra, new Set()))

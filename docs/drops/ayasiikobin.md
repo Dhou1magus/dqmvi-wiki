@@ -1,12 +1,12 @@
 ---
 title: あやしい小ビン
-description: DQMVIの「あやしい小ビン」を落とすモンスター12体の一覧。いちばん弱いのはじごくのつかい（レア・EXP263）。
+description: DQMVIの「あやしい小ビン」を落とすモンスター11体の一覧。いちばん弱いのはじごくのつかい（レア・EXP263）。
 pageClass: wide-page sortable-list
 ---
 
 # あやしい小ビン
 
-素材。**12体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **じごくのつかい**（レアドロップ・EXP263）。
@@ -24,7 +24,6 @@ pageClass: wide-page sortable-list
 | [ドルイド](/monsters/doruido) | 超レア | 5 | [悪魔](/species/akuma) | 486 | 254 | 魔法の森・ネザー |
 | [ブラックベジター](/monsters/burakkubejita) | 超レア | 5 | [自然](/species/sizen) | 532 | 260 | おばけキノコの森・ネザー |
 | [バアラック](/monsters/barakku) | 超レア | 5 | [悪魔](/species/akuma) | 497 | 264 | ふつうの土地 |
-| [吹雪の魔女](/monsters/hubukinomajyo) | 超レア | 5 | [悪魔](/species/akuma) | 465 | 273 | ふつうの土地 |
 | [ザバン](/monsters/zaban) | 超レア | 5 | [自然](/species/sizen) | 456 | 274 | ふつうの土地 |
 | [ベルザブル](/monsters/berusaburu) | 超レア | 5 | [自然](/species/sizen) | 489 | 288 | ふつうの土地 |
 | [だいまどう](/monsters/daimadou) | 超レア | 5 | [悪魔](/species/akuma) | 486 | 293 | ネザー |

@@ -481,10 +481,10 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 460 | ![スライムエネルゴン](/img/monsters/slimeenergon.png) | [スライムエネルゴン](/monsters/slimeenergon) | 5 | スライム | 風 | 昼夜 | 491 | 141 | 98 | 268 | 49 |
 | 461 | ![スライムエンペラー](/img/monsters/slimeemperor.png) | [スライムエンペラー](/monsters/slimeemperor) | 5 | スライム | 風 | 昼 | 467 | 140 | 128 | 298 | 56 |
 | 462 | ![どぐう戦士](/img/monsters/dgu_fighter.png) | [どぐう戦士](/monsters/dgu_fighter) | 5 | 物質 | 風 | 昼夜 | 481 | 122 | 116 | 261 | 59 |
-| 463 | ![ホーリーキング](/img/monsters/hollyking.png) | [ホーリーキング](/monsters/hollyking) | 5 | スライム | 炎 | 昼 | 478 | 126 | 95 | 286 | 56 |
-| 464 | ![デスマシーン](/img/monsters/slaughtomaton.png) | [デスマシーン](/monsters/slaughtomaton) | 5 | 物質 | 氷 | 夜 | 499 | 137 | 119 | 292 | 58 |
-| 465 | ![吹雪の魔女](/img/monsters/hubukinomajyo.png) | [吹雪の魔女](/monsters/hubukinomajyo) | 5 | 悪魔 | 風 | 昼夜 | 465 | 142 | 111 | 273 | 55 |
-| 466 | ![なみさそり](/img/monsters/wave_scorpion.png) | [なみさそり](/monsters/wave_scorpion) | 5 | 自然 | 氷 | 昼夜 | 649 | 146 | 128 | 284 | 65 |
+| 463 | ![ホーリーキング](/img/monsters/hollyking.png) | [ホーリーキング](/monsters/hollyking) |  |  |  |  |  |  |  |  |  |
+| 464 | ![デスマシーン](/img/monsters/slaughtomaton.png) | [デスマシーン](/monsters/slaughtomaton) |  |  |  |  |  |  |  |  |  |
+| 465 | ![吹雪の魔女](/img/monsters/hubukinomajyo.png) | [吹雪の魔女](/monsters/hubukinomajyo) |  |  |  |  |  |  |  |  |  |
+| 466 | ![なみさそり](/img/monsters/wave_scorpion.png) | [なみさそり](/monsters/wave_scorpion) |  |  |  |  |  |  |  |  |  |
 | 467 | ![ましょうぐも](/img/monsters/mashougumo.png) | [ましょうぐも](/monsters/mashougumo) | 5 | 物質 | 強 | 夜 | 7,141 | 342 | 188 | 9,059 | 1,812 |
 | 468 | ![ピサロナイト](/img/monsters/pisaronaito.png) | [ピサロナイト](/monsters/pisaronaito) | 5 | ゾンビ | 強 | 夜 | 4,761 | 333 | 176 | 7,059 | 1,412 |
 | 469 | ![ゴードンヘッド](/img/monsters/godonheddo.png) | [ゴードンヘッド](/monsters/godonheddo) | 5 | 物質 | 強 | 夜 | 6,189 | 366 | 195 | 8,519 | 1,704 |
@@ -566,8 +566,8 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 545 | ![グランスライム](/img/monsters/grandpaslime.png) | [グランスライム](/monsters/grandpaslime) | 6 | スライム | 風 | 昼夜 | 896 | 165 | 136 | 333 | 69 |
 | 546 | ![ロイヤルミミック](/img/monsters/tansu_royal.png) | [ロイヤルミミック](/monsters/tansu_royal) | 7 | 物質 | 強 | 夜 | 2,261 | 328 | 246 | 695 | 159 |
 | 547 | ![ダーククリスタル](/img/monsters/dark_crystal.png) | [ダーククリスタル](/monsters/dark_crystal) | 6 | 物質 | 風 | 夜 | 1,258 | 190 | 160 | 451 | 82 |
-| 548 | ![キングミミック](/img/monsters/kingumimikku.png) | [キングミミック](/monsters/kingumimikku) | 6 | 悪魔 | 爆 | 昼夜 | 1,019 | 141 | 132 | 341 | 74 |
-| 549 | ![ニジゴロン](/img/monsters/nizigoron.png) | [ニジゴロン](/monsters/nizigoron) | 6 | スライム | 炎 | 昼夜 | 1,167 | 188 | 144 | 456 | 77 |
+| 548 | ![キングミミック](/img/monsters/kingumimikku.png) | [キングミミック](/monsters/kingumimikku) |  |  |  |  |  |  |  |  |  |
+| 549 | ![ニジゴロン](/img/monsters/nizigoron.png) | [ニジゴロン](/monsters/nizigoron) |  |  |  |  |  |  |  |  |  |
 | 550 | ![タイプG](/img/monsters/taipug.png) | [タイプG](/monsters/taipug) | 6 | 物質 | 無敵 | 昼夜 | 16,518 | 547 | 255 | 29,223 | 5,845 |
 | 551 | ![ゴールドマント](/img/monsters/goldmanto.png) | [ゴールドマント](/monsters/goldmanto) | 6 | ゾンビ | 無敵 | 昼夜 | 11,012 | 564 | 245 | 24,011 | 4,802 |
 | 552 | ![トロルバッコス](/img/monsters/tororubakkosu.png) | [トロルバッコス](/monsters/tororubakkosu) | 6 | 悪魔 | 強 | 昼 | 14,316 | 512 | 234 | 17,869 | 3,574 |
@@ -628,17 +628,17 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 607 | ![アスラ王](/img/monsters/asuraou.png) | [アスラ王](/monsters/asuraou) | 7 | ゾンビ | 炎 | 夜 | 2,963 | 422 | 250 | 807 | 186 |
 | 608 | ![エンゼルアーマー](/img/monsters/enzeruaamaa.png) | [エンゼルアーマー](/monsters/enzeruaamaa) | 7 | 物質 | 風 | 夜 | 3,069 | 420 | 262 | 919 | 161 |
 | 609 | ![スラ・ブラスター](/img/monsters/slimeblaster.png) | [スラ・ブラスター](/monsters/slimeblaster) | 7 | スライム | 強 | 昼夜 | 1,790 | 371 | 223 | 632 | 139 |
-| 610 | ![エビルエスターク](/img/monsters/ersatzestark.png) | [エビルエスターク](/monsters/ersatzestark) | 7 | 物質 | 強 | 夜 | 2,502 | 356 | 259 | 793 | 155 |
-| 611 | ![まおうのたまご](/img/monsters/maounotamago.png) | [まおうのたまご](/monsters/maounotamago) | 7 | スライム | 強 | 夜 | 2,601 | 408 | 266 | 791 | 179 |
-| 612 | ![エンペラン](/img/monsters/emperan.png) | [エンペラン](/monsters/emperan) | 7 | スライム | 強 | 昼 | 2,997 | 461 | 225 | 819 | 161 |
+| 610 | ![エビルエスターク](/img/monsters/ersatzestark.png) | [エビルエスターク](/monsters/ersatzestark) |  |  |  |  |  |  |  |  |  |
+| 611 | ![まおうのたまご](/img/monsters/maounotamago.png) | [まおうのたまご](/monsters/maounotamago) |  |  |  |  |  |  |  |  |  |
+| 612 | ![エンペラン](/img/monsters/emperan.png) | [エンペラン](/monsters/emperan) |  |  |  |  |  |  |  |  |  |
 | 613 | ![ミュシャド](/img/monsters/myusyado.png) | [ミュシャド](/monsters/myusyado) | 7 | 魔獣 | 強 | 夜 | 28,877 | 808 | 321 | 38,259 | 7,652 |
 | 614 | ![キングヒドラ](/img/monsters/kinghidora.png) | [キングヒドラ](/monsters/kinghidora) | 7 | ドラゴン | 強 | 昼夜 | 22,339 | 909 | 354 | 27,898 | 5,580 |
 | 615 | ![りゅうおうもどき](/img/monsters/ryuuoumodoki.png) | [りゅうおうもどき](/monsters/ryuuoumodoki) | 7 | ドラゴン | 強 | 昼 | 29,041 | 1,201 | 346 | 34,890 | 6,978 |
 | 616 | ![魔獣イギュア](/img/monsters/majuuigyua.png) | [魔獣イギュア](/monsters/majuuigyua) | 7 | 魔獣 | 強 | 夜 | 26,807 | 1,056 | 345 | 31,682 | 6,336 |
 | 617 | ![スライダークロボ](/img/monsters/darkrobotslime.png) | [スライダークロボ](/monsters/darkrobotslime) | 7 | スライム | 炎 | 夜 | 29,252 | 1,101 | 314 | 31,045 | 6,909 |
-| 618 | ![メタルセラフィム](/img/monsters/metal_seraphim.png) | [メタルセラフィム](/monsters/metal_seraphim) | 7 | メタル | 無敵 | 昼 | 183 | 421 | 10,000 | 924,564 | 5,327 |
-| 619 | ![メタルゴッデス](/img/monsters/metal_goddess.png) | [メタルゴッデス](/monsters/metal_goddess) | 7 | メタル | 無敵 | 昼 | 158 | 408 | 10,000 | 880,000 | 4,561 |
-| 620 | ![メタルゴッデス2](/img/monsters/metalgoddes2.png) | [メタルゴッデス2](/monsters/metalgoddes2) | 7 | メタル | 無敵 | 昼夜 | 158 | 408 | 10,000 | 880,000 | 4,561 |
+| 618 | ![メタルセラフィム](/img/monsters/metal_seraphim.png) | [メタルセラフィム](/monsters/metal_seraphim) |  |  |  |  |  |  |  |  |  |
+| 619 | ![メタルゴッデス](/img/monsters/metal_goddess.png) | [メタルゴッデス](/monsters/metal_goddess) |  |  |  |  |  |  |  |  |  |
+| 620 | ![メタルゴッデス2](/img/monsters/metalgoddes2.png) | [メタルゴッデス2](/monsters/metalgoddes2) |  |  |  |  |  |  |  |  |  |
 | 621 | ![メタルスター](/img/monsters/metalstar.png) | [メタルスター](/monsters/metalstar) | 7 | メタル | 無敵 | 昼 | 165 | 400 | 10,000 | 700,000 | 5,000 |
 | 622 | ![はぐれメタルキング](/img/monsters/haguremetaruking.png) | [はぐれメタルキング](/monsters/haguremetaruking) | 7 | メタル | 無敵 | 昼夜 | 135 | 364 | 10,000 | 500,000 | 3,500 |
 | ??? | ![](/img/blank.png) | [大魔王オン・ゾ・エーグ](/monsters/flucifer) | ??? | ??? | ??? | ??? | ??? | ??? | ??? | ??? | ??? |

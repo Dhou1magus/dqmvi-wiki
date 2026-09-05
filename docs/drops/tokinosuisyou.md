@@ -1,15 +1,15 @@
 ---
 title: 時の水晶
-description: DQMVIの「時の水晶」を落とすモンスター9体の一覧。いちばん弱いのはキングミミック（レア・EXP341）。
+description: DQMVIの「時の水晶」を落とすモンスター8体の一覧。いちばん弱いのはマッドスミス（レア・EXP345）。
 pageClass: wide-page sortable-list
 ---
 
 # 時の水晶
 
-素材。**9体**のモンスターが落とします。
+素材。**8体**のモンスターが落とします。
 
 ::: tip ねらい目
-**キングミミック**（レアドロップ・EXP341）。
+**マッドスミス**（レアドロップ・EXP345）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -17,7 +17,6 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
-| [キングミミック](/monsters/kingumimikku) | レア | 6 | [悪魔](/species/akuma) | 1,019 | 341 | ふつうの土地 |
 | [マッドスミス](/monsters/maddosumisu) | レア | 6 | [ゾンビ](/species/zombie) | 1,123 | 345 | ふつうの土地 |
 | [オーラー](/monsters/ora) | レア | 6 | [物質](/species/bussitu) | 920 | 413 | ふつうの土地 |
 | [ドラゴンライダー](/monsters/dragonraida) | レア | 6 | [ドラゴン](/species/dragon) | 1,160 | 420 | ドラゴン火山帯 |

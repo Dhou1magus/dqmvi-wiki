@@ -1,12 +1,12 @@
 ---
 title: いのちの石
-description: DQMVIの「いのちの石」を落とすモンスター19体の一覧。いちばん弱いのはタールキング（通常・EXP140）。
+description: DQMVIの「いのちの石」を落とすモンスター18体の一覧。いちばん弱いのはタールキング（通常・EXP140）。
 pageClass: wide-page sortable-list
 ---
 
 # いのちの石
 
-素材。**19体**のモンスターが落とします。
+素材。**18体**のモンスターが落とします。
 
 ::: tip ねらい目
 **タールキング**（通常ドロップ・EXP140）。
@@ -27,7 +27,6 @@ pageClass: wide-page sortable-list
 | [デュラハーン](/monsters/durahan) | レア | 4 | [悪魔](/species/akuma) | 211 | 165 | ふつうの土地 |
 | [さまようよろい](/monsters/samayouyoroi) | レア | 4 | [ゾンビ](/species/zombie) | 186 | 182 | 魔物の骨荒野 |
 | [キングスライム](/monsters/kingsura) | レア | 5 | [スライム](/species/slime) | 385 | 241 | スライム湿原 |
-| [デスマシーン](/monsters/slaughtomaton) | レア | 5 | [物質](/species/bussitu) | 499 | 292 | ふつうの土地 |
 | [ダースドラゴン](/monsters/dasudragon) | レア | 6 | [ドラゴン](/species/dragon) | 1,384 | 442 | ドラゴン火山帯・果ての世界 |
 | [トンブレロ](/monsters/tonburero) | 超レア | 3 | [魔獣](/species/majyu) | 91 | 84 | 黄金の砂漠 |
 | [もりもりベス](/monsters/beshemothslime) | 超レア | 3 | [スライム](/species/slime) | 78 | 86 | ふつうの土地 |

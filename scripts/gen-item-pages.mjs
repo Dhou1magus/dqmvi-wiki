@@ -35,6 +35,7 @@ import { join } from 'node:path'
 import { recordCounts } from './lib/counts.mjs'
 import { recordNames } from './lib/names.mjs'
 import { extraRows, leftoverTables, finish, plainName } from './lib/handwritten.mjs'
+import { BLANK_MONSTERS } from './lib/blank-monsters.mjs'
 
 /** MOD本体から取り出した装備の数値。無くても名前だけで作れるようにしておく */
 const STATS_PATH = join('scripts', 'data', 'equipment.json')
@@ -114,6 +115,7 @@ const DROPPED = new Set()
     const extras = JSON.parse(readFileSync(path, 'utf8'))
     for (const [mid, m] of Object.entries(extras.monsters ?? {})) {
       if (BOSS_IDS.has(mid) || BOSS_IDS.has(m.id)) continue // ★魔王ボスの落とし物は逆引きページが無い
+      if (BLANK_MONSTERS.has(mid)) continue // ★空欄のモンスター（monster-blank.json）の落とし物も逆引きに出ない
       for (const d of m.drops ?? []) {
         if (!/オブジェ|フィギュア/.test(d.item) && d.key) {
           DROPPED.add(d.key.replace(/^legacy_(item|block)_/, ''))

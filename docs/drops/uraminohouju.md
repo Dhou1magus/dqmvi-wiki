@@ -1,12 +1,12 @@
 ---
 title: うらみのほうじゅ
-description: DQMVIの「うらみのほうじゅ」を落とすモンスター23体の一覧。いちばん弱いのはまおうのかげ（通常・EXP350）。
+description: DQMVIの「うらみのほうじゅ」を落とすモンスター22体の一覧。いちばん弱いのはまおうのかげ（通常・EXP350）。
 pageClass: wide-page sortable-list
 ---
 
 # うらみのほうじゅ
 
-素材。**23体**のモンスターが落とします。
+素材。**22体**のモンスターが落とします。
 
 ::: tip ねらい目
 **まおうのかげ**（通常ドロップ・EXP350）。
@@ -28,7 +28,6 @@ pageClass: wide-page sortable-list
 | [アスラ王](/monsters/asuraou) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,963 | 807 | ふつうの土地 |
 | [デーモンアミゴ](/monsters/demonamigo) | 通常 | 7 | [悪魔](/species/akuma) | 3,312 | 859 | ふつうの土地 |
 | [マクロベータ](/monsters/makurobeta) | レア | 6 | [ゾンビ](/species/zombie) | 1,322 | 453 | ふつうの土地 |
-| [ニジゴロン](/monsters/nizigoron) | レア | 6 | [スライム](/species/slime) | 1,167 | 456 | ふつうの土地 |
 | [モノクロームナイト](/monsters/monokuroomunaito) | レア | 6 | [物質](/species/bussitu) | 1,505 | 460 | ふつうの土地 |
 | [グレートジンガー](/monsters/guretosinga) | レア | 6 | [物質](/species/bussitu) | 1,600 | 600 | ふつうの土地 |
 | [ダークスライム](/monsters/darkslime) | 超レア | 6 | [スライム](/species/slime) | 992 | 362 | 果ての世界 |

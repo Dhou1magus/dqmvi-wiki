@@ -15,6 +15,7 @@
  *   monster_stats.tsv  … 全モンスターの数値（並び順が図鑑順）
  *   lang/ja_jp.json    … 日本語名。item.dqmvi.<id>_spawn_egg から引く
  *   boss_ai.tsv        … 魔王ボスの肩書き・フェーズ・行動ローテーション
+ *   scripts/data/monster-blank.json … 中身を空欄にするモンスター（名前と図鑑No.だけ出す。手で書くファイル）
  *
  * 出すもの:
  *   docs/monsters/<id>.md   一般モンスター
@@ -33,6 +34,7 @@ import { join } from 'node:path'
 import { recordCounts } from './lib/counts.mjs'
 import { extraRows, leftoverTables, finish, withExtraSections, mergeHandwrittenPages, plainName } from './lib/handwritten.mjs'
 import { fixMonsterName } from './lib/monster-names.mjs'
+import { BLANK_MONSTERS } from './lib/blank-monsters.mjs'
 
 const SRC = process.argv[2]
 if (!SRC) {
@@ -153,6 +155,11 @@ const bossById = new Map(bossAi.map((b) => [b.id, b]))
 const HIDDEN = new Set(['flucifer'])
 const MASK = '???'
 const MASK5 = '?????'
+// ★中身を空欄にするモンスター（scripts/data/monster-blank.json）。名前と図鑑No.だけ出す。
+//   一覧の行は空のマス、系統・出現場所の一覧には出さない（gen-drop / gen-item の逆引きも同じ id で外す）。
+const blankOf = (id) => BLANK_MONSTERS.has(id)
+/** 空欄にするモンスターの名前。一覧の「知らない行」の判定に足す（外した行が手書き扱いで戻らないように） */
+const blankNames = () => [...BLANK_MONSTERS].filter((id) => statById.has(id)).map((id) => plainName(jpName(id)))
 
 /** 日本語名。モンスターは entity ではなくスポーンエッグのアイテム名から引く（lib/monster-names.mjs の直しを当てる） */
 function jpName(id) {
@@ -277,7 +284,8 @@ function monsterPage(m, { boss }) {
   const b = bossById.get(m.id)
 
   const hidden = HIDDEN.has(m.id)
-  const desc = hidden
+  const blank = blankOf(m.id)
+  const desc = hidden || blank
     ? `DQMVIのモンスター「${name}」のステータス。`
     : boss
       ? `DQMVIの魔王ボス「${name}」の攻略データ。HP${num(m.health)} / 経験値${num(exp)} / ${num(gold)}G。フェーズごとの行動パターンとステータスをまとめています。`
@@ -294,37 +302,55 @@ function monsterPage(m, { boss }) {
 
   if (boss && b) {
     lines.push(`**${cell(b.title)}** ・ ${colorName(b.color)}属性 ・ ${(b.phases || '').trim() ? `${b.phases.split(',').length + 1}フェーズ` : '1フェーズ'}`)
-  } else {
+    lines.push('')
+  } else if (!blank) {
     const r = extrasFor(m.id)?.rank
     lines.push(r ? `ランク${r}のモンスター。` : `${bandOf(exp).name}のモンスター。`)
+    lines.push('')
   }
-  lines.push('')
 
-  // ステータス枠（テーマの ```stats 記法）
+  // ステータス枠（テーマの ```stats 記法）。空欄のモンスターは枠だけ
   lines.push('## ステータス')
   lines.push('')
-  const v = (val) => (hidden ? MASK5 : val)
+  const v = (val) => (hidden ? MASK5 : blank ? '' : val)
+  const st = (label, val) => `${label} | ${val}`.trimEnd() // 空欄のときは「HP |」（末尾の空白を残さない）
   lines.push('```stats')
-  lines.push(`HP | ${v(rnum(m.health))}`)
-  lines.push(`MP | ${v(num(m.maxMp))}`)
-  lines.push(`こうげき | ${v(rnum(m.attackDamage))}`)
-  lines.push(`しゅび | ${v(rnum(m.defense))}`)
-  lines.push(`まりょく | ${v(num(m.magicPower))}`)
-  lines.push(`魔法しゅび | ${v(num(m.magicDefense))}`)
-  lines.push(`EXP | ${v(num(exp))}${boss && !hidden ? ' !' : ''}`)
-  lines.push(`ゴールド | ${v(num(gold))}`)
+  lines.push(st('HP', v(rnum(m.health))))
+  lines.push(st('MP', v(num(m.maxMp))))
+  lines.push(st('こうげき', v(rnum(m.attackDamage))))
+  lines.push(st('しゅび', v(rnum(m.defense))))
+  lines.push(st('まりょく', v(num(m.magicPower))))
+  lines.push(st('魔法しゅび', v(num(m.magicDefense))))
+  lines.push(st('EXP', `${v(num(exp))}${boss && !hidden && !blank ? ' !' : ''}`))
+  lines.push(st('ゴールド', v(num(gold))))
   lines.push('```')
   lines.push('')
 
   // ── 逆コンパイルで判明したデータ ──
-  const x = extrasFor(m.id)
+  const x = blank ? null : extrasFor(m.id)
 
   // 生態。図鑑No.だけは全モンスターに付くので、extras が無くてもこの表は出す
   lines.push('## 生態')
   lines.push('')
   lines.push('| 項目 | 内容 |')
   lines.push('| --- | --- |')
-  if (hidden) {
+  if (blank) {
+    // 図鑑No.以外は空のマス。ドロップ品と呪文も見出しと空の表だけ出す
+    lines.push(`| 図鑑No. | ${m.dexNo} |`)
+    for (const k of ['ランク', '系統', '活動時間', '弱点', '出現場所']) lines.push(`| ${k} |  |`)
+    lines.push('')
+    lines.push('## ドロップ品')
+    lines.push('')
+    lines.push('| 区分 | アイテム |')
+    lines.push('| --- | --- |')
+    for (const t of ['通常ドロップ', 'レアドロップ', '超レアドロップ']) lines.push(`| ${t} |  |`)
+    lines.push('')
+    lines.push('## 使う呪文')
+    lines.push('')
+    lines.push('| 種類 | 呪文 |')
+    lines.push('| --- | --- |')
+    lines.push('|  |  |')
+  } else if (hidden) {
     lines.push(`| 図鑑No. | ${MASK} |`)
     if (x?.species) lines.push(`| 系統 | ${MASK} |`)
     if (x?.dayTime) lines.push(`| 活動時間 | ${MASK} |`)
@@ -455,6 +481,11 @@ function tableRows(list, dirOf, { image = false } = {}) {
       out.push(`| ${MASK} |${pic} [${cell(jpName(m.id))}](/${at(m)}/${m.id}) | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} | ${MASK} |`)
       continue
     }
+    if (blankOf(m.id)) {
+      // 空欄のモンスター: No. と名前だけ。ほかは空のマス
+      out.push(`| ${m.dexNo} |${pic} [${cell(jpName(m.id))}](/${at(m)}/${m.id}) |  |  |  |  |  |  |  |  |  |`)
+      continue
+    }
     out.push(`| ${m.dexNo} |${pic} [${cell(jpName(m.id))}](/${at(m)}/${m.id}) | ${x.rank ?? '—'} | ${cell(x.species ?? '—')} | ${cell(x.weakness ?? '—')} | ${cell((x.dayTime ?? '—').replace('のみ', ''))} | ${rnum(m.health)} | ${rnum(m.attackDamage)} | ${rnum(m.defense)} | ${num(m.dqExperience)} | ${num(m.dqGold)} |`)
   }
   return out
@@ -530,7 +561,8 @@ function bossIndex(bosses) {
 // ── 出現場所のページ ──────────────────────────────────────
 function biomePage(bid, b, normals, bosses) {
   const known = new Set(b.ids)
-  const list = [...normals, ...bosses].filter((m) => known.has(m.id))
+  // 空欄のモンスターは出現場所の一覧にも出さない
+  const list = [...normals, ...bosses].filter((m) => known.has(m.id) && !blankOf(m.id))
   const lines = []
   lines.push('---')
   lines.push(`title: ${b.name}`)
@@ -545,7 +577,7 @@ function biomePage(bid, b, normals, bosses) {
     : 'この場所のランク（バイオーム名の横に出る数字）が、それぞれの「ランク」以上になると湧きます。まだ1体も条件を満たさないうちは、ふつうの土地と同じモンスターが湧きます。'))
   lines.push('')
   const path = join(BIOME_DIR, `${bid}.md`)
-  const extra = extraRows(path, new Set(list.map((m) => plainName(jpName(m.id)))), { nameCol: 1, nameHeader: 'モンスター', header: '| No.' })
+  const extra = extraRows(path, new Set([...list.map((m) => plainName(jpName(m.id))), ...blankNames()]), { nameCol: 1, nameHeader: 'モンスター', header: '| No.' })
   if (list.length) {
     lines.push(...tableRows(list, (m) => (bossById.has(m.id) ? 'bosses' : 'monsters')))
     lines.push(...(extra.get('')?.rows ?? []))
@@ -653,7 +685,7 @@ function speciesPage(name, list) {
   if (gear) lines.push(`| この系統に強い装備 | ${gear}種（「${name}系に2倍」など） |`)
   lines.push('')
   const path = join(SPECIES_DIR, `${slug}.md`)
-  const extra = extraRows(path, new Set(list.map((m) => plainName(jpName(m.id)))), { nameCol: 1, nameHeader: 'モンスター', header: '| No.' })
+  const extra = extraRows(path, new Set([...list.map((m) => plainName(jpName(m.id))), ...blankNames()]), { nameCol: 1, nameHeader: 'モンスター', header: '| No.' })
   lines.push(...tableRows(list, (m) => (bossById.has(m.id) ? 'bosses' : 'monsters')))
   lines.push(...(extra.get('')?.rows ?? []))
   lines.push('')
@@ -740,7 +772,7 @@ if (biomeEntries.length) {
   const groups = new Map()
   for (const m of normals) {
     const sp = extrasFor(m.id)?.species
-    if (!sp) continue
+    if (!sp || blankOf(m.id)) continue // 空欄のモンスターは系統の一覧にも出さない
     if (!groups.has(sp)) groups.set(sp, [])
     groups.get(sp).push(m)
   }
@@ -756,6 +788,7 @@ if (biomeEntries.length) {
 }
 
 console.log(`一般モンスター: ${normals.length}体`)
+console.log(`  うち空欄:     ${normals.filter((m) => blankOf(m.id)).length}体（monster-blank.json）`)
 console.log(`魔王ボス:       ${bosses.length}体（ページは作らない）`)
 console.log(`書き出し:       ${written + 1}ファイル`)
 console.log(`図鑑ナンバー:   1〜${Math.max(...stats.map((m) => m.dexNo))}（ボス込みの通し番号）`)
@@ -763,5 +796,5 @@ console.log(`図鑑ナンバー:   1〜${Math.max(...stats.map((m) => m.dexNo))}
 recordCounts({
   monsters: normals.length,
   biomes: Object.keys(EXTRAS.biomes ?? {}).length,
-  species: new Set(normals.map((m) => extrasFor(m.id)?.species).filter(Boolean)).size
+  species: new Set(normals.filter((m) => !blankOf(m.id)).map((m) => extrasFor(m.id)?.species).filter(Boolean)).size
 })
