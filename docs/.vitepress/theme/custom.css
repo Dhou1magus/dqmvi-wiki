@@ -377,12 +377,15 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
    以前の auto-fit は画面の幅しだいで 5＋1 のように割れて、空のマスが出ていた。 */
 .dq-stats {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(96px, 110px));
   gap: 6px;
   margin: 22px 0;
 }
-.dq-stats[data-n="6"] { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-.dq-stats[data-n="8"] { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+/* マスの上限は 110px（8項目の枠は 170px）。本文いっぱいに伸ばすと、1920px の画面（本文 1160px）で
+   1マス 188px の巨大なマスになり、中の文字が小さく見える（2026-09-05 よっしー指摘）。
+   本文が狭いときは minmax(0, …) で縮む */
+.dq-stats[data-n="6"] { grid-template-columns: repeat(6, minmax(0, 110px)); }
+.dq-stats[data-n="8"] { grid-template-columns: repeat(4, minmax(0, 170px)); }
 .dq-stats > div {
   display: flex;
   flex-direction: column;
