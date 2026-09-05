@@ -31,7 +31,7 @@ aside: false
 | 101 | [アルミラージ](/monsters/arumiraji) | 2 | 魔獣 | 炎 | 夜 | 59 | 32 | 14 | 47 | 9 |
 | 123 | [かくとうパンサー](/monsters/kakutoupansa) | 2 | 魔獣 | 炎 | 昼夜 | 66 | 31 | 15 | 60 | 12 |
 | 130 | [ジャガーメイジ](/monsters/zyagameizi) | 2 | 魔獣 | 炎 | 昼 | 66 | 15 | 14 | 62 | 14 |
-| 152 | [platypunk_shippodan](/monsters/platypunk_shippodan) | 2 | 魔獣 | 爆 | 昼 | 67 | 33 | 16 | 55 | 11 |
+| 152 | [しっぽ団のももんじゃ](/monsters/platypunk_shippodan) | 2 | 魔獣 | 爆 | 昼 | 67 | 33 | 16 | 55 | 11 |
 | 157 | [ピンクボンボン](/monsters/pinkbonbon) | 2 | 魔獣 | 強 | 昼 | 580 | 65 | 54 | 995 | 199 |
 | 158 | [アルケミストン](/monsters/arukemisuton) | 2 | 魔獣 | 強 | 夜 | 535 | 55 | 48 | 904 | 181 |
 | 159 | [ゴールデンコーン](/monsters/gorudenkon) | 2 | 魔獣 | 強 | 昼 | 491 | 79 | 49 | 841 | 168 |

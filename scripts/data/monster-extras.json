@@ -6315,13 +6315,13 @@
     {
      "tier": "オブジェ",
      "key": "legacy_block_platypunk_shippodan_ob",
-     "item": "legacy_block_platypunk_shippodan_ob",
+     "item": "しっぽ団のももんじゃのオブジェ",
      "oneIn": 50
     },
     {
      "tier": "フィギュア",
      "key": "legacy_block_platypunk_shippodan_f",
-     "item": "legacy_block_platypunk_shippodan_f",
+     "item": "しっぽ団のももんじゃのフィギュア",
      "oneIn": 50
     }
    ],

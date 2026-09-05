@@ -165,11 +165,15 @@ function withSpeciesLink(text) {
 const itemLink = (i) => (DROPPED.has(i.key) ? `[${i.name}](/drops/${dropSlug(i.key)})` : `[${i.name}](/items/${pageOf(i)})`)
 
 /** 日本語名。アイテム・古いアイテム・ブロックの順に探す */
+/** lang に無い品の名前。legacy_tabs.tsv の各行末の注記（# 名前）から拾う（作者が lang を入れ忘れた品がある） */
+const TAB_NAMES = new Map(readRows('legacy_tabs.tsv')
+  .filter((c) => c[3]?.startsWith('# '))
+  .map((c) => [c[1], c[3].slice(2).trim()]))
 function jpName(key) {
   for (const k of [`item.dqmvi.${key}`, `item.dqmvi.legacy_item_${key}`, `block.dqmvi.${key}`]) {
     if (lang[k]) return String(lang[k]).replace(/^DQM\s+/, '').trim()
   }
-  return key
+  return TAB_NAMES.get(key.replace(/^legacy_(item|block)_/, '')) ?? key
 }
 
 /** タブ区切りを読む（#で始まる行と空行は飛ばす） */

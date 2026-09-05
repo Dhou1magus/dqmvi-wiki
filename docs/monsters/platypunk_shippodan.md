@@ -1,9 +1,9 @@
 ---
-title: platypunk_shippodan
-description: DQMVIのモンスター「platypunk_shippodan」のステータス。HP67 / こうげき33 / しゅび16 / 経験値55 / 11G。
+title: しっぽ団のももんじゃ
+description: DQMVIのモンスター「しっぽ団のももんじゃ」のステータス。HP67 / こうげき33 / しゅび16 / 経験値55 / 11G。
 ---
 
-# platypunk_shippodan
+# しっぽ団のももんじゃ
 
 ランク2のモンスター。
 
@@ -38,8 +38,8 @@ EXP | 55
 | 通常ドロップ | [どくどくヘドロ](/drops/dokudokuhedoro) |
 | レアドロップ | [赤いサンゴ](/drops/akaisango) |
 | 超レアドロップ | [巨大ヒゲトカゲ](/drops/kyodaihigetokage) |
-| オブジェ | [legacy_block_platypunk_shippodan_ob](/drops/platypunk_shippodan_ob) |
-| フィギュア | [legacy_block_platypunk_shippodan_f](/drops/platypunk_shippodan_f) |
+| オブジェ | しっぽ団のももんじゃのオブジェ |
+| フィギュア | しっぽ団のももんじゃのフィギュア |
 
 ## 関連ページ
 

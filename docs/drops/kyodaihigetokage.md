@@ -36,7 +36,7 @@ pageClass: wide-page sortable-list
 | [デスフラッター](/monsters/deathflutter2) | 超レア | 2 | [自然](/species/sizen) | 38 | 43 | ふつうの土地 |
 | [おおさそり](/monsters/big_scorpion) | 超レア | 2 | [自然](/species/sizen) | 65 | 50 | ふつうの土地 |
 | [ストーンスライム](/monsters/rubbleslime) | 超レア | 2 | [スライム](/species/slime) | 54 | 52 | ふつうの土地 |
-| [platypunk_shippodan](/monsters/platypunk_shippodan) | 超レア | 2 | [魔獣](/species/majyu) | 67 | 55 | ふつうの土地 |
+| [しっぽ団のももんじゃ](/monsters/platypunk_shippodan) | 超レア | 2 | [魔獣](/species/majyu) | 67 | 55 | ふつうの土地 |
 | [ベロベロ](/monsters/berobero) | 超レア | 3 | [ゾンビ](/species/zombie) | 80 | 82 | 毒の大湿地・ネザー |
 | [モコモコじゅう](/monsters/mokomokojuu) | 超レア | 4 | [魔獣](/species/majyu) | 148 | 140 | 氷結のトゲ平原 |
 | [ホーンビートル](/monsters/hornbeet) | 超レア | 4 | [自然](/species/sizen) | 215 | 180 | ふつうの土地 |

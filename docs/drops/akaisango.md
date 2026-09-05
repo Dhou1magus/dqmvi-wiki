@@ -33,7 +33,7 @@ pageClass: wide-page sortable-list
 | [バーガースライム](/monsters/burgerslime) | レア | 2 | [スライム](/species/slime) | 58 | 52 | ふつうの土地 |
 | [パールスライム](/monsters/pearlgel) | レア | 2 | [スライム](/species/slime) | 66 | 54 | ふつうの土地 |
 | [アクアスライム](/monsters/aquaslime) | レア | 2 | [スライム](/species/slime) | 59 | 55 | 沈没魔物海・海 |
-| [platypunk_shippodan](/monsters/platypunk_shippodan) | レア | 2 | [魔獣](/species/majyu) | 67 | 55 | ふつうの土地 |
+| [しっぽ団のももんじゃ](/monsters/platypunk_shippodan) | レア | 2 | [魔獣](/species/majyu) | 67 | 55 | ふつうの土地 |
 | [さまようたましい](/monsters/samayoutamasii) | レア | 3 | [ゾンビ](/species/zombie) | 73 | 79 | ゴースト霧森・ネザー |
 | [スライムジョーカー](/monsters/slimejoker) | レア | 3 | [スライム](/species/slime) | 88 | 88 | ふつうの土地 |
 | [ラリホービートル](/monsters/bedbug) | レア | 3 | [自然](/species/sizen) | 86 | 90 | ふつうの土地 |

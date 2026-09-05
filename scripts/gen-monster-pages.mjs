@@ -135,6 +135,7 @@ function dropLink(d) {
 }
 
 const stats = readTsv(join(SRC, 'monster_stats.tsv'))
+const statById = new Map(stats.map((m) => [m.id, m]))
 // monster_stats.tsv の並び順がそのままゲーム内の図鑑順（ファイル先頭の注記より）。
 // 行の位置が図鑑ナンバーになる。ボスも一般モンスターと同じ通し番号を使うので、
 // 図鑑ページ側では番号がところどころ飛ぶ（そこにボスが入っている）。
@@ -156,7 +157,12 @@ const MASK5 = '?????'
 /** 日本語名。モンスターは entity ではなくスポーンエッグのアイテム名から引く（lib/monster-names.mjs の直しを当てる） */
 function jpName(id) {
   const raw = lang[`item.dqmvi.${id}_spawn_egg`]
-  if (!raw) return fixMonsterName(id, id)
+  if (!raw) {
+    // スポーンエッグの名前が無い個体（しっぽ団のももんじゃ）は monster_stats.tsv の displayName。
+    // 図鑑もその名前を出す。英字だけ（Sura など）は名前ではないので id のまま
+    const dn = statById.get(id)?.displayName ?? ''
+    return fixMonsterName(id, /[^\x00-\x7f]/.test(dn) ? dn.trim() : id)
+  }
   return fixMonsterName(id, raw.replace(/^DQM\s+/, '').replace(/\s*の?スポーンエッグ$/, '').trim())
 }
 

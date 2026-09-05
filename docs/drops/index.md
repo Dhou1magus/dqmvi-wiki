@@ -1,12 +1,12 @@
 ---
 title: ドロップ品から探す
-description: DQMVIでモンスターが落とすアイテム213種。アイテム名から、それを落とすモンスターを逆に引けます。
+description: DQMVIでモンスターが落とすアイテム211種。アイテム名から、それを落とすモンスターを逆に引けます。
 pageClass: wide-page sortable-list
 ---
 
 # ドロップ品から探す
 
-モンスターが落とすアイテムは **213種** です。
+モンスターが落とすアイテムは **211種** です。
 欲しいアイテムを押すと、それを落とすモンスターが全部出ます。
 
 ::: tip 見かた
@@ -19,8 +19,6 @@ pageClass: wide-page sortable-list
 
 | アイテム | 分類 | 落とす数 | ねらい目 | 区分 | EXP |
 | --- | :--: | ---: | --- | :--: | ---: |
-| [legacy_block_platypunk_shippodan_f](/drops/platypunk_shippodan_f) | そのほか | 1 | [platypunk_shippodan](/monsters/platypunk_shippodan) | フィギュア | 55 |
-| [legacy_block_platypunk_shippodan_ob](/drops/platypunk_shippodan_ob) | そのほか | 1 | [platypunk_shippodan](/monsters/platypunk_shippodan) | オブジェ | 55 |
 | [アトラスの大金槌](/drops/atorasunoookanaduti) | 転生装備 | 1 | [アトラス](/monsters/atorasu) | 通常 | 7,650 |
 | [あまつゆの糸](/drops/amatuyunoito) | 素材 | 12 | [マクロベータ](/monsters/makurobeta) | 通常 | 453 |
 | [あやかし草](/drops/ayakasisou) | 素材 | 15 | [ベビーサタン](/monsters/bebisatan) | 通常 | 38 |

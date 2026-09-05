@@ -170,7 +170,7 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 149 | ![おにぎりスライム](/img/monsters/onigirislime.png) | [おにぎりスライム](/monsters/onigirislime) | 3 | スライム | 炎 | 昼夜 | 156 | 68 | 38 | 121 | 24 |
 | 150 | ![スライムフェアリー](/img/monsters/suraimu_feari.png) | [スライムフェアリー](/monsters/suraimu_feari) | 2 | スライム | 強 | 昼 | 38 | 23 | 15 | 40 | 9 |
 | 151 | ![バーガースライム](/img/monsters/burgerslime.png) | [バーガースライム](/monsters/burgerslime) | 2 | スライム | 風 | 昼夜 | 58 | 30 | 16 | 52 | 11 |
-| 152 | ![platypunk_shippodan](/img/monsters/platypunk_shippodan.png) | [platypunk_shippodan](/monsters/platypunk_shippodan) | 2 | 魔獣 | 爆 | 昼 | 67 | 33 | 16 | 55 | 11 |
+| 152 | ![しっぽ団のももんじゃ](/img/monsters/platypunk_shippodan.png) | [しっぽ団のももんじゃ](/monsters/platypunk_shippodan) | 2 | 魔獣 | 爆 | 昼 | 67 | 33 | 16 | 55 | 11 |
 | 153 | ![ウィッチレディ](/img/monsters/whicchiredi.png) | [ウィッチレディ](/monsters/whicchiredi) | 2 | 悪魔 | 氷 | 昼夜 | 50 | 22 | 13 | 47 | 11 |
 | 154 | ![おおさそり](/img/monsters/big_scorpion.png) | [おおさそり](/monsters/big_scorpion) | 2 | 自然 | 氷 | 昼夜 | 65 | 32 | 15 | 50 | 10 |
 | 155 | ![ハートナイト](/img/monsters/hatonaito.png) | [ハートナイト](/monsters/hatonaito) | 2 | スライム | 強 | 夜 | 669 | 79 | 43 | 1,027 | 205 |

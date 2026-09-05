@@ -81,7 +81,11 @@ const bossIds = new Set(readTsv('boss_ai.tsv').map((b) => b.id))
 /** モンスターの日本語名。スポーンエッグのアイテム名から引く（lib/monster-names.mjs の直しを当てる） */
 function monsterName(id) {
   const raw = lang[`item.dqmvi.${id}_spawn_egg`]
-  if (!raw) return fixMonsterName(id, id)
+  if (!raw) {
+    // スポーンエッグの名前が無い個体は monster_stats.tsv の displayName（gen-monster-pages.mjs と同じ）
+    const dn = statById.get(id)?.displayName ?? ''
+    return fixMonsterName(id, /[^\x00-\x7f]/.test(dn) ? dn.trim() : id)
+  }
   return fixMonsterName(id, raw.replace(/^DQM\s+/, '').replace(/\s*の?スポーンエッグ$/, '').trim())
 }
 
