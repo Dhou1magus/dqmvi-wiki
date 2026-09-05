@@ -34,6 +34,14 @@ SSS がいちばん高く、SS・S・A・B・C・D・E の順に下がります�
 | [勇者](/jobs/yuusha) | S | B | S | S | A | D |
 | [忍者](/jobs/ninja) | B | C | S | C | E | D |
 | [はぐれメタル](/jobs/haguremetal) | E | S | D | SS | S | S |
+| [鬼神闘士](/jobs/berserker) |||||||
+| [秘境ハンター](/jobs/travelscholar) |||||||
+| [吟遊詩人](/jobs/ginyuusizin) |||||||
+| [モンスターロード](/jobs/monstercommander) |||||||
+| [ゴーストマスター](/jobs/necromancer) |||||||
+| [ソウルマスター](/jobs/mimic) |||||||
+| [魔導銃士](/jobs/machinehunter) |||||||
+| [戦輪士](/jobs/battleringmaster) |||||||
 
 ## 武器の適性
 
