@@ -1,12 +1,12 @@
 ---
 title: 貴重なレシピ(魔法)
-description: DQMVIの「貴重なレシピ(魔法)」を落とすモンスター4体の一覧。いちばん弱いのはマージマタンゴ（超レア・EXP590）。
+description: DQMVIの「貴重なレシピ(魔法)」を落とすモンスター5体の一覧。いちばん弱いのはマージマタンゴ（超レア・EXP590）。
 pageClass: wide-page sortable-list
 ---
 
 # 貴重なレシピ(魔法)
 
-素材。**4体**のモンスターが落とします。
+素材。**5体**のモンスターが落とします。
 
 ::: tip ねらい目
 **マージマタンゴ**（超レアドロップ・EXP590）。
@@ -20,6 +20,7 @@ pageClass: wide-page sortable-list
 | [マージマタンゴ](/monsters/magematango) | 超レア | 7 | [自然](/species/sizen) | 1,785 | 590 | 魔法の森・おばけキノコの森 |
 | [マグマロン](/monsters/magumaron) | 超レア | 7 | [自然](/species/sizen) | 1,770 | 592 | ふつうの土地 |
 | [スターキメラ](/monsters/starkimera) | 超レア | 7 | [自然](/species/sizen) | 1,770 | 628 | 魔法の森・キメラの断崖 |
+| [まおうのたまご](/monsters/maounotamago) | 超レア | 7 | [スライム](/species/slime) | 2,601 | 791 | ふつうの土地 |
 | [デーモンソード](/monsters/demonsodo) | 超レア | 7 | [ゾンビ](/species/zombie) | 2,222 | 867 | 果ての世界 |
 
 見出しを押すと並べ替えできます。

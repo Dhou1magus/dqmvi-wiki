@@ -1,12 +1,12 @@
 ---
 title: うるわしキノコ
-description: DQMVIの「うるわしキノコ」を落とすモンスター18体の一覧。いちばん弱いのはあやしいかげ（通常・EXP44）。
+description: DQMVIの「うるわしキノコ」を落とすモンスター19体の一覧。いちばん弱いのはあやしいかげ（通常・EXP44）。
 pageClass: wide-page sortable-list
 ---
 
 # うるわしキノコ
 
-素材。**18体**のモンスターが落とします。
+素材。**19体**のモンスターが落とします。
 
 ::: tip ねらい目
 **あやしいかげ**（通常ドロップ・EXP44）。
@@ -18,6 +18,7 @@ pageClass: wide-page sortable-list
 | モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
 | [あやしいかげ](/monsters/ayasiikage) | 通常 | 2 | [物質](/species/bussitu) | 42 | 44 | ふつうの土地 |
+| [ウィッチレディ](/monsters/whicchiredi) | 通常 | 2 | [悪魔](/species/akuma) | 50 | 47 | ふつうの土地 |
 | [もりもりベス](/monsters/beshemothslime) | 通常 | 3 | [スライム](/species/slime) | 78 | 86 | ふつうの土地 |
 | [マタンゴ](/monsters/matango) | 通常 | 3 | [自然](/species/sizen) | 90 | 91 | おばけキノコの森・ネザー |
 | [ソイソルジャー](/monsters/soisoruja) | 通常 | 3 | [自然](/species/sizen) | 88 | 92 | ふつうの土地 |

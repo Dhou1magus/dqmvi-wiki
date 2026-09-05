@@ -1,5 +1,5 @@
 {
- "jar": "DQMVI-0.25.84.jar",
+ "jar": "DQMVI-0.28.16.jar",
  "monsters": {
   "sura": {
    "rank": 1,
@@ -308,7 +308,7 @@
    "magic": [
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -399,7 +399,7 @@
    "magic": [
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -761,7 +761,7 @@
    "magic": [
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -1318,7 +1318,7 @@
    "magic": [
     {
      "name": "マヌーサ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -1590,7 +1590,7 @@
     },
     {
      "name": "マヌーサ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -1767,7 +1767,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -2537,6 +2537,230 @@
    ],
    "places": []
   },
+  "hane_suraimu": {
+   "rank": 1,
+   "species": "スライム",
+   "dayTime": "昼のみ",
+   "weakness": "爆",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_suraimuzeri",
+     "item": "スライムゼリー",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_hananomitu",
+     "item": "花のみつ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_suraimuosyarebana",
+     "item": "スライムおしゃれ花",
+     "oneIn": 100
+    }
+   ],
+   "magic": [
+    {
+     "name": "バギ",
+     "kind": "攻撃呪文(風)"
+    }
+   ],
+   "places": []
+  },
+  "slimetree": {
+   "rank": 1,
+   "species": "スライム",
+   "dayTime": "昼のみ",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_usinofun",
+     "item": "うしのふん",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_midorinokoke",
+     "item": "みどりコケ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_gamanoabura",
+     "item": "ガマのあぶら",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_slimetree_ob",
+     "item": "スライムツリーのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_slimetree_f",
+     "item": "スライムツリーのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ライデイン",
+     "kind": "攻撃呪文(雷)"
+    },
+    {
+     "name": "バギ",
+     "kind": "攻撃呪文(風)"
+    }
+   ],
+   "places": []
+  },
+  "magmaslime": {
+   "rank": 1,
+   "species": "スライム",
+   "dayTime": "昼夜",
+   "weakness": "氷",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_akaisango",
+     "item": "赤いサンゴ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_kazekirinohane",
+     "item": "風切りの羽根",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_gamanoabura",
+     "item": "ガマのあぶら",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_magmaslime_ob",
+     "item": "マグマスライムのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_magmaslime_f",
+     "item": "マグマスライムのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "メラミ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "ギラ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "メラ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "ベギラマ",
+     "kind": "攻撃呪文(炎)"
+    }
+   ],
+   "places": []
+  },
+  "slimetar": {
+   "rank": 1,
+   "species": "スライム",
+   "dayTime": "昼夜",
+   "weakness": "氷",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_midorinokoke",
+     "item": "みどりコケ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_hananomitu",
+     "item": "花のみつ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_rengokunohane",
+     "item": "れんごくの羽根",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_slimetar_ob",
+     "item": "スライムタールのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_slimetar_f",
+     "item": "スライムタールのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [],
+   "places": []
+  },
+  "maru": {
+   "rank": 1,
+   "species": "物質",
+   "dayTime": "昼のみ",
+   "weakness": "強",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_suraimuzeri",
+     "item": "スライムゼリー",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_dokuganokona",
+     "item": "どくがの粉",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_gamanoabura",
+     "item": "ガマのあぶら",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_maru_ob",
+     "item": "マルのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_maru_f",
+     "item": "マルのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [],
+   "places": []
+  },
   "maaburun": {
    "rank": 1,
    "species": "魔獣",
@@ -2612,7 +2836,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -2650,7 +2874,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -2688,7 +2912,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -3139,7 +3363,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -3274,7 +3498,7 @@
    "magic": [
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -3596,7 +3820,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -3686,7 +3910,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -3874,7 +4098,7 @@
    "magic": [
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -4012,7 +4236,7 @@
    "magic": [
     {
      "name": "マヌーサ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -4108,7 +4332,7 @@
    "magic": [
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -4156,7 +4380,7 @@
    "magic": [
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -4390,7 +4614,7 @@
     },
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -5251,7 +5475,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -5359,7 +5583,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -5877,11 +6101,11 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "バギマ",
@@ -5961,6 +6185,238 @@
      "tier": "フィギュア",
      "key": "legacy_block_onigirislime_f",
      "item": "おにぎりスライムのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [],
+   "places": []
+  },
+  "suraimu_feari": {
+   "rank": 2,
+   "species": "スライム",
+   "dayTime": "昼のみ",
+   "weakness": "強",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_gamanoabura",
+     "item": "ガマのあぶら",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_akaisango",
+     "item": "赤いサンゴ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_suraimuosyarebana",
+     "item": "スライムおしゃれ花",
+     "oneIn": 100
+    }
+   ],
+   "magic": [
+    {
+     "name": "バギマ",
+     "kind": "攻撃呪文(風)"
+    },
+    {
+     "name": "ホイミ",
+     "kind": "回復呪文"
+    }
+   ],
+   "places": []
+  },
+  "burgerslime": {
+   "rank": 2,
+   "species": "スライム",
+   "dayTime": "昼夜",
+   "weakness": "風",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_tyounohane",
+     "item": "ちょうの羽",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_akaisango",
+     "item": "赤いサンゴ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_suraimuosyarebana",
+     "item": "スライムおしゃれ花",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_burgerslime_ob",
+     "item": "バーガースライムのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_burgerslime_f",
+     "item": "バーガースライムのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "メラ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "メラミ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "ボミエ",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "ベホマ",
+     "kind": "回復呪文"
+    }
+   ],
+   "places": []
+  },
+  "platypunk_shippodan": {
+   "rank": 2,
+   "species": "魔獣",
+   "dayTime": "昼のみ",
+   "weakness": "爆",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_dokudokuhedoro",
+     "item": "どくどくヘドロ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_akaisango",
+     "item": "赤いサンゴ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_kyodaihigetokage",
+     "item": "巨大ヒゲトカゲ",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_platypunk_shippodan_ob",
+     "item": "legacy_block_platypunk_shippodan_ob",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_platypunk_shippodan_f",
+     "item": "legacy_block_platypunk_shippodan_f",
+     "oneIn": 50
+    }
+   ],
+   "magic": [],
+   "places": []
+  },
+  "whicchiredi": {
+   "rank": 2,
+   "species": "悪魔",
+   "dayTime": "昼夜",
+   "weakness": "氷",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_uruwasikinoko",
+     "item": "うるわしキノコ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_bekkou",
+     "item": "べっこう",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_puratina2",
+     "item": "プラチナ合金",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_whicchiredi_ob",
+     "item": "ウィッチレディのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_whicchiredi_f",
+     "item": "ウィッチレディのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "バギマ",
+     "kind": "攻撃呪文(風)"
+    },
+    {
+     "name": "マホトーン",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "ヘナトス",
+     "kind": "弱体呪文"
+    }
+   ],
+   "places": []
+  },
+  "big_scorpion": {
+   "rank": 2,
+   "species": "自然",
+   "dayTime": "昼夜",
+   "weakness": "氷",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_gamanoabura",
+     "item": "ガマのあぶら",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_rengokunohane",
+     "item": "れんごくの羽根",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_kyodaihigetokage",
+     "item": "巨大ヒゲトカゲ",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_big_scorpion_ob",
+     "item": "おおさそりのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_big_scorpion_f",
+     "item": "おおさそりのフィギュア",
      "oneIn": 50
     }
    ],
@@ -6072,7 +6528,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -6160,7 +6616,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -6204,7 +6660,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -7259,7 +7715,7 @@
    "magic": [
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -7305,7 +7761,7 @@
    "magic": [
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -7353,7 +7809,7 @@
    "magic": [
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -7445,7 +7901,7 @@
    "magic": [
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -8133,7 +8589,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -8224,7 +8680,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -8319,7 +8775,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -8373,7 +8829,7 @@
     },
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -8679,7 +9135,7 @@
     },
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -9100,7 +9556,7 @@
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -9412,7 +9868,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -9557,7 +10013,7 @@
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -10135,11 +10591,11 @@
     },
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ホイミ",
@@ -10435,6 +10891,404 @@
     "ミミックの宝物窟"
    ]
   },
+  "kyouslime": {
+   "rank": 3,
+   "species": "スライム",
+   "dayTime": "夜のみ",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_metaru",
+     "item": "ヘビーメタル",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_bekkou",
+     "item": "べっこう",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_puratina",
+     "item": "プラチナ",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_kyouslime_ob",
+     "item": "凶スライムのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_kyouslime_f",
+     "item": "凶スライムのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "メラミ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "ベギラマ",
+     "kind": "攻撃呪文(炎)"
+    }
+   ],
+   "places": []
+  },
+  "kyouslimebes": {
+   "rank": 3,
+   "species": "スライム",
+   "dayTime": "夜のみ",
+   "weakness": "風",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_ikazutinotama",
+     "item": "いかずちの玉",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_kagaminoisi",
+     "item": "かがみの石",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_doragonnonamida",
+     "item": "ドラゴンのなみだ",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_kyouslimebes_ob",
+     "item": "凶スライムベスのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_kyouslimebes_f",
+     "item": "凶スライムベスのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "メラミ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "イオラ",
+     "kind": "攻撃呪文(爆発)"
+    }
+   ],
+   "places": []
+  },
+  "metalheavy": {
+   "rank": 3,
+   "species": "物質",
+   "dayTime": "昼夜",
+   "weakness": "氷",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_rengokunohane",
+     "item": "れんごくの羽根",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_hyoutyounohane",
+     "item": "氷鳥のはね",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_ikazutinotama",
+     "item": "いかずちの玉",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_metalheavy_ob",
+     "item": "こうてつまじんのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_metalheavy_f",
+     "item": "こうてつまじんのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ギラ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "スカラ",
+     "kind": "補助呪文"
+    }
+   ],
+   "places": []
+  },
+  "slimejoker": {
+   "rank": 3,
+   "species": "スライム",
+   "dayTime": "夜のみ",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_yogoretahoutai",
+     "item": "よごれた包帯",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_akaisango",
+     "item": "赤いサンゴ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_tokinosuisyou",
+     "item": "時の水晶",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_slimejoker_ob",
+     "item": "スライムジョーカーのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_slimejoker_f",
+     "item": "スライムジョーカーのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ラリホー",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "ボミエ",
+     "kind": "弱体呪文"
+    }
+   ],
+   "places": []
+  },
+  "desuseiresu": {
+   "rank": 3,
+   "species": "悪魔",
+   "dayTime": "昼夜",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_ayakasisou",
+     "item": "あやかし草",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_bekkou",
+     "item": "べっこう",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_haganenoturugi",
+     "item": "鋼の剣",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_desuseiresu_ob",
+     "item": "デスセイレスのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_desuseiresu_f",
+     "item": "デスセイレスのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ベギラマ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "メダパニ",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "バイシオン",
+     "kind": "補助呪文"
+    }
+   ],
+   "places": []
+  },
+  "iron_scorpion": {
+   "rank": 3,
+   "species": "自然",
+   "dayTime": "昼夜",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_hyoutyounohane",
+     "item": "氷鳥のはね",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_kagaminoisi",
+     "item": "かがみの石",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_metaru",
+     "item": "ヘビーメタル",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_iron_scorpion_ob",
+     "item": "てつのさそりのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_iron_scorpion_f",
+     "item": "てつのさそりのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [],
+   "places": []
+  },
+  "platypunk_duckbill": {
+   "rank": 3,
+   "species": "魔獣",
+   "dayTime": "昼のみ",
+   "weakness": "爆",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_rengokunohane",
+     "item": "れんごくの羽根",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_maryokunotuti",
+     "item": "まりょくの土",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_kagaminoisi",
+     "item": "かがみの石",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_platypunk_duckbill_ob",
+     "item": "しっぽ団のダックスビルのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_platypunk_duckbill_f",
+     "item": "しっぽ団のダックスビルのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [],
+   "places": []
+  },
+  "torappubokkusu": {
+   "rank": 3,
+   "species": "物質",
+   "dayTime": "昼夜",
+   "weakness": "風",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_risaikurusuton",
+     "item": "リサイクルストーン",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_maryokunotuti",
+     "item": "まりょくの土",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_puratina2",
+     "item": "プラチナ合金",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_torappubokkusu_ob",
+     "item": "トラップボックスのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_torappubokkusu_f",
+     "item": "トラップボックスのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ヒャダルコ",
+     "kind": "攻撃呪文(氷)"
+    },
+    {
+     "name": "ラリホー",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "メダパニ",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "マホトラ",
+     "kind": "補助呪文"
+    },
+    {
+     "name": "ベギラマ",
+     "kind": "攻撃呪文(炎)"
+    }
+   ],
+   "places": []
+  },
   "kirapike": {
    "rank": 3,
    "species": "魔獣",
@@ -10464,7 +11318,7 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -10501,7 +11355,7 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": []
@@ -10543,7 +11397,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -10583,7 +11437,7 @@
    "magic": [
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -10670,7 +11524,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -10731,6 +11585,60 @@
     {
      "name": "イオナズン",
      "kind": "攻撃呪文(爆発)"
+    }
+   ],
+   "places": []
+  },
+  "kyoumetalslime": {
+   "rank": 3,
+   "species": "メタル",
+   "dayTime": "夜のみ",
+   "weakness": "無敵",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_juryokunomoto",
+     "item": "呪力のモト",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_doragonnonamida",
+     "item": "ドラゴンのなみだ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_haganenoturugi",
+     "item": "鋼の剣",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_kyoumetalslime_ob",
+     "item": "凶メタルスライムのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_kyoumetalslime_f",
+     "item": "凶メタルスライムのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "メラミ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "メラ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "メラゾーマ",
+     "kind": "攻撃呪文(炎)"
     }
    ],
    "places": []
@@ -10909,7 +11817,7 @@
    "magic": [
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -10959,7 +11867,7 @@
     },
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -11092,7 +12000,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -11140,7 +12048,7 @@
    "magic": [
     {
      "name": "マヌーサ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -11273,7 +12181,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -11321,7 +12229,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -11422,7 +12330,7 @@
    "magic": [
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -11468,7 +12376,7 @@
    "magic": [
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -11559,7 +12467,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -12018,7 +12926,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -12254,7 +13162,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -12354,7 +13262,7 @@
     },
     {
      "name": "マヌーサ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -12445,7 +13353,7 @@
     },
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -12495,7 +13403,7 @@
     },
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -12680,7 +13588,7 @@
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -12778,7 +13686,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -12869,7 +13777,7 @@
    "magic": [
     {
      "name": "マホトーン",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -12923,11 +13831,11 @@
     },
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "マヌーサ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイミ",
@@ -12985,7 +13893,7 @@
     },
     {
      "name": "マヌーサ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイミ",
@@ -13130,11 +14038,11 @@
     },
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -13965,7 +14873,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -14073,7 +14981,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -14510,11 +15418,11 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "バギマ",
@@ -14530,37 +15438,37 @@
   "akatsuki_shogun": {
    "rank": 4,
    "species": "ドラゴン",
-   "dayTime": "夜のみ",
+   "dayTime": "昼夜",
    "weakness": "爆",
-   "rare": false,
+   "rare": true,
    "drops": [
     {
      "tier": "通常ドロップ",
-     "key": "legacy_item_majuunotuno",
-     "item": "まじゅうの角",
-     "oneIn": 3
+     "key": "legacy_item_meitouzantetumaru",
+     "item": "名刀 斬鉄丸",
+     "oneIn": 5
     },
     {
      "tier": "レアドロップ",
-     "key": "legacy_item_ryuunonamida",
-     "item": "竜のなみだ",
-     "oneIn": 15
+     "key": "legacy_block_akatsuki_shogun_ob",
+     "item": "アカツキショウグンのオブジェ",
+     "oneIn": 10
     },
     {
      "tier": "超レアドロップ",
-     "key": "legacy_item_juryokunomoto",
-     "item": "呪力のモト",
-     "oneIn": 100
+     "key": "legacy_block_akatsuki_shogun_f",
+     "item": "アカツキショウグンのフィギュア",
+     "oneIn": 10
     }
    ],
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ベホマラー",
@@ -14839,6 +15747,300 @@
    ],
    "places": []
   },
+  "kingjoker": {
+   "rank": 4,
+   "species": "スライム",
+   "dayTime": "夜のみ",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_togetogenokiba",
+     "item": "トゲトゲの牙",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_koumorinohane",
+     "item": "こうもりの羽根",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_ikazutinotama",
+     "item": "いかずちの玉",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_kingjoker_ob",
+     "item": "キングジョーカーのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_kingjoker_f",
+     "item": "キングジョーカーのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ラリホー",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "ボミエ",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "マホカンタ",
+     "kind": "補助呪文"
+    }
+   ],
+   "places": []
+  },
+  "darkking": {
+   "rank": 4,
+   "species": "スライム",
+   "dayTime": "夜のみ",
+   "weakness": "爆",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_bakudanisi",
+     "item": "爆弾石",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_yorunotobari",
+     "item": "よるのとばり",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_ikazutinotama",
+     "item": "いかずちの玉",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_darkking_ob",
+     "item": "ダークキングのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_darkking_f",
+     "item": "ダークキングのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "マヌーサ",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "メダパニ",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "イオラ",
+     "kind": "攻撃呪文(爆発)"
+    },
+    {
+     "name": "イオナズン",
+     "kind": "攻撃呪文(爆発)"
+    }
+   ],
+   "places": []
+  },
+  "crystalslime": {
+   "rank": 4,
+   "species": "スライム",
+   "dayTime": "昼夜",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_suraimuzeri",
+     "item": "スライムゼリー",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_moon",
+     "item": "月のダイヤ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_ikazutinotama",
+     "item": "いかずちの玉",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_crystalslime_ob",
+     "item": "クリスタルスライムのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_crystalslime_f",
+     "item": "クリスタルスライムのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "イオ",
+     "kind": "攻撃呪文(爆発)"
+    }
+   ],
+   "places": []
+  },
+  "death_scorpion": {
+   "rank": 4,
+   "species": "自然",
+   "dayTime": "昼夜",
+   "weakness": "爆",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_juryokunomoto",
+     "item": "呪力のモト",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_ryuunonamida",
+     "item": "竜のなみだ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_tokuyakusou",
+     "item": "特やくそう",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_death_scorpion_ob",
+     "item": "しのさそりのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_death_scorpion_f",
+     "item": "しのさそりのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [],
+   "places": []
+  },
+  "tarking": {
+   "rank": 4,
+   "species": "スライム",
+   "dayTime": "昼夜",
+   "weakness": "氷",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_inotinoisi",
+     "item": "いのちの石",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_umanofun",
+     "item": "うまのふん",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_moon",
+     "item": "月のダイヤ",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_tarking_ob",
+     "item": "タールキングのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_tarking_f",
+     "item": "タールキングのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "メラゾーマ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "イオナズン",
+     "kind": "攻撃呪文(爆発)"
+    },
+    {
+     "name": "ボミエ",
+     "kind": "弱体呪文"
+    }
+   ],
+   "places": []
+  },
+  "wonderegg": {
+   "rank": 4,
+   "species": "スライム",
+   "dayTime": "昼夜",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_meijikimeranohane",
+     "item": "メイジキメラのはね",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_ryuunonamida",
+     "item": "竜のなみだ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_nijiirononunokire",
+     "item": "にじいろの布きれ",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_wonderegg_ob",
+     "item": "ワンダーエッグのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_wonderegg_f",
+     "item": "ワンダーエッグのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [],
+   "places": []
+  },
   "moonkimera": {
    "rank": 4,
    "species": "自然",
@@ -14947,11 +16149,11 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -15043,7 +16245,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -15085,7 +16287,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -15333,7 +16535,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ホイミ",
@@ -15953,7 +17155,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -16001,7 +17203,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -16261,7 +17463,7 @@
    "magic": [
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -16941,7 +18143,7 @@
     },
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -17180,7 +18382,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -17238,7 +18440,7 @@
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイミ",
@@ -17298,7 +18500,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -17497,7 +18699,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -17754,7 +18956,7 @@
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -17953,7 +19155,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -18198,7 +19400,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -18462,7 +19664,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ギガデイン",
@@ -18702,17 +19904,232 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "マホトーン",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
+   "places": []
+  },
+  "hollyking": {
+   "rank": 5,
+   "species": "スライム",
+   "dayTime": "昼のみ",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_haganenoobane",
+     "item": "はがねの尾羽",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_taiyounoisi",
+     "item": "たいようの石",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_kenjanoseisui",
+     "item": "賢者の聖水",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_hollyking_ob",
+     "item": "ホーリーキングのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_hollyking_f",
+     "item": "ホーリーキングのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ベギラマ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "ベホマラー",
+     "kind": "回復呪文"
+    },
+    {
+     "name": "ライデイン",
+     "kind": "攻撃呪文(雷)"
+    },
+    {
+     "name": "イオナズン",
+     "kind": "攻撃呪文(爆発)"
+    },
+    {
+     "name": "ラリホー",
+     "kind": "弱体呪文"
+    }
+   ],
+   "places": []
+  },
+  "slaughtomaton": {
+   "rank": 5,
+   "species": "物質",
+   "dayTime": "夜のみ",
+   "weakness": "氷",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_rubinogenseki",
+     "item": "ルビー",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_inotinoisi",
+     "item": "いのちの石",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_seisui",
+     "item": "せいすい",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_slaughtomaton_ob",
+     "item": "デスマシーンのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_slaughtomaton_f",
+     "item": "デスマシーンのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ベギラマ",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "スカラ",
+     "kind": "補助呪文"
+    }
+   ],
+   "places": []
+  },
+  "hubukinomajyo": {
+   "rank": 5,
+   "species": "悪魔",
+   "dayTime": "昼夜",
+   "weakness": "風",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_saezurinomitu",
+     "item": "さえずりのみつ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_taiyounoisi",
+     "item": "たいようの石",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_ayasiikobin",
+     "item": "あやしい小ビン",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_hubukinomajyo_ob",
+     "item": "吹雪の魔女のオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_hubukinomajyo_f",
+     "item": "吹雪の魔女のフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "マヒャド",
+     "kind": "攻撃呪文(氷)"
+    },
+    {
+     "name": "マホトーン",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "ヘナトス",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "バイキルト",
+     "kind": "補助呪文"
+    },
+    {
+     "name": "ベホマラー",
+     "kind": "回復呪文"
+    }
+   ],
+   "places": []
+  },
+  "wave_scorpion": {
+   "rank": 5,
+   "species": "自然",
+   "dayTime": "昼夜",
+   "weakness": "氷",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_tetunokugi",
+     "item": "てつのクギ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_kyodaihigetokage",
+     "item": "巨大ヒゲトカゲ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_taiyounoisi",
+     "item": "たいようの石",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_wave_scorpion_ob",
+     "item": "なみさそりのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_wave_scorpion_f",
+     "item": "なみさそりのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [],
    "places": []
   },
   "mashougumo": {
@@ -18748,7 +20165,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -18785,7 +20202,7 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -18895,7 +20312,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -19157,7 +20574,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -19207,7 +20624,7 @@
     },
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -19296,7 +20713,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -19903,7 +21320,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -19953,7 +21370,7 @@
    "magic": [
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -20001,7 +21418,7 @@
    "magic": [
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -20098,7 +21515,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -20282,7 +21699,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -20750,7 +22167,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -20804,7 +22221,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマ",
@@ -20949,7 +22366,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -21003,7 +22420,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -21438,11 +22855,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -21601,11 +23018,11 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -21659,11 +23076,11 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -21801,7 +23218,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -21876,7 +23293,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -22011,11 +23428,11 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ピオラ",
@@ -22053,7 +23470,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "マホカンタ",
@@ -22095,11 +23512,11 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "マジックバリア",
@@ -22239,7 +23656,7 @@
     },
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "リベホイミ",
@@ -22247,7 +23664,115 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
+    }
+   ],
+   "places": []
+  },
+  "kingumimikku": {
+   "rank": 6,
+   "species": "悪魔",
+   "dayTime": "昼夜",
+   "weakness": "爆",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_block_dqm_genkotu_block",
+     "item": "げんこつダケ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_tokinosuisyou",
+     "item": "時の水晶",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_budouekisu",
+     "item": "武闘エキス",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_kingumimikku_ob",
+     "item": "キングミミックのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_kingumimikku_f",
+     "item": "キングミミックのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ラリホー",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "メダパニ",
+     "kind": "弱体呪文"
+    },
+    {
+     "name": "マホトラ",
+     "kind": "補助呪文"
+    },
+    {
+     "name": "ベホマラー",
+     "kind": "回復呪文"
+    },
+    {
+     "name": "メラガイアー",
+     "kind": "攻撃呪文(炎)"
+    }
+   ],
+   "places": []
+  },
+  "nizigoron": {
+   "rank": 6,
+   "species": "スライム",
+   "dayTime": "昼夜",
+   "weakness": "炎",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_budouekisu",
+     "item": "武闘エキス",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_uraminohouju",
+     "item": "うらみのほうじゅ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_oninokanabou",
+     "item": "おにのかなぼう",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_nizigoron_ob",
+     "item": "ニジゴロンのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_nizigoron_f",
+     "item": "ニジゴロンのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ライデイン",
+     "kind": "攻撃呪文(雷)"
     }
    ],
    "places": []
@@ -22314,7 +23839,7 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ベホイム",
@@ -22352,11 +23877,11 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -22472,7 +23997,7 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ベホイム",
@@ -22601,13 +24126,13 @@
     {
      "tier": "オブジェ",
      "key": "legacy_block_buturi25",
-     "item": "キラーマシーン(物理系オブジェ)",
+     "item": "キラーマシン(物理系オブジェ)",
      "oneIn": 50
     },
     {
      "tier": "フィギュア",
      "key": "legacy_block_buturi25_f",
-     "item": "キラーマシーン(物理系フィギュア)",
+     "item": "キラーマシン(物理系フィギュア)",
      "oneIn": 50
     }
    ],
@@ -22657,7 +24182,7 @@
    "magic": [
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -22802,7 +24327,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -23087,7 +24612,7 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": [
@@ -23532,7 +25057,7 @@
    "magic": [
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -23580,7 +25105,7 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ホイミ",
@@ -23850,11 +25375,11 @@
    "magic": [
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -24038,7 +25563,7 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ベホイミ",
@@ -24299,7 +25824,7 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ベホイミ",
@@ -24405,7 +25930,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマ",
@@ -24465,7 +25990,7 @@
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマラー",
@@ -24521,7 +26046,7 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": []
@@ -24575,11 +26100,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -24633,7 +26158,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマラー",
@@ -24691,7 +26216,7 @@
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -24741,7 +26266,7 @@
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -24925,7 +26450,7 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     }
    ],
    "places": []
@@ -24959,11 +26484,11 @@
    "magic": [
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -25014,6 +26539,152 @@
    ],
    "places": []
   },
+  "ersatzestark": {
+   "rank": 7,
+   "species": "物質",
+   "dayTime": "夜のみ",
+   "weakness": "強",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_budouekisu",
+     "item": "武闘エキス",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_taiyounoisi",
+     "item": "たいようの石",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_bougu",
+     "item": "貴重なレシピ(防具)",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_ersatzestark_ob",
+     "item": "エビルエスタークのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_ersatzestark_f",
+     "item": "エビルエスタークのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "イオナズン",
+     "kind": "攻撃呪文(爆発)"
+    },
+    {
+     "name": "ヒャダルコ",
+     "kind": "攻撃呪文(氷)"
+    },
+    {
+     "name": "ライデイン",
+     "kind": "攻撃呪文(雷)"
+    }
+   ],
+   "places": []
+  },
+  "maounotamago": {
+   "rank": 7,
+   "species": "スライム",
+   "dayTime": "夜のみ",
+   "weakness": "強",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_tetunokugi",
+     "item": "てつのクギ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_misriru",
+     "item": "ミスリル",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_mahou",
+     "item": "貴重なレシピ(魔法)",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_maounotamago_ob",
+     "item": "まおうのたまごのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_maounotamago_f",
+     "item": "まおうのたまごのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "イオ",
+     "kind": "攻撃呪文(爆発)"
+    }
+   ],
+   "places": []
+  },
+  "emperan": {
+   "rank": 7,
+   "species": "スライム",
+   "dayTime": "昼のみ",
+   "weakness": "強",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_metaru",
+     "item": "ヘビーメタル",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_hikarinoisi",
+     "item": "光の石",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_doragonsureiya",
+     "item": "ドラゴンスレイヤー",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_emperan_ob",
+     "item": "エンペランのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_emperan_f",
+     "item": "エンペランのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ギラ",
+     "kind": "攻撃呪文(炎)"
+    }
+   ],
+   "places": []
+  },
   "myusyado": {
    "rank": 7,
    "species": "魔獣",
@@ -25055,7 +26726,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": [
@@ -25100,7 +26771,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -25180,7 +26851,7 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ベホイム",
@@ -25220,7 +26891,7 @@
    "magic": [
     {
      "name": "マホトラ",
-     "kind": "攻撃呪文(闇)"
+     "kind": "補助呪文"
     },
     {
      "name": "ドルマドン",
@@ -25229,6 +26900,184 @@
     {
      "name": "ライデイン",
      "kind": "攻撃呪文(雷)"
+    }
+   ],
+   "places": []
+  },
+  "metal_seraphim": {
+   "rank": 7,
+   "species": "メタル",
+   "dayTime": "昼のみ",
+   "weakness": "無敵",
+   "rare": true,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_metaloubu",
+     "item": "メタルオーブ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_nijiirononunokire",
+     "item": "にじいろの布きれ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_tenkuu",
+     "item": "貴重なレシピ(天空)",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_metal_seraphim_ob",
+     "item": "メタルセラフィムのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_metal_seraphim_f",
+     "item": "メタルセラフィムのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "リベホイミ",
+     "kind": "回復呪文"
+    },
+    {
+     "name": "ベホイム",
+     "kind": "回復呪文"
+    },
+    {
+     "name": "ギガデイン",
+     "kind": "攻撃呪文(雷)"
+    },
+    {
+     "name": "イオグランデ",
+     "kind": "攻撃呪文(爆発)"
+    },
+    {
+     "name": "ピオラ",
+     "kind": "補助呪文"
+    }
+   ],
+   "places": []
+  },
+  "metal_goddess": {
+   "rank": 7,
+   "species": "メタル",
+   "dayTime": "昼のみ",
+   "weakness": "無敵",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_metaloubu",
+     "item": "メタルオーブ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_nijiirononunokire",
+     "item": "にじいろの布きれ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_ken_tanken",
+     "item": "貴重なレシピ(剣、短剣)",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_metal_goddess_ob",
+     "item": "メタルゴッデスのオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_metal_goddess_f",
+     "item": "メタルゴッデスのフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "リベホイム",
+     "kind": "回復呪文"
+    },
+    {
+     "name": "ベホマズン",
+     "kind": "回復呪文"
+    },
+    {
+     "name": "ビッグバン",
+     "kind": "攻撃呪文(爆発)"
+    },
+    {
+     "name": "ミナデイン",
+     "kind": "攻撃呪文(雷)"
+    },
+    {
+     "name": "マホカンタ",
+     "kind": "補助呪文"
+    }
+   ],
+   "places": []
+  },
+  "metalgoddes2": {
+   "rank": 7,
+   "species": "メタル",
+   "dayTime": "昼夜",
+   "weakness": "無敵",
+   "rare": false,
+   "drops": [
+    {
+     "tier": "通常ドロップ",
+     "key": "legacy_item_metaloubu",
+     "item": "メタルオーブ",
+     "oneIn": 3
+    },
+    {
+     "tier": "レアドロップ",
+     "key": "legacy_item_nijiirononunokire",
+     "item": "にじいろの布きれ",
+     "oneIn": 15
+    },
+    {
+     "tier": "超レアドロップ",
+     "key": "legacy_item_ken_tanken",
+     "item": "貴重なレシピ(剣、短剣)",
+     "oneIn": 100
+    },
+    {
+     "tier": "オブジェ",
+     "key": "legacy_block_metalgoddes2_ob",
+     "item": "メタルゴッデス2のオブジェ",
+     "oneIn": 50
+    },
+    {
+     "tier": "フィギュア",
+     "key": "legacy_block_metalgoddes2_f",
+     "item": "メタルゴッデス2のフィギュア",
+     "oneIn": 50
+    }
+   ],
+   "magic": [
+    {
+     "name": "ビッグバン",
+     "kind": "攻撃呪文(爆発)"
+    },
+    {
+     "name": "メラガイアー",
+     "kind": "攻撃呪文(炎)"
+    },
+    {
+     "name": "メラゾーマ",
+     "kind": "攻撃呪文(炎)"
     }
    ],
    "places": []
@@ -25369,7 +27218,7 @@
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマ",
@@ -25415,7 +27264,7 @@
     },
     {
      "name": "マヌーサ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -25457,7 +27306,7 @@
     },
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -25507,7 +27356,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマ",
@@ -25557,7 +27406,7 @@
     },
     {
      "name": "マホトーン",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -25599,11 +27448,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -25635,11 +27484,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -25675,11 +27524,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -25725,11 +27574,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマ",
@@ -25779,7 +27628,7 @@
     },
     {
      "name": "メダパニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -25829,7 +27678,7 @@
     },
     {
      "name": "ヘナトス",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマ",
@@ -25871,11 +27720,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -25917,11 +27766,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ボミエ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     }
    ],
    "places": []
@@ -25953,11 +27802,11 @@
     },
     {
      "name": "スカラ",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ラリホー",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホイム",
@@ -26003,11 +27852,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマ",
@@ -26053,11 +27902,11 @@
     },
     {
      "name": "バイキルト",
-     "kind": "攻撃呪文(無属性)"
+     "kind": "補助呪文"
     },
     {
      "name": "ルカニ",
-     "kind": "攻撃呪文(弱体)"
+     "kind": "弱体呪文"
     },
     {
      "name": "ベホマズン",

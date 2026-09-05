@@ -1,12 +1,12 @@
 ---
 title: ちょうの羽
-description: DQMVIの「ちょうの羽」を落とすモンスター8体の一覧。いちばん弱いのはじんめんちょう（通常・EXP9）。
+description: DQMVIの「ちょうの羽」を落とすモンスター9体の一覧。いちばん弱いのはじんめんちょう（通常・EXP9）。
 pageClass: wide-page sortable-list
 ---
 
 # ちょうの羽
 
-素材。**8体**のモンスターが落とします。
+素材。**9体**のモンスターが落とします。
 
 ::: tip ねらい目
 **じんめんちょう**（通常ドロップ・EXP9）。
@@ -24,6 +24,7 @@ pageClass: wide-page sortable-list
 | [ジャングラー](/monsters/feralslime) | 通常 | 1 | [スライム](/species/slime) | 23 | 14 | ふつうの土地 |
 | [ドラゴンキッズ](/monsters/doragonkizzu) | 通常 | 1 | [ドラゴン](/species/dragon) | 24 | 16 | ふつうの土地 |
 | [ドラキー](/monsters/doraki) | 通常 | 2 | [悪魔](/species/akuma) | 38 | 35 | キメラの断崖 |
+| [バーガースライム](/monsters/burgerslime) | 通常 | 2 | [スライム](/species/slime) | 58 | 52 | ふつうの土地 |
 | [カバシラー](/monsters/swarmtroop) | レア | 1 | [自然](/species/sizen) | 12 | 6 | ふつうの土地 |
 
 見出しを押すと並べ替えできます。

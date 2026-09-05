@@ -1,12 +1,12 @@
 ---
 title: まりょくの土
-description: DQMVIの「まりょくの土」を落とすモンスター34体の一覧。いちばん弱いのはホイミスライム（通常・EXP30）。
+description: DQMVIの「まりょくの土」を落とすモンスター36体の一覧。いちばん弱いのはホイミスライム（通常・EXP30）。
 pageClass: wide-page sortable-list
 ---
 
 # まりょくの土
 
-素材。**34体**のモンスターが落とします。
+素材。**36体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ホイミスライム**（通常ドロップ・EXP30）。
@@ -38,9 +38,11 @@ pageClass: wide-page sortable-list
 | [デザートデーモン](/monsters/dezatodemon) | レア | 2 | [悪魔](/species/akuma) | 80 | 70 | ふつうの土地 |
 | [あくまの書](/monsters/akumanosyo) | レア | 3 | [悪魔](/species/akuma) | 65 | 74 | 魔法の森・ネザー |
 | [グリゴンダンス](/monsters/gurigondansu) | レア | 3 | [悪魔](/species/akuma) | 87 | 79 | ふつうの土地 |
+| [トラップボックス](/monsters/torappubokkusu) | レア | 3 | [物質](/species/bussitu) | 87 | 82 | ふつうの土地 |
 | [ナイトウォーカー](/monsters/nightwalker) | レア | 3 | [悪魔](/species/akuma) | 83 | 84 | ゴースト霧森・ネザー |
 | [マペットマン](/monsters/mapetman) | レア | 3 | [特殊](/species/tokusyu) | 97 | 86 | ミミックの宝物窟・ネザー |
 | [プチアーノン](/monsters/putianon) | レア | 3 | [自然](/species/sizen) | 85 | 86 | ふつうの土地 |
+| [しっぽ団のダックスビル](/monsters/platypunk_duckbill) | レア | 3 | [魔獣](/species/majyu) | 76 | 89 | ふつうの土地 |
 | [トマトマーレ](/monsters/tomatomare) | レア | 3 | [スライム](/species/slime) | 80 | 92 | ふつうの土地 |
 | [ブラウニー](/monsters/burauni) | レア | 3 | [魔獣](/species/majyu) | 75 | 93 | ふつうの土地 |
 | [まどうし](/monsters/madoushi) | レア | 3 | [悪魔](/species/akuma) | 78 | 102 | ネザー |

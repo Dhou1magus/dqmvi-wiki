@@ -19,8 +19,8 @@ pageClass: wide-page
 | 27 | [エビルアップル](/monsters/ebiruapple) | 1 | 自然 | 氷 | 夜 | 22 | 9 | 2 | 12 | 2 |
 | 33 | [タマゴロン](/monsters/tamagoron) | 1 | 自然 | 炎 | 昼 | 12 | 4 | 1 | 6 | 2 |
 | 54 | [スライムB](/monsters/slime_b) | 1 | スライム | 爆 | 昼 | 5 | 1 | 1 | 2 | 1 |
-| 69 | [きりかぶおばけ](/monsters/kirikabuobake) | 2 | 自然 | 炎 | 昼 | 40 | 23 | 18 | 41 | 8 |
-| 75 | [リリパット](/monsters/riripat) | 2 | 悪魔 | 氷 | 夜 | 39 | 21 | 12 | 33 | 7 |
+| 74 | [きりかぶおばけ](/monsters/kirikabuobake) | 2 | 自然 | 炎 | 昼 | 40 | 23 | 18 | 41 | 8 |
+| 80 | [リリパット](/monsters/riripat) | 2 | 悪魔 | 氷 | 夜 | 39 | 21 | 12 | 33 | 7 |
 
 ## 関連ページ
 

@@ -1,12 +1,12 @@
 ---
 title: よるのとばり
-description: DQMVIの「よるのとばり」を落とすモンスター25体の一覧。いちばん弱いのはシャドー（通常・EXP43）。
+description: DQMVIの「よるのとばり」を落とすモンスター26体の一覧。いちばん弱いのはシャドー（通常・EXP43）。
 pageClass: wide-page sortable-list
 ---
 
 # よるのとばり
 
-素材。**25体**のモンスターが落とします。
+素材。**26体**のモンスターが落とします。
 
 ::: tip ねらい目
 **シャドー**（通常ドロップ・EXP43）。
@@ -33,6 +33,7 @@ pageClass: wide-page sortable-list
 | [アルミラージ](/monsters/arumiraji) | レア | 2 | [魔獣](/species/majyu) | 59 | 47 | 黄金の砂漠 |
 | [ホロゴースト](/monsters/horoghost) | レア | 4 | [物質](/species/bussitu) | 182 | 141 | ゴースト霧森 |
 | [オカルトビスク](/monsters/okarutobisuku) | レア | 4 | [物質](/species/bussitu) | 173 | 143 | ふつうの土地 |
+| [ダークキング](/monsters/darkking) | レア | 4 | [スライム](/species/slime) | 186 | 155 | ふつうの土地 |
 | [メーダクイン](/monsters/medakuin) | レア | 4 | [悪魔](/species/akuma) | 165 | 166 | ふつうの土地 |
 | [アサシンブラッド](/monsters/assassinblood) | レア | 4 | [物質](/species/bussitu) | 186 | 167 | ふつうの土地 |
 | [ボーンプリズナー](/monsters/bonpurizuna) | レア | 4 | [ゾンビ](/species/zombie) | 232 | 172 | ふつうの土地 |

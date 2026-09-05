@@ -1,12 +1,12 @@
 ---
 title: 花のみつ
-description: DQMVIの「花のみつ」を落とすモンスター11体の一覧。いちばん弱いのはぶちスライム（通常・EXP4）。
+description: DQMVIの「花のみつ」を落とすモンスター13体の一覧。いちばん弱いのはぶちスライム（通常・EXP4）。
 pageClass: wide-page sortable-list
 ---
 
 # 花のみつ
 
-素材。**11体**のモンスターが落とします。
+素材。**13体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ぶちスライム**（通常ドロップ・EXP4）。
@@ -24,6 +24,8 @@ pageClass: wide-page sortable-list
 | [ナイトウイプス](/monsters/naitouipusu) | レア | 1 | [ゾンビ](/species/zombie) | 20 | 9 | ふつうの土地 |
 | [ビーンファイター](/monsters/binfaita) | レア | 1 | [自然](/species/sizen) | 15 | 9 | ふつうの土地 |
 | [レモンスライム](/monsters/remonsuraimu) | レア | 1 | [スライム](/species/slime) | 20 | 11 | スライム湿原・黄金の砂漠 |
+| [はねスライム](/monsters/hane_suraimu) | レア | 1 | [スライム](/species/slime) | 23 | 14 | ふつうの土地 |
+| [スライムタール](/monsters/slimetar) | レア | 1 | [スライム](/species/slime) | 27 | 14 | ふつうの土地 |
 | [キャタピラー](/monsters/caterpillar) | レア | 1 | [自然](/species/sizen) | 24 | 15 | ふつうの土地 |
 | [おおめだま](/monsters/oomedama) | レア | 2 | [悪魔](/species/akuma) | 45 | 39 | ふつうの土地 |
 | [おおきづち](/monsters/ookiduti) | レア | 2 | [魔獣](/species/majyu) | 42 | 40 | ふつうの土地 |

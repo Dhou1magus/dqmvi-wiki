@@ -1,12 +1,12 @@
 ---
 title: 竜のなみだ
-description: DQMVIの「竜のなみだ」を落とすモンスター27体の一覧。いちばん弱いのはドラゴンゾンビ（通常・EXP171）。
+description: DQMVIの「竜のなみだ」を落とすモンスター28体の一覧。いちばん弱いのはドラゴンゾンビ（通常・EXP171）。
 pageClass: wide-page sortable-list
 ---
 
 # 竜のなみだ
 
-素材。**27体**のモンスターが落とします。
+素材。**28体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ドラゴンゾンビ**（通常ドロップ・EXP171）。
@@ -34,8 +34,9 @@ pageClass: wide-page sortable-list
 | [モビルレフト](/monsters/mobirurefuto) | レア | 4 | [物質](/species/bussitu) | 168 | 155 | ふつうの土地 |
 | [モビルライト](/monsters/mobiruraito) | レア | 4 | [物質](/species/bussitu) | 168 | 155 | ふつうの土地 |
 | [キングマーマン](/monsters/kingmerman) | レア | 4 | [自然](/species/sizen) | 180 | 159 | ふつうの土地 |
-| [アカツキショウグン](/monsters/akatsuki_shogun) | レア | 4 | [ドラゴン](/species/dragon) | 212 | 184 | ふつうの土地 |
+| [しのさそり](/monsters/death_scorpion) | レア | 4 | [自然](/species/sizen) | 203 | 174 | ふつうの土地 |
 | [ミミック木箱](/monsters/mimikkukibako) | レア | 4 | [特殊](/species/tokusyu) | 198 | 189 | ミミックの宝物窟 |
+| [ワンダーエッグ](/monsters/wonderegg) | レア | 4 | [スライム](/species/slime) | 217 | 195 | ふつうの土地 |
 | [メタルドラゴン](/monsters/metarudoragon) | レア | 4 | [物質](/species/bussitu) | 255 | 212 | ふつうの土地 |
 | [ホタテワラビー](/monsters/hotatewarabi) | レア | 6 | [魔獣](/species/majyu) | 880 | 314 | ふつうの土地 |
 | [スライムマデュラ](/monsters/suraimumadyura) | レア | 7 | [スライム](/species/slime) | 1,695 | 700 | ふつうの土地 |

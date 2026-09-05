@@ -1,12 +1,12 @@
 ---
 title: いかずちの玉
-description: DQMVIの「いかずちの玉」を落とすモンスター50体の一覧。いちばん弱いのはじめじめバブル（通常・EXP77）。
+description: DQMVIの「いかずちの玉」を落とすモンスター55体の一覧。いちばん弱いのはじめじめバブル（通常・EXP77）。
 pageClass: wide-page sortable-list
 ---
 
 # いかずちの玉
 
-素材。**50体**のモンスターが落とします。
+素材。**55体**のモンスターが落とします。
 
 ::: tip ねらい目
 **じめじめバブル**（通常ドロップ・EXP77）。
@@ -22,6 +22,7 @@ pageClass: wide-page sortable-list
 | [スライムナイト](/monsters/suraimunaito) | 通常 | 3 | [スライム](/species/slime) | 98 | 99 | ふつうの土地 |
 | [てっこうまじん](/monsters/tekkoumajin) | 通常 | 3 | [物質](/species/bussitu) | 165 | 108 | ふつうの土地 |
 | [ガニラス](/monsters/ganiras2) | 通常 | 3 | [自然](/species/sizen) | 135 | 115 | ふつうの土地 |
+| [凶スライムベス](/monsters/kyouslimebes) | 通常 | 3 | [スライム](/species/slime) | 138 | 124 | ふつうの土地 |
 | [スライムダーク](/monsters/slime_dark) | 通常 | 3 | [スライム](/species/slime) | 162 | 129 | ふつうの土地 |
 | [黒怨王](/monsters/kokuenou) | 通常 | 5 | [ゾンビ](/species/zombie) | 495 | 244 | ふつうの土地 |
 | [カンダタこぶん](/monsters/kandatakobun) | 通常 | 5 | [ゾンビ](/species/zombie) | 511 | 280 | ふつうの土地 |
@@ -50,12 +51,15 @@ pageClass: wide-page sortable-list
 | [マペットマン](/monsters/mapetman) | 超レア | 3 | [特殊](/species/tokusyu) | 97 | 86 | ミミックの宝物窟・ネザー |
 | [うずしおキング](/monsters/uzusioking) | 超レア | 3 | [自然](/species/sizen) | 99 | 94 | ふつうの土地 |
 | [かえんムカデ](/monsters/flame_centipede) | 超レア | 3 | [自然](/species/sizen) | 110 | 95 | ふつうの土地 |
+| [こうてつまじん](/monsters/metalheavy) | 超レア | 3 | [物質](/species/bussitu) | 104 | 96 | ふつうの土地 |
 | [まどうし](/monsters/madoushi) | 超レア | 3 | [悪魔](/species/akuma) | 78 | 102 | ネザー |
 | [しにがみ](/monsters/meanspirit) | 超レア | 3 | [ゾンビ](/species/zombie) | 145 | 105 | ふつうの土地 |
 | [エビルスピリッツ](/monsters/evilspirits) | 超レア | 3 | [ゾンビ](/species/zombie) | 95 | 110 | ネザー |
 | [リビングデッド](/monsters/ribingudeddo) | 超レア | 3 | [ゾンビ](/species/zombie) | 155 | 110 | ふつうの土地 |
 | [こんぺいとう](/monsters/sugarstar_slime) | 超レア | 3 | [スライム](/species/slime) | 166 | 114 | ふつうの土地 |
 | [がいこつけんし](/monsters/gaikotsukenshi2) | 超レア | 3 | [ゾンビ](/species/zombie) | 155 | 123 | ネザー |
+| [キングジョーカー](/monsters/kingjoker) | 超レア | 4 | [スライム](/species/slime) | 175 | 142 | ふつうの土地 |
+| [ダークキング](/monsters/darkking) | 超レア | 4 | [スライム](/species/slime) | 186 | 155 | ふつうの土地 |
 | [ベホイムスライム](/monsters/behoimusuraimu) | 超レア | 4 | [スライム](/species/slime) | 168 | 156 | 海 |
 | [ボックススライムオレンジ](/monsters/boxsuraimu) | 超レア | 4 | [スライム](/species/slime) | 183 | 160 | スライム湿原 |
 | [アイアンクック](/monsters/aiankukku) | 超レア | 4 | [物質](/species/bussitu) | 188 | 166 | ふつうの土地 |
@@ -64,6 +68,7 @@ pageClass: wide-page sortable-list
 | [ダーティードール](/monsters/da_thi_do_ru) | 超レア | 4 | [物質](/species/bussitu) | 209 | 185 | ふつうの土地 |
 | [まおうのつかい](/monsters/maounotsukai) | 超レア | 4 | [ゾンビ](/species/zombie) | 184 | 191 | ふつうの土地 |
 | [デビルアンカー](/monsters/devil_anchor) | 超レア | 4 | [物質](/species/bussitu) | 205 | 194 | ふつうの土地 |
+| [クリスタルスライム](/monsters/crystalslime) | 超レア | 4 | [スライム](/species/slime) | 198 | 199 | ふつうの土地 |
 | [プロトキラー](/monsters/protokira) | 超レア | 4 | [物質](/species/bussitu) | 222 | 200 | ふつうの土地 |
 | [マポレーナ](/monsters/maporena) | 超レア | 5 | [悪魔](/species/akuma) | 343 | 212 | 妖精の花畑 |
 | [しりょう](/monsters/siryou) | 超レア | 5 | [ゾンビ](/species/zombie) | 378 | 246 | 魔物の骨荒野 |

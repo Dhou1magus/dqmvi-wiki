@@ -1,12 +1,12 @@
 ---
 title: 建物一覧
-description: DQMVIの建物66種の一覧。ポートに入れるとペットが建ててくれる施設。
+description: DQMVIの建物71種の一覧。ポートに入れるとペットが建ててくれる施設。
 pageClass: wide-page sortable-list
 ---
 
 # 建物一覧
 
-ポートに入れるとペットが建ててくれる施設。全部で **66種** です。品名を押すとそのアイテムのページが開きます。
+ポートに入れるとペットが建ててくれる施設。全部で **71種** です。品名を押すとそのアイテムのページが開きます。
 
 | 建物 | 入手方法 |
 | --- | --- |
@@ -40,6 +40,11 @@ pageClass: wide-page sortable-list
 | [エルヘブン](/items/toukou26) | — |
 | [グランバニア城](/items/toukou25) | — |
 | [サラボナの町](/items/toukou27) | — |
+| [すごろく場(ランク1)](/items/ssugoroku1) | — |
+| [すごろく場(ランク2)](/items/ssugoroku2) | — |
+| [すごろく場(ランク3)](/items/ssugoroku3) | — |
+| [すごろく場(ランク4)](/items/ssugoroku4) | — |
+| [すごろく場(ランク5)](/items/ssugoroku5) | — |
 | [スライムハウス](/items/toukou04) | — |
 | [スライム船](/items/toukou17) | 宝箱 |
 | [ターニアの家](/items/toukou11) | 宝箱 |

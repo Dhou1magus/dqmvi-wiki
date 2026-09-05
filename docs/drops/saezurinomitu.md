@@ -1,12 +1,12 @@
 ---
 title: さえずりのみつ
-description: DQMVIの「さえずりのみつ」を落とすモンスター9体の一覧。いちばん弱いのはキングスライム（通常・EXP241）。
+description: DQMVIの「さえずりのみつ」を落とすモンスター10体の一覧。いちばん弱いのはキングスライム（通常・EXP241）。
 pageClass: wide-page sortable-list
 ---
 
 # さえずりのみつ
 
-素材。**9体**のモンスターが落とします。
+素材。**10体**のモンスターが落とします。
 
 ::: tip ねらい目
 **キングスライム**（通常ドロップ・EXP241）。
@@ -19,6 +19,7 @@ pageClass: wide-page sortable-list
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
 | [キングスライム](/monsters/kingsura) | 通常 | 5 | [スライム](/species/slime) | 385 | 241 | スライム湿原 |
 | [じごくのつかい](/monsters/jigokunotukai) | 通常 | 5 | [悪魔](/species/akuma) | 473 | 263 | 魔王の焦土 |
+| [吹雪の魔女](/monsters/hubukinomajyo) | 通常 | 5 | [悪魔](/species/akuma) | 465 | 273 | ふつうの土地 |
 | [だいおうキッズ](/monsters/daioukizzu) | 通常 | 5 | [自然](/species/sizen) | 622 | 277 | ふつうの土地 |
 | [デスクローゼット](/monsters/tansu_death) | 通常 | 5 | [物質](/species/bussitu) | 517 | 288 | ミミックの宝物窟 |
 | [メイジももんじゃ](/monsters/magemomonja) | 通常 | 6 | [魔獣](/species/majyu) | 984 | 324 | 妖精の花畑 |

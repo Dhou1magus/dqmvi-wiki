@@ -1,12 +1,12 @@
 ---
 title: かがみの石
-description: DQMVIの「かがみの石」を落とすモンスター35体の一覧。いちばん弱いのはさそりアーマー（通常・EXP44）。
+description: DQMVIの「かがみの石」を落とすモンスター38体の一覧。いちばん弱いのはさそりアーマー（通常・EXP44）。
 pageClass: wide-page sortable-list
 ---
 
 # かがみの石
 
-素材。**35体**のモンスターが落とします。
+素材。**38体**のモンスターが落とします。
 
 ::: tip ねらい目
 **さそりアーマー**（通常ドロップ・EXP44）。
@@ -32,6 +32,8 @@ pageClass: wide-page sortable-list
 | [てっこうまじん](/monsters/tekkoumajin) | レア | 3 | [物質](/species/bussitu) | 165 | 108 | ふつうの土地 |
 | [バベルボブル](/monsters/baberuboburu) | レア | 2 | [物質](/species/bussitu) | 122 | 112 | ふつうの土地 |
 | [プリンスライム](/monsters/puddingslime) | レア | 3 | [スライム](/species/slime) | 160 | 114 | ふつうの土地 |
+| [凶スライムベス](/monsters/kyouslimebes) | レア | 3 | [スライム](/species/slime) | 138 | 124 | ふつうの土地 |
+| [てつのさそり](/monsters/iron_scorpion) | レア | 3 | [自然](/species/sizen) | 154 | 124 | ふつうの土地 |
 | [ベリースライム](/monsters/berryslime) | レア | 3 | [スライム](/species/slime) | 148 | 126 | ふつうの土地 |
 | [ダークプラネット](/monsters/dakupuranetto) | レア | 3 | [物質](/species/bussitu) | 123 | 133 | ふつうの土地 |
 | [ローズバトラー](/monsters/rozubatora) | レア | 3 | [自然](/species/sizen) | 188 | 146 | ふつうの土地 |
@@ -45,6 +47,7 @@ pageClass: wide-page sortable-list
 | [レッドハンター](/monsters/redhanta) | 超レア | 2 | [物質](/species/bussitu) | 70 | 62 | ふつうの土地 |
 | [ジャガーメイジ](/monsters/zyagameizi) | 超レア | 2 | [魔獣](/species/majyu) | 66 | 62 | ふつうの土地 |
 | [ダックスビル](/monsters/ducksbill) | 超レア | 3 | [魔獣](/species/majyu) | 83 | 84 | ネザー |
+| [しっぽ団のダックスビル](/monsters/platypunk_duckbill) | 超レア | 3 | [魔獣](/species/majyu) | 76 | 89 | ふつうの土地 |
 | [スラッピー](/monsters/slabbit) | 超レア | 3 | [スライム](/species/slime) | 153 | 109 | ふつうの土地 |
 | [チェリースライム](/monsters/cherryslime) | 超レア | 3 | [スライム](/species/slime) | 158 | 110 | ふつうの土地 |
 | [かいぞくウーパー](/monsters/kaizokuupa) | 超レア | 4 | [自然](/species/sizen) | 170 | 145 | ふつうの土地 |

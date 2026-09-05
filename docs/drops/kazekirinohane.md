@@ -1,12 +1,12 @@
 ---
 title: 風切りの羽根
-description: DQMVIの「風切りの羽根」を落とすモンスター12体の一覧。いちばん弱いのはキメラ（通常・EXP48）。
+description: DQMVIの「風切りの羽根」を落とすモンスター13体の一覧。いちばん弱いのはキメラ（通常・EXP48）。
 pageClass: wide-page sortable-list
 ---
 
 # 風切りの羽根
 
-素材。**12体**のモンスターが落とします。
+素材。**13体**のモンスターが落とします。
 
 ::: tip ねらい目
 **キメラ**（通常ドロップ・EXP48）。
@@ -19,6 +19,7 @@ pageClass: wide-page sortable-list
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
 | [キメラ](/monsters/kimera) | 通常 | 2 | [自然](/species/sizen) | 46 | 48 | キメラの断崖 |
 | [おおがらす](/monsters/big_crow) | レア | 1 | [自然](/species/sizen) | 13 | 7 | キメラの断崖 |
+| [マグマスライム](/monsters/magmaslime) | レア | 1 | [スライム](/species/slime) | 20 | 9 | ふつうの土地 |
 | [はじけドーラ](/monsters/hajike_dora) | レア | 1 | [ドラゴン](/species/dragon) | 25 | 12 | ふつうの土地 |
 | [つかいま](/monsters/tukaima) | レア | 1 | [悪魔](/species/akuma) | 25 | 13 | ふつうの土地 |
 | [スカルサーペント](/monsters/skullserpent) | レア | 1 | [ゾンビ](/species/zombie) | 23 | 13 | ふつうの土地 |

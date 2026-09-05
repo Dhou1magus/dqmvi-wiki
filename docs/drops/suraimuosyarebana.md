@@ -1,12 +1,12 @@
 ---
 title: スライムおしゃれ花
-description: DQMVIの「スライムおしゃれ花」を落とすモンスター29体の一覧。いちばん弱いのはベホイミスライム（通常・EXP77）。
+description: DQMVIの「スライムおしゃれ花」を落とすモンスター32体の一覧。いちばん弱いのはベホイミスライム（通常・EXP77）。
 pageClass: wide-page sortable-list
 ---
 
 # スライムおしゃれ花
 
-素材。**29体**のモンスターが落とします。
+素材。**32体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ベホイミスライム**（通常ドロップ・EXP77）。
@@ -34,14 +34,17 @@ pageClass: wide-page sortable-list
 | [マッシュスライム](/monsters/slimeshroom) | 超レア | 1 | [スライム](/species/slime) | 22 | 12 | ふつうの土地 |
 | [ボックススライムブルー](/monsters/boxsuraimu_ao) | 超レア | 1 | [スライム](/species/slime) | 15 | 13 | スライム湿原 |
 | [かぼちゃの騎士](/monsters/kabochanokisi) | 超レア | 1 | [ゾンビ](/species/zombie) | 26 | 14 | ふつうの土地 |
+| [はねスライム](/monsters/hane_suraimu) | 超レア | 1 | [スライム](/species/slime) | 23 | 14 | ふつうの土地 |
 | [ウパソルジャー](/monsters/upasoruja) | 超レア | 1 | [自然](/species/sizen) | 22 | 15 | ふつうの土地 |
 | [ドラゴスライム](/monsters/dragosuraimu) | 超レア | 2 | [スライム](/species/slime) | 36 | 35 | ドラゴン火山帯 |
+| [スライムフェアリー](/monsters/suraimu_feari) | 超レア | 2 | [スライム](/species/slime) | 38 | 40 | ふつうの土地 |
 | [もりもりスライム](/monsters/behemothslime) | 超レア | 2 | [スライム](/species/slime) | 42 | 43 | ふつうの土地 |
 | [スライムつむり](/monsters/suraimutumuri) | 超レア | 2 | [スライム](/species/slime) | 41 | 44 | 沈没魔物海・海 |
 | [ボックススライムレッド](/monsters/boxsuraimu_aka) | 超レア | 2 | [スライム](/species/slime) | 48 | 50 | ふつうの土地 |
 | [つららスライム](/monsters/slimecicle) | 超レア | 2 | [スライム](/species/slime) | 58 | 50 | ふつうの土地 |
 | [たんすミミック](/monsters/tansu) | 超レア | 2 | [物質](/species/bussitu) | 57 | 51 | ミミックの宝物窟 |
 | [スピンスライム](/monsters/spinslime) | 超レア | 2 | [スライム](/species/slime) | 62 | 52 | ふつうの土地 |
+| [バーガースライム](/monsters/burgerslime) | 超レア | 2 | [スライム](/species/slime) | 58 | 52 | ふつうの土地 |
 | [パールスライム](/monsters/pearlgel) | 超レア | 2 | [スライム](/species/slime) | 66 | 54 | ふつうの土地 |
 | [りゅうき兵](/monsters/mandrake_mercenary) | 超レア | 2 | [ドラゴン](/species/dragon) | 64 | 54 | ふつうの土地 |
 | [アクアスライム](/monsters/aquaslime) | 超レア | 2 | [スライム](/species/slime) | 59 | 55 | 沈没魔物海・海 |

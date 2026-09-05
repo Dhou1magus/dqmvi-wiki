@@ -128,6 +128,16 @@ const dropSlug = (key) => key.replace(/^minecraft:/, 'mc_').replace(/[^A-Za-z0-9
  * （モンスターのドロップだけは monster-extras.json 由来の DROPPED で判定する）。
  * 出す順は SOURCE_ORDER のとおり。ここに無い種類（「系統のレアドロップ」など図鑑に出ないもの）は出さない。
  */
+/**
+ * 素材のランク（どのランクの土地から手に入り始めるか）と鉱石のランク・深さ。
+ * ゲーム内の Z メニュー「素材取得一覧表」「鉱石取得一覧表」と同じ内容。scripts/data/material-ranks.json（固定データ）
+ */
+const RANKS_PATH = join('scripts', 'data', 'material-ranks.json')
+const RANKS = existsSync(RANKS_PATH) ? JSON.parse(readFileSync(RANKS_PATH, 'utf8')) : { materials: [], ores: [] }
+// material-ranks.json のキーは legacy_item_〜 付き。このスクリプトのキー（legacy_tabs.tsv の2列目）は接頭辞なし
+const materialRank = new Map(RANKS.materials.map((m) => [m.key.replace(/^legacy_item_/, ''), m.ranks]))
+/** 「1〜」= ランク1の土地から。「3」= ランク3の土地だけ */
+const rankLabel = (ranks) => (!ranks?.length ? '—' : ranks.length === 1 ? String(ranks[0]) : `${ranks[0]}〜`)
 const SOURCES_PATH = join('scripts', 'data', 'item-sources.json')
 const SOURCES = existsSync(SOURCES_PATH) ? JSON.parse(readFileSync(SOURCES_PATH, 'utf8')).sources ?? {} : {}
 const SOURCE_ORDER = ['モンスター', 'モンスター（まれに）', '宝箱', '鍛冶', '武器屋', '防具屋', '道具屋', '魚交換所',
@@ -308,7 +318,16 @@ const SHAPE = {
   武器: {
     head: ['武器', 'こうげき', '攻撃倍率', '特殊効果'],
     align: ['---', '---:', '---:', '---'],
-    row: (i, d) => [itemLink(i), int(d.こうげき), mul(d.攻撃倍率), withSpeciesLink(d.特殊効果)],
+    // 一部の棍は呪文の威力にも倍率がかかる（ツールチップの「魔力倍率」）。列を増やさず特殊効果の欄に添える
+    row: (i, d) => [itemLink(i), int(d.こうげき), mul(d.攻撃倍率),
+                    [withSpeciesLink(d.特殊効果), d.魔力倍率 ? `魔力倍率 ${mul(d.魔力倍率)}` : ''].filter((t) => t && t !== '—').join('　/　') || '—'],
+    of: (key) => STATS.weapons[key] ?? {}
+  },
+  // 呪文を唱えるための杖。武器としての攻撃力は無く、呪文の威力にかかる倍率がある
+  杖: {
+    head: ['杖', '魔力倍率', '特殊効果'],
+    align: ['---', '---:', '---'],
+    row: (i, d) => [itemLink(i), mul(d.魔力倍率), withSpeciesLink(d.特殊効果)],
     of: (key) => STATS.weapons[key] ?? {}
   },
   防具: {
@@ -351,7 +370,8 @@ function table(shape, list) {
 }
 
 /** 手書きで足された行を拾うときの「生成側が知っている名前」。全アイテムと装備ページの種類名 */
-const KNOWN_NAMES = () => new Set([...items.map((i) => plainName(i.name)), ...PAGES.map((p) => p.group), ...OTHER_PAGES.map((p) => p.group)])
+const KNOWN_NAMES = () => new Set([...items.map((i) => plainName(i.name)), ...PAGES.map((p) => p.group), ...OTHER_PAGES.map((p) => p.group),
+                                   ...RANKS.ores.map((o) => plainName(o.name))])  // 素材ページの「鉱石」の表
 
 function equipPage(page) {
   const list = pick(page.group)
@@ -388,13 +408,13 @@ function equipPage(page) {
       if (!group?.length) continue
       lines.push(`## ${k}（${group.length}種）`)
       lines.push('')
-      lines.push(...table(SHAPE.武器, group))
+      lines.push(...table(k === '杖' ? SHAPE.杖 : SHAPE.武器, group))
       lines.push(...(extra.get(k)?.rows ?? []))
       emitted.add(k)
       lines.push('')
     }
     lines.push(...leftoverTables(extra, emitted))
-    lines.push('杖のうち呪文を唱えるためのものには、武器としての攻撃力がありません。')
+    lines.push('杖には武器としての攻撃力がなく、「魔力倍率」が呪文の威力にかかります。')
     lines.push('')
   } else if (page.group === '転生装備') {
     const byKind = new Map()
@@ -432,7 +452,12 @@ function equipPage(page) {
 
 // ── 装備以外の分類ごとのページ ─────────────────────────────
 const OTHER = OTHER_PAGES.map((p) => p.group)
-function otherTable(head, list) {
+function otherTable(head, list, withRank = false) {
+  if (withRank) {
+    const out = [`| ${head} | ランク | 入手方法 |`, '| --- | :--: | --- |']
+    for (const i of list) out.push(`| ${cell(itemLink(i))} | ${rankLabel(materialRank.get(i.key))} | ${cell(sourcesOf(i))} |`)
+    return out
+  }
   const out = [`| ${head} | 入手方法 |`, '| --- | --- |']
   for (const i of list) out.push(`| ${cell(itemLink(i))} | ${cell(sourcesOf(i))} |`)
   return out
@@ -472,6 +497,24 @@ function otherPage(page) {
       lines.push(...otherTable(k, group))
       lines.push(...(extra.get(k)?.rows ?? []))
       emitted.add(k)
+      lines.push('')
+    }
+  } else if (page.group === '素材' && materialRank.size) {
+    lines.push('「ランク」は、そのランクの土地に湧くモンスターや宝箱から手に入り始める目安です（「1〜」ならランク1から）。ゲーム内の「素材取得一覧表」と同じ数字で、ほかの入手経路もあります。')
+    lines.push('')
+    lines.push(...otherTable(page.group, list, true))
+    lines.push(...(extra.get('')?.rows ?? []))
+    lines.push('')
+    if (RANKS.ores?.length) {
+      lines.push('## 鉱石')
+      lines.push('')
+      lines.push('そのランクの土地で採れる鉱石と、生成される高さ（Y座標）です。ゲーム内の「鉱石取得一覧表」と同じ内容です。')
+      lines.push('')
+      lines.push('| 鉱石 | ランク | 深さ |')
+      lines.push('| --- | :--: | --- |')
+      for (const o of RANKS.ores) lines.push(`| ${cell(o.name)} | ${o.rank} | Y${o.minY} 〜 Y${o.maxY} |`)
+      lines.push(...(extra.get('鉱石')?.rows ?? []))
+      emitted.add('鉱石')
       lines.push('')
     }
   } else {

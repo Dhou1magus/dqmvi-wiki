@@ -1,12 +1,12 @@
 ---
 title: トゲトゲの牙
-description: DQMVIの「トゲトゲの牙」を落とすモンスター13体の一覧。いちばん弱いのはどくろあらい（通常・EXP39）。
+description: DQMVIの「トゲトゲの牙」を落とすモンスター14体の一覧。いちばん弱いのはどくろあらい（通常・EXP39）。
 pageClass: wide-page sortable-list
 ---
 
 # トゲトゲの牙
 
-素材。**13体**のモンスターが落とします。
+素材。**14体**のモンスターが落とします。
 
 ::: tip ねらい目
 **どくろあらい**（通常ドロップ・EXP39）。
@@ -22,6 +22,7 @@ pageClass: wide-page sortable-list
 | [ボル](/monsters/boru) | 通常 | 2 | [物質](/species/bussitu) | 45 | 42 | ふつうの土地 |
 | [ひとくいサーベル](/monsters/hitokuisaberu) | 通常 | 2 | [物質](/species/bussitu) | 52 | 47 | ふつうの土地 |
 | [アニマルゾンビ](/monsters/animaruzonbi) | 通常 | 3 | [ゾンビ](/species/zombie) | 86 | 92 | 毒の大湿地・ネザー |
+| [キングジョーカー](/monsters/kingjoker) | 通常 | 4 | [スライム](/species/slime) | 175 | 142 | ふつうの土地 |
 | [ベビーパンサー](/monsters/kirapan) | 通常 | 4 | [魔獣](/species/majyu) | 168 | 160 | ふつうの土地 |
 | [しびれだんびら](/monsters/sibiredanbira) | 通常 | 4 | [物質](/species/bussitu) | 180 | 169 | ネザー |
 | [ホーンビートル](/monsters/hornbeet) | 通常 | 4 | [自然](/species/sizen) | 215 | 180 | ふつうの土地 |

@@ -1,12 +1,12 @@
 ---
 title: 武器一覧
-description: DQMVIの武器221種のデータ。剣・槍・棍・爪・斧・弓など。
+description: DQMVIの武器275種のデータ。剣・槍・棍・爪・斧・弓など。
 pageClass: wide-page sortable-list
 ---
 
 # 武器一覧
 
-剣・槍・棍・爪・斧・弓など。全部で **221種** です。
+剣・槍・棍・爪・斧・弓など。全部で **275種** です。
 
 ::: tip 見かた
 倍率は、いまの能力に掛かる値です。見出しを押すとその項目で並べ替えできます。
@@ -31,7 +31,7 @@ pageClass: wide-page sortable-list
 | [隼の剣](/items/hayabusanoturugi) | 1 | ×1.1 | 2回攻撃 |
 | [みなごろしの剣](/items/minagorosinoken) | 17 | ×3.64 | 防御力が半分になる |
 | [炎の剣](/items/honoonoturugi) | 9 | ×2.67 | 炎属性攻撃 |
-| [奇跡の剣](/drops/kisekinoturugi) | 11 | ×2.91 | 1/5の確立で与えたダメージの1/10を回復する |
+| [奇跡の剣](/drops/kisekinoturugi) | 11 | ×2.91 | 1/5の確率で与えたダメージの1/10を回復する |
 | [インフェルノソード](/items/inferunosword) | 12 | ×3.03 | 炎属性攻撃 |
 | [もろはのつるぎ](/drops/morohanoturugi) | 20 | ×3.88 | 与えたダメージの1/10のダメージを受ける |
 | [光の剣](/items/hikarinoturugi) | 10 | ×2.79 | — |
@@ -42,7 +42,7 @@ pageClass: wide-page sortable-list
 | [真・銀河の剣](/items/ginganoturugi2) | 27 | ×4 | — |
 | [ドラゴンスレイヤー](/drops/doragonsureiya) | 13 | ×3.15 | [ドラゴン系](/species/dragon)に2倍のダメージ |
 | [はぐれメタルの剣](/drops/haguremetarunoturugi) | 15 | ×3.4 | [メタル系](/species/metal)に2倍のダメージ |
-| [奇跡の剣改](/items/kisekinoturugikai) | 13 | ×3.27 | 1/5の確立で与えたダメージの1/10を回復する |
+| [奇跡の剣改](/items/kisekinoturugikai) | 13 | ×3.27 | 1/5の確率で与えたダメージの1/10を回復する |
 | [隼の剣改](/drops/hayabusanoturugikai) | 5 | ×1.83 | 2回攻撃 |
 
 ## 勇者の剣（17種）
@@ -78,12 +78,12 @@ pageClass: wide-page sortable-list
 | [ホーリーランス](/items/horiransu) | 6 | ×1.91 | [ゾンビ系](/species/zombie)に2倍のダメージ |
 | [トライデント](/items/toraidento) | 7 | ×2.07 | — |
 | [グラコスのヤリ](/items/gurakosunoyari) | 8 | ×2.23 | — |
-| [砂塵の槍](/items/sajinnoyari) | 9 | ×2.39 | 1/10の確立でマヌーサ効果 |
+| [砂塵の槍](/items/sajinnoyari) | 9 | ×2.39 | 1/10の確率でマヌーサ効果 |
 | [パルチザン](/items/parutizan) | 10 | ×2.55 | — |
 | [ハルベルト](/items/haruberuto) | 11 | ×2.87 | — |
 | [稲妻の槍](/items/inazumanoyari) | 12 | ×3.03 | 右ｸﾘｯｸでライデイン(耐久3消費) |
-| [デーモンスピア](/items/demonsupia) | 13 | ×3.19 | 1/20の確立で即死ダメージ |
-| [英雄の槍](/items/eiyuunoyari) | 14 | ×3.36 | 1/5の確立で与えたダメージの1/10を回復する |
+| [デーモンスピア](/items/demonsupia) | 13 | ×3.19 | 1/20の確率で即死ダメージ |
+| [英雄の槍](/items/eiyuunoyari) | 14 | ×3.36 | 1/5の確率で与えたダメージの1/10を回復する |
 | [メタルキングの槍](/items/metarukingnoyari) | 15 | ×3.52 | [メタル系](/species/metal)に2のダメージ |
 | [羅刹魔槍](/items/rasetumasou) | 19 | ×3.68 | — |
 | [地獄の魔槍](/items/jigokumasou) | 21 | ×3.84 | — |
@@ -95,13 +95,13 @@ pageClass: wide-page sortable-list
 | --- | ---: | ---: | --- |
 | [くだものナイフ](/items/kudamononaifu) | 1 | ×1.1 | — |
 | [せいなるナイフ](/items/seinarunaifu) | 1 | ×1.51 | [ゾンビ系](/species/zombie)に2倍のダメージ |
-| [どくばり](/items/dokubari) | 0 | ×1 | 通常1ダメージ or 1/20の確立で即死ダメージ |
-| [どくがのナイフ](/items/dokuganonaifu) | 3 | ×1.72 | 1/10の確立で毒効果 |
+| [どくばり](/items/dokubari) | 0 | ×1 | 通常1ダメージ or 1/20の確率で即死ダメージ |
+| [どくがのナイフ](/items/dokuganonaifu) | 3 | ×1.72 | 1/10の確率で毒効果 |
 | [シーブスナイフ](/items/sibusunaifu) | 3 | ×1.93 | — |
-| [アサシンダガー](/items/asasindaga) | 4 | ×2.14 | 1/20の確立で即死ダメージ |
+| [アサシンダガー](/items/asasindaga) | 4 | ×2.14 | 1/20の確率で即死ダメージ |
 | [キラーピアス](/items/kirapiasu) | 5 | ×2.34 | 2回攻撃 |
 | [氷の刃](/items/koorinoyaiba) | 6 | ×2.55 | 氷属性攻撃,右ｸﾘｯｸでヒャダルコ(耐久3消費) |
-| [ソードブレイカー](/items/sodobureika) | 7 | ×2.76 | 1/10の確立でヘナトス効果 |
+| [ソードブレイカー](/items/sodobureika) | 7 | ×2.76 | 1/10の確率でヘナトス効果 |
 | [グラディウス](/items/guradiusu) | 8 | ×2.96 | [ゾンビ系](/species/zombie)に2倍のダメージ |
 | [サラマンダー](/items/saramanda) | 9 | ×3.17 | 炎属性攻撃 |
 | [木枯しのダガー](/items/kogarasinodaga) | 11 | ×3.38 | — |
@@ -113,26 +113,26 @@ pageClass: wide-page sortable-list
 
 ## 杖（18種）
 
-| 武器 | こうげき | 攻撃倍率 | 特殊効果 |
-| --- | ---: | ---: | --- |
-| [いかづちの杖](/items/mahoustaff01) | — | — | — |
-| [うみなりの杖](/items/mahoustaff02) | — | — | — |
-| [オーロラの杖](/items/mahoustaff03) | — | — | — |
-| [かしの杖](/items/mahoustaff04) | — | — | — |
-| [しゅくふくの杖](/items/mahoustaff05) | — | — | — |
-| [ストロスの杖](/items/mahoustaff15) | — | — | — |
-| [デビルワンド](/items/mahoustaff17) | — | — | — |
-| [てんばつの杖](/items/mahoustaff06) | — | — | — |
-| [ドラゴンの杖](/items/mahoustaff07) | — | — | — |
-| [マグマの杖](/items/mahoustaff08) | — | — | — |
-| [マジカルメイス](/items/mahoustaff13) | — | — | — |
-| [ようせいの杖](/items/mahoustaff09) | — | — | — |
-| [らいていの杖](/items/mahoustaff10) | — | — | — |
-| [ルーンスタッグ](/items/mahoustaff14) | — | — | — |
-| [賢者の杖](/items/mahoustaff12) | — | — | — |
-| [水晶の杖](/items/mahoustaff16) | — | — | — |
-| [魔導士の杖](/items/mahoustaff11) | — | — | — |
-| [龍王の杖](/items/mahoustaff18) | — | — | — |
+| 杖 | 魔力倍率 | 特殊効果 |
+| --- | ---: | --- |
+| [いかづちの杖](/items/mahoustaff01) | ×2.1 | — |
+| [うみなりの杖](/items/mahoustaff02) | ×1.5 | — |
+| [オーロラの杖](/items/mahoustaff03) | ×2.7 | — |
+| [かしの杖](/items/mahoustaff04) | ×1.1 | — |
+| [しゅくふくの杖](/items/mahoustaff05) | ×1.7 | — |
+| [ストロスの杖](/items/mahoustaff15) | ×1.9 | — |
+| [デビルワンド](/items/mahoustaff17) | ×2.4 | — |
+| [てんばつの杖](/items/mahoustaff06) | ×2 | — |
+| [ドラゴンの杖](/items/mahoustaff07) | ×2.5 | — |
+| [マグマの杖](/items/mahoustaff08) | ×2.3 | — |
+| [マジカルメイス](/items/mahoustaff13) | ×1.6 | — |
+| [ようせいの杖](/items/mahoustaff09) | ×1.3 | — |
+| [らいていの杖](/items/mahoustaff10) | ×2.6 | — |
+| [ルーンスタッグ](/items/mahoustaff14) | ×1.8 | — |
+| [賢者の杖](/items/mahoustaff12) | ×1.4 | — |
+| [水晶の杖](/items/mahoustaff16) | ×2.2 | — |
+| [魔導士の杖](/items/mahoustaff11) | ×1.2 | — |
+| [龍王の杖](/items/mahoustaff18) | ×2.8 | — |
 
 ## 棍（15種）
 
@@ -143,7 +143,7 @@ pageClass: wide-page sortable-list
 | [かしの棍](/items/suraimu) | 2 | ×1.46 | — |
 | [はがねのこん](/items/haganenokon) | 3 | ×1.64 | — |
 | [大黒柱](/items/daikokubasira) | 5 | ×2.01 | — |
-| [まどろみの棍](/items/madorominokon) | 6 | ×2.19 | 1/10の確立で眠り効果 |
+| [まどろみの棍](/items/madorominokon) | 6 | ×2.19 | 1/10の確率で眠り効果 |
 | [えんぶの棍](/items/enbunokon) | 7 | ×2.55 | — |
 | [武神の棍](/items/businnokon) | 8 | ×2.73 | — |
 | [レイニーロッド](/items/reiniroddo) | 9 | ×2.91 | 氷属性攻撃 |
@@ -198,7 +198,7 @@ pageClass: wide-page sortable-list
 | [巨大スパナ](/items/kyodaisupana) | 8 | ×2.37 | — |
 | [大地のかなづち](/items/daitinokanaduti) | 9 | ×2.55 | — |
 | [おにのかなぼう](/drops/oninokanabou) | 10 | ×2.73 | — |
-| [まじんのかなづち](/drops/majinnokanaduti) | 12 | ×3.09 | 4/5の確立でミスor1/5の確立で会心 |
+| [まじんのかなづち](/drops/majinnokanaduti) | 12 | ×3.09 | 4/5の確率でミスor1/5の確率で会心 |
 | [ギガクラッシャー](/drops/gigakurassya) | 13 | ×3.27 | — |
 | [大地砕き](/items/daitikudaki) | 15 | ×3.46 | — |
 | [星砕き](/items/hosikudaki) | 18 | ×3.64 | — |
@@ -238,7 +238,7 @@ pageClass: wide-page sortable-list
 | [ドラゴンテイル](/items/doragonteiru) | 6 | ×2.15 | [ドラゴン系](/species/dragon)に2倍のダメージ |
 | [悪魔のムチ](/items/akumanomuti) | 8 | ×2.42 | [悪魔系](/species/akuma)に2倍のダメージ |
 | [バスターウィップ](/items/basutawipu) | 9 | ×2.68 | — |
-| [女神のムチ](/items/megaminomuti) | 11 | ×2.95 | 1/5の確立で与えたダメージの1/10を回復する |
+| [女神のムチ](/items/megaminomuti) | 11 | ×2.95 | 1/5の確率で与えたダメージの1/10を回復する |
 | [カルベロビュート](/items/karubebuto) | 12 | ×3.21 | — |
 | [グリンガムの鞭](/items/guringamunomuti) | 14 | ×3.47 | — |
 | [超グリンガムの鞭](/items/tyouguringamunomuti) | 17 | ×3.74 | — |
@@ -261,8 +261,8 @@ pageClass: wide-page sortable-list
 | [ビッグボウガン](/items/bigbougan) | 15 | ×3.21 | — |
 | [無限の弓](/items/mugennoyumi) | 18 | ×3.47 | — |
 | [地獄の弓](/items/jigokunoyumi) | 20 | ×3.6 | — |
-| [オーディンボウ](/items/odinbou) | 11 | ×2.42 | 会心の一撃の確立が20％増加 |
-| [大天使の弓](/items/daitensinoyumi) | 13 | ×2.68 | 1/5の確立で与えたダメージの1/10を回復する |
+| [オーディンボウ](/items/odinbou) | 11 | ×2.42 | 会心の一撃の確率が20％増加 |
+| [大天使の弓](/items/daitensinoyumi) | 13 | ×2.68 | 1/5の確率で与えたダメージの1/10を回復する |
 | [セラフィムの弓](/items/sefiramunoyumi) | 21 | ×3.74 | — |
 | [真・セラフィムの弓](/items/sefiramunoyumi2) | 25 | ×4 | — |
 | [古木の弓](/items/kobokunoyumi) | 2 | ×1.19 | — |
@@ -297,13 +297,82 @@ pageClass: wide-page sortable-list
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
-| [木の剣[DQM用]](/items/bsword1) | — | — | — |
+| [木の剣[DQM用]](/items/bsword1) | 1 | ×1.1 | — |
 | [石の剣[DQM用]](/items/bsword2) | 1 | ×1.2 | — |
 | [鉄の剣[DQM用]](/items/bsword3) | 2 | ×1.3 | — |
 | [金の剣[DQM用]](/items/bsword4) | 2 | ×1.4 | — |
 | [ダイヤの剣[DQM用]](/items/bsword5) | 2 | ×1.5 | — |
 
-杖のうち呪文を唱えるためのものには、武器としての攻撃力がありません。
+## 銃（18種）
+
+| 武器 | こうげき | 攻撃倍率 | 特殊効果 |
+| --- | ---: | ---: | --- |
+| [旅人の銃](/items/tabibitonotanju) | 2 | ×1.1 | — |
+| [鉄環銃](/items/teturinriboruba) | 3 | ×1.28 | — |
+| [蒼鋼銃](/items/sanrenmadouju) | 4 | ×1.46 | — |
+| [爆裂銃](/items/bakuretusandanju) | 5 | ×1.64 | — |
+| [疾風銃](/items/shippukikanju) | 6 | ×1.82 | — |
+| [月影銃](/items/tukikagesogekiju) | 7 | ×2 | — |
+| [金剛銃](/items/kongoutetukouju) | 8 | ×2.18 | — |
+| [破城銃](/items/hajoutekidanju) | 9 | ×2.36 | — |
+| [紅蓮銃](/items/gurenhoushaju) | 10 | ×2.55 | — |
+| [氷晶銃](/items/hyousyoutouketuju) | 11 | ×2.73 | — |
+| [雷鳴銃](/items/raimeirensaju) | 13 | ×2.91 | — |
+| [蠱毒銃](/items/kodokusenshinju) | 15 | ×3.09 | — |
+| [白銀銃](/items/hakuginshuryouju) | 17 | ×3.27 | — |
+| [魔吸銃](/items/makyuuseireiju) | 19 | ×3.46 | — |
+| [癒光銃](/items/yukouengouju) | 20 | ×3.64 | — |
+| [魔獣銃](/items/majukeiyakuju) | 22 | ×3.82 | — |
+| [竜滅重砲](/items/ryuumetujuuhou) | 24 | ×3.91 | — |
+| [星穿神機砲](/items/seisenjinkihou) | 27 | ×4 | — |
+
+## 戦輪（18種）
+
+| 武器 | こうげき | 攻撃倍率 | 特殊効果 |
+| --- | ---: | ---: | --- |
+| [木の戦輪](/items/battle_ring_01_wood) | 2 | ×1.1 | — |
+| [青銅のチャクラム](/items/battle_ring_02_bronze) | 3 | ×1.28 | — |
+| [鉄の戦輪](/items/battle_ring_03_iron) | 4 | ×1.46 | — |
+| [はがねの戦輪](/items/battle_ring_04_steel) | 5 | ×1.64 | — |
+| [かぜきりの輪](/items/battle_ring_05_windcutter) | 6 | ×1.82 | — |
+| [どくがの戦輪](/items/battle_ring_06_poison_moth) | 7 | ×2 | — |
+| [ほのおのチャクラム](/items/battle_ring_07_flame) | 8 | ×2.18 | — |
+| [こおりの戦輪](/items/battle_ring_08_ice) | 9 | ×2.36 | — |
+| [いかずちの輪](/items/battle_ring_09_lightning) | 10 | ×2.55 | — |
+| [月影のチャクラム](/items/battle_ring_10_moonshadow) | 11 | ×2.73 | — |
+| [はやぶさの戦輪](/items/battle_ring_11_falcon) | 13 | ×2.91 | — |
+| [ドラゴンチャクラム](/items/battle_ring_12_dragon) | 15 | ×3.09 | — |
+| [まじんの戦輪](/items/battle_ring_13_demon) | 17 | ×3.27 | — |
+| [聖光のチャクラム](/items/battle_ring_14_holy_light) | 19 | ×3.46 | — |
+| [星巡りの輪](/items/battle_ring_15_star_orbit) | 20 | ×3.64 | — |
+| [天空の戦輪](/items/battle_ring_16_sky) | 22 | ×3.82 | — |
+| [神鳥のチャクラム](/items/battle_ring_17_divine_bird) | 24 | ×3.91 | — |
+| [神輪アルカナ](/items/battle_ring_18_arcana) | 27 | ×4 | — |
+
+## 竪琴（18種）
+
+| 武器 | こうげき | 攻撃倍率 | 特殊効果 |
+| --- | ---: | ---: | --- |
+| [旅人の竪琴](/items/harp_01_traveler) | 2 | ×1.1 | — |
+| [若木の竪琴](/items/harp_02_young_tree) | 3 | ×1.28 | — |
+| [青銅の竪琴](/items/harp_03_bronze) | 4 | ×1.46 | — |
+| [銀の竪琴](/items/harp_04_silver) | 5 | ×1.64 | — |
+| [そよ風の竪琴](/items/harp_05_breeze) | 6 | ×1.82 | — |
+| [まどろみの竪琴](/items/harp_06_slumber) | 7 | ×2 | — |
+| [いやしの竪琴](/items/harp_07_healing) | 8 | ×2.18 | — |
+| [人魚の竪琴](/items/harp_08_mermaid) | 9 | ×2.36 | — |
+| [精霊の竪琴](/items/harp_09_spirit) | 10 | ×2.55 | — |
+| [雷鳴の竪琴](/items/harp_10_thunder) | 11 | ×2.73 | — |
+| [月夜の竪琴](/items/harp_11_moonlit) | 13 | ×2.91 | — |
+| [竜歌の竪琴](/items/harp_12_dragon_song) | 15 | ×3.09 | — |
+| [天使の竪琴](/items/harp_13_angel) | 17 | ×3.27 | — |
+| [星詠みの竪琴](/items/harp_14_star_reader) | 19 | ×3.46 | — |
+| [英雄の竪琴](/items/harp_15_hero) | 20 | ×3.64 | — |
+| [天空の竪琴](/items/harp_16_sky) | 22 | ×3.82 | — |
+| [神託の竪琴](/items/harp_17_oracle) | 24 | ×3.91 | — |
+| [神奏琴オルフェリア](/items/harp_18_orphelia) | 27 | ×4 | — |
+
+杖には武器としての攻撃力がなく、「魔力倍率」が呪文の威力にかかります。
 
 ## 関連ページ
 

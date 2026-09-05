@@ -1,12 +1,12 @@
 ---
 title: うまのふん
-description: DQMVIの「うまのふん」を落とすモンスター10体の一覧。いちばん弱いのはおおなめくじ（通常・EXP6）。
+description: DQMVIの「うまのふん」を落とすモンスター11体の一覧。いちばん弱いのはおおなめくじ（通常・EXP6）。
 pageClass: wide-page sortable-list
 ---
 
 # うまのふん
 
-素材。**10体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **おおなめくじ**（通常ドロップ・EXP6）。
@@ -24,6 +24,7 @@ pageClass: wide-page sortable-list
 | [ドロヌーバ](/monsters/doronuba) | レア | 1 | [自然](/species/sizen) | 25 | 13 | 毒の大湿地 |
 | [マドハンド](/monsters/madohando) | レア | 3 | [物質](/species/bussitu) | 65 | 78 | ゴーレム岩石遺跡 |
 | [モコモコじゅう](/monsters/mokomokojuu) | レア | 4 | [魔獣](/species/majyu) | 148 | 140 | 氷結のトゲ平原 |
+| [タールキング](/monsters/tarking) | レア | 4 | [スライム](/species/slime) | 177 | 140 | ふつうの土地 |
 | [スモールグール](/monsters/sumoruguru) | レア | 4 | [ゾンビ](/species/zombie) | 165 | 143 | ふつうの土地 |
 | [フェイスボール](/monsters/faceball) | レア | 4 | [ゾンビ](/species/zombie) | 202 | 165 | ネザー |
 | [ヘルビートル](/monsters/fire_beatle) | レア | 4 | [自然](/species/sizen) | 195 | 197 | ふつうの土地 |

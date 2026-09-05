@@ -1,15 +1,15 @@
 ---
 title: 鋼の剣
-description: DQMVIの「鋼の剣」を落とすモンスター9体の一覧。いちばん弱いのはどれいへいし（超レア・EXP98）。
+description: DQMVIの「鋼の剣」を落とすモンスター11体の一覧。いちばん弱いのはデスセイレス（超レア・EXP97）。
 pageClass: wide-page sortable-list
 ---
 
 # 鋼の剣
 
-武器。**9体**のモンスターが落とします。
+武器。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
-**どれいへいし**（超レアドロップ・EXP98）。
+**デスセイレス**（超レアドロップ・EXP97）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -28,6 +28,7 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
+| [デスセイレス](/monsters/desuseiresu) | 超レア | 3 | [悪魔](/species/akuma) | 102 | 97 | ふつうの土地 |
 | [どれいへいし](/monsters/doreiheisi) | 超レア | 3 | [ゾンビ](/species/zombie) | 144 | 98 | ふつうの土地 |
 | [スライムナイト](/monsters/suraimunaito) | 超レア | 3 | [スライム](/species/slime) | 98 | 99 | ふつうの土地 |
 | [ボーンファイター](/monsters/bonfaita) | 超レア | 3 | [ゾンビ](/species/zombie) | 146 | 107 | ふつうの土地 |
@@ -37,6 +38,7 @@ pageClass: wide-page sortable-list
 | [りゅうせんし](/monsters/mandrake_marauder) | 超レア | 3 | [ドラゴン](/species/dragon) | 145 | 121 | ふつうの土地 |
 | [ベリースライム](/monsters/berryslime) | 超レア | 3 | [スライム](/species/slime) | 148 | 126 | ふつうの土地 |
 | [スライムダーク](/monsters/slime_dark) | 超レア | 3 | [スライム](/species/slime) | 162 | 129 | ふつうの土地 |
+| [凶メタルスライム](/monsters/kyoumetalslime) | 超レア | 3 | [メタル](/species/metal) | 12 | 8,800 | ふつうの土地 |
 
 見出しを押すと並べ替えできます。
 

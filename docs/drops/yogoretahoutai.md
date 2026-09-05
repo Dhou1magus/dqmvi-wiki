@@ -1,12 +1,12 @@
 ---
 title: よごれた包帯
-description: DQMVIの「よごれた包帯」を落とすモンスター26体の一覧。いちばん弱いのはリリパット（通常・EXP33）。
+description: DQMVIの「よごれた包帯」を落とすモンスター27体の一覧。いちばん弱いのはリリパット（通常・EXP33）。
 pageClass: wide-page sortable-list
 ---
 
 # よごれた包帯
 
-素材。**26体**のモンスターが落とします。
+素材。**27体**のモンスターが落とします。
 
 ::: tip ねらい目
 **リリパット**（通常ドロップ・EXP33）。
@@ -22,6 +22,7 @@ pageClass: wide-page sortable-list
 | [どくイモムシ](/monsters/poison_caterpillar) | 通常 | 2 | [自然](/species/sizen) | 52 | 52 | ふつうの土地 |
 | [ニードルマン](/monsters/ni_doruman) | 通常 | 2 | [物質](/species/bussitu) | 56 | 52 | ふつうの土地 |
 | [マペットマン](/monsters/mapetman) | 通常 | 3 | [特殊](/species/tokusyu) | 97 | 86 | ミミックの宝物窟・ネザー |
+| [スライムジョーカー](/monsters/slimejoker) | 通常 | 3 | [スライム](/species/slime) | 88 | 88 | ふつうの土地 |
 | [どれいへいし](/monsters/doreiheisi) | 通常 | 3 | [ゾンビ](/species/zombie) | 144 | 98 | ふつうの土地 |
 | [まどうし](/monsters/madoushi) | 通常 | 3 | [悪魔](/species/akuma) | 78 | 102 | ネザー |
 | [リビングデッド](/monsters/ribingudeddo) | 通常 | 3 | [ゾンビ](/species/zombie) | 155 | 110 | ふつうの土地 |

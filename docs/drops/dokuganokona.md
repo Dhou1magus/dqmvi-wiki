@@ -1,12 +1,12 @@
 ---
 title: どくがの粉
-description: DQMVIの「どくがの粉」を落とすモンスター10体の一覧。いちばん弱いのはバブルスライム（通常・EXP6）。
+description: DQMVIの「どくがの粉」を落とすモンスター11体の一覧。いちばん弱いのはバブルスライム（通常・EXP6）。
 pageClass: wide-page sortable-list
 ---
 
 # どくがの粉
 
-素材。**10体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **バブルスライム**（通常ドロップ・EXP6）。
@@ -20,6 +20,7 @@ pageClass: wide-page sortable-list
 | [バブルスライム](/monsters/bubsura) | 通常 | 1 | [スライム](/species/slime) | 12 | 6 | スライム湿原 |
 | [じんめんちょう](/monsters/zinmentyou) | レア | 1 | [自然](/species/sizen) | 15 | 9 | キメラの断崖 |
 | [はなまきドラゴ](/monsters/hanamakidrago) | レア | 1 | [ドラゴン](/species/dragon) | 32 | 11 | ふつうの土地 |
+| [マル](/monsters/maru) | レア | 1 | [物質](/species/bussitu) | 24 | 13 | ふつうの土地 |
 | [かぼちゃの騎士](/monsters/kabochanokisi) | レア | 1 | [ゾンビ](/species/zombie) | 26 | 14 | ふつうの土地 |
 | [ジャングラー](/monsters/feralslime) | レア | 1 | [スライム](/species/slime) | 23 | 14 | ふつうの土地 |
 | [どくやずきん](/monsters/dokuyazukin) | レア | 3 | [悪魔](/species/akuma) | 84 | 85 | 毒の大湿地・ネザー |

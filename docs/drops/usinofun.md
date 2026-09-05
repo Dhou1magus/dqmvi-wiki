@@ -1,12 +1,12 @@
 ---
 title: うしのふん
-description: DQMVIの「うしのふん」を落とすモンスター11体の一覧。いちばん弱いのはびっくりサタン（通常・EXP5）。
+description: DQMVIの「うしのふん」を落とすモンスター12体の一覧。いちばん弱いのはびっくりサタン（通常・EXP5）。
 pageClass: wide-page sortable-list
 ---
 
 # うしのふん
 
-素材。**11体**のモンスターが落とします。
+素材。**12体**のモンスターが落とします。
 
 ::: tip ねらい目
 **びっくりサタン**（通常ドロップ・EXP5）。
@@ -18,6 +18,7 @@ pageClass: wide-page sortable-list
 | モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
 | [びっくりサタン](/monsters/bikkurisatan) | 通常 | 1 | [悪魔](/species/akuma) | 12 | 5 | ふつうの土地 |
+| [スライムツリー](/monsters/slimetree) | 通常 | 1 | [スライム](/species/slime) | 10 | 6 | ふつうの土地 |
 | [おばけきのこ](/monsters/obakekinoko) | 通常 | 1 | [自然](/species/sizen) | 25 | 12 | おばけキノコの森 |
 | [ドロザラー](/monsters/dorozara) | レア | 1 | [物質](/species/bussitu) | 14 | 6 | ゴーレム岩石遺跡 |
 | [おにこぞう](/monsters/onikozou) | レア | 1 | [悪魔](/species/akuma) | 18 | 11 | ふつうの土地 |

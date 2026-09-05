@@ -1,12 +1,12 @@
 ---
 title: メイジキメラのはね
-description: DQMVIの「メイジキメラのはね」を落とすモンスター9体の一覧。いちばん弱いのはメイジドラキー（通常・EXP156）。
+description: DQMVIの「メイジキメラのはね」を落とすモンスター10体の一覧。いちばん弱いのはメイジドラキー（通常・EXP156）。
 pageClass: wide-page sortable-list
 ---
 
 # メイジキメラのはね
 
-素材。**9体**のモンスターが落とします。
+素材。**10体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メイジドラキー**（通常ドロップ・EXP156）。
@@ -20,6 +20,7 @@ pageClass: wide-page sortable-list
 | [メイジドラキー](/monsters/meijidoraki) | 通常 | 4 | [悪魔](/species/akuma) | 176 | 156 | ふつうの土地 |
 | [メイジキメラ](/monsters/meijikimera) | 通常 | 4 | [自然](/species/sizen) | 186 | 168 | キメラの断崖 |
 | [キースドラゴン](/monsters/keethdragon2) | 通常 | 4 | [ドラゴン](/species/dragon) | 205 | 178 | ふつうの土地 |
+| [ワンダーエッグ](/monsters/wonderegg) | 通常 | 4 | [スライム](/species/slime) | 217 | 195 | ふつうの土地 |
 | [デスニャーゴ](/monsters/desunyago) | 通常 | 6 | [魔獣](/species/majyu) | 896 | 344 | 黄金の砂漠・果ての世界 |
 | [ゴールデンドラゴン](/monsters/goldendragon) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,319 | 496 | ふつうの土地 |
 | [スラワッショイ](/monsters/slimewashoi) | 通常 | 6 | [スライム](/species/slime) | 1,521 | 506 | ふつうの土地 |

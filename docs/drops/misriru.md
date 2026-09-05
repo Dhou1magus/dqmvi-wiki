@@ -1,12 +1,12 @@
 ---
 title: ミスリル
-description: DQMVIの「ミスリル」を落とすモンスター15体の一覧。いちばん弱いのはメタルライダー（通常・EXP269）。
+description: DQMVIの「ミスリル」を落とすモンスター16体の一覧。いちばん弱いのはメタルライダー（通常・EXP269）。
 pageClass: wide-page sortable-list
 ---
 
 # ミスリル
 
-素材。**15体**のモンスターが落とします。
+素材。**16体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メタルライダー**（通常ドロップ・EXP269）。
@@ -29,6 +29,7 @@ pageClass: wide-page sortable-list
 | [ドラゴンソルジャー](/monsters/doragonsoruja) | レア | 7 | [ドラゴン](/species/dragon) | 1,980 | 681 | ドラゴン火山帯・果ての世界 |
 | [キラーマシン](/monsters/kiramasin) | レア | 7 | [物質](/species/bussitu) | 1,950 | 706 | 果ての世界 |
 | [シルバーマント](/monsters/sirubamanto) | レア | 7 | [ゾンビ](/species/zombie) | 1,875 | 709 | ふつうの土地 |
+| [まおうのたまご](/monsters/maounotamago) | レア | 7 | [スライム](/species/slime) | 2,601 | 791 | ふつうの土地 |
 | [コロネホワイト](/monsters/pastypastry) | 超レア | 4 | [スライム](/species/slime) | 193 | 148 | ふつうの土地 |
 | [ベビーパンサー](/monsters/kirapan) | 超レア | 4 | [魔獣](/species/majyu) | 168 | 160 | ふつうの土地 |
 | [モビルボディ](/monsters/mobirubodexi) | 超レア | 4 | [物質](/species/bussitu) | 199 | 165 | ふつうの土地 |

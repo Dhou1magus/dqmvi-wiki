@@ -1,12 +1,12 @@
 ---
 title: はがねの尾羽
-description: DQMVIの「はがねの尾羽」を落とすモンスター22体の一覧。いちばん弱いのはきとうし（通常・EXP80）。
+description: DQMVIの「はがねの尾羽」を落とすモンスター23体の一覧。いちばん弱いのはきとうし（通常・EXP80）。
 pageClass: wide-page sortable-list
 ---
 
 # はがねの尾羽
 
-素材。**22体**のモンスターが落とします。
+素材。**23体**のモンスターが落とします。
 
 ::: tip ねらい目
 **きとうし**（通常ドロップ・EXP80）。
@@ -21,6 +21,7 @@ pageClass: wide-page sortable-list
 | [うずしおキング](/monsters/uzusioking) | 通常 | 3 | [自然](/species/sizen) | 99 | 94 | ふつうの土地 |
 | [かえんムカデ](/monsters/flame_centipede) | 通常 | 3 | [自然](/species/sizen) | 110 | 95 | ふつうの土地 |
 | [マポレーナ](/monsters/maporena) | 通常 | 5 | [悪魔](/species/akuma) | 343 | 212 | 妖精の花畑 |
+| [ホーリーキング](/monsters/hollyking) | 通常 | 5 | [スライム](/species/slime) | 478 | 286 | ふつうの土地 |
 | [アカイライ](/monsters/akairai) | 通常 | 7 | [自然](/species/sizen) | 1,650 | 646 | キメラの断崖 |
 | [魔天海フォルネー](/monsters/matenkaiforney) | 通常 | 7 | [自然](/species/sizen) | 1,995 | 777 | ふつうの土地 |
 | [タホドラキー](/monsters/tahodoraki) | レア | 3 | [悪魔](/species/akuma) | 72 | 81 | キメラの断崖・ネザー |

@@ -1,34 +1,34 @@
 ---
 title: アイテム一覧
-description: DQMVIに出てくるアイテム1058種。武器・防具・盾・アクセサリー・転生装備は種類ごとのページに分けています。
+description: DQMVIに出てくるアイテム1136種。武器・防具・盾・アクセサリー・転生装備は種類ごとのページに分けています。
 pageClass: wide-page sortable-list
 ---
 
 # アイテム一覧
 
-DQMVIに出てくるアイテムは **1058種** です。
+DQMVIに出てくるアイテムは **1136種** です。
 
 ## 装備
 
 | 種類 | 数 | 中身 |
 | --- | ---: | --- |
-| [武器](/items/weapons) | 221 | 剣・槍・棍・爪・斧・弓など。 |
+| [武器](/items/weapons) | 275 | 剣・槍・棍・爪・斧・弓など。 |
 | [防具](/items/armor) | 165 | 兜・鎧・小手・服など、身につける装備。 |
 | [盾](/items/shields) | 38 | 片手にかまえる盾。なべのふたやトレイもここに入ります。 |
-| [アクセサリー](/items/accessories) | 116 | 指輪・ピアス・首飾り・腕輪など、効果を足す小物。 |
-| [転生装備](/items/tensei) | 56 | 転生したモンスターから手に入る装備。 |
+| [アクセサリー](/items/accessories) | 117 | 指輪・ピアス・首飾り・腕輪など、効果を足す小物。 |
+| [転生装備](/items/tensei) | 57 | 転生したモンスターから手に入る装備。 |
 
 ## そのほか
 
-装備以外の **462種** です。分類ごとのページもあります。
+装備以外の **484種** です。分類ごとのページもあります。
 
 | 分類 | 数 | 中身 |
 | --- | ---: | --- |
-| [素材](/items/materials) | 119 | モンスターの落とし物・鉱石・薬など。 |
+| [素材](/items/materials) | 122 | モンスターの落とし物・鉱石・薬など。 |
 | [種](/items/seeds) | 74 | 畑に植える苗と、育てて採れる作物。 |
 | [釣り](/items/fishing) | 122 | 釣り竿・ルアーと、釣れる魚。 |
-| [特殊](/items/special) | 75 | 鍵・袋・職業の証・チケットなど。 |
-| [建物](/items/buildings) | 66 | ポートに入れるとペットが建ててくれる施設。 |
+| [特殊](/items/special) | 89 | 鍵・袋・職業の証・チケットなど。 |
+| [建物](/items/buildings) | 71 | ポートに入れるとペットが建ててくれる施設。 |
 | [呪文](/items/magic) | 2 | 配合の杖と転生の杖。 |
 | [装飾](/items/decoration) | 4 | 鍵で開く扉など。 |
 
@@ -232,10 +232,18 @@ DQMVIに出てくるアイテムは **1058種** です。
 | [魔物使いの証](/items/mm) | 特殊 |
 | [スーパースターの証](/items/su) | 特殊 |
 | [はぐれメタルの証](/items/me) | 特殊 |
-| [盗賊の証(遊人Lv30 & 武闘Lv30)](/items/to) | 特殊 |
-| [忍者の証(盗賊Lv50 & レンLv50 & 魔戦Lv50)](/items/ni) | 特殊 |
-| [道具使いの証(遊人Lv30 & 僧侶Lv30)](/items/dt) | 特殊 |
-| [道具マスターの証(道具Lv50 & 魔物Lv50)](/items/dm) | 特殊 |
+| [盗賊の証](/items/to) | 特殊 |
+| [忍者の証](/items/ni) | 特殊 |
+| [道具使いの証](/items/dt) | 特殊 |
+| [道具マスターの証](/items/dm) | 特殊 |
+| [鬼神闘士の証](/items/be) | 特殊 |
+| [秘境ハンターの証](/items/tg) | 特殊 |
+| [吟遊詩人の証](/items/sn) | 特殊 |
+| [モンスターロードの証](/items/mc) | 特殊 |
+| [ゴーストマスターの証](/items/nc) | 特殊 |
+| [ソウルマスターの証](/items/mn) | 特殊 |
+| [魔導銃士の証](/items/ki) | 特殊 |
+| [戦輪士の証](/items/sr) | 特殊 |
 | [魔法の実(苗)](/items/mahounomiseed) | 種 |
 | [超魔法の実(苗)](/items/mahounomiseed2) | 種 |
 | [極魔法の実(苗)](/items/mahounomiseed3) | 種 |
@@ -267,6 +275,12 @@ DQMVIに出てくるアイテムは **1058種** です。
 | [超黄金の実](/items/ougon2) | 種 |
 | [極黄金の実](/items/ougon3) | 種 |
 | [真・極黄金の実](/items/ougon4) | 種 |
+| [大魔王オン・ゾ・エーグのコイン](/items/coin_flucifer) | 特殊 |
+| [ライフルユニット](/items/raifuruyunitto) | 特殊 |
+| [ショットガンユニット](/items/syottogunyunitto) | 特殊 |
+| [マシンガンユニット](/items/masinganyunitto) | 特殊 |
+| [マグナムユニット](/items/magunamuyunitto) | 特殊 |
+| [ハンドガンユニット](/items/handoganyunitto) | 特殊 |
 | [アイナメ](/items/sakana16) | 釣り |
 | [アオブダイ](/items/sakana29) | 釣り |
 | [アカエイ](/items/sakana41) | 釣り |
@@ -323,6 +337,11 @@ DQMVIに出てくるアイテムは **1058種** です。
 | [スギ](/items/sakana94) | 釣り |
 | [スケトウダラ](/items/sakana97) | 釣り |
 | [すごろく券](/items/sugoroku_ticket) | 特殊 |
+| [すごろく場(ランク1)](/items/ssugoroku1) | 建物 |
+| [すごろく場(ランク2)](/items/ssugoroku2) | 建物 |
+| [すごろく場(ランク3)](/items/ssugoroku3) | 建物 |
+| [すごろく場(ランク4)](/items/ssugoroku4) | 建物 |
+| [すごろく場(ランク5)](/items/ssugoroku5) | 建物 |
 | [スズキ](/items/sakana12) | 釣り |
 | [スライムハウス](/items/toukou04) | 建物 |
 | [スライム船](/items/toukou17) | 建物 |
@@ -445,6 +464,7 @@ DQMVIに出てくるアイテムは **1058種** です。
 | [鐘の鳴る城](/items/toukou18) | 建物 |
 | [上どくけしそう](/items/kaifuku00) | 素材 |
 | [真・極黄金の種](/items/ougon_seed4) | 種 |
+| [神薬草](/items/yakusou6) | 素材 |
 | [水晶階段下り](/items/toukou34) | 建物 |
 | [水晶階段上り](/items/toukou31) | 建物 |
 | [水晶広場](/items/toukou35) | 建物 |
@@ -452,6 +472,7 @@ DQMVIに出てくるアイテムは **1058種** です。
 | [水晶通路](/items/toukou30) | 建物 |
 | [水晶踊場](/items/toukou33) | 建物 |
 | [聖者の祈り](/items/seijanoinori) | 特殊 |
+| [聖薬草](/items/yakusou5) | 素材 |
 | [青幻魔石](/items/genmaseki_b) | 素材 |
 | [石のめざめの花](/items/flower04) | 種 |
 | [赤いゆめみの花](/items/flower03) | 種 |
@@ -497,7 +518,12 @@ DQMVIに出てくるアイテムは **1058種** です。
 | [力の種(苗)](/items/tikara_seed) | 種 |
 | [緑のきつけそう](/items/flower02) | 種 |
 | [緑幻魔石](/items/genmaseki_g) | 素材 |
+| [霊薬草](/items/yakusou4) | 素材 |
 | [祠](/items/toukou05) | 建物 |
+| [盗賊の証(遊人Lv30 & 武闘Lv30)](/items/to) | 特殊 |
+| [忍者の証(盗賊Lv50 & レンLv50 & 魔戦Lv50)](/items/ni) | 特殊 |
+| [道具使いの証(遊人Lv30 & 僧侶Lv30)](/items/dt) | 特殊 |
+| [道具マスターの証(道具Lv50 & 魔物Lv50)](/items/dm) | 特殊 |
 
 ## 関連ページ
 

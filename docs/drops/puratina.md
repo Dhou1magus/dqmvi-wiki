@@ -1,12 +1,12 @@
 ---
 title: プラチナ
-description: DQMVIの「プラチナ」を落とすモンスター28体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
+description: DQMVIの「プラチナ」を落とすモンスター29体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
 pageClass: wide-page sortable-list
 ---
 
 # プラチナ
 
-素材。**28体**のモンスターが落とします。
+素材。**29体**のモンスターが落とします。
 
 ::: tip ねらい目
 **グランスライム**（通常ドロップ・EXP333）。
@@ -41,6 +41,7 @@ pageClass: wide-page sortable-list
 | [バトルレックス](/monsters/batorurex) | レア | 7 | [ドラゴン](/species/dragon) | 1,800 | 675 | ドラゴン火山帯 |
 | [グリゴンダンス](/monsters/gurigondansu) | 超レア | 3 | [悪魔](/species/akuma) | 87 | 79 | ふつうの土地 |
 | [スライムボーグ](/monsters/suraimubogu) | 超レア | 3 | [スライム](/species/slime) | 80 | 89 | スライム湿原・ネザー |
+| [凶スライム](/monsters/kyouslime) | 超レア | 3 | [スライム](/species/slime) | 150 | 126 | ふつうの土地 |
 | [強スライム](/monsters/sura2) | 超レア | 4 | [スライム](/species/slime) | 165 | 144 | ふつうの土地 |
 | [黒怨王](/monsters/kokuenou) | 超レア | 5 | [ゾンビ](/species/zombie) | 495 | 244 | ふつうの土地 |
 | [カンダタこぶん](/monsters/kandatakobun) | 超レア | 5 | [ゾンビ](/species/zombie) | 511 | 280 | ふつうの土地 |

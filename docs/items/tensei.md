@@ -1,22 +1,22 @@
 ---
 title: 転生装備一覧
-description: DQMVIの転生装備56種のデータ。転生したモンスターから手に入る装備。
+description: DQMVIの転生装備57種のデータ。転生したモンスターから手に入る装備。
 pageClass: wide-page sortable-list
 ---
 
 # 転生装備一覧
 
-転生したモンスターから手に入る装備。全部で **56種** です。
+転生したモンスターから手に入る装備。全部で **57種** です。
 
 ::: tip 見かた
 倍率は、いまの能力に掛かる値です。見出しを押すとその項目で並べ替えできます。
 :::
 
-## 武器（32種）
+## 武器（33種）
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
-| [にくきゅうの杖](/drops/nikukyuunotue) | — | ×1.5 | 単体魔法を三方向に放つ(メラ系・ヒャド系・ドルマ系のみ) |
+| [にくきゅうの杖](/drops/nikukyuunotue) | — | — | 単体魔法を三方向に放つ(メラ系・ヒャド系・ドルマ系のみ)　/　魔力倍率 ×1.5 |
 | [伐採マシンの鎌](/drops/bassaimasinnokama) | 10 | ×1.5 | — |
 | [伐採マシンの鎌](/drops/bassaimasinnokama) | 10 | ×1.5 | — |
 | [ゴールドマントの剣](/drops/gorudenmantonoken) | 10 | ×1.5 | — |
@@ -24,8 +24,8 @@ pageClass: wide-page sortable-list
 | [聖銀の拳](/drops/seiginnokobusi) | 10 | ×1.5 | — |
 | [サボテンゴールドの棘](/drops/sabotengoldnotoge) | 10 | ×1.5 | — |
 | [サボテンゴールドの棘](/drops/sabotengoldnotoge) | 10 | ×1.5 | — |
-| [キラートーチのトーチ](/drops/kiratotinototi) | 2 | ×1.1 | — |
-| [キラートーチのトーチ](/drops/kiratotinototi) | 2 | ×1.1 | — |
+| [キラートーチのトーチ](/drops/kiratotinototi) | 2 | ×1.1 | 魔力倍率 ×1.5 |
+| [キラートーチのトーチ](/drops/kiratotinototi) | 2 | ×1.1 | 魔力倍率 ×1.5 |
 | [とげこんぼうの棍棒](/drops/togekonbounokonbou) | 10 | ×1.5 | — |
 | [とげこんぼうの棍棒](/drops/togekonbounokonbou) | 10 | ×1.5 | — |
 | [トロルバッコスの大棍棒](/drops/tororubakkosunoookonnbou) | 10 | ×1.5 | — |
@@ -48,6 +48,7 @@ pageClass: wide-page sortable-list
 | [レッドアーチャーの弓](/drops/redatyanoyumi) | 10 | ×1.5 | — |
 | [レッドアーチャーの弓](/drops/redatyanoyumi) | 10 | ×1.5 | — |
 | [スライダークロボの剣](/drops/suraidakurobonoken) | 10 | ×1.5 | — |
+| [名刀 斬鉄丸](/drops/meitouzantetumaru) | 14 | ×3.18 | — |
 
 ## 防具（5種）
 
@@ -63,14 +64,15 @@ pageClass: wide-page sortable-list
 
 | 盾 | しゅび | 魔法しゅび | 構え中 | 適正職業 | 特殊効果 |
 | --- | ---: | ---: | ---: | --- | --- |
-| [シールドあにきの盾](/drops/sirudoanikinotate) | ×1.2 | ×1.2 | ×4 | — | — |
+| [シールドあにきの盾](/drops/sirudoanikinotate) | ×1.2 | ×1.2 | ×4 | — | 構え時守備・魔守4倍 |
 
-## アクセサリー（17種）
+## アクセサリー（18種）
 
 | アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | [タッチャンの首飾り](/drops/tattyannokubikazari) | ×1.15 | — | — | ×1.15 | — | — | — |
 | [タッチャンの首飾り](/drops/tattyannokubikazari) | ×1.15 | — | — | ×1.15 | — | — | — |
+| [つむりんママの貝殻](/drops/tumurinmama) | — | ×1.15 | — | — | — | ×1.15 | — |
 | [ゲノミーの触手](/drops/genominosyokusyu) | — | — | — | — | ×1.15 | ×1.15 | — |
 | [グレイトドラゴン・雲の牙](/drops/gureitodoragonkumonokiba) | ×1.15 | — | ×1.15 | ×1.15 | — | — | — |
 | [ましょうぐものエキス](/drops/masyougumonoekisu) | — | ×1.15 | — | — | ×1.15 | ×1.15 | — |

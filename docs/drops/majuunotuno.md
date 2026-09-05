@@ -1,12 +1,12 @@
 ---
 title: まじゅうの角
-description: DQMVIの「まじゅうの角」を落とすモンスター6体の一覧。いちばん弱いのはアルミラージ（通常・EXP47）。
+description: DQMVIの「まじゅうの角」を落とすモンスター5体の一覧。いちばん弱いのはアルミラージ（通常・EXP47）。
 pageClass: wide-page sortable-list
 ---
 
 # まじゅうの角
 
-素材。**6体**のモンスターが落とします。
+素材。**5体**のモンスターが落とします。
 
 ::: tip ねらい目
 **アルミラージ**（通常ドロップ・EXP47）。
@@ -20,7 +20,6 @@ pageClass: wide-page sortable-list
 | [アルミラージ](/monsters/arumiraji) | 通常 | 2 | [魔獣](/species/majyu) | 59 | 47 | 黄金の砂漠 |
 | [デザートデーモン](/monsters/dezatodemon) | 通常 | 2 | [悪魔](/species/akuma) | 80 | 70 | ふつうの土地 |
 | [ブラウニー](/monsters/burauni) | 通常 | 3 | [魔獣](/species/majyu) | 75 | 93 | ふつうの土地 |
-| [アカツキショウグン](/monsters/akatsuki_shogun) | 通常 | 4 | [ドラゴン](/species/dragon) | 212 | 184 | ふつうの土地 |
 | [ドラゴン](/monsters/dqmdragon) | 通常 | 4 | [ドラゴン](/species/dragon) | 220 | 200 | ドラゴン火山帯・ネザー |
 | [ビッグハンマー](/monsters/bighanma) | 通常 | 5 | [魔獣](/species/majyu) | 402 | 248 | ふつうの土地 |
 

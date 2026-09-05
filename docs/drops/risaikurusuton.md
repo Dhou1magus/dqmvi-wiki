@@ -1,12 +1,12 @@
 ---
 title: リサイクルストーン
-description: DQMVIの「リサイクルストーン」を落とすモンスター26体の一覧。いちばん弱いのはパペットこぞう（通常・EXP39）。
+description: DQMVIの「リサイクルストーン」を落とすモンスター27体の一覧。いちばん弱いのはパペットこぞう（通常・EXP39）。
 pageClass: wide-page sortable-list
 ---
 
 # リサイクルストーン
 
-素材。**26体**のモンスターが落とします。
+素材。**27体**のモンスターが落とします。
 
 ::: tip ねらい目
 **パペットこぞう**（通常ドロップ・EXP39）。
@@ -24,6 +24,7 @@ pageClass: wide-page sortable-list
 | [スピンスライム](/monsters/spinslime) | 通常 | 2 | [スライム](/species/slime) | 62 | 52 | ふつうの土地 |
 | [グリゴンダンス](/monsters/gurigondansu) | 通常 | 3 | [悪魔](/species/akuma) | 87 | 79 | ふつうの土地 |
 | [ベロベロ](/monsters/berobero) | 通常 | 3 | [ゾンビ](/species/zombie) | 80 | 82 | 毒の大湿地・ネザー |
+| [トラップボックス](/monsters/torappubokkusu) | 通常 | 3 | [物質](/species/bussitu) | 87 | 82 | ふつうの土地 |
 | [スライムボーグ](/monsters/suraimubogu) | 通常 | 3 | [スライム](/species/slime) | 80 | 89 | スライム湿原・ネザー |
 | [おおくちばし](/monsters/ookutibasi) | 通常 | 3 | [自然](/species/sizen) | 96 | 92 | キメラの断崖 |
 | [ボックススライムグリーン](/monsters/boxsuraimu_midori) | 通常 | 3 | [スライム](/species/slime) | 100 | 95 | ふつうの土地 |

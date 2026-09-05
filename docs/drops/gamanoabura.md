@@ -1,15 +1,15 @@
 ---
 title: ガマのあぶら
-description: DQMVIの「ガマのあぶら」を落とすモンスター44体の一覧。いちばん弱いのはしびれくらげ（通常・EXP45）。
+description: DQMVIの「ガマのあぶら」を落とすモンスター49体の一覧。いちばん弱いのはスライムフェアリー（通常・EXP40）。
 pageClass: wide-page sortable-list
 ---
 
 # ガマのあぶら
 
-素材。**44体**のモンスターが落とします。
+素材。**49体**のモンスターが落とします。
 
 ::: tip ねらい目
-**しびれくらげ**（通常ドロップ・EXP45）。
+**スライムフェアリー**（通常ドロップ・EXP40）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -17,8 +17,10 @@ pageClass: wide-page sortable-list
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
+| [スライムフェアリー](/monsters/suraimu_feari) | 通常 | 2 | [スライム](/species/slime) | 38 | 40 | ふつうの土地 |
 | [しびれくらげ](/monsters/sibirekurage) | 通常 | 2 | [スライム](/species/slime) | 53 | 45 | 海 |
 | [ボックススライムレッド](/monsters/boxsuraimu_aka) | 通常 | 2 | [スライム](/species/slime) | 48 | 50 | ふつうの土地 |
+| [おおさそり](/monsters/big_scorpion) | 通常 | 2 | [自然](/species/sizen) | 65 | 50 | ふつうの土地 |
 | [マドハンド](/monsters/madohando) | 通常 | 3 | [物質](/species/bussitu) | 65 | 78 | ゴーレム岩石遺跡 |
 | [かいぞくウーパー](/monsters/kaizokuupa) | 通常 | 4 | [自然](/species/sizen) | 170 | 145 | ふつうの土地 |
 | [ジェリーマン](/monsters/jeriman) | 通常 | 4 | [自然](/species/sizen) | 182 | 148 | 沈没魔物海・毒の大湿地・海 |
@@ -45,7 +47,9 @@ pageClass: wide-page sortable-list
 | [ブラッディハンド](/monsters/buraddihando) | レア | 5 | [物質](/species/bussitu) | 389 | 235 | 毒の大湿地 |
 | [ヒートギズモ2](/monsters/hiitogizumo) | レア | 5 | [物質](/species/bussitu) | 494 | 253 | ネザー |
 | [ガニラス](/monsters/ganirasu) | レア | 6 | [自然](/species/sizen) | 960 | 376 | 沈没魔物海・果ての世界・海 |
+| [スライムツリー](/monsters/slimetree) | 超レア | 1 | [スライム](/species/slime) | 10 | 6 | ふつうの土地 |
 | [ビーンファイター](/monsters/binfaita) | 超レア | 1 | [自然](/species/sizen) | 15 | 9 | ふつうの土地 |
+| [マグマスライム](/monsters/magmaslime) | 超レア | 1 | [スライム](/species/slime) | 20 | 9 | ふつうの土地 |
 | [ライムスライム](/monsters/raimusuraimu) | 超レア | 1 | [スライム](/species/slime) | 18 | 11 | スライム湿原 |
 | [リップス](/monsters/rippusu) | 超レア | 1 | [自然](/species/sizen) | 18 | 11 | ふつうの土地 |
 | [レモンスライム](/monsters/remonsuraimu) | 超レア | 1 | [スライム](/species/slime) | 20 | 11 | スライム湿原・黄金の砂漠 |
@@ -53,6 +57,7 @@ pageClass: wide-page sortable-list
 | [ゆうれい](/monsters/spirit) | 超レア | 1 | [ゾンビ](/species/zombie) | 16 | 11 | ふつうの土地 |
 | [はじけドーラ](/monsters/hajike_dora) | 超レア | 1 | [ドラゴン](/species/dragon) | 25 | 12 | ふつうの土地 |
 | [まほうつかい](/monsters/magician) | 超レア | 1 | [悪魔](/species/akuma) | 15 | 13 | ふつうの土地 |
+| [マル](/monsters/maru) | 超レア | 1 | [物質](/species/bussitu) | 24 | 13 | ふつうの土地 |
 | [スキッパー](/monsters/sukippaa) | 超レア | 1 | [悪魔](/species/akuma) | 28 | 15 | ふつうの土地 |
 | [ポンコツ兵](/monsters/ponkotuhei) | 超レア | 1 | [物質](/species/bussitu) | 26 | 17 | ふつうの土地 |
 | [プレミアムスライム](/monsters/puremiasuraimu) | 超レア | 2 | [スライム](/species/slime) | 45 | 40 | ふつうの土地 |

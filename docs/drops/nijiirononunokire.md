@@ -1,12 +1,12 @@
 ---
 title: にじいろの布きれ
-description: DQMVIの「にじいろの布きれ」を落とすモンスター32体の一覧。いちばん弱いのはケダモン（通常・EXP142）。
+description: DQMVIの「にじいろの布きれ」を落とすモンスター36体の一覧。いちばん弱いのはケダモン（通常・EXP142）。
 pageClass: wide-page sortable-list
 ---
 
 # にじいろの布きれ
 
-素材。**32体**のモンスターが落とします。
+素材。**36体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ケダモン**（通常ドロップ・EXP142）。
@@ -37,6 +37,9 @@ pageClass: wide-page sortable-list
 | [マージマタンゴ](/monsters/magematango) | レア | 7 | [自然](/species/sizen) | 1,785 | 590 | 魔法の森・おばけキノコの森 |
 | [ダースギズモ](/monsters/dgizumo) | レア | 7 | [物質](/species/bussitu) | 1,785 | 593 | ふつうの土地 |
 | [はめつの使者](/monsters/hametunosisya) | レア | 7 | [悪魔](/species/akuma) | 1,965 | 688 | 魔王の焦土 |
+| [メタルゴッデス](/monsters/metal_goddess) | レア | 7 | [メタル](/species/metal) | 158 | 880,000 | ふつうの土地 |
+| [メタルゴッデス2](/monsters/metalgoddes2) | レア | 7 | [メタル](/species/metal) | 158 | 880,000 | ふつうの土地 |
+| [メタルセラフィム](/monsters/metal_seraphim) | レア | 7 | [メタル](/species/metal) | 183 | 924,564 | ふつうの土地 |
 | [フロストギズモ2](/monsters/furosutogizumo) | 超レア | 3 | [物質](/species/bussitu) | 82 | 82 | 氷結のトゲ平原 |
 | [フロストギズモ1](/monsters/fgizumo) | 超レア | 3 | [物質](/species/bussitu) | 78 | 83 | ふつうの土地 |
 | [レッドマーマン](/monsters/redmerman) | 超レア | 3 | [自然](/species/sizen) | 145 | 102 | ふつうの土地 |
@@ -48,6 +51,7 @@ pageClass: wide-page sortable-list
 | [モビルライト](/monsters/mobiruraito) | 超レア | 4 | [物質](/species/bussitu) | 168 | 155 | ふつうの土地 |
 | [ボーンプリズナー](/monsters/bonpurizuna) | 超レア | 4 | [ゾンビ](/species/zombie) | 232 | 172 | ふつうの土地 |
 | [ボーンナイト](/monsters/boneknight) | 超レア | 4 | [ゾンビ](/species/zombie) | 192 | 183 | ネザー |
+| [ワンダーエッグ](/monsters/wonderegg) | 超レア | 4 | [スライム](/species/slime) | 217 | 195 | ふつうの土地 |
 | [ヘルビートル](/monsters/fire_beatle) | 超レア | 4 | [自然](/species/sizen) | 195 | 197 | ふつうの土地 |
 
 見出しを押すと並べ替えできます。

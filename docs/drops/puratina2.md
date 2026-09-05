@@ -1,12 +1,12 @@
 ---
 title: プラチナ合金
-description: DQMVIの「プラチナ合金」を落とすモンスター24体の一覧。いちばん弱いのはソードファントム（通常・EXP409）。
+description: DQMVIの「プラチナ合金」を落とすモンスター26体の一覧。いちばん弱いのはソードファントム（通常・EXP409）。
 pageClass: wide-page sortable-list
 ---
 
 # プラチナ合金
 
-素材。**24体**のモンスターが落とします。
+素材。**26体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ソードファントム**（通常ドロップ・EXP409）。
@@ -25,9 +25,11 @@ pageClass: wide-page sortable-list
 | [まじゅつし](/monsters/majutusi) | 超レア | 2 | [悪魔](/species/akuma) | 45 | 38 | 魔法の森 |
 | [さそりアーマー](/monsters/sasori_a_ma) | 超レア | 2 | [自然](/species/sizen) | 52 | 44 | ふつうの土地 |
 | [のろいのランプ](/monsters/malevolantern) | 超レア | 2 | [物質](/species/bussitu) | 46 | 46 | ふつうの土地 |
+| [ウィッチレディ](/monsters/whicchiredi) | 超レア | 2 | [悪魔](/species/akuma) | 50 | 47 | ふつうの土地 |
 | [デビルアーマー](/monsters/debiruaamaa) | 超レア | 2 | [物質](/species/bussitu) | 66 | 58 | ふつうの土地 |
 | [スケアフレイル](/monsters/sukeafureiru) | 超レア | 2 | [悪魔](/species/akuma) | 77 | 63 | ふつうの土地 |
 | [あくまの書](/monsters/akumanosyo) | 超レア | 3 | [悪魔](/species/akuma) | 65 | 74 | 魔法の森・ネザー |
+| [トラップボックス](/monsters/torappubokkusu) | 超レア | 3 | [物質](/species/bussitu) | 87 | 82 | ふつうの土地 |
 | [ドラキーマ](/monsters/dorakima) | 超レア | 3 | [悪魔](/species/akuma) | 98 | 85 | ネザー |
 | [ブリザード](/monsters/burizado) | 超レア | 3 | [物質](/species/bussitu) | 85 | 90 | 氷結のトゲ平原 |
 | [うらぎりこぞう](/monsters/uragirikozou2) | 超レア | 3 | [悪魔](/species/akuma) | 90 | 95 | ネザー |

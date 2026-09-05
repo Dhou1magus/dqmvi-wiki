@@ -1,12 +1,12 @@
 ---
 title: ヘビーメタル
-description: DQMVIの「ヘビーメタル」を落とすモンスター32体の一覧。いちばん弱いのはスライムカルゴ（通常・EXP117）。
+description: DQMVIの「ヘビーメタル」を落とすモンスター35体の一覧。いちばん弱いのはスライムカルゴ（通常・EXP117）。
 pageClass: wide-page sortable-list
 ---
 
 # ヘビーメタル
 
-素材。**32体**のモンスターが落とします。
+素材。**35体**のモンスターが落とします。
 
 ::: tip ねらい目
 **スライムカルゴ**（通常ドロップ・EXP117）。
@@ -18,7 +18,9 @@ pageClass: wide-page sortable-list
 | モンスター | 区分 | ランク | 系統 | HP | EXP | 出現場所 |
 | --- | :--: | :--: | :--: | ---: | ---: | --- |
 | [スライムカルゴ](/monsters/snailslime) | 通常 | 3 | [スライム](/species/slime) | 159 | 117 | 沈没魔物海・海 |
+| [凶スライム](/monsters/kyouslime) | 通常 | 3 | [スライム](/species/slime) | 150 | 126 | ふつうの土地 |
 | [スライムマデュラ](/monsters/suraimumadyura) | 通常 | 7 | [スライム](/species/slime) | 1,695 | 700 | ふつうの土地 |
+| [エンペラン](/monsters/emperan) | 通常 | 7 | [スライム](/species/slime) | 2,997 | 819 | ふつうの土地 |
 | [キラーマシン2](/monsters/kiramasin2) | 通常 | 7 | [物質](/species/bussitu) | 3,300 | 931 | ふつうの土地 |
 | [メタルスライム](/monsters/metasura) | 通常 | 1 | [メタル](/species/metal) | 4 | 1,050 | ふつうの土地 |
 | [メタルブラザーズ](/monsters/metaruburazazu) | 通常 | 2 | [メタル](/species/metal) | 8 | 3,300 | ふつうの土地 |
@@ -34,6 +36,7 @@ pageClass: wide-page sortable-list
 | [デンガー](/monsters/denga) | レア | 7 | [スライム](/species/slime) | 2,625 | 791 | ふつうの土地 |
 | [ストーンマン](/monsters/stonman) | レア | 7 | [物質](/species/bussitu) | 2,580 | 792 | ゴーレム岩石遺跡 |
 | [ビッグモアイ](/monsters/biggumoai) | レア | 7 | [物質](/species/bussitu) | 2,925 | 809 | ゴーレム岩石遺跡 |
+| [てつのさそり](/monsters/iron_scorpion) | 超レア | 3 | [自然](/species/sizen) | 154 | 124 | ふつうの土地 |
 | [スモールグール](/monsters/sumoruguru) | 超レア | 4 | [ゾンビ](/species/zombie) | 165 | 143 | ふつうの土地 |
 | [フェイスボール](/monsters/faceball) | 超レア | 4 | [ゾンビ](/species/zombie) | 202 | 165 | ネザー |
 | [マーズフェイス](/monsters/mazufeisu) | 超レア | 4 | [物質](/species/bussitu) | 166 | 168 | ふつうの土地 |

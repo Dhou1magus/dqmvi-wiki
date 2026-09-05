@@ -38,9 +38,9 @@ const JOB_DIR = join(DOCS, 'jobs')
 const KEEP_HEADING = '## 攻略メモ'
 const EMPTY_NOTE = '（未記入）'
 
-/** 武器の並び。job_tables.tsv の weapon 行はこの順で14個ならぶ */
+/** 武器の並び。job_tables.tsv の weapon 行はこの順でならぶ（0.27 で 14 → 19 種。並びは TSV 冒頭の注記と同じ） */
 const WEAPONS = ['バニラ剣', '剣', '勇者の剣', '槍', '短剣', '杖', '棍', '爪',
-                 '拳', 'ハンマー', '斧', 'ムチ', '弓', 'ブーメラン']
+                 '拳', 'ハンマー', '斧', 'ムチ', '弓', 'ブーメラン', '銃', '戦輪', '竪琴', '大鎌', '戦籠手']
 /** 能力の並び。stat 行はこの順で6個ならぶ */
 const STATS = ['HP', 'MP', 'こうげき', 'しゅび', 'まりょく', '魔法しゅび']
 /** 職業一覧の「能力の伸び」の見出し。列を正方形のマスにそろえるため短い呼び方にする
@@ -53,8 +53,18 @@ const SLUG = {
   4: 'mahoutsukai', 5: 'souryo', 6: 'kenja', 7: 'yuusha',
   8: 'paladin', 9: 'mahousenshi', 10: 'ranger', 11: 'mamonotsukai',
   12: 'superstar', 13: 'haguremetal', 14: 'touzoku', 15: 'ninja',
-  16: 'dougutsukai', 17: 'dougumaster'
+  16: 'dougutsukai', 17: 'dougumaster',
+  // 0.27 で増えた8職。ファイル名は本人が 2026-09-05 に作ったページのまま
+  18: 'berserker', 19: 'travelscholar', 20: 'ginyuusizin', 21: 'monstercommander',
+  22: 'necromancer', 23: 'mimic', 24: 'machinehunter', 25: 'battleringmaster'
 }
+
+/**
+ * 職業の特徴（ゲーム内の Z メニュー「職業表」→「職業の特徴」タブと同じ内容）。
+ * scripts/data/job-features.json（固定データ）。無ければこの節は出さない。
+ */
+const FEATURES_PATH = join('scripts', 'data', 'job-features.json')
+const FEATURES = existsSync(FEATURES_PATH) ? JSON.parse(readFileSync(FEATURES_PATH, 'utf8')).jobs ?? {} : {}
 
 /** スキルの種類を日本語にする */
 const KIND = { stat: '能力', unlock: '解放', hissatsu: '必殺技' }
@@ -101,6 +111,12 @@ const skills = table(join(SRC, 'job_skills.tsv'))
 /** 表に出す並び順（エクセルの行順）。ゲーム内の職業一覧と同じ並びになる */
 const order = (tables.find((r) => r[0] === 'order')?.[2] ?? '').split(',').map(Number)
 const weaponRank = new Map(tables.filter((r) => r[0] === 'weapon').map((r) => [Number(r[1]), r[2].split(',')]))
+for (const [id, ranks] of weaponRank) {
+  if (ranks.length !== WEAPONS.length) {
+    console.error(`中止: job_tables.tsv の武器の数（職業${id}: ${ranks.length}）が WEAPONS（${WEAPONS.length}）と違います。WEAPONS の並びを TSV の注記に合わせてください`)
+    process.exit(1)
+  }
+}
 const statRank = new Map(tables.filter((r) => r[0] === 'stat').map((r) => [Number(r[1]), r[2].split(',')]))
 
 /** 職業ID → 名前 */
@@ -149,13 +165,34 @@ function jobPage(id) {
   lines.push('')
   lines.push(`# ${name}`)
   lines.push('')
+  const f = FEATURES[id]
   const best = STATS.map((s, i) => [s, st[i]]).filter(([, r]) => r && /^S/.test(r)).map(([s]) => s)
   const goodWeapons = shownWeapons.filter(([, i]) => /^S/.test(wp[i] ?? '')).map(([w]) => w)
   const intro = []
   if (best.length) intro.push(`${best.join('・')}がよく伸びます`)
   if (goodWeapons.length) intro.push(`${goodWeapons.join('・')}が得意です`)
-  lines.push(intro.length ? `${intro.join('。')}。` : '各能力・各武器とも標準的な職業です。')
+  // 冒頭の一言は、ゲーム内「職業の特徴」の説明があればそれを使う
+  lines.push(f?.role ?? (intro.length ? `${intro.join('。')}。` : '各能力・各武器とも標準的な職業です。'))
   lines.push('')
+
+  if (f) {
+    lines.push('## 職業の特徴')
+    lines.push('')
+    lines.push('ゲーム内の職業表「職業の特徴」に載っている内容です。')
+    lines.push('')
+    lines.push('| 項目 | 内容 |')
+    lines.push('| --- | --- |')
+    lines.push(`| 操作 | ${cell(f.operation)} |`)
+    lines.push(`| 武器の補正 | ${cell(f.weapon)} |`)
+    lines.push(`| 魔法の補正 | ${cell(f.magic)} |`)
+    lines.push(`| 必殺技 | ${cell(f.hissatsu)} |`)
+    lines.push(`| サブ職業のとき | ${cell(f.subEffect)} |`)
+    lines.push(`| 転職条件 | ${cell(f.requirement)} |`)
+    lines.push(`| その他 | ${cell(f.notes)} |`)
+    lines.push('')
+    lines.push('サブ職業の共通のきまりは[職業一覧](/jobs/#subjob-rules)にまとめています。')
+    lines.push('')
+  }
 
   lines.push('## 能力の伸び')
   lines.push('')
@@ -278,7 +315,33 @@ function jobIndex() {
   }
   lines.push(...(extra.get('必殺技')?.rows ?? []))
   lines.push('')
-  lines.push(...leftoverTables(extra, new Set(['能力の伸び', '武器の適性', '必殺技'])))
+  lines.push(...leftoverTables(extra, new Set(['能力の伸び', '武器の適性', '必殺技', '転職条件'])))
+
+  // 転職条件とサブ職業のきまり（ゲーム内「職業の特徴」から）
+  const featured = order.filter((id) => FEATURES[id])
+  if (featured.length) {
+    lines.push('## 転職条件')
+    lines.push('')
+    lines.push('ダーマ神官で転職するときの条件です。')
+    lines.push('')
+    lines.push('| 職業 | 条件 |')
+    lines.push('| --- | --- |')
+    for (const id of featured) {
+      lines.push(`| [${cell(jobName.get(id))}](/jobs/${SLUG[id]}) | ${cell(FEATURES[id].requirement)} |`)
+    }
+    lines.push(...(extra.get('転職条件')?.rows ?? []))
+    lines.push('')
+    const common = FEATURES[featured[0]].subCommon ?? []
+    if (common.length) {
+      lines.push('## サブ職業のきまり {#subjob-rules}')
+      lines.push('')
+      for (const t of common) lines.push(`- ${t}`)
+      if (FEATURES[featured[0]].footer) lines.push(`- ${FEATURES[featured[0]].footer}`)
+      lines.push('')
+      lines.push('職業ごとの違いは、各職業のページの「サブ職業のとき」にあります。')
+      lines.push('')
+    }
+  }
 
   lines.push('## 他の職業の呪文・特技を使う')
   lines.push('')

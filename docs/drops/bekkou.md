@@ -1,12 +1,12 @@
 ---
 title: べっこう
-description: DQMVIの「べっこう」を落とすモンスター51体の一覧。いちばん弱いのはプレミアムスライム（通常・EXP40）。
+description: DQMVIの「べっこう」を落とすモンスター54体の一覧。いちばん弱いのはプレミアムスライム（通常・EXP40）。
 pageClass: wide-page sortable-list
 ---
 
 # べっこう
 
-素材。**51体**のモンスターが落とします。
+素材。**54体**のモンスターが落とします。
 
 ::: tip ねらい目
 **プレミアムスライム**（通常ドロップ・EXP40）。
@@ -36,16 +36,19 @@ pageClass: wide-page sortable-list
 | [よろいのきし](/monsters/yoroinokisi) | 通常 | 3 | [悪魔](/species/akuma) | 140 | 132 | ネザー |
 | [メカバーン](/monsters/mekaban) | 通常 | 3 | [物質](/species/bussitu) | 200 | 155 | ふつうの土地 |
 | [あくまのツボ](/monsters/akumanotubo) | 通常 | 4 | [特殊](/species/tokusyu) | 165 | 182 | ミミックの宝物窟 |
+| [ウィッチレディ](/monsters/whicchiredi) | レア | 2 | [悪魔](/species/akuma) | 50 | 47 | ふつうの土地 |
 | [スライムコロネ](/monsters/goonachegoodie) | レア | 2 | [スライム](/species/slime) | 45 | 54 | ふつうの土地 |
 | [スライムタワー](/monsters/suraimutawa) | レア | 3 | [スライム](/species/slime) | 70 | 86 | スライム湿原 |
 | [スペクテット](/monsters/supekutetto) | レア | 3 | [悪魔](/species/akuma) | 93 | 86 | ふつうの土地 |
 | [ソイソルジャー](/monsters/soisoruja) | レア | 3 | [自然](/species/sizen) | 88 | 92 | ふつうの土地 |
 | [バブリン](/monsters/baburin) | レア | 3 | [ゾンビ](/species/zombie) | 90 | 94 | 毒の大湿地 |
+| [デスセイレス](/monsters/desuseiresu) | レア | 3 | [悪魔](/species/akuma) | 102 | 97 | ふつうの土地 |
 | [どれいへいし](/monsters/doreiheisi) | レア | 3 | [ゾンビ](/species/zombie) | 144 | 98 | ふつうの土地 |
 | [エビルスピリッツ](/monsters/evilspirits) | レア | 3 | [ゾンビ](/species/zombie) | 95 | 110 | ネザー |
 | [こんぺいとう](/monsters/sugarstar_slime) | レア | 3 | [スライム](/species/slime) | 166 | 114 | ふつうの土地 |
 | [スパイクヘッド](/monsters/supaikuheddo) | レア | 3 | [物質](/species/bussitu) | 141 | 123 | ふつうの土地 |
 | [ピーチスライム](/monsters/peachslime) | レア | 3 | [スライム](/species/slime) | 157 | 125 | ふつうの土地 |
+| [凶スライム](/monsters/kyouslime) | レア | 3 | [スライム](/species/slime) | 150 | 126 | ふつうの土地 |
 | [マジックリップス](/monsters/mrippusu) | レア | 4 | [自然](/species/sizen) | 183 | 152 | ふつうの土地 |
 | [ブルベリーノ](/monsters/buruberino) | レア | 4 | [自然](/species/sizen) | 174 | 159 | ふつうの土地 |
 | [ドラゴンゾンビ](/monsters/dragonzombie) | レア | 4 | [ドラゴン](/species/dragon) | 197 | 171 | ふつうの土地 |

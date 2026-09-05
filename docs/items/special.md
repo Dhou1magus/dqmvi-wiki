@@ -1,12 +1,12 @@
 ---
 title: 特殊一覧
-description: DQMVIの特殊75種の一覧。鍵・袋・職業の証・チケットなど。
+description: DQMVIの特殊89種の一覧。鍵・袋・職業の証・チケットなど。
 pageClass: wide-page sortable-list
 ---
 
 # 特殊一覧
 
-鍵・袋・職業の証・チケットなど。全部で **75種** です。品名を押すとそのアイテムのページが開きます。
+鍵・袋・職業の証・チケットなど。全部で **89種** です。品名を押すとそのアイテムのページが開きます。
 
 入手方法が「モンスター」の品は、品名を押すと落とすモンスターの一覧が開きます。
 
@@ -53,10 +53,24 @@ pageClass: wide-page sortable-list
 | [魔物使いの証](/items/mm) | 宝箱 |
 | [スーパースターの証](/items/su) | 宝箱 |
 | [はぐれメタルの証](/items/me) | 宝箱 |
-| [盗賊の証(遊人Lv30 & 武闘Lv30)](/items/to) | 宝箱 |
-| [忍者の証(盗賊Lv50 & レンLv50 & 魔戦Lv50)](/items/ni) | 宝箱 |
-| [道具使いの証(遊人Lv30 & 僧侶Lv30)](/items/dt) | 宝箱 |
-| [道具マスターの証(道具Lv50 & 魔物Lv50)](/items/dm) | 宝箱 |
+| [盗賊の証](/items/to) | 宝箱 |
+| [忍者の証](/items/ni) | 宝箱 |
+| [道具使いの証](/items/dt) | 宝箱 |
+| [道具マスターの証](/items/dm) | 宝箱 |
+| [鬼神闘士の証](/items/be) | — |
+| [秘境ハンターの証](/items/tg) | — |
+| [吟遊詩人の証](/items/sn) | — |
+| [モンスターロードの証](/items/mc) | — |
+| [ゴーストマスターの証](/items/nc) | — |
+| [ソウルマスターの証](/items/mn) | — |
+| [魔導銃士の証](/items/ki) | — |
+| [戦輪士の証](/items/sr) | — |
+| [大魔王オン・ゾ・エーグのコイン](/items/coin_flucifer) | — |
+| [ライフルユニット](/items/raifuruyunitto) | — |
+| [ショットガンユニット](/items/syottogunyunitto) | — |
+| [マシンガンユニット](/items/masinganyunitto) | — |
+| [マグナムユニット](/items/magunamuyunitto) | — |
+| [ハンドガンユニット](/items/handoganyunitto) | — |
 | [ゴールドチケット](/items/gold_t) | 福引 |
 | [サイコロ](/items/saikoro_i) | — |
 | [すごろく券](/items/sugoroku_ticket) | カジノ |
@@ -87,6 +101,10 @@ pageClass: wide-page sortable-list
 | [肥料](/items/hiryou) | 鍛冶・福引 |
 | [無限の袋](/items/fukuro3) | 鍛冶 |
 | [無限の袋(増)](/items/fukuro3_ex) | 鍛冶 |
+| [盗賊の証(遊人Lv30 & 武闘Lv30)](/items/to) | 宝箱 |
+| [忍者の証(盗賊Lv50 & レンLv50 & 魔戦Lv50)](/items/ni) | 宝箱 |
+| [道具使いの証(遊人Lv30 & 僧侶Lv30)](/items/dt) | 宝箱 |
+| [道具マスターの証(道具Lv50 & 魔物Lv50)](/items/dm) | 宝箱 |
 
 ## 関連ページ
 

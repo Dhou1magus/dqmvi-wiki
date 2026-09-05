@@ -1,12 +1,12 @@
 ---
 title: 呪力のモト
-description: DQMVIの「呪力のモト」を落とすモンスター47体の一覧。いちばん弱いのはプリズニャン（通常・EXP72）。
+description: DQMVIの「呪力のモト」を落とすモンスター48体の一覧。いちばん弱いのはプリズニャン（通常・EXP72）。
 pageClass: wide-page sortable-list
 ---
 
 # 呪力のモト
 
-素材。**47体**のモンスターが落とします。
+素材。**48体**のモンスターが落とします。
 
 ::: tip ねらい目
 **プリズニャン**（通常ドロップ・EXP72）。
@@ -30,6 +30,7 @@ pageClass: wide-page sortable-list
 | [ローズバトラー](/monsters/rozubatora) | 通常 | 3 | [自然](/species/sizen) | 188 | 146 | ふつうの土地 |
 | [コロネホワイト](/monsters/pastypastry) | 通常 | 4 | [スライム](/species/slime) | 193 | 148 | ふつうの土地 |
 | [デュラハーン](/monsters/durahan) | 通常 | 4 | [悪魔](/species/akuma) | 211 | 165 | ふつうの土地 |
+| [しのさそり](/monsters/death_scorpion) | 通常 | 4 | [自然](/species/sizen) | 203 | 174 | ふつうの土地 |
 | [キラークラブ](/monsters/killer_crab2) | 通常 | 4 | [自然](/species/sizen) | 182 | 175 | ふつうの土地 |
 | [バアラック](/monsters/barakku) | 通常 | 5 | [悪魔](/species/akuma) | 497 | 264 | ふつうの土地 |
 | [まおうのランプ](/monsters/annihilantern) | 通常 | 5 | [物質](/species/bussitu) | 435 | 264 | ふつうの土地 |
@@ -40,6 +41,7 @@ pageClass: wide-page sortable-list
 | [パペットマン](/monsters/papettoman) | 通常 | 6 | [物質](/species/bussitu) | 840 | 357 | 果ての世界 |
 | [しりょうのきし](/monsters/siryounokisi) | 通常 | 6 | [ゾンビ](/species/zombie) | 1,072 | 369 | 魔物の骨荒野・果ての世界 |
 | [根絶やしの竜](/monsters/nedayashinoryu) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,326 | 472 | ふつうの土地 |
+| [凶メタルスライム](/monsters/kyoumetalslime) | 通常 | 3 | [メタル](/species/metal) | 12 | 8,800 | ふつうの土地 |
 | [きとうし](/monsters/kitousi) | レア | 3 | [悪魔](/species/akuma) | 92 | 80 | 魔法の森 |
 | [シャーマン](/monsters/syaman) | レア | 3 | [ゾンビ](/species/zombie) | 115 | 142 | ふつうの土地 |
 | [ブラックベジター](/monsters/burakkubejita) | レア | 5 | [自然](/species/sizen) | 532 | 260 | おばけキノコの森・ネザー |
@@ -62,7 +64,6 @@ pageClass: wide-page sortable-list
 | [しにがみきぞく](/monsters/shinigamikizoku) | 超レア | 3 | [ゾンビ](/species/zombie) | 182 | 143 | ネザー |
 | [スカルゴン](/monsters/skalgon) | 超レア | 3 | [ドラゴン](/species/dragon) | 175 | 145 | ふつうの土地 |
 | [ハートボイルド](/monsters/heartvoiled) | 超レア | 4 | [スライム](/species/slime) | 191 | 147 | ふつうの土地 |
-| [アカツキショウグン](/monsters/akatsuki_shogun) | 超レア | 4 | [ドラゴン](/species/dragon) | 212 | 184 | ふつうの土地 |
 | [シュプリンガー](/monsters/springer) | 超レア | 4 | [ドラゴン](/species/dragon) | 184 | 192 | ふつうの土地 |
 
 見出しを押すと並べ替えできます。

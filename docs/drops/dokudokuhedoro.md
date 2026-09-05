@@ -1,12 +1,12 @@
 ---
 title: どくどくヘドロ
-description: DQMVIの「どくどくヘドロ」を落とすモンスター15体の一覧。いちばん弱いのはひとくいが（通常・EXP41）。
+description: DQMVIの「どくどくヘドロ」を落とすモンスター16体の一覧。いちばん弱いのはひとくいが（通常・EXP41）。
 pageClass: wide-page sortable-list
 ---
 
 # どくどくヘドロ
 
-素材。**15体**のモンスターが落とします。
+素材。**16体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ひとくいが**（通常ドロップ・EXP41）。
@@ -20,6 +20,7 @@ pageClass: wide-page sortable-list
 | [ひとくいが](/monsters/hitokuiga) | 通常 | 2 | [自然](/species/sizen) | 53 | 41 | キメラの断崖 |
 | [ハエおとこ](/monsters/heotoko) | 通常 | 2 | [自然](/species/sizen) | 42 | 47 | ふつうの土地 |
 | [マーマン](/monsters/merman) | 通常 | 2 | [自然](/species/sizen) | 63 | 55 | ふつうの土地 |
+| [platypunk_shippodan](/monsters/platypunk_shippodan) | 通常 | 2 | [魔獣](/species/majyu) | 67 | 55 | ふつうの土地 |
 | [くさった死体](/monsters/kusattasitai) | 通常 | 2 | [ゾンビ](/species/zombie) | 80 | 60 | ふつうの土地 |
 | [しのどれい](/monsters/sinodorei) | 通常 | 2 | [ゾンビ](/species/zombie) | 72 | 65 | ふつうの土地 |
 | [どくやずきん](/monsters/dokuyazukin) | 通常 | 3 | [悪魔](/species/akuma) | 84 | 85 | 毒の大湿地・ネザー |

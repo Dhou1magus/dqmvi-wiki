@@ -1,12 +1,12 @@
 ---
 title: あやかし草
-description: DQMVIの「あやかし草」を落とすモンスター14体の一覧。いちばん弱いのはベビーサタン（通常・EXP38）。
+description: DQMVIの「あやかし草」を落とすモンスター15体の一覧。いちばん弱いのはベビーサタン（通常・EXP38）。
 pageClass: wide-page sortable-list
 ---
 
 # あやかし草
 
-素材。**14体**のモンスターが落とします。
+素材。**15体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ベビーサタン**（通常ドロップ・EXP38）。
@@ -22,6 +22,7 @@ pageClass: wide-page sortable-list
 | [ピクシー](/monsters/pikusi2) | 通常 | 2 | [悪魔](/species/akuma) | 45 | 41 | ふつうの土地 |
 | [くしざしツインズ](/monsters/kusizasituinzu) | 通常 | 2 | [自然](/species/sizen) | 63 | 55 | ふつうの土地 |
 | [スペクテット](/monsters/supekutetto) | 通常 | 3 | [悪魔](/species/akuma) | 93 | 86 | ふつうの土地 |
+| [デスセイレス](/monsters/desuseiresu) | 通常 | 3 | [悪魔](/species/akuma) | 102 | 97 | ふつうの土地 |
 | [エビルスピリッツ](/monsters/evilspirits) | 通常 | 3 | [ゾンビ](/species/zombie) | 95 | 110 | ネザー |
 | [ピンクモーモン](/monsters/pinkmomon) | レア | 2 | [悪魔](/species/akuma) | 55 | 45 | 妖精の花畑 |
 | [のろいのランプ](/monsters/malevolantern) | レア | 2 | [物質](/species/bussitu) | 46 | 46 | ふつうの土地 |
