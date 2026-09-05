@@ -65,17 +65,17 @@ const cats = computed(() => [
   {
     title: 'モンスター',
     items: [
-      { t: 'モンスター図鑑', link: '/monsters/', wide: true },
-      { t: '出現場所から探す', link: '/biomes/', wide: true },
-      { t: 'ドロップ品から探す', link: '/drops/', wide: true },
-      { t: '系統から探す', link: '/species/', wide: true }
+      { t: 'モンスター図鑑', link: '/monsters/' },
+      { t: '出現場所から探す', link: '/biomes/' },
+      { t: 'ドロップ品から探す', link: '/drops/' },
+      { t: '系統から探す', link: '/species/' }
     ]
   },
   {
     title: 'なかまモンスター',
     items: [
-      { t: '仲間にする・育てる', link: '/play/pets', wide: true },
-      { t: '作戦（ガンビット）', link: '/play/gambit', wide: true },
+      { t: '仲間にする・育てる', link: '/play/pets' },
+      { t: '作戦（ガンビット）', link: '/play/gambit' },
       { t: '配合', link: '/play/pets' },
       { t: '種族シナジー', link: '/play/pets' },
       { t: 'おすすめ編成' }
@@ -84,8 +84,8 @@ const cats = computed(() => [
   {
     title: '職業',
     items: [
-      { t: '職業一覧', link: '/jobs/', wide: true },
-      { t: '転職とサブ職業', link: '/play/jobs', wide: true },
+      { t: '職業一覧', link: '/jobs/' },
+      { t: '転職とサブ職業', link: '/play/jobs' },
       { t: '必殺技', link: '/jobs/' }, { t: '武器の適性', link: '/jobs/' },
       { t: 'おすすめ職業' }
     ]
@@ -93,8 +93,8 @@ const cats = computed(() => [
   {
     title: '呪文・特技',
     items: [
-      { t: '呪文一覧', link: '/spells/', wide: true },
-      { t: '特技一覧', link: '/skills/', wide: true },
+      { t: '呪文一覧', link: '/spells/' },
+      { t: '特技一覧', link: '/skills/' },
       { t: '消費MPで探す', link: '/spells/' },
       { t: '武器別の特技', link: '/skills/' },
       { t: '移動呪文' }
@@ -103,32 +103,32 @@ const cats = computed(() => [
   {
     title: '武器・防具',
     items: [
-      { t: '武器', link: '/items/weapons', wide: true },
-      { t: '防具', link: '/items/armor', wide: true },
+      { t: '武器', link: '/items/weapons' },
+      { t: '防具', link: '/items/armor' },
       { t: '盾', link: '/items/shields' },
       { t: 'アクセサリー', link: '/items/accessories' },
-      { t: '転生装備', link: '/items/tensei', wide: true },
-      { t: '特殊効果つきの装備', link: '/items/weapons', wide: true }
+      { t: '転生装備', link: '/items/tensei' },
+      { t: '特殊効果つきの装備', link: '/items/weapons' }
     ]
   },
   {
     title: 'アイテム・素材',
     items: [
-      { t: 'アイテム一覧', link: '/items/', wide: true },
+      { t: 'アイテム一覧', link: '/items/' },
       { t: '素材', link: '/items/materials' }, { t: '種', link: '/items/seeds' },
       { t: '釣り', link: '/items/fishing' }, { t: '特殊', link: '/items/special' },
       { t: '建物', link: '/items/buildings' }, { t: '装飾', link: '/items/decoration' },
-      { t: 'アイテムの使い方', link: '/play/items', wide: true },
-      { t: '入手場所から逆引き', link: '/drops/', wide: true },
+      { t: 'アイテムの使い方', link: '/play/items' },
+      { t: '入手場所から逆引き', link: '/drops/' },
       { t: '種・作物の育て方', link: '/play/farming' }, { t: 'ちいさなメダル' }
     ]
   },
   {
     title: '鍛冶・クラフト',
     items: [
-      { t: '装備を作る（目押し）', link: '/play/smithing', wide: true },
-      { t: '品質と強化・分解', link: '/play/smithing', wide: true },
-      { t: '素材の集め方', link: '/drops/', wide: true },
+      { t: '装備を作る（目押し）', link: '/play/smithing' },
+      { t: '品質と強化・分解', link: '/play/smithing' },
+      { t: '素材の集め方', link: '/drops/' },
       { t: 'レシピ一覧' }
     ]
   },
@@ -136,14 +136,14 @@ const cats = computed(() => [
     title: 'ダンジョン・施設',
     items: [
       { t: 'ダンジョン一覧' }, { t: '村・町一覧' },
-      { t: '拠点づくりとお店', link: '/play/facilities', wide: true },
-      { t: 'マジックツールダンジョン', link: '/play/facilities', wide: true }
+      { t: '拠点づくりとお店', link: '/play/facilities' },
+      { t: 'マジックツールダンジョン', link: '/play/facilities' }
     ]
   },
   {
     title: 'バイオーム・マップ',
     items: [
-      { t: 'バイオーム別の出現モンスター', link: '/biomes/', wide: true },
+      { t: 'バイオーム別の出現モンスター', link: '/biomes/' },
       { t: 'ネザー', link: '/biomes/nether' }, { t: '果ての世界', link: '/biomes/end' },
       { t: '座標メモ' }
     ]
@@ -159,10 +159,10 @@ const cats = computed(() => [
     title: 'MOD情報・不具合',
     acc: true,
     items: [
-      { t: '導入方法', link: '/guide/install', wide: true },
-      { t: 'よくある質問', link: '/guide/faq', wide: true },
-      { t: 'ご意見箱', link: '/guide/feedback', wide: true },
-      { t: 'MOD更新履歴', link: '/guide/updates', wide: true },
+      { t: '導入方法', link: '/guide/install' },
+      { t: 'よくある質問', link: '/guide/faq' },
+      { t: 'ご意見箱', link: '/guide/feedback' },
+      { t: 'MOD更新履歴', link: '/guide/updates' },
       { t: '前提MOD' }, { t: '競合MOD' }
     ]
   }
@@ -371,7 +371,7 @@ function onKey(event) {
       <div v-for="c in catsReady" :key="c.title" class="cat" :class="{ acc: c.acc }">
         <h3>{{ c.title }}</h3>
         <ul>
-          <li v-for="i in c.items" :key="i.t" :class="{ wide: i.wide }">
+          <li v-for="i in c.items" :key="i.t">
             <a :href="withBase(i.link)">{{ i.t }}</a>
           </li>
         </ul>

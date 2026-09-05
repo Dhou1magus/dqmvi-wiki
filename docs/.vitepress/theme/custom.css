@@ -902,13 +902,13 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   flex-wrap: wrap;
   gap: 2px 0;
 }
+/* 項目は1行に1つ（以前は 50% 幅で左右2列に並べ、wide 指定だけ1行にしていた。
+   2026-09-05 よっしー「変なところ(右)にある項目を普通に縦に並べたい」で全部1列に） */
 .cat li {
-  width: 50%;
+  width: 100%;
   font-size: 13px;
   line-height: 1.85;
-  padding-right: 8px;
 }
-.cat li.wide { width: 100%; }
 .cat a {
   color: var(--vp-c-text-1);
   text-decoration: none;
