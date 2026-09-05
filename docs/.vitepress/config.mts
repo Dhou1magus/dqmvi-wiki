@@ -229,6 +229,9 @@ export default defineConfig({
   markdown: {
     html: false,
     linkify: false,
+    // Enter 1回で改行にする（GitHub のコメント欄と同じ）。編集する人が「改行できない」と困ったため（2026-09-05）。
+    // 表・箇条書き・コードブロックには影響しない。段落を分けたいときは今までどおり空行。
+    breaks: true,
     // 本文の画像は見えるところまで来てから読む（図鑑の586行ぶんの画像を一度に取りにいかない）
     image: { lazyLoading: true },
     config(md) {
