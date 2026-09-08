@@ -179,9 +179,8 @@ const wanted = computed(() => {
 })
 
 const log = [
-  { d: '09-08', t: 'モンスター図鑑に系統絞り込み機能を追加', link: '/monsters', who: 'よっしー',
-    d: '09-07', t: 'DQMVI 0.28.41 に一部対応', link: '/guide/updates', who: 'よっしー'
-  }
+  { d: '09-08', t: 'モンスター図鑑に系統絞り込み機能を追加', link: '/monsters/', who: 'よっしー' },
+  { d: '09-07', t: 'DQMVI 0.28.41 に一部対応', link: '/guide/updates', who: 'よっしー' }
 ]
 
 // ── トップの検索 ──────────────────────────────────────────
@@ -326,7 +325,7 @@ function onKey(event) {
 
     <div class="tiles">
       <a v-for="p in primary" :key="p.t" :href="withBase(p.link)" class="tile">
-        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[p.icon]" /></svg>
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[p.icon]" /></svg></span>
         <span class="t">{{ p.t }}<i v-if="p.spoiler" class="sp">ネタバレ</i></span>
         <span class="d">{{ p.d }}</span>
       </a>
