@@ -869,7 +869,8 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
     box-shadow: 0 5px 0 var(--key-edge-on);
     transform: translateY(-2px);
   }
-  .qlist a:hover .a::after { background: var(--vp-c-brand-1); color: #fff; }
+  .qlist a:hover .a .arr { background: var(--vp-c-brand-1); }
+  .qlist a:hover .a .arr svg { stroke: #fff; }
 }
 .qlist a:active {
   border-color: var(--vp-c-brand-1);
@@ -889,19 +890,29 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   color: var(--vp-c-brand-1);
   white-space: nowrap;
 }
-/* 行き先の右に小さな丸い矢印。指を置くと緑に塗りつぶす */
-.qlist .a::after {
-  content: "›";
+/* 行き先の右に小さな丸い矢印。指を置くと緑に塗りつぶす。
+   以前は文字「›」を丸の中央に置いていたが、書体によっては線が極細になり、
+   スマホの実機では点にしか見えなくなる事故が起きた（2026-09-08 よっしー報告）。
+   .tile のアイコンと同じ「stroke で描く svg」に変えて、太さが書体に左右されないようにした */
+.qlist .a .arr {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand-1);
   display: grid;
   place-items: center;
-  font-size: 14px;
-  line-height: 1;
-  transition: background 0.12s, color 0.12s;
+  flex-shrink: 0;
+  transition: background 0.12s;
+}
+.qlist .a .arr svg {
+  width: 12px;
+  height: 12px;
+  stroke: var(--vp-c-brand-1);
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke 0.12s;
 }
 
 /* はじめての人へ */
