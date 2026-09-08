@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useData, withBase } from 'vitepress'
 
 const { frontmatter, theme } = useData()
@@ -178,6 +178,46 @@ const wanted = computed(() => {
   return out
 })
 
+/**
+ * カードの高さ揃え（2026-09-08 よっしー報告「大見出しがガタガタ」）。
+ * カテゴリごとに項目数が違うので、CSSの align-items: start のままだと
+ * 段をまたいでカードの下端がバラバラになる。件数を決め打ちにせず、
+ * 実際に描画された高さを毎回測って一番高いカードに合わせる
+ * （項目を足し引きしても自動で追従する。sortable-tables.ts の
+ * 固定列と同じ「measure → resize で付け直す」やり方）。
+ * スマホ幅で1列に落ちたときは段の概念が無く揃える意味も無いので触らない
+ * （揃えると、件数の少ないカードの下に無駄な空白が延々と続くだけになる）。
+ */
+const catWall = ref(null)
+
+function equalizeCatHeights() {
+  const el = catWall.value
+  if (!el) return
+  const cards = [...el.children].filter((c) => c.classList.contains('cat'))
+  if (cards.length < 2) return
+  cards.forEach((c) => { c.style.height = '' })
+  const singleColumn = cards.every((c) => c.offsetLeft === cards[0].offsetLeft)
+  if (singleColumn) return
+  const max = Math.max(...cards.map((c) => c.offsetHeight))
+  cards.forEach((c) => { c.style.height = `${max}px` })
+}
+
+let catResizeTimer
+function onCatWallResize() {
+  clearTimeout(catResizeTimer)
+  catResizeTimer = setTimeout(equalizeCatHeights, 200)
+}
+
+onMounted(() => {
+  equalizeCatHeights()
+  document.fonts?.ready.then(equalizeCatHeights)
+  window.addEventListener('resize', onCatWallResize)
+})
+onUnmounted(() => {
+  window.removeEventListener('resize', onCatWallResize)
+  clearTimeout(catResizeTimer)
+})
+
 const log = [
   { d: '09-08', t: 'ボタンのデザインを変更', link: '/monsters/', who: 'よっしー' },
   { d: '09-08', t: 'モンスター図鑑に系統絞り込み機能を追加', link: '/monsters/', who: 'よっしー' },
@@ -350,7 +390,7 @@ function onKey(event) {
     </div>
 
     <h2 class="sec-h">すべてのページ</h2>
-    <div class="cat-wall">
+    <div class="cat-wall" ref="catWall">
       <div v-for="c in catsReady" :key="c.title" class="cat" :class="{ acc: c.acc }">
         <h3>{{ c.title }}</h3>
         <ul>
