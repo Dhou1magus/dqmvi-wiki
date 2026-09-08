@@ -2,6 +2,12 @@
 title: 巨大ヒゲトカゲ
 description: DQMVIの「巨大ヒゲトカゲ」を落とすモンスター25体の一覧。いちばん弱いのはオベルジーヌ（通常・EXP81）。
 pageClass: wide-page sortable-list
+prev:
+  text: "巨大な牙"
+  link: /drops/kyodainakiba
+next:
+  text: "玉鋼の剣"
+  link: /drops/tamaganenoturugi
 ---
 
 # 巨大ヒゲトカゲ

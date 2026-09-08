@@ -2,6 +2,12 @@
 title: ゲノミーの触手
 description: DQMVIの「ゲノミーの触手」を落とすモンスター1体の一覧。いちばん弱いのはゲノミー（通常・EXP1,804）。
 pageClass: wide-page sortable-list
+prev:
+  text: "グレートアックス"
+  link: /drops/gureitoakusu
+next:
+  text: "げんこつダケ"
+  link: /drops/dqm_genkotu_block
 ---
 
 # ゲノミーの触手

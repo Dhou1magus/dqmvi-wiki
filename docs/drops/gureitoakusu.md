@@ -2,6 +2,12 @@
 title: グレートアックス
 description: DQMVIの「グレートアックス」を落とすモンスター2体の一覧。いちばん弱いのはドラゴンソルジャー（超レア・EXP681）。
 pageClass: wide-page sortable-list
+prev:
+  text: "グレイトドラゴン・雲の牙"
+  link: /drops/gureitodoragonkumonokiba
+next:
+  text: "ゲノミーの触手"
+  link: /drops/genominosyokusyu
 ---
 
 # グレートアックス

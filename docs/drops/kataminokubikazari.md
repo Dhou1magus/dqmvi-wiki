@@ -2,6 +2,12 @@
 title: 形見の首飾り
 description: DQMVIの「形見の首飾り」を落とすモンスター1体の一覧。いちばん弱いのはキラーパンサー（枠6・EXP350）。
 pageClass: wide-page sortable-list
+prev:
+  text: "金塊"
+  link: /drops/kinkai
+next:
+  text: "月のダイヤ"
+  link: /drops/moon
 ---
 
 # 形見の首飾り

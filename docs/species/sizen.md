@@ -3,6 +3,12 @@ title: 自然系
 description: DQMVIの自然系モンスター101体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
+prev:
+  text: "物質系"
+  link: /species/bussitu
+next:
+  text: "スライム系"
+  link: /species/slime
 ---
 
 # 自然系

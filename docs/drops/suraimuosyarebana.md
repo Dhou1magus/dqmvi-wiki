@@ -2,6 +2,12 @@
 title: スライムおしゃれ花
 description: DQMVIの「スライムおしゃれ花」を落とすモンスター32体の一覧。いちばん弱いのはベホイミスライム（通常・EXP77）。
 pageClass: wide-page sortable-list
+prev:
+  text: "スライダークロボの剣"
+  link: /drops/suraidakurobonoken
+next:
+  text: "スライムゼリー"
+  link: /drops/suraimuzeri
 ---
 
 # スライムおしゃれ花

@@ -2,6 +2,12 @@
 title: ももいろ三姉妹のピアス
 description: DQMVIの「ももいろ三姉妹のピアス」を落とすモンスター1体の一覧。いちばん弱いのはももいろ三姉妹（通常・EXP289）。
 pageClass: wide-page sortable-list
+prev:
+  text: "メタルキングの小手"
+  link: /drops/metarukingnokote
+next:
+  text: "もろはのつるぎ"
+  link: /drops/morohanoturugi
 ---
 
 # ももいろ三姉妹のピアス

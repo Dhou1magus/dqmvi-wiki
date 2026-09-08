@@ -2,6 +2,12 @@
 title: ギガクラッシャー
 description: DQMVIの「ギガクラッシャー」を落とすモンスター3体の一覧。いちばん弱いのはトロルボンバー（超レア・EXP752）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ガマのあぶら"
+  link: /drops/gamanoabura
+next:
+  text: "キメラのつばさ"
+  link: /drops/kimeranotubasa
 ---
 
 # ギガクラッシャー

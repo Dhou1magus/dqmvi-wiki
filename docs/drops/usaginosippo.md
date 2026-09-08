@@ -2,6 +2,12 @@
 title: うさぎのしっぽ
 description: DQMVIの「うさぎのしっぽ」を落とすモンスター3体の一覧。いちばん弱いのはいっかくうさぎ（通常・EXP11）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ウォーハンマー改"
+  link: /drops/wohanmakai
+next:
+  text: "うしのふん"
+  link: /drops/usinofun
 ---
 
 # うさぎのしっぽ

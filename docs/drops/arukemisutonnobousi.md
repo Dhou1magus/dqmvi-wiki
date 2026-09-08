@@ -2,6 +2,12 @@
 title: アルケミストンの帽子
 description: DQMVIの「アルケミストンの帽子」を落とすモンスター1体の一覧。いちばん弱いのはアルケミストン（通常・EXP904）。
 pageClass: wide-page sortable-list
+prev:
+  text: "あらくれマスク"
+  link: /drops/arakuremasuku
+next:
+  text: "いかずちの玉"
+  link: /drops/ikazutinotama
 ---
 
 # アルケミストンの帽子

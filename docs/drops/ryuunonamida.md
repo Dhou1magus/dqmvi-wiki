@@ -2,6 +2,12 @@
 title: 竜のなみだ
 description: DQMVIの「竜のなみだ」を落とすモンスター28体の一覧。いちばん弱いのはドラゴンゾンビ（通常・EXP171）。
 pageClass: wide-page sortable-list
+prev:
+  text: "竜のうろこ"
+  link: /drops/ryuunouroko
+next:
+  text: "竜の火酒"
+  link: /drops/ryuunohizake
 ---
 
 # 竜のなみだ

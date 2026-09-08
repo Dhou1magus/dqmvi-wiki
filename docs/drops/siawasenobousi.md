@@ -2,6 +2,12 @@
 title: しあわせの帽子
 description: DQMVIの「しあわせの帽子」を落とすモンスター2体の一覧。いちばん弱いのはマジカルハット（超レア・EXP333）。
 pageClass: wide-page sortable-list
+prev:
+  text: "さんぞくサーベル"
+  link: /drops/sanzokusaberu
+next:
+  text: "シールドあにきの盾"
+  link: /drops/sirudoanikinotate
 ---
 
 # しあわせの帽子

@@ -2,6 +2,12 @@
 title: べっこう
 description: DQMVIの「べっこう」を落とすモンスター54体の一覧。いちばん弱いのはプレミアムスライム（通常・EXP40）。
 pageClass: wide-page sortable-list
+prev:
+  text: "フレアドラゴンのうろこ"
+  link: /drops/fureadoragonnouroko
+next:
+  text: "ヘビーメタル"
+  link: /drops/metaru
 ---
 
 # べっこう

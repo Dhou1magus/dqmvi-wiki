@@ -2,6 +2,12 @@
 title: オークの原木
 description: DQMVIの「オークの原木」を落とすモンスター1体の一覧。いちばん弱いのはきりかぶおばけ（レア・EXP41）。
 pageClass: wide-page sortable-list
+prev:
+  text: "おおかなづち"
+  link: /drops/ookanaduti
+next:
+  text: "おにのかなぼう"
+  link: /drops/oninokanabou
 ---
 
 # オークの原木

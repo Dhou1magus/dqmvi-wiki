@@ -2,6 +2,12 @@
 title: ミスリル
 description: DQMVIの「ミスリル」を落とすモンスター15体の一覧。いちばん弱いのはメタルライダー（通常・EXP269）。
 pageClass: wide-page sortable-list
+prev:
+  text: "まりょくの土"
+  link: /drops/maryokunotuti
+next:
+  text: "ミスリルメイル"
+  link: /drops/misurirumeiru
 ---
 
 # ミスリル

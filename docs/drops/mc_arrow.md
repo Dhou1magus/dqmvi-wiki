@@ -2,6 +2,12 @@
 title: 矢
 description: DQMVIの「矢」を落とすモンスター1体の一覧。いちばん弱いのはリリパット（レア・EXP33）。
 pageClass: wide-page sortable-list
+prev:
+  text: "名刀 斬鉄丸"
+  link: /drops/meitouzantetumaru
+next:
+  text: "薬草(HP+30)"
+  link: /drops/yakusou
 ---
 
 # 矢

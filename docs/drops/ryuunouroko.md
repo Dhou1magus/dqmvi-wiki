@@ -2,6 +2,12 @@
 title: 竜のうろこ
 description: DQMVIの「竜のうろこ」を落とすモンスター1体の一覧。いちばん弱いのはドラゴン（超レア・EXP200）。
 pageClass: wide-page sortable-list
+prev:
+  text: "溶岩石のかけら"
+  link: /drops/yougansekinokakera
+next:
+  text: "竜のなみだ"
+  link: /drops/ryuunonamida
 ---
 
 # 竜のうろこ

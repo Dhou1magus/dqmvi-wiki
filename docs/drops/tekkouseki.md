@@ -2,6 +2,12 @@
 title: 鉄鉱石
 description: DQMVIの「鉄鉱石」を落とすモンスター12体の一覧。いちばん弱いのははじけドーラ（通常・EXP12）。
 pageClass: wide-page sortable-list
+prev:
+  text: "鉄のヤリ"
+  link: /drops/tetunoyari
+next:
+  text: "闘魂エキス"
+  link: /drops/toukonekisu
 ---
 
 # 鉄鉱石

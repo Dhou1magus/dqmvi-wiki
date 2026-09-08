@@ -2,6 +2,12 @@
 title: メタルキングの盾
 description: DQMVIの「メタルキングの盾」を落とすモンスター2体の一覧。いちばん弱いのはゴールデントーテム（超レア・EXP105）。
 pageClass: wide-page sortable-list
+prev:
+  text: "メタルキングの剣"
+  link: /drops/metarukingnoturugi
+next:
+  text: "メタルキングの小手"
+  link: /drops/metarukingnokote
 ---
 
 # メタルキングの盾

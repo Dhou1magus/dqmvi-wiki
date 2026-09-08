@@ -2,6 +2,12 @@
 title: せいすい
 description: DQMVIの「せいすい」を落とすモンスター8体の一覧。いちばん弱いのはうみぼうず（レア・EXP156）。
 pageClass: wide-page sortable-list
+prev:
+  text: "スライムボール"
+  link: /drops/mc_slime_ball
+next:
+  text: "せいどうの盾"
+  link: /drops/seidounotate
 ---
 
 # せいすい

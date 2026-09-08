@@ -2,6 +2,12 @@
 title: 金貨
 description: DQMVIの「金貨」を落とすモンスター1体の一覧。いちばん弱いのはゴールドマン（通常・EXP435）。
 pageClass: wide-page sortable-list
+prev:
+  text: "金のリンゴ"
+  link: /drops/mc_golden_apple
+next:
+  text: "金塊"
+  link: /drops/kinkai
 ---
 
 # 金貨

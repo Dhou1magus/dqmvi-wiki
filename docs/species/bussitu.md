@@ -3,6 +3,10 @@ title: 物質系
 description: DQMVIの物質系モンスター125体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
+prev: false
+next:
+  text: "自然系"
+  link: /species/sizen
 ---
 
 # 物質系

@@ -2,6 +2,12 @@
 title: 貴重なレシピ(斧、槌、棍)
 description: DQMVIの「貴重なレシピ(斧、槌、棍)」を落とすモンスター4体の一覧。いちばん弱いのはバトルレックス（超レア・EXP675）。
 pageClass: wide-page sortable-list
+prev:
+  text: "貴重なレシピ(破壊)"
+  link: /drops/hakai
+next:
+  text: "貴重なレシピ(防具)"
+  link: /drops/bougu
 ---
 
 # 貴重なレシピ(斧、槌、棍)

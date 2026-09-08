@@ -3,6 +3,10 @@ title: 特殊系
 description: DQMVIの特殊系モンスター9体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
+prev:
+  text: "メタル系"
+  link: /species/metal
+next: false
 ---
 
 # 特殊系

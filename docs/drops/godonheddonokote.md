@@ -2,6 +2,12 @@
 title: ゴードンヘッドの小手
 description: DQMVIの「ゴードンヘッドの小手」を落とすモンスター1体の一覧。いちばん弱いのはゴードンヘッド（通常・EXP8,519）。
 pageClass: wide-page sortable-list
+prev:
+  text: "こうもりの羽根"
+  link: /drops/koumorinohane
+next:
+  text: "こおりの結晶"
+  link: /drops/koorinokessyou
 ---
 
 # ゴードンヘッドの小手

@@ -2,6 +2,12 @@
 title: 花のみつ
 description: DQMVIの「花のみつ」を落とすモンスター13体の一覧。いちばん弱いのはぶちスライム（通常・EXP4）。
 pageClass: wide-page sortable-list
+prev:
+  text: "わんぱくサタンのスプーン"
+  link: /drops/wanpakusatannosupun
+next:
+  text: "奇跡の剣"
+  link: /drops/kisekinoturugi
 ---
 
 # 花のみつ

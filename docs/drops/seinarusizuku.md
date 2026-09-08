@@ -2,6 +2,12 @@
 title: せいなるしずく
 description: DQMVIの「せいなるしずく」を落とすモンスター2体の一覧。いちばん弱いのはクイーンスライム（通常・EXP648）。
 pageClass: wide-page sortable-list
+prev:
+  text: "せいどうの盾"
+  link: /drops/seidounotate
+next:
+  text: "せかいじゅの葉"
+  link: /drops/sekaijunoha
 ---
 
 # せいなるしずく

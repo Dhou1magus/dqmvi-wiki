@@ -2,6 +2,12 @@
 title: てんしのソーマ
 description: DQMVIの「てんしのソーマ」を落とすモンスター2体の一覧。いちばん弱いのはスターキメラ（通常・EXP628）。
 pageClass: wide-page sortable-list
+prev:
+  text: "デュークアックス"
+  link: /drops/dukeakkusu
+next:
+  text: "てんしのはね"
+  link: /drops/tensinohane
 ---
 
 # てんしのソーマ

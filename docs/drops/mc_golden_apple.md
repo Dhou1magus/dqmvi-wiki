@@ -2,6 +2,12 @@
 title: 金のリンゴ
 description: DQMVIの「金のリンゴ」を落とすモンスター1体の一覧。いちばん弱いのはガップリン（通常・EXP151）。
 pageClass: wide-page sortable-list
+prev:
+  text: "玉鋼の剣"
+  link: /drops/tamaganenoturugi
+next:
+  text: "金貨"
+  link: /drops/kinka
 ---
 
 # 金のリンゴ

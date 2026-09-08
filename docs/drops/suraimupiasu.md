@@ -2,6 +2,12 @@
 title: スライムピアス
 description: DQMVIの「スライムピアス」を落とすモンスター2体の一覧。いちばん弱いのはスライム（超レア・EXP2）。
 pageClass: wide-page sortable-list
+prev:
+  text: "スライムの冠"
+  link: /drops/suraimunokanmuri
+next:
+  text: "スライムヘッド"
+  link: /drops/suraimuhead
 ---
 
 # スライムピアス

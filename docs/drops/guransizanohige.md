@@ -2,6 +2,12 @@
 title: グランシーザーの髭
 description: DQMVIの「グランシーザーの髭」を落とすモンスター1体の一覧。いちばん弱いのはグランシーザー（通常・EXP6,989）。
 pageClass: wide-page sortable-list
+prev:
+  text: "クイーンモーモンの冠"
+  link: /drops/kuinmomonnokanmuri
+next:
+  text: "グレイトドラゴン・雲の牙"
+  link: /drops/gureitodoragonkumonokiba
 ---
 
 # グランシーザーの髭

@@ -2,6 +2,12 @@
 title: 伐採マシンの鎌
 description: DQMVIの「伐採マシンの鎌」を落とすモンスター1体の一覧。いちばん弱いのは伐採マシン（通常・EXP3,906）。
 pageClass: wide-page sortable-list
+prev:
+  text: "爆弾石"
+  link: /drops/bakudanisi
+next:
+  text: "隼の剣改"
+  link: /drops/hayabusanoturugikai
 ---
 
 # 伐採マシンの鎌

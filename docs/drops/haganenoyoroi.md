@@ -2,6 +2,12 @@
 title: 鋼の鎧
 description: DQMVIの「鋼の鎧」を落とすモンスター3体の一覧。いちばん弱いのはテンタクルス（超レア・EXP285）。
 pageClass: wide-page sortable-list
+prev:
+  text: "光の石"
+  link: /drops/hikarinoisi
+next:
+  text: "鋼の剣"
+  link: /drops/haganenoturugi
 ---
 
 # 鋼の鎧

@@ -2,6 +2,12 @@
 title: キングダイヤ
 description: DQMVIの「キングダイヤ」を落とすモンスター22体の一覧。いちばん弱いのはグレイブディガー（通常・EXP914）。
 pageClass: wide-page sortable-list
+prev:
+  text: "キラーパイクのピッケル"
+  link: /drops/kirapaikunopikeru
+next:
+  text: "キングヒドラの頭"
+  link: /drops/kinghidoranoatama
 ---
 
 # キングダイヤ

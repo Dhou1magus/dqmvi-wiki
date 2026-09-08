@@ -2,6 +2,12 @@
 title: 鋼の剣
 description: DQMVIの「鋼の剣」を落とすモンスター11体の一覧。いちばん弱いのはデスセイレス（超レア・EXP97）。
 pageClass: wide-page sortable-list
+prev:
+  text: "鋼の鎧"
+  link: /drops/haganenoyoroi
+next:
+  text: "死神の首飾り"
+  link: /drops/sinigaminokubikazari
 ---
 
 # 鋼の剣

@@ -2,6 +2,12 @@
 title: キングヒドラの頭
 description: DQMVIの「キングヒドラの頭」を落とすモンスター1体の一覧。いちばん弱いのはキングヒドラ（通常・EXP27,898）。
 pageClass: wide-page sortable-list
+prev:
+  text: "キングダイヤ"
+  link: /drops/kingdaiya
+next:
+  text: "クイーンモーモンの冠"
+  link: /drops/kuinmomonnokanmuri
 ---
 
 # キングヒドラの頭

@@ -2,6 +2,12 @@
 title: 超怒りのタトゥー
 description: DQMVIの「超怒りのタトゥー」を落とすモンスター1体の一覧。いちばん弱いのはグレイブディガー（超レア・EXP914）。
 pageClass: wide-page sortable-list
+prev:
+  text: "超星空の首飾り"
+  link: /drops/hosizoranokubikazari2
+next:
+  text: "鉄のヤリ"
+  link: /drops/tetunoyari
 ---
 
 # 超怒りのタトゥー

@@ -2,6 +2,12 @@
 title: 貴重なレシピ(メタル、氷)
 description: DQMVIの「貴重なレシピ(メタル、氷)」を落とすモンスター2体の一覧。いちばん弱いのはスライムマデュラ（超レア・EXP700）。
 pageClass: wide-page sortable-list
+prev:
+  text: "奇跡の剣"
+  link: /drops/kisekinoturugi
+next:
+  text: "貴重なレシピ(弓、ブーメラン)"
+  link: /drops/yumi_nage
 ---
 
 # 貴重なレシピ(メタル、氷)

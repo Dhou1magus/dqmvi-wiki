@@ -2,6 +2,12 @@
 title: ゴールデンコーンの角
 description: DQMVIの「ゴールデンコーンの角」を落とすモンスター1体の一覧。いちばん弱いのはゴールデンコーン（通常・EXP841）。
 pageClass: wide-page sortable-list
+prev:
+  text: "こおりの結晶"
+  link: /drops/koorinokessyou
+next:
+  text: "ゴールドマントの剣"
+  link: /drops/gorudenmantonoken
 ---
 
 # ゴールデンコーンの角

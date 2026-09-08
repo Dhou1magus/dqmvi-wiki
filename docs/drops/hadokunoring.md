@@ -2,6 +2,12 @@
 title: 破毒のリング
 description: DQMVIの「破毒のリング」を落とすモンスター4体の一覧。いちばん弱いのはバブルキング（超レア・EXP379）。
 pageClass: wide-page sortable-list
+prev:
+  text: "特やくそう"
+  link: /drops/tokuyakusou
+next:
+  text: "白いかいがら"
+  link: /drops/siroikaigara
 ---
 
 # 破毒のリング

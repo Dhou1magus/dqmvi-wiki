@@ -2,6 +2,12 @@
 title: デュークアックス
 description: DQMVIの「デュークアックス」を落とすモンスター1体の一覧。いちばん弱いのはゴーストベリー（通常・EXP7,440）。
 pageClass: wide-page sortable-list
+prev:
+  text: "てつのクギ"
+  link: /drops/tetunokugi
+next:
+  text: "てんしのソーマ"
+  link: /drops/tensinosoma
 ---
 
 # デュークアックス

@@ -2,6 +2,12 @@
 title: やわらかウール
 description: DQMVIの「やわらかウール」を落とすモンスター7体の一覧。いちばん弱いのはモーモン（通常・EXP5）。
 pageClass: wide-page sortable-list
+prev:
+  text: "もろはのつるぎ"
+  link: /drops/morohanoturugi
+next:
+  text: "よごれた包帯"
+  link: /drops/yogoretahoutai
 ---
 
 # やわらかウール

@@ -2,6 +2,12 @@
 title: トゲトゲの牙
 description: DQMVIの「トゲトゲの牙」を落とすモンスター14体の一覧。いちばん弱いのはどくろあらい（通常・EXP39）。
 pageClass: wide-page sortable-list
+prev:
+  text: "とげこんぼうの棍棒"
+  link: /drops/togekonbounokonbou
+next:
+  text: "ドラゴンキラー"
+  link: /drops/doragonkira
 ---
 
 # トゲトゲの牙

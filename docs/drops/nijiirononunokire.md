@@ -2,6 +2,12 @@
 title: にじいろの布きれ
 description: DQMVIの「にじいろの布きれ」を落とすモンスター33体の一覧。いちばん弱いのはケダモン（通常・EXP142）。
 pageClass: wide-page sortable-list
+prev:
+  text: "にくきゅうの杖"
+  link: /drops/nikukyuunotue
+next:
+  text: "ネコ砂"
+  link: /drops/nekozuna
 ---
 
 # にじいろの布きれ

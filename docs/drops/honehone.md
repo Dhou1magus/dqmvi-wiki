@@ -2,6 +2,12 @@
 title: ホネホネ
 description: DQMVIの「ホネホネ」を落とすモンスター7体の一覧。いちばん弱いのはがいこつ（通常・EXP163）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ほしふる腕輪"
+  link: /drops/hosifuru
+next:
+  text: "ほのおの盾"
+  link: /drops/honoonotate
 ---
 
 # ホネホネ

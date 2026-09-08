@@ -2,6 +2,12 @@
 title: のろいの岩の槍
 description: DQMVIの「のろいの岩の槍」を落とすモンスター1体の一覧。いちばん弱いのは呪いの岩（通常・EXP1,733）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ねばねばゼリー"
+  link: /drops/nebanebazeri
+next:
+  text: "ハートナイトの剣"
+  link: /drops/hatonaitonoken
 ---
 
 # のろいの岩の槍

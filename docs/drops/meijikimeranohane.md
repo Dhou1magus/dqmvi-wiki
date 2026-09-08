@@ -2,6 +2,12 @@
 title: メイジキメラのはね
 description: DQMVIの「メイジキメラのはね」を落とすモンスター10体の一覧。いちばん弱いのはメイジドラキー（通常・EXP156）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ムーンキメラの羽"
+  link: /drops/moonkimeranohane
+next:
+  text: "メタルオーブ"
+  link: /drops/metaloubu
 ---
 
 # メイジキメラのはね

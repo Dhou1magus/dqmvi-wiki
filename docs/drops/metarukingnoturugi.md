@@ -2,6 +2,12 @@
 title: メタルキングの剣
 description: DQMVIの「メタルキングの剣」を落とすモンスター2体の一覧。いちばん弱いのはメタルキング（超レア・EXP44,500）。
 pageClass: wide-page sortable-list
+prev:
+  text: "メタルキングの兜"
+  link: /drops/metarukingnokabuto
+next:
+  text: "メタルキングの盾"
+  link: /drops/metarukingnotate
 ---
 
 # メタルキングの剣

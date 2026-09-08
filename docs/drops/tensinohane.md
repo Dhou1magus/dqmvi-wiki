@@ -2,6 +2,12 @@
 title: てんしのはね
 description: DQMVIの「てんしのはね」を落とすモンスター12体の一覧。いちばん弱いのはタホドラキー（通常・EXP81）。
 pageClass: wide-page sortable-list
+prev:
+  text: "てんしのソーマ"
+  link: /drops/tensinosoma
+next:
+  text: "どくがの粉"
+  link: /drops/dokuganokona
 ---
 
 # てんしのはね

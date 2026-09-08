@@ -2,6 +2,12 @@
 title: ほのおの盾
 description: DQMVIの「ほのおの盾」を落とすモンスター3体の一覧。いちばん弱いのはドラゴンゾンビ（超レア・EXP171）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ホネホネ"
+  link: /drops/honehone
+next:
+  text: "マーブルンの尻尾"
+  link: /drops/maburunnosippo
 ---
 
 # ほのおの盾

@@ -2,6 +2,12 @@
 title: 溶岩石のかけら
 description: DQMVIの「溶岩石のかけら」を落とすモンスター1体の一覧。いちばん弱いのはようがんまじん（レア・EXP285）。
 pageClass: wide-page sortable-list
+prev:
+  text: "薬草(HP+30)"
+  link: /drops/yakusou
+next:
+  text: "竜のうろこ"
+  link: /drops/ryuunouroko
 ---
 
 # 溶岩石のかけら

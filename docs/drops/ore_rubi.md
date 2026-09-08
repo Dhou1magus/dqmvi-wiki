@@ -2,6 +2,12 @@
 title: ルビーの原石
 description: DQMVIの「ルビーの原石」を落とすモンスター4体の一覧。いちばん弱いのはクイーンマチルダ（通常・EXP243）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ルビー"
+  link: /drops/rubinogenseki
+next:
+  text: "レッドアーチャーの弓"
+  link: /drops/redatyanoyumi
 ---
 
 # ルビーの原石

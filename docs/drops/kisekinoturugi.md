@@ -2,6 +2,12 @@
 title: 奇跡の剣
 description: DQMVIの「奇跡の剣」を落とすモンスター1体の一覧。いちばん弱いのはキラーマシン2（超レア・EXP931）。
 pageClass: wide-page sortable-list
+prev:
+  text: "花のみつ"
+  link: /drops/hananomitu
+next:
+  text: "貴重なレシピ(メタル、氷)"
+  link: /drops/koori_metaru
 ---
 
 # 奇跡の剣

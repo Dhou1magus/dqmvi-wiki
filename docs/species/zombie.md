@@ -3,6 +3,12 @@ title: ゾンビ系
 description: DQMVIのゾンビ系モンスター71体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
+prev:
+  text: "悪魔系"
+  link: /species/akuma
+next:
+  text: "魔獣系"
+  link: /species/majyu
 ---
 
 # ゾンビ系

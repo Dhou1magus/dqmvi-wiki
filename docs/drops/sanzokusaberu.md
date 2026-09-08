@@ -2,6 +2,12 @@
 title: さんぞくサーベル
 description: DQMVIの「さんぞくサーベル」を落とすモンスター2体の一覧。いちばん弱いのはがいこつ（超レア・EXP163）。
 pageClass: wide-page sortable-list
+prev:
+  text: "サボテンゴールドの棘"
+  link: /drops/sabotengoldnotoge
+next:
+  text: "しあわせの帽子"
+  link: /drops/siawasenobousi
 ---
 
 # さんぞくサーベル

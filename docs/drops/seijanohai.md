@@ -2,6 +2,12 @@
 title: 聖者の灰
 description: DQMVIの「聖者の灰」を落とすモンスター11体の一覧。いちばん弱いのはゴースト（通常・EXP35）。
 pageClass: wide-page sortable-list
+prev:
+  text: "聖銀の拳"
+  link: /drops/seiginnokobusi
+next:
+  text: "赤いサンゴ"
+  link: /drops/akaisango
 ---
 
 # 聖者の灰

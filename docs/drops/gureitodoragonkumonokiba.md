@@ -2,6 +2,12 @@
 title: グレイトドラゴン・雲の牙
 description: DQMVIの「グレイトドラゴン・雲の牙」を落とすモンスター1体の一覧。いちばん弱いのはグレイトドラゴン・雲（通常・EXP3,315）。
 pageClass: wide-page sortable-list
+prev:
+  text: "グランシーザーの髭"
+  link: /drops/guransizanohige
+next:
+  text: "グレートアックス"
+  link: /drops/gureitoakusu
 ---
 
 # グレイトドラゴン・雲の牙

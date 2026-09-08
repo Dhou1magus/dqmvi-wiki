@@ -2,6 +2,12 @@
 title: まじゅうの角
 description: DQMVIの「まじゅうの角」を落とすモンスター5体の一覧。いちばん弱いのはアルミラージ（通常・EXP47）。
 pageClass: wide-page sortable-list
+prev:
+  text: "マーブルンの尻尾"
+  link: /drops/maburunnosippo
+next:
+  text: "まじゅうの皮"
+  link: /drops/majuunokawa
 ---
 
 # まじゅうの角

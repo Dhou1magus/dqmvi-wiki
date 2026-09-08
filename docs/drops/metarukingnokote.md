@@ -2,6 +2,12 @@
 title: メタルキングの小手
 description: DQMVIの「メタルキングの小手」を落とすモンスター2体の一覧。いちばん弱いのはゴールデンスライム（超レア・EXP300）。
 pageClass: wide-page sortable-list
+prev:
+  text: "メタルキングの盾"
+  link: /drops/metarukingnotate
+next:
+  text: "ももいろ三姉妹のピアス"
+  link: /drops/momoirosansimainopiasu
 ---
 
 # メタルキングの小手

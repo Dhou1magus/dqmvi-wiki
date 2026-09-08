@@ -2,6 +2,12 @@
 title: さえずりのみつ
 description: DQMVIの「さえずりのみつ」を落とすモンスター9体の一覧。いちばん弱いのはキングスライム（通常・EXP241）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ゴールド袋(1万G)"
+  link: /drops/okane10000
+next:
+  text: "サボテンゴールドの棘"
+  link: /drops/sabotengoldnotoge
 ---
 
 # さえずりのみつ

@@ -2,6 +2,12 @@
 title: オリハルコン
 description: DQMVIの「オリハルコン」を落とすモンスター10体の一覧。いちばん弱いのはトロルキング（通常・EXP867）。
 pageClass: wide-page sortable-list
+prev:
+  text: "おにのかなぼう"
+  link: /drops/oninokanabou
+next:
+  text: "オリハルコン合金"
+  link: /drops/oriharukon2
 ---
 
 # オリハルコン

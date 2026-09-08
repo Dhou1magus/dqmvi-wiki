@@ -2,6 +2,12 @@
 title: つむりんママの貝殻
 description: DQMVIの「つむりんママの貝殻」を落とすモンスター1体の一覧。いちばん弱いのはつむりんママ（通常・EXP349）。
 pageClass: wide-page sortable-list
+prev:
+  text: "つけもの石"
+  link: /drops/tukemonoisi
+next:
+  text: "てつのクギ"
+  link: /drops/tetunokugi
 ---
 
 # つむりんママの貝殻

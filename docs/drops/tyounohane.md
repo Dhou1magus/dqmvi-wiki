@@ -2,6 +2,12 @@
 title: ちょうの羽
 description: DQMVIの「ちょうの羽」を落とすモンスター9体の一覧。いちばん弱いのはじんめんちょう（通常・EXP9）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ちからの盾"
+  link: /drops/tikaranotate
+next:
+  text: "チョコヌーバの指輪"
+  link: /drops/tyokonubanoyubiwa
 ---
 
 # ちょうの羽

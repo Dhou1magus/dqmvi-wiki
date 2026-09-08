@@ -2,6 +2,12 @@
 title: 武闘エキス
 description: DQMVIの「武闘エキス」を落とすモンスター44体の一覧。いちばん弱いのはモビルボディ（通常・EXP165）。
 pageClass: wide-page sortable-list
+prev:
+  text: "氷鳥のはね"
+  link: /drops/hyoutyounohane
+next:
+  text: "風切りの羽根"
+  link: /drops/kazekirinohane
 ---
 
 # 武闘エキス

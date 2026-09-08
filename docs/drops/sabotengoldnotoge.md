@@ -2,6 +2,12 @@
 title: サボテンゴールドの棘
 description: DQMVIの「サボテンゴールドの棘」を落とすモンスター1体の一覧。いちばん弱いのはサボテンゴールド（通常・EXP2,063）。
 pageClass: wide-page sortable-list
+prev:
+  text: "さえずりのみつ"
+  link: /drops/saezurinomitu
+next:
+  text: "さんぞくサーベル"
+  link: /drops/sanzokusaberu
 ---
 
 # サボテンゴールドの棘

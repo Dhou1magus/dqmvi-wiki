@@ -2,6 +2,12 @@
 title: ヘビのぬけがら
 description: DQMVIの「ヘビのぬけがら」を落とすモンスター15体の一覧。いちばん弱いのはおばけうみうし（通常・EXP38）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ヘビーメタル"
+  link: /drops/metaru
+next:
+  text: "ほしのカケラ"
+  link: /drops/hosinokakera
 ---
 
 # ヘビのぬけがら

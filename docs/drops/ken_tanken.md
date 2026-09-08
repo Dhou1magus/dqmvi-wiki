@@ -2,6 +2,12 @@
 title: 貴重なレシピ(剣、短剣)
 description: DQMVIの「貴重なレシピ(剣、短剣)」を落とすモンスター4体の一覧。いちばん弱いのはかげのきし（超レア・EXP676）。
 pageClass: wide-page sortable-list
+prev:
+  text: "貴重なレシピ(弓、ブーメラン)"
+  link: /drops/yumi_nage
+next:
+  text: "貴重なレシピ(槍、鞭、爪)"
+  link: /drops/yari_muti_tume
 ---
 
 # 貴重なレシピ(剣、短剣)

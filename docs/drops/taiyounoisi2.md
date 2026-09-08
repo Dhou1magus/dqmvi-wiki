@@ -2,6 +2,12 @@
 title: 太陽石合金
 description: DQMVIの「太陽石合金」を落とすモンスター17体の一覧。いちばん弱いのはガメゴンロード（通常・EXP438）。
 pageClass: wide-page sortable-list
+prev:
+  text: "赤いサンゴ"
+  link: /drops/akaisango
+next:
+  text: "大きな袋"
+  link: /drops/fukuro
 ---
 
 # 太陽石合金

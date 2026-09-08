@@ -2,6 +2,12 @@
 title: クイーンモーモンの冠
 description: DQMVIの「クイーンモーモンの冠」を落とすモンスター1体の一覧。いちばん弱いのはクイーンモーモン（通常・EXP3,506）。
 pageClass: wide-page sortable-list
+prev:
+  text: "キングヒドラの頭"
+  link: /drops/kinghidoranoatama
+next:
+  text: "グランシーザーの髭"
+  link: /drops/guransizanohige
 ---
 
 # クイーンモーモンの冠

@@ -2,6 +2,12 @@
 title: 大きな袋
 description: DQMVIの「大きな袋」を落とすモンスター5体の一覧。いちばん弱いのはわらいぶくろ（超レア・EXP79）。
 pageClass: wide-page sortable-list
+prev:
+  text: "太陽石合金"
+  link: /drops/taiyounoisi2
+next:
+  text: "竹のヤリ"
+  link: /drops/takenoyari
 ---
 
 # 大きな袋

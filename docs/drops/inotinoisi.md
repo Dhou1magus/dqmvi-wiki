@@ -2,6 +2,12 @@
 title: いのちの石
 description: DQMVIの「いのちの石」を落とすモンスター18体の一覧。いちばん弱いのはタールキング（通常・EXP140）。
 pageClass: wide-page sortable-list
+prev:
+  text: "いかずちの玉"
+  link: /drops/ikazutinotama
+next:
+  text: "ウォーハンマー改"
+  link: /drops/wohanmakai
 ---
 
 # いのちの石

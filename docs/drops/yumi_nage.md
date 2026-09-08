@@ -2,6 +2,12 @@
 title: 貴重なレシピ(弓、ブーメラン)
 description: DQMVIの「貴重なレシピ(弓、ブーメラン)」を落とすモンスター3体の一覧。いちばん弱いのはアカイライ（超レア・EXP646）。
 pageClass: wide-page sortable-list
+prev:
+  text: "貴重なレシピ(メタル、氷)"
+  link: /drops/koori_metaru
+next:
+  text: "貴重なレシピ(剣、短剣)"
+  link: /drops/ken_tanken
 ---
 
 # 貴重なレシピ(弓、ブーメラン)

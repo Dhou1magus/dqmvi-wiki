@@ -2,6 +2,12 @@
 title: 闘魂エキス
 description: DQMVIの「闘魂エキス」を落とすモンスター13体の一覧。いちばん弱いのはテンタクルス（通常・EXP285）。
 pageClass: wide-page sortable-list
+prev:
+  text: "鉄鉱石"
+  link: /drops/tekkouseki
+next:
+  text: "特やくそう"
+  link: /drops/tokuyakusou
 ---
 
 # 闘魂エキス

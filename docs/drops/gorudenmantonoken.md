@@ -2,6 +2,12 @@
 title: ゴールドマントの剣
 description: DQMVIの「ゴールドマントの剣」を落とすモンスター1体の一覧。いちばん弱いのはゴールドマント（通常・EXP24,011）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ゴールデンコーンの角"
+  link: /drops/gorudenkonnotuno
+next:
+  text: "ゴールド袋(1000G)"
+  link: /drops/okane
 ---
 
 # ゴールドマントの剣
