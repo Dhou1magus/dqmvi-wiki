@@ -1,0 +1,17 @@
+{
+ "_説明": "ここに書いたモンスターは、個別ページも一覧も「名前と図鑑No.」だけ残して中身を空欄にします（ステータス・ランク・系統・活動時間・弱点・出現場所・ドロップ品・呪文）。ドロップ品の逆引き・系統・出現場所の一覧にも出しません。中身を出してよくなったら、その行を消して gen-monster-pages / gen-drop-pages / gen-item-pages を流してください。右側の名前は目印で、gen-*.mjs は左側の id だけ読みます。",
+ "monsters": {
+  "hollyking": "ホーリーキング",
+  "slaughtomaton": "デスマシーン",
+  "hubukinomajyo": "吹雪の魔女",
+  "wave_scorpion": "なみさそり",
+  "kingumimikku": "キングミミック",
+  "nizigoron": "ニジゴロン",
+  "ersatzestark": "エビルエスターク",
+  "maounotamago": "まおうのたまご",
+  "emperan": "エンペラン",
+  "metal_seraphim": "メタルセラフィム",
+  "metal_goddess": "メタルゴッデス",
+  "metalgoddes2": "メタルゴッデス2"
+ }
+}

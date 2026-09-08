@@ -1,0 +1,1481 @@
+{
+ "jar": "DQMVI-0.28.16.jar",
+ "source": "Zメニュー「素材取得一覧表」「鉱石取得一覧表」と同じ内容",
+ "materials": [
+  {
+   "key": "legacy_item_ayasiikobin",
+   "name": "あやしい小ビン",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_usaginosippo",
+   "name": "うさぎのしっぽ",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_usinofun",
+   "name": "うしのふん",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_umanofun",
+   "name": "うまのふん",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_koumorinohane",
+   "name": "こうもりの羽根",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_koorinokessyou",
+   "name": "こおりの結晶",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tyounohane",
+   "name": "ちょうの羽",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tukemonoisi",
+   "name": "つけもの石",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_dokuganokona",
+   "name": "どくがの粉",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_nebanebazeri",
+   "name": "ねばねばゼリー",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_hosinokakera",
+   "name": "ほしのカケラ",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_majuunokawa",
+   "name": "まじゅうの皮",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_madarakumonoito",
+   "name": "まだらクモ糸",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_midorinokoke",
+   "name": "みどりコケ",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_yawarakauru",
+   "name": "やわらかウール",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_suraimuzeri",
+   "name": "スライムゼリー",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_togetogenokiba",
+   "name": "トゲトゲの牙",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_nekozuna",
+   "name": "ネコ砂",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_bannouyaku",
+   "name": "万能薬",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_jouyakusou",
+   "name": "上やくそう",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_yougansekinokakera",
+   "name": "溶岩石のかけら",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_bakudanisi",
+   "name": "爆弾石",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_siroikaigara",
+   "name": "白いかいがら",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_hananomitu",
+   "name": "花のみつ",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_akaisango",
+   "name": "赤いサンゴ",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tekkouseki",
+   "name": "鉄鉱石",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kazekirinohane",
+   "name": "風切りの羽根",
+   "ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ayakasisou",
+   "name": "あやかし草",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_inotinoisi",
+   "name": "いのちの石",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_uruwasikinoko",
+   "name": "うるわしキノコ",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kagaminoisi",
+   "name": "かがみの石",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kiyomenomizu",
+   "name": "きよめの水",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_saezurinomitu",
+   "name": "さえずりのみつ",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_sekaijunoha",
+   "name": "せかいじゅの葉",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tensinohane",
+   "name": "てんしのはね",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_dokudokuhedoro",
+   "name": "どくどくヘドロ",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_bekkou",
+   "name": "べっこう",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_majuunotuno",
+   "name": "まじゅうの角",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_maryokunotuti",
+   "name": "まりょくの土",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_yogoretahoutai",
+   "name": "よごれた包帯",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_yorunotobari",
+   "name": "よるのとばり",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_rengokunohane",
+   "name": "れんごくの羽根",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_gamanoabura",
+   "name": "ガマのあぶら",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_puratina2",
+   "name": "プラチナ合金",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_hebinonukegara",
+   "name": "ヘビのぬけがら",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_honehone",
+   "name": "ホネホネ",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_risaikurusuton",
+   "name": "リサイクルストーン",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_taiyounoisi2",
+   "name": "太陽石合金",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kyodainakiba",
+   "name": "巨大な牙",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tokinosuisyou",
+   "name": "時の水晶",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tukinomegumi",
+   "name": "月のめぐみ",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_hyoutyounohane",
+   "name": "氷鳥のはね",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tokuyakusou",
+   "name": "特やくそう",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_migakizuna",
+   "name": "磨き砂",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_seijanohai",
+   "name": "聖者の灰",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kenjanoseisui",
+   "name": "賢者の聖水",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ginka",
+   "name": "銀貨",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_toukonekisu",
+   "name": "闘魂エキス",
+   "ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ikazutinotama",
+   "name": "いかずちの玉",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_uraminohouju",
+   "name": "うらみのほうじゅ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kenjanoisi",
+   "name": "けんじゃの石",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_taiyounoisi",
+   "name": "たいようの石",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tetunokugi",
+   "name": "てつのクギ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_haganenoobane",
+   "name": "はがねの尾羽",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ierooubu",
+   "name": "イエローオーブ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_gurinoubu",
+   "name": "グリーンオーブ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_suraimuosyarebana",
+   "name": "スライムおしゃれ花",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_suraimunokanmuri",
+   "name": "スライムの冠",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_doragonnonamida",
+   "name": "ドラゴンのなみだ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_paapuruoubu",
+   "name": "パープルオーブ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_buruoubu",
+   "name": "ブルーオーブ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_puratina",
+   "name": "プラチナ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_metaru",
+   "name": "ヘビーメタル",
+   "ranks": [
+    3,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_metaloubu",
+   "name": "メタルオーブ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_rubinogenseki",
+   "name": "ルビー",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_redoubu",
+   "name": "レッドオーブ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_juryokunomoto",
+   "name": "呪力のモト",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kyodaihigetokage",
+   "name": "巨大ヒゲトカゲ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_moon",
+   "name": "月のダイヤ",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ryuunohizake",
+   "name": "竜の火酒",
+   "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kinkai",
+   "name": "金塊",
+   "ranks": [
+    3,
+    5
+   ]
+  },
+  {
+   "key": "legacy_item_amatuyunoito",
+   "name": "あまつゆの糸",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_seisui",
+   "name": "せいすい",
+   "ranks": [
+    4,
+    5
+   ]
+  },
+  {
+   "key": "legacy_item_seinarusizuku",
+   "name": "せいなるしずく",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tensinosoma",
+   "name": "てんしのソーマ",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_nijiirononunokire",
+   "name": "にじいろの布きれ",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_oriharukon",
+   "name": "オリハルコン",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kingdaiya",
+   "name": "キングダイヤ",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_misriru",
+   "name": "ミスリル",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_misriru2",
+   "name": "ミスリル合金",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_meijikimeranohane",
+   "name": "メイジキメラのはね",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_genmaseki",
+   "name": "幻魔石",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_budouekisu",
+   "name": "武闘エキス",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ryuunonamida",
+   "name": "竜のなみだ",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_seireiseki",
+   "name": "精霊石",
+   "ranks": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_oriharukon2",
+   "name": "オリハルコン合金",
+   "ranks": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_hikarinoisi",
+   "name": "光の石",
+   "ranks": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_genmaseki_g",
+   "name": "緑幻魔石",
+   "ranks": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_genmaseki_b",
+   "name": "青幻魔石",
+   "ranks": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_koori_metaru",
+   "name": "貴重なレシピ(メタル、氷)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_densetu",
+   "name": "貴重なレシピ(伝説)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ken_tanken",
+   "name": "貴重なレシピ(剣、短剣)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_tenkuu",
+   "name": "貴重なレシピ(天空)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_yumi_nage",
+   "name": "貴重なレシピ(弓、ブーメラン)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ono_tuti_kon",
+   "name": "貴重なレシピ(斧、槌、棍)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_yari_muti_tume",
+   "name": "貴重なレシピ(槍、鞭、爪)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_hakai",
+   "name": "貴重なレシピ(破壊)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_honoo_ryuu",
+   "name": "貴重なレシピ(竜、炎)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_bougu",
+   "name": "貴重なレシピ(防具)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ma_ju",
+   "name": "貴重なレシピ(魔、呪)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_mahou",
+   "name": "貴重なレシピ(魔法)",
+   "ranks": [
+    6,
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_yamatanooroti",
+   "name": "やまたのおろち討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_esterk",
+   "name": "エスターク討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_kiramajinga",
+   "name": "キラーマジンガ討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_suraimujeneraru",
+   "name": "スライムジェネラル討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_zoma",
+   "name": "ゾーマ討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_dark_ramia",
+   "name": "ダークラーミア討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_desukingreo",
+   "name": "デスキングレオ討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_desupisaro",
+   "name": "デスピサロ討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_bazuzu",
+   "name": "バズズ討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_masterdoragon",
+   "name": "マスタードラゴン討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_god",
+   "name": "全てを超越せし者討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_norowaretaturugi",
+   "name": "呪剣討伐の証",
+   "ranks": [
+    7
+   ]
+  },
+  {
+   "key": "legacy_item_ryuuou",
+   "name": "竜王討伐の証",
+   "ranks": [
+    7
+   ]
+  }
+ ],
+ "ores": [
+  {
+   "key": "legacy_block_ore_tekkouseki",
+   "name": "鉄の鉱石",
+   "rank": 1,
+   "minY": 0,
+   "maxY": 96
+  },
+  {
+   "key": "legacy_block_ore_koorinokessyou",
+   "name": "氷の結晶の塊",
+   "rank": 1,
+   "minY": 20,
+   "maxY": 120
+  },
+  {
+   "key": "legacy_block_ore_bakudanisi",
+   "name": "爆弾鉱石",
+   "rank": 1,
+   "minY": -16,
+   "maxY": 64
+  },
+  {
+   "key": "legacy_block_ore_yougansekinokakera",
+   "name": "溶岩の鉱石",
+   "rank": 2,
+   "minY": -40,
+   "maxY": 16
+  },
+  {
+   "key": "legacy_block_ore_migakizuna",
+   "name": "磨き砂の塊",
+   "rank": 2,
+   "minY": 0,
+   "maxY": 80
+  },
+  {
+   "key": "legacy_block_ore_kagaminoisi",
+   "name": "鏡の石の鉱石",
+   "rank": 2,
+   "minY": -16,
+   "maxY": 48
+  },
+  {
+   "key": "legacy_block_ore_inotinoisi",
+   "name": "命の原石",
+   "rank": 3,
+   "minY": -32,
+   "maxY": 32
+  },
+  {
+   "key": "legacy_block_ore_hosinokakera",
+   "name": "星の砂の塊",
+   "rank": 3,
+   "minY": 32,
+   "maxY": 160
+  },
+  {
+   "key": "legacy_block_ore_tokinosuisyou",
+   "name": "時の水晶石",
+   "rank": 3,
+   "minY": -48,
+   "maxY": 16
+  },
+  {
+   "key": "legacy_block_ore_littlemedal",
+   "name": "メダルが埋もれた石",
+   "rank": 4,
+   "minY": -48,
+   "maxY": 64
+  },
+  {
+   "key": "legacy_block_ore_taiyounoisi",
+   "name": "太陽の原石",
+   "rank": 4,
+   "minY": 48,
+   "maxY": 200
+  },
+  {
+   "key": "legacy_block_ore_puratina",
+   "name": "プラチナの原石",
+   "rank": 4,
+   "minY": -56,
+   "maxY": 8
+  },
+  {
+   "key": "legacy_block_ore_littlemedal",
+   "name": "メダルが埋もれた石",
+   "rank": 5,
+   "minY": -48,
+   "maxY": 64
+  },
+  {
+   "key": "legacy_block_ore_rubi",
+   "name": "ルビーの原石",
+   "rank": 5,
+   "minY": -64,
+   "maxY": -8
+  },
+  {
+   "key": "legacy_block_ore_moon",
+   "name": "月の原石",
+   "rank": 5,
+   "minY": -48,
+   "maxY": 24
+  },
+  {
+   "key": "legacy_block_ore_littlemedal",
+   "name": "メダルが埋もれた石",
+   "rank": 6,
+   "minY": -48,
+   "maxY": 64
+  },
+  {
+   "key": "legacy_block_ore_misuriru",
+   "name": "ミスリルの原石",
+   "rank": 6,
+   "minY": -64,
+   "maxY": -16
+  },
+  {
+   "key": "legacy_block_ore_metaru",
+   "name": "メタルの原石",
+   "rank": 6,
+   "minY": -64,
+   "maxY": -40
+  },
+  {
+   "key": "legacy_block_ore_littlemedal",
+   "name": "メダルが埋もれた石",
+   "rank": 7,
+   "minY": -48,
+   "maxY": 64
+  },
+  {
+   "key": "legacy_block_ore_hikarinoisi",
+   "name": "光の原石",
+   "rank": 7,
+   "minY": -64,
+   "maxY": -32
+  }
+ ]
+}

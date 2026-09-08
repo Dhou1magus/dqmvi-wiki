@@ -1,0 +1,43 @@
+name: Backup
+
+# 毎週、本文一式とリポジトリ全履歴のバックアップを作って保管する。
+# 手動実行(Run workflow)でもいつでも作れる。
+on:
+  schedule:
+    - cron: '0 18 * * 0'   # 毎週月曜 03:00 (JST)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout（全履歴）
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: 日付
+        id: d
+        run: echo "stamp=$(date -u -d '+9 hours' +'%Y%m%d')" >> "$GITHUB_OUTPUT"
+
+      - name: バックアップを作成
+        run: |
+          mkdir -p _backup
+          # 1) 本文だけのzip（中身をすぐ見たいとき用）
+          zip -qr "_backup/dqmvi-wiki-docs-${{ steps.d.outputs.stamp }}.zip" docs \
+            -x 'docs/.vitepress/dist/*' 'docs/.vitepress/cache/*'
+          # 2) 全履歴を含むリポジトリ丸ごと（git clone で完全復元できる）
+          git bundle create "_backup/dqmvi-wiki-repo-${{ steps.d.outputs.stamp }}.bundle" --all
+          ls -lh _backup
+
+      - name: 保管
+        uses: actions/upload-artifact@v4
+        with:
+          name: backup-${{ steps.d.outputs.stamp }}
+          path: _backup/
+          retention-days: 90

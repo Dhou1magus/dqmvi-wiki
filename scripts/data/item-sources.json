@@ -1,0 +1,853 @@
+{
+ "jar": "DQMVI-0.25.84.jar",
+ "sources": {
+  "akaisango": [
+   "魚交換所",
+   "採取"
+  ],
+  "amatuyunoito": [
+   "魚交換所"
+  ],
+  "ayakasisou": [
+   "魚交換所",
+   "採取"
+  ],
+  "ayasiikobin": [
+   "魚交換所"
+  ],
+  "bakudanisi": [
+   "魚交換所"
+  ],
+  "bannouyaku": [
+   "魚交換所"
+  ],
+  "bekkou": [
+   "魚交換所"
+  ],
+  "bougu": [
+   "魚交換所"
+  ],
+  "budouekisu": [
+   "魚交換所"
+  ],
+  "buruoubu": [
+   "魚交換所"
+  ],
+  "densetu": [
+   "魚交換所"
+  ],
+  "dokudokuhedoro": [
+   "魚交換所"
+  ],
+  "dokuganokona": [
+   "魚交換所"
+  ],
+  "dokukesisou": [
+   "農業"
+  ],
+  "dokukesisou2": [
+   "農業"
+  ],
+  "dokukesisou3": [
+   "農業"
+  ],
+  "dokukesisou_seed": [
+   "農業"
+  ],
+  "dokukesisou_seed2": [
+   "農業"
+  ],
+  "dokukesisou_seed3": [
+   "農業"
+  ],
+  "doragonnonamida": [
+   "魚交換所"
+  ],
+  "eichinotane": [
+   "農業"
+  ],
+  "flower00": [
+   "採取"
+  ],
+  "flower01": [
+   "採取"
+  ],
+  "flower02": [
+   "採取"
+  ],
+  "flower03": [
+   "採取"
+  ],
+  "flower04": [
+   "採取"
+  ],
+  "flower05": [
+   "採取"
+  ],
+  "flower06": [
+   "採取"
+  ],
+  "flower07": [
+   "採取"
+  ],
+  "flower08": [
+   "採取"
+  ],
+  "flower09": [
+   "採取"
+  ],
+  "gamanoabura": [
+   "魚交換所"
+  ],
+  "genmaseki": [
+   "魚交換所"
+  ],
+  "genmaseki_b": [
+   "魚交換所"
+  ],
+  "genmaseki_g": [
+   "魚交換所"
+  ],
+  "gourikinotane": [
+   "農業"
+  ],
+  "gurinoubu": [
+   "魚交換所"
+  ],
+  "haganenoobane": [
+   "魚交換所"
+  ],
+  "hakai": [
+   "魚交換所"
+  ],
+  "hananomitu": [
+   "魚交換所"
+  ],
+  "hebinonukegara": [
+   "魚交換所"
+  ],
+  "hikarinoisi": [
+   "魚交換所"
+  ],
+  "honehone": [
+   "魚交換所"
+  ],
+  "honoo_ryuu": [
+   "魚交換所"
+  ],
+  "honoo_seed": [
+   "農業"
+  ],
+  "honoo_seed2": [
+   "農業"
+  ],
+  "honoo_seed3": [
+   "農業"
+  ],
+  "honoonomi": [
+   "農業"
+  ],
+  "honoonomi2": [
+   "農業"
+  ],
+  "honoonomi3": [
+   "農業"
+  ],
+  "hosinokakera": [
+   "魚交換所"
+  ],
+  "hyoutyounohane": [
+   "魚交換所"
+  ],
+  "ierooubu": [
+   "魚交換所"
+  ],
+  "ikazutinotama": [
+   "魚交換所"
+  ],
+  "inotinoisi": [
+   "魚交換所"
+  ],
+  "iyasi_seed": [
+   "農業"
+  ],
+  "iyasi_seed2": [
+   "農業"
+  ],
+  "iyasi_seed3": [
+   "農業"
+  ],
+  "iyasinomi": [
+   "農業"
+  ],
+  "iyasinomi2": [
+   "農業"
+  ],
+  "iyasinomi3": [
+   "農業"
+  ],
+  "jouyakusou": [
+   "魚交換所"
+  ],
+  "juryokunomoto": [
+   "魚交換所",
+   "採取"
+  ],
+  "kagaminoisi": [
+   "魚交換所"
+  ],
+  "kazekirinohane": [
+   "魚交換所"
+  ],
+  "ken_tanken": [
+   "魚交換所"
+  ],
+  "kingdaiya": [
+   "魚交換所"
+  ],
+  "kinkai": [
+   "魚交換所"
+  ],
+  "kiyomenomizu": [
+   "魚交換所"
+  ],
+  "koori_metaru": [
+   "魚交換所"
+  ],
+  "koorinokessyou": [
+   "魚交換所"
+  ],
+  "koumorinohane": [
+   "魚交換所"
+  ],
+  "kyodaihigetokage": [
+   "魚交換所"
+  ],
+  "kyodainakiba": [
+   "魚交換所"
+  ],
+  "littlemedal": [
+   "精錬"
+  ],
+  "ma_ju": [
+   "魚交換所"
+  ],
+  "madarakumonoito": [
+   "魚交換所"
+  ],
+  "mahou": [
+   "魚交換所"
+  ],
+  "mahounomi_i": [
+   "農業"
+  ],
+  "mahounomi_i2": [
+   "農業"
+  ],
+  "mahounomi_i3": [
+   "農業"
+  ],
+  "mahounomiseed": [
+   "農業"
+  ],
+  "mahounomiseed2": [
+   "農業"
+  ],
+  "mahounomiseed3": [
+   "農業"
+  ],
+  "majuunokawa": [
+   "魚交換所"
+  ],
+  "majuunotuno": [
+   "魚交換所"
+  ],
+  "mamori_seed": [
+   "農業"
+  ],
+  "mamori_seed2": [
+   "農業"
+  ],
+  "mamori_seed3": [
+   "農業"
+  ],
+  "mamorinotane": [
+   "農業"
+  ],
+  "mamorinotane2": [
+   "農業"
+  ],
+  "mamorinotane3": [
+   "農業"
+  ],
+  "maryokunotane_i": [
+   "農業"
+  ],
+  "maryokunotane_i2": [
+   "農業"
+  ],
+  "maryokunotane_i3": [
+   "農業"
+  ],
+  "maryokunotaneseed": [
+   "農業"
+  ],
+  "maryokunotaneseed2": [
+   "農業"
+  ],
+  "maryokunotaneseed3": [
+   "農業"
+  ],
+  "maryokunotuti": [
+   "魚交換所"
+  ],
+  "meijikimeranohane": [
+   "魚交換所"
+  ],
+  "metaloubu": [
+   "魚交換所"
+  ],
+  "metaru": [
+   "魚交換所"
+  ],
+  "midorinokoke": [
+   "魚交換所"
+  ],
+  "migakizuna": [
+   "魚交換所"
+  ],
+  "misriru": [
+   "魚交換所"
+  ],
+  "misriru2": [
+   "魚交換所"
+  ],
+  "moon": [
+   "魚交換所"
+  ],
+  "nebanebazeri": [
+   "魚交換所"
+  ],
+  "nekozuna": [
+   "魚交換所"
+  ],
+  "nijiirononunokire": [
+   "魚交換所"
+  ],
+  "ono_tuti_kon": [
+   "魚交換所"
+  ],
+  "oriharukon": [
+   "魚交換所"
+  ],
+  "oriharukon2": [
+   "魚交換所"
+  ],
+  "ougon": [
+   "農業"
+  ],
+  "ougon2": [
+   "農業"
+  ],
+  "ougon3": [
+   "農業"
+  ],
+  "ougon4": [
+   "農業"
+  ],
+  "ougon_seed": [
+   "農業"
+  ],
+  "ougon_seed2": [
+   "農業"
+  ],
+  "ougon_seed3": [
+   "農業"
+  ],
+  "ougon_seed4": [
+   "農業"
+  ],
+  "paapuruoubu": [
+   "魚交換所"
+  ],
+  "puratina": [
+   "魚交換所"
+  ],
+  "puratina2": [
+   "魚交換所"
+  ],
+  "redoubu": [
+   "魚交換所"
+  ],
+  "rengokunohane": [
+   "魚交換所"
+  ],
+  "risaikurusuton": [
+   "魚交換所"
+  ],
+  "rubinogenseki": [
+   "魚交換所"
+  ],
+  "ryuunohizake": [
+   "魚交換所"
+  ],
+  "ryuunonamida": [
+   "魚交換所"
+  ],
+  "saezurinomitu": [
+   "魚交換所"
+  ],
+  "sakana0": [
+   "釣り"
+  ],
+  "sakana1": [
+   "釣り"
+  ],
+  "sakana10": [
+   "釣り"
+  ],
+  "sakana11": [
+   "釣り"
+  ],
+  "sakana12": [
+   "釣り"
+  ],
+  "sakana13": [
+   "釣り"
+  ],
+  "sakana14": [
+   "釣り"
+  ],
+  "sakana15": [
+   "釣り"
+  ],
+  "sakana16": [
+   "釣り"
+  ],
+  "sakana17": [
+   "釣り"
+  ],
+  "sakana18": [
+   "釣り"
+  ],
+  "sakana19": [
+   "釣り"
+  ],
+  "sakana2": [
+   "釣り"
+  ],
+  "sakana20": [
+   "釣り"
+  ],
+  "sakana21": [
+   "釣り"
+  ],
+  "sakana22": [
+   "釣り"
+  ],
+  "sakana23": [
+   "釣り"
+  ],
+  "sakana24": [
+   "釣り"
+  ],
+  "sakana25": [
+   "釣り"
+  ],
+  "sakana26": [
+   "釣り"
+  ],
+  "sakana27": [
+   "釣り"
+  ],
+  "sakana28": [
+   "釣り"
+  ],
+  "sakana29": [
+   "釣り"
+  ],
+  "sakana3": [
+   "釣り"
+  ],
+  "sakana30": [
+   "釣り"
+  ],
+  "sakana31": [
+   "釣り"
+  ],
+  "sakana32": [
+   "釣り"
+  ],
+  "sakana33": [
+   "釣り"
+  ],
+  "sakana34": [
+   "釣り"
+  ],
+  "sakana35": [
+   "釣り"
+  ],
+  "sakana36": [
+   "釣り"
+  ],
+  "sakana37": [
+   "釣り"
+  ],
+  "sakana38": [
+   "釣り"
+  ],
+  "sakana39": [
+   "釣り"
+  ],
+  "sakana4": [
+   "釣り"
+  ],
+  "sakana40": [
+   "釣り"
+  ],
+  "sakana41": [
+   "釣り"
+  ],
+  "sakana42": [
+   "釣り"
+  ],
+  "sakana43": [
+   "釣り"
+  ],
+  "sakana44": [
+   "釣り"
+  ],
+  "sakana45": [
+   "釣り"
+  ],
+  "sakana46": [
+   "釣り"
+  ],
+  "sakana47": [
+   "釣り"
+  ],
+  "sakana48": [
+   "釣り"
+  ],
+  "sakana49": [
+   "釣り"
+  ],
+  "sakana5": [
+   "釣り"
+  ],
+  "sakana50": [
+   "釣り"
+  ],
+  "sakana51": [
+   "釣り"
+  ],
+  "sakana52": [
+   "釣り"
+  ],
+  "sakana53": [
+   "釣り"
+  ],
+  "sakana54": [
+   "釣り"
+  ],
+  "sakana55": [
+   "釣り"
+  ],
+  "sakana56": [
+   "釣り"
+  ],
+  "sakana57": [
+   "釣り"
+  ],
+  "sakana58": [
+   "釣り"
+  ],
+  "sakana59": [
+   "釣り"
+  ],
+  "sakana6": [
+   "釣り"
+  ],
+  "sakana60": [
+   "釣り"
+  ],
+  "sakana61": [
+   "釣り"
+  ],
+  "sakana62": [
+   "釣り"
+  ],
+  "sakana63": [
+   "釣り"
+  ],
+  "sakana64": [
+   "釣り"
+  ],
+  "sakana65": [
+   "釣り"
+  ],
+  "sakana66": [
+   "釣り"
+  ],
+  "sakana67": [
+   "釣り"
+  ],
+  "sakana68": [
+   "釣り"
+  ],
+  "sakana69": [
+   "釣り"
+  ],
+  "sakana7": [
+   "釣り"
+  ],
+  "sakana70": [
+   "釣り"
+  ],
+  "sakana71": [
+   "釣り"
+  ],
+  "sakana72": [
+   "釣り"
+  ],
+  "sakana73": [
+   "釣り"
+  ],
+  "sakana74": [
+   "釣り"
+  ],
+  "sakana75": [
+   "釣り"
+  ],
+  "sakana76": [
+   "釣り"
+  ],
+  "sakana77": [
+   "釣り"
+  ],
+  "sakana78": [
+   "釣り"
+  ],
+  "sakana79": [
+   "釣り"
+  ],
+  "sakana8": [
+   "釣り"
+  ],
+  "sakana80": [
+   "釣り"
+  ],
+  "sakana81": [
+   "釣り"
+  ],
+  "sakana82": [
+   "釣り"
+  ],
+  "sakana83": [
+   "釣り"
+  ],
+  "sakana84": [
+   "釣り"
+  ],
+  "sakana85": [
+   "釣り"
+  ],
+  "sakana86": [
+   "釣り"
+  ],
+  "sakana87": [
+   "釣り"
+  ],
+  "sakana88": [
+   "釣り"
+  ],
+  "sakana89": [
+   "釣り"
+  ],
+  "sakana9": [
+   "釣り"
+  ],
+  "sakana90": [
+   "釣り"
+  ],
+  "sakana91": [
+   "釣り"
+  ],
+  "sakana92": [
+   "釣り"
+  ],
+  "sakana93": [
+   "釣り"
+  ],
+  "sakana94": [
+   "釣り"
+  ],
+  "sakana95": [
+   "釣り"
+  ],
+  "sakana96": [
+   "釣り"
+  ],
+  "sakana97": [
+   "釣り"
+  ],
+  "sakana98": [
+   "釣り"
+  ],
+  "sakana99": [
+   "釣り"
+  ],
+  "seijanohai": [
+   "魚交換所"
+  ],
+  "seinarusizuku": [
+   "魚交換所"
+  ],
+  "seireiseki": [
+   "魚交換所"
+  ],
+  "sekaijunoha": [
+   "魚交換所"
+  ],
+  "siroikaigara": [
+   "魚交換所"
+  ],
+  "subayasa_seed": [
+   "農業"
+  ],
+  "subayasa_seed2": [
+   "農業"
+  ],
+  "subayasa_seed3": [
+   "農業"
+  ],
+  "subayasanotane": [
+   "農業"
+  ],
+  "subayasanotane2": [
+   "農業"
+  ],
+  "subayasanotane3": [
+   "農業"
+  ],
+  "suraimunokanmuri": [
+   "魚交換所"
+  ],
+  "suraimuosyarebana": [
+   "魚交換所",
+   "採取"
+  ],
+  "suraimuzeri": [
+   "魚交換所"
+  ],
+  "taiyounoisi": [
+   "魚交換所"
+  ],
+  "taiyounoisi2": [
+   "魚交換所"
+  ],
+  "tekkouseki": [
+   "魚交換所"
+  ],
+  "tenkuu": [
+   "魚交換所"
+  ],
+  "tensinohane": [
+   "魚交換所"
+  ],
+  "tetunokugi": [
+   "魚交換所"
+  ],
+  "tikara_seed": [
+   "農業"
+  ],
+  "tikara_seed2": [
+   "農業"
+  ],
+  "tikara_seed3": [
+   "農業"
+  ],
+  "tikaranotane": [
+   "農業"
+  ],
+  "tikaranotane2": [
+   "農業"
+  ],
+  "tikaranotane3": [
+   "農業"
+  ],
+  "togetogenokiba": [
+   "魚交換所"
+  ],
+  "tokinosuisyou": [
+   "魚交換所"
+  ],
+  "tokuyakusou": [
+   "魚交換所"
+  ],
+  "toukonekisu": [
+   "魚交換所"
+  ],
+  "tukemonoisi": [
+   "魚交換所"
+  ],
+  "tukinomegumi": [
+   "魚交換所"
+  ],
+  "tyounohane": [
+   "魚交換所"
+  ],
+  "umanofun": [
+   "魚交換所"
+  ],
+  "uraminohouju": [
+   "魚交換所"
+  ],
+  "uruwasikinoko": [
+   "魚交換所",
+   "採取"
+  ],
+  "usaginosippo": [
+   "魚交換所"
+  ],
+  "usinofun": [
+   "魚交換所"
+  ],
+  "yakusou": [
+   "農業"
+  ],
+  "yakusou2": [
+   "農業"
+  ],
+  "yakusou3": [
+   "農業"
+  ],
+  "yakusou_seed": [
+   "農業"
+  ],
+  "yakusou_seed2": [
+   "農業"
+  ],
+  "yakusou_seed3": [
+   "農業"
+  ],
+  "yari_muti_tume": [
+   "魚交換所"
+  ],
+  "yawarakauru": [
+   "魚交換所"
+  ],
+  "yogoretahoutai": [
+   "魚交換所"
+  ],
+  "yorunotobari": [
+   "魚交換所"
+  ],
+  "yougansekinokakera": [
+   "魚交換所"
+  ],
+  "yumi_nage": [
+   "魚交換所"
+  ]
+ }
+}

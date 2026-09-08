@@ -1,0 +1,107 @@
+name: PR check
+
+# 編集提案(PR)が来たときに自動で検査する。
+#
+# ★この検査には構造上の限界がある。
+#   PR検査はPR側のコードで実行されるため、検査スクリプトやこのファイル自体を
+#   同じPRの中で書き換えれば無効化できる。それを止めているのはCODEOWNERSによる
+#   人間のレビューであって、この検査ではない。
+#   だから .github/ と scripts/ への変更は、下で必ず落とすようにしてある。
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+# 同じPRへの連続pushで多重起動しない（PR連打による負荷を抑える）
+concurrency:
+  group: pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: セキュリティ検査
+        run: node scripts/security-lint.mjs
+
+      - name: 変更の規模を検査
+        env:
+          BASE: ${{ github.base_ref }}
+        run: |
+          git fetch --no-tags origin "$BASE"
+          RANGE="origin/$BASE...HEAD"
+
+          # --no-renames が要。付けないと、全ページを別フォルダへ移動するだけで
+          # 「削除0件」と判定され、サイトのURLを丸ごと壊されても検知できない。
+          # パス限定もしない。.github/ や scripts/ の削除も数える。
+          DEL_FILES=$(git diff --no-renames --diff-filter=D --name-only "$RANGE" | wc -l)
+          ADD_FILES=$(git diff --no-renames --diff-filter=A --name-only "$RANGE" | wc -l)
+          DEL_LINES=$(git diff --no-renames --numstat "$RANGE" | awk '{s+=$2} END {print s+0}')
+          ADD_LINES=$(git diff --no-renames --numstat "$RANGE" | awk '{s+=$1} END {print s+0}')
+
+          # 現在のサイト規模を基準にする。固定値だと、小さいサイトでは
+          # 「5ファイル削除」が全体の大半でも通ってしまう。
+          TOTAL_FILES=$(git ls-files 'docs/**/*.md' | wc -l)
+          TOTAL_LINES=$(git ls-files 'docs/**/*.md' | xargs cat 2>/dev/null | wc -l)
+          MAX_DEL_FILES=$(( TOTAL_FILES / 5 )); [ "$MAX_DEL_FILES" -lt 2 ] && MAX_DEL_FILES=2
+          MAX_DEL_LINES=$(( TOTAL_LINES / 5 )); [ "$MAX_DEL_LINES" -lt 60 ] && MAX_DEL_LINES=60
+
+          {
+            echo "### 変更の規模"
+            echo ""
+            echo "| 項目 | 今回 | 上限 |"
+            echo "| --- | ---: | ---: |"
+            echo "| 削除ファイル | ${DEL_FILES} | ${MAX_DEL_FILES} |"
+            echo "| 削除行 | ${DEL_LINES} | ${MAX_DEL_LINES} |"
+            echo "| 追加ファイル | ${ADD_FILES} | 50 |"
+            echo "| 追加行 | ${ADD_LINES} | 3000 |"
+            echo ""
+            echo "（サイト全体: ${TOTAL_FILES} ファイル / ${TOTAL_LINES} 行）"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          FAIL=0
+
+          # 設定・ワークフロー・検査スクリプトの変更は必ず止める。
+          # 警告では見落とされるうえ、警告を出す処理自体を同じPRで消せてしまう。
+          if git diff --no-renames --name-only "$RANGE" \
+             | grep -Eq '^(\.github/|scripts/|package(-lock)?\.json|docs/\.vitepress/)'; then
+            echo "::error::設定・ワークフロー・テーマ・検査スクリプトへの変更が含まれています。"
+            echo "  本文の編集とは分けて提案してください。取り込むかどうかはオーナーが判断します。"
+            FAIL=1
+          fi
+
+          if [ "$DEL_FILES" -gt "$MAX_DEL_FILES" ] || [ "$DEL_LINES" -gt "$MAX_DEL_LINES" ]; then
+            echo "::error::一度に消しすぎです（${DEL_FILES} ファイル / ${DEL_LINES} 行）。"
+            echo "  小分けにして提案してください。"
+            echo "  ※荒らしの差し戻しなど、意図した大量削除の場合はオーナーが承認のうえ取り込みます。"
+            FAIL=1
+          fi
+
+          if [ "$ADD_FILES" -gt 50 ] || [ "$ADD_LINES" -gt 3000 ]; then
+            echo "::error::一度に増やしすぎです（${ADD_FILES} ファイル / ${ADD_LINES} 行）。"
+            echo "  小分けにして提案してください。"
+            FAIL=1
+          fi
+
+          exit $FAIL
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci --ignore-scripts
+
+      - name: ビルドが通るか確認
+        run: npm run docs:build
