@@ -179,7 +179,7 @@ const wanted = computed(() => {
 })
 
 const log = [
-  { d: '09-08', t: 'モンスター図鑑に系統絞り込み機能を追加', link: 'monsters', who: 'よっしー',
+  { d: '09-08', t: 'モンスター図鑑に系統絞り込み機能を追加', link: '/monsters', who: 'よっしー',
     d: '09-07', t: 'DQMVI 0.28.41 に一部対応', link: '/guide/updates', who: 'よっしー'
   }
 ]
