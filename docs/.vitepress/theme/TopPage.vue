@@ -336,7 +336,7 @@ function onKey(event) {
     <div class="qlist">
       <a v-for="q in questions" :key="q.q" :href="withBase(q.link)">
         <span class="q">{{ q.q }}</span>
-        <span class="a">{{ q.a }}</span>
+        <span class="a">{{ q.a }}<span class="arr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg></span></span>
       </a>
     </div>
 
