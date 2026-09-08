@@ -27,15 +27,16 @@ DQMVIに出てくるアイテムは **1136種** です。
 | [素材](/items/materials) | 122 | モンスターの落とし物・鉱石・薬など。 |
 | [種](/items/seeds) | 74 | 畑に植える苗と、育てて採れる作物。 |
 | [釣り](/items/fishing) | 122 | 釣り竿・ルアーと、釣れる魚。 |
-| [特殊](/items/special) | 89 | 鍵・袋・職業の証・チケットなど。 |
+| [特殊](/items/special) | 91 | 配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。 |
 | [建物](/items/buildings) | 71 | ポートに入れるとペットが建ててくれる施設。 |
-| [呪文](/items/magic) | 2 | 配合の杖と転生の杖。 |
 | [装飾](/items/decoration) | 4 | 鍵で開く扉など。 |
 
 全部をひとつの表で見るならこちら。見出しを押すと分類ごとや五十音順に並べ替えできます。
 
 | アイテム | 分類 |
 | --- | :--: |
+| [配合の杖](/items/haigou) | 特殊 |
+| [転生の杖](/items/haigou2) | 特殊 |
 | [盗賊の鍵](/items/touzokunokagi) | 特殊 |
 | [魔法の鍵](/items/mahounokagi) | 特殊 |
 | [最後の鍵](/items/saigonokagi) | 特殊 |
@@ -47,8 +48,6 @@ DQMVIに出てくるアイテムは **1136種** です。
 | [ダークオークのドア](/items/door6) | 特殊 |
 | [熱帯樹のドア](/items/door7) | 特殊 |
 | [松のドア](/items/door8) | 特殊 |
-| [配合の杖](/items/haigou) | 呪文 |
-| [転生の杖](/items/haigou2) | 呪文 |
 | [あやかし草](/drops/ayakasisou) | 素材 |
 | [どくどくヘドロ](/drops/dokudokuhedoro) | 素材 |
 | [どくがの粉](/drops/dokuganokona) | 素材 |

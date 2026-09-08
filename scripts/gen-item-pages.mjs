@@ -81,9 +81,14 @@ const TABS = new Map([
   ['FISHING', '釣り'],
   ['SPECIAL_ITEMS', '特殊'],
   ['MONUMENTS', '建物'],
-  ['MAGIC', '呪文'],
+  // MOD の MAGIC タブ（配合の杖・転生の杖の2種）は「特殊」に混ぜる。
+  // 2種だけの分類を立てると、呪文一覧（/spells/）と紛らわしいため（2026-09-07 よっしー指示）
+  ['MAGIC', '特殊'],
   ['DECORATION_BLOCKS', '装飾']
 ])
+
+/** 分類の中で先頭に出す品。ゲーム内の並び順より優先する（キーの順に並ぶ） */
+const PINNED_FIRST = ['haigou', 'haigou2']
 
 /**
  * 盾とアクセサリーはMODのデータ上ひとつのタブにまとまっているので、ここで分ける。
@@ -202,8 +207,15 @@ const items = readRows('legacy_tabs.tsv')
   })
 
 const collator = new Intl.Collator('ja')
-/** ゲーム内の並び順。番号のない品はうしろにまわして五十音順にする */
+/** ゲーム内の並び順。番号のない品はうしろにまわして五十音順にする。
+ *  ただし PINNED_FIRST の品は、その順で先頭に出す */
 function byGameOrder(a, b) {
+  const pa = PINNED_FIRST.indexOf(a.key)
+  const pb = PINNED_FIRST.indexOf(b.key)
+  if (pa !== -1 || pb !== -1) {
+    if (pa !== -1 && pb !== -1) return pa - pb
+    return pa !== -1 ? -1 : 1
+  }
   if (a.ord !== null && b.ord !== null) return a.ord - b.ord
   if (a.ord !== null) return -1
   if (b.ord !== null) return 1
@@ -233,9 +245,9 @@ const OTHER_PAGES = [
   { slug: 'materials', group: '素材', lead: 'モンスターの落とし物・鉱石・薬など。', guide: ['[鍛冶](/play/smithing)'] },
   { slug: 'seeds', group: '種', lead: '畑に植える苗と、育てて採れる作物。', guide: ['[農業](/play/farming)'] },
   { slug: 'fishing', group: '釣り', lead: '釣り竿・ルアーと、釣れる魚。', guide: ['[釣り](/play/fishing)'] },
-  { slug: 'special', group: '特殊', lead: '鍵・袋・職業の証・チケットなど。', guide: ['[アイテムの使い方](/play/items)'] },
+  { slug: 'special', group: '特殊', lead: '配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。',
+    guide: ['[ペットと配合](/play/pets)', '[アイテムの使い方](/play/items)'] },
   { slug: 'buildings', group: '建物', lead: 'ポートに入れるとペットが建ててくれる施設。', guide: ['[施設と暮らし](/play/facilities)'] },
-  { slug: 'magic', group: '呪文', lead: '配合の杖と転生の杖。', guide: ['[ペットと配合](/play/pets)'] },
   { slug: 'decoration', group: '装飾', lead: '鍵で開く扉など。', guide: [] }
 ]
 /** 釣りのページは、釣り竿・ルアー・魚で見出しを分ける */
@@ -388,7 +400,15 @@ function table(shape, list, { blank = false } = {}) {
 }
 
 /** 手書きで足された行を拾うときの「生成側が知っている名前」。全アイテムと装備ページの種類名 */
+/**
+ * もう使わなくなった分類名。
+ * ★一覧から行を外すときは、その名前をここに足すこと。足さないと extraRows が
+ *   既存ページに残っている行を「手書きで足された行」と誤認して末尾に戻してしまう
+ *   （消したページへのリンクなら死にリンクでビルドが落ちる。2026-09-07 に「呪文」で実際に起きた）。
+ */
+const RETIRED_GROUPS = ['呪文']
 const KNOWN_NAMES = () => new Set([...items.map((i) => plainName(i.name)), ...PAGES.map((p) => p.group), ...OTHER_PAGES.map((p) => p.group),
+                                   ...RETIRED_GROUPS,
                                    ...RANKS.ores.map((o) => plainName(o.name))])  // 素材ページの「鉱石」の表
 
 function equipPage(page) {

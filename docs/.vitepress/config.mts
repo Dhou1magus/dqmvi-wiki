@@ -461,7 +461,6 @@ export default defineConfig({
           { text: '　釣り', link: '/items/fishing' },
           { text: '　特殊', link: '/items/special' },
           { text: '　建物', link: '/items/buildings' },
-          { text: '　呪文', link: '/items/magic' },
           { text: '　装飾', link: '/items/decoration' }
         ]
       },

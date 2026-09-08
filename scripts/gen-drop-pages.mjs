@@ -95,7 +95,7 @@ const TAB_JA = new Map([
   ['WEAPONS', '武器'], ['ARMOR', '防具'], ['SHIELDS_ACCESSORIES', '盾・アクセサリー'],
   ['TENSEI_EQUIPMENT', '転生装備'], ['MATERIAL_ITEMS', '素材'], ['SEEDS', '種'],
   ['FISHING', '釣り'], ['SPECIAL_ITEMS', '特殊'], ['MONUMENTS', '建物'],
-  ['MAGIC', '呪文'], ['DECORATION_BLOCKS', '装飾'], ['SPECIAL_BLOCKS', '特殊'],
+  ['MAGIC', '特殊'], ['DECORATION_BLOCKS', '装飾'], ['SPECIAL_BLOCKS', '特殊'],
   ['FACILITY_BLOCKS', '施設']
 ])
 const tabOf = new Map()
