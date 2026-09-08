@@ -1054,12 +1054,13 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
 
 /* ── 図鑑の絞り込みボタン（theme/dex-filter.ts が表の上に作る）──
    ランク1〜7 ／ 系統9つ ／ 雑魚・転生・ボス・コインボス ／ すべて。押した組み合わせに合わない行は dex-hide で消す。
-   組（.grp）の間は広め、組の中は狭め。ここの差で「どこまでが同じ仲間か」を見せているので詰めないこと */
+   **組（.grp）ごとに1行**（2026-09-07 よっしー指示）。最後の組だけ「すべて」と同じ行に置くので、
+   ランク／系統／種類＋すべて の3行になる。組を増やしても、増えた組が新しい行になるだけ */
 .vp-doc .dex-filter {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 8px 18px;
+  gap: 10px 12px;
   margin: 0 0 12px;
 }
 .vp-doc .dex-filter .grp {
@@ -1067,6 +1068,7 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   flex-wrap: wrap;
   gap: 6px;
 }
+.vp-doc .dex-filter .grp:not(:last-of-type) { flex-basis: 100%; }
 .vp-doc .dex-filter button {
   font: inherit;
   font-size: 12.5px;
