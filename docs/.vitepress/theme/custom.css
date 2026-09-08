@@ -983,7 +983,10 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
   gap: 12px;
-  /* 高さは中身なり。同じ段の背の高い箱に合わせて伸ばすと、中身1件の箱が白い空きだらけになる */
+  /* 高さは TopPage.vue の equalizeCatHeights() が揃える（2026-09-08）。
+     ここでの align-items: start は、JSが動く前の一瞬と、万一JSが動かない場合の
+     素の見た目（中身なりの高さ）。stretch にしないのは、揃え漏れたときに
+     中身1件の箱だけ引き伸ばされて不自然に空くのを避けるため */
   align-items: start;
 }
 .cat {
