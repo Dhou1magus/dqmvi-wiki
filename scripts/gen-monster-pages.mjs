@@ -421,7 +421,7 @@ function monsterIndex(normals) {
   lines.push('')
   lines.push('::: tip 探し方')
   lines.push('名前が分かっているときは、右上（スマホは上部）の**検索**にモンスター名を入れるのがいちばん早いです。')
-  lines.push('表の上のボタンで、ランクや種類（雑魚・転生・ボス）で絞り込めます。')
+  lines.push('表の上のボタンで、ランク・系統・種類（雑魚・転生・ボス）で絞り込めます。')
   lines.push('表の見出しを押すと、その項目で並べ替えできます。もう一度押すと逆順になります。')
   lines.push(':::')
   lines.push('')

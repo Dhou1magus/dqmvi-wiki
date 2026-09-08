@@ -1053,12 +1053,13 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
 }
 
 /* ── 図鑑の絞り込みボタン（theme/dex-filter.ts が表の上に作る）──
-   ランク1〜7 ／ 雑魚・転生・ボス・コインボス ／ すべて。押した組み合わせに合わない行は dex-hide で消す */
+   ランク1〜7 ／ 系統9つ ／ 雑魚・転生・ボス・コインボス ／ すべて。押した組み合わせに合わない行は dex-hide で消す。
+   組（.grp）の間は広め、組の中は狭め。ここの差で「どこまでが同じ仲間か」を見せているので詰めないこと */
 .vp-doc .dex-filter {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 6px 10px;
+  gap: 8px 18px;
   margin: 0 0 12px;
 }
 .vp-doc .dex-filter .grp {
