@@ -2,6 +2,12 @@
 title: 万能薬
 description: DQMVIの「万能薬」を落とすモンスター4体の一覧。いちばん弱いのはプヨンターゲット（レア・EXP335）。
 pageClass: wide-page sortable-list
+prev:
+  text: "魔獣イギュアの爪"
+  link: /drops/majuuigyuanotume
+next:
+  text: "名刀 斬鉄丸"
+  link: /drops/meitouzantetumaru
 ---
 
 # 万能薬

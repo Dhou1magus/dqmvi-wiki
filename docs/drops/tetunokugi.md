@@ -2,6 +2,12 @@
 title: てつのクギ
 description: DQMVIの「てつのクギ」を落とすモンスター29体の一覧。いちばん弱いのはどろにんぎょう（通常・EXP89）。
 pageClass: wide-page sortable-list
+prev:
+  text: "つむりんママの貝殻"
+  link: /drops/tumurinmama
+next:
+  text: "デュークアックス"
+  link: /drops/dukeakkusu
 ---
 
 # てつのクギ

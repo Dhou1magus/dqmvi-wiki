@@ -2,6 +2,12 @@
 title: 賢者の聖水
 description: DQMVIの「賢者の聖水」を落とすモンスター6体の一覧。いちばん弱いのはスターデビル（超レア・EXP249）。
 pageClass: wide-page sortable-list
+prev:
+  text: "月のめぐみ"
+  link: /drops/tukinomegumi
+next:
+  text: "幻魔石"
+  link: /drops/genmaseki
 ---
 
 # 賢者の聖水

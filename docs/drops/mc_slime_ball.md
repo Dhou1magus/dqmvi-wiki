@@ -2,6 +2,12 @@
 title: スライムボール
 description: DQMVIの「スライムボール」を落とすモンスター1体の一覧。いちばん弱いのはおおなめくじ（レア・EXP6）。
 pageClass: wide-page sortable-list
+prev:
+  text: "スライムヘッド"
+  link: /drops/suraimuhead
+next:
+  text: "せいすい"
+  link: /drops/seisui
 ---
 
 # スライムボール

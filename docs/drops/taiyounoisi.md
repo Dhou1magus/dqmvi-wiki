@@ -2,6 +2,12 @@
 title: たいようの石
 description: DQMVIの「たいようの石」を落とすモンスター17体の一覧。いちばん弱いのはヘルプラネット（通常・EXP263）。
 pageClass: wide-page sortable-list
+prev:
+  text: "タイプGの欠片"
+  link: /drops/taipugnokakera
+next:
+  text: "タッチャンの首飾り"
+  link: /drops/tattyannokubikazari
 ---
 
 # たいようの石

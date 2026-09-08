@@ -2,6 +2,12 @@
 title: マーブルンの尻尾
 description: DQMVIの「マーブルンの尻尾」を落とすモンスター1体の一覧。いちばん弱いのはマーブルン（通常・EXP346）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ほのおの盾"
+  link: /drops/honoonotate
+next:
+  text: "まじゅうの角"
+  link: /drops/majuunotuno
 ---
 
 # マーブルンの尻尾

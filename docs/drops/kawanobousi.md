@@ -2,6 +2,12 @@
 title: 皮のぼうし
 description: DQMVIの「皮のぼうし」を落とすモンスター1体の一覧。いちばん弱いのはビッグハット（超レア・EXP7）。
 pageClass: wide-page sortable-list
+prev:
+  text: "隼の剣改"
+  link: /drops/hayabusanoturugikai
+next:
+  text: "氷鳥のはね"
+  link: /drops/hyoutyounohane
 ---
 
 # 皮のぼうし

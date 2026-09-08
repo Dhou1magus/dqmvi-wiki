@@ -2,6 +2,12 @@
 title: メタルオーブ
 description: DQMVIの「メタルオーブ」を落とすモンスター7体の一覧。いちばん弱いのはメタルスター（通常・EXP700,000）。
 pageClass: wide-page sortable-list
+prev:
+  text: "メイジキメラのはね"
+  link: /drops/meijikimeranohane
+next:
+  text: "メタルキングの鎧"
+  link: /drops/metarukingnoyoroi
 ---
 
 # メタルオーブ

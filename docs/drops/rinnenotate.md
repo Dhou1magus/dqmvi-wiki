@@ -2,6 +2,12 @@
 title: りんねの盾
 description: DQMVIの「りんねの盾」を落とすモンスター1体の一覧。いちばん弱いのはドラゴンダーク（超レア・EXP819）。
 pageClass: wide-page sortable-list
+prev:
+  text: "リンゴ"
+  link: /drops/mc_apple
+next:
+  text: "ルビー"
+  link: /drops/rubinogenseki
 ---
 
 # りんねの盾

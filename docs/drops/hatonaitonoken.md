@@ -2,6 +2,12 @@
 title: ハートナイトの剣
 description: DQMVIの「ハートナイトの剣」を落とすモンスター1体の一覧。いちばん弱いのはハートナイト（通常・EXP1,027）。
 pageClass: wide-page sortable-list
+prev:
+  text: "のろいの岩の槍"
+  link: /drops/noroiiwanoyari
+next:
+  text: "はがねの尾羽"
+  link: /drops/haganenoobane
 ---
 
 # ハートナイトの剣

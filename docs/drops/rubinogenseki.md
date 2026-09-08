@@ -2,6 +2,12 @@
 title: ルビー
 description: DQMVIの「ルビー」を落とすモンスター7体の一覧。いちばん弱いのはベスキング（通常・EXP238）。
 pageClass: wide-page sortable-list
+prev:
+  text: "りんねの盾"
+  link: /drops/rinnenotate
+next:
+  text: "ルビーの原石"
+  link: /drops/ore_rubi
 ---
 
 # ルビー

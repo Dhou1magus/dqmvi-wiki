@@ -2,6 +2,12 @@
 title: ムーンキメラの羽
 description: DQMVIの「ムーンキメラの羽」を落とすモンスター1体の一覧。いちばん弱いのはムーンキメラ（通常・EXP4,032）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ミュシャドの毛"
+  link: /drops/myusyadonoke
+next:
+  text: "メイジキメラのはね"
+  link: /drops/meijikimeranohane
 ---
 
 # ムーンキメラの羽

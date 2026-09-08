@@ -2,6 +2,12 @@
 title: 竹のヤリ
 description: DQMVIの「竹のヤリ」を落とすモンスター1体の一覧。いちばん弱いのはズッキーニャ（超レア・EXP5）。
 pageClass: wide-page sortable-list
+prev:
+  text: "大きな袋"
+  link: /drops/fukuro
+next:
+  text: "超守りの腕輪"
+  link: /drops/mamorinoudewa2
 ---
 
 # 竹のヤリ

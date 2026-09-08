@@ -2,6 +2,12 @@
 title: みどりコケ
 description: DQMVIの「みどりコケ」を落とすモンスター17体の一覧。いちばん弱いのはとげぼうず（通常・EXP7）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ミスリル合金"
+  link: /drops/misriru2
+next:
+  text: "ミュシャドの毛"
+  link: /drops/myusyadonoke
 ---
 
 # みどりコケ

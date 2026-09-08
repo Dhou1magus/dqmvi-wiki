@@ -2,6 +2,12 @@
 title: はがねの尾羽
 description: DQMVIの「はがねの尾羽」を落とすモンスター22体の一覧。いちばん弱いのはきとうし（通常・EXP80）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ハートナイトの剣"
+  link: /drops/hatonaitonoken
+next:
+  text: "はぐれメタルの剣"
+  link: /drops/haguremetarunoturugi
 ---
 
 # はがねの尾羽

@@ -2,6 +2,12 @@
 title: 月のダイヤ
 description: DQMVIの「月のダイヤ」を落とすモンスター18体の一覧。いちばん弱いのはオカルトビスク（通常・EXP143）。
 pageClass: wide-page sortable-list
+prev:
+  text: "形見の首飾り"
+  link: /drops/kataminokubikazari
+next:
+  text: "月のめぐみ"
+  link: /drops/tukinomegumi
 ---
 
 # 月のダイヤ

@@ -2,6 +2,12 @@
 title: 爆弾石
 description: DQMVIの「爆弾石」を落とすモンスター9体の一覧。いちばん弱いのはスピニー（通常・EXP75）。
 pageClass: wide-page sortable-list
+prev:
+  text: "白いかいがら"
+  link: /drops/siroikaigara
+next:
+  text: "伐採マシンの鎌"
+  link: /drops/bassaimasinnokama
 ---
 
 # 爆弾石

@@ -2,6 +2,12 @@
 title: 超守りの腕輪
 description: DQMVIの「超守りの腕輪」を落とすモンスター1体の一覧。いちばん弱いのはガメゴンレジェンド（超レア・EXP822）。
 pageClass: wide-page sortable-list
+prev:
+  text: "竹のヤリ"
+  link: /drops/takenoyari
+next:
+  text: "超星空の首飾り"
+  link: /drops/hosizoranokubikazari2
 ---
 
 # 超守りの腕輪

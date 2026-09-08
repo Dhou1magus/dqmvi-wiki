@@ -2,6 +2,12 @@
 title: にくきゅうの杖
 description: DQMVIの「にくきゅうの杖」を落とすモンスター1体の一覧。いちばん弱いのはミケまどう（通常・EXP1,980）。
 pageClass: wide-page sortable-list
+prev:
+  text: "トロルバッコスの大棍棒"
+  link: /drops/tororubakkosunoookonnbou
+next:
+  text: "にじいろの布きれ"
+  link: /drops/nijiirononunokire
 ---
 
 # にくきゅうの杖

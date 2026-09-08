@@ -2,6 +2,12 @@
 title: ヘビーメタル
 description: DQMVIの「ヘビーメタル」を落とすモンスター34体の一覧。いちばん弱いのはスライムカルゴ（通常・EXP117）。
 pageClass: wide-page sortable-list
+prev:
+  text: "べっこう"
+  link: /drops/bekkou
+next:
+  text: "ヘビのぬけがら"
+  link: /drops/hebinonukegara
 ---
 
 # ヘビーメタル

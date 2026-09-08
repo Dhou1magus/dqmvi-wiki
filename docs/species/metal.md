@@ -3,6 +3,12 @@ title: メタル系
 description: DQMVIのメタル系モンスター17体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
+prev:
+  text: "ドラゴン系"
+  link: /species/dragon
+next:
+  text: "特殊系"
+  link: /species/tokusyu
 ---
 
 # メタル系

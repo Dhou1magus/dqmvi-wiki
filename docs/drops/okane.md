@@ -2,6 +2,12 @@
 title: ゴールド袋(1000G)
 description: DQMVIの「ゴールド袋(1000G)」を落とすモンスター3体の一覧。いちばん弱いのはゴールデントーテム（レア・EXP105）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ゴールドマントの剣"
+  link: /drops/gorudenmantonoken
+next:
+  text: "ゴールド袋(1万G)"
+  link: /drops/okane10000
 ---
 
 # ゴールド袋(1000G)

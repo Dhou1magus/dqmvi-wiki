@@ -2,6 +2,12 @@
 title: 守りの種
 description: DQMVIの「守りの種」を落とすモンスター1体の一覧。いちばん弱いのはぐんたいガニ（超レア・EXP49）。
 pageClass: wide-page sortable-list
+prev:
+  text: "時の水晶"
+  link: /drops/tokinosuisyou
+next:
+  text: "狩人の弓"
+  link: /drops/karyuudonoyumi
 ---
 
 # 守りの種

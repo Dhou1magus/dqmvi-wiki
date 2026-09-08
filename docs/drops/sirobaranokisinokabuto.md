@@ -2,6 +2,12 @@
 title: しろバラのきしの兜
 description: DQMVIの「しろバラのきしの兜」を落とすモンスター1体の一覧。いちばん弱いのはしろバラのきし（通常・EXP14,267）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ショートボウ"
+  link: /drops/syotobou
+next:
+  text: "スライダークロボの剣"
+  link: /drops/suraidakurobonoken
 ---
 
 # しろバラのきしの兜

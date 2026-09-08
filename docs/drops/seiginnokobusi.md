@@ -2,6 +2,12 @@
 title: 聖銀の拳
 description: DQMVIの「聖銀の拳」を落とすモンスター1体の一覧。いちばん弱いのは聖銀のどくろあらい（通常・EXP35,545）。
 pageClass: wide-page sortable-list
+prev:
+  text: "精霊石"
+  link: /drops/seireiseki
+next:
+  text: "聖者の灰"
+  link: /drops/seijanohai
 ---
 
 # 聖銀の拳

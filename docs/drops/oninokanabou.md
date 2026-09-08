@@ -2,6 +2,12 @@
 title: おにのかなぼう
 description: DQMVIの「おにのかなぼう」を落とすモンスター1体の一覧。いちばん弱いのはボストロール（超レア・EXP373）。
 pageClass: wide-page sortable-list
+prev:
+  text: "オークの原木"
+  link: /drops/mc_oak_log
+next:
+  text: "オリハルコン"
+  link: /drops/oriharukon
 ---
 
 # おにのかなぼう

@@ -2,6 +2,12 @@
 title: こおりの結晶
 description: DQMVIの「こおりの結晶」を落とすモンスター5体の一覧。いちばん弱いのはひょうがまじん（通常・EXP98）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ゴードンヘッドの小手"
+  link: /drops/godonheddonokote
+next:
+  text: "ゴールデンコーンの角"
+  link: /drops/gorudenkonnotuno
 ---
 
 # こおりの結晶

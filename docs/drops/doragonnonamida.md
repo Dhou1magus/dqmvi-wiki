@@ -2,6 +2,12 @@
 title: ドラゴンのなみだ
 description: DQMVIの「ドラゴンのなみだ」を落とすモンスター29体の一覧。いちばん弱いのはアームライオン（通常・EXP115）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ドラゴンスレイヤー"
+  link: /drops/doragonsureiya
+next:
+  text: "トロルバッコスの大棍棒"
+  link: /drops/tororubakkosunoookonnbou
 ---
 
 # ドラゴンのなみだ

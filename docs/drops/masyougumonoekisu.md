@@ -2,6 +2,12 @@
 title: ましょうぐものエキス
 description: DQMVIの「ましょうぐものエキス」を落とすモンスター1体の一覧。いちばん弱いのはましょうぐも（通常・EXP9,059）。
 pageClass: wide-page sortable-list
+prev:
+  text: "まじゅうの皮"
+  link: /drops/majuunokawa
+next:
+  text: "まじんのかなづち"
+  link: /drops/majinnokanaduti
 ---
 
 # ましょうぐものエキス

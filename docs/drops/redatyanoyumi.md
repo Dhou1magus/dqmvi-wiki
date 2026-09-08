@@ -2,6 +2,12 @@
 title: レッドアーチャーの弓
 description: DQMVIの「レッドアーチャーの弓」を落とすモンスター1体の一覧。いちばん弱いのはレッドアーチャー（通常・EXP1,871）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ルビーの原石"
+  link: /drops/ore_rubi
+next:
+  text: "れんごくの羽根"
+  link: /drops/rengokunohane
 ---
 
 # レッドアーチャーの弓

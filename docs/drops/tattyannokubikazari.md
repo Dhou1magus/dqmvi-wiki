@@ -2,6 +2,12 @@
 title: タッチャンの首飾り
 description: DQMVIの「タッチャンの首飾り」を落とすモンスター1体の一覧。いちばん弱いのはタッチャン（通常・EXP325）。
 pageClass: wide-page sortable-list
+prev:
+  text: "たいようの石"
+  link: /drops/taiyounoisi
+next:
+  text: "タマゴ"
+  link: /drops/mc_egg
 ---
 
 # タッチャンの首飾り

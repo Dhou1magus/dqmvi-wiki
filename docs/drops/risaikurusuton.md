@@ -2,6 +2,12 @@
 title: リサイクルストーン
 description: DQMVIの「リサイクルストーン」を落とすモンスター27体の一覧。いちばん弱いのはパペットこぞう（通常・EXP39）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ライアンのよろい"
+  link: /drops/raiannoyoroi
+next:
+  text: "りゅうおうもどきの尻尾"
+  link: /drops/ryuuoumodokinosippo
 ---
 
 # リサイクルストーン

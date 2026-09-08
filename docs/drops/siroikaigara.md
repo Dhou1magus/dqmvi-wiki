@@ -2,6 +2,12 @@
 title: 白いかいがら
 description: DQMVIの「白いかいがら」を落とすモンスター14体の一覧。いちばん弱いのはズッキーニャ（通常・EXP5）。
 pageClass: wide-page sortable-list
+prev:
+  text: "破毒のリング"
+  link: /drops/hadokunoring
+next:
+  text: "爆弾石"
+  link: /drops/bakudanisi
 ---
 
 # 白いかいがら

@@ -2,6 +2,12 @@
 title: よるのとばり
 description: DQMVIの「よるのとばり」を落とすモンスター26体の一覧。いちばん弱いのはシャドー（通常・EXP43）。
 pageClass: wide-page sortable-list
+prev:
+  text: "よごれた包帯"
+  link: /drops/yogoretahoutai
+next:
+  text: "ライアンのよろい"
+  link: /drops/raiannoyoroi
 ---
 
 # よるのとばり

@@ -2,6 +2,12 @@
 title: シールドあにきの盾
 description: DQMVIの「シールドあにきの盾」を落とすモンスター1体の一覧。いちばん弱いのはシールドあにき（通常・EXP3,419）。
 pageClass: wide-page sortable-list
+prev:
+  text: "しあわせの帽子"
+  link: /drops/siawasenobousi
+next:
+  text: "ショートボウ"
+  link: /drops/syotobou
 ---
 
 # シールドあにきの盾

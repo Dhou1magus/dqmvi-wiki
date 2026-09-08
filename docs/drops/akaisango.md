@@ -2,6 +2,12 @@
 title: 赤いサンゴ
 description: DQMVIの「赤いサンゴ」を落とすモンスター24体の一覧。いちばん弱いのはマグマスライム（通常・EXP9）。
 pageClass: wide-page sortable-list
+prev:
+  text: "聖者の灰"
+  link: /drops/seijanohai
+next:
+  text: "太陽石合金"
+  link: /drops/taiyounoisi2
 ---
 
 # 赤いサンゴ

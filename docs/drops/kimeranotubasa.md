@@ -2,6 +2,12 @@
 title: キメラのつばさ
 description: DQMVIの「キメラのつばさ」を落とすモンスター4体の一覧。いちばん弱いのはスターキメラ（レア・EXP628）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ギガクラッシャー"
+  link: /drops/gigakurassya
+next:
+  text: "キラートーチのトーチ"
+  link: /drops/kiratotinototi
 ---
 
 # キメラのつばさ

@@ -2,6 +2,12 @@
 title: 竜の火酒
 description: DQMVIの「竜の火酒」を落とすモンスター19体の一覧。いちばん弱いのはじごくのざりがに（通常・EXP414）。
 pageClass: wide-page sortable-list
+prev:
+  text: "竜のなみだ"
+  link: /drops/ryuunonamida
+next:
+  text: "竜騎士の鎧"
+  link: /drops/ryuukisinoyoroi
 ---
 
 # 竜の火酒

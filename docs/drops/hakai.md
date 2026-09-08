@@ -2,6 +2,12 @@
 title: 貴重なレシピ(破壊)
 description: DQMVIの「貴重なレシピ(破壊)」を落とすモンスター1体の一覧。いちばん弱いのはビッグモアイ（超レア・EXP809）。
 pageClass: wide-page sortable-list
+prev:
+  text: "貴重なレシピ(天空)"
+  link: /drops/tenkuu
+next:
+  text: "貴重なレシピ(斧、槌、棍)"
+  link: /drops/ono_tuti_kon
 ---
 
 # 貴重なレシピ(破壊)

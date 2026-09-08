@@ -2,6 +2,12 @@
 title: フレアドラゴンのうろこ
 description: DQMVIの「フレアドラゴンのうろこ」を落とすモンスター1体の一覧。いちばん弱いのはフレアドラゴン（通常・EXP14,916）。
 pageClass: wide-page sortable-list
+prev:
+  text: "プラチナ合金"
+  link: /drops/puratina2
+next:
+  text: "べっこう"
+  link: /drops/bekkou
 ---
 
 # フレアドラゴンのうろこ

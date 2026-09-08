@@ -3,6 +3,12 @@ title: スライム系
 description: DQMVIのスライム系モンスター100体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
+prev:
+  text: "自然系"
+  link: /species/sizen
+next:
+  text: "悪魔系"
+  link: /species/akuma
 ---
 
 # スライム系

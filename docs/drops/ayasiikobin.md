@@ -2,6 +2,12 @@
 title: あやしい小ビン
 description: DQMVIの「あやしい小ビン」を落とすモンスター11体の一覧。いちばん弱いのはじごくのつかい（レア・EXP263）。
 pageClass: wide-page sortable-list
+prev:
+  text: "あやかし草"
+  link: /drops/ayakasisou
+next:
+  text: "あらくれマスク"
+  link: /drops/arakuremasuku
 ---
 
 # あやしい小ビン

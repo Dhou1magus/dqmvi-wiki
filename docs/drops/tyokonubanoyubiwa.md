@@ -2,6 +2,12 @@
 title: チョコヌーバの指輪
 description: DQMVIの「チョコヌーバの指輪」を落とすモンスター1体の一覧。いちばん弱いのはチョコヌーバ（通常・EXP324）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ちょうの羽"
+  link: /drops/tyounohane
+next:
+  text: "つけもの石"
+  link: /drops/tukemonoisi
 ---
 
 # チョコヌーバの指輪

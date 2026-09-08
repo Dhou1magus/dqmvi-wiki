@@ -2,6 +2,12 @@
 title: 超星空の首飾り
 description: DQMVIの「超星空の首飾り」を落とすモンスター1体の一覧。いちばん弱いのはキングレオⅢ（超レア・EXP774）。
 pageClass: wide-page sortable-list
+prev:
+  text: "超守りの腕輪"
+  link: /drops/mamorinoudewa2
+next:
+  text: "超怒りのタトゥー"
+  link: /drops/ikarinotatu2
 ---
 
 # 超星空の首飾り

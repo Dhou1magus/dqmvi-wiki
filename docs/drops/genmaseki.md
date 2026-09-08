@@ -2,6 +2,12 @@
 title: 幻魔石
 description: DQMVIの「幻魔石」を落とすモンスター36体の一覧。いちばん弱いのはおどる宝石（通常・EXP142）。
 pageClass: wide-page sortable-list
+prev:
+  text: "賢者の聖水"
+  link: /drops/kenjanoseisui
+next:
+  text: "光の石"
+  link: /drops/hikarinoisi
 ---
 
 # 幻魔石

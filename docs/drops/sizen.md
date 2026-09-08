@@ -2,6 +2,12 @@
 title: バトルアックス
 description: DQMVIの「バトルアックス」を落とすモンスター2体の一覧。いちばん弱いのはアックスドラゴン（超レア・EXP368）。
 pageClass: wide-page sortable-list
+prev:
+  text: "はぐれメタルの剣"
+  link: /drops/haguremetarunoturugi
+next:
+  text: "パパスのつるぎ"
+  link: /drops/papasunoturugi
 ---
 
 # バトルアックス

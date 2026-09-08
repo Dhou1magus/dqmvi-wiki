@@ -2,6 +2,12 @@
 title: 玉鋼の剣
 description: DQMVIの「玉鋼の剣」を落とすモンスター1体の一覧。いちばん弱いのはさまようよろい（超レア・EXP182）。
 pageClass: wide-page sortable-list
+prev:
+  text: "巨大ヒゲトカゲ"
+  link: /drops/kyodaihigetokage
+next:
+  text: "金のリンゴ"
+  link: /drops/mc_golden_apple
 ---
 
 # 玉鋼の剣

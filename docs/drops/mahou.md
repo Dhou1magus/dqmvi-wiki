@@ -2,6 +2,12 @@
 title: 貴重なレシピ(魔法)
 description: DQMVIの「貴重なレシピ(魔法)」を落とすモンスター4体の一覧。いちばん弱いのはマージマタンゴ（超レア・EXP590）。
 pageClass: wide-page sortable-list
+prev:
+  text: "貴重なレシピ(魔、呪)"
+  link: /drops/ma_ju
+next:
+  text: "巨大ナスビナーラの髭"
+  link: /drops/kyodainasubiranohige
 ---
 
 # 貴重なレシピ(魔法)

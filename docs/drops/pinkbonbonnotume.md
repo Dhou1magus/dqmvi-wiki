@@ -2,6 +2,12 @@
 title: ピンクボンボンの爪
 description: DQMVIの「ピンクボンボンの爪」を落とすモンスター1体の一覧。いちばん弱いのはピンクボンボン（通常・EXP995）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ピサロナイトの鎧"
+  link: /drops/pisaronaitonoyoroi
+next:
+  text: "プラチナ"
+  link: /drops/puratina
 ---
 
 # ピンクボンボンの爪

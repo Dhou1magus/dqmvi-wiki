@@ -2,6 +2,12 @@
 title: 月のめぐみ
 description: DQMVIの「月のめぐみ」を落とすモンスター10体の一覧。いちばん弱いのはブラッディハンド（通常・EXP235）。
 pageClass: wide-page sortable-list
+prev:
+  text: "月のダイヤ"
+  link: /drops/moon
+next:
+  text: "賢者の聖水"
+  link: /drops/kenjanoseisui
 ---
 
 # 月のめぐみ

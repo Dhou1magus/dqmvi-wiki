@@ -2,6 +2,12 @@
 title: どくがの粉
 description: DQMVIの「どくがの粉」を落とすモンスター11体の一覧。いちばん弱いのはバブルスライム（通常・EXP6）。
 pageClass: wide-page sortable-list
+prev:
+  text: "てんしのはね"
+  link: /drops/tensinohane
+next:
+  text: "どくどくヘドロ"
+  link: /drops/dokudokuhedoro
 ---
 
 # どくがの粉

@@ -2,6 +2,12 @@
 title: 巨大な牙
 description: DQMVIの「巨大な牙」を落とすモンスター10体の一覧。いちばん弱いのはおばけキャンドル（通常・EXP42）。
 pageClass: wide-page sortable-list
+prev:
+  text: "巨大ナスビナーラの髭"
+  link: /drops/kyodainasubiranohige
+next:
+  text: "巨大ヒゲトカゲ"
+  link: /drops/kyodaihigetokage
 ---
 
 # 巨大な牙

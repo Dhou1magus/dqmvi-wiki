@@ -2,6 +2,12 @@
 title: げんこつダケ
 description: DQMVIの「げんこつダケ」を落とすモンスター1体の一覧。いちばん弱いのはケムンクルス（通常・EXP314）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ゲノミーの触手"
+  link: /drops/genominosyokusyu
+next:
+  text: "けんじゃの石"
+  link: /drops/kenjanoisi
 ---
 
 # げんこつダケ

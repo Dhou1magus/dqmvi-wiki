@@ -2,6 +2,12 @@
 title: わんぱくサタンのスプーン
 description: DQMVIの「わんぱくサタンのスプーン」を落とすモンスター1体の一覧。いちばん弱いのはわんぱくサタン（通常・EXP3,227）。
 pageClass: wide-page sortable-list
+prev:
+  text: "れんごくの羽根"
+  link: /drops/rengokunohane
+next:
+  text: "花のみつ"
+  link: /drops/hananomitu
 ---
 
 # わんぱくサタンのスプーン

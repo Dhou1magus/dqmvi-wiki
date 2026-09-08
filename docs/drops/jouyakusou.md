@@ -2,6 +2,12 @@
 title: 上やくそう
 description: DQMVIの「上やくそう」を落とすモンスター6体の一覧。いちばん弱いのはもりもりスライム（通常・EXP43）。
 pageClass: wide-page sortable-list
+prev:
+  text: "呪力のモト"
+  link: /drops/juryokunomoto
+next:
+  text: "精霊石"
+  link: /drops/seireiseki
 ---
 
 # 上やくそう

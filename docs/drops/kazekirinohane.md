@@ -2,6 +2,12 @@
 title: 風切りの羽根
 description: DQMVIの「風切りの羽根」を落とすモンスター13体の一覧。いちばん弱いのはキメラ（通常・EXP48）。
 pageClass: wide-page sortable-list
+prev:
+  text: "武闘エキス"
+  link: /drops/budouekisu
+next:
+  text: "風切りの弓"
+  link: /drops/kazekirinoyumi
 ---
 
 # 風切りの羽根

@@ -2,6 +2,12 @@
 title: まじゅうの皮
 description: DQMVIの「まじゅうの皮」を落とすモンスター28体の一覧。いちばん弱いのはファーラット（通常・EXP11）。
 pageClass: wide-page sortable-list
+prev:
+  text: "まじゅうの角"
+  link: /drops/majuunotuno
+next:
+  text: "ましょうぐものエキス"
+  link: /drops/masyougumonoekisu
 ---
 
 # まじゅうの皮

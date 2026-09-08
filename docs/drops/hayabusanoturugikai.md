@@ -2,6 +2,12 @@
 title: 隼の剣改
 description: DQMVIの「隼の剣改」を落とすモンスター1体の一覧。いちばん弱いのはキラーマシン（超レア・EXP706）。
 pageClass: wide-page sortable-list
+prev:
+  text: "伐採マシンの鎌"
+  link: /drops/bassaimasinnokama
+next:
+  text: "皮のぼうし"
+  link: /drops/kawanobousi
 ---
 
 # 隼の剣改

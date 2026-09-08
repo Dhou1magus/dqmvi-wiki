@@ -2,6 +2,12 @@
 title: 貴重なレシピ(防具)
 description: DQMVIの「貴重なレシピ(防具)」を落とすモンスター4体の一覧。いちばん弱いのはキラークラブ（超レア・EXP675）。
 pageClass: wide-page sortable-list
+prev:
+  text: "貴重なレシピ(斧、槌、棍)"
+  link: /drops/ono_tuti_kon
+next:
+  text: "貴重なレシピ(魔、呪)"
+  link: /drops/ma_ju
 ---
 
 # 貴重なレシピ(防具)

@@ -2,6 +2,12 @@
 title: ライアンのよろい
 description: DQMVIの「ライアンのよろい」を落とすモンスター2体の一覧。いちばん弱いのはトレーナースライム（超レア・EXP303）。
 pageClass: wide-page sortable-list
+prev:
+  text: "よるのとばり"
+  link: /drops/yorunotobari
+next:
+  text: "リサイクルストーン"
+  link: /drops/risaikurusuton
 ---
 
 # ライアンのよろい

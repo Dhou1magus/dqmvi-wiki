@@ -3,6 +3,12 @@ title: 魔獣系
 description: DQMVIの魔獣系モンスター58体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
+prev:
+  text: "ゾンビ系"
+  link: /species/zombie
+next:
+  text: "ドラゴン系"
+  link: /species/dragon
 ---
 
 # 魔獣系
