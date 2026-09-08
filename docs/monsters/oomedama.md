@@ -1,6 +1,12 @@
 ---
 title: おおめだま
 description: DQMVIのモンスター「おおめだま」のステータス。HP45 / こうげき25.02 / しゅび14 / 経験値39 / 8G。
+prev:
+  text: "パペットこぞう"
+  link: /monsters/papetkozou
+next:
+  text: "ドラキー"
+  link: /monsters/doraki
 ---
 
 # おおめだま

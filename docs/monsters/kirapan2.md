@@ -1,6 +1,12 @@
 ---
 title: キラーパンサー
 description: DQMVIのモンスター「キラーパンサー」のステータス。HP960 / こうげき160.74 / しゅび132 / 経験値350 / 70G。
+prev:
+  text: "マジカルハット"
+  link: /monsters/majikaruhatto
+next:
+  text: "まおうのかげ"
+  link: /monsters/maounokage
 ---
 
 # キラーパンサー

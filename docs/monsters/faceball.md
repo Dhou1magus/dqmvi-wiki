@@ -1,6 +1,12 @@
 ---
 title: フェイスボール
 description: DQMVIのモンスター「フェイスボール」のステータス。HP202 / こうげき89 / しゅび69 / 経験値165 / 33G。
+prev:
+  text: "きのみのせいれい"
+  link: /monsters/kinominoseirei
+next:
+  text: "ボーンナイト"
+  link: /monsters/boneknight
 ---
 
 # フェイスボール

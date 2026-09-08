@@ -1,6 +1,12 @@
 ---
 title: メイデンドール
 description: DQMVIのモンスター「メイデンドール」のステータス。HP106 / こうげき52 / しゅび31 / 経験値101 / 20G。
+prev:
+  text: "ベンガルクーン"
+  link: /monsters/bengarukun
+next:
+  text: "ボーンファイター"
+  link: /monsters/bonfaita
 ---
 
 # メイデンドール

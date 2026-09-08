@@ -1,6 +1,12 @@
 ---
 title: スラッピー
 description: DQMVIのモンスター「スラッピー」のステータス。HP153 / こうげき65 / しゅび42 / 経験値109 / 24G。
+prev:
+  text: "グリゴンダンス"
+  link: /monsters/gurigondansu
+next:
+  text: "りゅうせんし"
+  link: /monsters/mandrake_marauder
 ---
 
 # スラッピー

@@ -1,6 +1,12 @@
 ---
 title: ハートボイルド
 description: DQMVIのモンスター「ハートボイルド」のステータス。HP191 / こうげき74 / しゅび67 / 経験値147 / 33G。
+prev:
+  text: "デビルアンカー"
+  link: /monsters/devil_anchor
+next:
+  text: "キングジョーカー"
+  link: /monsters/kingjoker
 ---
 
 # ハートボイルド

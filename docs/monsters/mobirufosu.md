@@ -1,6 +1,12 @@
 ---
 title: モビルフォース
 description: DQMVIのモンスター「モビルフォース」のステータス。HP232 / こうげき132 / しゅび100 / 経験値222 / 34G。
+prev:
+  text: "モビルライト"
+  link: /monsters/mobiruraito
+next:
+  text: "ダークペルシャ"
+  link: /monsters/daakuperusya
 ---
 
 # モビルフォース

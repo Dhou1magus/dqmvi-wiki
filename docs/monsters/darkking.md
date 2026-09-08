@@ -1,6 +1,12 @@
 ---
 title: ダークキング
 description: DQMVIのモンスター「ダークキング」のステータス。HP186 / こうげき71 / しゅび72 / 経験値155 / 30G。
+prev:
+  text: "キングジョーカー"
+  link: /monsters/kingjoker
+next:
+  text: "クリスタルスライム"
+  link: /monsters/crystalslime
 ---
 
 # ダークキング

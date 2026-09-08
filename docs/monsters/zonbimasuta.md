@@ -1,6 +1,12 @@
 ---
 title: ゾンビマスター
 description: DQMVIのモンスター「ゾンビマスター」のステータス。HP521 / こうげき132 / しゅび98 / 経験値300 / 52G。
+prev:
+  text: "タイガークロー"
+  link: /monsters/taigakuro
+next:
+  text: "ネコノマンサー"
+  link: /monsters/nekonomansa
 ---
 
 # ゾンビマスター

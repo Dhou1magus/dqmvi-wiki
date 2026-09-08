@@ -1,6 +1,12 @@
 ---
 title: マッドスミス
 description: DQMVIのモンスター「マッドスミス」のステータス。HP1,123 / こうげき177 / しゅび98 / 経験値345 / 45G。
+prev:
+  text: "マーマンダイン"
+  link: /monsters/mermandine
+next:
+  text: "ドラゴントイズ"
+  link: /monsters/doragontoizu
 ---
 
 # マッドスミス

@@ -1,6 +1,12 @@
 ---
 title: ベスキング
 description: DQMVIのモンスター「ベスキング」のステータス。HP368 / こうげき124.8 / しゅび103 / 経験値238 / 48G。
+prev:
+  text: "しりょう"
+  link: /monsters/siryou
+next:
+  text: "ビッグハンマー"
+  link: /monsters/bighanma
 ---
 
 # ベスキング

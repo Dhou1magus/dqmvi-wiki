@@ -1,6 +1,12 @@
 ---
 title: スペクテット
 description: DQMVIのモンスター「スペクテット」のステータス。HP93 / こうげき49.2 / しゅび37 / 経験値86 / 17G。
+prev:
+  text: "ナイトウォーカー"
+  link: /monsters/nightwalker
+next:
+  text: "しびれあげは"
+  link: /monsters/sibireageha
 ---
 
 # スペクテット

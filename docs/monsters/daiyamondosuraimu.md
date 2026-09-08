@@ -1,6 +1,12 @@
 ---
 title: ダイヤモンドスライム
 description: DQMVIのモンスター「ダイヤモンドスライム」のステータス。HP42 / こうげき148.05 / しゅび10,000 / 経験値80,000 / 750G。
+prev:
+  text: "しろバラのきし"
+  link: /monsters/sirobaranokisi
+next:
+  text: "プラチナキング"
+  link: /monsters/puratinaking
 ---
 
 # ダイヤモンドスライム

@@ -1,6 +1,12 @@
 ---
 title: バル
 description: DQMVIのモンスター「バル」のステータス。HP36 / こうげき15 / しゅび12 / 経験値40 / 14G。
+prev:
+  text: "なげきムーン"
+  link: /monsters/nagekimun
+next:
+  text: "ブル"
+  link: /monsters/buru
 ---
 
 # バル

@@ -1,6 +1,12 @@
 ---
 title: スライムダーク
 description: DQMVIのモンスター「スライムダーク」のステータス。HP162 / こうげき78 / しゅび40 / 経験値129 / 24G。
+prev:
+  text: "もりもりベス"
+  link: /monsters/beshemothslime
+next:
+  text: "やみしばり"
+  link: /monsters/yamishibari
 ---
 
 # スライムダーク

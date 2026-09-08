@@ -1,6 +1,12 @@
 ---
 title: キョンシーゴースト
 description: DQMVIのモンスター「キョンシーゴースト」のステータス。HP194 / こうげき116 / しゅび76 / 経験値178 / 35G。
+prev:
+  text: "エビルポット"
+  link: /monsters/malevolamp
+next:
+  text: "アサシンブラッド"
+  link: /monsters/assassinblood
 ---
 
 # キョンシーゴースト

@@ -1,6 +1,12 @@
 ---
 title: あくま神官
 description: DQMVIのモンスター「あくま神官」のステータス。HP94 / こうげき56.8 / しゅび36 / 経験値92 / 18G。
+prev:
+  text: "ボックススライムグリーン"
+  link: /monsters/boxsuraimu_midori
+next:
+  text: "きとうし"
+  link: /monsters/kitousi
 ---
 
 # あくま神官

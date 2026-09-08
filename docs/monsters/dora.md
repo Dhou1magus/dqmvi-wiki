@@ -1,6 +1,12 @@
 ---
 title: ドーラー
 description: DQMVIのモンスター「ドーラー」のステータス。HP1,256 / こうげき167 / しゅび142 / 経験値422 / 92G。
+prev:
+  text: "オーラー"
+  link: /monsters/ora
+next:
+  text: "フーラー"
+  link: /monsters/fura
 ---
 
 # ドーラー

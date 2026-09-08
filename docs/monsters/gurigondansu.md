@@ -1,6 +1,12 @@
 ---
 title: グリゴンダンス
 description: DQMVIのモンスター「グリゴンダンス」のステータス。HP87 / こうげき43 / しゅび37 / 経験値79 / 16G。
+prev:
+  text: "石炭つむり"
+  link: /monsters/coalslime
+next:
+  text: "スラッピー"
+  link: /monsters/slabbit
 ---
 
 # グリゴンダンス

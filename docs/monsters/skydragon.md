@@ -1,6 +1,12 @@
 ---
 title: スカイドラゴン
 description: DQMVIのモンスター「スカイドラゴン」のステータス。HP205 / こうげき90 / しゅび80 / 経験値172 / 34G。
+prev:
+  text: "ボーンナイト"
+  link: /monsters/boneknight
+next:
+  text: "ドラゴンゾンビ"
+  link: /monsters/dragonzombie
 ---
 
 # スカイドラゴン

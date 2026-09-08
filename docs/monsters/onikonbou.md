@@ -1,6 +1,12 @@
 ---
 title: おにこんぼう
 description: DQMVIのモンスター「おにこんぼう」のステータス。HP172 / こうげき78 / しゅび32 / 経験値111 / 21G。
+prev:
+  text: "ソイソルジャー"
+  link: /monsters/soisoruja
+next:
+  text: "どれいへいし"
+  link: /monsters/doreiheisi
 ---
 
 # おにこんぼう

@@ -1,6 +1,12 @@
 ---
 title: マグマロン
 description: DQMVIのモンスター「マグマロン」のステータス。HP1,770 / こうげき294 / しゅび187 / 経験値592 / 118G。
+prev:
+  text: "クイーンスライム"
+  link: /monsters/kuinsuraimu
+next:
+  text: "ダースギズモ"
+  link: /monsters/dgizumo
 ---
 
 # マグマロン

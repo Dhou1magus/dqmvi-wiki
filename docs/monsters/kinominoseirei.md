@@ -1,6 +1,12 @@
 ---
 title: きのみのせいれい
 description: DQMVIのモンスター「きのみのせいれい」のステータス。HP174 / こうげき82 / しゅび77 / 経験値134 / 27G。
+prev:
+  text: "テンタコルス"
+  link: /monsters/tentakorusu
+next:
+  text: "フェイスボール"
+  link: /monsters/faceball
 ---
 
 # きのみのせいれい

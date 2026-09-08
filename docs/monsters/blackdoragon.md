@@ -1,6 +1,12 @@
 ---
 title: ブラックドラゴン
 description: DQMVIのモンスター「ブラックドラゴン」のステータス。HP3,124 / こうげき489 / しゅび293 / 経験値1,033 / 203G。
+prev:
+  text: "グレイブディガー"
+  link: /monsters/gureibudiga
+next:
+  text: "ほうおう"
+  link: /monsters/houou
 ---
 
 # ブラックドラゴン

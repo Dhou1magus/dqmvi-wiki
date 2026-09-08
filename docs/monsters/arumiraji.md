@@ -1,6 +1,12 @@
 ---
 title: アルミラージ
 description: DQMVIのモンスター「アルミラージ」のステータス。HP59 / こうげき32.04 / しゅび14 / 経験値47 / 9G。
+prev:
+  text: "しびれくらげ"
+  link: /monsters/sibirekurage
+next:
+  text: "ボックススライムレッド"
+  link: /monsters/boxsuraimu_aka
 ---
 
 # アルミラージ

@@ -1,6 +1,12 @@
 ---
 title: ミケまどう
 description: DQMVIのモンスター「ミケまどう」のステータス。HP1,014 / こうげき116 / しゅび82 / 経験値1,980 / 408G。
+prev:
+  text: "ゲノミー"
+  link: /monsters/genomi
+next:
+  text: "凶メタルスライム"
+  link: /monsters/kyoumetalslime
 ---
 
 # ミケまどう

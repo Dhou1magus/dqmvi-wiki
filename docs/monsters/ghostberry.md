@@ -1,6 +1,12 @@
 ---
 title: ゴーストベリー
 description: DQMVIのモンスター「ゴーストベリー」のステータス。HP6,103 / こうげき385 / しゅび172 / 経験値7,440 / 1,657G。
+prev:
+  text: "グランシーザー"
+  link: /monsters/guransiza
+next:
+  text: "メタルカイザー"
+  link: /monsters/metalkaiser
 ---
 
 # ゴーストベリー

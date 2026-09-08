@@ -1,6 +1,12 @@
 ---
 title: マリンスライム
 description: DQMVIのモンスター「マリンスライム」のステータス。HP178 / こうげき78.1 / しゅび90 / 経験値167 / 33G。
+prev:
+  text: "ひとくい箱"
+  link: /monsters/hitokuibako
+next:
+  text: "ドラゴン"
+  link: /monsters/dqmdragon
 ---
 
 # マリンスライム

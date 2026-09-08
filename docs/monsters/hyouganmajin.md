@@ -1,6 +1,12 @@
 ---
 title: ひょうがまじん
 description: DQMVIのモンスター「ひょうがまじん」のステータス。HP105 / こうげき55.2 / しゅび43 / 経験値98 / 20G。
+prev:
+  text: "フロストギズモ2"
+  link: /monsters/furosutogizumo
+next:
+  text: "ボックススライムグリーン"
+  link: /monsters/boxsuraimu_midori
 ---
 
 # ひょうがまじん

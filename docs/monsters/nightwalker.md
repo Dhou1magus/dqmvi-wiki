@@ -1,6 +1,12 @@
 ---
 title: ナイトウォーカー
 description: DQMVIのモンスター「ナイトウォーカー」のステータス。HP83 / こうげき50 / しゅび35 / 経験値84 / 17G。
+prev:
+  text: "さまようたましい"
+  link: /monsters/samayoutamasii
+next:
+  text: "スペクテット"
+  link: /monsters/supekutetto
 ---
 
 # ナイトウォーカー

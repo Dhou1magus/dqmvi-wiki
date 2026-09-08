@@ -1,6 +1,12 @@
 ---
 title: ブラッドソード
 description: DQMVIのモンスター「ブラッドソード」のステータス。HP1,008 / こうげき186.12 / しゅび143 / 経験値387 / 77G。
+prev:
+  text: "ポムポムボム"
+  link: /monsters/pombom
+next:
+  text: "スライムベホマズン"
+  link: /monsters/suraimubehomazun
 ---
 
 # ブラッドソード

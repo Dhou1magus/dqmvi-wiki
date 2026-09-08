@@ -1,6 +1,12 @@
 ---
 title: デュラハーン
 description: DQMVIのモンスター「デュラハーン」のステータス。HP211 / こうげき99 / しゅび82 / 経験値165 / 33G。
+prev:
+  text: "プロトキラー"
+  link: /monsters/protokira
+next:
+  text: "アークデーモン"
+  link: /monsters/akudemon
 ---
 
 # デュラハーン

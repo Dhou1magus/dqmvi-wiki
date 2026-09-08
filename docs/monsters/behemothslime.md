@@ -1,6 +1,12 @@
 ---
 title: もりもりスライム
 description: DQMVIのモンスター「もりもりスライム」のステータス。HP42 / こうげき25 / しゅび14 / 経験値43 / 8G。
+prev:
+  text: "ぬかどこスライム"
+  link: /monsters/pickledslime
+next:
+  text: "スライムコロネ"
+  link: /monsters/goonachegoodie
 ---
 
 # もりもりスライム

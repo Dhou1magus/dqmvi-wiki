@@ -1,6 +1,12 @@
 ---
 title: マッシュスライム
 description: DQMVIのモンスター「マッシュスライム」のステータス。HP22 / こうげき8 / しゅび4 / 経験値12 / 2G。
+prev:
+  text: "はじけドーラ"
+  link: /monsters/hajike_dora
+next:
+  text: "スライムB"
+  link: /monsters/slime_b
 ---
 
 # マッシュスライム

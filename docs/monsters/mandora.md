@@ -1,6 +1,12 @@
 ---
 title: マンドラ
 description: DQMVIのモンスター「マンドラ」のステータス。HP15 / こうげき5 / しゅび2 / 経験値9 / 2G。
+prev:
+  text: "たこやり兵"
+  link: /monsters/takoyarihei
+next:
+  text: "スカルサーペント"
+  link: /monsters/skullserpent
 ---
 
 # マンドラ

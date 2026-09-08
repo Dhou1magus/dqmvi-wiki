@@ -1,6 +1,12 @@
 ---
 title: ベホマスライム
 description: DQMVIのモンスター「ベホマスライム」のステータス。HP864 / こうげき146.64 / しゅび123 / 経験値320 / 64G。
+prev:
+  text: "メイジももんじゃ"
+  link: /monsters/magemomonja
+next:
+  text: "プヨンターゲット"
+  link: /monsters/puyon
 ---
 
 # ベホマスライム

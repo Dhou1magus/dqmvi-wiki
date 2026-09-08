@@ -1,6 +1,12 @@
 ---
 title: しりょうのきし
 description: DQMVIのモンスター「しりょうのきし」のステータス。HP1,072 / こうげき160.74 / しゅび142 / 経験値369 / 74G。
+prev:
+  text: "デスニャーゴ"
+  link: /monsters/desunyago
+next:
+  text: "バブルキング"
+  link: /monsters/baburuking
 ---
 
 # しりょうのきし

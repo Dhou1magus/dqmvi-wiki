@@ -1,6 +1,12 @@
 ---
 title: ゴッドライダー
 description: DQMVIのモンスター「ゴッドライダー」のステータス。HP3,000 / こうげき386.4 / しゅび287 / 経験値876 / 175G。
+prev:
+  text: "トロルキング"
+  link: /monsters/tororuking
+next:
+  text: "キラーマシン2"
+  link: /monsters/kiramasin2
 ---
 
 # ゴッドライダー

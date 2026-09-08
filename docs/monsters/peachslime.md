@@ -1,6 +1,12 @@
 ---
 title: ピーチスライム
 description: DQMVIのモンスター「ピーチスライム」のステータス。HP157 / こうげき73 / しゅび39 / 経験値125 / 27G。
+prev:
+  text: "ベリースライム"
+  link: /monsters/berryslime
+next:
+  text: "ホイップスライム"
+  link: /monsters/whipslime
 ---
 
 # ピーチスライム

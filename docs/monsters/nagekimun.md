@@ -1,6 +1,12 @@
 ---
 title: なげきムーン
 description: DQMVIのモンスター「なげきムーン」のステータス。HP63 / こうげき15 / しゅび14 / 経験値63 / 14G。
+prev:
+  text: "かくとうパンサー"
+  link: /monsters/kakutoupansa
+next:
+  text: "バル"
+  link: /monsters/baru
 ---
 
 # なげきムーン

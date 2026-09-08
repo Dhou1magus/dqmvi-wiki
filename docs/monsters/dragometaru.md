@@ -1,6 +1,12 @@
 ---
 title: ドラゴメタル
 description: DQMVIのモンスター「ドラゴメタル」のステータス。HP25 / こうげき83.78 / しゅび10,000 / 経験値21,000 / 250G。
+prev:
+  text: "メタルトリュフ"
+  link: /monsters/metaltruffeslime
+next:
+  text: "ゴールデントーテム"
+  link: /monsters/gorudentotemu
 ---
 
 # ドラゴメタル

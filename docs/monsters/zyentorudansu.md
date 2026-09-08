@@ -1,6 +1,12 @@
 ---
 title: ジェントルダンス
 description: DQMVIのモンスター「ジェントルダンス」のステータス。HP1,031 / こうげき149 / しゅび140 / 経験値350 / 73G。
+prev:
+  text: "エルダースライム"
+  link: /monsters/elderslime
+next:
+  text: "アッシュリザード"
+  link: /monsters/ash_lizard
 ---
 
 # ジェントルダンス

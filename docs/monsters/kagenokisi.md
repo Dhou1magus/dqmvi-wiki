@@ -1,6 +1,12 @@
 ---
 title: かげのきし
 description: DQMVIのモンスター「かげのきし」のステータス。HP1,950 / こうげき322 / しゅび234 / 経験値676 / 135G。
+prev:
+  text: "キラークラブ"
+  link: /monsters/kirakurabu
+next:
+  text: "ダークホビット"
+  link: /monsters/dakuhobitto
 ---
 
 # かげのきし

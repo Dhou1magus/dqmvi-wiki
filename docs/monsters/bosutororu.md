@@ -1,6 +1,12 @@
 ---
 title: ボストロール
 description: DQMVIのモンスター「ボストロール」のステータス。HP1,384 / こうげき170.61 / しゅび105 / 経験値373 / 75G。
+prev:
+  text: "ゴールデンスライム"
+  link: /monsters/gorudensuraimu
+next:
+  text: "ホタテワラビー"
+  link: /monsters/hotatewarabi
 ---
 
 # ボストロール

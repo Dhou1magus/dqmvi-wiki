@@ -1,6 +1,12 @@
 ---
 title: タイプG
 description: DQMVIのモンスター「タイプG」のステータス。HP16,518 / こうげき547 / しゅび255 / 経験値29,223 / 5,845G。
+prev:
+  text: "ニジゴロン"
+  link: /monsters/nizigoron
+next:
+  text: "ゴールドマント"
+  link: /monsters/goldmanto
 ---
 
 # タイプG

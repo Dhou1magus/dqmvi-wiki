@@ -1,6 +1,12 @@
 ---
 title: 謎のバケモノ
 description: DQMVIのモンスター「謎のバケモノ」のステータス。HP2,853 / こうげき404 / しゅび291 / 経験値994 / 199G。
+prev:
+  text: "光の番人"
+  link: /monsters/hikarinobannin
+next:
+  text: "魔天海フォルネー"
+  link: /monsters/matenkaiforney
 ---
 
 # 謎のバケモノ

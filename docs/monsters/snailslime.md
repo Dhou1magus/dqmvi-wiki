@@ -1,6 +1,12 @@
 ---
 title: スライムカルゴ
 description: DQMVIのモンスター「スライムカルゴ」のステータス。HP159 / こうげき65 / しゅび38 / 経験値117 / 24G。
+prev:
+  text: "レッドスコーピオン"
+  link: /monsters/reddosukopion
+next:
+  text: "ラリホービートル"
+  link: /monsters/bedbug
 ---
 
 # スライムカルゴ

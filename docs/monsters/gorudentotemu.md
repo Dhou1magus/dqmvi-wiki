@@ -1,6 +1,12 @@
 ---
 title: ゴールデントーテム
 description: DQMVIのモンスター「ゴールデントーテム」のステータス。HP25 / こうげき76.68 / しゅび10,000 / 経験値105 / 5,000G。
+prev:
+  text: "ドラゴメタル"
+  link: /monsters/dragometaru
+next:
+  text: "エンゼルスライム"
+  link: /monsters/enzeruslime
 ---
 
 # ゴールデントーテム

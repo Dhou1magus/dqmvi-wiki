@@ -1,6 +1,12 @@
 ---
 title: どぐう戦士
 description: DQMVIのモンスター「どぐう戦士」のステータス。HP481 / こうげき122 / しゅび116 / 経験値261 / 59G。
+prev:
+  text: "スライムエンペラー"
+  link: /monsters/slimeemperor
+next:
+  text: "ホーリーキング"
+  link: /monsters/hollyking
 ---
 
 # どぐう戦士

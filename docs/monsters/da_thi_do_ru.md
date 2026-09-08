@@ -1,6 +1,12 @@
 ---
 title: ダーティードール
 description: DQMVIのモンスター「ダーティードール」のステータス。HP209 / こうげき109 / しゅび75 / 経験値185 / 34G。
+prev:
+  text: "マジックアーマー"
+  link: /monsters/majikkuaamaa
+next:
+  text: "ピンキーマッシュ"
+  link: /monsters/pinkymash
 ---
 
 # ダーティードール

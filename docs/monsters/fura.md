@@ -1,6 +1,12 @@
 ---
 title: フーラー
 description: DQMVIのモンスター「フーラー」のステータス。HP1,400 / こうげき188 / しゅび168 / 経験値466 / 88G。
+prev:
+  text: "ドーラー"
+  link: /monsters/dora
+next:
+  text: "ソーラー"
+  link: /monsters/sora
 ---
 
 # フーラー

@@ -1,6 +1,12 @@
 ---
 title: シルバーデビル
 description: DQMVIのモンスター「シルバーデビル」のステータス。HP1,088 / こうげき212.91 / しゅび143 / 経験値418 / 84G。
+prev:
+  text: "ガメゴンロード"
+  link: /monsters/gamegonload
+next:
+  text: "ドラゴンライダー"
+  link: /monsters/dragonraida
 ---
 
 # シルバーデビル

@@ -1,6 +1,12 @@
 ---
 title: デスマシーン
 description: DQMVIのモンスター「デスマシーン」のステータス。
+prev:
+  text: "ホーリーキング"
+  link: /monsters/hollyking
+next:
+  text: "吹雪の魔女"
+  link: /monsters/hubukinomajyo
 ---
 
 # デスマシーン

@@ -1,6 +1,12 @@
 ---
 title: ナスビナーラ
 description: DQMVIのモンスター「ナスビナーラ」のステータス。HP21 / こうげき8 / しゅび2 / 経験値11 / 2G。
+prev:
+  text: "ボックススライムブルー"
+  link: /monsters/boxsuraimu_ao
+next:
+  text: "タマゴロン"
+  link: /monsters/tamagoron
 ---
 
 # ナスビナーラ

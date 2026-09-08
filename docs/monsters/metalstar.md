@@ -1,6 +1,12 @@
 ---
 title: メタルスター
 description: DQMVIのモンスター「メタルスター」のステータス。HP165 / こうげき400 / しゅび10,000 / 経験値700,000 / 5,000G。
+prev:
+  text: "メタルゴッデス2"
+  link: /monsters/metalgoddes2
+next:
+  text: "はぐれメタルキング"
+  link: /monsters/haguremetaruking
 ---
 
 # メタルスター

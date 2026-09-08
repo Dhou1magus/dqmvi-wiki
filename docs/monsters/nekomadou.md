@@ -1,6 +1,12 @@
 ---
 title: ねこまどう
 description: DQMVIのモンスター「ねこまどう」のステータス。HP11 / こうげき2 / しゅび2 / 経験値12 / 4G。
+prev:
+  text: "ゆうれい"
+  link: /monsters/spirit
+next:
+  text: "はじけドーラ"
+  link: /monsters/hajike_dora
 ---
 
 # ねこまどう

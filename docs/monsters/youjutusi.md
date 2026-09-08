@@ -1,6 +1,12 @@
 ---
 title: ようじゅつし
 description: DQMVIのモンスター「ようじゅつし」のステータス。HP177 / こうげき79.52 / しゅび75 / 経験値155 / 31G。
+prev:
+  text: "ボックススライムオレンジ"
+  link: /monsters/boxsuraimu
+next:
+  text: "ブルベリーノ"
+  link: /monsters/buruberino
 ---
 
 # ようじゅつし

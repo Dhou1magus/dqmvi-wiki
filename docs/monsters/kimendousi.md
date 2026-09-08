@@ -1,6 +1,12 @@
 ---
 title: きめんどうし
 description: DQMVIのモンスター「きめんどうし」のステータス。HP170 / こうげき76.68 / しゅび66 / 経験値144 / 29G。
+prev:
+  text: "ピクシー"
+  link: /monsters/pikusi
+next:
+  text: "ベロニャーゴ"
+  link: /monsters/beronyaago
 ---
 
 # きめんどうし

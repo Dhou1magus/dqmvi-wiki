@@ -1,6 +1,12 @@
 ---
 title: スライムボーグ
 description: DQMVIのモンスター「スライムボーグ」のステータス。HP80 / こうげき48 / しゅび43 / 経験値89 / 18G。
+prev:
+  text: "ブラウニー"
+  link: /monsters/burauni
+next:
+  text: "どくやずきん"
+  link: /monsters/dokuyazukin
 ---
 
 # スライムボーグ

@@ -1,6 +1,12 @@
 ---
 title: ボーンプリズナー
 description: DQMVIのモンスター「ボーンプリズナー」のステータス。HP232 / こうげき111 / しゅび88 / 経験値172 / 23G。
+prev:
+  text: "バルザック"
+  link: /monsters/baruzaku
+next:
+  text: "マーズフェイス"
+  link: /monsters/mazufeisu
 ---
 
 # ボーンプリズナー

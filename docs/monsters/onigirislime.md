@@ -1,6 +1,12 @@
 ---
 title: おにぎりスライム
 description: DQMVIのモンスター「おにぎりスライム」のステータス。HP156 / こうげき68 / しゅび38 / 経験値121 / 24G。
+prev:
+  text: "たんすミミック"
+  link: /monsters/tansu
+next:
+  text: "スライムフェアリー"
+  link: /monsters/suraimu_feari
 ---
 
 # おにぎりスライム

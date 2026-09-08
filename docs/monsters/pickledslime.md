@@ -1,6 +1,12 @@
 ---
 title: ぬかどこスライム
 description: DQMVIのモンスター「ぬかどこスライム」のステータス。HP45 / こうげき25 / しゅび16 / 経験値42 / 7G。
+prev:
+  text: "ニードルマン"
+  link: /monsters/ni_doruman
+next:
+  text: "もりもりスライム"
+  link: /monsters/behemothslime
 ---
 
 # ぬかどこスライム

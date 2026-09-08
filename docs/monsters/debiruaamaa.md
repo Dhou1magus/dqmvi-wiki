@@ -1,6 +1,12 @@
 ---
 title: デビルアーマー
 description: DQMVIのモンスター「デビルアーマー」のステータス。HP66 / こうげき31 / しゅび17 / 経験値58 / 11G。
+prev:
+  text: "デスマドモアゼル"
+  link: /monsters/desumadomoazeru
+next:
+  text: "ニードルマン"
+  link: /monsters/ni_doruman
 ---
 
 # デビルアーマー

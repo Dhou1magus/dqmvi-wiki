@@ -1,6 +1,12 @@
 ---
 title: サタンメイル
 description: DQMVIのモンスター「サタンメイル」のステータス。HP609 / こうげき160 / しゅび117 / 経験値340 / 62G。
+prev:
+  text: "バルンバ"
+  link: /monsters/balloon_ba
+next:
+  text: "とげジョボー"
+  link: /monsters/togejobo
 ---
 
 # サタンメイル

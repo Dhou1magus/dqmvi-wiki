@@ -1,6 +1,12 @@
 ---
 title: やつざきアニマル
 description: DQMVIのモンスター「やつざきアニマル」のステータス。HP202 / こうげき127.8 / しゅび87 / 経験値212 / 42G。
+prev:
+  text: "ブルベリーノ"
+  link: /monsters/buruberino
+next:
+  text: "ひょうけつのきし"
+  link: /monsters/hyouketunokisi
 ---
 
 # やつざきアニマル

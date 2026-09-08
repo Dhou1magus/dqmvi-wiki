@@ -1,6 +1,12 @@
 ---
 title: シールドあにき
 description: DQMVIのモンスター「シールドあにき」のステータス。HP1,789 / こうげき222 / しゅび132 / 経験値3,419 / 684G。
+prev:
+  text: "ムーンキメラ"
+  link: /monsters/moonkimera
+next:
+  text: "伐採マシン"
+  link: /monsters/bassaimasin
 ---
 
 # シールドあにき

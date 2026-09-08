@@ -1,6 +1,12 @@
 ---
 title: はさみくわがた
 description: DQMVIのモンスター「はさみくわがた」のステータス。HP26 / こうげき10 / しゅび2 / 経験値14 / 3G。
+prev:
+  text: "かぼちゃの騎士"
+  link: /monsters/kabochanokisi
+next:
+  text: "ジャングラー"
+  link: /monsters/feralslime
 ---
 
 # はさみくわがた

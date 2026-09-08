@@ -1,6 +1,12 @@
 ---
 title: キラースター
 description: DQMVIのモンスター「キラースター」のステータス。HP564 / こうげき150 / しゅび116 / 経験値312 / 59G。
+prev:
+  text: "プオーン"
+  link: /monsters/puohn
+next:
+  text: "デスクローゼット"
+  link: /monsters/tansu_death
 ---
 
 # キラースター

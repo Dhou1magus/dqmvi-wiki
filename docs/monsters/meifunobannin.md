@@ -1,6 +1,12 @@
 ---
 title: めいふのばんにん
 description: DQMVIのモンスター「めいふのばんにん」のステータス。HP204 / こうげき108 / しゅび85 / 経験値193 / 32G。
+prev:
+  text: "アサシンブラッド"
+  link: /monsters/assassinblood
+next:
+  text: "サンダーシャウト"
+  link: /monsters/thundershaut
 ---
 
 # めいふのばんにん

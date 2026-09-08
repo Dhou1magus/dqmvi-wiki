@@ -1,6 +1,12 @@
 ---
 title: うみぼうず
 description: DQMVIのモンスター「うみぼうず」のステータス。HP192 / こうげき81.65 / しゅび72 / 経験値156 / 31G。
+prev:
+  text: "マジックリップス"
+  link: /monsters/mrippusu
+next:
+  text: "アローインプ"
+  link: /monsters/aroinpu
 ---
 
 # うみぼうず

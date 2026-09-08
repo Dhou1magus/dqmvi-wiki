@@ -1,6 +1,12 @@
 ---
 title: マーマン
 description: DQMVIのモンスター「マーマン」のステータス。HP63 / こうげき30 / しゅび15 / 経験値55 / 13G。
+prev:
+  text: "じごくのハサミ"
+  link: /monsters/jigoku_no_hasami2
+next:
+  text: "ウパパロン"
+  link: /monsters/upaparon
 ---
 
 # マーマン

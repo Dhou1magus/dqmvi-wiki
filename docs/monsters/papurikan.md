@@ -1,6 +1,12 @@
 ---
 title: パプリカン
 description: DQMVIのモンスター「パプリカン」のステータス。HP88 / こうげき42 / しゅび33 / 経験値98 / 22G。
+prev:
+  text: "リビングデッド"
+  link: /monsters/ribingudeddo
+next:
+  text: "メカバーン"
+  link: /monsters/mekaban
 ---
 
 # パプリカン

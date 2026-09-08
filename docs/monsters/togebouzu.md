@@ -1,6 +1,12 @@
 ---
 title: とげぼうず
 description: DQMVIのモンスター「とげぼうず」のステータス。HP13 / こうげき6 / しゅび1 / 経験値7 / 1G。
+prev:
+  text: "モーモン"
+  link: /monsters/momon
+next:
+  text: "おにこぞう"
+  link: /monsters/onikozou
 ---
 
 # とげぼうず

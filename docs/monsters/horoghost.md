@@ -1,6 +1,12 @@
 ---
 title: ホロゴースト
 description: DQMVIのモンスター「ホロゴースト」のステータス。HP182 / こうげき71 / しゅび68 / 経験値141 / 28G。
+prev:
+  text: "スモールグール"
+  link: /monsters/sumoruguru
+next:
+  text: "ケダモン"
+  link: /monsters/kedamon
 ---
 
 # ホロゴースト

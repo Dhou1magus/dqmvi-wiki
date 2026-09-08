@@ -1,6 +1,12 @@
 ---
 title: リトルライバーン
 description: DQMVIのモンスター「リトルライバーン」のステータス。HP192 / こうげき84 / しゅび78 / 経験値155 / 33G。
+prev:
+  text: "アイアンクック"
+  link: /monsters/aiankukku
+next:
+  text: "プロトキラー"
+  link: /monsters/protokira
 ---
 
 # リトルライバーン

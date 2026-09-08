@@ -1,6 +1,12 @@
 ---
 title: コスモアイ
 description: DQMVIのモンスター「コスモアイ」のステータス。HP1,220 / こうげき123 / しゅび78 / 経験値421 / 90G。
+prev:
+  text: "ベリアル"
+  link: /monsters/beriaru
+next:
+  text: "ホワイトジャッジ"
+  link: /monsters/howaitojaji
 ---
 
 # コスモアイ

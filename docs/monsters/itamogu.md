@@ -1,6 +1,12 @@
 ---
 title: いたずらもぐら
 description: DQMVIのモンスター「いたずらもぐら」のステータス。HP22 / こうげき11 / しゅび1 / 経験値13 / 3G。
+prev:
+  text: "リップス"
+  link: /monsters/rippusu
+next:
+  text: "しましまキャット"
+  link: /monsters/simasimacat
 ---
 
 # いたずらもぐら

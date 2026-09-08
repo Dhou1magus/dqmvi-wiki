@@ -1,6 +1,12 @@
 ---
 title: ごくらくちょう
 description: DQMVIのモンスター「ごくらくちょう」のステータス。HP969 / こうげき157 / しゅび127 / 経験値353 / 71G。
+prev:
+  text: "あくまのきし"
+  link: /monsters/akumanokisi
+next:
+  text: "エクソダス"
+  link: /monsters/ekusodasu
 ---
 
 # ごくらくちょう

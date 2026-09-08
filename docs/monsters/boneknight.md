@@ -1,6 +1,12 @@
 ---
 title: ボーンナイト
 description: DQMVIのモンスター「ボーンナイト」のステータス。HP192 / こうげき84 / しゅび68 / 経験値183 / 37G。
+prev:
+  text: "フェイスボール"
+  link: /monsters/faceball
+next:
+  text: "スカイドラゴン"
+  link: /monsters/skydragon
 ---
 
 # ボーンナイト

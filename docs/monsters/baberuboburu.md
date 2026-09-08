@@ -1,6 +1,12 @@
 ---
 title: バベルボブル
 description: DQMVIのモンスター「バベルボブル」のステータス。HP122 / こうげき34 / しゅび24 / 経験値112 / 24G。
+prev:
+  text: "ボル"
+  link: /monsters/boru
+next:
+  text: "ジャガーメイジ"
+  link: /monsters/zyagameizi
 ---
 
 # バベルボブル

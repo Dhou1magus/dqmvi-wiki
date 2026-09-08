@@ -1,6 +1,12 @@
 ---
 title: アローインプ
 description: DQMVIのモンスター「アローインプ」のステータス。HP178 / こうげき83.07 / しゅび70 / 経験値154 / 31G。
+prev:
+  text: "うみぼうず"
+  link: /monsters/umibouzu
+next:
+  text: "ベホイムスライム"
+  link: /monsters/behoimusuraimu
 ---
 
 # アローインプ

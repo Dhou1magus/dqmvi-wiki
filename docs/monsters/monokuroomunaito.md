@@ -1,6 +1,12 @@
 ---
 title: モノクロームナイト
 description: DQMVIのモンスター「モノクロームナイト」のステータス。HP1,505 / こうげき222 / しゅび145 / 経験値460 / 87G。
+prev:
+  text: "暗黒の使い"
+  link: /monsters/ankokunotsukai
+next:
+  text: "ニードルうさこ"
+  link: /monsters/ni_doruusako
 ---
 
 # モノクロームナイト

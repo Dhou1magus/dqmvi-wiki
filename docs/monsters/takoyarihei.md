@@ -1,6 +1,12 @@
 ---
 title: たこやり兵
 description: DQMVIのモンスター「たこやり兵」のステータス。HP18 / こうげき7 / しゅび2 / 経験値9 / 3G。
+prev:
+  text: "ナイトウイプス"
+  link: /monsters/naitouipusu
+next:
+  text: "マンドラ"
+  link: /monsters/mandora
 ---
 
 # たこやり兵

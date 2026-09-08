@@ -1,6 +1,12 @@
 ---
 title: メタルスコーピオン
 description: DQMVIのモンスター「メタルスコーピオン」のステータス。HP555 / こうげき120 / しゅび111 / 経験値288 / 55G。
+prev:
+  text: "まおうのランプ"
+  link: /monsters/annihilantern
+next:
+  text: "トレーナースライム"
+  link: /monsters/trainerslime
 ---
 
 # メタルスコーピオン

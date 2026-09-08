@@ -1,6 +1,12 @@
 ---
 title: ベルザブル
 description: DQMVIのモンスター「ベルザブル」のステータス。HP489 / こうげき144 / しゅび98 / 経験値288 / 52G。
+prev:
+  text: "エビルプラント"
+  link: /monsters/ebirupuranto
+next:
+  text: "メタルクラッシャー"
+  link: /monsters/metarukurassya
 ---
 
 # ベルザブル

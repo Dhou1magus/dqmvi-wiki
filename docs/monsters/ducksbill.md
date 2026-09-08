@@ -1,6 +1,12 @@
 ---
 title: ダックスビル
 description: DQMVIのモンスター「ダックスビル」のステータス。HP83 / こうげき47.2 / しゅび38 / 経験値84 / 17G。
+prev:
+  text: "どくやずきん"
+  link: /monsters/dokuyazukin
+next:
+  text: "キラースコップ"
+  link: /monsters/kirasuko
 ---
 
 # ダックスビル

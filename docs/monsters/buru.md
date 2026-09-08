@@ -1,6 +1,12 @@
 ---
 title: ブル
 description: DQMVIのモンスター「ブル」のステータス。HP45 / こうげき22 / しゅび15 / 経験値42 / 10G。
+prev:
+  text: "バル"
+  link: /monsters/baru
+next:
+  text: "ベル"
+  link: /monsters/bell
 ---
 
 # ブル

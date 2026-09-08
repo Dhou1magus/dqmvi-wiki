@@ -1,6 +1,12 @@
 ---
 title: ギガデーモン
 description: DQMVIのモンスター「ギガデーモン」のステータス。HP601 / こうげき160 / しゅび97 / 経験値305 / 55G。
+prev:
+  text: "メタルクラッシャー"
+  link: /monsters/metarukurassya
+next:
+  text: "タイガークロー"
+  link: /monsters/taigakuro
 ---
 
 # ギガデーモン

@@ -1,6 +1,12 @@
 ---
 title: ピサロナイト
 description: DQMVIのモンスター「ピサロナイト」のステータス。HP4,761 / こうげき333 / しゅび176 / 経験値7,059 / 1,412G。
+prev:
+  text: "ましょうぐも"
+  link: /monsters/mashougumo
+next:
+  text: "ゴードンヘッド"
+  link: /monsters/godonheddo
 ---
 
 # ピサロナイト

@@ -1,6 +1,12 @@
 ---
 title: クラーゴン
 description: DQMVIのモンスター「クラーゴン」のステータス。HP1,208 / こうげき213 / しゅび158 / 経験値430 / 86G。
+prev:
+  text: "根絶やしの竜"
+  link: /monsters/nedayashinoryu
+next:
+  text: "ダゴン"
+  link: /monsters/dagon
 ---
 
 # クラーゴン

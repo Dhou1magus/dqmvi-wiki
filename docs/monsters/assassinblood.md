@@ -1,6 +1,12 @@
 ---
 title: アサシンブラッド
 description: DQMVIのモンスター「アサシンブラッド」のステータス。HP186 / こうげき108 / しゅび88 / 経験値167 / 35G。
+prev:
+  text: "キョンシーゴースト"
+  link: /monsters/jiangshi_ghost
+next:
+  text: "めいふのばんにん"
+  link: /monsters/meifunobannin
 ---
 
 # アサシンブラッド

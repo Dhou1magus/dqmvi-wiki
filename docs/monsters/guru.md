@@ -1,6 +1,12 @@
 ---
 title: グール
 description: DQMVIのモンスター「グール」のステータス。HP180 / こうげき82 / しゅび33 / 経験値142 / 13G。
+prev:
+  text: "かいぞくウーパー"
+  link: /monsters/kaizokuupa
+next:
+  text: "メタルドラゴン"
+  link: /monsters/metarudoragon
 ---
 
 # グール

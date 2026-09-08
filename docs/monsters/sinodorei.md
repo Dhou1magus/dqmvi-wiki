@@ -1,6 +1,12 @@
 ---
 title: しのどれい
 description: DQMVIのモンスター「しのどれい」のステータス。HP72 / こうげき30 / しゅび17 / 経験値65 / 11G。
+prev:
+  text: "メーダロード"
+  link: /monsters/medarodo
+next:
+  text: "かくとうパンサー"
+  link: /monsters/kakutoupansa
 ---
 
 # しのどれい

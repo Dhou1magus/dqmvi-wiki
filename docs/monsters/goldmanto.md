@@ -1,6 +1,12 @@
 ---
 title: ゴールドマント
 description: DQMVIのモンスター「ゴールドマント」のステータス。HP11,012 / こうげき564 / しゅび245 / 経験値24,011 / 4,802G。
+prev:
+  text: "タイプG"
+  link: /monsters/taipug
+next:
+  text: "トロルバッコス"
+  link: /monsters/tororubakkosu
 ---
 
 # ゴールドマント

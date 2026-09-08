@@ -1,6 +1,12 @@
 ---
 title: ギガンテス
 description: DQMVIのモンスター「ギガンテス」のステータス。HP2,655 / こうげき386.4 / しゅび200 / 経験値766 / 153G。
+prev:
+  text: "ストーンマン"
+  link: /monsters/stonman
+next:
+  text: "ガメゴンレジェンド"
+  link: /monsters/gamegonrejendo
 ---
 
 # ギガンテス

@@ -1,6 +1,12 @@
 ---
 title: スライムツリー
 description: DQMVIのモンスター「スライムツリー」のステータス。HP10 / こうげき4 / しゅび1 / 経験値6 / 1G。
+prev:
+  text: "はねスライム"
+  link: /monsters/hane_suraimu
+next:
+  text: "マグマスライム"
+  link: /monsters/magmaslime
 ---
 
 # スライムツリー

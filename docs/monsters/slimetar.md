@@ -1,6 +1,12 @@
 ---
 title: スライムタール
 description: DQMVIのモンスター「スライムタール」のステータス。HP27 / こうげき9 / しゅび2 / 経験値14 / 3G。
+prev:
+  text: "マグマスライム"
+  link: /monsters/magmaslime
+next:
+  text: "マル"
+  link: /monsters/maru
 ---
 
 # スライムタール

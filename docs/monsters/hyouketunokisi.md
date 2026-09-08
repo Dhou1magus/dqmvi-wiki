@@ -1,6 +1,12 @@
 ---
 title: ひょうけつのきし
 description: DQMVIのモンスター「ひょうけつのきし」のステータス。HP230 / こうげき132 / しゅび92 / 経験値262 / 55G。
+prev:
+  text: "やつざきアニマル"
+  link: /monsters/yatuzakianimaru
+next:
+  text: "テンタコルス"
+  link: /monsters/tentakorusu
 ---
 
 # ひょうけつのきし

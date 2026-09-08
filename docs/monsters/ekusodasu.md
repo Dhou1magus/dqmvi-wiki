@@ -1,6 +1,12 @@
 ---
 title: エクソダス
 description: DQMVIのモンスター「エクソダス」のステータス。HP1,098 / こうげき178 / しゅび135 / 経験値426 / 85G。
+prev:
+  text: "ごくらくちょう"
+  link: /monsters/gokurakuchou
+next:
+  text: "じごくのきし"
+  link: /monsters/jigokunokisi
 ---
 
 # エクソダス

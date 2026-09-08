@@ -1,6 +1,12 @@
 ---
 title: ピクシー
 description: DQMVIのモンスター「ピクシー」のステータス。HP178 / こうげき78.1 / しゅび67 / 経験値147 / 29G。
+prev:
+  text: "おどる宝石"
+  link: /monsters/odoruhouseki
+next:
+  text: "きめんどうし"
+  link: /monsters/kimendousi
 ---
 
 # ピクシー

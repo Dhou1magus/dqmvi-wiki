@@ -1,6 +1,12 @@
 ---
 title: つららスライム
 description: DQMVIのモンスター「つららスライム」のステータス。HP58 / こうげき31 / しゅび16 / 経験値50 / 11G。
+prev:
+  text: "アクアスライム"
+  link: /monsters/aquaslime
+next:
+  text: "スライムアンノウン"
+  link: /monsters/slimeunknown
 ---
 
 # つららスライム

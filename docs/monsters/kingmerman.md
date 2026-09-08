@@ -1,6 +1,12 @@
 ---
 title: キングマーマン
 description: DQMVIのモンスター「キングマーマン」のステータス。HP180 / こうげき76 / しゅび87 / 経験値159 / 32G。
+prev:
+  text: "たこまじん"
+  link: /monsters/takomajin
+next:
+  text: "かいぞくウーパー"
+  link: /monsters/kaizokuupa
 ---
 
 # キングマーマン

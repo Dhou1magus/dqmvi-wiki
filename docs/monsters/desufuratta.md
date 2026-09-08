@@ -1,6 +1,12 @@
 ---
 title: デスフラッター
 description: DQMVIのモンスター「デスフラッター」のステータス。HP170 / こうげき80.94 / しゅび65 / 経験値146 / 29G。
+prev:
+  text: "あくまのツボ"
+  link: /monsters/akumanotubo
+next:
+  text: "強スライム"
+  link: /monsters/sura2
 ---
 
 # デスフラッター

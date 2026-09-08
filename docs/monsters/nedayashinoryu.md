@@ -1,6 +1,12 @@
 ---
 title: 根絶やしの竜
 description: DQMVIのモンスター「根絶やしの竜」のステータス。HP1,326 / こうげき216 / しゅび168 / 経験値472 / 94G。
+prev:
+  text: "ゴールデンドラゴン"
+  link: /monsters/goldendragon
+next:
+  text: "クラーゴン"
+  link: /monsters/kraagon
 ---
 
 # 根絶やしの竜

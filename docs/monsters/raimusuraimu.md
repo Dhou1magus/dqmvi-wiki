@@ -1,6 +1,12 @@
 ---
 title: ライムスライム
 description: DQMVIのモンスター「ライムスライム」のステータス。HP18 / こうげき8 / しゅび2 / 経験値11 / 2G。
+prev:
+  text: "サボテンボール"
+  link: /monsters/sabotenboru
+next:
+  text: "ファーラット"
+  link: /monsters/faratto
 ---
 
 # ライムスライム

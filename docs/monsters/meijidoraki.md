@@ -1,6 +1,12 @@
 ---
 title: メイジドラキー
 description: DQMVIのモンスター「メイジドラキー」のステータス。HP176 / こうげき80.23 / しゅび75 / 経験値156 / 31G。
+prev:
+  text: "さまようよろい"
+  link: /monsters/samayouyoroi
+next:
+  text: "スライムブレス"
+  link: /monsters/suraimuburesu
 ---
 
 # メイジドラキー

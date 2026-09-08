@@ -1,6 +1,12 @@
 ---
 title: 魔獣イギュア
 description: DQMVIのモンスター「魔獣イギュア」のステータス。HP26,807 / こうげき1,056 / しゅび345 / 経験値31,682 / 6,336G。
+prev:
+  text: "りゅうおうもどき"
+  link: /monsters/ryuuoumodoki
+next:
+  text: "スライダークロボ"
+  link: /monsters/darkrobotslime
 ---
 
 # 魔獣イギュア

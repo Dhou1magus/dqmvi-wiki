@@ -1,6 +1,12 @@
 ---
 title: 凶スライムベス
 description: DQMVIのモンスター「凶スライムベス」のステータス。HP138 / こうげき73 / しゅび40 / 経験値124 / 27G。
+prev:
+  text: "凶スライム"
+  link: /monsters/kyouslime
+next:
+  text: "こうてつまじん"
+  link: /monsters/metalheavy
 ---
 
 # 凶スライムベス

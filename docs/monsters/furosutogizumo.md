@@ -1,6 +1,12 @@
 ---
 title: フロストギズモ2
 description: DQMVIのモンスター「フロストギズモ2」のステータス。HP82 / こうげき49.2 / しゅび34 / 経験値82 / 16G。
+prev:
+  text: "フロストギズモ1"
+  link: /monsters/fgizumo
+next:
+  text: "ひょうがまじん"
+  link: /monsters/hyouganmajin
 ---
 
 # フロストギズモ2

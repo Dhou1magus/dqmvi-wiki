@@ -1,6 +1,12 @@
 ---
 title: ディアブラダ
 description: DQMVIのモンスター「ディアブラダ」のステータス。HP161 / こうげき74 / しゅび75 / 経験値156 / 29G。
+prev:
+  text: "ヘルビートル"
+  link: /monsters/fire_beatle
+next:
+  text: "シュプリンガー"
+  link: /monsters/springer
 ---
 
 # ディアブラダ

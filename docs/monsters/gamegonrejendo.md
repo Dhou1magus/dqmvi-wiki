@@ -1,6 +1,12 @@
 ---
 title: ガメゴンレジェンド
 description: DQMVIのモンスター「ガメゴンレジェンド」のステータス。HP2,700 / こうげき344.4 / しゅび299 / 経験値822 / 164G。
+prev:
+  text: "ギガンテス"
+  link: /monsters/gigantesu
+next:
+  text: "ビッグモアイ"
+  link: /monsters/biggumoai
 ---
 
 # ガメゴンレジェンド

@@ -1,6 +1,12 @@
 ---
 title: きとうし
 description: DQMVIのモンスター「きとうし」のステータス。HP92 / こうげき45.6 / しゅび34 / 経験値80 / 16G。
+prev:
+  text: "あくま神官"
+  link: /monsters/akumasinkan
+next:
+  text: "オベルジーヌ"
+  link: /monsters/oberujinu
 ---
 
 # きとうし

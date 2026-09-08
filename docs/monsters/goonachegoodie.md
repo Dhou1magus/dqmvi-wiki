@@ -1,6 +1,12 @@
 ---
 title: スライムコロネ
 description: DQMVIのモンスター「スライムコロネ」のステータス。HP45 / こうげき22 / しゅび13 / 経験値54 / 10G。
+prev:
+  text: "もりもりスライム"
+  link: /monsters/behemothslime
+next:
+  text: "のろいのランプ"
+  link: /monsters/malevolantern
 ---
 
 # スライムコロネ

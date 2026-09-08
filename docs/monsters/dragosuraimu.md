@@ -1,6 +1,12 @@
 ---
 title: ドラゴスライム
 description: DQMVIのモンスター「ドラゴスライム」のステータス。HP36 / こうげき19.98 / しゅび15 / 経験値35 / 7G。
+prev:
+  text: "ホイミスライム"
+  link: /monsters/hoimisura
+next:
+  text: "きりかぶおばけ"
+  link: /monsters/kirikabuobake
 ---
 
 # ドラゴスライム

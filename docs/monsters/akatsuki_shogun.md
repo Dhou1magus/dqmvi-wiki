@@ -1,6 +1,12 @@
 ---
 title: アカツキショウグン
 description: DQMVIのモンスター「アカツキショウグン」のステータス。HP2,160 / こうげき238 / しゅび119 / 経験値3,463 / 722G。
+prev:
+  text: "シュプリンガー"
+  link: /monsters/springer
+next:
+  text: "ホーンビートル"
+  link: /monsters/hornbeet
 ---
 
 # アカツキショウグン

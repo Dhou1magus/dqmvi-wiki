@@ -1,6 +1,12 @@
 ---
 title: だいおうキッズ
 description: DQMVIのモンスター「だいおうキッズ」のステータス。HP622 / こうげき155 / しゅび132 / 経験値277 / 65G。
+prev:
+  text: "デススパーク"
+  link: /monsters/desusupaku
+next:
+  text: "ガルーダ"
+  link: /monsters/garuda
 ---
 
 # だいおうキッズ

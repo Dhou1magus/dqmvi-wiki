@@ -1,6 +1,12 @@
 ---
 title: おにこぞう
 description: DQMVIのモンスター「おにこぞう」のステータス。HP18 / こうげき8 / しゅび2 / 経験値11 / 2G。
+prev:
+  text: "とげぼうず"
+  link: /monsters/togebouzu
+next:
+  text: "ギズモ1"
+  link: /monsters/gizumo_az
 ---
 
 # おにこぞう

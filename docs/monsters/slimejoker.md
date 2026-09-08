@@ -1,6 +1,12 @@
 ---
 title: スライムジョーカー
 description: DQMVIのモンスター「スライムジョーカー」のステータス。HP88 / こうげき46 / しゅび38 / 経験値88 / 16G。
+prev:
+  text: "こうてつまじん"
+  link: /monsters/metalheavy
+next:
+  text: "デスセイレス"
+  link: /monsters/desuseiresu
 ---
 
 # スライムジョーカー

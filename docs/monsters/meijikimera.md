@@ -1,6 +1,12 @@
 ---
 title: メイジキメラ
 description: DQMVIのモンスター「メイジキメラ」のステータス。HP186 / こうげき83.07 / しゅび85 / 経験値168 / 34G。
+prev:
+  text: "ガメゴン"
+  link: /monsters/gamegon
+next:
+  text: "ばくだんベビー"
+  link: /monsters/bakudanbebi
 ---
 
 # メイジキメラ

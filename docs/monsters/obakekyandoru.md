@@ -1,6 +1,12 @@
 ---
 title: おばけキャンドル
 description: DQMVIのモンスター「おばけキャンドル」のステータス。HP37 / こうげき27 / しゅび16 / 経験値42 / 8G。
+prev:
+  text: "メラゴースト"
+  link: /monsters/meragosuto
+next:
+  text: "あやしいかげ"
+  link: /monsters/ayasiikage
 ---
 
 # おばけキャンドル

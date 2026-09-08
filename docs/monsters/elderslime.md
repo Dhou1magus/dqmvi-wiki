@@ -1,6 +1,12 @@
 ---
 title: エルダースライム
 description: DQMVIのモンスター「エルダースライム」のステータス。HP1,548 / こうげき219 / しゅび150 / 経験値428 / 99G。
+prev:
+  text: "じごくのざりがに"
+  link: /monsters/jigokunozarigani
+next:
+  text: "ジェントルダンス"
+  link: /monsters/zyentorudansu
 ---
 
 # エルダースライム

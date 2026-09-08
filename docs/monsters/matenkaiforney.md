@@ -1,6 +1,12 @@
 ---
 title: 魔天海フォルネー
 description: DQMVIのモンスター「魔天海フォルネー」のステータス。HP1,995 / こうげき374 / しゅび265 / 経験値777 / 155G。
+prev:
+  text: "謎のバケモノ"
+  link: /monsters/nazonobakemono
+next:
+  text: "ロイヤルブルーム"
+  link: /monsters/roiyaruburumu
 ---
 
 # 魔天海フォルネー

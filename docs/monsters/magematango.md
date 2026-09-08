@@ -1,6 +1,12 @@
 ---
 title: マージマタンゴ
 description: DQMVIのモンスター「マージマタンゴ」のステータス。HP1,785 / こうげき296.8 / しゅび180 / 経験値590 / 118G。
+prev:
+  text: "キラーマシン"
+  link: /monsters/kiramasin
+next:
+  text: "トロルボンバー"
+  link: /monsters/tororubonba
 ---
 
 # マージマタンゴ

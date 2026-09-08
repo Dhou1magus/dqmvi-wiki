@@ -1,6 +1,12 @@
 ---
 title: シャドー
 description: DQMVIのモンスター「シャドー」のステータス。HP52 / こうげき28.08 / しゅび14 / 経験値43 / 9G。
+prev:
+  text: "メトロゴースト"
+  link: /monsters/metoroghost
+next:
+  text: "ひとくいが"
+  link: /monsters/hitokuiga
 ---
 
 # シャドー

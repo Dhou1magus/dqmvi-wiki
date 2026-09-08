@@ -1,6 +1,12 @@
 ---
 title: つかいま
 description: DQMVIのモンスター「つかいま」のステータス。HP25 / こうげき9 / しゅび3 / 経験値13 / 3G。
+prev:
+  text: "ビッグハット"
+  link: /monsters/bigguhatto
+next:
+  text: "サボテンボール"
+  link: /monsters/sabotenboru
 ---
 
 # つかいま

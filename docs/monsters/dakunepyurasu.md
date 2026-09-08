@@ -1,6 +1,12 @@
 ---
 title: ダークネビュラス
 description: DQMVIのモンスター「ダークネビュラス」のステータス。HP600 / こうげき155 / しゅび133 / 経験値322 / 65G。
+prev:
+  text: "どくどくゾンビ"
+  link: /monsters/dokudokuzonbi
+next:
+  text: "エビルプラント"
+  link: /monsters/ebirupuranto
 ---
 
 # ダークネビュラス

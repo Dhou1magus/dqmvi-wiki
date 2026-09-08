@@ -1,6 +1,12 @@
 ---
 title: ギズモ1
 description: DQMVIのモンスター「ギズモ1」のステータス。HP22 / こうげき10 / しゅび1 / 経験値12 / 2G。
+prev:
+  text: "おにこぞう"
+  link: /monsters/onikozou
+next:
+  text: "おばけきのこ"
+  link: /monsters/obakekinoko
 ---
 
 # ギズモ1

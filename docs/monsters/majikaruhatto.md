@@ -1,6 +1,12 @@
 ---
 title: マジカルハット
 description: DQMVIのモンスター「マジカルハット」のステータス。HP824 / こうげき157.92 / しゅび130 / 経験値333 / 67G。
+prev:
+  text: "メガザルロック"
+  link: /monsters/megazarurokku
+next:
+  text: "キラーパンサー"
+  link: /monsters/kirapan2
 ---
 
 # マジカルハット

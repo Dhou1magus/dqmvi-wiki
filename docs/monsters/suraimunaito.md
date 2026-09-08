@@ -1,6 +1,12 @@
 ---
 title: スライムナイト
 description: DQMVIのモンスター「スライムナイト」のステータス。HP98 / こうげき58 / しゅび42 / 経験値99 / 20G。
+prev:
+  text: "うずしおキング"
+  link: /monsters/uzusioking
+next:
+  text: "ブリザード"
+  link: /monsters/burizado
 ---
 
 # スライムナイト

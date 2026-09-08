@@ -1,6 +1,12 @@
 ---
 title: サボテンボール
 description: DQMVIのモンスター「サボテンボール」のステータス。HP23 / こうげき10 / しゅび1 / 経験値12 / 2G。
+prev:
+  text: "つかいま"
+  link: /monsters/tukaima
+next:
+  text: "ライムスライム"
+  link: /monsters/raimusuraimu
 ---
 
 # サボテンボール

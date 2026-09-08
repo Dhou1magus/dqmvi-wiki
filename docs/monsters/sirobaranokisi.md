@@ -1,6 +1,12 @@
 ---
 title: しろバラのきし
 description: DQMVIのモンスター「しろバラのきし」のステータス。HP11,012 / こうげき555 / しゅび256 / 経験値14,267 / 2,853G。
+prev:
+  text: "フレアドラゴン"
+  link: /monsters/fureadoragon
+next:
+  text: "ダイヤモンドスライム"
+  link: /monsters/daiyamondosuraimu
 ---
 
 # しろバラのきし

@@ -1,6 +1,12 @@
 ---
 title: 伐採マシン
 description: DQMVIのモンスター「伐採マシン」のステータス。HP2,325 / こうげき188 / しゅび135 / 経験値3,906 / 781G。
+prev:
+  text: "シールドあにき"
+  link: /monsters/sirudoaniki
+next:
+  text: "クイーンモーモン"
+  link: /monsters/kuinmomon
 ---
 
 # 伐採マシン

@@ -1,6 +1,12 @@
 ---
 title: ブラウニー
 description: DQMVIのモンスター「ブラウニー」のステータス。HP75 / こうげき55.2 / しゅび41 / 経験値93 / 19G。
+prev:
+  text: "アニマルゾンビ"
+  link: /monsters/animaruzonbi
+next:
+  text: "スライムボーグ"
+  link: /monsters/suraimubogu
 ---
 
 # ブラウニー

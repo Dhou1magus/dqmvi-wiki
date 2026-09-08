@@ -1,6 +1,12 @@
 ---
 title: キラーマシン
 description: DQMVIのモンスター「キラーマシン」のステータス。HP1,950 / こうげき350 / しゅび240 / 経験値706 / 141G。
+prev:
+  text: "プラチナキング"
+  link: /monsters/puratinaking
+next:
+  text: "マージマタンゴ"
+  link: /monsters/magematango
 ---
 
 # キラーマシン

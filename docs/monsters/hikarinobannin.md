@@ -1,6 +1,12 @@
 ---
 title: 光の番人
 description: DQMVIのモンスター「光の番人」のステータス。HP2,863 / こうげき400 / しゅび242 / 経験値953 / 191G。
+prev:
+  text: "コキュードス"
+  link: /monsters/cocytus
+next:
+  text: "謎のバケモノ"
+  link: /monsters/nazonobakemono
 ---
 
 # 光の番人

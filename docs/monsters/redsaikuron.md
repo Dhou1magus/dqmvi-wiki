@@ -1,6 +1,12 @@
 ---
 title: レッドサイクロン
 description: DQMVIのモンスター「レッドサイクロン」のステータス。HP518 / こうげき145.6 / しゅび100 / 経験値267 / 53G。
+prev:
+  text: "バアラック"
+  link: /monsters/barakku
+next:
+  text: "マネマネ"
+  link: /monsters/manemane
 ---
 
 # レッドサイクロン

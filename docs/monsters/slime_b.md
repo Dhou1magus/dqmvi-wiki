@@ -1,6 +1,12 @@
 ---
 title: スライムB
 description: DQMVIのモンスター「スライムB」のステータス。HP5 / こうげき1 / しゅび1 / 経験値2 / 1G。
+prev:
+  text: "マッシュスライム"
+  link: /monsters/slimeshroom
+next:
+  text: "カバシラー"
+  link: /monsters/swarmtroop
 ---
 
 # スライムB

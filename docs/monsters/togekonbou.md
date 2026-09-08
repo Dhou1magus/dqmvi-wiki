@@ -1,6 +1,12 @@
 ---
 title: とげこんぼう
 description: DQMVIのモンスター「とげこんぼう」のステータス。HP873 / こうげき127 / しゅび89 / 経験値1,861 / 372G。
+prev:
+  text: "キラーピッケル"
+  link: /monsters/kirapike
+next:
+  text: "サボテンゴールド"
+  link: /monsters/sabotengold
 ---
 
 # とげこんぼう

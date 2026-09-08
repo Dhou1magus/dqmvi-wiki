@@ -1,6 +1,12 @@
 ---
 title: ベホイミスライム
 description: DQMVIのモンスター「ベホイミスライム」のステータス。HP68 / こうげき43.2 / しゅび36 / 経験値77 / 15G。
+prev:
+  text: "スライムタワー"
+  link: /monsters/suraimutawa
+next:
+  text: "ベロベロ"
+  link: /monsters/berobero
 ---
 
 # ベホイミスライム

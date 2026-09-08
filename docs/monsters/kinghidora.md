@@ -1,6 +1,12 @@
 ---
 title: キングヒドラ
 description: DQMVIのモンスター「キングヒドラ」のステータス。HP22,339 / こうげき909 / しゅび354 / 経験値27,898 / 5,580G。
+prev:
+  text: "ミュシャド"
+  link: /monsters/myusyado
+next:
+  text: "りゅうおうもどき"
+  link: /monsters/ryuuoumodoki
 ---
 
 # キングヒドラ

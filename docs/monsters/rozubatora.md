@@ -1,6 +1,12 @@
 ---
 title: ローズバトラー
 description: DQMVIのモンスター「ローズバトラー」のステータス。HP188 / こうげき81 / しゅび42 / 経験値146 / 32G。
+prev:
+  text: "ガチャコッコ"
+  link: /monsters/gatyakokko
+next:
+  text: "ベビーニュート"
+  link: /monsters/bebinyuto
 ---
 
 # ローズバトラー

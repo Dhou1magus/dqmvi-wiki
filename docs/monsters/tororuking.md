@@ -1,6 +1,12 @@
 ---
 title: トロルキング
 description: DQMVIのモンスター「トロルキング」のステータス。HP3,150 / こうげき450.8 / しゅび198 / 経験値867 / 173G。
+prev:
+  text: "ドラゴンダーク"
+  link: /monsters/dragondarknaito
+next:
+  text: "ゴッドライダー"
+  link: /monsters/godraida
 ---
 
 # トロルキング

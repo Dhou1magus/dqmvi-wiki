@@ -1,6 +1,12 @@
 ---
 title: バルザック
 description: DQMVIのモンスター「バルザック」のステータス。HP266 / こうげき123 / しゅび82 / 経験値185 / 33G。
+prev:
+  text: "メーダクイン"
+  link: /monsters/medakuin
+next:
+  text: "ボーンプリズナー"
+  link: /monsters/bonpurizuna
 ---
 
 # バルザック

@@ -1,6 +1,12 @@
 ---
 title: おどる宝石
 description: DQMVIのモンスター「おどる宝石」のステータス。HP162 / こうげき76.68 / しゅび65 / 経験値142 / 28G。
+prev:
+  text: "キングスライムもどき"
+  link: /monsters/suraimuking
+next:
+  text: "ピクシー"
+  link: /monsters/pikusi
 ---
 
 # おどる宝石

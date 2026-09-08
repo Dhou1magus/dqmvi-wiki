@@ -1,6 +1,12 @@
 ---
 title: ホーンビートル
 description: DQMVIのモンスター「ホーンビートル」のステータス。HP215 / こうげき105 / しゅび88 / 経験値180 / 37G。
+prev:
+  text: "アカツキショウグン"
+  link: /monsters/akatsuki_shogun
+next:
+  text: "だんごスライム"
+  link: /monsters/dangoslime
 ---
 
 # ホーンビートル

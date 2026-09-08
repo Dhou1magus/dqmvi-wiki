@@ -1,6 +1,12 @@
 ---
 title: どろにんぎょう
 description: DQMVIのモンスター「どろにんぎょう」のステータス。HP93 / こうげき52 / しゅび38 / 経験値89 / 18G。
+prev:
+  text: "しびれあげは"
+  link: /monsters/sibireageha
+next:
+  text: "おおくちばし"
+  link: /monsters/ookutibasi
 ---
 
 # どろにんぎょう

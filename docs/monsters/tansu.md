@@ -1,6 +1,12 @@
 ---
 title: たんすミミック
 description: DQMVIのモンスター「たんすミミック」のステータス。HP57 / こうげき27 / しゅび18 / 経験値51 / 9G。
+prev:
+  text: "スピンスライム"
+  link: /monsters/spinslime
+next:
+  text: "おにぎりスライム"
+  link: /monsters/onigirislime
 ---
 
 # たんすミミック

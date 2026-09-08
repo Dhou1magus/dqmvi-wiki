@@ -1,6 +1,12 @@
 ---
 title: 吹雪の魔女
 description: DQMVIのモンスター「吹雪の魔女」のステータス。
+prev:
+  text: "デスマシーン"
+  link: /monsters/slaughtomaton
+next:
+  text: "なみさそり"
+  link: /monsters/wave_scorpion
 ---
 
 # 吹雪の魔女

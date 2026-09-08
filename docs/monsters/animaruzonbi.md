@@ -1,6 +1,12 @@
 ---
 title: アニマルゾンビ
 description: DQMVIのモンスター「アニマルゾンビ」のステータス。HP86 / こうげき53.2 / しゅび40 / 経験値92 / 18G。
+prev:
+  text: "ベロベロ"
+  link: /monsters/berobero
+next:
+  text: "ブラウニー"
+  link: /monsters/burauni
 ---
 
 # アニマルゾンビ

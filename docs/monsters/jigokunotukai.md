@@ -1,6 +1,12 @@
 ---
 title: じごくのつかい
 description: DQMVIのモンスター「じごくのつかい」のステータス。HP473 / こうげき137.28 / しゅび108 / 経験値263 / 53G。
+prev:
+  text: "ヒートギズモ2"
+  link: /monsters/hiitogizumo
+next:
+  text: "キングレオ"
+  link: /monsters/kingreo1
 ---
 
 # じごくのつかい

@@ -1,6 +1,12 @@
 ---
 title: ミニデーモン
 description: DQMVIのモンスター「ミニデーモン」のステータス。HP170 / こうげき76.68 / しゅび68 / 経験値145 / 29G。
+prev:
+  text: "ばくだんベビー"
+  link: /monsters/bakudanbebi
+next:
+  text: "キングスライムもどき"
+  link: /monsters/suraimuking
 ---
 
 # ミニデーモン

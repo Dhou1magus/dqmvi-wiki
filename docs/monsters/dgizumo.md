@@ -1,6 +1,12 @@
 ---
 title: ダースギズモ
 description: DQMVIのモンスター「ダースギズモ」のステータス。HP1,785 / こうげき296.8 / しゅび184 / 経験値593 / 119G。
+prev:
+  text: "マグマロン"
+  link: /monsters/magumaron
+next:
+  text: "リューイーソー"
+  link: /monsters/ryuiso
 ---
 
 # ダースギズモ

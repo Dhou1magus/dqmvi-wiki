@@ -1,6 +1,12 @@
 ---
 title: サボテンゴールド
 description: DQMVIのモンスター「サボテンゴールド」のステータス。HP1,134 / こうげき122 / しゅび78 / 経験値2,063 / 413G。
+prev:
+  text: "とげこんぼう"
+  link: /monsters/togekonbou
+next:
+  text: "レッドアーチャー"
+  link: /monsters/reddoatya
 ---
 
 # サボテンゴールド

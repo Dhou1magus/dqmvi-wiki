@@ -1,6 +1,12 @@
 ---
 title: マポレーナ
 description: DQMVIのモンスター「マポレーナ」のステータス。HP343 / こうげき104 / しゅび98 / 経験値212 / 42G。
+prev:
+  text: "エンゼルスライム"
+  link: /monsters/enzeruslime
+next:
+  text: "バリイドドッグ"
+  link: /monsters/bariidodog
 ---
 
 # マポレーナ

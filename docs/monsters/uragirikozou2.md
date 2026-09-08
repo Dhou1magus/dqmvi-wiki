@@ -1,6 +1,12 @@
 ---
 title: うらぎりこぞう
 description: DQMVIのモンスター「うらぎりこぞう」のステータス。HP90 / こうげき61 / しゅび42 / 経験値95 / 20G。
+prev:
+  text: "ドラゴン"
+  link: /monsters/dragon2
+next:
+  text: "まどうし"
+  link: /monsters/madoushi
 ---
 
 # うらぎりこぞう

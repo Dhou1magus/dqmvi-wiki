@@ -1,6 +1,12 @@
 ---
 title: さまようたましい
 description: DQMVIのモンスター「さまようたましい」のステータス。HP73 / こうげき44 / しゅび36 / 経験値79 / 16G。
+prev:
+  text: "ともしびこぞう"
+  link: /monsters/tomosibikozou
+next:
+  text: "ナイトウォーカー"
+  link: /monsters/nightwalker
 ---
 
 # さまようたましい

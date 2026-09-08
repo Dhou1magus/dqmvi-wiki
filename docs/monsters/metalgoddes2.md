@@ -1,6 +1,12 @@
 ---
 title: メタルゴッデス2
 description: DQMVIのモンスター「メタルゴッデス2」のステータス。
+prev:
+  text: "メタルゴッデス"
+  link: /monsters/metal_goddess
+next:
+  text: "メタルスター"
+  link: /monsters/metalstar
 ---
 
 # メタルゴッデス2

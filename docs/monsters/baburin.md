@@ -1,6 +1,12 @@
 ---
 title: バブリン
 description: DQMVIのモンスター「バブリン」のステータス。HP90 / こうげき53.2 / しゅび42 / 経験値94 / 19G。
+prev:
+  text: "キラースコップ"
+  link: /monsters/kirasuko
+next:
+  text: "ともしびこぞう"
+  link: /monsters/tomosibikozou
 ---
 
 # バブリン

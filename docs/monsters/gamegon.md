@@ -1,6 +1,12 @@
 ---
 title: ガメゴン
 description: DQMVIのモンスター「ガメゴン」のステータス。HP200 / こうげき88.75 / しゅび95 / 経験値183 / 37G。
+prev:
+  text: "ケダモン"
+  link: /monsters/kedamon
+next:
+  text: "メイジキメラ"
+  link: /monsters/meijikimera
 ---
 
 # ガメゴン

@@ -1,6 +1,12 @@
 ---
 title: あやしいかげ
 description: DQMVIのモンスター「あやしいかげ」のステータス。HP42 / こうげき28.08 / しゅび17 / 経験値44 / 9G。
+prev:
+  text: "おばけキャンドル"
+  link: /monsters/obakekyandoru
+next:
+  text: "キメラ"
+  link: /monsters/kimera
 ---
 
 # あやしいかげ

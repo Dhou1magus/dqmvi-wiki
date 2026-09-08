@@ -1,6 +1,12 @@
 ---
 title: さまようよろい
 description: DQMVIのモンスター「さまようよろい」のステータス。HP186 / こうげき95.85 / しゅび88 / 経験値182 / 36G。
+prev:
+  text: "ベビーパンサー"
+  link: /monsters/kirapan
+next:
+  text: "メイジドラキー"
+  link: /monsters/meijidoraki
 ---
 
 # さまようよろい

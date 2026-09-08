@@ -1,6 +1,12 @@
 ---
 title: どくろあらい
 description: DQMVIのモンスター「どくろあらい」のステータス。HP38 / こうげき25.02 / しゅび15 / 経験値39 / 8G。
+prev:
+  text: "プレミアムスライム"
+  link: /monsters/puremiasuraimu
+next:
+  text: "スノーモン"
+  link: /monsters/sunomon
 ---
 
 # どくろあらい

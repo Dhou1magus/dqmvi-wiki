@@ -1,6 +1,12 @@
 ---
 title: パールスライム
 description: DQMVIのモンスター「パールスライム」のステータス。HP66 / こうげき29 / しゅび16 / 経験値54 / 12G。
+prev:
+  text: "のろいのランプ"
+  link: /monsters/malevolantern
+next:
+  text: "さそりアーマー"
+  link: /monsters/sasori_a_ma
 ---
 
 # パールスライム

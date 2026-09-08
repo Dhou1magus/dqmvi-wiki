@@ -1,6 +1,12 @@
 ---
 title: ボル
 description: DQMVIのモンスター「ボル」のステータス。HP45 / こうげき22 / しゅび15 / 経験値42 / 10G。
+prev:
+  text: "ベル"
+  link: /monsters/bell
+next:
+  text: "バベルボブル"
+  link: /monsters/baberuboburu
 ---
 
 # ボル

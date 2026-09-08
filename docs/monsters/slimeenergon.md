@@ -1,6 +1,12 @@
 ---
 title: スライムエネルゴン
 description: DQMVIのモンスター「スライムエネルゴン」のステータス。HP491 / こうげき141 / しゅび98 / 経験値268 / 49G。
+prev:
+  text: "デスクローゼット"
+  link: /monsters/tansu_death
+next:
+  text: "スライムエンペラー"
+  link: /monsters/slimeemperor
 ---
 
 # スライムエネルゴン

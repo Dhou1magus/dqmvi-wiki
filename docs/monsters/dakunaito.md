@@ -1,6 +1,12 @@
 ---
 title: ダークナイト
 description: DQMVIのモンスター「ダークナイト」のステータス。HP2,325 / こうげき364 / しゅび243 / 経験値756 / 151G。
+prev:
+  text: "ダークトロル"
+  link: /monsters/darktororu
+next:
+  text: "キラーアーマー"
+  link: /monsters/kiraama
 ---
 
 # ダークナイト

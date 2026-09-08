@@ -1,6 +1,12 @@
 ---
 title: ベリースライム
 description: DQMVIのモンスター「ベリースライム」のステータス。HP148 / こうげき67 / しゅび38 / 経験値126 / 26G。
+prev:
+  text: "チェリースライム"
+  link: /monsters/cherryslime
+next:
+  text: "ピーチスライム"
+  link: /monsters/peachslime
 ---
 
 # ベリースライム

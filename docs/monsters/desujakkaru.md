@@ -1,6 +1,12 @@
 ---
 title: デスジャッカル
 description: DQMVIのモンスター「デスジャッカル」のステータス。HP944 / こうげき187.53 / しゅび136 / 経験値377 / 75G。
+prev:
+  text: "パペットマン"
+  link: /monsters/papettoman
+next:
+  text: "ポムポムボム"
+  link: /monsters/pombom
 ---
 
 # デスジャッカル

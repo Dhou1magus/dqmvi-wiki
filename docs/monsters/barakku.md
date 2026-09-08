@@ -1,6 +1,12 @@
 ---
 title: バアラック
 description: DQMVIのモンスター「バアラック」のステータス。HP497 / こうげき141.44 / しゅび102 / 経験値264 / 53G。
+prev:
+  text: "ドラゴンナイト"
+  link: /monsters/dragonnaito
+next:
+  text: "レッドサイクロン"
+  link: /monsters/redsaikuron
 ---
 
 # バアラック

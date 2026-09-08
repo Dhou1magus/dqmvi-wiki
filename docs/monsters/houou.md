@@ -1,6 +1,12 @@
 ---
 title: ほうおう
 description: DQMVIのモンスター「ほうおう」のステータス。HP1,809 / こうげき352 / しゅび223 / 経験値588 / 118G。
+prev:
+  text: "ブラックドラゴン"
+  link: /monsters/blackdoragon
+next:
+  text: "ソードイド"
+  link: /monsters/sozoido
 ---
 
 # ほうおう

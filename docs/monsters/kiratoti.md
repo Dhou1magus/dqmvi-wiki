@@ -1,6 +1,12 @@
 ---
 title: キラートーチ
 description: DQMVIのモンスター「キラートーチ」のステータス。HP446 / こうげき67 / しゅび55 / 経験値907 / 181G。
+prev:
+  text: "ハートナイト"
+  link: /monsters/hatonaito
+next:
+  text: "ピンクボンボン"
+  link: /monsters/pinkbonbon
 ---
 
 # キラートーチ

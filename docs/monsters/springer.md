@@ -1,6 +1,12 @@
 ---
 title: シュプリンガー
 description: DQMVIのモンスター「シュプリンガー」のステータス。HP184 / こうげき102 / しゅび86 / 経験値192 / 37G。
+prev:
+  text: "ディアブラダ"
+  link: /monsters/dexiaburada
+next:
+  text: "アカツキショウグン"
+  link: /monsters/akatsuki_shogun
 ---
 
 # シュプリンガー

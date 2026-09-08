@@ -1,6 +1,12 @@
 ---
 title: グレートジンガー
 description: DQMVIのモンスター「グレートジンガー」のステータス。HP1,600 / こうげき234 / しゅび288 / 経験値600 / 120G。
+prev:
+  text: "ソーラー"
+  link: /monsters/sora
+next:
+  text: "セイレーンゴースト"
+  link: /monsters/seire_ngo_suto
 ---
 
 # グレートジンガー

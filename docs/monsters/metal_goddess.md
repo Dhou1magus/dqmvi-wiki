@@ -1,6 +1,12 @@
 ---
 title: メタルゴッデス
 description: DQMVIのモンスター「メタルゴッデス」のステータス。
+prev:
+  text: "メタルセラフィム"
+  link: /monsters/metal_seraphim
+next:
+  text: "メタルゴッデス2"
+  link: /monsters/metalgoddes2
 ---
 
 # メタルゴッデス

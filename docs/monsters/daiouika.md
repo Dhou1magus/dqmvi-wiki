@@ -1,6 +1,12 @@
 ---
 title: だいおうイカ
 description: DQMVIのモンスター「だいおうイカ」のステータス。HP175 / こうげき85 / しゅび24 / 経験値110 / 26G。
+prev:
+  text: "ガニラス"
+  link: /monsters/ganiras2
+next:
+  text: "レッドマーマン"
+  link: /monsters/redmerman
 ---
 
 # だいおうイカ

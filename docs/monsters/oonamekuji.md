@@ -1,6 +1,12 @@
 ---
 title: おおなめくじ
 description: DQMVIのモンスター「おおなめくじ」のステータス。HP12 / こうげき4 / しゅび1 / 経験値6 / 1G。
+prev:
+  text: "スライムベス"
+  link: /monsters/suraimubesu
+next:
+  text: "ドロザラー"
+  link: /monsters/dorozara
 ---
 
 # おおなめくじ

@@ -1,6 +1,12 @@
 ---
 title: ゴーレム
 description: DQMVIのモンスター「ゴーレム」のステータス。HP581 / こうげき146.64 / しゅび145 / 経験値315 / 63G。
+prev:
+  text: "ブラックベジター"
+  link: /monsters/burakkubejita
+next:
+  text: "ドラゴンナイト"
+  link: /monsters/dragonnaito
 ---
 
 # ゴーレム

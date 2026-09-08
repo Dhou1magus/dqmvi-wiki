@@ -1,6 +1,12 @@
 ---
 title: ぶっちズッキーニャ
 description: DQMVIのモンスター「ぶっちズッキーニャ」のステータス。HP168 / こうげき80.94 / しゅび65 / 経験値146 / 29G。
+prev:
+  text: "ジェリーマン"
+  link: /monsters/jeriman
+next:
+  text: "ミミック木箱"
+  link: /monsters/mimikkukibako
 ---
 
 # ぶっちズッキーニャ

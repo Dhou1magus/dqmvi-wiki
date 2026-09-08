@@ -1,6 +1,12 @@
 ---
 title: デッドペッカー
 description: DQMVIのモンスター「デッドペッカー」のステータス。HP371 / こうげき115.44 / しゅび108 / 経験値235 / 47G。
+prev:
+  text: "スカルガルー"
+  link: /monsters/skullgaroo
+next:
+  text: "キングスライム"
+  link: /monsters/kingsura
 ---
 
 # デッドペッカー

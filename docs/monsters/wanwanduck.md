@@ -1,6 +1,12 @@
 ---
 title: ワンワンダック
 description: DQMVIのモンスター「ワンワンダック」のステータス。HP26 / こうげき9 / しゅび3 / 経験値14 / 2G。
+prev:
+  text: "ウパソルジャー"
+  link: /monsters/upasoruja
+next:
+  text: "ドラゴンキッズ"
+  link: /monsters/doragonkizzu
 ---
 
 # ワンワンダック

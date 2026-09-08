@@ -1,6 +1,12 @@
 ---
 title: メラリザード
 description: DQMVIのモンスター「メラリザード」のステータス。HP53 / こうげき26 / しゅび14 / 経験値62 / 13G。
+prev:
+  text: "メタッピー"
+  link: /monsters/metappi
+next:
+  text: "ハエおとこ"
+  link: /monsters/heotoko
 ---
 
 # メラリザード

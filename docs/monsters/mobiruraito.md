@@ -1,6 +1,12 @@
 ---
 title: モビルライト
 description: DQMVIのモンスター「モビルライト」のステータス。HP168 / こうげき88 / しゅび76 / 経験値155 / 20G。
+prev:
+  text: "モビルボディ"
+  link: /monsters/mobirubodexi
+next:
+  text: "モビルフォース"
+  link: /monsters/mobirufosu
 ---
 
 # モビルライト

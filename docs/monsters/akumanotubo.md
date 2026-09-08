@@ -1,6 +1,12 @@
 ---
 title: あくまのツボ
 description: DQMVIのモンスター「あくまのツボ」のステータス。HP165 / こうげき105.79 / しゅび80 / 経験値182 / 36G。
+prev:
+  text: "しびれだんびら"
+  link: /monsters/sibiredanbira
+next:
+  text: "デスフラッター"
+  link: /monsters/desufuratta
 ---
 
 # あくまのツボ

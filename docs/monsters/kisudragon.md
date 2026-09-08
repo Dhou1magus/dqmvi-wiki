@@ -1,6 +1,12 @@
 ---
 title: キースドラゴン
 description: DQMVIのモンスター「キースドラゴン」のステータス。HP1,264 / こうげき194.58 / しゅび144 / 経験値418 / 84G。
+prev:
+  text: "スライムベホマズン"
+  link: /monsters/suraimubehomazun
+next:
+  text: "ソードファントム"
+  link: /monsters/sodofantomu
 ---
 
 # キースドラゴン

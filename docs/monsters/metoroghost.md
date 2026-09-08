@@ -1,6 +1,12 @@
 ---
 title: メトロゴースト
 description: DQMVIのモンスター「メトロゴースト」のステータス。HP45 / こうげき25.92 / しゅび12 / 経験値38 / 8G。
+prev:
+  text: "おばけうみうし"
+  link: /monsters/obakeumiusi
+next:
+  text: "シャドー"
+  link: /monsters/syado
 ---
 
 # メトロゴースト

@@ -1,6 +1,12 @@
 ---
 title: メタルセラフィム
 description: DQMVIのモンスター「メタルセラフィム」のステータス。
+prev:
+  text: "スライダークロボ"
+  link: /monsters/darkrobotslime
+next:
+  text: "メタルゴッデス"
+  link: /monsters/metal_goddess
 ---
 
 # メタルセラフィム

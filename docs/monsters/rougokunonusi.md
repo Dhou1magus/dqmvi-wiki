@@ -1,6 +1,12 @@
 ---
 title: ろうごくのぬし
 description: DQMVIのモンスター「ろうごくのぬし」のステータス。HP1,455 / こうげき198 / しゅび142 / 経験値444 / 88G。
+prev:
+  text: "ホワイトジャッジ"
+  link: /monsters/howaitojaji
+next:
+  text: "マクロベータ"
+  link: /monsters/makurobeta
 ---
 
 # ろうごくのぬし

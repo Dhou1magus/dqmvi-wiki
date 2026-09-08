@@ -1,6 +1,12 @@
 ---
 title: ブリザード
 description: DQMVIのモンスター「ブリザード」のステータス。HP85 / こうげき52 / しゅび40 / 経験値90 / 18G。
+prev:
+  text: "スライムナイト"
+  link: /monsters/suraimunaito
+next:
+  text: "フロストギズモ1"
+  link: /monsters/fgizumo
 ---
 
 # ブリザード

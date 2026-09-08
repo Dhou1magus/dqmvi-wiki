@@ -1,6 +1,12 @@
 ---
 title: マッスルアニマル
 description: DQMVIのモンスター「マッスルアニマル」のステータス。HP162 / こうげき66 / しゅび45 / 経験値102 / 22G。
+prev:
+  text: "どれいへいし"
+  link: /monsters/doreiheisi
+next:
+  text: "ダークプラネット"
+  link: /monsters/dakupuranetto
 ---
 
 # マッスルアニマル
