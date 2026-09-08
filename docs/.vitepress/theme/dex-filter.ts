@@ -2,11 +2,11 @@
  * モンスター図鑑（frontmatter の pageClass に monster-dex があるページ）の表の上に、
  * 絞り込みボタンを出す。
  *
- *   ランク1 … ランク7 ／ 雑魚・転生・ボス・コインボス ／ すべて
+ *   ランク1 … ランク7 ／ スライム … 特殊（系統）／ 雑魚・転生・ボス・コインボス ／ すべて
  *
- * ランクの列は表にある。種類は scripts/data/monster-kinds.json（config.mts が
+ * ランクの列と系統の列は表にある。種類は scripts/data/monster-kinds.json（config.mts が
  * themeConfig.monsterKinds に載せる）で決め、そこに無いものが「雑魚」。
- * 押したボタンは光り、同じ組（ランク同士・種類同士）は「どれか」、組をまたぐと「両方」の条件になる。
+ * 押したボタンは光り、同じ組（ランク同士・系統同士・種類同士）は「どれか」、組をまたぐと「両方」の条件になる。
  * 何も押していなければ全部出る。「すべて」で解除。
  *
  * 本文に HTML を書けない（markdown.html:false）ので、ボタンは表示側で作る。
@@ -14,6 +14,11 @@
  * 並べ替え（sortable-tables.ts）とは独立。行に付ける class dex-hide を custom.css が display:none にする。
  */
 const RANKS = [1, 2, 3, 4, 5, 6, 7]
+/**
+ * 系統ボタンの並び（2026-09-07 よっしー指示の順）。表の「系統」の欄と同じ言葉にすること。
+ * 欄が空の行（数値を伏せているモンスター）はどの系統にも入らないので、系統を選ぶと消える。
+ */
+const SPECIES = ['スライム', 'ドラゴン', '自然', '魔獣', '物質', '悪魔', 'ゾンビ', 'メタル', '特殊']
 /** 種類ボタンの並び。「雑魚」は monster-kinds.json のどこにも無いもの */
 const KINDS = ['雑魚', '転生', 'ボス', 'コインボス']
 const HIDE_CLASS = 'dex-hide'
@@ -38,6 +43,12 @@ function kindOf(row: HTMLTableRowElement, nameCol: number, kinds: Kinds): string
   return '雑魚'
 }
 
+/** 表の「系統」の欄をそのまま読む。欄が無い表・空の行は '' */
+function speciesOf(row: HTMLTableRowElement, speciesCol: number): string {
+  if (speciesCol < 0) return ''
+  return row.cells[speciesCol]?.textContent?.trim() ?? ''
+}
+
 function rankOf(row: HTMLTableRowElement, rankCol: number): number | null {
   const n = Number(row.cells[rankCol]?.textContent?.trim())
   return Number.isInteger(n) && n >= 1 ? n : null
@@ -52,17 +63,24 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
   const rows = [...(table.tBodies[0]?.rows ?? [])]
   const rankCol = columnIndex(headers, 'ランク')
   const nameCol = columnIndex(headers, 'モンスター')
+  // 系統の欄が無い表でも、ランクと種類のボタンは出す
+  const speciesCol = columnIndex(headers, '系統')
   if (rankCol < 0 || nameCol < 0 || !rows.length) return null
 
   // 行ごとの属性は一度だけ調べておく
   const rank = new Map<HTMLTableRowElement, number | null>()
+  const species = new Map<HTMLTableRowElement, string>()
   const kind = new Map<HTMLTableRowElement, string>()
   for (const r of rows) {
     rank.set(r, rankOf(r, rankCol))
+    species.set(r, speciesOf(r, speciesCol))
     kind.set(r, kindOf(r, nameCol, kinds))
   }
+  // 表に1体も出てこない系統はボタンを出さない（MODで系統が増減しても勝手に合う）
+  const shownSpecies = speciesCol < 0 ? [] : SPECIES.filter((s) => [...species.values()].includes(s))
 
   const selectedRanks = new Set<number>()
+  const selectedSpecies = new Set<string>()
   const selectedKinds = new Set<string>()
 
   const bar = document.createElement('div')
@@ -70,7 +88,7 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
   bar.setAttribute('role', 'group')
   bar.setAttribute('aria-label', '図鑑の絞り込み')
 
-  const makeButton = (label: string, group: 'rank' | 'kind' | 'all') => {
+  const makeButton = (label: string, group: 'rank' | 'species' | 'kind' | 'all') => {
     const b = document.createElement('button')
     b.type = 'button'
     b.textContent = label
@@ -89,16 +107,18 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
     let shown = 0
     for (const r of rows) {
       const okRank = selectedRanks.size === 0 || (rank.get(r) !== null && selectedRanks.has(rank.get(r) as number))
+      const okSpecies = selectedSpecies.size === 0 || selectedSpecies.has(species.get(r) ?? '')
       const okKind = selectedKinds.size === 0 || selectedKinds.has(kind.get(r) ?? '雑魚')
-      const hide = !(okRank && okKind)
+      const hide = !(okRank && okSpecies && okKind)
       r.classList.toggle(HIDE_CLASS, hide)
       if (!hide) shown++
     }
     empty.hidden = shown > 0
     for (const b of bar.querySelectorAll<HTMLButtonElement>('button')) {
       const on = b.dataset.group === 'rank' ? selectedRanks.has(Number(b.dataset.value))
+        : b.dataset.group === 'species' ? selectedSpecies.has(b.dataset.value ?? '')
         : b.dataset.group === 'kind' ? selectedKinds.has(b.dataset.value ?? '')
-        : selectedRanks.size === 0 && selectedKinds.size === 0
+        : selectedRanks.size === 0 && selectedSpecies.size === 0 && selectedKinds.size === 0
       b.setAttribute('aria-pressed', on ? 'true' : 'false')
     }
   }
@@ -113,6 +133,17 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
       apply()
     })
     rankWrap.appendChild(b)
+  }
+  const speciesWrap = document.createElement('span')
+  speciesWrap.className = 'grp'
+  for (const s of shownSpecies) {
+    const b = makeButton(s, 'species')
+    b.dataset.value = s
+    b.addEventListener('click', () => {
+      selectedSpecies.has(s) ? selectedSpecies.delete(s) : selectedSpecies.add(s)
+      apply()
+    })
+    speciesWrap.appendChild(b)
   }
   const kindWrap = document.createElement('span')
   kindWrap.className = 'grp'
@@ -129,11 +160,12 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
   all.className = 'all'
   all.addEventListener('click', () => {
     selectedRanks.clear()
+    selectedSpecies.clear()
     selectedKinds.clear()
     apply()
   })
 
-  bar.append(rankWrap, kindWrap, all)
+  bar.append(rankWrap, speciesWrap, kindWrap, all)
   table.insertAdjacentElement('afterend', empty)
   apply()
   return bar
