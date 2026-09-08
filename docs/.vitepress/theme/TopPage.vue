@@ -325,7 +325,7 @@ function onKey(event) {
 
     <div class="tiles">
       <a v-for="p in primary" :key="p.t" :href="withBase(p.link)" class="tile">
-        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[p.icon]" /></svg>
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[p.icon]" /></svg></span>
         <span class="t">{{ p.t }}<i v-if="p.spoiler" class="sp">ネタバレ</i></span>
         <span class="d">{{ p.d }}</span>
       </a>
