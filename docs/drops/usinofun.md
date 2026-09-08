@@ -2,6 +2,12 @@
 title: うしのふん
 description: DQMVIの「うしのふん」を落とすモンスター12体の一覧。いちばん弱いのはびっくりサタン（通常・EXP5）。
 pageClass: wide-page sortable-list
+prev:
+  text: "うさぎのしっぽ"
+  link: /drops/usaginosippo
+next:
+  text: "うまのふん"
+  link: /drops/umanofun
 ---
 
 # うしのふん

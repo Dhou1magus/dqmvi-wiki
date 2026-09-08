@@ -2,6 +2,12 @@
 title: 特やくそう
 description: DQMVIの「特やくそう」を落とすモンスター5体の一覧。いちばん弱いのはベホマスライム（通常・EXP320）。
 pageClass: wide-page sortable-list
+prev:
+  text: "闘魂エキス"
+  link: /drops/toukonekisu
+next:
+  text: "破毒のリング"
+  link: /drops/hadokunoring
 ---
 
 # 特やくそう

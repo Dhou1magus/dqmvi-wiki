@@ -2,6 +2,12 @@
 title: 呪力のモト
 description: DQMVIの「呪力のモト」を落とすモンスター48体の一覧。いちばん弱いのはプリズニャン（通常・EXP72）。
 pageClass: wide-page sortable-list
+prev:
+  text: "狩人の弓"
+  link: /drops/karyuudonoyumi
+next:
+  text: "上やくそう"
+  link: /drops/jouyakusou
 ---
 
 # 呪力のモト

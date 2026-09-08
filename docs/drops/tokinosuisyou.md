@@ -2,6 +2,12 @@
 title: 時の水晶
 description: DQMVIの「時の水晶」を落とすモンスター8体の一覧。いちばん弱いのはマッドスミス（レア・EXP345）。
 pageClass: wide-page sortable-list
+prev:
+  text: "死神の首飾り"
+  link: /drops/sinigaminokubikazari
+next:
+  text: "守りの種"
+  link: /drops/mamorinotane
 ---
 
 # 時の水晶

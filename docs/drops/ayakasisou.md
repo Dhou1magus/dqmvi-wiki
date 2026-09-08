@@ -2,6 +2,12 @@
 title: あやかし草
 description: DQMVIの「あやかし草」を落とすモンスター15体の一覧。いちばん弱いのはベビーサタン（通常・EXP38）。
 pageClass: wide-page sortable-list
+prev:
+  text: "あまつゆの糸"
+  link: /drops/amatuyunoito
+next:
+  text: "あやしい小ビン"
+  link: /drops/ayasiikobin
 ---
 
 # あやかし草

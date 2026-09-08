@@ -2,6 +2,12 @@
 title: ピサロナイトの鎧
 description: DQMVIの「ピサロナイトの鎧」を落とすモンスター1体の一覧。いちばん弱いのはピサロナイト（通常・EXP7,059）。
 pageClass: wide-page sortable-list
+prev:
+  text: "はめつの盾"
+  link: /drops/hametunotate
+next:
+  text: "ピンクボンボンの爪"
+  link: /drops/pinkbonbonnotume
 ---
 
 # ピサロナイトの鎧

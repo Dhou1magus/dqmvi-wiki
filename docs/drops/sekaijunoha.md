@@ -2,6 +2,12 @@
 title: せかいじゅの葉
 description: DQMVIの「せかいじゅの葉」を落とすモンスター7体の一覧。いちばん弱いのはベホイミスライム（レア・EXP77）。
 pageClass: wide-page sortable-list
+prev:
+  text: "せいなるしずく"
+  link: /drops/seinarusizuku
+next:
+  text: "タイプGの欠片"
+  link: /drops/taipugnokakera
 ---
 
 # せかいじゅの葉

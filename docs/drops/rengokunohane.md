@@ -2,6 +2,12 @@
 title: れんごくの羽根
 description: DQMVIの「れんごくの羽根」を落とすモンスター25体の一覧。いちばん弱いのはメラゴースト（通常・EXP34）。
 pageClass: wide-page sortable-list
+prev:
+  text: "レッドアーチャーの弓"
+  link: /drops/redatyanoyumi
+next:
+  text: "わんぱくサタンのスプーン"
+  link: /drops/wanpakusatannosupun
 ---
 
 # れんごくの羽根

@@ -2,6 +2,12 @@
 title: あらくれマスク
 description: DQMVIの「あらくれマスク」を落とすモンスター1体の一覧。いちばん弱いのはやつざきアニマル（超レア・EXP212）。
 pageClass: wide-page sortable-list
+prev:
+  text: "あやしい小ビン"
+  link: /drops/ayasiikobin
+next:
+  text: "アルケミストンの帽子"
+  link: /drops/arukemisutonnobousi
 ---
 
 # あらくれマスク

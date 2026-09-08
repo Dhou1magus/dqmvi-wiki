@@ -2,6 +2,12 @@
 title: うるわしキノコ
 description: DQMVIの「うるわしキノコ」を落とすモンスター19体の一覧。いちばん弱いのはあやしいかげ（通常・EXP44）。
 pageClass: wide-page sortable-list
+prev:
+  text: "うらみのほうじゅ"
+  link: /drops/uraminohouju
+next:
+  text: "おおかなづち"
+  link: /drops/ookanaduti
 ---
 
 # うるわしキノコ

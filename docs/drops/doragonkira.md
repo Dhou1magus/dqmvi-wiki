@@ -2,6 +2,12 @@
 title: ドラゴンキラー
 description: DQMVIの「ドラゴンキラー」を落とすモンスター5体の一覧。いちばん弱いのはエレフローパー（超レア・EXP287）。
 pageClass: wide-page sortable-list
+prev:
+  text: "トゲトゲの牙"
+  link: /drops/togetogenokiba
+next:
+  text: "ドラゴンスレイヤー"
+  link: /drops/doragonsureiya
 ---
 
 # ドラゴンキラー

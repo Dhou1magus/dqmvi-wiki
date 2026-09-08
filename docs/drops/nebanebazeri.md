@@ -2,6 +2,12 @@
 title: ねばねばゼリー
 description: DQMVIの「ねばねばゼリー」を落とすモンスター9体の一覧。いちばん弱いのはリップス（通常・EXP11）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ネコ砂"
+  link: /drops/nekozuna
+next:
+  text: "のろいの岩の槍"
+  link: /drops/noroiiwanoyari
 ---
 
 # ねばねばゼリー

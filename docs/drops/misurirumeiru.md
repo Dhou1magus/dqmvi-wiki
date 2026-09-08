@@ -2,6 +2,12 @@
 title: ミスリルメイル
 description: DQMVIの「ミスリルメイル」を落とすモンスター1体の一覧。いちばん弱いのはじごくのよろい（超レア・EXP442）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ミスリル"
+  link: /drops/misriru
+next:
+  text: "ミスリル合金"
+  link: /drops/misriru2
 ---
 
 # ミスリルメイル

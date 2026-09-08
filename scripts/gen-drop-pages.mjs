@@ -213,6 +213,11 @@ function equipRows(key) {
   return null
 }
 
+/** フロントマターの文字列値を YAML として安全な形にする（gen-monster-pages.mjs と同じ考え方） */
+function yamlStr(s) {
+  return `"${String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`
+}
+
 /** 手を入れた「## 攻略メモ」以下は再生成しても残す（モンスターページと同じ約束） */
 const KEEP_MARK = '## 攻略メモ'
 function writeKeeping(path, body) {
@@ -227,7 +232,8 @@ function writeKeeping(path, body) {
 }
 
 // ── 1アイテムぶんのページ ──────────────────────────────────
-function itemPage(it) {
+// prevIt/nextIt は一覧（五十音順）で隣にあたるアイテム。無ければ端っこ
+function itemPage(it, prevIt, nextIt) {
   const best = it.from[0]
   const bestName = monsterName(best.id)
   const bestExp = num(statById.get(best.id)?.dqExperience)
@@ -238,6 +244,21 @@ function itemPage(it) {
   lines.push(`title: ${it.name}`)
   lines.push(`description: DQMVIの「${it.name}」を落とすモンスター${it.from.length}体の一覧。いちばん弱いのは${bestName}（${TIER_SHORT[best.tier] ?? best.tier}・EXP${bestExp}）。`)
   lines.push('pageClass: wide-page sortable-list')
+  // 前後のページ（一覧＝五十音順）。無い側は false で欄ごと隠す（gen-monster-pages.mjs 冒頭の注記と同じ理由）
+  if (prevIt) {
+    lines.push('prev:')
+    lines.push(`  text: ${yamlStr(prevIt.name)}`)
+    lines.push(`  link: /drops/${prevIt.slug}`)
+  } else {
+    lines.push('prev: false')
+  }
+  if (nextIt) {
+    lines.push('next:')
+    lines.push(`  text: ${yamlStr(nextIt.name)}`)
+    lines.push(`  link: /drops/${nextIt.slug}`)
+  } else {
+    lines.push('next: false')
+  }
   lines.push('---')
   lines.push('')
   lines.push(`# ${it.name}`)
@@ -328,7 +349,10 @@ function indexPage() {
 // ── 書き出し ──────────────────────────────────────────────
 mkdirSync(OUT_DIR, { recursive: true })
 
-for (const it of items) writeKeeping(join(OUT_DIR, `${it.slug}.md`), itemPage(it))
+for (let i = 0; i < items.length; i++) {
+  const it = items[i]
+  writeKeeping(join(OUT_DIR, `${it.slug}.md`), itemPage(it, items[i - 1], items[i + 1]))
+}
 writeFileSync(join(OUT_DIR, 'index.md'), indexPage(), 'utf8')
 
 // 生成側に無いファイル名のページ: 手書きで足された逆引きは title で正式ページに統合する。

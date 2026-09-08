@@ -2,6 +2,12 @@
 title: プラチナシールド
 description: DQMVIの「プラチナシールド」を落とすモンスター4体の一覧。いちばん弱いのはヘルプラネット（超レア・EXP263）。
 pageClass: wide-page sortable-list
+prev:
+  text: "プラチナ"
+  link: /drops/puratina
+next:
+  text: "プラチナ合金"
+  link: /drops/puratina2
 ---
 
 # プラチナシールド

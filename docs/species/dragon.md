@@ -3,6 +3,12 @@ title: ドラゴン系
 description: DQMVIのドラゴン系モンスター52体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
+prev:
+  text: "魔獣系"
+  link: /species/majyu
+next:
+  text: "メタル系"
+  link: /species/metal
 ---
 
 # ドラゴン系

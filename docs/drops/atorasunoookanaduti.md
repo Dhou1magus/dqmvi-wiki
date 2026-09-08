@@ -2,6 +2,10 @@
 title: アトラスの大金槌
 description: DQMVIの「アトラスの大金槌」を落とすモンスター1体の一覧。いちばん弱いのはアトラス（通常・EXP7,650）。
 pageClass: wide-page sortable-list
+prev: false
+next:
+  text: "あまつゆの糸"
+  link: /drops/amatuyunoito
 ---
 
 # アトラスの大金槌

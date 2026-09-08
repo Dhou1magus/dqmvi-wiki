@@ -2,6 +2,12 @@
 title: パパスのつるぎ
 description: DQMVIの「パパスのつるぎ」を落とすモンスター2体の一覧。いちばん弱いのはキラーパンサー（超レア・EXP350）。
 pageClass: wide-page sortable-list
+prev:
+  text: "バトルアックス"
+  link: /drops/sizen
+next:
+  text: "はめつの盾"
+  link: /drops/hametunotate
 ---
 
 # パパスのつるぎ

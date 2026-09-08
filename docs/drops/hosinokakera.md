@@ -2,6 +2,12 @@
 title: ほしのカケラ
 description: DQMVIの「ほしのカケラ」を落とすモンスター4体の一覧。いちばん弱いのはボックススライムオレンジ（通常・EXP160）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ヘビのぬけがら"
+  link: /drops/hebinonukegara
+next:
+  text: "ほしふる腕輪"
+  link: /drops/hosifuru
 ---
 
 # ほしのカケラ

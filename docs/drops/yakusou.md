@@ -2,6 +2,12 @@
 title: 薬草(HP+30)
 description: DQMVIの「薬草(HP+30)」を落とすモンスター10体の一覧。いちばん弱いのはぶちスライム（レア・EXP4）。
 pageClass: wide-page sortable-list
+prev:
+  text: "矢"
+  link: /drops/mc_arrow
+next:
+  text: "溶岩石のかけら"
+  link: /drops/yougansekinokakera
 ---
 
 # 薬草(HP+30)

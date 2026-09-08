@@ -2,6 +2,12 @@
 title: キラートーチのトーチ
 description: DQMVIの「キラートーチのトーチ」を落とすモンスター1体の一覧。いちばん弱いのはキラートーチ（通常・EXP907）。
 pageClass: wide-page sortable-list
+prev:
+  text: "キメラのつばさ"
+  link: /drops/kimeranotubasa
+next:
+  text: "キラーパイクのピッケル"
+  link: /drops/kirapaikunopikeru
 ---
 
 # キラートーチのトーチ

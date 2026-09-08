@@ -2,6 +2,12 @@
 title: ミスリル合金
 description: DQMVIの「ミスリル合金」を落とすモンスター17体の一覧。いちばん弱いのはキングレオⅢ（通常・EXP774）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ミスリルメイル"
+  link: /drops/misurirumeiru
+next:
+  text: "みどりコケ"
+  link: /drops/midorinokoke
 ---
 
 # ミスリル合金

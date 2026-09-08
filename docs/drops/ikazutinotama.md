@@ -2,6 +2,12 @@
 title: いかずちの玉
 description: DQMVIの「いかずちの玉」を落とすモンスター55体の一覧。いちばん弱いのはじめじめバブル（通常・EXP77）。
 pageClass: wide-page sortable-list
+prev:
+  text: "アルケミストンの帽子"
+  link: /drops/arukemisutonnobousi
+next:
+  text: "いのちの石"
+  link: /drops/inotinoisi
 ---
 
 # いかずちの玉

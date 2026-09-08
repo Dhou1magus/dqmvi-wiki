@@ -2,6 +2,12 @@
 title: 名刀 斬鉄丸
 description: DQMVIの「名刀 斬鉄丸」を落とすモンスター1体の一覧。いちばん弱いのはアカツキショウグン（通常・EXP3,463）。
 pageClass: wide-page sortable-list
+prev:
+  text: "万能薬"
+  link: /drops/bannouyaku
+next:
+  text: "矢"
+  link: /drops/mc_arrow
 ---
 
 # 名刀 斬鉄丸

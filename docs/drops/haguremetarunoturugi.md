@@ -2,6 +2,12 @@
 title: はぐれメタルの剣
 description: DQMVIの「はぐれメタルの剣」を落とすモンスター1体の一覧。いちばん弱いのははぐれメタル（超レア・EXP10,500）。
 pageClass: wide-page sortable-list
+prev:
+  text: "はがねの尾羽"
+  link: /drops/haganenoobane
+next:
+  text: "バトルアックス"
+  link: /drops/sizen
 ---
 
 # はぐれメタルの剣

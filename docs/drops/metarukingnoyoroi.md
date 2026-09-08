@@ -2,6 +2,12 @@
 title: メタルキングの鎧
 description: DQMVIの「メタルキングの鎧」を落とすモンスター2体の一覧。いちばん弱いのははぐれメタルキング（超レア・EXP500,000）。
 pageClass: wide-page sortable-list
+prev:
+  text: "メタルオーブ"
+  link: /drops/metaloubu
+next:
+  text: "メタルキングの兜"
+  link: /drops/metarukingnokabuto
 ---
 
 # メタルキングの鎧

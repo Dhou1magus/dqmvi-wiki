@@ -2,6 +2,12 @@
 title: 貴重なレシピ(槍、鞭、爪)
 description: DQMVIの「貴重なレシピ(槍、鞭、爪)」を落とすモンスター2体の一覧。いちばん弱いのはうらぎりこぞう（超レア・EXP567）。
 pageClass: wide-page sortable-list
+prev:
+  text: "貴重なレシピ(剣、短剣)"
+  link: /drops/ken_tanken
+next:
+  text: "貴重なレシピ(天空)"
+  link: /drops/tenkuu
 ---
 
 # 貴重なレシピ(槍、鞭、爪)

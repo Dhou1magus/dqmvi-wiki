@@ -2,6 +2,12 @@
 title: ガマのあぶら
 description: DQMVIの「ガマのあぶら」を落とすモンスター49体の一覧。いちばん弱いのはスライムフェアリー（通常・EXP40）。
 pageClass: wide-page sortable-list
+prev:
+  text: "かがみの石"
+  link: /drops/kagaminoisi
+next:
+  text: "ギガクラッシャー"
+  link: /drops/gigakurassya
 ---
 
 # ガマのあぶら

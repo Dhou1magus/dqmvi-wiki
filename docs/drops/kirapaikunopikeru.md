@@ -2,6 +2,12 @@
 title: キラーパイクのピッケル
 description: DQMVIの「キラーパイクのピッケル」を落とすモンスター1体の一覧。いちばん弱いのはキラーピッケル（通常・EXP2,120）。
 pageClass: wide-page sortable-list
+prev:
+  text: "キラートーチのトーチ"
+  link: /drops/kiratotinototi
+next:
+  text: "キングダイヤ"
+  link: /drops/kingdaiya
 ---
 
 # キラーパイクのピッケル

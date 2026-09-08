@@ -2,6 +2,12 @@
 title: 魔獣イギュアの爪
 description: DQMVIの「魔獣イギュアの爪」を落とすモンスター1体の一覧。いちばん弱いのは魔獣イギュア（通常・EXP31,682）。
 pageClass: wide-page sortable-list
+prev:
+  text: "魔界のつるぎ"
+  link: /drops/makainoturugi
+next:
+  text: "万能薬"
+  link: /drops/bannouyaku
 ---
 
 # 魔獣イギュアの爪

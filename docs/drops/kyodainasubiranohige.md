@@ -2,6 +2,12 @@
 title: 巨大ナスビナーラの髭
 description: DQMVIの「巨大ナスビナーラの髭」を落とすモンスター1体の一覧。いちばん弱いのは巨大ナスビナーラ（通常・EXP879）。
 pageClass: wide-page sortable-list
+prev:
+  text: "貴重なレシピ(魔法)"
+  link: /drops/mahou
+next:
+  text: "巨大な牙"
+  link: /drops/kyodainakiba
 ---
 
 # 巨大ナスビナーラの髭

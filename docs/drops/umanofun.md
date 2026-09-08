@@ -2,6 +2,12 @@
 title: うまのふん
 description: DQMVIの「うまのふん」を落とすモンスター11体の一覧。いちばん弱いのはおおなめくじ（通常・EXP6）。
 pageClass: wide-page sortable-list
+prev:
+  text: "うしのふん"
+  link: /drops/usinofun
+next:
+  text: "うらみのほうじゅ"
+  link: /drops/uraminohouju
 ---
 
 # うまのふん

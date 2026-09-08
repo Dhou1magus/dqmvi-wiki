@@ -2,6 +2,12 @@
 title: 狩人の弓
 description: DQMVIの「狩人の弓」を落とすモンスター1体の一覧。いちばん弱いのはどくやずきん（超レア・EXP85）。
 pageClass: wide-page sortable-list
+prev:
+  text: "守りの種"
+  link: /drops/mamorinotane
+next:
+  text: "呪力のモト"
+  link: /drops/juryokunomoto
 ---
 
 # 狩人の弓

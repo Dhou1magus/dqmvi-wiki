@@ -2,6 +2,12 @@
 title: プラチナ
 description: DQMVIの「プラチナ」を落とすモンスター29体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ピンクボンボンの爪"
+  link: /drops/pinkbonbonnotume
+next:
+  text: "プラチナシールド"
+  link: /drops/puratinasirudo
 ---
 
 # プラチナ

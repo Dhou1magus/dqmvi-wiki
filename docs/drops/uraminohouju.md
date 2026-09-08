@@ -2,6 +2,12 @@
 title: うらみのほうじゅ
 description: DQMVIの「うらみのほうじゅ」を落とすモンスター22体の一覧。いちばん弱いのはまおうのかげ（通常・EXP350）。
 pageClass: wide-page sortable-list
+prev:
+  text: "うまのふん"
+  link: /drops/umanofun
+next:
+  text: "うるわしキノコ"
+  link: /drops/uruwasikinoko
 ---
 
 # うらみのほうじゅ

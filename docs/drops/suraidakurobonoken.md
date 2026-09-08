@@ -2,6 +2,12 @@
 title: スライダークロボの剣
 description: DQMVIの「スライダークロボの剣」を落とすモンスター1体の一覧。いちばん弱いのはスライダークロボ（通常・EXP31,045）。
 pageClass: wide-page sortable-list
+prev:
+  text: "しろバラのきしの兜"
+  link: /drops/sirobaranokisinokabuto
+next:
+  text: "スライムおしゃれ花"
+  link: /drops/suraimuosyarebana
 ---
 
 # スライダークロボの剣

@@ -2,6 +2,12 @@
 title: メタルキングの兜
 description: DQMVIの「メタルキングの兜」を落とすモンスター1体の一覧。いちばん弱いのはダイヤモンドスライム（超レア・EXP80,000）。
 pageClass: wide-page sortable-list
+prev:
+  text: "メタルキングの鎧"
+  link: /drops/metarukingnoyoroi
+next:
+  text: "メタルキングの剣"
+  link: /drops/metarukingnoturugi
 ---
 
 # メタルキングの兜

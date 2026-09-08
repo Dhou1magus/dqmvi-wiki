@@ -2,6 +2,12 @@
 title: トロルバッコスの大棍棒
 description: DQMVIの「トロルバッコスの大棍棒」を落とすモンスター1体の一覧。いちばん弱いのはトロルバッコス（通常・EXP17,869）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ドラゴンのなみだ"
+  link: /drops/doragonnonamida
+next:
+  text: "にくきゅうの杖"
+  link: /drops/nikukyuunotue
 ---
 
 # トロルバッコスの大棍棒

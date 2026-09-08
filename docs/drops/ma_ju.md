@@ -2,6 +2,12 @@
 title: 貴重なレシピ(魔、呪)
 description: DQMVIの「貴重なレシピ(魔、呪)」を落とすモンスター11体の一覧。いちばん弱いのはメタルスター（レア・EXP700,000）。
 pageClass: wide-page sortable-list
+prev:
+  text: "貴重なレシピ(防具)"
+  link: /drops/bougu
+next:
+  text: "貴重なレシピ(魔法)"
+  link: /drops/mahou
 ---
 
 # 貴重なレシピ(魔、呪)

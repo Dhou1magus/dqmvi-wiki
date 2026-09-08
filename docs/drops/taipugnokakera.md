@@ -2,6 +2,12 @@
 title: タイプGの欠片
 description: DQMVIの「タイプGの欠片」を落とすモンスター1体の一覧。いちばん弱いのはタイプG（通常・EXP29,223）。
 pageClass: wide-page sortable-list
+prev:
+  text: "せかいじゅの葉"
+  link: /drops/sekaijunoha
+next:
+  text: "たいようの石"
+  link: /drops/taiyounoisi
 ---
 
 # タイプGの欠片

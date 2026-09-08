@@ -2,6 +2,12 @@
 title: かがみの石
 description: DQMVIの「かがみの石」を落とすモンスター38体の一覧。いちばん弱いのはさそりアーマー（通常・EXP44）。
 pageClass: wide-page sortable-list
+prev:
+  text: "オリハルコン合金"
+  link: /drops/oriharukon2
+next:
+  text: "ガマのあぶら"
+  link: /drops/gamanoabura
 ---
 
 # かがみの石

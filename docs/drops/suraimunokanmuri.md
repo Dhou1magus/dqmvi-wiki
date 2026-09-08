@@ -2,6 +2,12 @@
 title: スライムの冠
 description: DQMVIの「スライムの冠」を落とすモンスター1体の一覧。いちばん弱いのはスライムベホマズン（通常・EXP427）。
 pageClass: wide-page sortable-list
+prev:
+  text: "スライムトレイ"
+  link: /drops/suraimutorei
+next:
+  text: "スライムピアス"
+  link: /drops/suraimupiasu
 ---
 
 # スライムの冠

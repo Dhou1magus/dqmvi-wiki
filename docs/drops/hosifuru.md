@@ -2,6 +2,12 @@
 title: ほしふる腕輪
 description: DQMVIの「ほしふる腕輪」を落とすモンスター1体の一覧。いちばん弱いのはゴッドライダー（超レア・EXP876）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ほしのカケラ"
+  link: /drops/hosinokakera
+next:
+  text: "ホネホネ"
+  link: /drops/honehone
 ---
 
 # ほしふる腕輪

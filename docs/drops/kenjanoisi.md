@@ -2,6 +2,12 @@
 title: けんじゃの石
 description: DQMVIの「けんじゃの石」を落とすモンスター9体の一覧。いちばん弱いのはメガザルロック（超レア・EXP340）。
 pageClass: wide-page sortable-list
+prev:
+  text: "げんこつダケ"
+  link: /drops/dqm_genkotu_block
+next:
+  text: "こうもりの羽根"
+  link: /drops/koumorinohane
 ---
 
 # けんじゃの石

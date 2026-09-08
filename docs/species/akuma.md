@@ -3,6 +3,12 @@ title: 悪魔系
 description: DQMVIの悪魔系モンスター77体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
+prev:
+  text: "スライム系"
+  link: /species/slime
+next:
+  text: "ゾンビ系"
+  link: /species/zombie
 ---
 
 # 悪魔系

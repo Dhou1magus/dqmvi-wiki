@@ -2,6 +2,12 @@
 title: ネコ砂
 description: DQMVIの「ネコ砂」を落とすモンスター8体の一覧。いちばん弱いのはドロザラー（通常・EXP6）。
 pageClass: wide-page sortable-list
+prev:
+  text: "にじいろの布きれ"
+  link: /drops/nijiirononunokire
+next:
+  text: "ねばねばゼリー"
+  link: /drops/nebanebazeri
 ---
 
 # ネコ砂

@@ -2,6 +2,12 @@
 title: スライムヘッド
 description: DQMVIの「スライムヘッド」を落とすモンスター2体の一覧。いちばん弱いのはぶちスライム（超レア・EXP4）。
 pageClass: wide-page sortable-list
+prev:
+  text: "スライムピアス"
+  link: /drops/suraimupiasu
+next:
+  text: "スライムボール"
+  link: /drops/mc_slime_ball
 ---
 
 # スライムヘッド

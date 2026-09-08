@@ -2,6 +2,12 @@
 title: りゅうおうもどきの尻尾
 description: DQMVIの「りゅうおうもどきの尻尾」を落とすモンスター1体の一覧。いちばん弱いのはりゅうおうもどき（通常・EXP34,890）。
 pageClass: wide-page sortable-list
+prev:
+  text: "リサイクルストーン"
+  link: /drops/risaikurusuton
+next:
+  text: "リンゴ"
+  link: /drops/mc_apple
 ---
 
 # りゅうおうもどきの尻尾

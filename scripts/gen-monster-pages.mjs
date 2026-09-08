@@ -502,7 +502,8 @@ function speciesGear(name) {
   return n
 }
 // ── 系統のページ ──────────────────────────────────────────
-function speciesPage(name, list) {
+// prevName/nextName は系統一覧（数の多い順）で隣にあたる系統名。無ければ端っこ
+function speciesPage(name, list, prevName, nextName) {
   const slug = SPECIES_SLUG.get(name) ?? name
   const lines = []
   lines.push('---')
@@ -510,6 +511,21 @@ function speciesPage(name, list) {
   lines.push(`description: DQMVIの${name}系モンスター${list.length}体の一覧。弱点・活動時間・ステータスつき。`)
   lines.push('pageClass: wide-page')
   lines.push('aside: false')
+  // 前後のページ（系統一覧＝数の多い順）。無い側は false で欄ごと隠す（gen-monster-pages.mjs 冒頭の注記参照）
+  if (prevName) {
+    lines.push('prev:')
+    lines.push(`  text: ${yamlStr(`${prevName}系`)}`)
+    lines.push(`  link: /species/${SPECIES_SLUG.get(prevName) ?? prevName}`)
+  } else {
+    lines.push('prev: false')
+  }
+  if (nextName) {
+    lines.push('next:')
+    lines.push(`  text: ${yamlStr(`${nextName}系`)}`)
+    lines.push(`  link: /species/${SPECIES_SLUG.get(nextName) ?? nextName}`)
+  } else {
+    lines.push('next: false')
+  }
   lines.push('---')
   lines.push('')
   lines.push(`# ${name}系`)
@@ -608,8 +624,11 @@ mergeHandwrittenPages(MON_DIR, normals.map((m) => [jpName(m.id), m.id]))
   const entries = [...groups.entries()].sort((a, b) => b[1].length - a[1].length)
   if (entries.length) {
     mkdirSync(SPECIES_DIR, { recursive: true })
-    for (const [name, list] of entries) {
-      writeFileSync(join(SPECIES_DIR, `${SPECIES_SLUG.get(name) ?? name}.md`), speciesPage(name, list), 'utf8')
+    for (let i = 0; i < entries.length; i++) {
+      const [name, list] = entries[i]
+      const prevName = entries[i - 1]?.[0]
+      const nextName = entries[i + 1]?.[0]
+      writeFileSync(join(SPECIES_DIR, `${SPECIES_SLUG.get(name) ?? name}.md`), speciesPage(name, list, prevName, nextName), 'utf8')
     }
     writeFileSync(join(SPECIES_DIR, 'index.md'), speciesIndex(entries), 'utf8')
     console.log(`系統:           ${entries.length}種`)

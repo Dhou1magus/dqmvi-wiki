@@ -2,6 +2,12 @@
 title: ショートボウ
 description: DQMVIの「ショートボウ」を落とすモンスター1体の一覧。いちばん弱いのはリリパット（超レア・EXP33）。
 pageClass: wide-page sortable-list
+prev:
+  text: "シールドあにきの盾"
+  link: /drops/sirudoanikinotate
+next:
+  text: "しろバラのきしの兜"
+  link: /drops/sirobaranokisinokabuto
 ---
 
 # ショートボウ

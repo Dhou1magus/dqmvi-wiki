@@ -2,6 +2,12 @@
 title: 金塊
 description: DQMVIの「金塊」を落とすモンスター15体の一覧。いちばん弱いのはゴールデントーテム（通常・EXP105）。
 pageClass: wide-page sortable-list
+prev:
+  text: "金貨"
+  link: /drops/kinka
+next:
+  text: "形見の首飾り"
+  link: /drops/kataminokubikazari
 ---
 
 # 金塊

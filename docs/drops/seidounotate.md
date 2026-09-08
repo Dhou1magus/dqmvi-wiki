@@ -2,6 +2,12 @@
 title: せいどうの盾
 description: DQMVIの「せいどうの盾」を落とすモンスター1体の一覧。いちばん弱いのはシールドこぞう（超レア・EXP51）。
 pageClass: wide-page sortable-list
+prev:
+  text: "せいすい"
+  link: /drops/seisui
+next:
+  text: "せいなるしずく"
+  link: /drops/seinarusizuku
 ---
 
 # せいどうの盾

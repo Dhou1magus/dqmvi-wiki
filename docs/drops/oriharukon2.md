@@ -2,6 +2,12 @@
 title: オリハルコン合金
 description: DQMVIの「オリハルコン合金」を落とすモンスター1体の一覧。いちばん弱いのははぐれメタルキング（通常・EXP500,000）。
 pageClass: wide-page sortable-list
+prev:
+  text: "オリハルコン"
+  link: /drops/oriharukon
+next:
+  text: "かがみの石"
+  link: /drops/kagaminoisi
 ---
 
 # オリハルコン合金

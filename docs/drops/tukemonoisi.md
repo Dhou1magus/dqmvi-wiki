@@ -2,6 +2,12 @@
 title: つけもの石
 description: DQMVIの「つけもの石」を落とすモンスター13体の一覧。いちばん弱いのはおおがらす（通常・EXP7）。
 pageClass: wide-page sortable-list
+prev:
+  text: "チョコヌーバの指輪"
+  link: /drops/tyokonubanoyubiwa
+next:
+  text: "つむりんママの貝殻"
+  link: /drops/tumurinmama
 ---
 
 # つけもの石

@@ -2,6 +2,12 @@
 title: 磨き砂
 description: DQMVIの「磨き砂」を落とすモンスター6体の一覧。いちばん弱いのはうずしおキング（レア・EXP94）。
 pageClass: wide-page sortable-list
+prev:
+  text: "風切りの弓"
+  link: /drops/kazekirinoyumi
+next:
+  text: "魔界のつるぎ"
+  link: /drops/makainoturugi
 ---
 
 # 磨き砂

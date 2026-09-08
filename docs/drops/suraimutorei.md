@@ -2,6 +2,12 @@
 title: スライムトレイ
 description: DQMVIの「スライムトレイ」を落とすモンスター1体の一覧。いちばん弱いのはスライムベス（超レア・EXP2）。
 pageClass: wide-page sortable-list
+prev:
+  text: "スライムゼリー"
+  link: /drops/suraimuzeri
+next:
+  text: "スライムの冠"
+  link: /drops/suraimunokanmuri
 ---
 
 # スライムトレイ

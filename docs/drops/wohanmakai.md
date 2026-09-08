@@ -2,6 +2,12 @@
 title: ウォーハンマー改
 description: DQMVIの「ウォーハンマー改」を落とすモンスター2体の一覧。いちばん弱いのはビッグハンマー（超レア・EXP248）。
 pageClass: wide-page sortable-list
+prev:
+  text: "いのちの石"
+  link: /drops/inotinoisi
+next:
+  text: "うさぎのしっぽ"
+  link: /drops/usaginosippo
 ---
 
 # ウォーハンマー改

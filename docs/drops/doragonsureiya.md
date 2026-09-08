@@ -2,6 +2,12 @@
 title: ドラゴンスレイヤー
 description: DQMVIの「ドラゴンスレイヤー」を落とすモンスター1体の一覧。いちばん弱いのはシルバーマント（超レア・EXP709）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ドラゴンキラー"
+  link: /drops/doragonkira
+next:
+  text: "ドラゴンのなみだ"
+  link: /drops/doragonnonamida
 ---
 
 # ドラゴンスレイヤー

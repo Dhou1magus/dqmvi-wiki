@@ -2,6 +2,12 @@
 title: まりょくの土
 description: DQMVIの「まりょくの土」を落とすモンスター36体の一覧。いちばん弱いのはホイミスライム（通常・EXP30）。
 pageClass: wide-page sortable-list
+prev:
+  text: "まだらクモ糸"
+  link: /drops/madarakumonoito
+next:
+  text: "ミスリル"
+  link: /drops/misriru
 ---
 
 # まりょくの土

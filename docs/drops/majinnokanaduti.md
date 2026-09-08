@@ -2,6 +2,12 @@
 title: まじんのかなづち
 description: DQMVIの「まじんのかなづち」を落とすモンスター4体の一覧。いちばん弱いのはプオーン（超レア・EXP261）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ましょうぐものエキス"
+  link: /drops/masyougumonoekisu
+next:
+  text: "まだらクモ糸"
+  link: /drops/madarakumonoito
 ---
 
 # まじんのかなづち

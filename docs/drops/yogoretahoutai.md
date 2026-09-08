@@ -2,6 +2,12 @@
 title: よごれた包帯
 description: DQMVIの「よごれた包帯」を落とすモンスター27体の一覧。いちばん弱いのはリリパット（通常・EXP33）。
 pageClass: wide-page sortable-list
+prev:
+  text: "やわらかウール"
+  link: /drops/yawarakauru
+next:
+  text: "よるのとばり"
+  link: /drops/yorunotobari
 ---
 
 # よごれた包帯

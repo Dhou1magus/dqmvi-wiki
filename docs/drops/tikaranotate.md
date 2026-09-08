@@ -2,6 +2,12 @@
 title: ちからの盾
 description: DQMVIの「ちからの盾」を落とすモンスター2体の一覧。いちばん弱いのはダークホビット（超レア・EXP678）。
 pageClass: wide-page sortable-list
+prev:
+  text: "ちいさなメダル"
+  link: /drops/littlemedal
+next:
+  text: "ちょうの羽"
+  link: /drops/tyounohane
 ---
 
 # ちからの盾

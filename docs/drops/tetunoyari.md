@@ -2,6 +2,12 @@
 title: 鉄のヤリ
 description: DQMVIの「鉄のヤリ」を落とすモンスター4体の一覧。いちばん弱いのはベビーサタン（超レア・EXP38）。
 pageClass: wide-page sortable-list
+prev:
+  text: "超怒りのタトゥー"
+  link: /drops/ikarinotatu2
+next:
+  text: "鉄鉱石"
+  link: /drops/tekkouseki
 ---
 
 # 鉄のヤリ

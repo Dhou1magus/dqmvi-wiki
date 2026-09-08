@@ -2,6 +2,12 @@
 title: はめつの盾
 description: DQMVIの「はめつの盾」を落とすモンスター1体の一覧。いちばん弱いのはがいこつけんし（超レア・EXP225）。
 pageClass: wide-page sortable-list
+prev:
+  text: "パパスのつるぎ"
+  link: /drops/papasunoturugi
+next:
+  text: "ピサロナイトの鎧"
+  link: /drops/pisaronaitonoyoroi
 ---
 
 # はめつの盾

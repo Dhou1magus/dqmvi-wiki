@@ -2,6 +2,12 @@
 title: 光の石
 description: DQMVIの「光の石」を落とすモンスター11体の一覧。いちばん弱いのはゴールデンスライム（通常・EXP300）。
 pageClass: wide-page sortable-list
+prev:
+  text: "幻魔石"
+  link: /drops/genmaseki
+next:
+  text: "鋼の鎧"
+  link: /drops/haganenoyoroi
 ---
 
 # 光の石

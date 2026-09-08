@@ -2,6 +2,12 @@
 title: あまつゆの糸
 description: DQMVIの「あまつゆの糸」を落とすモンスター12体の一覧。いちばん弱いのはマクロベータ（通常・EXP453）。
 pageClass: wide-page sortable-list
+prev:
+  text: "アトラスの大金槌"
+  link: /drops/atorasunoookanaduti
+next:
+  text: "あやかし草"
+  link: /drops/ayakasisou
 ---
 
 # あまつゆの糸

@@ -2,6 +2,12 @@
 title: 氷鳥のはね
 description: DQMVIの「氷鳥のはね」を落とすモンスター17体の一覧。いちばん弱いのはフロストギズモ1（通常・EXP83）。
 pageClass: wide-page sortable-list
+prev:
+  text: "皮のぼうし"
+  link: /drops/kawanobousi
+next:
+  text: "武闘エキス"
+  link: /drops/budouekisu
 ---
 
 # 氷鳥のはね

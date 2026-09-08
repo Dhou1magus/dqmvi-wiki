@@ -2,6 +2,12 @@
 title: ミュシャドの毛
 description: DQMVIの「ミュシャドの毛」を落とすモンスター1体の一覧。いちばん弱いのはミュシャド（通常・EXP38,259）。
 pageClass: wide-page sortable-list
+prev:
+  text: "みどりコケ"
+  link: /drops/midorinokoke
+next:
+  text: "ムーンキメラの羽"
+  link: /drops/moonkimeranohane
 ---
 
 # ミュシャドの毛

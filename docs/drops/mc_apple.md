@@ -2,6 +2,12 @@
 title: リンゴ
 description: DQMVIの「リンゴ」を落とすモンスター1体の一覧。いちばん弱いのはエビルアップル（通常・EXP12）。
 pageClass: wide-page sortable-list
+prev:
+  text: "りゅうおうもどきの尻尾"
+  link: /drops/ryuuoumodokinosippo
+next:
+  text: "りんねの盾"
+  link: /drops/rinnenotate
 ---
 
 # リンゴ

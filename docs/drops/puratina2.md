@@ -2,6 +2,12 @@
 title: プラチナ合金
 description: DQMVIの「プラチナ合金」を落とすモンスター26体の一覧。いちばん弱いのはソードファントム（通常・EXP409）。
 pageClass: wide-page sortable-list
+prev:
+  text: "プラチナシールド"
+  link: /drops/puratinasirudo
+next:
+  text: "フレアドラゴンのうろこ"
+  link: /drops/fureadoragonnouroko
 ---
 
 # プラチナ合金

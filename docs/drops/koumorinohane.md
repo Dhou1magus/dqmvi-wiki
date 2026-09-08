@@ -2,6 +2,12 @@
 title: こうもりの羽根
 description: DQMVIの「こうもりの羽根」を落とすモンスター7体の一覧。いちばん弱いのはナイトウイプス（通常・EXP9）。
 pageClass: wide-page sortable-list
+prev:
+  text: "けんじゃの石"
+  link: /drops/kenjanoisi
+next:
+  text: "ゴードンヘッドの小手"
+  link: /drops/godonheddonokote
 ---
 
 # こうもりの羽根

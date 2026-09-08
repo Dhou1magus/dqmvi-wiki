@@ -2,6 +2,12 @@
 title: どくどくヘドロ
 description: DQMVIの「どくどくヘドロ」を落とすモンスター16体の一覧。いちばん弱いのはひとくいが（通常・EXP41）。
 pageClass: wide-page sortable-list
+prev:
+  text: "どくがの粉"
+  link: /drops/dokuganokona
+next:
+  text: "とげこんぼうの棍棒"
+  link: /drops/togekonbounokonbou
 ---
 
 # どくどくヘドロ
