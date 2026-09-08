@@ -2,7 +2,12 @@
  * モンスター図鑑（frontmatter の pageClass に monster-dex があるページ）の表の上に、
  * 絞り込みボタンを出す。
  *
- *   ランク1 … ランク7 ／ スライム … 特殊（系統）／ 雑魚・転生・ボス・コインボス ／ すべて
+ *   ランク1 … ランク7
+ *   スライム … 特殊（系統）
+ *   雑魚・転生・ボス・コインボス ＋ すべて
+ *
+ * 組（span.grp）ごとに1行に並べるのは custom.css の `.grp:not(:last-of-type) { flex-basis: 100% }`。
+ * 組を足すときはこの並び順で append すれば、その組も新しい行になる。
  *
  * ランクの列と系統の列は表にある。種類は scripts/data/monster-kinds.json（config.mts が
  * themeConfig.monsterKinds に載せる）で決め、そこに無いものが「雑魚」。
