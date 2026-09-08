@@ -1,17 +1,19 @@
 ---
 title: 特殊一覧
-description: DQMVIの特殊89種の一覧。鍵・袋・職業の証・チケットなど。
+description: DQMVIの特殊91種の一覧。配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。
 pageClass: wide-page sortable-list
 ---
 
 # 特殊一覧
 
-鍵・袋・職業の証・チケットなど。全部で **89種** です。品名を押すとそのアイテムのページが開きます。
+配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。全部で **91種** です。品名を押すとそのアイテムのページが開きます。
 
 入手方法が「モンスター」の品は、品名を押すと落とすモンスターの一覧が開きます。
 
 | 特殊 | 入手方法 |
 | --- | --- |
+| [配合の杖](/items/haigou) | — |
+| [転生の杖](/items/haigou2) | — |
 | [盗賊の鍵](/items/touzokunokagi) | — |
 | [魔法の鍵](/items/mahounokagi) | — |
 | [最後の鍵](/items/saigonokagi) | — |
@@ -104,6 +106,7 @@ pageClass: wide-page sortable-list
 
 ## 関連ページ
 
+- [ペットと配合](/play/pets)
 - [アイテムの使い方](/play/items)
 - [ドロップ品から探す](/drops/)
 - [アイテム一覧](/items/)
