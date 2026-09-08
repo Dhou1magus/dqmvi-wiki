@@ -135,8 +135,7 @@ const cats = computed(() => [
     title: 'ダンジョン・施設',
     items: [
       { t: 'ダンジョン一覧' }, { t: '村・町一覧' },
-      { t: '拠点づくりとお店', link: '/play/facilities' },
-      { t: 'マジックツールダンジョン', link: '/play/facilities' }
+      { t: '拠点づくりとお店', link: '/play/facilities' }
     ]
   },
   {
