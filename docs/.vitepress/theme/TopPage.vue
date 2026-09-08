@@ -32,7 +32,7 @@ const ICONS = {
 
 /** よく使う8つ。押しやすい大きさで一番上に置く。件数は出さない（2026-09-03 よっしー指示） */
 const primary = [
-  { icon: 'book', t: 'モンスター図鑑', d: 'ランク・弱点・ドロップ・画像', link: '/monsters/' },
+  { icon: 'book', t: 'モンスター図鑑', d: 'ステータス・弱点・ドロップなど', link: '/monsters/' },
   { icon: 'box', t: 'ドロップ品から探す', d: 'あの素材を落とすのは誰か', link: '/drops/' },
   { icon: 'sword', t: '武器・防具', d: '攻撃力・倍率・特殊効果', link: '/items/' },
   { icon: 'person', t: '職業', d: '伸びる能力・覚える技・必殺技', link: '/jobs/' },
