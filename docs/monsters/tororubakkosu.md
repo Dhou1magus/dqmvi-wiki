@@ -1,6 +1,12 @@
 ---
 title: トロルバッコス
 description: DQMVIのモンスター「トロルバッコス」のステータス。HP14,316 / こうげき512 / しゅび234 / 経験値17,869 / 3,574G。
+prev:
+  text: "ゴールドマント"
+  link: /monsters/goldmanto
+next:
+  text: "聖銀のどくろあらい"
+  link: /monsters/seigin
 ---
 
 # トロルバッコス

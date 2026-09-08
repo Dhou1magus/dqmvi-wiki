@@ -1,6 +1,12 @@
 ---
 title: メタルクラッシャー
 description: DQMVIのモンスター「メタルクラッシャー」のステータス。HP555 / こうげき145 / しゅび140 / 経験値311 / 60G。
+prev:
+  text: "ベルザブル"
+  link: /monsters/berusaburu
+next:
+  text: "ギガデーモン"
+  link: /monsters/gugademon
 ---
 
 # メタルクラッシャー

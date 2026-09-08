@@ -1,6 +1,12 @@
 ---
 title: シャイニング
 description: DQMVIのモンスター「シャイニング」のステータス。HP105 / こうげき50 / しゅび31 / 経験値96 / 21G。
+prev:
+  text: "じめじめバブル"
+  link: /monsters/dankbubbleslime
+next:
+  text: "もりもりベス"
+  link: /monsters/beshemothslime
 ---
 
 # シャイニング

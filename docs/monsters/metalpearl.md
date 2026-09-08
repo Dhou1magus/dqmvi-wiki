@@ -1,6 +1,12 @@
 ---
 title: メタルパール
 description: DQMVIのモンスター「メタルパール」のステータス。HP8 / こうげき21 / しゅび10,000 / 経験値4,500 / 56G。
+prev:
+  text: "巨大ナスビナーラ"
+  link: /monsters/kyodainasubira
+next:
+  text: "メタルブラザーズ"
+  link: /monsters/metaruburazazu
 ---
 
 # メタルパール

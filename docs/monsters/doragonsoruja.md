@@ -1,6 +1,12 @@
 ---
 title: ドラゴンソルジャー
 description: DQMVIのモンスター「ドラゴンソルジャー」のステータス。HP1,980 / こうげき364 / しゅび194 / 経験値681 / 136G。
+prev:
+  text: "トロルボンバー"
+  link: /monsters/tororubonba
+next:
+  text: "うらぎりこぞう"
+  link: /monsters/uragirikozou
 ---
 
 # ドラゴンソルジャー

@@ -1,6 +1,12 @@
 ---
 title: ダーククリスタル
 description: DQMVIのモンスター「ダーククリスタル」のステータス。HP1,258 / こうげき190 / しゅび160 / 経験値451 / 82G。
+prev:
+  text: "ロイヤルミミック"
+  link: /monsters/tansu_royal
+next:
+  text: "キングミミック"
+  link: /monsters/kingumimikku
 ---
 
 # ダーククリスタル

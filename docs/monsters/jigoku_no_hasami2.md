@@ -1,6 +1,12 @@
 ---
 title: じごくのハサミ
 description: DQMVIのモンスター「じごくのハサミ」のステータス。HP60 / こうげき33 / しゅび22 / 経験値60 / 15G。
+prev:
+  text: "どくイモムシ"
+  link: /monsters/poison_caterpillar
+next:
+  text: "マーマン"
+  link: /monsters/merman
 ---
 
 # じごくのハサミ

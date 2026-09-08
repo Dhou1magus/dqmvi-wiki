@@ -1,6 +1,12 @@
 ---
 title: ぐんたいガニ
 description: DQMVIのモンスター「ぐんたいガニ」のステータス。HP50 / こうげき25.92 / しゅび23 / 経験値49 / 10G。
+prev:
+  text: "キメラ"
+  link: /monsters/kimera
+next:
+  text: "シールドこぞう"
+  link: /monsters/sirudokozou
 ---
 
 # ぐんたいガニ

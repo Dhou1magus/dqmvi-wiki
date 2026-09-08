@@ -1,6 +1,12 @@
 ---
 title: スライダークロボ
 description: DQMVIのモンスター「スライダークロボ」のステータス。HP29,252 / こうげき1,101 / しゅび314 / 経験値31,045 / 6,909G。
+prev:
+  text: "魔獣イギュア"
+  link: /monsters/majuuigyua
+next:
+  text: "メタルセラフィム"
+  link: /monsters/metal_seraphim
 ---
 
 # スライダークロボ

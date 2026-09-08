@@ -1,6 +1,12 @@
 ---
 title: アークデーモン
 description: DQMVIのモンスター「アークデーモン」のステータス。HP195 / こうげき80 / しゅび77 / 経験値180 / 35G。
+prev:
+  text: "デュラハーン"
+  link: /monsters/durahan
+next:
+  text: "メーダクイン"
+  link: /monsters/medakuin
 ---
 
 # アークデーモン

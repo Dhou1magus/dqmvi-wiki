@@ -1,6 +1,12 @@
 ---
 title: スピニー
 description: DQMVIのモンスター「スピニー」のステータス。HP72 / こうげき44 / しゅび32 / 経験値75 / 15G。
+prev:
+  text: "わらいぶくろ"
+  link: /monsters/waraibukuro
+next:
+  text: "げんじゅつし"
+  link: /monsters/genjutusi
 ---
 
 # スピニー

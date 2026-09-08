@@ -1,6 +1,12 @@
 ---
 title: かえんムカデ
 description: DQMVIのモンスター「かえんムカデ」のステータス。HP110 / こうげき64 / しゅび45 / 経験値95 / 22G。
+prev:
+  text: "まどうし"
+  link: /monsters/madoushi
+next:
+  text: "ガニラス"
+  link: /monsters/ganiras2
 ---
 
 # かえんムカデ

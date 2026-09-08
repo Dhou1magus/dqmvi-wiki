@@ -1,6 +1,12 @@
 ---
 title: 石炭つむり
 description: DQMVIのモンスター「石炭つむり」のステータス。HP150 / こうげき71 / しゅび38 / 経験値110 / 26G。
+prev:
+  text: "ラリホービートル"
+  link: /monsters/bedbug
+next:
+  text: "グリゴンダンス"
+  link: /monsters/gurigondansu
 ---
 
 # 石炭つむり

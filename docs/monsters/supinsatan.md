@@ -1,6 +1,12 @@
 ---
 title: スピンサタン
 description: DQMVIのモンスター「スピンサタン」のステータス。HP169 / こうげき76 / しゅび70 / 経験値151 / 28G。
+prev:
+  text: "ピンキーマッシュ"
+  link: /monsters/pinkymash
+next:
+  text: "コロネホワイト"
+  link: /monsters/pastypastry
 ---
 
 # スピンサタン

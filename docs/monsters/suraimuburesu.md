@@ -1,6 +1,12 @@
 ---
 title: スライムブレス
 description: DQMVIのモンスター「スライムブレス」のステータス。HP180 / こうげき83.07 / しゅび76 / 経験値160 / 32G。
+prev:
+  text: "メイジドラキー"
+  link: /monsters/meijidoraki
+next:
+  text: "ヘルゴースト"
+  link: /monsters/herughost
 ---
 
 # スライムブレス

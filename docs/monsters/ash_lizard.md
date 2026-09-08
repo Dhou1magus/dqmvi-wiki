@@ -1,6 +1,12 @@
 ---
 title: アッシュリザード
 description: DQMVIのモンスター「アッシュリザード」のステータス。HP1,449 / こうげき228 / しゅび168 / 経験値457 / 86G。
+prev:
+  text: "ジェントルダンス"
+  link: /monsters/zyentorudansu
+next:
+  text: "スラキャンサー"
+  link: /monsters/slimecanser
 ---
 
 # アッシュリザード

@@ -1,6 +1,12 @@
 ---
 title: デスクローゼット
 description: DQMVIのモンスター「デスクローゼット」のステータス。HP517 / こうげき133 / しゅび118 / 経験値288 / 58G。
+prev:
+  text: "キラースター"
+  link: /monsters/killer_star
+next:
+  text: "スライムエネルゴン"
+  link: /monsters/slimeenergon
 ---
 
 # デスクローゼット

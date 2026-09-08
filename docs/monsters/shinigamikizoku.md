@@ -1,6 +1,12 @@
 ---
 title: しにがみきぞく
 description: DQMVIのモンスター「しにがみきぞく」のステータス。HP182 / こうげき75 / しゅび47 / 経験値143 / 30G。
+prev:
+  text: "がいこつけんし"
+  link: /monsters/gaikotsukenshi2
+next:
+  text: "カパーラナーガ"
+  link: /monsters/kaparanaga
 ---
 
 # しにがみきぞく

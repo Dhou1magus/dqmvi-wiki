@@ -1,6 +1,12 @@
 ---
 title: キラースコップ
 description: DQMVIのモンスター「キラースコップ」のステータス。HP87 / こうげき52 / しゅび40 / 経験値91 / 18G。
+prev:
+  text: "ダックスビル"
+  link: /monsters/ducksbill
+next:
+  text: "バブリン"
+  link: /monsters/baburin
 ---
 
 # キラースコップ

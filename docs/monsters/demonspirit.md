@@ -1,6 +1,12 @@
 ---
 title: デーモンスピリット
 description: DQMVIのモンスター「デーモンスピリット」のステータス。HP523 / こうげき130 / しゅび104 / 経験値285 / 57G。
+prev:
+  text: "アラウネ"
+  link: /monsters/alraune
+next:
+  text: "クイーンマチルダ"
+  link: /monsters/kuinmatiruda
 ---
 
 # デーモンスピリット

@@ -1,6 +1,12 @@
 ---
 title: ホタテワラビー
 description: DQMVIのモンスター「ホタテワラビー」のステータス。HP880 / こうげき141 / しゅび120 / 経験値314 / 63G。
+prev:
+  text: "ボストロール"
+  link: /monsters/bosutororu
+next:
+  text: "ケムンクルス"
+  link: /monsters/kemunkurusu
 ---
 
 # ホタテワラビー

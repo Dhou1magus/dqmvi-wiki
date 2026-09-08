@@ -1,6 +1,12 @@
 ---
 title: つぼ
 description: DQMVIのモンスター「つぼ」のステータス。HP55 / こうげき30.96 / しゅび20 / 経験値51 / 10G。
+prev:
+  text: "ひとくいサーベル"
+  link: /monsters/hitokuisaberu
+next:
+  text: "ひとくい木箱"
+  link: /monsters/hitokuikibako
 ---
 
 # つぼ

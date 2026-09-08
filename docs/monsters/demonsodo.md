@@ -1,6 +1,12 @@
 ---
 title: デーモンソード
 description: DQMVIのモンスター「デーモンソード」のステータス。HP2,222 / こうげき385 / しゅび207 / 経験値867 / 173G。
+prev:
+  text: "ソードイド"
+  link: /monsters/sozoido
+next:
+  text: "コキュードス"
+  link: /monsters/cocytus
 ---
 
 # デーモンソード

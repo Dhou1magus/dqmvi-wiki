@@ -1,6 +1,12 @@
 ---
 title: まかいファイター
 description: DQMVIのモンスター「まかいファイター」のステータス。HP555 / こうげき167 / しゅび108 / 経験値304 / 57G。
+prev:
+  text: "スターデビル"
+  link: /monsters/sutaadebiru
+next:
+  text: "プオーン"
+  link: /monsters/puohn
 ---
 
 # まかいファイター

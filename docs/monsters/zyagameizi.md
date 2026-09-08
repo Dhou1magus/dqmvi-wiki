@@ -1,6 +1,12 @@
 ---
 title: ジャガーメイジ
 description: DQMVIのモンスター「ジャガーメイジ」のステータス。HP66 / こうげき15 / しゅび14 / 経験値62 / 14G。
+prev:
+  text: "バベルボブル"
+  link: /monsters/baberuboburu
+next:
+  text: "デスマドモアゼル"
+  link: /monsters/desumadomoazeru
 ---
 
 # ジャガーメイジ

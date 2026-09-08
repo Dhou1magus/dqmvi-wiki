@@ -1,6 +1,12 @@
 ---
 title: スカルガルー
 description: DQMVIのモンスター「スカルガルー」のステータス。HP364 / こうげき114.4 / しゅび105 / 経験値230 / 46G。
+prev:
+  text: "フレイム"
+  link: /monsters/fureimu
+next:
+  text: "デッドペッカー"
+  link: /monsters/deddopekka
 ---
 
 # スカルガルー

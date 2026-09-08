@@ -1,6 +1,12 @@
 ---
 title: レッドアーチャー
 description: DQMVIのモンスター「レッドアーチャー」のステータス。HP1,047 / こうげき111 / しゅび69 / 経験値1,871 / 374G。
+prev:
+  text: "サボテンゴールド"
+  link: /monsters/sabotengold
+next:
+  text: "呪いの岩"
+  link: /monsters/noroinoiwa
 ---
 
 # レッドアーチャー

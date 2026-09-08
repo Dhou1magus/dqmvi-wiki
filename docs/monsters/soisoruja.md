@@ -1,6 +1,12 @@
 ---
 title: ソイソルジャー
 description: DQMVIのモンスター「ソイソルジャー」のステータス。HP88 / こうげき60 / しゅび42 / 経験値92 / 20G。
+prev:
+  text: "マヒャドフライ"
+  link: /monsters/mahyadofurai
+next:
+  text: "おにこんぼう"
+  link: /monsters/onikonbou
 ---
 
 # ソイソルジャー

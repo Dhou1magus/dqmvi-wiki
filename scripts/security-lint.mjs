@@ -125,21 +125,37 @@ for (const file of allFiles.filter((f) => f.endsWith('.md'))) {
   const raw = readFileSync(file, 'utf8')
 
   // 1-a) frontmatter（先頭の --- で囲まれた部分）に許可外の項目がないか
+  //      prev:/next: の直下だけ、VitePress標準の書式である text/link のネストを許可する
+  //      （インデントされていない行に来たら、ネストの親はリセットする）
   const fm = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/)
   if (fm) {
     const fmStart = 2 // 1行目は ---
+    let nestParent = null
     fm[1].split('\n').forEach((line, i) => {
-      const m = line.match(/^\s*["']?([A-Za-z_][\w-]*)["']?\s*:/)
-      if (!m || ALLOWED_FRONTMATTER.has(m[1])) return
-      problems.push({
-        file: relative('.', file),
-        line: fmStart + i,
-        msg:
-          m[1] === 'head'
-            ? 'frontmatter の head は使えません（ページに任意のタグを差し込めてしまうため）'
-            : `frontmatter に使えない項目です: ${m[1]}`,
-        text: line.trim().slice(0, 90)
-      })
+      if (!line.trim()) return
+      const indented = /^[ \t]/.test(line)
+      if (!indented) nestParent = null
+
+      const m = line.match(/^\s*["']?([A-Za-z_][\w-]*)["']?\s*:(.*)$/)
+      if (!m) return
+      const [, key, rest] = m
+
+      if (indented && (nestParent === 'prev' || nestParent === 'next') && (key === 'text' || key === 'link')) return
+
+      if (!ALLOWED_FRONTMATTER.has(key)) {
+        problems.push({
+          file: relative('.', file),
+          line: fmStart + i,
+          msg:
+            key === 'head'
+              ? 'frontmatter の head は使えません（ページに任意のタグを差し込めてしまうため）'
+              : `frontmatter に使えない項目です: ${key}`,
+          text: line.trim().slice(0, 90)
+        })
+        return
+      }
+      // 値を持たない（＝この下に入れ子が続く）トップレベルの prev:/next: だけ、次の行の親として覚える
+      if (!indented && (key === 'prev' || key === 'next') && !rest.trim()) nestParent = key
     })
   }
 

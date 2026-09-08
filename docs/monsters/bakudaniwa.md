@@ -1,6 +1,12 @@
 ---
 title: ばくだんいわ
 description: DQMVIのモンスター「ばくだんいわ」のステータス。HP371 / こうげき112.32 / しゅび105 / 経験値229 / 46G。
+prev:
+  text: "がいこつけんし"
+  link: /monsters/gaikotukensi
+next:
+  text: "フレイム"
+  link: /monsters/fureimu
 ---
 
 # ばくだんいわ

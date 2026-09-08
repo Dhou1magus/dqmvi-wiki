@@ -1,6 +1,12 @@
 ---
 title: スライムつむり
 description: DQMVIのモンスター「スライムつむり」のステータス。HP41 / こうげき21.96 / しゅび23 / 経験値44 / 9G。
+prev:
+  text: "スノーモン"
+  link: /monsters/sunomon
+next:
+  text: "リリパット"
+  link: /monsters/riripat
 ---
 
 # スライムつむり

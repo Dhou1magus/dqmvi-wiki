@@ -1,6 +1,12 @@
 ---
 title: リリパット
 description: DQMVIのモンスター「リリパット」のステータス。HP39 / こうげき21.06 / しゅび12 / 経験値33 / 7G。
+prev:
+  text: "スライムつむり"
+  link: /monsters/suraimutumuri
+next:
+  text: "パペットこぞう"
+  link: /monsters/papetkozou
 ---
 
 # リリパット

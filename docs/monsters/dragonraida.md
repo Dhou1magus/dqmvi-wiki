@@ -1,6 +1,12 @@
 ---
 title: ドラゴンライダー
 description: DQMVIのモンスター「ドラゴンライダー」のステータス。HP1,160 / こうげき205.86 / しゅび145 / 経験値420 / 84G。
+prev:
+  text: "シルバーデビル"
+  link: /monsters/sirubadebiru
+next:
+  text: "ゴールドマン"
+  link: /monsters/goldman
 ---
 
 # ドラゴンライダー

@@ -1,6 +1,12 @@
 ---
 title: りゅうき兵
 description: DQMVIのモンスター「りゅうき兵」のステータス。HP64 / こうげき28 / しゅび17 / 経験値54 / 11G。
+prev:
+  text: "ストーンスライム"
+  link: /monsters/rubbleslime
+next:
+  text: "スピンスライム"
+  link: /monsters/spinslime
 ---
 
 # りゅうき兵

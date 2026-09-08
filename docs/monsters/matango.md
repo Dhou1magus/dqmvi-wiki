@@ -1,6 +1,12 @@
 ---
 title: マタンゴ
 description: DQMVIのモンスター「マタンゴ」のステータス。HP90 / こうげき52 / しゅび40 / 経験値91 / 18G。
+prev:
+  text: "おおくちばし"
+  link: /monsters/ookutibasi
+next:
+  text: "トンブレロ"
+  link: /monsters/tonburero
 ---
 
 # マタンゴ

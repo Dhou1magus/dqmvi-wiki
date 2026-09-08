@@ -1,6 +1,12 @@
 ---
 title: ツボック
 description: DQMVIのモンスター「ツボック」のステータス。HP430 / こうげき130 / しゅび120 / 経験値264 / 53G。
+prev:
+  text: "スマイルロック"
+  link: /monsters/sumairurokku
+next:
+  text: "ミミック"
+  link: /monsters/mimikku
 ---
 
 # ツボック

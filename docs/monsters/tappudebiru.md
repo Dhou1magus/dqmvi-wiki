@@ -1,6 +1,12 @@
 ---
 title: タップデビル
 description: DQMVIのモンスター「タップデビル」のステータス。HP37 / こうげき22 / しゅび15 / 経験値36 / 7G。
+prev:
+  text: "スライムファング"
+  link: /monsters/wildslime
+next:
+  text: "ストーンスライム"
+  link: /monsters/rubbleslime
 ---
 
 # タップデビル

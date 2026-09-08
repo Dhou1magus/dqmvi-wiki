@@ -1,6 +1,12 @@
 ---
 title: ウパパロン
 description: DQMVIのモンスター「ウパパロン」のステータス。HP45 / こうげき22 / しゅび15 / 経験値41 / 8G。
+prev:
+  text: "マーマン"
+  link: /monsters/merman
+next:
+  text: "くしざしツインズ"
+  link: /monsters/kusizasituinzu
 ---
 
 # ウパパロン

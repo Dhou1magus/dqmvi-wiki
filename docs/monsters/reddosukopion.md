@@ -1,6 +1,12 @@
 ---
 title: レッドスコーピオン
 description: DQMVIのモンスター「レッドスコーピオン」のステータス。HP96 / こうげき50 / しゅび43 / 経験値90 / 20G。
+prev:
+  text: "やみしばり"
+  link: /monsters/yamishibari
+next:
+  text: "スライムカルゴ"
+  link: /monsters/snailslime
 ---
 
 # レッドスコーピオン

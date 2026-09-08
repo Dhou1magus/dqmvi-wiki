@@ -1,6 +1,12 @@
 ---
 title: ミミック木箱
 description: DQMVIのモンスター「ミミック木箱」のステータス。HP198 / こうげき102.24 / しゅび88 / 経験値189 / 38G。
+prev:
+  text: "ぶっちズッキーニャ"
+  link: /monsters/buttizukinya
+next:
+  text: "ガップリン"
+  link: /monsters/gappurin
 ---
 
 # ミミック木箱

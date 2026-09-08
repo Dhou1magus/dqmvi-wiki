@@ -1,6 +1,12 @@
 ---
 title: ダゴン
 description: DQMVIのモンスター「ダゴン」のステータス。HP1,111 / こうげき194 / しゅび147 / 経験値392 / 78G。
+prev:
+  text: "クラーゴン"
+  link: /monsters/kraagon
+next:
+  text: "マーマンダイン"
+  link: /monsters/mermandine
 ---
 
 # ダゴン

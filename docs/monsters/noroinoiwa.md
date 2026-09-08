@@ -1,6 +1,12 @@
 ---
 title: 呪いの岩
 description: DQMVIのモンスター「呪いの岩」のステータス。HP960 / こうげき100 / しゅび72 / 経験値1,733 / 347G。
+prev:
+  text: "レッドアーチャー"
+  link: /monsters/reddoatya
+next:
+  text: "ゲノミー"
+  link: /monsters/genomi
 ---
 
 # 呪いの岩

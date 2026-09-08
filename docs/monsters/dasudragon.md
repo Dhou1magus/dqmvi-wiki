@@ -1,6 +1,12 @@
 ---
 title: ダースドラゴン
 description: DQMVIのモンスター「ダースドラゴン」のステータス。HP1,384 / こうげき211.5 / しゅび142 / 経験値442 / 88G。
+prev:
+  text: "サイクロプス"
+  link: /monsters/saikuropusu
+next:
+  text: "じごくのよろい"
+  link: /monsters/jigokunoyoroi
 ---
 
 # ダースドラゴン

@@ -1,6 +1,12 @@
 ---
 title: スライムベホマズン
 description: DQMVIのモンスター「スライムベホマズン」のステータス。HP1,280 / こうげき200.22 / しゅび146 / 経験値427 / 85G。
+prev:
+  text: "ブラッドソード"
+  link: /monsters/buraddosodo
+next:
+  text: "キースドラゴン"
+  link: /monsters/kisudragon
 ---
 
 # スライムベホマズン

@@ -1,6 +1,12 @@
 ---
 title: ヘルガーディアン
 description: DQMVIのモンスター「ヘルガーディアン」のステータス。HP2,350 / こうげき444 / しゅび270 / 経験値711 / 142G。
+prev:
+  text: "ロイヤルブルーム"
+  link: /monsters/roiyaruburumu
+next:
+  text: "ギーグハンマー"
+  link: /monsters/giguhanma
 ---
 
 # ヘルガーディアン

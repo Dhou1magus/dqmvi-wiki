@@ -1,6 +1,12 @@
 ---
 title: うみうし
 description: DQMVIのモンスター「うみうし」のステータス。HP152 / こうげき71.71 / しゅび60 / 経験値132 / 26G。
+prev:
+  text: "はぐれメタル"
+  link: /monsters/hagumeta
+next:
+  text: "ブチュチュンパ"
+  link: /monsters/buchunpa
 ---
 
 # うみうし

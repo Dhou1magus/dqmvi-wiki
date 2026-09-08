@@ -1,6 +1,12 @@
 ---
 title: モコモコじゅう
 description: DQMVIのモンスター「モコモコじゅう」のステータス。HP148 / こうげき75.26 / しゅび66 / 経験値140 / 28G。
+prev:
+  text: "ブチュチュンパ"
+  link: /monsters/buchunpa
+next:
+  text: "がいこつ"
+  link: /monsters/gaikotu
 ---
 
 # モコモコじゅう

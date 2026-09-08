@@ -1,6 +1,12 @@
 ---
 title: キースドラゴン
 description: DQMVIのモンスター「キースドラゴン」のステータス。HP205 / こうげき102 / しゅび74 / 経験値178 / 36G。
+prev:
+  text: "ドラゴンゾンビ"
+  link: /monsters/dragonzombie
+next:
+  text: "バアラック"
+  link: /monsters/baarakku2
 ---
 
 # キースドラゴン

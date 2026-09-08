@@ -1,6 +1,12 @@
 ---
 title: パペットマン
 description: DQMVIのモンスター「パペットマン」のステータス。HP840 / こうげき180.48 / しゅび132 / 経験値357 / 71G。
+prev:
+  text: "ガニラス"
+  link: /monsters/ganirasu
+next:
+  text: "デスジャッカル"
+  link: /monsters/desujakkaru
 ---
 
 # パペットマン

@@ -1,6 +1,12 @@
 ---
 title: ゴースト
 description: DQMVIのモンスター「ゴースト」のステータス。HP39 / こうげき23.94 / しゅび11 / 経験値35 / 7G。
+prev:
+  text: "ドラキー"
+  link: /monsters/doraki
+next:
+  text: "メラゴースト"
+  link: /monsters/meragosuto
 ---
 
 # ゴースト

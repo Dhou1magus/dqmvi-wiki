@@ -1,6 +1,12 @@
 ---
 title: ぐんたいガニ
 description: DQMVIのモンスター「ぐんたいガニ」のステータス。HP32 / こうげき8 / しゅび8 / 経験値16 / 4G。
+prev:
+  text: "キャタピラー"
+  link: /monsters/caterpillar
+next:
+  text: "ウパソルジャー"
+  link: /monsters/upasoruja
 ---
 
 # ぐんたいガニ

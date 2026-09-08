@@ -1,6 +1,12 @@
 ---
 title: キングレオ
 description: DQMVIのモンスター「キングレオ」のステータス。HP630 / こうげき168.48 / しゅび124 / 経験値320 / 64G。
+prev:
+  text: "じごくのつかい"
+  link: /monsters/jigokunotukai
+next:
+  text: "しにがみのきし"
+  link: /monsters/sinigaminokisi
 ---
 
 # キングレオ

@@ -1,6 +1,12 @@
 ---
 title: ベビーサタン
 description: DQMVIのモンスター「ベビーサタン」のステータス。HP50 / こうげき23.94 / しゅび13 / 経験値38 / 8G。
+prev:
+  text: "ひとくい木箱"
+  link: /monsters/hitokuikibako
+next:
+  text: "おばけうみうし"
+  link: /monsters/obakeumiusi
 ---
 
 # ベビーサタン

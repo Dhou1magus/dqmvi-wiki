@@ -1,6 +1,12 @@
 ---
 title: グレイトドラゴン・雲
 description: DQMVIのモンスター「グレイトドラゴン・雲」のステータス。HP1,789 / こうげき198 / しゅび143 / 経験値3,315 / 663G。
+prev:
+  text: "わんぱくサタン"
+  link: /monsters/wanpakusatan
+next:
+  text: "メタルトリュフ"
+  link: /monsters/metaltruffeslime
 ---
 
 # グレイトドラゴン・雲

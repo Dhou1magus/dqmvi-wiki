@@ -1,6 +1,12 @@
 ---
 title: とげジョボー
 description: DQMVIのモンスター「とげジョボー」のステータス。HP566 / こうげき169 / しゅび109 / 経験値323 / 57G。
+prev:
+  text: "サタンメイル"
+  link: /monsters/satanmeiru
+next:
+  text: "ヘルプラネット"
+  link: /monsters/herupuranetto
 ---
 
 # とげジョボー

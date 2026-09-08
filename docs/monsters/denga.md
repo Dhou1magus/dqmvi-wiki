@@ -1,6 +1,12 @@
 ---
 title: デンガー
 description: DQMVIのモンスター「デンガー」のステータス。HP2,625 / こうげき361.2 / しゅび256 / 経験値791 / 158G。
+prev:
+  text: "パンドラボックス"
+  link: /monsters/pandorabox
+next:
+  text: "ダークトロル"
+  link: /monsters/darktororu
 ---
 
 # デンガー

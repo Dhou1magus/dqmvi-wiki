@@ -1,6 +1,12 @@
 ---
 title: メガザルロック
 description: DQMVIのモンスター「メガザルロック」のステータス。HP896 / こうげき155.1 / しゅび133 / 経験値340 / 68G。
+prev:
+  text: "プヨンターゲット"
+  link: /monsters/puyon
+next:
+  text: "マジカルハット"
+  link: /monsters/majikaruhatto
 ---
 
 # メガザルロック

@@ -1,6 +1,12 @@
 ---
 title: がいこつけんし
 description: DQMVIのモンスター「がいこつけんし」のステータス。HP155 / こうげき77 / しゅび45 / 経験値123 / 25G。
+prev:
+  text: "エビルスピリッツ"
+  link: /monsters/evilspirits
+next:
+  text: "しにがみきぞく"
+  link: /monsters/shinigamikizoku
 ---
 
 # がいこつけんし

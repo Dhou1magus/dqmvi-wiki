@@ -1,6 +1,12 @@
 ---
 title: コロネホワイト
 description: DQMVIのモンスター「コロネホワイト」のステータス。HP193 / こうげき74 / しゅび69 / 経験値148 / 30G。
+prev:
+  text: "スピンサタン"
+  link: /monsters/supinsatan
+next:
+  text: "エビルポット"
+  link: /monsters/malevolamp
 ---
 
 # コロネホワイト

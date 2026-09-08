@@ -1,6 +1,12 @@
 ---
 title: ダンスニードル
 description: DQMVIのモンスター「ダンスニードル」のステータス。HP176 / こうげき75.26 / しゅび72 / 経験値148 / 30G。
+prev:
+  text: "ドラゴン"
+  link: /monsters/dqmdragon
+next:
+  text: "ジェリーマン"
+  link: /monsters/jeriman
 ---
 
 # ダンスニードル

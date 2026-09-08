@@ -1,6 +1,12 @@
 ---
 title: ストーンスライム
 description: DQMVIのモンスター「ストーンスライム」のステータス。HP54 / こうげき28 / しゅび16 / 経験値52 / 10G。
+prev:
+  text: "タップデビル"
+  link: /monsters/tappudebiru
+next:
+  text: "りゅうき兵"
+  link: /monsters/mandrake_mercenary
 ---
 
 # ストーンスライム

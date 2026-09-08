@@ -1,6 +1,12 @@
 ---
 title: さそりアーマー
 description: DQMVIのモンスター「さそりアーマー」のステータス。HP52 / こうげき27 / しゅび18 / 経験値44 / 9G。
+prev:
+  text: "パールスライム"
+  link: /monsters/pearlgel
+next:
+  text: "アクアスライム"
+  link: /monsters/aquaslime
 ---
 
 # さそりアーマー

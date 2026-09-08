@@ -1,6 +1,12 @@
 ---
 title: じごくのざりがに
 description: DQMVIのモンスター「じごくのざりがに」のステータス。HP1,282 / こうげき196 / しゅび155 / 経験値414 / 76G。
+prev:
+  text: "カラミティサン"
+  link: /monsters/karamithisan
+next:
+  text: "エルダースライム"
+  link: /monsters/elderslime
 ---
 
 # じごくのざりがに

@@ -1,6 +1,12 @@
 ---
 title: エビルポット
 description: DQMVIのモンスター「エビルポット」のステータス。HP172 / こうげき71 / しゅび72 / 経験値147 / 34G。
+prev:
+  text: "コロネホワイト"
+  link: /monsters/pastypastry
+next:
+  text: "キョンシーゴースト"
+  link: /monsters/jiangshi_ghost
 ---
 
 # エビルポット

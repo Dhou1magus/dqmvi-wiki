@@ -1,6 +1,12 @@
 ---
 title: マスタースライム
 description: DQMVIのモンスター「マスタースライム」のステータス。HP1,130 / こうげき200 / しゅび145 / 経験値435 / 85G。
+prev:
+  text: "セイレーンゴースト"
+  link: /monsters/seire_ngo_suto
+next:
+  text: "暗黒の使い"
+  link: /monsters/ankokunotsukai
 ---
 
 # マスタースライム

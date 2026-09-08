@@ -1,6 +1,12 @@
 ---
 title: マーズフェイス
 description: DQMVIのモンスター「マーズフェイス」のステータス。HP166 / こうげき33 / しゅび45 / 経験値168 / 28G。
+prev:
+  text: "ボーンプリズナー"
+  link: /monsters/bonpurizuna
+next:
+  text: "モビルヘッド"
+  link: /monsters/mobiruheddo
 ---
 
 # マーズフェイス

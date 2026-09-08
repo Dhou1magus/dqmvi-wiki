@@ -1,6 +1,12 @@
 ---
 title: ファーラット
 description: DQMVIのモンスター「ファーラット」のステータス。HP24 / こうげき9 / しゅび1 / 経験値11 / 2G。
+prev:
+  text: "ライムスライム"
+  link: /monsters/raimusuraimu
+next:
+  text: "ギズモ2"
+  link: /monsters/gizumo
 ---
 
 # ファーラット

@@ -1,6 +1,12 @@
 ---
 title: ヒートギズモ1
 description: DQMVIのモンスター「ヒートギズモ1」のステータス。HP490 / こうげき132.08 / しゅび95 / 経験値248 / 50G。
+prev:
+  text: "ようがんまじん"
+  link: /monsters/youganmajin
+next:
+  text: "ヒートギズモ2"
+  link: /monsters/hiitogizumo
 ---
 
 # ヒートギズモ1

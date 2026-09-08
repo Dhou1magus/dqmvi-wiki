@@ -1,6 +1,12 @@
 ---
 title: うずしおキング
 description: DQMVIのモンスター「うずしおキング」のステータス。HP99 / こうげき56 / しゅび38 / 経験値94 / 19G。
+prev:
+  text: "マペットマン"
+  link: /monsters/mapetman
+next:
+  text: "スライムナイト"
+  link: /monsters/suraimunaito
 ---
 
 # うずしおキング

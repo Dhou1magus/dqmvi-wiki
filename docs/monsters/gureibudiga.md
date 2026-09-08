@@ -1,6 +1,12 @@
 ---
 title: グレイブディガー
 description: DQMVIのモンスター「グレイブディガー」のステータス。HP2,775 / こうげき464.8 / しゅび273 / 経験値914 / 183G。
+prev:
+  text: "キングレオⅢ"
+  link: /monsters/kingreo3
+next:
+  text: "ブラックドラゴン"
+  link: /monsters/blackdoragon
 ---
 
 # グレイブディガー

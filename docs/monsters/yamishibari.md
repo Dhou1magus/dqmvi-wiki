@@ -1,6 +1,12 @@
 ---
 title: やみしばり
 description: DQMVIのモンスター「やみしばり」のステータス。HP82 / こうげき47 / しゅび37 / 経験値93 / 17G。
+prev:
+  text: "スライムダーク"
+  link: /monsters/slime_dark
+next:
+  text: "レッドスコーピオン"
+  link: /monsters/reddosukopion
 ---
 
 # やみしばり

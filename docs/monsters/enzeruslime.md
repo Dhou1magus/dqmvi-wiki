@@ -1,6 +1,12 @@
 ---
 title: エンゼルスライム
 description: DQMVIのモンスター「エンゼルスライム」のステータス。HP343 / こうげき104 / しゅび95 / 経験値210 / 42G。
+prev:
+  text: "ゴールデントーテム"
+  link: /monsters/gorudentotemu
+next:
+  text: "マポレーナ"
+  link: /monsters/maporena
 ---
 
 # エンゼルスライム

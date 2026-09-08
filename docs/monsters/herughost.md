@@ -1,6 +1,12 @@
 ---
 title: ヘルゴースト
 description: DQMVIのモンスター「ヘルゴースト」のステータス。HP174 / こうげき75.26 / しゅび68 / 経験値144 / 29G。
+prev:
+  text: "スライムブレス"
+  link: /monsters/suraimuburesu
+next:
+  text: "スモールグール"
+  link: /monsters/sumoruguru
 ---
 
 # ヘルゴースト

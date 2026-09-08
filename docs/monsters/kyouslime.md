@@ -1,6 +1,12 @@
 ---
 title: 凶スライム
 description: DQMVIのモンスター「凶スライム」のステータス。HP150 / こうげき70 / しゅび38 / 経験値126 / 26G。
+prev:
+  text: "パンドラチェスト"
+  link: /monsters/tansu_pandora
+next:
+  text: "凶スライムベス"
+  link: /monsters/kyouslimebes
 ---
 
 # 凶スライム

@@ -1,6 +1,12 @@
 ---
 title: サイクロプス
 description: DQMVIのモンスター「サイクロプス」のステータス。HP1,488 / こうげき221.37 / しゅび120 / 経験値441 / 88G。
+prev:
+  text: "ゴールドマン"
+  link: /monsters/goldman
+next:
+  text: "ダースドラゴン"
+  link: /monsters/dasudragon
 ---
 
 # サイクロプス

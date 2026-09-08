@@ -1,6 +1,12 @@
 ---
 title: スターキメラ
 description: DQMVIのモンスター「スターキメラ」のステータス。HP1,770 / こうげき324.8 / しゅび196 / 経験値628 / 126G。
+prev:
+  text: "リューイーソー"
+  link: /monsters/ryuiso
+next:
+  text: "キラークラブ"
+  link: /monsters/kirakurabu
 ---
 
 # スターキメラ

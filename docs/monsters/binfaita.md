@@ -1,6 +1,12 @@
 ---
 title: ビーンファイター
 description: DQMVIのモンスター「ビーンファイター」のステータス。HP15 / こうげき4 / しゅび4 / 経験値9 / 1G。
+prev:
+  text: "ポンコツ兵"
+  link: /monsters/ponkotuhei
+next:
+  text: "メーダ"
+  link: /monsters/meda
 ---
 
 # ビーンファイター

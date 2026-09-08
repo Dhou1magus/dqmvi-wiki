@@ -1,6 +1,12 @@
 ---
 title: オベルジーヌ
 description: DQMVIのモンスター「オベルジーヌ」のステータス。HP95 / こうげき48 / しゅび33 / 経験値81 / 16G。
+prev:
+  text: "きとうし"
+  link: /monsters/kitousi
+next:
+  text: "アームライオン"
+  link: /monsters/armraion
 ---
 
 # オベルジーヌ

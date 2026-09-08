@@ -18,8 +18,14 @@
  *   scripts/data/monster-blank.json … 中身を空欄にするモンスター（名前と図鑑No.だけ出す。手で書くファイル）
  *
  * 出すもの:
- *   docs/monsters/<id>.md   一般モンスター
+ *   docs/monsters/<id>.md   一般モンスター（フロントマターに prev/next も入れる。下の注記を参照）
  *   docs/monsters/index.md  一覧（図鑑。「画像」列は /img/monsters/<ID>.png を指し、ビルド時に実物へ差し替わる）
+ *
+ * ★ページ下部の「前のページ・次のページ」は、図鑑ナンバー順（＝normals の並びそのもの。
+ *   ここは元の TSV の並び＝図鑑順で、フィルタ後も順序は保たれる）で前後のページに繋がるよう、
+ *   各ページのフロントマターに prev/next を明示で書く。サイドバーには個別ページを載せていないため、
+ *   何も書かなければ VitePress 標準の「サイドバーの並びで前後を探す」機能が効かず、
+ *   全ページが一律でサイドバー先頭（DQMVIとは）に飛んでしまう（2026-09-08 よっしー報告のバグ）。
  *
  * ★MODのバージョンが上がったら、新しいjarを展開して実行し直すだけでよい。
  *   手でページを書き換えると次の再生成で消える。ただし見出し「## 攻略メモ」より
@@ -210,6 +216,11 @@ const rnum = (v) => {
   return Number.isFinite(n) ? Math.round(n).toLocaleString('en-US') : cell(v)
 }
 
+/** フロントマターの文字列値を YAML として安全な形にする（コロンや角カッコが名前に入っても壊れないように） */
+function yamlStr(s) {
+  return `"${String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`
+}
+
 /** 強さの帯。EXPで分ける（jarに系統データが無いため） */
 const BANDS = [
   { key: 'beginner', name: '序盤', desc: 'EXP 50未満', max: 50 },
@@ -244,7 +255,8 @@ function placesCell(x) {
 }
 
 // ── 1体ぶんのページ ───────────────────────────────────────
-function monsterPage(m) {
+// prevM/nextM は図鑑ナンバー順で隣にあたるモンスター（normals 配列での前後。無ければ端っこ）
+function monsterPage(m, prevM, nextM) {
   const name = jpName(m.id)
   const exp = Number(m.dqExperience) || 0
   const gold = Number(m.dqGold) || 0
@@ -259,6 +271,21 @@ function monsterPage(m) {
   lines.push('---')
   lines.push(`title: ${name}`)
   lines.push(`description: ${desc}`)
+  // 前後のページ（図鑑ナンバー順）。無い側は false で「前のページ／次のページ」欄ごと隠す
+  if (prevM) {
+    lines.push('prev:')
+    lines.push(`  text: ${yamlStr(jpName(prevM.id))}`)
+    lines.push(`  link: /monsters/${prevM.id}`)
+  } else {
+    lines.push('prev: false')
+  }
+  if (nextM) {
+    lines.push('next:')
+    lines.push(`  text: ${yamlStr(jpName(nextM.id))}`)
+    lines.push(`  link: /monsters/${nextM.id}`)
+  } else {
+    lines.push('next: false')
+  }
   lines.push('---')
   lines.push('')
   lines.push(`# ${name}`)
@@ -556,8 +583,9 @@ const bosses = stats.filter((m) => bossById.has(m.id))
 const normals = stats.filter((m) => !bossById.has(m.id))
 
 let written = 0
-for (const m of normals) {
-  writeFileSync(join(MON_DIR, `${m.id}.md`), monsterPage(m), 'utf8')
+for (let i = 0; i < normals.length; i++) {
+  const m = normals[i]
+  writeFileSync(join(MON_DIR, `${m.id}.md`), monsterPage(m, normals[i - 1], normals[i + 1]), 'utf8')
   written++
 }
 writeFileSync(join(MON_DIR, 'index.md'), monsterIndex(normals), 'utf8')

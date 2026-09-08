@@ -1,6 +1,12 @@
 ---
 title: テンタクルス
 description: DQMVIのモンスター「テンタクルス」のステータス。HP534 / こうげき140 / しゅび139 / 経験値285 / 57G。
+prev:
+  text: "だいまどう"
+  link: /monsters/daimadou
+next:
+  text: "エレフローパー"
+  link: /monsters/elefloper
 ---
 
 # テンタクルス

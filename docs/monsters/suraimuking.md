@@ -1,6 +1,12 @@
 ---
 title: キングスライムもどき
 description: DQMVIのモンスター「キングスライムもどき」のステータス。HP198 / こうげき78.1 / しゅび66 / 経験値148 / 30G。
+prev:
+  text: "ミニデーモン"
+  link: /monsters/minidemon
+next:
+  text: "おどる宝石"
+  link: /monsters/odoruhouseki
 ---
 
 # キングスライムもどき

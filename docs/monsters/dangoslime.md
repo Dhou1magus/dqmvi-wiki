@@ -1,6 +1,12 @@
 ---
 title: だんごスライム
 description: DQMVIのモンスター「だんごスライム」のステータス。HP215 / こうげき101 / しゅび87 / 経験値183 / 34G。
+prev:
+  text: "ホーンビートル"
+  link: /monsters/hornbeet
+next:
+  text: "チョコタワー"
+  link: /monsters/chocotower
 ---
 
 # だんごスライム

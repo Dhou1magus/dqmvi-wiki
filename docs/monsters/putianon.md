@@ -1,6 +1,12 @@
 ---
 title: プチアーノン
 description: DQMVIのモンスター「プチアーノン」のステータス。HP85 / こうげき56 / しゅび42 / 経験値86 / 22G。
+prev:
+  text: "よろいのきし"
+  link: /monsters/yoroinokisi
+next:
+  text: "ヘルコンドル"
+  link: /monsters/hellcondor
 ---
 
 # プチアーノン

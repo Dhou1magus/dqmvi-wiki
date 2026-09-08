@@ -1,6 +1,12 @@
 ---
 title: 巨大ナスビナーラ
 description: DQMVIのモンスター「巨大ナスビナーラ」のステータス。HP446 / こうげき78 / しゅび57 / 経験値879 / 176G。
+prev:
+  text: "ゴールデンコーン"
+  link: /monsters/gorudenkon
+next:
+  text: "メタルパール"
+  link: /monsters/metalpearl
 ---
 
 # 巨大ナスビナーラ

@@ -1,6 +1,12 @@
 ---
 title: はぐれメタル
 description: DQMVIのモンスター「はぐれメタル」のステータス。HP13 / こうげき46 / しゅび10,000 / 経験値10,500 / 150G。
+prev:
+  text: "メタルホイミン"
+  link: /monsters/metaruhoimin
+next:
+  text: "うみうし"
+  link: /monsters/umiusi
 ---
 
 # はぐれメタル

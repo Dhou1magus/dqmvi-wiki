@@ -1,6 +1,12 @@
 ---
 title: しっぽ団のダックスビル
 description: DQMVIのモンスター「しっぽ団のダックスビル」のステータス。HP76 / こうげき43 / しゅび40 / 経験値89 / 17G。
+prev:
+  text: "てつのさそり"
+  link: /monsters/iron_scorpion
+next:
+  text: "トラップボックス"
+  link: /monsters/torappubokkusu
 ---
 
 # しっぽ団のダックスビル

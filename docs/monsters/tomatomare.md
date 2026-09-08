@@ -1,6 +1,12 @@
 ---
 title: トマトマーレ
 description: DQMVIのモンスター「トマトマーレ」のステータス。HP80 / こうげき42 / しゅび33 / 経験値92 / 19G。
+prev:
+  text: "ヘルコンドル"
+  link: /monsters/hellcondor
+next:
+  text: "エビルスピリッツ"
+  link: /monsters/evilspirits
 ---
 
 # トマトマーレ

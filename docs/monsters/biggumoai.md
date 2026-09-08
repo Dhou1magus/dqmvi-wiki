@@ -1,6 +1,12 @@
 ---
 title: ビッグモアイ
 description: DQMVIのモンスター「ビッグモアイ」のステータス。HP2,925 / こうげき330.4 / しゅび276 / 経験値809 / 162G。
+prev:
+  text: "ガメゴンレジェンド"
+  link: /monsters/gamegonrejendo
+next:
+  text: "ドラゴンダーク"
+  link: /monsters/dragondarknaito
 ---
 
 # ビッグモアイ

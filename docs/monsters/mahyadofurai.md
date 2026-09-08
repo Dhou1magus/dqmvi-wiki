@@ -1,6 +1,12 @@
 ---
 title: マヒャドフライ
 description: DQMVIのモンスター「マヒャドフライ」のステータス。HP122 / こうげき54 / しゅび37 / 経験値137 / 23G。
+prev:
+  text: "ベビーニュート"
+  link: /monsters/bebinyuto
+next:
+  text: "ソイソルジャー"
+  link: /monsters/soisoruja
 ---
 
 # マヒャドフライ

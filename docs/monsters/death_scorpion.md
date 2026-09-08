@@ -1,6 +1,12 @@
 ---
 title: しのさそり
 description: DQMVIのモンスター「しのさそり」のステータス。HP203 / こうげき115 / しゅび78 / 経験値174 / 37G。
+prev:
+  text: "クリスタルスライム"
+  link: /monsters/crystalslime
+next:
+  text: "タールキング"
+  link: /monsters/tarking
 ---
 
 # しのさそり

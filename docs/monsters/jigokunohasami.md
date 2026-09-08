@@ -1,6 +1,12 @@
 ---
 title: じごくのハサミ
 description: DQMVIのモンスター「じごくのハサミ」のステータス。HP1,024 / こうげき142.41 / しゅび140 / 経験値346 / 69G。
+prev:
+  text: "アックスドラゴン"
+  link: /monsters/axedoragon
+next:
+  text: "メイジももんじゃ"
+  link: /monsters/magemomonja
 ---
 
 # じごくのハサミ

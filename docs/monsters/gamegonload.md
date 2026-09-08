@@ -1,6 +1,12 @@
 ---
 title: ガメゴンロード
 description: DQMVIのモンスター「ガメゴンロード」のステータス。HP1,264 / こうげき194.58 / しゅび166 / 経験値438 / 88G。
+prev:
+  text: "ソードファントム"
+  link: /monsters/sodofantomu
+next:
+  text: "シルバーデビル"
+  link: /monsters/sirubadebiru
 ---
 
 # ガメゴンロード

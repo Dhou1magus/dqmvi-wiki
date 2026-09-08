@@ -1,6 +1,12 @@
 ---
 title: スラキャンサー
 description: DQMVIのモンスター「スラキャンサー」のステータス。HP1,122 / こうげき186 / しゅび167 / 経験値454 / 76G。
+prev:
+  text: "アッシュリザード"
+  link: /monsters/ash_lizard
+next:
+  text: "スラワッショイ"
+  link: /monsters/slimewashoi
 ---
 
 # スラキャンサー

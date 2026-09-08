@@ -1,6 +1,12 @@
 ---
 title: ギーグハンマー
 description: DQMVIのモンスター「ギーグハンマー」のステータス。HP3,125 / こうげき423 / しゅび222 / 経験値702 / 123G。
+prev:
+  text: "ヘルガーディアン"
+  link: /monsters/herugadexian
+next:
+  text: "デーモンアミゴ"
+  link: /monsters/demonamigo
 ---
 
 # ギーグハンマー

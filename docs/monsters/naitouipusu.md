@@ -1,6 +1,12 @@
 ---
 title: ナイトウイプス
 description: DQMVIのモンスター「ナイトウイプス」のステータス。HP20 / こうげき6 / しゅび2 / 経験値9 / 3G。
+prev:
+  text: "タマゴロン"
+  link: /monsters/tamagoron
+next:
+  text: "たこやり兵"
+  link: /monsters/takoyarihei
 ---
 
 # ナイトウイプス

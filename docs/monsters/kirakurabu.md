@@ -1,6 +1,12 @@
 ---
 title: キラークラブ
 description: DQMVIのモンスター「キラークラブ」のステータス。HP1,800 / こうげき319.2 / しゅび250 / 経験値675 / 135G。
+prev:
+  text: "スターキメラ"
+  link: /monsters/starkimera
+next:
+  text: "かげのきし"
+  link: /monsters/kagenokisi
 ---
 
 # キラークラブ

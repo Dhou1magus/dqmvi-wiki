@@ -1,6 +1,12 @@
 ---
 title: ミュシャド
 description: DQMVIのモンスター「ミュシャド」のステータス。HP28,877 / こうげき808 / しゅび321 / 経験値38,259 / 7,652G。
+prev:
+  text: "エンペラン"
+  link: /monsters/emperan
+next:
+  text: "キングヒドラ"
+  link: /monsters/kinghidora
 ---
 
 # ミュシャド

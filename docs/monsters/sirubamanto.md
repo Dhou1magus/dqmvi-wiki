@@ -1,6 +1,12 @@
 ---
 title: シルバーマント
 description: DQMVIのモンスター「シルバーマント」のステータス。HP1,875 / こうげき355.6 / しゅび245 / 経験値709 / 142G。
+prev:
+  text: "スライムマデュラ"
+  link: /monsters/suraimumadyura
+next:
+  text: "デビルロード"
+  link: /monsters/debirurodo
 ---
 
 # シルバーマント

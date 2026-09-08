@@ -1,6 +1,12 @@
 ---
 title: ばくだんベビー
 description: DQMVIのモンスター「ばくだんベビー」のステータス。HP170 / こうげき75.26 / しゅび76 / 経験値152 / 30G。
+prev:
+  text: "メイジキメラ"
+  link: /monsters/meijikimera
+next:
+  text: "ミニデーモン"
+  link: /monsters/minidemon
 ---
 
 # ばくだんベビー

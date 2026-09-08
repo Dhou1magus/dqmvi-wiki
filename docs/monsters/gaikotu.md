@@ -1,6 +1,12 @@
 ---
 title: がいこつ
 description: DQMVIのモンスター「がいこつ」のステータス。HP168 / こうげき93.72 / しゅび70 / 経験値163 / 33G。
+prev:
+  text: "モコモコじゅう"
+  link: /monsters/mokomokojuu
+next:
+  text: "しびれだんびら"
+  link: /monsters/sibiredanbira
 ---
 
 # がいこつ

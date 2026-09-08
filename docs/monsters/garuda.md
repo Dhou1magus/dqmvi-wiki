@@ -1,6 +1,12 @@
 ---
 title: ガルーダ
 description: DQMVIのモンスター「ガルーダ」のステータス。HP501 / こうげき126 / しゅび133 / 経験値268 / 54G。
+prev:
+  text: "だいおうキッズ"
+  link: /monsters/daioukizzu
+next:
+  text: "アラウネ"
+  link: /monsters/alraune
 ---
 
 # ガルーダ

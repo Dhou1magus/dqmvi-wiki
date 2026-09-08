@@ -1,6 +1,12 @@
 ---
 title: キングレオⅡ
 description: DQMVIのモンスター「キングレオⅡ」のステータス。HP1,440 / こうげき228.42 / しゅび163 / 経験値482 / 96G。
+prev:
+  text: "じごくのよろい"
+  link: /monsters/jigokunoyoroi
+next:
+  text: "グレイトドラゴン"
+  link: /monsters/gureitodoragon
 ---
 
 # キングレオⅡ

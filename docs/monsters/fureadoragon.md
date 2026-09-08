@@ -1,6 +1,12 @@
 ---
 title: フレアドラゴン
 description: DQMVIのモンスター「フレアドラゴン」のステータス。HP12,114 / こうげき542 / しゅび222 / 経験値14,916 / 2,983G。
+prev:
+  text: "聖銀のどくろあらい"
+  link: /monsters/seigin
+next:
+  text: "しろバラのきし"
+  link: /monsters/sirobaranokisi
 ---
 
 # フレアドラゴン

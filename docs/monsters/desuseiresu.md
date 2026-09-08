@@ -1,6 +1,12 @@
 ---
 title: デスセイレス
 description: DQMVIのモンスター「デスセイレス」のステータス。HP102 / こうげき48 / しゅび32 / 経験値97 / 20G。
+prev:
+  text: "スライムジョーカー"
+  link: /monsters/slimejoker
+next:
+  text: "てつのさそり"
+  link: /monsters/iron_scorpion
 ---
 
 # デスセイレス

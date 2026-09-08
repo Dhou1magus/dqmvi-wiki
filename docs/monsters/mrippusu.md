@@ -1,6 +1,12 @@
 ---
 title: マジックリップス
 description: DQMVIのモンスター「マジックリップス」のステータス。HP183 / こうげき80.23 / しゅび70 / 経験値152 / 30G。
+prev:
+  text: "ベロニャーゴ"
+  link: /monsters/beronyaago
+next:
+  text: "うみぼうず"
+  link: /monsters/umibouzu
 ---
 
 # マジックリップス

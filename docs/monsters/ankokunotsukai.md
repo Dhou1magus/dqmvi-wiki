@@ -1,6 +1,12 @@
 ---
 title: 暗黒の使い
 description: DQMVIのモンスター「暗黒の使い」のステータス。HP1,407 / こうげき242 / しゅび150 / 経験値434 / 83G。
+prev:
+  text: "マスタースライム"
+  link: /monsters/masterslime
+next:
+  text: "モノクロームナイト"
+  link: /monsters/monokuroomunaito
 ---
 
 # 暗黒の使い

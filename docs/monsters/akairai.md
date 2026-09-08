@@ -1,6 +1,12 @@
 ---
 title: アカイライ
 description: DQMVIのモンスター「アカイライ」のステータス。HP1,650 / こうげき330.4 / しゅび222 / 経験値646 / 129G。
+prev:
+  text: "ダークホビット"
+  link: /monsters/dakuhobitto
+next:
+  text: "あんこくまじん"
+  link: /monsters/ankokumajin
 ---
 
 # アカイライ

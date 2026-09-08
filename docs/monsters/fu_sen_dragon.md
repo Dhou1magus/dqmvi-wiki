@@ -1,6 +1,12 @@
 ---
 title: フーセンドラゴン
 description: DQMVIのモンスター「フーセンドラゴン」のステータス。HP155 / こうげき71 / しゅび41 / 経験値107 / 27G。
+prev:
+  text: "ボーンファイター"
+  link: /monsters/bonfaita
+next:
+  text: "てっこうまじん"
+  link: /monsters/tekkoumajin
 ---
 
 # フーセンドラゴン

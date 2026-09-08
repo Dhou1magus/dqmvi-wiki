@@ -1,6 +1,12 @@
 ---
 title: ゴールドマン
 description: DQMVIのモンスター「ゴールドマン」のステータス。HP1,248 / こうげき203.04 / しゅび155 / 経験値435 / 87G。
+prev:
+  text: "ドラゴンライダー"
+  link: /monsters/dragonraida
+next:
+  text: "サイクロプス"
+  link: /monsters/saikuropusu
 ---
 
 # ゴールドマン

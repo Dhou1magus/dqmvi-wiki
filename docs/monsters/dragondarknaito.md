@@ -1,6 +1,12 @@
 ---
 title: ドラゴンダーク
 description: DQMVIのモンスター「ドラゴンダーク」のステータス。HP2,850 / こうげき364 / しゅび261 / 経験値819 / 164G。
+prev:
+  text: "ビッグモアイ"
+  link: /monsters/biggumoai
+next:
+  text: "トロルキング"
+  link: /monsters/tororuking
 ---
 
 # ドラゴンダーク

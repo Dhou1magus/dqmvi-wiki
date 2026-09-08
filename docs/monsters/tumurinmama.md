@@ -1,6 +1,12 @@
 ---
 title: つむりんママ
 description: DQMVIのモンスター「つむりんママ」のステータス。HP264 / こうげき22 / しゅび19 / 経験値349 / 70G。
+prev:
+  text: "ももいろ三姉妹"
+  link: /monsters/momoirosansimai
+next:
+  text: "メタルスライム"
+  link: /monsters/metasura
 ---
 
 # つむりんママ

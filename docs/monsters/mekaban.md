@@ -1,6 +1,12 @@
 ---
 title: メカバーン
 description: DQMVIのモンスター「メカバーン」のステータス。HP200 / こうげき62 / しゅび60 / 経験値155 / 30G。
+prev:
+  text: "パプリカン"
+  link: /monsters/papurikan
+next:
+  text: "ガチャコッコ"
+  link: /monsters/gatyakokko
 ---
 
 # メカバーン

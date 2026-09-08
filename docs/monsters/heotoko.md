@@ -1,6 +1,12 @@
 ---
 title: ハエおとこ
 description: DQMVIのモンスター「ハエおとこ」のステータス。HP42 / こうげき27 / しゅび13 / 経験値47 / 7G。
+prev:
+  text: "メラリザード"
+  link: /monsters/merazado
+next:
+  text: "レッドハンター"
+  link: /monsters/redhanta
 ---
 
 # ハエおとこ

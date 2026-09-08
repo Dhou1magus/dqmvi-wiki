@@ -1,6 +1,12 @@
 ---
 title: ゴードンヘッド
 description: DQMVIのモンスター「ゴードンヘッド」のステータス。HP6,189 / こうげき366 / しゅび195 / 経験値8,519 / 1,704G。
+prev:
+  text: "ピサロナイト"
+  link: /monsters/pisaronaito
+next:
+  text: "アトラス"
+  link: /monsters/atorasu
 ---
 
 # ゴードンヘッド

@@ -1,6 +1,12 @@
 ---
 title: デスマドモアゼル
 description: DQMVIのモンスター「デスマドモアゼル」のステータス。HP80 / こうげき24 / しゅび13 / 経験値47 / 10G。
+prev:
+  text: "ジャガーメイジ"
+  link: /monsters/zyagameizi
+next:
+  text: "デビルアーマー"
+  link: /monsters/debiruaamaa
 ---
 
 # デスマドモアゼル

@@ -1,6 +1,12 @@
 ---
 title: モビルヘッド
 description: DQMVIのモンスター「モビルヘッド」のステータス。HP134 / こうげき45 / しゅび55 / 経験値142 / 28G。
+prev:
+  text: "マーズフェイス"
+  link: /monsters/mazufeisu
+next:
+  text: "モビルレフト"
+  link: /monsters/mobirurefuto
 ---
 
 # モビルヘッド

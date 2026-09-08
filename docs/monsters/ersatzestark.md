@@ -1,6 +1,12 @@
 ---
 title: エビルエスターク
 description: DQMVIのモンスター「エビルエスターク」のステータス。
+prev:
+  text: "スラ・ブラスター"
+  link: /monsters/slimeblaster
+next:
+  text: "まおうのたまご"
+  link: /monsters/maounotamago
 ---
 
 # エビルエスターク

@@ -1,6 +1,12 @@
 ---
 title: ネコノマンサー
 description: DQMVIのモンスター「ネコノマンサー」のステータス。HP488 / こうげき98 / しゅび88 / 経験値288 / 48G。
+prev:
+  text: "ゾンビマスター"
+  link: /monsters/zonbimasuta
+next:
+  text: "ヘルクラッシャー"
+  link: /monsters/herukurassya
 ---
 
 # ネコノマンサー

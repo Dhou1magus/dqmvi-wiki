@@ -1,6 +1,12 @@
 ---
 title: メーダクイン
 description: DQMVIのモンスター「メーダクイン」のステータス。HP165 / こうげき43 / しゅび43 / 経験値166 / 28G。
+prev:
+  text: "アークデーモン"
+  link: /monsters/akudemon
+next:
+  text: "バルザック"
+  link: /monsters/baruzaku
 ---
 
 # メーダクイン

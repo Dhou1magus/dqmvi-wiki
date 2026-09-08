@@ -1,6 +1,12 @@
 ---
 title: おおくちばし
 description: DQMVIのモンスター「おおくちばし」のステータス。HP96 / こうげき55.2 / しゅび37 / 経験値92 / 18G。
+prev:
+  text: "どろにんぎょう"
+  link: /monsters/doroningyou
+next:
+  text: "マタンゴ"
+  link: /monsters/matango
 ---
 
 # おおくちばし

@@ -1,6 +1,12 @@
 ---
 title: ぶちスライム
 description: DQMVIのモンスター「ぶちスライム」のステータス。HP8 / こうげき3 / しゅび1 / 経験値4 / 1G。
+prev:
+  text: "エビルアップル"
+  link: /monsters/ebiruapple
+next:
+  text: "おおがらす"
+  link: /monsters/big_crow
 ---
 
 # ぶちスライム

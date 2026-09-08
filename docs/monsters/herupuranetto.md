@@ -1,6 +1,12 @@
 ---
 title: ヘルプラネット
 description: DQMVIのモンスター「ヘルプラネット」のステータス。HP459 / こうげき119 / しゅび102 / 経験値263 / 49G。
+prev:
+  text: "とげジョボー"
+  link: /monsters/togejobo
+next:
+  text: "まおうのランプ"
+  link: /monsters/annihilantern
 ---
 
 # ヘルプラネット

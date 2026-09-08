@@ -1,6 +1,12 @@
 ---
 title: かぼちゃの騎士
 description: DQMVIのモンスター「かぼちゃの騎士」のステータス。HP26 / こうげき10 / しゅび2 / 経験値14 / 3G。
+prev:
+  text: "カバシラー"
+  link: /monsters/swarmtroop
+next:
+  text: "はさみくわがた"
+  link: /monsters/scissorbeatle
 ---
 
 # かぼちゃの騎士

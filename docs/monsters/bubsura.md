@@ -1,6 +1,12 @@
 ---
 title: バブルスライム
 description: DQMVIのモンスター「バブルスライム」のステータス。HP12 / こうげき4 / しゅび2 / 経験値6 / 1G。
+prev:
+  text: "ドロザラー"
+  link: /monsters/dorozara
+next:
+  text: "つちわらし"
+  link: /monsters/tutiwarasi
 ---
 
 # バブルスライム

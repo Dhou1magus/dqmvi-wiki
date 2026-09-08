@@ -1,6 +1,12 @@
 ---
 title: アイアンクック
 description: DQMVIのモンスター「アイアンクック」のステータス。HP188 / こうげき77 / しゅび80 / 経験値166 / 34G。
+prev:
+  text: "メタルドラゴン"
+  link: /monsters/metarudoragon
+next:
+  text: "リトルライバーン"
+  link: /monsters/ritoruraiba
 ---
 
 # アイアンクック

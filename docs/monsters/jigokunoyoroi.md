@@ -1,6 +1,12 @@
 ---
 title: じごくのよろい
 description: DQMVIのモンスター「じごくのよろい」のステータス。HP1,288 / こうげき210.09 / しゅび152 / 経験値442 / 88G。
+prev:
+  text: "ダースドラゴン"
+  link: /monsters/dasudragon
+next:
+  text: "キングレオⅡ"
+  link: /monsters/kingreo2
 ---
 
 # じごくのよろい

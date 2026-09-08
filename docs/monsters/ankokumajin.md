@@ -1,6 +1,12 @@
 ---
 title: あんこくまじん
 description: DQMVIのモンスター「あんこくまじん」のステータス。HP1,890 / こうげき350 / しゅび229 / 経験値691 / 138G。
+prev:
+  text: "アカイライ"
+  link: /monsters/akairai
+next:
+  text: "マッソ"
+  link: /monsters/masso
 ---
 
 # あんこくまじん

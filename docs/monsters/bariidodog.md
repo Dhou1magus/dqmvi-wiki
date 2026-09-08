@@ -1,6 +1,12 @@
 ---
 title: バリイドドッグ
 description: DQMVIのモンスター「バリイドドッグ」のステータス。HP343 / こうげき109.2 / しゅび100 / 経験値219 / 44G。
+prev:
+  text: "マポレーナ"
+  link: /monsters/maporena
+next:
+  text: "ドールマスター"
+  link: /monsters/dollmaster
 ---
 
 # バリイドドッグ

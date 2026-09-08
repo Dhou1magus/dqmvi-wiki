@@ -1,6 +1,12 @@
 ---
 title: ブルベリーノ
 description: DQMVIのモンスター「ブルベリーノ」のステータス。HP174 / こうげき85.2 / しゅび74 / 経験値159 / 32G。
+prev:
+  text: "ようじゅつし"
+  link: /monsters/youjutusi
+next:
+  text: "やつざきアニマル"
+  link: /monsters/yatuzakianimaru
 ---
 
 # ブルベリーノ

@@ -1,6 +1,12 @@
 ---
 title: しにがみのきし
 description: DQMVIのモンスター「しにがみのきし」のステータス。HP732 / こうげき193 / しゅび152 / 経験値384 / 72G。
+prev:
+  text: "キングレオ"
+  link: /monsters/kingreo1
+next:
+  text: "デススパーク"
+  link: /monsters/desusupaku
 ---
 
 # しにがみのきし

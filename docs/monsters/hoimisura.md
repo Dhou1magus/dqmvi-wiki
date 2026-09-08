@@ -1,6 +1,12 @@
 ---
 title: ホイミスライム
 description: DQMVIのモンスター「ホイミスライム」のステータス。HP38 / こうげき18 / しゅび12 / 経験値30 / 6G。
+prev:
+  text: "メタルスライム"
+  link: /monsters/metasura
+next:
+  text: "ドラゴスライム"
+  link: /monsters/dragosuraimu
 ---
 
 # ホイミスライム

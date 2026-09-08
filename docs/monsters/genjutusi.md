@@ -1,6 +1,12 @@
 ---
 title: げんじゅつし
 description: DQMVIのモンスター「げんじゅつし」のステータス。HP75 / こうげき40 / しゅび32 / 経験値72 / 14G。
+prev:
+  text: "スピニー"
+  link: /monsters/supini
+next:
+  text: "あくまの書"
+  link: /monsters/akumanosyo
 ---
 
 # げんじゅつし

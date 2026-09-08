@@ -1,6 +1,12 @@
 ---
 title: ダークスライム
 description: DQMVIのモンスター「ダークスライム」のステータス。HP992 / こうげき170.61 / しゅび132 / 経験値362 / 72G。
+prev:
+  text: "バブルキング"
+  link: /monsters/baburuking
+next:
+  text: "スライムカラー"
+  link: /monsters/suraimuhaitawa
 ---
 
 # ダークスライム

@@ -1,6 +1,12 @@
 ---
 title: クリスタルスライム
 description: DQMVIのモンスター「クリスタルスライム」のステータス。HP198 / こうげき112 / しゅび85 / 経験値199 / 32G。
+prev:
+  text: "ダークキング"
+  link: /monsters/darkking
+next:
+  text: "しのさそり"
+  link: /monsters/death_scorpion
 ---
 
 # クリスタルスライム

@@ -1,6 +1,12 @@
 ---
 title: トンブレロ
 description: DQMVIのモンスター「トンブレロ」のステータス。HP91 / こうげき48 / しゅび36 / 経験値84 / 17G。
+prev:
+  text: "マタンゴ"
+  link: /monsters/matango
+next:
+  text: "ドラキーマ"
+  link: /monsters/dorakima
 ---
 
 # トンブレロ

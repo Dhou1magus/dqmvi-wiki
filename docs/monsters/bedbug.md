@@ -1,6 +1,12 @@
 ---
 title: ラリホービートル
 description: DQMVIのモンスター「ラリホービートル」のステータス。HP86 / こうげき51 / しゅび33 / 経験値90 / 18G。
+prev:
+  text: "スライムカルゴ"
+  link: /monsters/snailslime
+next:
+  text: "石炭つむり"
+  link: /monsters/coalslime
 ---
 
 # ラリホービートル

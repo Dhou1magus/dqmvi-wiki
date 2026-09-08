@@ -1,6 +1,12 @@
 ---
 title: バアラック
 description: DQMVIのモンスター「バアラック」のステータス。HP175 / こうげき82 / しゅび61 / 経験値148 / 30G。
+prev:
+  text: "キースドラゴン"
+  link: /monsters/keethdragon2
+next:
+  text: "キラークラブ"
+  link: /monsters/killer_crab2
 ---
 
 # バアラック

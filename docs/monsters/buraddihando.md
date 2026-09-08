@@ -1,6 +1,12 @@
 ---
 title: ブラッディハンド
 description: DQMVIのモンスター「ブラッディハンド」のステータス。HP389 / こうげき119.6 / しゅび102 / 経験値235 / 47G。
+prev:
+  text: "キングスライム"
+  link: /monsters/kingsura
+next:
+  text: "しりょう"
+  link: /monsters/siryou
 ---
 
 # ブラッディハンド

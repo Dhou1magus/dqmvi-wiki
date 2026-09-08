@@ -1,6 +1,12 @@
 ---
 title: セイレーンゴースト
 description: DQMVIのモンスター「セイレーンゴースト」のステータス。HP1,216 / こうげき182 / しゅび138 / 経験値374 / 77G。
+prev:
+  text: "グレートジンガー"
+  link: /monsters/guretosinga
+next:
+  text: "マスタースライム"
+  link: /monsters/masterslime
 ---
 
 # セイレーンゴースト

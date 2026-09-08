@@ -1,6 +1,12 @@
 ---
 title: ヘルビートル
 description: DQMVIのモンスター「ヘルビートル」のステータス。HP195 / こうげき106 / しゅび77 / 経験値197 / 32G。
+prev:
+  text: "サンダーシャウト"
+  link: /monsters/thundershaut
+next:
+  text: "ディアブラダ"
+  link: /monsters/dexiaburada
 ---
 
 # ヘルビートル

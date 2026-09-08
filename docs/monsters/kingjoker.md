@@ -1,6 +1,12 @@
 ---
 title: キングジョーカー
 description: DQMVIのモンスター「キングジョーカー」のステータス。HP175 / こうげき71 / しゅび71 / 経験値142 / 29G。
+prev:
+  text: "ハートボイルド"
+  link: /monsters/heartvoiled
+next:
+  text: "ダークキング"
+  link: /monsters/darkking
 ---
 
 # キングジョーカー

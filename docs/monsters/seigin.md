@@ -1,6 +1,12 @@
 ---
 title: 聖銀のどくろあらい
 description: DQMVIのモンスター「聖銀のどくろあらい」のステータス。HP13,215 / こうげき523 / しゅび10,000 / 経験値35,545 / 7,109G。
+prev:
+  text: "トロルバッコス"
+  link: /monsters/tororubakkosu
+next:
+  text: "フレアドラゴン"
+  link: /monsters/fureadoragon
 ---
 
 # 聖銀のどくろあらい

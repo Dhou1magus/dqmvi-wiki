@@ -1,6 +1,12 @@
 ---
 title: カラミティサン
 description: DQMVIのモンスター「カラミティサン」のステータス。HP1,156 / こうげき175 / しゅび136 / 経験値399 / 77G。
+prev:
+  text: "ニードルうさこ"
+  link: /monsters/ni_doruusako
+next:
+  text: "じごくのざりがに"
+  link: /monsters/jigokunozarigani
 ---
 
 # カラミティサン

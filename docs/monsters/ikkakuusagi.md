@@ -1,6 +1,12 @@
 ---
 title: いっかくうさぎ
 description: DQMVIのモンスター「いっかくうさぎ」のステータス。HP18 / こうげき7 / しゅび3 / 経験値11 / 2G。
+prev:
+  text: "スキッパー"
+  link: /monsters/sukippaa
+next:
+  text: "リップス"
+  link: /monsters/rippusu
 ---
 
 # いっかくうさぎ

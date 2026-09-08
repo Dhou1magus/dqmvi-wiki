@@ -1,6 +1,12 @@
 ---
 title: はなまきドラゴ
 description: DQMVIのモンスター「はなまきドラゴ」のステータス。HP32 / こうげき6 / しゅび2 / 経験値11 / 2G。
+prev:
+  text: "スカルサーペント"
+  link: /monsters/skullserpent
+next:
+  text: "おにこぞう"
+  link: /monsters/onikozou2
 ---
 
 # はなまきドラゴ

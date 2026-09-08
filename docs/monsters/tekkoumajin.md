@@ -1,6 +1,12 @@
 ---
 title: てっこうまじん
 description: DQMVIのモンスター「てっこうまじん」のステータス。HP165 / こうげき71 / しゅび38 / 経験値108 / 26G。
+prev:
+  text: "フーセンドラゴン"
+  link: /monsters/fu_sen_dragon
+next:
+  text: "スパイクヘッド"
+  link: /monsters/supaikuheddo
 ---
 
 # てっこうまじん

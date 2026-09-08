@@ -1,6 +1,12 @@
 ---
 title: デススパーク
 description: DQMVIのモンスター「デススパーク」のステータス。HP675 / こうげき146 / しゅび120 / 経験値282 / 56G。
+prev:
+  text: "しにがみのきし"
+  link: /monsters/sinigaminokisi
+next:
+  text: "だいおうキッズ"
+  link: /monsters/daioukizzu
 ---
 
 # デススパーク

@@ -1,6 +1,12 @@
 ---
 title: メランザーナ
 description: DQMVIのモンスター「メランザーナ」のステータス。HP44 / こうげき25.56 / しゅび15 / 経験値40 / 8G。
+prev:
+  text: "まじゅつし"
+  link: /monsters/majutusi
+next:
+  text: "タコメット"
+  link: /monsters/takometto
 ---
 
 # メランザーナ

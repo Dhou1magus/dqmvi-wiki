@@ -1,6 +1,12 @@
 ---
 title: パンドラボックス
 description: DQMVIのモンスター「パンドラボックス」のステータス。HP2,100 / こうげき355.6 / しゅび242 / 経験値726 / 145G。
+prev:
+  text: "バトルレックス"
+  link: /monsters/batorurex
+next:
+  text: "デンガー"
+  link: /monsters/denga
 ---
 
 # パンドラボックス

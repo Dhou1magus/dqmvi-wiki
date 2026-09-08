@@ -1,6 +1,12 @@
 ---
 title: スノーモン
 description: DQMVIのモンスター「スノーモン」のステータス。HP36 / こうげき23.04 / しゅび13 / 経験値36 / 7G。
+prev:
+  text: "どくろあらい"
+  link: /monsters/dokuroarai
+next:
+  text: "スライムつむり"
+  link: /monsters/suraimutumuri
 ---
 
 # スノーモン

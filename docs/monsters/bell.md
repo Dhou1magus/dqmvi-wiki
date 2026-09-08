@@ -1,6 +1,12 @@
 ---
 title: ベル
 description: DQMVIのモンスター「ベル」のステータス。HP63 / こうげき26 / しゅび18 / 経験値45 / 12G。
+prev:
+  text: "ブル"
+  link: /monsters/buru
+next:
+  text: "ボル"
+  link: /monsters/boru
 ---
 
 # ベル

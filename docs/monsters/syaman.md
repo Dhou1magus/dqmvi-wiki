@@ -1,6 +1,12 @@
 ---
 title: シャーマン
 description: DQMVIのモンスター「シャーマン」のステータス。HP115 / こうげき55 / しゅび33 / 経験値142 / 25G。
+prev:
+  text: "ダークプラネット"
+  link: /monsters/dakupuranetto
+next:
+  text: "しにがみ"
+  link: /monsters/meanspirit
 ---
 
 # シャーマン

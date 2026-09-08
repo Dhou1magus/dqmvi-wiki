@@ -1,6 +1,12 @@
 ---
 title: ソードファントム
 description: DQMVIのモンスター「ソードファントム」のステータス。HP1,184 / こうげき201.63 / しゅび134 / 経験値409 / 82G。
+prev:
+  text: "キースドラゴン"
+  link: /monsters/kisudragon
+next:
+  text: "ガメゴンロード"
+  link: /monsters/gamegonload
 ---
 
 # ソードファントム

@@ -1,6 +1,12 @@
 ---
 title: オーラー
 description: DQMVIのモンスター「オーラー」のステータス。HP920 / こうげき123 / しゅび112 / 経験値413 / 118G。
+prev:
+  text: "マクロベータ"
+  link: /monsters/makurobeta
+next:
+  text: "ドーラー"
+  link: /monsters/dora
 ---
 
 # オーラー

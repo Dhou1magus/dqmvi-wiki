@@ -1,6 +1,12 @@
 ---
 title: ボックススライムグリーン
 description: DQMVIのモンスター「ボックススライムグリーン」のステータス。HP100 / こうげき55.2 / しゅび41 / 経験値95 / 19G。
+prev:
+  text: "ひょうがまじん"
+  link: /monsters/hyouganmajin
+next:
+  text: "あくま神官"
+  link: /monsters/akumasinkan
 ---
 
 # ボックススライムグリーン

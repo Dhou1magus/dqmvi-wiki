@@ -1,6 +1,12 @@
 ---
 title: スカルサーペント
 description: DQMVIのモンスター「スカルサーペント」のステータス。HP23 / こうげき9 / しゅび4 / 経験値13 / 4G。
+prev:
+  text: "マンドラ"
+  link: /monsters/mandora
+next:
+  text: "はなまきドラゴ"
+  link: /monsters/hanamakidrago
 ---
 
 # スカルサーペント

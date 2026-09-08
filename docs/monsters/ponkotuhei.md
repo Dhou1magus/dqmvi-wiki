@@ -1,6 +1,12 @@
 ---
 title: ポンコツ兵
 description: DQMVIのモンスター「ポンコツ兵」のステータス。HP26 / こうげき11 / しゅび6 / 経験値17 / 3G。
+prev:
+  text: "ドラゴンキッズ"
+  link: /monsters/doragonkizzu
+next:
+  text: "ビーンファイター"
+  link: /monsters/binfaita
 ---
 
 # ポンコツ兵

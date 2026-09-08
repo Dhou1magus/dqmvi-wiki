@@ -1,6 +1,12 @@
 ---
 title: あくまの書
 description: DQMVIのモンスター「あくまの書」のステータス。HP65 / こうげき42 / しゅび34 / 経験値74 / 15G。
+prev:
+  text: "げんじゅつし"
+  link: /monsters/genjutusi
+next:
+  text: "マドハンド"
+  link: /monsters/madohando
 ---
 
 # あくまの書

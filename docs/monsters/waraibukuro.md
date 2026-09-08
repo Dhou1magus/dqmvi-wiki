@@ -1,6 +1,12 @@
 ---
 title: わらいぶくろ
 description: DQMVIのモンスター「わらいぶくろ」のステータス。HP80 / こうげき43.2 / しゅび36 / 経験値79 / 16G。
+prev:
+  text: "プリズニャン"
+  link: /monsters/purizunyan
+next:
+  text: "スピニー"
+  link: /monsters/supini
 ---
 
 # わらいぶくろ

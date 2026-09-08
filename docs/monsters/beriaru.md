@@ -1,6 +1,12 @@
 ---
 title: ベリアル
 description: DQMVIのモンスター「ベリアル」のステータス。HP1,550 / こうげき220 / しゅび125 / 経験値450 / 90G。
+prev:
+  text: "ドラゴントイズ"
+  link: /monsters/doragontoizu
+next:
+  text: "コスモアイ"
+  link: /monsters/kosumoai
 ---
 
 # ベリアル

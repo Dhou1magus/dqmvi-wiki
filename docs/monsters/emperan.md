@@ -1,6 +1,12 @@
 ---
 title: エンペラン
 description: DQMVIのモンスター「エンペラン」のステータス。
+prev:
+  text: "まおうのたまご"
+  link: /monsters/maounotamago
+next:
+  text: "ミュシャド"
+  link: /monsters/myusyado
 ---
 
 # エンペラン

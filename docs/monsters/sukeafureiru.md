@@ -1,6 +1,12 @@
 ---
 title: スケアフレイル
 description: DQMVIのモンスター「スケアフレイル」のステータス。HP77 / こうげき36 / しゅび19 / 経験値63 / 12G。
+prev:
+  text: "レッドハンター"
+  link: /monsters/redhanta
+next:
+  text: "デザートデーモン"
+  link: /monsters/dezatodemon
 ---
 
 # スケアフレイル

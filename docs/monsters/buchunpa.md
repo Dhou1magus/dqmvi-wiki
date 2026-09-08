@@ -1,6 +1,12 @@
 ---
 title: ブチュチュンパ
 description: DQMVIのモンスター「ブチュチュンパ」のステータス。HP168 / こうげき76.68 / しゅび65 / 経験値142 / 28G。
+prev:
+  text: "うみうし"
+  link: /monsters/umiusi
+next:
+  text: "モコモコじゅう"
+  link: /monsters/mokomokojuu
 ---
 
 # ブチュチュンパ

@@ -1,6 +1,12 @@
 ---
 title: デスフラッター
 description: DQMVIのモンスター「デスフラッター」のステータス。HP38 / こうげき22 / しゅび16 / 経験値43 / 8G。
+prev:
+  text: "ピクシー"
+  link: /monsters/pikusi2
+next:
+  text: "どくイモムシ"
+  link: /monsters/poison_caterpillar
 ---
 
 # デスフラッター

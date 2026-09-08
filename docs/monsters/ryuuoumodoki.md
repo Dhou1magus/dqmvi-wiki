@@ -1,6 +1,12 @@
 ---
 title: りゅうおうもどき
 description: DQMVIのモンスター「りゅうおうもどき」のステータス。HP29,041 / こうげき1,201 / しゅび346 / 経験値34,890 / 6,978G。
+prev:
+  text: "キングヒドラ"
+  link: /monsters/kinghidora
+next:
+  text: "魔獣イギュア"
+  link: /monsters/majuuigyua
 ---
 
 # りゅうおうもどき

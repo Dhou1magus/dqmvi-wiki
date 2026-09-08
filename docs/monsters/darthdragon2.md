@@ -1,6 +1,12 @@
 ---
 title: ダースドラゴン
 description: DQMVIのモンスター「ダースドラゴン」のステータス。HP627 / こうげき159 / しゅび123 / 経験値357 / 71G。
+prev:
+  text: "スカルドン"
+  link: /monsters/skuldon
+next:
+  text: "だいまどう"
+  link: /monsters/daimadou
 ---
 
 # ダースドラゴン

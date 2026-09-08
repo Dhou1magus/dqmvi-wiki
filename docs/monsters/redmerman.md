@@ -1,6 +1,12 @@
 ---
 title: レッドマーマン
 description: DQMVIのモンスター「レッドマーマン」のステータス。HP145 / こうげき60 / しゅび25 / 経験値102 / 23G。
+prev:
+  text: "だいおうイカ"
+  link: /monsters/daiouika
+next:
+  text: "さんぞくウーパー"
+  link: /monsters/sanzokuupa
 ---
 
 # レッドマーマン

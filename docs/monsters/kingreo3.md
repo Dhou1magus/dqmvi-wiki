@@ -1,6 +1,12 @@
 ---
 title: キングレオⅢ
 description: DQMVIのモンスター「キングレオⅢ」のステータス。HP2,430 / こうげき386.4 / しゅび231 / 経験値774 / 155G。
+prev:
+  text: "はめつの使者"
+  link: /monsters/hametunosisya
+next:
+  text: "グレイブディガー"
+  link: /monsters/gureibudiga
 ---
 
 # キングレオⅢ

@@ -1,6 +1,12 @@
 ---
 title: ベビーニュート
 description: DQMVIのモンスター「ベビーニュート」のステータス。HP151 / こうげき68 / しゅび35 / 経験値124 / 28G。
+prev:
+  text: "ローズバトラー"
+  link: /monsters/rozubatora
+next:
+  text: "マヒャドフライ"
+  link: /monsters/mahyadofurai
 ---
 
 # ベビーニュート

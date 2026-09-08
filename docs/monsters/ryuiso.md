@@ -1,6 +1,12 @@
 ---
 title: リューイーソー
 description: DQMVIのモンスター「リューイーソー」のステータス。HP1,875 / こうげき316.4 / しゅび194 / 経験値628 / 126G。
+prev:
+  text: "ダースギズモ"
+  link: /monsters/dgizumo
+next:
+  text: "スターキメラ"
+  link: /monsters/starkimera
 ---
 
 # リューイーソー

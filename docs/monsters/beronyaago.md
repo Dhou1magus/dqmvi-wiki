@@ -1,6 +1,12 @@
 ---
 title: ベロニャーゴ
 description: DQMVIのモンスター「ベロニャーゴ」のステータス。HP176 / こうげき78.81 / しゅび63 / 経験値143 / 29G。
+prev:
+  text: "きめんどうし"
+  link: /monsters/kimendousi
+next:
+  text: "マジックリップス"
+  link: /monsters/mrippusu
 ---
 
 # ベロニャーゴ

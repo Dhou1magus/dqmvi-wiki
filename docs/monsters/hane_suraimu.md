@@ -1,6 +1,12 @@
 ---
 title: はねスライム
 description: DQMVIのモンスター「はねスライム」のステータス。HP23 / こうげき10 / しゅび2 / 経験値14 / 3G。
+prev:
+  text: "リザードマン"
+  link: /monsters/mandrake_major
+next:
+  text: "スライムツリー"
+  link: /monsters/slimetree
 ---
 
 # はねスライム

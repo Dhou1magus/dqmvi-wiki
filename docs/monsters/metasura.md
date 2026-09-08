@@ -1,6 +1,12 @@
 ---
 title: メタルスライム
 description: DQMVIのモンスター「メタルスライム」のステータス。HP4 / こうげき5 / しゅび10,000 / 経験値1,050 / 35G。
+prev:
+  text: "つむりんママ"
+  link: /monsters/tumurinmama
+next:
+  text: "ホイミスライム"
+  link: /monsters/hoimisura
 ---
 
 # メタルスライム

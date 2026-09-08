@@ -1,6 +1,12 @@
 ---
 title: マペットマン
 description: DQMVIのモンスター「マペットマン」のステータス。HP97 / こうげき51.2 / しゅび35 / 経験値86 / 17G。
+prev:
+  text: "ドラキーマ"
+  link: /monsters/dorakima
+next:
+  text: "うずしおキング"
+  link: /monsters/uzusioking
 ---
 
 # マペットマン

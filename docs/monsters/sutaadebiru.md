@@ -1,6 +1,12 @@
 ---
 title: スターデビル
 description: DQMVIのモンスター「スターデビル」のステータス。HP400 / こうげき126 / しゅび120 / 経験値249 / 44G。
+prev:
+  text: "黒怨王"
+  link: /monsters/kokuenou
+next:
+  text: "まかいファイター"
+  link: /monsters/commandragor
 ---
 
 # スターデビル

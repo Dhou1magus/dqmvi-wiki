@@ -1,6 +1,12 @@
 ---
 title: まおうのつかい
 description: DQMVIのモンスター「まおうのつかい」のステータス。HP184 / こうげき103 / しゅび83 / 経験値191 / 35G。
+prev:
+  text: "オカルトビスク"
+  link: /monsters/okarutobisuku
+next:
+  text: "マジックアーマー"
+  link: /monsters/majikkuaamaa
 ---
 
 # まおうのつかい

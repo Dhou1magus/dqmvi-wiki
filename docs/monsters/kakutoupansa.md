@@ -1,6 +1,12 @@
 ---
 title: かくとうパンサー
 description: DQMVIのモンスター「かくとうパンサー」のステータス。HP66 / こうげき31 / しゅび15 / 経験値60 / 12G。
+prev:
+  text: "しのどれい"
+  link: /monsters/sinodorei
+next:
+  text: "なげきムーン"
+  link: /monsters/nagekimun
 ---
 
 # かくとうパンサー

@@ -1,6 +1,12 @@
 ---
 title: スライムファング
 description: DQMVIのモンスター「スライムファング」のステータス。HP63 / こうげき31 / しゅび17 / 経験値56 / 12G。
+prev:
+  text: "スライムアンノウン"
+  link: /monsters/slimeunknown
+next:
+  text: "タップデビル"
+  link: /monsters/tappudebiru
 ---
 
 # スライムファング

@@ -1,6 +1,12 @@
 ---
 title: ボックススライムレッド
 description: DQMVIのモンスター「ボックススライムレッド」のステータス。HP48 / こうげき30.6 / しゅび20 / 経験値50 / 10G。
+prev:
+  text: "アルミラージ"
+  link: /monsters/arumiraji
+next:
+  text: "まじゅつし"
+  link: /monsters/majutusi
 ---
 
 # ボックススライムレッド

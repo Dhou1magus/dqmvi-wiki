@@ -1,6 +1,12 @@
 ---
 title: キラーマシン2
 description: DQMVIのモンスター「キラーマシン2」のステータス。HP3,300 / こうげき408.8 / しゅび296 / 経験値931 / 186G。
+prev:
+  text: "ゴッドライダー"
+  link: /monsters/godraida
+next:
+  text: "はめつの使者"
+  link: /monsters/hametunosisya
 ---
 
 # キラーマシン2

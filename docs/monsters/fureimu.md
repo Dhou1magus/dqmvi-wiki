@@ -1,6 +1,12 @@
 ---
 title: フレイム
 description: DQMVIのモンスター「フレイム」のステータス。HP371 / こうげき112.32 / しゅび94 / 経験値219 / 44G。
+prev:
+  text: "ばくだんいわ"
+  link: /monsters/bakudaniwa
+next:
+  text: "スカルガルー"
+  link: /monsters/skullgaroo
 ---
 
 # フレイム

@@ -1,6 +1,12 @@
 ---
 title: グランスライム
 description: DQMVIのモンスター「グランスライム」のステータス。HP896 / こうげき165 / しゅび136 / 経験値333 / 69G。
+prev:
+  text: "スラワッショイ"
+  link: /monsters/slimewashoi
+next:
+  text: "ロイヤルミミック"
+  link: /monsters/tansu_royal
 ---
 
 # グランスライム

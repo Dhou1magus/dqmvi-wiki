@@ -1,6 +1,12 @@
 ---
 title: なみさそり
 description: DQMVIのモンスター「なみさそり」のステータス。
+prev:
+  text: "吹雪の魔女"
+  link: /monsters/hubukinomajyo
+next:
+  text: "ましょうぐも"
+  link: /monsters/mashougumo
 ---
 
 # なみさそり

@@ -1,6 +1,12 @@
 ---
 title: しびれあげは
 description: DQMVIのモンスター「しびれあげは」のステータス。HP84 / こうげき46 / しゅび30 / 経験値76 / 15G。
+prev:
+  text: "スペクテット"
+  link: /monsters/supekutetto
+next:
+  text: "どろにんぎょう"
+  link: /monsters/doroningyou
 ---
 
 # しびれあげは

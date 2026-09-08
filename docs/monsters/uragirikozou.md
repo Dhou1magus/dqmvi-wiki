@@ -1,6 +1,12 @@
 ---
 title: うらぎりこぞう
 description: DQMVIのモンスター「うらぎりこぞう」のステータス。HP1,665 / こうげき280 / しゅび184 / 経験値567 / 113G。
+prev:
+  text: "ドラゴンソルジャー"
+  link: /monsters/doragonsoruja
+next:
+  text: "クイーンスライム"
+  link: /monsters/kuinsuraimu
 ---
 
 # うらぎりこぞう

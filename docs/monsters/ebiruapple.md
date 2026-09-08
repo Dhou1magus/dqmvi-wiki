@@ -1,6 +1,12 @@
 ---
 title: エビルアップル
 description: DQMVIのモンスター「エビルアップル」のステータス。HP22 / こうげき9 / しゅび2 / 経験値12 / 2G。
+prev:
+  text: "レモンスライム"
+  link: /monsters/remonsuraimu
+next:
+  text: "ぶちスライム"
+  link: /monsters/butisuraimu
 ---
 
 # エビルアップル

@@ -1,6 +1,12 @@
 ---
 title: まほうつかい
 description: DQMVIのモンスター「まほうつかい」のステータス。HP15 / こうげき2 / しゅび1 / 経験値13 / 4G。
+prev:
+  text: "おにこぞう"
+  link: /monsters/onikozou2
+next:
+  text: "おおがらす"
+  link: /monsters/greatraven
 ---
 
 # まほうつかい

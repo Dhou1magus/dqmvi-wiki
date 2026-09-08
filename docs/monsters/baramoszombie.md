@@ -1,6 +1,12 @@
 ---
 title: バラモスゾンビ
 description: DQMVIのモンスター「バラモスゾンビ」のステータス。HP1,442 / こうげき245 / しゅび140 / 経験値469 / 94G。
+prev:
+  text: "スノードラゴン"
+  link: /monsters/snow_dragon
+next:
+  text: "ゴールデンドラゴン"
+  link: /monsters/goldendragon
 ---
 
 # バラモスゾンビ

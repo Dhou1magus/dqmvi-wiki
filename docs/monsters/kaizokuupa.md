@@ -1,6 +1,12 @@
 ---
 title: かいぞくウーパー
 description: DQMVIのモンスター「かいぞくウーパー」のステータス。HP170 / こうげき76 / しゅび61 / 経験値145 / 29G。
+prev:
+  text: "キングマーマン"
+  link: /monsters/kingmerman
+next:
+  text: "グール"
+  link: /monsters/guru
 ---
 
 # かいぞくウーパー

@@ -1,6 +1,12 @@
 ---
 title: ベホイムスライム
 description: DQMVIのモンスター「ベホイムスライム」のステータス。HP168 / こうげき83.07 / しゅび74 / 経験値156 / 31G。
+prev:
+  text: "アローインプ"
+  link: /monsters/aroinpu
+next:
+  text: "ボックススライムオレンジ"
+  link: /monsters/boxsuraimu
 ---
 
 # ベホイムスライム

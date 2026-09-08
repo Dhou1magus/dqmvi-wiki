@@ -1,6 +1,12 @@
 ---
 title: メタルハンター２
 description: DQMVIのモンスター「メタルハンター２」のステータス。HP490 / こうげき131.04 / しゅび126 / 経験値275 / 55G。
+prev:
+  text: "メタルハンター１"
+  link: /monsters/metaruhanta
+next:
+  text: "カンダタこぶん"
+  link: /monsters/kandatakobun
 ---
 
 # メタルハンター２

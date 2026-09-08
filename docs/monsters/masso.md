@@ -1,6 +1,12 @@
 ---
 title: マッソ
 description: DQMVIのモンスター「マッソ」のステータス。HP1,860 / こうげき355.6 / しゅび242 / 経験値705 / 141G。
+prev:
+  text: "あんこくまじん"
+  link: /monsters/ankokumajin
+next:
+  text: "スライムマデュラ"
+  link: /monsters/suraimumadyura
 ---
 
 # マッソ

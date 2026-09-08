@@ -1,6 +1,12 @@
 ---
 title: エビルスピリッツ
 description: DQMVIのモンスター「エビルスピリッツ」のステータス。HP95 / こうげき43 / しゅび30 / 経験値110 / 23G。
+prev:
+  text: "トマトマーレ"
+  link: /monsters/tomatomare
+next:
+  text: "がいこつけんし"
+  link: /monsters/gaikotsukenshi2
 ---
 
 # エビルスピリッツ

@@ -1,6 +1,12 @@
 ---
 title: メタルキング
 description: DQMVIのモンスター「メタルキング」のステータス。HP35 / こうげき124.8 / しゅび10,000 / 経験値44,500 / 350G。
+prev:
+  text: "メタルカイザー"
+  link: /monsters/metalkaiser
+next:
+  text: "ゴールデンスライム"
+  link: /monsters/gorudensuraimu
 ---
 
 # メタルキング

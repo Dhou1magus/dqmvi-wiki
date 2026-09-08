@@ -1,6 +1,12 @@
 ---
 title: ガニラス
 description: DQMVIのモンスター「ガニラス」のステータス。HP135 / こうげき65 / しゅび82 / 経験値115 / 23G。
+prev:
+  text: "かえんムカデ"
+  link: /monsters/flame_centipede
+next:
+  text: "だいおうイカ"
+  link: /monsters/daiouika
 ---
 
 # ガニラス

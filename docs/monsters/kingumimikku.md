@@ -1,6 +1,12 @@
 ---
 title: キングミミック
 description: DQMVIのモンスター「キングミミック」のステータス。
+prev:
+  text: "ダーククリスタル"
+  link: /monsters/dark_crystal
+next:
+  text: "ニジゴロン"
+  link: /monsters/nizigoron
 ---
 
 # キングミミック

@@ -1,6 +1,12 @@
 ---
 title: モビルレフト
 description: DQMVIのモンスター「モビルレフト」のステータス。HP168 / こうげき88 / しゅび76 / 経験値155 / 20G。
+prev:
+  text: "モビルヘッド"
+  link: /monsters/mobiruheddo
+next:
+  text: "モビルボディ"
+  link: /monsters/mobirubodexi
 ---
 
 # モビルレフト

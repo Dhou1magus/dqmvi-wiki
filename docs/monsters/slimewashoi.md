@@ -1,6 +1,12 @@
 ---
 title: スラワッショイ
 description: DQMVIのモンスター「スラワッショイ」のステータス。HP1,521 / こうげき223 / しゅび139 / 経験値506 / 94G。
+prev:
+  text: "スラキャンサー"
+  link: /monsters/slimecanser
+next:
+  text: "グランスライム"
+  link: /monsters/grandpaslime
 ---
 
 # スラワッショイ

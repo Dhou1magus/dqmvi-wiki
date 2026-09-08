@@ -1,6 +1,12 @@
 ---
 title: プロトキラー
 description: DQMVIのモンスター「プロトキラー」のステータス。HP222 / こうげき88 / しゅび97 / 経験値200 / 30G。
+prev:
+  text: "リトルライバーン"
+  link: /monsters/ritoruraiba
+next:
+  text: "デュラハーン"
+  link: /monsters/durahan
 ---
 
 # プロトキラー

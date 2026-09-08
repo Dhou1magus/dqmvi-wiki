@@ -1,6 +1,10 @@
 ---
 title: スライム
 description: DQMVIのモンスター「スライム」のステータス。HP5 / こうげき1 / しゅび1 / 経験値2 / 1G。
+prev: false
+next:
+  text: "ズッキーニャ"
+  link: /monsters/zukkinya
 ---
 
 # スライム

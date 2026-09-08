@@ -1,6 +1,12 @@
 ---
 title: パンドラ木箱
 description: DQMVIのモンスター「パンドラ木箱」のステータス。HP536 / こうげき143.52 / しゅび125 / 経験値290 / 58G。
+prev:
+  text: "カンダタこぶん"
+  link: /monsters/kandatakobun
+next:
+  text: "トロル"
+  link: /monsters/tororu
 ---
 
 # パンドラ木箱

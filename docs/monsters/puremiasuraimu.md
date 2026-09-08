@@ -1,6 +1,12 @@
 ---
 title: プレミアムスライム
 description: DQMVIのモンスター「プレミアムスライム」のステータス。HP45 / こうげき27 / しゅび13 / 経験値40 / 8G。
+prev:
+  text: "おおきづち"
+  link: /monsters/ookiduti
+next:
+  text: "どくろあらい"
+  link: /monsters/dokuroarai
 ---
 
 # プレミアムスライム

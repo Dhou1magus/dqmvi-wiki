@@ -1,6 +1,12 @@
 ---
 title: タマゴロン
 description: DQMVIのモンスター「タマゴロン」のステータス。HP12 / こうげき4 / しゅび1 / 経験値6 / 2G。
+prev:
+  text: "ナスビナーラ"
+  link: /monsters/nasubira
+next:
+  text: "ナイトウイプス"
+  link: /monsters/naitouipusu
 ---
 
 # タマゴロン

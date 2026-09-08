@@ -1,6 +1,12 @@
 ---
 title: スライムアンノウン
 description: DQMVIのモンスター「スライムアンノウン」のステータス。HP60 / こうげき34 / しゅび18 / 経験値51 / 10G。
+prev:
+  text: "つららスライム"
+  link: /monsters/slimecicle
+next:
+  text: "スライムファング"
+  link: /monsters/wildslime
 ---
 
 # スライムアンノウン

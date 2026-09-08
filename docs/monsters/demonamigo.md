@@ -1,6 +1,12 @@
 ---
 title: デーモンアミゴ
 description: DQMVIのモンスター「デーモンアミゴ」のステータス。HP3,312 / こうげき412 / しゅび245 / 経験値859 / 154G。
+prev:
+  text: "ギーグハンマー"
+  link: /monsters/giguhanma
+next:
+  text: "デスマーキュリー"
+  link: /monsters/desumakyuri
 ---
 
 # デーモンアミゴ

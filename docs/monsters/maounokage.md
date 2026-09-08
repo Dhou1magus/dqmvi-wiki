@@ -1,6 +1,12 @@
 ---
 title: まおうのかげ
 description: DQMVIのモンスター「まおうのかげ」のステータス。HP944 / こうげき159.33 / しゅび135 / 経験値350 / 70G。
+prev:
+  text: "キラーパンサー"
+  link: /monsters/kirapan2
+next:
+  text: "デスニャーゴ"
+  link: /monsters/desunyago
 ---
 
 # まおうのかげ

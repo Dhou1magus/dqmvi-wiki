@@ -1,6 +1,12 @@
 ---
 title: くしざしツインズ
 description: DQMVIのモンスター「くしざしツインズ」のステータス。HP63 / こうげき27 / しゅび12 / 経験値55 / 13G。
+prev:
+  text: "ウパパロン"
+  link: /monsters/upaparon
+next:
+  text: "くさった死体"
+  link: /monsters/kusattasitai
 ---
 
 # くしざしツインズ

@@ -1,6 +1,12 @@
 ---
 title: トロルボンバー
 description: DQMVIのモンスター「トロルボンバー」のステータス。HP2,625 / こうげき397.6 / しゅび175 / 経験値752 / 150G。
+prev:
+  text: "マージマタンゴ"
+  link: /monsters/magematango
+next:
+  text: "ドラゴンソルジャー"
+  link: /monsters/doragonsoruja
 ---
 
 # トロルボンバー

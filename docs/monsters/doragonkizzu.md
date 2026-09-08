@@ -1,6 +1,12 @@
 ---
 title: ドラゴンキッズ
 description: DQMVIのモンスター「ドラゴンキッズ」のステータス。HP24 / こうげき11 / しゅび3 / 経験値16 / 2G。
+prev:
+  text: "ワンワンダック"
+  link: /monsters/wanwanduck
+next:
+  text: "ポンコツ兵"
+  link: /monsters/ponkotuhei
 ---
 
 # ドラゴンキッズ

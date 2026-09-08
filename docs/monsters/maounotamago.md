@@ -1,6 +1,12 @@
 ---
 title: まおうのたまご
 description: DQMVIのモンスター「まおうのたまご」のステータス。
+prev:
+  text: "エビルエスターク"
+  link: /monsters/ersatzestark
+next:
+  text: "エンペラン"
+  link: /monsters/emperan
 ---
 
 # まおうのたまご
