@@ -1,6 +1,12 @@
 ---
 title: ドラキーマ
 description: DQMVIのモンスター「ドラキーマ」のステータス。HP98 / こうげき50 / しゅび35 / 経験値85 / 17G。
+prev:
+  text: "トンブレロ"
+  link: /monsters/tonburero
+next:
+  text: "マペットマン"
+  link: /monsters/mapetman
 ---
 
 # ドラキーマ

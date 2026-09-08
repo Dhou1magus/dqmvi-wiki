@@ -1,6 +1,12 @@
 ---
 title: くさった死体
 description: DQMVIのモンスター「くさった死体」のステータス。HP80 / こうげき32 / しゅび5 / 経験値60 / 8G。
+prev:
+  text: "くしざしツインズ"
+  link: /monsters/kusizasituinzu
+next:
+  text: "メタッピー"
+  link: /monsters/metappi
 ---
 
 # くさった死体

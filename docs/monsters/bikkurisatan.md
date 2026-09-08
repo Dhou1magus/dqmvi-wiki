@@ -1,6 +1,12 @@
 ---
 title: びっくりサタン
 description: DQMVIのモンスター「びっくりサタン」のステータス。HP12 / こうげき4 / しゅび1 / 経験値5 / 1G。
+prev:
+  text: "ジャングラー"
+  link: /monsters/feralslime
+next:
+  text: "リザードマン"
+  link: /monsters/mandrake_major
 ---
 
 # びっくりサタン

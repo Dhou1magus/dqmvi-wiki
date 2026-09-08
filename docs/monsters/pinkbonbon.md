@@ -1,6 +1,12 @@
 ---
 title: ピンクボンボン
 description: DQMVIのモンスター「ピンクボンボン」のステータス。HP580 / こうげき65 / しゅび54 / 経験値995 / 199G。
+prev:
+  text: "キラートーチ"
+  link: /monsters/kiratoti
+next:
+  text: "アルケミストン"
+  link: /monsters/arukemisuton
 ---
 
 # ピンクボンボン

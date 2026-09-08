@@ -1,6 +1,12 @@
 ---
 title: アクアスライム
 description: DQMVIのモンスター「アクアスライム」のステータス。HP59 / こうげき30 / しゅび16 / 経験値55 / 12G。
+prev:
+  text: "さそりアーマー"
+  link: /monsters/sasori_a_ma
+next:
+  text: "つららスライム"
+  link: /monsters/slimecicle
 ---
 
 # アクアスライム

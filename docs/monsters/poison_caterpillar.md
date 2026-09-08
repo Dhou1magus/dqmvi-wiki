@@ -1,6 +1,12 @@
 ---
 title: どくイモムシ
 description: DQMVIのモンスター「どくイモムシ」のステータス。HP52 / こうげき32 / しゅび18 / 経験値52 / 12G。
+prev:
+  text: "デスフラッター"
+  link: /monsters/deathflutter2
+next:
+  text: "じごくのハサミ"
+  link: /monsters/jigoku_no_hasami2
 ---
 
 # どくイモムシ

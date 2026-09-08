@@ -1,6 +1,12 @@
 ---
 title: カパーラナーガ
 description: DQMVIのモンスター「カパーラナーガ」のステータス。HP143 / こうげき63 / しゅび46 / 経験値100 / 22G。
+prev:
+  text: "しにがみきぞく"
+  link: /monsters/shinigamikizoku
+next:
+  text: "スカルゴン"
+  link: /monsters/skalgon
 ---
 
 # カパーラナーガ

@@ -1,6 +1,12 @@
 ---
 title: マドハンド
 description: DQMVIのモンスター「マドハンド」のステータス。HP65 / こうげき45.2 / しゅび35 / 経験値78 / 16G。
+prev:
+  text: "あくまの書"
+  link: /monsters/akumanosyo
+next:
+  text: "タホドラキー"
+  link: /monsters/tahodoraki
 ---
 
 # マドハンド

@@ -1,6 +1,12 @@
 ---
 title: デザートデーモン
 description: DQMVIのモンスター「デザートデーモン」のステータス。HP80 / こうげき35 / しゅび17 / 経験値70 / 15G。
+prev:
+  text: "スケアフレイル"
+  link: /monsters/sukeafureiru
+next:
+  text: "メーダロード"
+  link: /monsters/medarodo
 ---
 
 # デザートデーモン

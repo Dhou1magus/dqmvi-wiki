@@ -1,6 +1,12 @@
 ---
 title: デスニャーゴ
 description: DQMVIのモンスター「デスニャーゴ」のステータス。HP896 / こうげき164.97 / しゅび128 / 経験値344 / 69G。
+prev:
+  text: "まおうのかげ"
+  link: /monsters/maounokage
+next:
+  text: "しりょうのきし"
+  link: /monsters/siryounokisi
 ---
 
 # デスニャーゴ

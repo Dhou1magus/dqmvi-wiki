@@ -1,6 +1,12 @@
 ---
 title: ボックススライムオレンジ
 description: DQMVIのモンスター「ボックススライムオレンジ」のステータス。HP183 / こうげき81.65 / しゅび78 / 経験値160 / 32G。
+prev:
+  text: "ベホイムスライム"
+  link: /monsters/behoimusuraimu
+next:
+  text: "ようじゅつし"
+  link: /monsters/youjutusi
 ---
 
 # ボックススライムオレンジ

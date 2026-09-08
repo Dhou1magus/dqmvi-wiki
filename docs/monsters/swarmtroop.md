@@ -1,6 +1,12 @@
 ---
 title: カバシラー
 description: DQMVIのモンスター「カバシラー」のステータス。HP12 / こうげき4 / しゅび1 / 経験値6 / 1G。
+prev:
+  text: "スライムB"
+  link: /monsters/slime_b
+next:
+  text: "かぼちゃの騎士"
+  link: /monsters/kabochanokisi
 ---
 
 # カバシラー

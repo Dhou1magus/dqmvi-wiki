@@ -1,6 +1,12 @@
 ---
 title: ベビーパンサー
 description: DQMVIのモンスター「ベビーパンサー」のステータス。HP168 / こうげき87.33 / しゅび74 / 経験値160 / 32G。
+prev:
+  text: "ガップリン"
+  link: /monsters/gappurin
+next:
+  text: "さまようよろい"
+  link: /monsters/samayouyoroi
 ---
 
 # ベビーパンサー

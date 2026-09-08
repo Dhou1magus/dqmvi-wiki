@@ -1,6 +1,12 @@
 ---
 title: メタルハンター１
 description: DQMVIのモンスター「メタルハンター１」のステータス。HP476 / こうげき131.04 / しゅび126 / 経験値274 / 55G。
+prev:
+  text: "ぼうれい剣士"
+  link: /monsters/boureikensi
+next:
+  text: "メタルハンター２"
+  link: /monsters/metaruhantaken
 ---
 
 # メタルハンター１

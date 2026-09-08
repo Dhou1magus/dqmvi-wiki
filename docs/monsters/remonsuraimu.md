@@ -1,6 +1,12 @@
 ---
 title: レモンスライム
 description: DQMVIのモンスター「レモンスライム」のステータス。HP20 / こうげき9 / しゅび1 / 経験値11 / 2G。
+prev:
+  text: "しましまキャット"
+  link: /monsters/simasimacat
+next:
+  text: "エビルアップル"
+  link: /monsters/ebiruapple
 ---
 
 # レモンスライム

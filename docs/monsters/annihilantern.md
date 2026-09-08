@@ -1,6 +1,12 @@
 ---
 title: まおうのランプ
 description: DQMVIのモンスター「まおうのランプ」のステータス。HP435 / こうげき128 / しゅび103 / 経験値264 / 56G。
+prev:
+  text: "ヘルプラネット"
+  link: /monsters/herupuranetto
+next:
+  text: "メタルスコーピオン"
+  link: /monsters/metarusukopion
 ---
 
 # まおうのランプ

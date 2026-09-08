@@ -1,6 +1,12 @@
 ---
 title: しりょう
 description: DQMVIのモンスター「しりょう」のステータス。HP378 / こうげき115.44 / しゅび120 / 経験値246 / 49G。
+prev:
+  text: "ブラッディハンド"
+  link: /monsters/buraddihando
+next:
+  text: "ベスキング"
+  link: /monsters/besuking
 ---
 
 # しりょう

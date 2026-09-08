@@ -1,6 +1,12 @@
 ---
 title: ムーンキメラ
 description: DQMVIのモンスター「ムーンキメラ」のステータス。HP2,683 / こうげき190 / しゅび129 / 経験値4,032 / 806G。
+prev:
+  text: "ワンダーエッグ"
+  link: /monsters/wonderegg
+next:
+  text: "シールドあにき"
+  link: /monsters/sirudoaniki
 ---
 
 # ムーンキメラ

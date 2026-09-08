@@ -1,6 +1,12 @@
 ---
 title: ダークホビット
 description: DQMVIのモンスター「ダークホビット」のステータス。HP1,725 / こうげき324.8 / しゅび256 / 経験値678 / 136G。
+prev:
+  text: "かげのきし"
+  link: /monsters/kagenokisi
+next:
+  text: "アカイライ"
+  link: /monsters/akairai
 ---
 
 # ダークホビット

@@ -1,6 +1,12 @@
 ---
 title: フロストギズモ1
 description: DQMVIのモンスター「フロストギズモ1」のステータス。HP78 / こうげき48 / しゅび37 / 経験値83 / 17G。
+prev:
+  text: "ブリザード"
+  link: /monsters/burizado
+next:
+  text: "フロストギズモ2"
+  link: /monsters/furosutogizumo
 ---
 
 # フロストギズモ1

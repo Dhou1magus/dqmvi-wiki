@@ -1,6 +1,12 @@
 ---
 title: じんめんちょう
 description: DQMVIのモンスター「じんめんちょう」のステータス。HP15 / こうげき6 / しゅび3 / 経験値9 / 2G。
+prev:
+  text: "おおがらす"
+  link: /monsters/big_crow
+next:
+  text: "ボックススライムブルー"
+  link: /monsters/boxsuraimu_ao
 ---
 
 # じんめんちょう

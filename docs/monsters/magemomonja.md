@@ -1,6 +1,12 @@
 ---
 title: メイジももんじゃ
 description: DQMVIのモンスター「メイジももんじゃ」のステータス。HP984 / こうげき146.64 / しゅび116 / 経験値324 / 65G。
+prev:
+  text: "じごくのハサミ"
+  link: /monsters/jigokunohasami
+next:
+  text: "ベホマスライム"
+  link: /monsters/behomasuraimu
 ---
 
 # メイジももんじゃ

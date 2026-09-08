@@ -1,6 +1,12 @@
 ---
 title: ヒートギズモ2
 description: DQMVIのモンスター「ヒートギズモ2」のステータス。HP494 / こうげき134.16 / しゅび98 / 経験値253 / 51G。
+prev:
+  text: "ヒートギズモ1"
+  link: /monsters/hgizumo
+next:
+  text: "じごくのつかい"
+  link: /monsters/jigokunotukai
 ---
 
 # ヒートギズモ2

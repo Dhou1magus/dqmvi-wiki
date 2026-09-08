@@ -1,6 +1,12 @@
 ---
 title: じめじめバブル
 description: DQMVIのモンスター「じめじめバブル」のステータス。HP74 / こうげき46 / しゅび40 / 経験値77 / 18G。
+prev:
+  text: "スパイクヘッド"
+  link: /monsters/supaikuheddo
+next:
+  text: "シャイニング"
+  link: /monsters/shainingu
 ---
 
 # じめじめバブル

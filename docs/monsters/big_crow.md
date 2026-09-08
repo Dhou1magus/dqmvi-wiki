@@ -1,6 +1,12 @@
 ---
 title: おおがらす
 description: DQMVIのモンスター「おおがらす」のステータス。HP13 / こうげき5 / しゅび1 / 経験値7 / 1G。
+prev:
+  text: "ぶちスライム"
+  link: /monsters/butisuraimu
+next:
+  text: "じんめんちょう"
+  link: /monsters/zinmentyou
 ---
 
 # おおがらす

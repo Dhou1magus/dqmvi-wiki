@@ -1,6 +1,12 @@
 ---
 title: ピクシー
 description: DQMVIのモンスター「ピクシー」のステータス。HP45 / こうげき26.23 / しゅび15 / 経験値41 / 8G。
+prev:
+  text: "黄泉の花"
+  link: /monsters/yominohana
+next:
+  text: "デスフラッター"
+  link: /monsters/deathflutter2
 ---
 
 # ピクシー

@@ -1,6 +1,12 @@
 ---
 title: エビルプラント
 description: DQMVIのモンスター「エビルプラント」のステータス。HP588 / こうげき168.48 / しゅび122 / 経験値311 / 64G。
+prev:
+  text: "ダークネビュラス"
+  link: /monsters/dakunepyurasu
+next:
+  text: "ベルザブル"
+  link: /monsters/berusaburu
 ---
 
 # エビルプラント

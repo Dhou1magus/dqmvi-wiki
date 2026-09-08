@@ -1,6 +1,12 @@
 ---
 title: マーブルン
 description: DQMVIのモンスター「マーブルン」のステータス。HP264 / こうげき22 / しゅび22 / 経験値346 / 69G。
+prev:
+  text: "マル"
+  link: /monsters/maru
+next:
+  text: "チョコヌーバ"
+  link: /monsters/tyokonuba
 ---
 
 # マーブルン

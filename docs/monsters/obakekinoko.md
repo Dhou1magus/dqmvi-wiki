@@ -1,6 +1,12 @@
 ---
 title: おばけきのこ
 description: DQMVIのモンスター「おばけきのこ」のステータス。HP25 / こうげき10 / しゅび1 / 経験値12 / 2G。
+prev:
+  text: "ギズモ1"
+  link: /monsters/gizumo_az
+next:
+  text: "ももんじゃ"
+  link: /monsters/momonja
 ---
 
 # おばけきのこ

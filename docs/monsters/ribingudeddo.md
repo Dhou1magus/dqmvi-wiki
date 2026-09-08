@@ -1,6 +1,12 @@
 ---
 title: リビングデッド
 description: DQMVIのモンスター「リビングデッド」のステータス。HP155 / こうげき52 / しゅび22 / 経験値110 / 12G。
+prev:
+  text: "さんぞくウーパー"
+  link: /monsters/sanzokuupa
+next:
+  text: "パプリカン"
+  link: /monsters/papurikan
 ---
 
 # リビングデッド

@@ -1,6 +1,12 @@
 ---
 title: キングスライム
 description: DQMVIのモンスター「キングスライム」のステータス。HP385 / こうげき117.52 / しゅび112 / 経験値241 / 48G。
+prev:
+  text: "デッドペッカー"
+  link: /monsters/deddopekka
+next:
+  text: "ブラッディハンド"
+  link: /monsters/buraddihando
 ---
 
 # キングスライム

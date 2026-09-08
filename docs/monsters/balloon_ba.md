@@ -1,6 +1,12 @@
 ---
 title: バルンバ
 description: DQMVIのモンスター「バルンバ」のステータス。HP546 / こうげき171 / しゅび111 / 経験値335 / 61G。
+prev:
+  text: "ヘルクラッシャー"
+  link: /monsters/herukurassya
+next:
+  text: "サタンメイル"
+  link: /monsters/satanmeiru
 ---
 
 # バルンバ

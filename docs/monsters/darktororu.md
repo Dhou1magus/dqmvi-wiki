@@ -1,6 +1,12 @@
 ---
 title: ダークトロル
 description: DQMVIのモンスター「ダークトロル」のステータス。HP2,700 / こうげき420 / しゅび186 / 経験値788 / 158G。
+prev:
+  text: "デンガー"
+  link: /monsters/denga
+next:
+  text: "ダークナイト"
+  link: /monsters/dakunaito
 ---
 
 # ダークトロル

@@ -1,6 +1,12 @@
 ---
 title: さんぞくウーパー
 description: DQMVIのモンスター「さんぞくウーパー」のステータス。HP90 / こうげき43 / しゅび45 / 経験値95 / 22G。
+prev:
+  text: "レッドマーマン"
+  link: /monsters/redmerman
+next:
+  text: "リビングデッド"
+  link: /monsters/ribingudeddo
 ---
 
 # さんぞくウーパー

@@ -1,6 +1,12 @@
 ---
 title: パンドラチェスト
 description: DQMVIのモンスター「パンドラチェスト」のステータス。HP99 / こうげき58 / しゅび42 / 経験値90 / 20G。
+prev:
+  text: "リビングハンマー"
+  link: /monsters/living_hammer
+next:
+  text: "凶スライム"
+  link: /monsters/kyouslime
 ---
 
 # パンドラチェスト

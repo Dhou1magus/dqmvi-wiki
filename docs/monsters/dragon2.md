@@ -1,6 +1,12 @@
 ---
 title: ドラゴン
 description: DQMVIのモンスター「ドラゴン」のステータス。HP183 / こうげき73 / しゅび55 / 経験値152 / 33G。
+prev:
+  text: "スカルゴン"
+  link: /monsters/skalgon
+next:
+  text: "うらぎりこぞう"
+  link: /monsters/uragirikozou2
 ---
 
 # ドラゴン

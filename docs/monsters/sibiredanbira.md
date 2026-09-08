@@ -1,6 +1,12 @@
 ---
 title: しびれだんびら
 description: DQMVIのモンスター「しびれだんびら」のステータス。HP180 / こうげき97.98 / しゅび72 / 経験値169 / 34G。
+prev:
+  text: "がいこつ"
+  link: /monsters/gaikotu
+next:
+  text: "あくまのツボ"
+  link: /monsters/akumanotubo
 ---
 
 # しびれだんびら

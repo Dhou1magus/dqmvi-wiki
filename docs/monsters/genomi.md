@@ -1,6 +1,12 @@
 ---
 title: ゲノミー
 description: DQMVIのモンスター「ゲノミー」のステータス。HP873 / こうげき125 / しゅび84 / 経験値1,804 / 361G。
+prev:
+  text: "呪いの岩"
+  link: /monsters/noroinoiwa
+next:
+  text: "ミケまどう"
+  link: /monsters/mikemadou
 ---
 
 # ゲノミー

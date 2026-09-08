@@ -1,6 +1,12 @@
 ---
 title: チョコヌーバ
 description: DQMVIのモンスター「チョコヌーバ」のステータス。HP229 / こうげき29 / しゅび16 / 経験値324 / 65G。
+prev:
+  text: "マーブルン"
+  link: /monsters/maaburun
+next:
+  text: "タッチャン"
+  link: /monsters/tattyan
 ---
 
 # チョコヌーバ

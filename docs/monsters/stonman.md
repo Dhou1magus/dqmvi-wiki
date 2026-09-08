@@ -1,6 +1,12 @@
 ---
 title: ストーンマン
 description: DQMVIのモンスター「ストーンマン」のステータス。HP2,580 / こうげき361.2 / しゅび261 / 経験値792 / 158G。
+prev:
+  text: "キラーアーマー"
+  link: /monsters/kiraama
+next:
+  text: "ギガンテス"
+  link: /monsters/gigantesu
 ---
 
 # ストーンマン

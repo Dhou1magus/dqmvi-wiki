@@ -1,6 +1,12 @@
 ---
 title: しましまキャット
 description: DQMVIのモンスター「しましまキャット」のステータス。HP15 / こうげき5 / しゅび1 / 経験値7 / 1G。
+prev:
+  text: "いたずらもぐら"
+  link: /monsters/itamogu
+next:
+  text: "レモンスライム"
+  link: /monsters/remonsuraimu
 ---
 
 # しましまキャット

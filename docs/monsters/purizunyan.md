@@ -1,6 +1,12 @@
 ---
 title: プリズニャン
 description: DQMVIのモンスター「プリズニャン」のステータス。HP75 / こうげき42 / しゅび30 / 経験値72 / 14G。
+prev:
+  text: "メタルブラザーズ"
+  link: /monsters/metaruburazazu
+next:
+  text: "わらいぶくろ"
+  link: /monsters/waraibukuro
 ---
 
 # プリズニャン

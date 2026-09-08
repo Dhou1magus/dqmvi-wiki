@@ -1,6 +1,12 @@
 ---
 title: リビングハンマー
 description: DQMVIのモンスター「リビングハンマー」のステータス。HP151 / こうげき78 / しゅび38 / 経験値114 / 26G。
+prev:
+  text: "プリンスライム"
+  link: /monsters/puddingslime
+next:
+  text: "パンドラチェスト"
+  link: /monsters/tansu_pandora
 ---
 
 # リビングハンマー

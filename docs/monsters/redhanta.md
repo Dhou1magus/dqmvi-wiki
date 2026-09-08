@@ -1,6 +1,12 @@
 ---
 title: レッドハンター
 description: DQMVIのモンスター「レッドハンター」のステータス。HP70 / こうげき35 / しゅび18 / 経験値62 / 11G。
+prev:
+  text: "ハエおとこ"
+  link: /monsters/heotoko
+next:
+  text: "スケアフレイル"
+  link: /monsters/sukeafureiru
 ---
 
 # レッドハンター

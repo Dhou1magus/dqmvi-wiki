@@ -1,6 +1,12 @@
 ---
 title: じごくのきし
 description: DQMVIのモンスター「じごくのきし」のステータス。HP1,202 / こうげき165 / しゅび134 / 経験値454 / 91G。
+prev:
+  text: "エクソダス"
+  link: /monsters/ekusodasu
+next:
+  text: "スノードラゴン"
+  link: /monsters/snow_dragon
 ---
 
 # じごくのきし

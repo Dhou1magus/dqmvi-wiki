@@ -1,6 +1,12 @@
 ---
 title: ひとくい箱
 description: DQMVIのモンスター「ひとくい箱」のステータス。HP184 / こうげき105.08 / しゅび82 / 経験値185 / 37G。
+prev:
+  text: "強スライム"
+  link: /monsters/sura2
+next:
+  text: "マリンスライム"
+  link: /monsters/marinsuraimu
 ---
 
 # ひとくい箱

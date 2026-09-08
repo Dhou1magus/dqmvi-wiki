@@ -1,6 +1,12 @@
 ---
 title: バーガースライム
 description: DQMVIのモンスター「バーガースライム」のステータス。HP58 / こうげき30 / しゅび16 / 経験値52 / 11G。
+prev:
+  text: "スライムフェアリー"
+  link: /monsters/suraimu_feari
+next:
+  text: "しっぽ団のももんじゃ"
+  link: /monsters/platypunk_shippodan
 ---
 
 # バーガースライム

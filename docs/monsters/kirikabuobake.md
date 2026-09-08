@@ -1,6 +1,12 @@
 ---
 title: きりかぶおばけ
 description: DQMVIのモンスター「きりかぶおばけ」のステータス。HP40 / こうげき23.04 / しゅび18 / 経験値41 / 8G。
+prev:
+  text: "ドラゴスライム"
+  link: /monsters/dragosuraimu
+next:
+  text: "おおきづち"
+  link: /monsters/ookiduti
 ---
 
 # きりかぶおばけ

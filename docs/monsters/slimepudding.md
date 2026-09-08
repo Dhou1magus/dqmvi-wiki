@@ -1,6 +1,12 @@
 ---
 title: スライムプディング
 description: DQMVIのモンスター「スライムプディング」のステータス。HP191 / こうげき88 / しゅび72 / 経験値172 / 29G。
+prev:
+  text: "チョコタワー"
+  link: /monsters/chocotower
+next:
+  text: "デビルアンカー"
+  link: /monsters/devil_anchor
 ---
 
 # スライムプディング

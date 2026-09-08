@@ -1,6 +1,12 @@
 ---
 title: どくどくゾンビ
 description: DQMVIのモンスター「どくどくゾンビ」のステータス。HP555 / こうげき122 / しゅび77 / 経験値252 / 33G。
+prev:
+  text: "ザバン"
+  link: /monsters/zaban
+next:
+  text: "ダークネビュラス"
+  link: /monsters/dakunepyurasu
 ---
 
 # どくどくゾンビ

@@ -1,6 +1,12 @@
 ---
 title: リップス
 description: DQMVIのモンスター「リップス」のステータス。HP18 / こうげき9 / しゅび1 / 経験値11 / 2G。
+prev:
+  text: "いっかくうさぎ"
+  link: /monsters/ikkakuusagi
+next:
+  text: "いたずらもぐら"
+  link: /monsters/itamogu
 ---
 
 # リップス

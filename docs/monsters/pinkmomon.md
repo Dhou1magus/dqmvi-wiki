@@ -1,6 +1,12 @@
 ---
 title: ピンクモーモン
 description: DQMVIのモンスター「ピンクモーモン」のステータス。HP55 / こうげき28.98 / しゅび16 / 経験値45 / 9G。
+prev:
+  text: "ひとくいが"
+  link: /monsters/hitokuiga
+next:
+  text: "しびれくらげ"
+  link: /monsters/sibirekurage
 ---
 
 # ピンクモーモン

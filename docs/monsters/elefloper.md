@@ -1,6 +1,12 @@
 ---
 title: エレフローパー
 description: DQMVIのモンスター「エレフローパー」のステータス。HP517 / こうげき139 / しゅび117 / 経験値287 / 57G。
+prev:
+  text: "テンタクルス"
+  link: /monsters/tentacles
+next:
+  text: "ザバン"
+  link: /monsters/zaban
 ---
 
 # エレフローパー

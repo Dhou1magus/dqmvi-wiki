@@ -1,6 +1,12 @@
 ---
 title: ソーラー
 description: DQMVIのモンスター「ソーラー」のステータス。HP1,256 / こうげき167 / しゅび142 / 経験値422 / 92G。
+prev:
+  text: "フーラー"
+  link: /monsters/fura
+next:
+  text: "グレートジンガー"
+  link: /monsters/guretosinga
 ---
 
 # ソーラー

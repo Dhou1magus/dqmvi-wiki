@@ -1,6 +1,12 @@
 ---
 title: まじゅつし
 description: DQMVIのモンスター「まじゅつし」のステータス。HP45 / こうげき23.76 / しゅび14 / 経験値38 / 8G。
+prev:
+  text: "ボックススライムレッド"
+  link: /monsters/boxsuraimu_aka
+next:
+  text: "メランザーナ"
+  link: /monsters/meranzana
 ---
 
 # まじゅつし

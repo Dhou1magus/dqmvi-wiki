@@ -1,6 +1,12 @@
 ---
 title: マクロベータ
 description: DQMVIのモンスター「マクロベータ」のステータス。HP1,322 / こうげき155 / しゅび116 / 経験値453 / 90G。
+prev:
+  text: "ろうごくのぬし"
+  link: /monsters/rougokunonusi
+next:
+  text: "オーラー"
+  link: /monsters/ora
 ---
 
 # マクロベータ

@@ -1,6 +1,12 @@
 ---
 title: ドラゴンゾンビ
 description: DQMVIのモンスター「ドラゴンゾンビ」のステータス。HP197 / こうげき98 / しゅび82 / 経験値171 / 34G。
+prev:
+  text: "スカイドラゴン"
+  link: /monsters/skydragon
+next:
+  text: "キースドラゴン"
+  link: /monsters/keethdragon2
 ---
 
 # ドラゴンゾンビ

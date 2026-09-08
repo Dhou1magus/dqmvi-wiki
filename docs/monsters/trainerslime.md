@@ -1,6 +1,12 @@
 ---
 title: トレーナースライム
 description: DQMVIのモンスター「トレーナースライム」のステータス。HP574 / こうげき149 / しゅび116 / 経験値303 / 65G。
+prev:
+  text: "メタルスコーピオン"
+  link: /monsters/metarusukopion
+next:
+  text: "黒怨王"
+  link: /monsters/kokuenou
 ---
 
 # トレーナースライム

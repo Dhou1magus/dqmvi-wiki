@@ -1,6 +1,12 @@
 ---
 title: トラップボックス
 description: DQMVIのモンスター「トラップボックス」のステータス。HP87 / こうげき46 / しゅび36 / 経験値82 / 16G。
+prev:
+  text: "しっぽ団のダックスビル"
+  link: /monsters/platypunk_duckbill
+next:
+  text: "キラーピッケル"
+  link: /monsters/kirapike
 ---
 
 # トラップボックス

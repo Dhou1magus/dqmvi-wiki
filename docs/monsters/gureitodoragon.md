@@ -1,6 +1,12 @@
 ---
 title: グレイトドラゴン
 description: DQMVIのモンスター「グレイトドラゴン」のステータス。HP1,550 / こうげき255 / しゅび172 / 経験値550 / 102G。
+prev:
+  text: "キングレオⅡ"
+  link: /monsters/kingreo2
+next:
+  text: "あくまのきし"
+  link: /monsters/akumanokisi
 ---
 
 # グレイトドラゴン

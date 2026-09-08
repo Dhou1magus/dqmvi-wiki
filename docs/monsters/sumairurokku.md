@@ -1,6 +1,12 @@
 ---
 title: スマイルロック
 description: DQMVIのモンスター「スマイルロック」のステータス。HP444 / こうげき124.8 / しゅび109 / 経験値250 / 50G。
+prev:
+  text: "ビッグハンマー"
+  link: /monsters/bighanma
+next:
+  text: "ツボック"
+  link: /monsters/tubokku
 ---
 
 # スマイルロック

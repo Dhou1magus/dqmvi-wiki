@@ -1,6 +1,12 @@
 ---
 title: ギズモ2
 description: DQMVIのモンスター「ギズモ2」のステータス。HP22 / こうげき10 / しゅび1 / 経験値12 / 2G。
+prev:
+  text: "ファーラット"
+  link: /monsters/faratto
+next:
+  text: "スライムベス"
+  link: /monsters/suraimubesu
 ---
 
 # ギズモ2

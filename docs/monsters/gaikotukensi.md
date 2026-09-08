@@ -1,6 +1,12 @@
 ---
 title: がいこつけんし
 description: DQMVIのモンスター「がいこつけんし」のステータス。HP329 / こうげき107.12 / しゅび110 / 経験値225 / 45G。
+prev:
+  text: "ドールマスター"
+  link: /monsters/dollmaster
+next:
+  text: "ばくだんいわ"
+  link: /monsters/bakudaniwa
 ---
 
 # がいこつけんし

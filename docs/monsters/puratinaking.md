@@ -1,6 +1,12 @@
 ---
 title: プラチナキング
 description: DQMVIのモンスター「プラチナキング」のステータス。HP65 / こうげき169.2 / しゅび10,000 / 経験値150,000 / 500G。
+prev:
+  text: "ダイヤモンドスライム"
+  link: /monsters/daiyamondosuraimu
+next:
+  text: "キラーマシン"
+  link: /monsters/kiramasin
 ---
 
 # プラチナキング

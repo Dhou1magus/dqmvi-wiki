@@ -1,6 +1,12 @@
 ---
 title: ホーリーキング
 description: DQMVIのモンスター「ホーリーキング」のステータス。
+prev:
+  text: "どぐう戦士"
+  link: /monsters/dgu_fighter
+next:
+  text: "デスマシーン"
+  link: /monsters/slaughtomaton
 ---
 
 # ホーリーキング

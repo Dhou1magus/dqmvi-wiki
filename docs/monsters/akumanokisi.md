@@ -1,6 +1,12 @@
 ---
 title: あくまのきし
 description: DQMVIのモンスター「あくまのきし」のステータス。HP1,521 / こうげき266 / しゅび182 / 経験値542 / 98G。
+prev:
+  text: "グレイトドラゴン"
+  link: /monsters/gureitodoragon
+next:
+  text: "ごくらくちょう"
+  link: /monsters/gokurakuchou
 ---
 
 # あくまのきし

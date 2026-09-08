@@ -1,6 +1,12 @@
 ---
 title: ぼうれい剣士
 description: DQMVIのモンスター「ぼうれい剣士」のステータス。HP490 / こうげき127.92 / しゅび123 / 経験値270 / 54G。
+prev:
+  text: "メタルライダー"
+  link: /monsters/metaruraida
+next:
+  text: "メタルハンター１"
+  link: /monsters/metaruhanta
 ---
 
 # ぼうれい剣士

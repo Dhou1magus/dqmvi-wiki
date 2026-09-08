@@ -1,6 +1,12 @@
 ---
 title: ピンキーマッシュ
 description: DQMVIのモンスター「ピンキーマッシュ」のステータス。HP187 / こうげき75 / しゅび64 / 経験値144 / 30G。
+prev:
+  text: "ダーティードール"
+  link: /monsters/da_thi_do_ru
+next:
+  text: "スピンサタン"
+  link: /monsters/supinsatan
 ---
 
 # ピンキーマッシュ

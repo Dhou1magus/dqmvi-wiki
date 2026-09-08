@@ -1,6 +1,12 @@
 ---
 title: しにがみ
 description: DQMVIのモンスター「しにがみ」のステータス。HP145 / こうげき66 / しゅび33 / 経験値105 / 22G。
+prev:
+  text: "シャーマン"
+  link: /monsters/syaman
+next:
+  text: "ベンガルクーン"
+  link: /monsters/bengarukun
 ---
 
 # しにがみ

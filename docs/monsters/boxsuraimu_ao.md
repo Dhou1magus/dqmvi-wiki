@@ -1,6 +1,12 @@
 ---
 title: ボックススライムブルー
 description: DQMVIのモンスター「ボックススライムブルー」のステータス。HP15 / こうげき10 / しゅび3 / 経験値13 / 3G。
+prev:
+  text: "じんめんちょう"
+  link: /monsters/zinmentyou
+next:
+  text: "ナスビナーラ"
+  link: /monsters/nasubira
 ---
 
 # ボックススライムブルー

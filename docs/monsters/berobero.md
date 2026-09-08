@@ -1,6 +1,12 @@
 ---
 title: ベロベロ
 description: DQMVIのモンスター「ベロベロ」のステータス。HP80 / こうげき45.2 / しゅび38 / 経験値82 / 16G。
+prev:
+  text: "ベホイミスライム"
+  link: /monsters/behoimisuraimu
+next:
+  text: "アニマルゾンビ"
+  link: /monsters/animaruzonbi
 ---
 
 # ベロベロ

@@ -1,6 +1,12 @@
 ---
 title: ニードルマン
 description: DQMVIのモンスター「ニードルマン」のステータス。HP56 / こうげき33 / しゅび18 / 経験値52 / 11G。
+prev:
+  text: "デビルアーマー"
+  link: /monsters/debiruaamaa
+next:
+  text: "ぬかどこスライム"
+  link: /monsters/pickledslime
 ---
 
 # ニードルマン

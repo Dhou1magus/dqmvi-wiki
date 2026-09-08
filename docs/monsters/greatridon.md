@@ -1,6 +1,12 @@
 ---
 title: グレイトライドン
 description: DQMVIのモンスター「グレイトライドン」のステータス。HP521 / こうげき123 / しゅび112 / 経験値298 / 60G。
+prev:
+  text: "クイーンマチルダ"
+  link: /monsters/kuinmatiruda
+next:
+  text: "スカルドン"
+  link: /monsters/skuldon
 ---
 
 # グレイトライドン

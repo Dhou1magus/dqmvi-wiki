@@ -1,6 +1,12 @@
 ---
 title: プヨンターゲット
 description: DQMVIのモンスター「プヨンターゲット」のステータス。HP944 / こうげき153.69 / しゅび124 / 経験値335 / 67G。
+prev:
+  text: "ベホマスライム"
+  link: /monsters/behomasuraimu
+next:
+  text: "メガザルロック"
+  link: /monsters/megazarurokku
 ---
 
 # プヨンターゲット

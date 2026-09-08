@@ -1,6 +1,12 @@
 ---
 title: りゅうせんし
 description: DQMVIのモンスター「りゅうせんし」のステータス。HP145 / こうげき78 / しゅび39 / 経験値121 / 27G。
+prev:
+  text: "スラッピー"
+  link: /monsters/slabbit
+next:
+  text: "こんぺいとう"
+  link: /monsters/sugarstar_slime
 ---
 
 # りゅうせんし

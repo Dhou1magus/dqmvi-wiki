@@ -1,6 +1,12 @@
 ---
 title: カンダタこぶん
 description: DQMVIのモンスター「カンダタこぶん」のステータス。HP511 / こうげき127.92 / しゅび132 / 経験値280 / 56G。
+prev:
+  text: "メタルハンター２"
+  link: /monsters/metaruhantaken
+next:
+  text: "パンドラ木箱"
+  link: /monsters/pandorakibako
 ---
 
 # カンダタこぶん

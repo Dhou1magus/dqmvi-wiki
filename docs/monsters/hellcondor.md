@@ -1,6 +1,12 @@
 ---
 title: ヘルコンドル
 description: DQMVIのモンスター「ヘルコンドル」のステータス。HP120 / こうげき66 / しゅび42 / 経験値120 / 23G。
+prev:
+  text: "プチアーノン"
+  link: /monsters/putianon
+next:
+  text: "トマトマーレ"
+  link: /monsters/tomatomare
 ---
 
 # ヘルコンドル

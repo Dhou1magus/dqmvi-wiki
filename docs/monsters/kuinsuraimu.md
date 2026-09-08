@@ -1,6 +1,12 @@
 ---
 title: クイーンスライム
 description: DQMVIのモンスター「クイーンスライム」のステータス。HP2,025 / こうげき319.2 / しゅび198 / 経験値648 / 130G。
+prev:
+  text: "うらぎりこぞう"
+  link: /monsters/uragirikozou
+next:
+  text: "マグマロン"
+  link: /monsters/magumaron
 ---
 
 # クイーンスライム

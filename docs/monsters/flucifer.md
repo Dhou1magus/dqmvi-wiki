@@ -1,6 +1,10 @@
 ---
 title: 大魔王オン・ゾ・エーグ
 description: DQMVIのモンスター「大魔王オン・ゾ・エーグ」のステータス。
+prev:
+  text: "はぐれメタルキング"
+  link: /monsters/haguremetaruking
+next: false
 ---
 
 # 大魔王オン・ゾ・エーグ

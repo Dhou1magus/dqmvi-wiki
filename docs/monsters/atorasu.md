@@ -1,6 +1,12 @@
 ---
 title: アトラス
 description: DQMVIのモンスター「アトラス」のステータス。HP5,713 / こうげき345 / しゅび167 / 経験値7,650 / 1,530G。
+prev:
+  text: "ゴードンヘッド"
+  link: /monsters/godonheddo
+next:
+  text: "グランシーザー"
+  link: /monsters/guransiza
 ---
 
 # アトラス

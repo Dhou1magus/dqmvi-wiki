@@ -1,6 +1,12 @@
 ---
 title: クイーンマチルダ
 description: DQMVIのモンスター「クイーンマチルダ」のステータス。HP469 / こうげき125 / しゅび126 / 経験値243 / 49G。
+prev:
+  text: "デーモンスピリット"
+  link: /monsters/demonspirit
+next:
+  text: "グレイトライドン"
+  link: /monsters/greatridon
 ---
 
 # クイーンマチルダ

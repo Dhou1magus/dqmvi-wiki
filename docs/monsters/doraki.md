@@ -1,6 +1,12 @@
 ---
 title: ドラキー
 description: DQMVIのモンスター「ドラキー」のステータス。HP38 / こうげき23.04 / しゅび12 / 経験値35 / 7G。
+prev:
+  text: "おおめだま"
+  link: /monsters/oomedama
+next:
+  text: "ゴースト"
+  link: /monsters/ghost
 ---
 
 # ドラキー

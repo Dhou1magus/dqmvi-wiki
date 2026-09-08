@@ -1,6 +1,12 @@
 ---
 title: ケダモン
 description: DQMVIのモンスター「ケダモン」のステータス。HP178 / こうげき73.84 / しゅび66 / 経験値142 / 28G。
+prev:
+  text: "ホロゴースト"
+  link: /monsters/horoghost
+next:
+  text: "ガメゴン"
+  link: /monsters/gamegon
 ---
 
 # ケダモン

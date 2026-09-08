@@ -1,6 +1,12 @@
 ---
 title: トロル
 description: DQMVIのモンスター「トロル」のステータス。HP679 / こうげき157.04 / しゅび94 / 経験値287 / 57G。
+prev:
+  text: "パンドラ木箱"
+  link: /monsters/pandorakibako
+next:
+  text: "ドルイド"
+  link: /monsters/doruido
 ---
 
 # トロル

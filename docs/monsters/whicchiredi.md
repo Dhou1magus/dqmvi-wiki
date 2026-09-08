@@ -1,6 +1,12 @@
 ---
 title: ウィッチレディ
 description: DQMVIのモンスター「ウィッチレディ」のステータス。HP50 / こうげき22 / しゅび13 / 経験値47 / 11G。
+prev:
+  text: "しっぽ団のももんじゃ"
+  link: /monsters/platypunk_shippodan
+next:
+  text: "おおさそり"
+  link: /monsters/big_scorpion
 ---
 
 # ウィッチレディ

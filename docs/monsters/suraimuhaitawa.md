@@ -1,6 +1,12 @@
 ---
 title: スライムカラー
 description: DQMVIのモンスター「スライムカラー」のステータス。HP872 / こうげき173.43 / しゅび135 / 経験値356 / 71G。
+prev:
+  text: "ダークスライム"
+  link: /monsters/darkslime
+next:
+  text: "ガニラス"
+  link: /monsters/ganirasu
 ---
 
 # スライムカラー

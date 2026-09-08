@@ -1,6 +1,12 @@
 ---
 title: マル
 description: DQMVIのモンスター「マル」のステータス。HP24 / こうげき10 / しゅび2 / 経験値13 / 3G。
+prev:
+  text: "スライムタール"
+  link: /monsters/slimetar
+next:
+  text: "マーブルン"
+  link: /monsters/maaburun
 ---
 
 # マル

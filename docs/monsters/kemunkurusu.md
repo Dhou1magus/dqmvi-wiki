@@ -1,6 +1,12 @@
 ---
 title: ケムンクルス
 description: DQMVIのモンスター「ケムンクルス」のステータス。HP848 / こうげき142.41 / しゅび122 / 経験値314 / 63G。
+prev:
+  text: "ホタテワラビー"
+  link: /monsters/hotatewarabi
+next:
+  text: "アックスドラゴン"
+  link: /monsters/axedoragon
 ---
 
 # ケムンクルス

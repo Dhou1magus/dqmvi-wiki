@@ -1,6 +1,12 @@
 ---
 title: ヘルクラッシャー
 description: DQMVIのモンスター「ヘルクラッシャー」のステータス。HP621 / こうげき162 / しゅび124 / 経験値320 / 64G。
+prev:
+  text: "ネコノマンサー"
+  link: /monsters/nekonomansa
+next:
+  text: "バルンバ"
+  link: /monsters/balloon_ba
 ---
 
 # ヘルクラッシャー

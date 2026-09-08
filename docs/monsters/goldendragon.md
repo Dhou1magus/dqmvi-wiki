@@ -1,6 +1,12 @@
 ---
 title: ゴールデンドラゴン
 description: DQMVIのモンスター「ゴールデンドラゴン」のステータス。HP1,319 / こうげき204 / しゅび161 / 経験値496 / 99G。
+prev:
+  text: "バラモスゾンビ"
+  link: /monsters/baramoszombie
+next:
+  text: "根絶やしの竜"
+  link: /monsters/nedayashinoryu
 ---
 
 # ゴールデンドラゴン

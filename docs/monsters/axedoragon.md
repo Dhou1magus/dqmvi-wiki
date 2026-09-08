@@ -1,6 +1,12 @@
 ---
 title: アックスドラゴン
 description: DQMVIのモンスター「アックスドラゴン」のステータス。HP1,152 / こうげき157.92 / しゅび135 / 経験値368 / 74G。
+prev:
+  text: "ケムンクルス"
+  link: /monsters/kemunkurusu
+next:
+  text: "じごくのハサミ"
+  link: /monsters/jigokunohasami
 ---
 
 # アックスドラゴン

@@ -1,6 +1,12 @@
 ---
 title: ポムポムボム
 description: DQMVIのモンスター「ポムポムボム」のステータス。HP968 / こうげき188.94 / しゅび139 / 経験値382 / 76G。
+prev:
+  text: "デスジャッカル"
+  link: /monsters/desujakkaru
+next:
+  text: "ブラッドソード"
+  link: /monsters/buraddosodo
 ---
 
 # ポムポムボム

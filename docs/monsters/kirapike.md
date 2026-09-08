@@ -1,6 +1,12 @@
 ---
 title: キラーピッケル
 description: DQMVIのモンスター「キラーピッケル」のステータス。HP1,309 / こうげき110 / しゅび88 / 経験値2,120 / 424G。
+prev:
+  text: "トラップボックス"
+  link: /monsters/torappubokkusu
+next:
+  text: "とげこんぼう"
+  link: /monsters/togekonbou
 ---
 
 # キラーピッケル

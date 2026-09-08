@@ -1,6 +1,12 @@
 ---
 title: メタルブラザーズ
 description: DQMVIのモンスター「メタルブラザーズ」のステータス。HP8 / こうげき19.8 / しゅび10,000 / 経験値3,300 / 50G。
+prev:
+  text: "メタルパール"
+  link: /monsters/metalpearl
+next:
+  text: "プリズニャン"
+  link: /monsters/purizunyan
 ---
 
 # メタルブラザーズ

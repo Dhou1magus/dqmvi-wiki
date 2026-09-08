@@ -1,6 +1,12 @@
 ---
 title: ようがんまじん
 description: DQMVIのモンスター「ようがんまじん」のステータス。HP556 / こうげき138.32 / しゅび123 / 経験値285 / 57G。
+prev:
+  text: "マネマネ"
+  link: /monsters/manemane
+next:
+  text: "ヒートギズモ1"
+  link: /monsters/hgizumo
 ---
 
 # ようがんまじん

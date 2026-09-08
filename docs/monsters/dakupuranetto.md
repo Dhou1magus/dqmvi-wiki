@@ -1,6 +1,12 @@
 ---
 title: ダークプラネット
 description: DQMVIのモンスター「ダークプラネット」のステータス。HP123 / こうげき42 / しゅび27 / 経験値133 / 24G。
+prev:
+  text: "マッスルアニマル"
+  link: /monsters/masuruanimaru
+next:
+  text: "シャーマン"
+  link: /monsters/syaman
 ---
 
 # ダークプラネット

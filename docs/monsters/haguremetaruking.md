@@ -1,6 +1,12 @@
 ---
 title: はぐれメタルキング
 description: DQMVIのモンスター「はぐれメタルキング」のステータス。HP135 / こうげき364 / しゅび10,000 / 経験値500,000 / 3,500G。
+prev:
+  text: "メタルスター"
+  link: /monsters/metalstar
+next:
+  text: "大魔王オン・ゾ・エーグ"
+  link: /monsters/flucifer
 ---
 
 # はぐれメタルキング

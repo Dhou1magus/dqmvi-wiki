@@ -1,6 +1,12 @@
 ---
 title: アスラ王
 description: DQMVIのモンスター「アスラ王」のステータス。HP2,963 / こうげき422 / しゅび250 / 経験値807 / 186G。
+prev:
+  text: "デスマーキュリー"
+  link: /monsters/desumakyuri
+next:
+  text: "エンゼルアーマー"
+  link: /monsters/enzeruaamaa
 ---
 
 # アスラ王

@@ -1,6 +1,12 @@
 ---
 title: ドールマスター
 description: DQMVIのモンスター「ドールマスター」のステータス。HP371 / こうげき109.2 / しゅび94 / 経験値216 / 43G。
+prev:
+  text: "バリイドドッグ"
+  link: /monsters/bariidodog
+next:
+  text: "がいこつけんし"
+  link: /monsters/gaikotukensi
 ---
 
 # ドールマスター

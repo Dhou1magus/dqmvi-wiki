@@ -1,6 +1,12 @@
 ---
 title: モビルボディ
 description: DQMVIのモンスター「モビルボディ」のステータス。HP199 / こうげき99 / しゅび83 / 経験値165 / 23G。
+prev:
+  text: "モビルレフト"
+  link: /monsters/mobirurefuto
+next:
+  text: "モビルライト"
+  link: /monsters/mobiruraito
 ---
 
 # モビルボディ

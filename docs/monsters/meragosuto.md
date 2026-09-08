@@ -1,6 +1,12 @@
 ---
 title: メラゴースト
 description: DQMVIのモンスター「メラゴースト」のステータス。HP36 / こうげき23.04 / しゅび11 / 経験値34 / 7G。
+prev:
+  text: "ゴースト"
+  link: /monsters/ghost
+next:
+  text: "おばけキャンドル"
+  link: /monsters/obakekyandoru
 ---
 
 # メラゴースト

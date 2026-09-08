@@ -1,6 +1,12 @@
 ---
 title: ダークペルシャ
 description: DQMVIのモンスター「ダークペルシャ」のステータス。HP188 / こうげき77 / しゅび61 / 経験値175 / 35G。
+prev:
+  text: "モビルフォース"
+  link: /monsters/mobirufosu
+next:
+  text: "オカルトビスク"
+  link: /monsters/okarutobisuku
 ---
 
 # ダークペルシャ

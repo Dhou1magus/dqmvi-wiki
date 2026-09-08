@@ -1,6 +1,12 @@
 ---
 title: ズッキーニャ
 description: DQMVIのモンスター「ズッキーニャ」のステータス。HP11 / こうげき3 / しゅび2 / 経験値5 / 1G。
+prev:
+  text: "スライム"
+  link: /monsters/sura
+next:
+  text: "モーモン"
+  link: /monsters/momon
 ---
 
 # ズッキーニャ

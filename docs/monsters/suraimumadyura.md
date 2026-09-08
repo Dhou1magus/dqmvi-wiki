@@ -1,6 +1,12 @@
 ---
 title: スライムマデュラ
 description: DQMVIのモンスター「スライムマデュラ」のステータス。HP1,695 / こうげき333.2 / しゅび275 / 経験値700 / 140G。
+prev:
+  text: "マッソ"
+  link: /monsters/masso
+next:
+  text: "シルバーマント"
+  link: /monsters/sirubamanto
 ---
 
 # スライムマデュラ

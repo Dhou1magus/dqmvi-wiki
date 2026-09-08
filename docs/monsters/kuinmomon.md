@@ -1,6 +1,12 @@
 ---
 title: クイーンモーモン
 description: DQMVIのモンスター「クイーンモーモン」のステータス。HP2,147 / こうげき200 / しゅび126 / 経験値3,506 / 701G。
+prev:
+  text: "伐採マシン"
+  link: /monsters/bassaimasin
+next:
+  text: "わんぱくサタン"
+  link: /monsters/wanpakusatan
 ---
 
 # クイーンモーモン

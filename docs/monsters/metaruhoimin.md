@@ -1,6 +1,12 @@
 ---
 title: メタルホイミン
 description: DQMVIのモンスター「メタルホイミン」のステータス。HP10 / こうげき42 / しゅび10,000 / 経験値6,500 / 75G。
+prev:
+  text: "ゴールドパール"
+  link: /monsters/goldpearl
+next:
+  text: "はぐれメタル"
+  link: /monsters/hagumeta
 ---
 
 # メタルホイミン

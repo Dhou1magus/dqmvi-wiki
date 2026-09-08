@@ -1,6 +1,12 @@
 ---
 title: ガチャコッコ
 description: DQMVIのモンスター「ガチャコッコ」のステータス。HP166 / こうげき55 / しゅび60 / 経験値145 / 30G。
+prev:
+  text: "メカバーン"
+  link: /monsters/mekaban
+next:
+  text: "ローズバトラー"
+  link: /monsters/rozubatora
 ---
 
 # ガチャコッコ

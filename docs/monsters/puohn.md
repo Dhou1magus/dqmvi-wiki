@@ -1,6 +1,12 @@
 ---
 title: プオーン
 description: DQMVIのモンスター「プオーン」のステータス。HP411 / こうげき121 / しゅび115 / 経験値261 / 47G。
+prev:
+  text: "まかいファイター"
+  link: /monsters/commandragor
+next:
+  text: "キラースター"
+  link: /monsters/killer_star
 ---
 
 # プオーン

@@ -1,6 +1,12 @@
 ---
 title: ドラゴンナイト
 description: DQMVIのモンスター「ドラゴンナイト」のステータス。HP574 / こうげき151.84 / しゅび136 / 経験値311 / 62G。
+prev:
+  text: "ゴーレム"
+  link: /monsters/goremu
+next:
+  text: "バアラック"
+  link: /monsters/barakku
 ---
 
 # ドラゴンナイト

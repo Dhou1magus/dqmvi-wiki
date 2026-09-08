@@ -1,6 +1,12 @@
 ---
 title: しびれくらげ
 description: DQMVIのモンスター「しびれくらげ」のステータス。HP53 / こうげき30.06 / しゅび15 / 経験値45 / 9G。
+prev:
+  text: "ピンクモーモン"
+  link: /monsters/pinkmomon
+next:
+  text: "アルミラージ"
+  link: /monsters/arumiraji
 ---
 
 # しびれくらげ

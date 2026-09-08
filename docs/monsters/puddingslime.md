@@ -1,6 +1,12 @@
 ---
 title: プリンスライム
 description: DQMVIのモンスター「プリンスライム」のステータス。HP160 / こうげき65 / しゅび35 / 経験値114 / 23G。
+prev:
+  text: "ホイップスライム"
+  link: /monsters/whipslime
+next:
+  text: "リビングハンマー"
+  link: /monsters/living_hammer
 ---
 
 # プリンスライム

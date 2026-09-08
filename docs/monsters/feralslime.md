@@ -1,6 +1,12 @@
 ---
 title: ジャングラー
 description: DQMVIのモンスター「ジャングラー」のステータス。HP23 / こうげき10 / しゅび2 / 経験値14 / 3G。
+prev:
+  text: "はさみくわがた"
+  link: /monsters/scissorbeatle
+next:
+  text: "びっくりサタン"
+  link: /monsters/bikkurisatan
 ---
 
 # ジャングラー

@@ -1,6 +1,12 @@
 ---
 title: ゴールデンコーン
 description: DQMVIのモンスター「ゴールデンコーン」のステータス。HP491 / こうげき79 / しゅび49 / 経験値841 / 168G。
+prev:
+  text: "アルケミストン"
+  link: /monsters/arukemisuton
+next:
+  text: "巨大ナスビナーラ"
+  link: /monsters/kyodainasubira
 ---
 
 # ゴールデンコーン

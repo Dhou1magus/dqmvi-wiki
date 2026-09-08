@@ -1,6 +1,12 @@
 ---
 title: キラーアーマー
 description: DQMVIのモンスター「キラーアーマー」のステータス。HP2,250 / こうげき352.8 / しゅび243 / 経験値739 / 148G。
+prev:
+  text: "ダークナイト"
+  link: /monsters/dakunaito
+next:
+  text: "ストーンマン"
+  link: /monsters/stonman
 ---
 
 # キラーアーマー

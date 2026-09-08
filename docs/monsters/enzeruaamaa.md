@@ -1,6 +1,12 @@
 ---
 title: エンゼルアーマー
 description: DQMVIのモンスター「エンゼルアーマー」のステータス。HP3,069 / こうげき420 / しゅび262 / 経験値919 / 161G。
+prev:
+  text: "アスラ王"
+  link: /monsters/asuraou
+next:
+  text: "スラ・ブラスター"
+  link: /monsters/slimeblaster
 ---
 
 # エンゼルアーマー

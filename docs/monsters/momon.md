@@ -1,6 +1,12 @@
 ---
 title: モーモン
 description: DQMVIのモンスター「モーモン」のステータス。HP12 / こうげき3 / しゅび1 / 経験値5 / 1G。
+prev:
+  text: "ズッキーニャ"
+  link: /monsters/zukkinya
+next:
+  text: "とげぼうず"
+  link: /monsters/togebouzu
 ---
 
 # モーモン

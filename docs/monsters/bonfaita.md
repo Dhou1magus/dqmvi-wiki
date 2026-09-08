@@ -1,6 +1,12 @@
 ---
 title: ボーンファイター
 description: DQMVIのモンスター「ボーンファイター」のステータス。HP146 / こうげき68 / しゅび38 / 経験値107 / 24G。
+prev:
+  text: "メイデンドール"
+  link: /monsters/meidendo_ru
+next:
+  text: "フーセンドラゴン"
+  link: /monsters/fu_sen_dragon
 ---
 
 # ボーンファイター

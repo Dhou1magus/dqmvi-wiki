@@ -1,6 +1,12 @@
 ---
 title: パペットこぞう
 description: DQMVIのモンスター「パペットこぞう」のステータス。HP43 / こうげき25.92 / しゅび13 / 経験値39 / 8G。
+prev:
+  text: "リリパット"
+  link: /monsters/riripat
+next:
+  text: "おおめだま"
+  link: /monsters/oomedama
 ---
 
 # パペットこぞう

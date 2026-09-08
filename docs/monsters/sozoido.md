@@ -1,6 +1,12 @@
 ---
 title: ソードイド
 description: DQMVIのモンスター「ソードイド」のステータス。HP2,396 / こうげき354 / しゅび209 / 経験値834 / 167G。
+prev:
+  text: "ほうおう"
+  link: /monsters/houou
+next:
+  text: "デーモンソード"
+  link: /monsters/demonsodo
 ---
 
 # ソードイド

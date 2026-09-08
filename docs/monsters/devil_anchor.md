@@ -1,6 +1,12 @@
 ---
 title: デビルアンカー
 description: DQMVIのモンスター「デビルアンカー」のステータス。HP205 / こうげき101 / しゅび89 / 経験値194 / 37G。
+prev:
+  text: "スライムプディング"
+  link: /monsters/slimepudding
+next:
+  text: "ハートボイルド"
+  link: /monsters/heartvoiled
 ---
 
 # デビルアンカー

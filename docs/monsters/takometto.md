@@ -1,6 +1,12 @@
 ---
 title: タコメット
 description: DQMVIのモンスター「タコメット」のステータス。HP35 / こうげき27 / しゅび13 / 経験値40 / 7G。
+prev:
+  text: "メランザーナ"
+  link: /monsters/meranzana
+next:
+  text: "黄泉の花"
+  link: /monsters/yominohana
 ---
 
 # タコメット

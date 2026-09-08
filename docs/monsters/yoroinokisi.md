@@ -1,6 +1,12 @@
 ---
 title: よろいのきし
 description: DQMVIのモンスター「よろいのきし」のステータス。HP140 / こうげき82 / しゅび52 / 経験値132 / 32G。
+prev:
+  text: "アームライオン"
+  link: /monsters/armraion
+next:
+  text: "プチアーノン"
+  link: /monsters/putianon
 ---
 
 # よろいのきし

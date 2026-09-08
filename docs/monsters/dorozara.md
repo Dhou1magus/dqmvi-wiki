@@ -1,6 +1,12 @@
 ---
 title: ドロザラー
 description: DQMVIのモンスター「ドロザラー」のステータス。HP14 / こうげき4 / しゅび1 / 経験値6 / 1G。
+prev:
+  text: "おおなめくじ"
+  link: /monsters/oonamekuji
+next:
+  text: "バブルスライム"
+  link: /monsters/bubsura
 ---
 
 # ドロザラー

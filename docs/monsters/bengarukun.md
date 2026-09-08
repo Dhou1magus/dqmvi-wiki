@@ -1,6 +1,12 @@
 ---
 title: ベンガルクーン
 description: DQMVIのモンスター「ベンガルクーン」のステータス。HP98 / こうげき42 / しゅび27 / 経験値128 / 24G。
+prev:
+  text: "しにがみ"
+  link: /monsters/meanspirit
+next:
+  text: "メイデンドール"
+  link: /monsters/meidendo_ru
 ---
 
 # ベンガルクーン

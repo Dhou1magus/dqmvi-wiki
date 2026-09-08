@@ -1,6 +1,12 @@
 ---
 title: ミミック
 description: DQMVIのモンスター「ミミック」のステータス。HP522 / こうげき133.12 / しゅび122 / 経験値277 / 55G。
+prev:
+  text: "ツボック"
+  link: /monsters/tubokku
+next:
+  text: "メタルライダー"
+  link: /monsters/metaruraida
 ---
 
 # ミミック

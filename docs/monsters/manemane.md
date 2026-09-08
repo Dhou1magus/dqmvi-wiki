@@ -1,6 +1,12 @@
 ---
 title: マネマネ
 description: DQMVIのモンスター「マネマネ」のステータス。HP486 / こうげき146.64 / しゅび94 / 経験値260 / 52G。
+prev:
+  text: "レッドサイクロン"
+  link: /monsters/redsaikuron
+next:
+  text: "ようがんまじん"
+  link: /monsters/youganmajin
 ---
 
 # マネマネ

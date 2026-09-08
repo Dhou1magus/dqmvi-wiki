@@ -1,6 +1,12 @@
 ---
 title: スピンスライム
 description: DQMVIのモンスター「スピンスライム」のステータス。HP62 / こうげき30 / しゅび17 / 経験値52 / 12G。
+prev:
+  text: "りゅうき兵"
+  link: /monsters/mandrake_mercenary
+next:
+  text: "たんすミミック"
+  link: /monsters/tansu
 ---
 
 # スピンスライム

@@ -1,6 +1,12 @@
 ---
 title: ももいろ三姉妹
 description: DQMVIのモンスター「ももいろ三姉妹」のステータス。HP194 / こうげき43 / しゅび18 / 経験値289 / 58G。
+prev:
+  text: "タッチャン"
+  link: /monsters/tattyan
+next:
+  text: "つむりんママ"
+  link: /monsters/tumurinmama
 ---
 
 # ももいろ三姉妹

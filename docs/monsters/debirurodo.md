@@ -1,6 +1,12 @@
 ---
 title: デビルロード
 description: DQMVIのモンスター「デビルロード」のステータス。HP1,725 / こうげき347.2 / しゅび215 / 経験値661 / 132G。
+prev:
+  text: "シルバーマント"
+  link: /monsters/sirubamanto
+next:
+  text: "バトルレックス"
+  link: /monsters/batorurex
 ---
 
 # デビルロード

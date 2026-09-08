@@ -1,6 +1,12 @@
 ---
 title: ひとくいサーベル
 description: DQMVIのモンスター「ひとくいサーベル」のステータス。HP52 / こうげき30.06 / しゅび17 / 経験値47 / 9G。
+prev:
+  text: "シールドこぞう"
+  link: /monsters/sirudokozou
+next:
+  text: "つぼ"
+  link: /monsters/tubo
 ---
 
 # ひとくいサーベル

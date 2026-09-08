@@ -1,6 +1,12 @@
 ---
 title: スパイクヘッド
 description: DQMVIのモンスター「スパイクヘッド」のステータス。HP141 / こうげき69 / しゅび43 / 経験値123 / 27G。
+prev:
+  text: "てっこうまじん"
+  link: /monsters/tekkoumajin
+next:
+  text: "じめじめバブル"
+  link: /monsters/dankbubbleslime
 ---
 
 # スパイクヘッド

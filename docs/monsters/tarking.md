@@ -1,6 +1,12 @@
 ---
 title: タールキング
 description: DQMVIのモンスター「タールキング」のステータス。HP177 / こうげき80 / しゅび65 / 経験値140 / 30G。
+prev:
+  text: "しのさそり"
+  link: /monsters/death_scorpion
+next:
+  text: "ワンダーエッグ"
+  link: /monsters/wonderegg
 ---
 
 # タールキング

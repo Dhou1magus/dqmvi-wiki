@@ -1,6 +1,12 @@
 ---
 title: ドロヌーバ
 description: DQMVIのモンスター「ドロヌーバ」のステータス。HP25 / こうげき11 / しゅび1 / 経験値13 / 3G。
+prev:
+  text: "ももんじゃ"
+  link: /monsters/momonja
+next:
+  text: "ビッグハット"
+  link: /monsters/bigguhatto
 ---
 
 # ドロヌーバ

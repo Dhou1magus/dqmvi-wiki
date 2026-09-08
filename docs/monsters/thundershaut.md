@@ -1,6 +1,12 @@
 ---
 title: サンダーシャウト
 description: DQMVIのモンスター「サンダーシャウト」のステータス。HP218 / こうげき112 / しゅび88 / 経験値183 / 31G。
+prev:
+  text: "めいふのばんにん"
+  link: /monsters/meifunobannin
+next:
+  text: "ヘルビートル"
+  link: /monsters/fire_beatle
 ---
 
 # サンダーシャウト

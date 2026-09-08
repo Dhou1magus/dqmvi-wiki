@@ -1,6 +1,12 @@
 ---
 title: こうてつまじん
 description: DQMVIのモンスター「こうてつまじん」のステータス。HP104 / こうげき51 / しゅび40 / 経験値96 / 22G。
+prev:
+  text: "凶スライムベス"
+  link: /monsters/kyouslimebes
+next:
+  text: "スライムジョーカー"
+  link: /monsters/slimejoker
 ---
 
 # こうてつまじん

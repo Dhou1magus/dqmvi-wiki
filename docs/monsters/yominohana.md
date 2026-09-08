@@ -1,6 +1,12 @@
 ---
 title: 黄泉の花
 description: DQMVIのモンスター「黄泉の花」のステータス。HP34 / こうげき20 / しゅび12 / 経験値42 / 8G。
+prev:
+  text: "タコメット"
+  link: /monsters/takometto
+next:
+  text: "ピクシー"
+  link: /monsters/pikusi2
 ---
 
 # 黄泉の花

@@ -1,6 +1,12 @@
 ---
 title: スノードラゴン
 description: DQMVIのモンスター「スノードラゴン」のステータス。HP1,443 / こうげき217 / しゅび170 / 経験値486 / 97G。
+prev:
+  text: "じごくのきし"
+  link: /monsters/jigokunokisi
+next:
+  text: "バラモスゾンビ"
+  link: /monsters/baramoszombie
 ---
 
 # スノードラゴン

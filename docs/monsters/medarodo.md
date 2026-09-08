@@ -1,6 +1,12 @@
 ---
 title: メーダロード
 description: DQMVIのモンスター「メーダロード」のステータス。HP44 / こうげき14 / しゅび12 / 経験値64 / 12G。
+prev:
+  text: "デザートデーモン"
+  link: /monsters/dezatodemon
+next:
+  text: "しのどれい"
+  link: /monsters/sinodorei
 ---
 
 # メーダロード

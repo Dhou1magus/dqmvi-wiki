@@ -1,6 +1,12 @@
 ---
 title: オカルトビスク
 description: DQMVIのモンスター「オカルトビスク」のステータス。HP173 / こうげき77 / しゅび65 / 経験値143 / 28G。
+prev:
+  text: "ダークペルシャ"
+  link: /monsters/daakuperusya
+next:
+  text: "まおうのつかい"
+  link: /monsters/maounotsukai
 ---
 
 # オカルトビスク

@@ -1,6 +1,12 @@
 ---
 title: スキッパー
 description: DQMVIのモンスター「スキッパー」のステータス。HP28 / こうげき13 / しゅび1 / 経験値15 / 3G。
+prev:
+  text: "つちわらし"
+  link: /monsters/tutiwarasi
+next:
+  text: "いっかくうさぎ"
+  link: /monsters/ikkakuusagi
 ---
 
 # スキッパー

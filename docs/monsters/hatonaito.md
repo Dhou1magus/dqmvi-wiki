@@ -1,6 +1,12 @@
 ---
 title: ハートナイト
 description: DQMVIのモンスター「ハートナイト」のステータス。HP669 / こうげき79 / しゅび43 / 経験値1,027 / 205G。
+prev:
+  text: "おおさそり"
+  link: /monsters/big_scorpion
+next:
+  text: "キラートーチ"
+  link: /monsters/kiratoti
 ---
 
 # ハートナイト

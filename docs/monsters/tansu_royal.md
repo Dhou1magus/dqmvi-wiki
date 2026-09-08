@@ -1,6 +1,12 @@
 ---
 title: ロイヤルミミック
 description: DQMVIのモンスター「ロイヤルミミック」のステータス。HP2,261 / こうげき328 / しゅび246 / 経験値695 / 159G。
+prev:
+  text: "グランスライム"
+  link: /monsters/grandpaslime
+next:
+  text: "ダーククリスタル"
+  link: /monsters/dark_crystal
 ---
 
 # ロイヤルミミック

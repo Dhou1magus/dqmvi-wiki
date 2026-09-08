@@ -1,6 +1,12 @@
 ---
 title: アラウネ
 description: DQMVIのモンスター「アラウネ」のステータス。HP498 / こうげき124 / しゅび108 / 経験値281 / 56G。
+prev:
+  text: "ガルーダ"
+  link: /monsters/garuda
+next:
+  text: "デーモンスピリット"
+  link: /monsters/demonspirit
 ---
 
 # アラウネ

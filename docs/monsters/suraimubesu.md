@@ -1,6 +1,12 @@
 ---
 title: スライムベス
 description: DQMVIのモンスター「スライムベス」のステータス。HP7 / こうげき1 / しゅび1 / 経験値2 / 1G。
+prev:
+  text: "ギズモ2"
+  link: /monsters/gizumo
+next:
+  text: "おおなめくじ"
+  link: /monsters/oonamekuji
 ---
 
 # スライムベス

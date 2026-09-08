@@ -1,6 +1,12 @@
 ---
 title: どくやずきん
 description: DQMVIのモンスター「どくやずきん」のステータス。HP84 / こうげき49.2 / しゅび37 / 経験値85 / 17G。
+prev:
+  text: "スライムボーグ"
+  link: /monsters/suraimubogu
+next:
+  text: "ダックスビル"
+  link: /monsters/ducksbill
 ---
 
 # どくやずきん

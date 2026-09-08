@@ -1,6 +1,12 @@
 ---
 title: ひとくい木箱
 description: DQMVIのモンスター「ひとくい木箱」のステータス。HP51 / こうげき32.94 / しゅび22 / 経験値54 / 11G。
+prev:
+  text: "つぼ"
+  link: /monsters/tubo
+next:
+  text: "ベビーサタン"
+  link: /monsters/bebisatan
 ---
 
 # ひとくい木箱

@@ -1,6 +1,12 @@
 ---
 title: ひとくいが
 description: DQMVIのモンスター「ひとくいが」のステータス。HP53 / こうげき28.98 / しゅび11 / 経験値41 / 8G。
+prev:
+  text: "シャドー"
+  link: /monsters/syado
+next:
+  text: "ピンクモーモン"
+  link: /monsters/pinkmomon
 ---
 
 # ひとくいが

@@ -1,6 +1,12 @@
 ---
 title: ドラゴントイズ
 description: DQMVIのモンスター「ドラゴントイズ」のステータス。HP1,423 / こうげき211 / しゅび222 / 経験値521 / 102G。
+prev:
+  text: "マッドスミス"
+  link: /monsters/maddosumisu
+next:
+  text: "ベリアル"
+  link: /monsters/beriaru
 ---
 
 # ドラゴントイズ

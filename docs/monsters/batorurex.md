@@ -1,6 +1,12 @@
 ---
 title: バトルレックス
 description: DQMVIのモンスター「バトルレックス」のステータス。HP1,800 / こうげき347.2 / しゅび222 / 経験値675 / 135G。
+prev:
+  text: "デビルロード"
+  link: /monsters/debirurodo
+next:
+  text: "パンドラボックス"
+  link: /monsters/pandorabox
 ---
 
 # バトルレックス

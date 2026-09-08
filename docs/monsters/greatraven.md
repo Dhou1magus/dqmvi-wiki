@@ -1,6 +1,12 @@
 ---
 title: おおがらす
 description: DQMVIのモンスター「おおがらす」のステータス。HP12 / こうげき5 / しゅび2 / 経験値9 / 2G。
+prev:
+  text: "まほうつかい"
+  link: /monsters/magician
+next:
+  text: "キャタピラー"
+  link: /monsters/caterpillar
 ---
 
 # おおがらす

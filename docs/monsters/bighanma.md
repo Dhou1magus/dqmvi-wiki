@@ -1,6 +1,12 @@
 ---
 title: ビッグハンマー
 description: DQMVIのモンスター「ビッグハンマー」のステータス。HP402 / こうげき127.92 / しゅび107 / 経験値248 / 50G。
+prev:
+  text: "ベスキング"
+  link: /monsters/besuking
+next:
+  text: "スマイルロック"
+  link: /monsters/sumairurokku
 ---
 
 # ビッグハンマー

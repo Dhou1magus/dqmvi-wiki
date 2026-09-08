@@ -1,6 +1,12 @@
 ---
 title: メーダ
 description: DQMVIのモンスター「メーダ」のステータス。HP16 / こうげき3 / しゅび2 / 経験値13 / 3G。
+prev:
+  text: "ビーンファイター"
+  link: /monsters/binfaita
+next:
+  text: "ゆうれい"
+  link: /monsters/spirit
 ---
 
 # メーダ

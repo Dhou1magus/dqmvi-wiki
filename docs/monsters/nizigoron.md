@@ -1,6 +1,12 @@
 ---
 title: ニジゴロン
 description: DQMVIのモンスター「ニジゴロン」のステータス。
+prev:
+  text: "キングミミック"
+  link: /monsters/kingumimikku
+next:
+  text: "タイプG"
+  link: /monsters/taipug
 ---
 
 # ニジゴロン

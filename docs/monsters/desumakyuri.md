@@ -1,6 +1,12 @@
 ---
 title: デスマーキュリー
 description: DQMVIのモンスター「デスマーキュリー」のステータス。HP2,777 / こうげき322 / しゅび222 / 経験値900 / 124G。
+prev:
+  text: "デーモンアミゴ"
+  link: /monsters/demonamigo
+next:
+  text: "アスラ王"
+  link: /monsters/asuraou
 ---
 
 # デスマーキュリー

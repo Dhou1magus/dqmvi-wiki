@@ -1,6 +1,12 @@
 ---
 title: ブラックベジター
 description: DQMVIのモンスター「ブラックベジター」のステータス。HP532 / こうげき138.32 / しゅび98 / 経験値260 / 52G。
+prev:
+  text: "ビッグフェイス"
+  link: /monsters/biggufeisu
+next:
+  text: "ゴーレム"
+  link: /monsters/goremu
 ---
 
 # ブラックベジター

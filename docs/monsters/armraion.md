@@ -1,6 +1,12 @@
 ---
 title: アームライオン
 description: DQMVIのモンスター「アームライオン」のステータス。HP135 / こうげき75.2 / しゅび39 / 経験値115 / 23G。
+prev:
+  text: "オベルジーヌ"
+  link: /monsters/oberujinu
+next:
+  text: "よろいのきし"
+  link: /monsters/yoroinokisi
 ---
 
 # アームライオン

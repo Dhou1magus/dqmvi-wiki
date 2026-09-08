@@ -1,6 +1,12 @@
 ---
 title: マジックアーマー
 description: DQMVIのモンスター「マジックアーマー」のステータス。HP221 / こうげき108 / しゅび83 / 経験値185 / 33G。
+prev:
+  text: "まおうのつかい"
+  link: /monsters/maounotsukai
+next:
+  text: "ダーティードール"
+  link: /monsters/da_thi_do_ru
 ---
 
 # マジックアーマー

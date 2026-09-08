@@ -1,6 +1,12 @@
 ---
 title: ホワイトジャッジ
 description: DQMVIのモンスター「ホワイトジャッジ」のステータス。HP1,600 / こうげき222 / しゅび134 / 経験値461 / 92G。
+prev:
+  text: "コスモアイ"
+  link: /monsters/kosumoai
+next:
+  text: "ろうごくのぬし"
+  link: /monsters/rougokunonusi
 ---
 
 # ホワイトジャッジ

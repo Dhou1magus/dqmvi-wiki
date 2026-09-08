@@ -1,6 +1,12 @@
 ---
 title: ビッグフェイス
 description: DQMVIのモンスター「ビッグフェイス」のステータス。HP522 / こうげき139.36 / しゅび135 / 経験値294 / 59G。
+prev:
+  text: "ドルイド"
+  link: /monsters/doruido
+next:
+  text: "ブラックベジター"
+  link: /monsters/burakkubejita
 ---
 
 # ビッグフェイス

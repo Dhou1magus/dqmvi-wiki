@@ -1,6 +1,12 @@
 ---
 title: テンタコルス
 description: DQMVIのモンスター「テンタコルス」のステータス。HP190 / こうげき82 / しゅび75 / 経験値155 / 35G。
+prev:
+  text: "ひょうけつのきし"
+  link: /monsters/hyouketunokisi
+next:
+  text: "きのみのせいれい"
+  link: /monsters/kinominoseirei
 ---
 
 # テンタコルス

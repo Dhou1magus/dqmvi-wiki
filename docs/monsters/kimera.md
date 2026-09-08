@@ -1,6 +1,12 @@
 ---
 title: キメラ
 description: DQMVIのモンスター「キメラ」のステータス。HP46 / こうげき30.96 / しゅび18 / 経験値48 / 10G。
+prev:
+  text: "あやしいかげ"
+  link: /monsters/ayasiikage
+next:
+  text: "ぐんたいガニ"
+  link: /monsters/guntaigani
 ---
 
 # キメラ

@@ -1,6 +1,12 @@
 ---
 title: わんぱくサタン
 description: DQMVIのモンスター「わんぱくサタン」のステータス。HP1,968 / こうげき203 / しゅび123 / 経験値3,227 / 645G。
+prev:
+  text: "クイーンモーモン"
+  link: /monsters/kuinmomon
+next:
+  text: "グレイトドラゴン・雲"
+  link: /monsters/gureitodoragonkumo
 ---
 
 # わんぱくサタン

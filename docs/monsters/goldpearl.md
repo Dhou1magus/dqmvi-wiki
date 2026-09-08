@@ -1,6 +1,12 @@
 ---
 title: ゴールドパール
 description: DQMVIのモンスター「ゴールドパール」のステータス。HP142 / こうげき76 / しゅび10,000 / 経験値121 / 3,555G。
+prev:
+  text: "凶メタルスライム"
+  link: /monsters/kyoumetalslime
+next:
+  text: "メタルホイミン"
+  link: /monsters/metaruhoimin
 ---
 
 # ゴールドパール

@@ -1,6 +1,12 @@
 ---
 title: メタルトリュフ
 description: DQMVIのモンスター「メタルトリュフ」のステータス。HP18 / こうげき76 / しゅび10,000 / 経験値16,578 / 400G。
+prev:
+  text: "グレイトドラゴン・雲"
+  link: /monsters/gureitodoragonkumo
+next:
+  text: "ドラゴメタル"
+  link: /monsters/dragometaru
 ---
 
 # メタルトリュフ

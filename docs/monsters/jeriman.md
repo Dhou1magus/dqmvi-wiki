@@ -1,6 +1,12 @@
 ---
 title: ジェリーマン
 description: DQMVIのモンスター「ジェリーマン」のステータス。HP182 / こうげき78.1 / しゅび68 / 経験値148 / 30G。
+prev:
+  text: "ダンスニードル"
+  link: /monsters/dansunidoru
+next:
+  text: "ぶっちズッキーニャ"
+  link: /monsters/buttizukinya
 ---
 
 # ジェリーマン

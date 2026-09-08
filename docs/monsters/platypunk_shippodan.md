@@ -1,6 +1,12 @@
 ---
 title: しっぽ団のももんじゃ
 description: DQMVIのモンスター「しっぽ団のももんじゃ」のステータス。HP67 / こうげき33 / しゅび16 / 経験値55 / 11G。
+prev:
+  text: "バーガースライム"
+  link: /monsters/burgerslime
+next:
+  text: "ウィッチレディ"
+  link: /monsters/whicchiredi
 ---
 
 # しっぽ団のももんじゃ

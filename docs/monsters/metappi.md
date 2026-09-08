@@ -1,6 +1,12 @@
 ---
 title: メタッピー
 description: DQMVIのモンスター「メタッピー」のステータス。HP66 / こうげき32 / しゅび18 / 経験値61 / 13G。
+prev:
+  text: "くさった死体"
+  link: /monsters/kusattasitai
+next:
+  text: "メラリザード"
+  link: /monsters/merazado
 ---
 
 # メタッピー

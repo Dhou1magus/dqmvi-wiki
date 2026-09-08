@@ -1,6 +1,12 @@
 ---
 title: ゆうれい
 description: DQMVIのモンスター「ゆうれい」のステータス。HP16 / こうげき7 / しゅび3 / 経験値11 / 3G。
+prev:
+  text: "メーダ"
+  link: /monsters/meda
+next:
+  text: "ねこまどう"
+  link: /monsters/nekomadou
 ---
 
 # ゆうれい

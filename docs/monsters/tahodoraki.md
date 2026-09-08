@@ -1,6 +1,12 @@
 ---
 title: タホドラキー
 description: DQMVIのモンスター「タホドラキー」のステータス。HP72 / こうげき47.2 / しゅび36 / 経験値81 / 16G。
+prev:
+  text: "マドハンド"
+  link: /monsters/madohando
+next:
+  text: "スライムタワー"
+  link: /monsters/suraimutawa
 ---
 
 # タホドラキー

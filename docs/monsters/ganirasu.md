@@ -1,6 +1,12 @@
 ---
 title: ガニラス
 description: DQMVIのモンスター「ガニラス」のステータス。HP960 / こうげき166.38 / しゅび155 / 経験値376 / 75G。
+prev:
+  text: "スライムカラー"
+  link: /monsters/suraimuhaitawa
+next:
+  text: "パペットマン"
+  link: /monsters/papettoman
 ---
 
 # ガニラス

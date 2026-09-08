@@ -1,6 +1,12 @@
 ---
 title: ゴールデンスライム
 description: DQMVIのモンスター「ゴールデンスライム」のステータス。HP32 / こうげき114.4 / しゅび10,000 / 経験値300 / 15,000G。
+prev:
+  text: "メタルキング"
+  link: /monsters/metaking
+next:
+  text: "ボストロール"
+  link: /monsters/bosutororu
 ---
 
 # ゴールデンスライム

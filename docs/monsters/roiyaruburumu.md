@@ -1,6 +1,12 @@
 ---
 title: ロイヤルブルーム
 description: DQMVIのモンスター「ロイヤルブルーム」のステータス。HP2,122 / こうげき398 / しゅび255 / 経験値700 / 138G。
+prev:
+  text: "魔天海フォルネー"
+  link: /monsters/matenkaiforney
+next:
+  text: "ヘルガーディアン"
+  link: /monsters/herugadexian
 ---
 
 # ロイヤルブルーム

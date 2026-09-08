@@ -1,6 +1,12 @@
 ---
 title: スモールグール
 description: DQMVIのモンスター「スモールグール」のステータス。HP165 / こうげき71.71 / しゅび70 / 経験値143 / 29G。
+prev:
+  text: "ヘルゴースト"
+  link: /monsters/herughost
+next:
+  text: "ホロゴースト"
+  link: /monsters/horoghost
 ---
 
 # スモールグール

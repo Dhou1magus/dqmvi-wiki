@@ -1,6 +1,12 @@
 ---
 title: つちわらし
 description: DQMVIのモンスター「つちわらし」のステータス。HP25 / こうげき12 / しゅび1 / 経験値14 / 3G。
+prev:
+  text: "バブルスライム"
+  link: /monsters/bubsura
+next:
+  text: "スキッパー"
+  link: /monsters/sukippaa
 ---
 
 # つちわらし

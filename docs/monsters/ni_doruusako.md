@@ -1,6 +1,12 @@
 ---
 title: ニードルうさこ
 description: DQMVIのモンスター「ニードルうさこ」のステータス。HP1,389 / こうげき202 / しゅび147 / 経験値459 / 100G。
+prev:
+  text: "モノクロームナイト"
+  link: /monsters/monokuroomunaito
+next:
+  text: "カラミティサン"
+  link: /monsters/karamithisan
 ---
 
 # ニードルうさこ

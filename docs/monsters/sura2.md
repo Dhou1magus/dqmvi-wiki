@@ -1,6 +1,12 @@
 ---
 title: 強スライム
 description: DQMVIのモンスター「強スライム」のステータス。HP165 / こうげき76.68 / しゅび67 / 経験値144 / 29G。
+prev:
+  text: "デスフラッター"
+  link: /monsters/desufuratta
+next:
+  text: "ひとくい箱"
+  link: /monsters/hitokuibako
 ---
 
 # 強スライム

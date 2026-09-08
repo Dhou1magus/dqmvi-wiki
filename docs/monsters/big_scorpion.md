@@ -1,6 +1,12 @@
 ---
 title: おおさそり
 description: DQMVIのモンスター「おおさそり」のステータス。HP65 / こうげき32 / しゅび15 / 経験値50 / 10G。
+prev:
+  text: "ウィッチレディ"
+  link: /monsters/whicchiredi
+next:
+  text: "ハートナイト"
+  link: /monsters/hatonaito
 ---
 
 # おおさそり

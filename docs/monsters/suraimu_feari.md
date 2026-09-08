@@ -1,6 +1,12 @@
 ---
 title: スライムフェアリー
 description: DQMVIのモンスター「スライムフェアリー」のステータス。HP38 / こうげき23 / しゅび15 / 経験値40 / 9G。
+prev:
+  text: "おにぎりスライム"
+  link: /monsters/onigirislime
+next:
+  text: "バーガースライム"
+  link: /monsters/burgerslime
 ---
 
 # スライムフェアリー

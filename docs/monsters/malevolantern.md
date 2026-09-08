@@ -1,6 +1,12 @@
 ---
 title: のろいのランプ
 description: DQMVIのモンスター「のろいのランプ」のステータス。HP46 / こうげき25 / しゅび13 / 経験値46 / 10G。
+prev:
+  text: "スライムコロネ"
+  link: /monsters/goonachegoodie
+next:
+  text: "パールスライム"
+  link: /monsters/pearlgel
 ---
 
 # のろいのランプ

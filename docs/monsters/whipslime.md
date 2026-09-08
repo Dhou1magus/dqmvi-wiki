@@ -1,6 +1,12 @@
 ---
 title: ホイップスライム
 description: DQMVIのモンスター「ホイップスライム」のステータス。HP151 / こうげき75 / しゅび35 / 経験値108 / 27G。
+prev:
+  text: "ピーチスライム"
+  link: /monsters/peachslime
+next:
+  text: "プリンスライム"
+  link: /monsters/puddingslime
 ---
 
 # ホイップスライム

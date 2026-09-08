@@ -1,6 +1,12 @@
 ---
 title: タイガークロー
 description: DQMVIのモンスター「タイガークロー」のステータス。HP512 / こうげき155 / しゅび88 / 経験値299 / 50G。
+prev:
+  text: "ギガデーモン"
+  link: /monsters/gugademon
+next:
+  text: "ゾンビマスター"
+  link: /monsters/zonbimasuta
 ---
 
 # タイガークロー

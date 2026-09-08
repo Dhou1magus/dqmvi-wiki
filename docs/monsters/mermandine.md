@@ -1,6 +1,12 @@
 ---
 title: マーマンダイン
 description: DQMVIのモンスター「マーマンダイン」のステータス。HP1,183 / こうげき208 / しゅび143 / 経験値450 / 90G。
+prev:
+  text: "ダゴン"
+  link: /monsters/dagon
+next:
+  text: "マッドスミス"
+  link: /monsters/maddosumisu
 ---
 
 # マーマンダイン

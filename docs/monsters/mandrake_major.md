@@ -1,6 +1,12 @@
 ---
 title: リザードマン
 description: DQMVIのモンスター「リザードマン」のステータス。HP24 / こうげき10 / しゅび2 / 経験値12 / 3G。
+prev:
+  text: "びっくりサタン"
+  link: /monsters/bikkurisatan
+next:
+  text: "はねスライム"
+  link: /monsters/hane_suraimu
 ---
 
 # リザードマン

@@ -1,6 +1,12 @@
 ---
 title: チェリースライム
 description: DQMVIのモンスター「チェリースライム」のステータス。HP158 / こうげき68 / しゅび36 / 経験値110 / 25G。
+prev:
+  text: "こんぺいとう"
+  link: /monsters/sugarstar_slime
+next:
+  text: "ベリースライム"
+  link: /monsters/berryslime
 ---
 
 # チェリースライム

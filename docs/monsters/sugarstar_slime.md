@@ -1,6 +1,12 @@
 ---
 title: こんぺいとう
 description: DQMVIのモンスター「こんぺいとう」のステータス。HP166 / こうげき65 / しゅび37 / 経験値114 / 26G。
+prev:
+  text: "りゅうせんし"
+  link: /monsters/mandrake_marauder
+next:
+  text: "チェリースライム"
+  link: /monsters/cherryslime
 ---
 
 # こんぺいとう

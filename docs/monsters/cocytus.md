@@ -1,6 +1,12 @@
 ---
 title: コキュードス
 description: DQMVIのモンスター「コキュードス」のステータス。HP2,438 / こうげき387 / しゅび270 / 経験値888 / 178G。
+prev:
+  text: "デーモンソード"
+  link: /monsters/demonsodo
+next:
+  text: "光の番人"
+  link: /monsters/hikarinobannin
 ---
 
 # コキュードス

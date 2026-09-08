@@ -1,6 +1,12 @@
 ---
 title: ワンダーエッグ
 description: DQMVIのモンスター「ワンダーエッグ」のステータス。HP217 / こうげき96 / しゅび87 / 経験値195 / 33G。
+prev:
+  text: "タールキング"
+  link: /monsters/tarking
+next:
+  text: "ムーンキメラ"
+  link: /monsters/moonkimera
 ---
 
 # ワンダーエッグ

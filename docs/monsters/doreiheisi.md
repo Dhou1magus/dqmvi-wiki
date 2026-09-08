@@ -1,6 +1,12 @@
 ---
 title: どれいへいし
 description: DQMVIのモンスター「どれいへいし」のステータス。HP144 / こうげき65 / しゅび41 / 経験値98 / 23G。
+prev:
+  text: "おにこんぼう"
+  link: /monsters/onikonbou
+next:
+  text: "マッスルアニマル"
+  link: /monsters/masuruanimaru
 ---
 
 # どれいへいし

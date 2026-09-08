@@ -1,6 +1,12 @@
 ---
 title: ドルイド
 description: DQMVIのモンスター「ドルイド」のステータス。HP486 / こうげき136.24 / しゅび98 / 経験値254 / 51G。
+prev:
+  text: "トロル"
+  link: /monsters/tororu
+next:
+  text: "ビッグフェイス"
+  link: /monsters/biggufeisu
 ---
 
 # ドルイド

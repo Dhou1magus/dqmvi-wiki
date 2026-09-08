@@ -1,6 +1,12 @@
 ---
 title: タッチャン
 description: DQMVIのモンスター「タッチャン」のステータス。HP229 / こうげき36 / しゅび15 / 経験値325 / 65G。
+prev:
+  text: "チョコヌーバ"
+  link: /monsters/tyokonuba
+next:
+  text: "ももいろ三姉妹"
+  link: /monsters/momoirosansimai
 ---
 
 # タッチャン

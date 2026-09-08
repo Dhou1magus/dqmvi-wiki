@@ -1,6 +1,12 @@
 ---
 title: キラークラブ
 description: DQMVIのモンスター「キラークラブ」のステータス。HP182 / こうげき76 / しゅび80 / 経験値175 / 35G。
+prev:
+  text: "バアラック"
+  link: /monsters/baarakku2
+next:
+  text: "たこまじん"
+  link: /monsters/takomajin
 ---
 
 # キラークラブ

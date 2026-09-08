@@ -1,6 +1,12 @@
 ---
 title: スラ・ブラスター
 description: DQMVIのモンスター「スラ・ブラスター」のステータス。HP1,790 / こうげき371 / しゅび223 / 経験値632 / 139G。
+prev:
+  text: "エンゼルアーマー"
+  link: /monsters/enzeruaamaa
+next:
+  text: "エビルエスターク"
+  link: /monsters/ersatzestark
 ---
 
 # スラ・ブラスター

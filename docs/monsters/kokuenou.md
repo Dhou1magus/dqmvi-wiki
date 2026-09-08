@@ -1,6 +1,12 @@
 ---
 title: 黒怨王
 description: DQMVIのモンスター「黒怨王」のステータス。HP495 / こうげき122 / しゅび101 / 経験値244 / 52G。
+prev:
+  text: "トレーナースライム"
+  link: /monsters/trainerslime
+next:
+  text: "スターデビル"
+  link: /monsters/sutaadebiru
 ---
 
 # 黒怨王

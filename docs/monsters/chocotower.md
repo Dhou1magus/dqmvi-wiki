@@ -1,6 +1,12 @@
 ---
 title: チョコタワー
 description: DQMVIのモンスター「チョコタワー」のステータス。HP204 / こうげき96 / しゅび86 / 経験値181 / 35G。
+prev:
+  text: "だんごスライム"
+  link: /monsters/dangoslime
+next:
+  text: "スライムプディング"
+  link: /monsters/slimepudding
 ---
 
 # チョコタワー

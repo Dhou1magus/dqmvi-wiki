@@ -1,6 +1,12 @@
 ---
 title: てつのさそり
 description: DQMVIのモンスター「てつのさそり」のステータス。HP154 / こうげき77 / しゅび36 / 経験値124 / 24G。
+prev:
+  text: "デスセイレス"
+  link: /monsters/desuseiresu
+next:
+  text: "しっぽ団のダックスビル"
+  link: /monsters/platypunk_duckbill
 ---
 
 # てつのさそり

@@ -1,6 +1,12 @@
 ---
 title: おおきづち
 description: DQMVIのモンスター「おおきづち」のステータス。HP42 / こうげき28.08 / しゅび12 / 経験値40 / 8G。
+prev:
+  text: "きりかぶおばけ"
+  link: /monsters/kirikabuobake
+next:
+  text: "プレミアムスライム"
+  link: /monsters/puremiasuraimu
 ---
 
 # おおきづち

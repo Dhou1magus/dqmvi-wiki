@@ -1,6 +1,12 @@
 ---
 title: スカルゴン
 description: DQMVIのモンスター「スカルゴン」のステータス。HP175 / こうげき80 / しゅび25 / 経験値145 / 32G。
+prev:
+  text: "カパーラナーガ"
+  link: /monsters/kaparanaga
+next:
+  text: "ドラゴン"
+  link: /monsters/dragon2
 ---
 
 # スカルゴン

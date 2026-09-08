@@ -1,6 +1,12 @@
 ---
 title: グランシーザー
 description: DQMVIのモンスター「グランシーザー」のステータス。HP5,237 / こうげき355 / しゅび175 / 経験値6,989 / 1,398G。
+prev:
+  text: "アトラス"
+  link: /monsters/atorasu
+next:
+  text: "ゴーストベリー"
+  link: /monsters/ghostberry
 ---
 
 # グランシーザー

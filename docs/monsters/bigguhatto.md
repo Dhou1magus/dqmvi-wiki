@@ -1,6 +1,12 @@
 ---
 title: ビッグハット
 description: DQMVIのモンスター「ビッグハット」のステータス。HP16 / こうげき5 / しゅび1 / 経験値7 / 1G。
+prev:
+  text: "ドロヌーバ"
+  link: /monsters/doronuba
+next:
+  text: "つかいま"
+  link: /monsters/tukaima
 ---
 
 # ビッグハット

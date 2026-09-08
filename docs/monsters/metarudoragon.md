@@ -1,6 +1,12 @@
 ---
 title: メタルドラゴン
 description: DQMVIのモンスター「メタルドラゴン」のステータス。HP255 / こうげき92 / しゅび99 / 経験値212 / 33G。
+prev:
+  text: "グール"
+  link: /monsters/guru
+next:
+  text: "アイアンクック"
+  link: /monsters/aiankukku
 ---
 
 # メタルドラゴン

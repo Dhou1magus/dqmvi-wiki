@@ -1,6 +1,12 @@
 ---
 title: ともしびこぞう
 description: DQMVIのモンスター「ともしびこぞう」のステータス。HP83 / こうげき49.2 / しゅび43 / 経験値90 / 18G。
+prev:
+  text: "バブリン"
+  link: /monsters/baburin
+next:
+  text: "さまようたましい"
+  link: /monsters/samayoutamasii
 ---
 
 # ともしびこぞう

@@ -1,6 +1,12 @@
 ---
 title: はじけドーラ
 description: DQMVIのモンスター「はじけドーラ」のステータス。HP25 / こうげき10 / しゅび2 / 経験値12 / 3G。
+prev:
+  text: "ねこまどう"
+  link: /monsters/nekomadou
+next:
+  text: "マッシュスライム"
+  link: /monsters/slimeshroom
 ---
 
 # はじけドーラ

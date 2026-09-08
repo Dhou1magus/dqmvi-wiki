@@ -1,6 +1,12 @@
 ---
 title: まどうし
 description: DQMVIのモンスター「まどうし」のステータス。HP78 / こうげき32 / しゅび18 / 経験値102 / 24G。
+prev:
+  text: "うらぎりこぞう"
+  link: /monsters/uragirikozou2
+next:
+  text: "かえんムカデ"
+  link: /monsters/flame_centipede
 ---
 
 # まどうし

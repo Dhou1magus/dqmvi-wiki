@@ -1,6 +1,12 @@
 ---
 title: おばけうみうし
 description: DQMVIのモンスター「おばけうみうし」のステータス。HP45 / こうげき25.92 / しゅび12 / 経験値38 / 8G。
+prev:
+  text: "ベビーサタン"
+  link: /monsters/bebisatan
+next:
+  text: "メトロゴースト"
+  link: /monsters/metoroghost
 ---
 
 # おばけうみうし

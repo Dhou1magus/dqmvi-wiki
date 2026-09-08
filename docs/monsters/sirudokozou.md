@@ -1,6 +1,12 @@
 ---
 title: シールドこぞう
 description: DQMVIのモンスター「シールドこぞう」のステータス。HP40 / こうげき27 / しゅび26 / 経験値51 / 10G。
+prev:
+  text: "ぐんたいガニ"
+  link: /monsters/guntaigani
+next:
+  text: "ひとくいサーベル"
+  link: /monsters/hitokuisaberu
 ---
 
 # シールドこぞう

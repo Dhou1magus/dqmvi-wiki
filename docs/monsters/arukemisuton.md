@@ -1,6 +1,12 @@
 ---
 title: アルケミストン
 description: DQMVIのモンスター「アルケミストン」のステータス。HP535 / こうげき55 / しゅび48 / 経験値904 / 181G。
+prev:
+  text: "ピンクボンボン"
+  link: /monsters/pinkbonbon
+next:
+  text: "ゴールデンコーン"
+  link: /monsters/gorudenkon
 ---
 
 # アルケミストン

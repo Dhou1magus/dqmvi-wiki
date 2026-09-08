@@ -1,6 +1,12 @@
 ---
 title: もりもりベス
 description: DQMVIのモンスター「もりもりベス」のステータス。HP78 / こうげき49 / しゅび37 / 経験値86 / 16G。
+prev:
+  text: "シャイニング"
+  link: /monsters/shainingu
+next:
+  text: "スライムダーク"
+  link: /monsters/slime_dark
 ---
 
 # もりもりベス

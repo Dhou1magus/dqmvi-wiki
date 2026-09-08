@@ -1,6 +1,12 @@
 ---
 title: スカルドン
 description: DQMVIのモンスター「スカルドン」のステータス。HP661 / こうげき162 / しゅび124 / 経験値389 / 78G。
+prev:
+  text: "グレイトライドン"
+  link: /monsters/greatridon
+next:
+  text: "ダースドラゴン"
+  link: /monsters/darthdragon2
 ---
 
 # スカルドン

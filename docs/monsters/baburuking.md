@@ -1,6 +1,12 @@
 ---
 title: バブルキング
 description: DQMVIのモンスター「バブルキング」のステータス。HP1,128 / こうげき164.97 / しゅび144 / 経験値379 / 76G。
+prev:
+  text: "しりょうのきし"
+  link: /monsters/siryounokisi
+next:
+  text: "ダークスライム"
+  link: /monsters/darkslime
 ---
 
 # バブルキング

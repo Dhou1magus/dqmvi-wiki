@@ -1,6 +1,12 @@
 ---
 title: スライムタワー
 description: DQMVIのモンスター「スライムタワー」のステータス。HP70 / こうげき50 / しゅび38 / 経験値86 / 17G。
+prev:
+  text: "タホドラキー"
+  link: /monsters/tahodoraki
+next:
+  text: "ベホイミスライム"
+  link: /monsters/behoimisuraimu
 ---
 
 # スライムタワー

@@ -1,6 +1,12 @@
 ---
 title: メタルライダー
 description: DQMVIのモンスター「メタルライダー」のステータス。HP469 / こうげき122.72 / しゅび130 / 経験値269 / 54G。
+prev:
+  text: "ミミック"
+  link: /monsters/mimikku
+next:
+  text: "ぼうれい剣士"
+  link: /monsters/boureikensi
 ---
 
 # メタルライダー

@@ -1,6 +1,12 @@
 ---
 title: マグマスライム
 description: DQMVIのモンスター「マグマスライム」のステータス。HP20 / こうげき6 / しゅび1 / 経験値9 / 2G。
+prev:
+  text: "スライムツリー"
+  link: /monsters/slimetree
+next:
+  text: "スライムタール"
+  link: /monsters/slimetar
 ---
 
 # マグマスライム

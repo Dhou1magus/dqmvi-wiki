@@ -1,6 +1,12 @@
 ---
 title: たこまじん
 description: DQMVIのモンスター「たこまじん」のステータス。HP175 / こうげき93 / しゅび75 / 経験値159 / 32G。
+prev:
+  text: "キラークラブ"
+  link: /monsters/killer_crab2
+next:
+  text: "キングマーマン"
+  link: /monsters/kingmerman
 ---
 
 # たこまじん

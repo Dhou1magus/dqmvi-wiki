@@ -1,6 +1,12 @@
 ---
 title: ドラゴン
 description: DQMVIのモンスター「ドラゴン」のステータス。HP220 / こうげき115.02 / しゅび85 / 経験値200 / 40G。
+prev:
+  text: "マリンスライム"
+  link: /monsters/marinsuraimu
+next:
+  text: "ダンスニードル"
+  link: /monsters/dansunidoru
 ---
 
 # ドラゴン

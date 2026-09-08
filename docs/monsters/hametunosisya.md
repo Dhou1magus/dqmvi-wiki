@@ -1,6 +1,12 @@
 ---
 title: はめつの使者
 description: DQMVIのモンスター「はめつの使者」のステータス。HP1,965 / こうげき358.4 / しゅび210 / 経験値688 / 138G。
+prev:
+  text: "キラーマシン2"
+  link: /monsters/kiramasin2
+next:
+  text: "キングレオⅢ"
+  link: /monsters/kingreo3
 ---
 
 # はめつの使者

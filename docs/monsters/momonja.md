@@ -1,6 +1,12 @@
 ---
 title: ももんじゃ
 description: DQMVIのモンスター「ももんじゃ」のステータス。HP23 / こうげき11 / しゅび4 / 経験値16 / 3G。
+prev:
+  text: "おばけきのこ"
+  link: /monsters/obakekinoko
+next:
+  text: "ドロヌーバ"
+  link: /monsters/doronuba
 ---
 
 # ももんじゃ

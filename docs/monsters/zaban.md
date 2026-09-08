@@ -1,6 +1,12 @@
 ---
 title: ザバン
 description: DQMVIのモンスター「ザバン」のステータス。HP456 / こうげき145 / しゅび140 / 経験値274 / 55G。
+prev:
+  text: "エレフローパー"
+  link: /monsters/elefloper
+next:
+  text: "どくどくゾンビ"
+  link: /monsters/dokudokuzonbi
 ---
 
 # ザバン

@@ -1,6 +1,12 @@
 ---
 title: スライムエンペラー
 description: DQMVIのモンスター「スライムエンペラー」のステータス。HP467 / こうげき140 / しゅび128 / 経験値298 / 56G。
+prev:
+  text: "スライムエネルゴン"
+  link: /monsters/slimeenergon
+next:
+  text: "どぐう戦士"
+  link: /monsters/dgu_fighter
 ---
 
 # スライムエンペラー

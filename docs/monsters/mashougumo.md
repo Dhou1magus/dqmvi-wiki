@@ -1,6 +1,12 @@
 ---
 title: ましょうぐも
 description: DQMVIのモンスター「ましょうぐも」のステータス。HP7,141 / こうげき342 / しゅび188 / 経験値9,059 / 1,812G。
+prev:
+  text: "なみさそり"
+  link: /monsters/wave_scorpion
+next:
+  text: "ピサロナイト"
+  link: /monsters/pisaronaito
 ---
 
 # ましょうぐも
