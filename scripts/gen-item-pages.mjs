@@ -33,7 +33,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { recordNames } from './lib/names.mjs'
-import { extraRows, leftoverTables, finish, plainName } from './lib/handwritten.mjs'
+import { extraRows, extraSections, headingKey, leftoverTables, finish, plainName } from './lib/handwritten.mjs'
 import { BLANK_MONSTERS } from './lib/blank-monsters.mjs'
 
 /** MOD本体から取り出した装備の数値。無くても名前だけで作れるようにしておく */
@@ -41,6 +41,12 @@ const STATS_PATH = join('scripts', 'data', 'equipment.json')
 const STATS = existsSync(STATS_PATH)
   ? JSON.parse(readFileSync(STATS_PATH, 'utf8'))
   : { weapons: {}, armor: {}, shields: {}, accessories: {} }
+
+const EQUIPMENT_CATEGORIES = JSON.parse(readFileSync(join('scripts', 'data', 'equipment-categories.json'), 'utf8'))
+const ACCESSORY_SLOTS_PATH = join('scripts', 'data', 'accessory-slots.json')
+const ACCESSORY_SLOTS = existsSync(ACCESSORY_SLOTS_PATH)
+  ? JSON.parse(readFileSync(ACCESSORY_SLOTS_PATH, 'utf8'))
+  : {}
 
 /**
  * 数値を空欄にする武器種（手で書くファイル scripts/data/weapon-blank.json の kinds）。
@@ -54,10 +60,6 @@ const BLANK_WEAPON_KINDS = new Set(
 /** 倍率は小数が長く出るので2桁に丸める。1.19 のように末尾の0は消す */
 const mul = (v) => (v == null ? '—' : `×${Number(v).toFixed(2).replace(/\.?0+$/, '')}`)
 const int = (v) => (v == null ? '—' : String(v))
-/** 武器種の並び。ゲーム内の分類そのままで、推測は入れていない */
-const WEAPON_ORDER = ['剣', '勇者の剣', '槍', '短剣', '杖', '棍', '爪', '拳',
-                      'ハンマー', '斧', 'ムチ', '弓', 'ブーメラン', 'バニラ剣']
-
 const SRC = process.argv[2]
 if (!SRC) {
   console.error('使い方: node scripts/gen-item-pages.mjs <ext/assets/dqmvi のパス>')
@@ -426,47 +428,59 @@ function equipPage(page) {
   lines.push(`# ${page.group}一覧`)
   lines.push('')
 
-  if (page.group === '武器') {
-    // 武器種はMODが持っている分類。見出しで区切る
+  if (EQUIPMENT_CATEGORIES[page.slug]) {
+    const categories = [...EQUIPMENT_CATEGORIES[page.slug]]
+    if (!categories.some((c) => c.name === 'その他')) categories.push({ name: 'その他', id: 'other' })
+    const names = new Set(categories.map((c) => c.name))
+    const known = KNOWN_NAMES()
+    const extraLists = new Map(extraSections(path, new Map()).h2.map((block) => {
+      const rows = block.split('\n')
+      const nestedHeading = rows.findIndex((line) => /^#{3,6}\s/.test(line))
+      const directRows = rows.slice(1, nestedHeading < 0 ? undefined : nestedHeading)
+      return [headingKey(rows[0]), directRows.filter((line) => /^[-*] /.test(line) && !known.has(plainName(line.slice(2))))]
+    }))
     const byKind = new Map()
     for (const i of list) {
-      const k = STATS.weapons[i.key]?.武器種 ?? 'その他'
+      const kind = page.slug === 'weapons' ? STATS.weapons[i.key]?.武器種
+        : page.slug === 'armor' ? STATS.armor[i.key]?.部位
+        : page.slug === 'accessories' ? ACCESSORY_SLOTS[i.key]
+        : tenseiKind(i.key)
+      const k = names.has(kind) ? kind : 'その他'
       if (!byKind.has(k)) byKind.set(k, [])
       byKind.get(k).push(i)
     }
-    const order = [...WEAPON_ORDER, ...[...byKind.keys()].filter((k) => !WEAPON_ORDER.includes(k))]
-    for (const k of order) {
-      const group = byKind.get(k)
-      if (!group?.length) continue
-      lines.push(`## ${k}（${group.length}種）`)
+    for (const { name: k, id } of categories) {
+      const group = byKind.get(k) ?? []
+      const addedTables = [extra.get(k), ...(k === 'その他' ? [extra.get('')] : [])].filter(Boolean)
+      const addedItems = extraLists.get(k) ?? []
+      const count = group.length + addedTables.reduce((n, t) => n + t.rows.length, 0) + addedItems.length
+      if (!count) continue
+      lines.push(`## ${k}（${count}種） {#${id}}`)
       lines.push('')
-      lines.push(...table(k === '杖' ? SHAPE.杖 : SHAPE.武器, group, { blank: BLANK_WEAPON_KINDS.has(k) }))
-      lines.push(...(extra.get(k)?.rows ?? []))
+      const shape = page.slug === 'weapons' ? (k === '杖' ? SHAPE.杖 : SHAPE.武器)
+        : page.slug === 'tensei' ? SHAPE[k] : SHAPE[page.group]
+      const head = shape ? `| ${shape.head.join(' | ')} |` : ''
+      let tableHead = ''
+      if (shape && (group.length || addedTables.some((t) => t.head[0] === head))) {
+        lines.push(...table(shape, group, { blank: page.slug === 'weapons' && BLANK_WEAPON_KINDS.has(k) }))
+        tableHead = head
+      } else {
+        for (const i of group) lines.push(`- ${cell(itemLink(i))}`)
+      }
+      for (const t of addedTables) {
+        if (t.head[0] !== tableHead) lines.push('', ...t.head)
+        lines.push(...t.rows)
+        tableHead = t.head[0]
+      }
+      if (addedItems.length) lines.push('', ...addedItems)
       emitted.add(k)
       lines.push('')
     }
     lines.push(...leftoverTables(extra, emitted))
-    lines.push('杖には武器としての攻撃力がなく、「魔力倍率」が呪文の威力にかかります。')
-    lines.push('')
-  } else if (page.group === '転生装備') {
-    const byKind = new Map()
-    for (const i of list) {
-      const k = tenseiKind(i.key) ?? 'その他'
-      if (!byKind.has(k)) byKind.set(k, [])
-      byKind.get(k).push(i)
-    }
-    for (const k of ['武器', '防具', '盾', 'アクセサリー', 'その他']) {
-      const group = byKind.get(k)
-      if (!group?.length) continue
-      lines.push(`## ${k}（${group.length}種）`)
-      lines.push('')
-      if (SHAPE[k]) lines.push(...table(SHAPE[k], group))
-      else for (const i of group) lines.push(`- ${cell(itemLink(i))}`)
-      lines.push(...(extra.get(k)?.rows ?? []))
-      emitted.add(k)
+    if (page.slug === 'weapons') {
+      lines.push('杖には武器としての攻撃力がなく、「魔力倍率」が呪文の威力にかかります。')
       lines.push('')
     }
-    lines.push(...leftoverTables(extra, emitted))
   } else {
     lines.push(...table(SHAPE[page.group], list))
     lines.push(...(extra.get('')?.rows ?? []))

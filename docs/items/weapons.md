@@ -6,7 +6,7 @@ pageClass: wide-page sortable-list
 
 # 武器一覧
 
-## 剣（28種）
+## 剣（28種） {#sword}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -39,7 +39,7 @@ pageClass: wide-page sortable-list
 | [奇跡の剣改](/items/kisekinoturugikai) | 13 | ×3.27 | 1/5の確率で与えたダメージの1/10を回復する |
 | [隼の剣改](/drops/hayabusanoturugikai) | 5 | ×1.83 | 2回攻撃 |
 
-## 勇者の剣（17種）
+## 勇者の剣（17種） {#hero-sword}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -61,7 +61,7 @@ pageClass: wide-page sortable-list
 | [ライトシャムシール](/items/raitosyamusiru) | 15 | ×3.34 | — |
 | [英雄王の剣](/items/eiyuuounoken) | 17 | ×3.42 | — |
 
-## 槍（17種）
+## 槍（17種） {#spear}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -83,7 +83,7 @@ pageClass: wide-page sortable-list
 | [地獄の魔槍](/items/jigokumasou) | 21 | ×3.84 | — |
 | [真・地獄の魔槍](/items/jigokumasou2) | 24 | ×4 | — |
 
-## 短剣（17種）
+## 短剣（17種） {#dagger}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -105,7 +105,7 @@ pageClass: wide-page sortable-list
 | [イーグルダガー](/items/igurudaga) | 5 | ×2.44 | — |
 | [ライトニングダガー](/items/raitoningudaga) | 14 | ×3.84 | — |
 
-## 杖（18種）
+## 杖（18種） {#staff}
 
 | 杖 | 魔力倍率 | 特殊効果 |
 | --- | ---: | --- |
@@ -128,7 +128,7 @@ pageClass: wide-page sortable-list
 | [魔導士の杖](/items/mahoustaff11) | ×1.2 | — |
 | [龍王の杖](/items/mahoustaff18) | ×2.8 | — |
 
-## 棍（15種）
+## 棍（15種） {#kon}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -148,7 +148,7 @@ pageClass: wide-page sortable-list
 | [如来棍](/items/nyoraikon) | 14 | ×3.82 | — |
 | [真・如来棍](/items/nyoraikon2) | 18 | ×4 | — |
 
-## 爪（17種）
+## 爪（17種） {#claw}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -170,7 +170,7 @@ pageClass: wide-page sortable-list
 | [おうごんのツメ](/items/ougonnotume) | 13 | ×3.22 | — |
 | [オリハルコンのツメ](/items/oriharukonnotume) | 18 | ×3.67 | — |
 
-## 拳（4種）
+## 拳（4種） {#fist}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -179,7 +179,7 @@ pageClass: wide-page sortable-list
 | [最強の拳](/items/kobusi3) | 17 | ×3.42 | — |
 | [真・最強の拳](/items/kobusi32) | 28 | ×4 | — |
 
-## ハンマー（15種）
+## ハンマー（15種） {#hammer}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -199,7 +199,7 @@ pageClass: wide-page sortable-list
 | [破壊の鉄球](/items/hakainotekkyuu) | 23 | ×3.82 | — |
 | [真・破壊の鉄球](/items/hakainotekkyuu2) | 27 | ×4 | — |
 
-## 斧（17種）
+## 斧（17種） {#axe}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -221,7 +221,7 @@ pageClass: wide-page sortable-list
 | [アポロンのオノ](/items/aporonnoono) | 18 | ×3.69 | — |
 | [カイロスアックス](/items/kairosuakkusu) | 23 | ×3.9 | — |
 
-## ムチ（17種）
+## ムチ（17種） {#whip}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -243,7 +243,7 @@ pageClass: wide-page sortable-list
 | [だいあくまのムチ](/items/daiakumanomuti) | 13 | ×3.34 | — |
 | [グレイプニルのムチ](/items/gureipunirunomuti) | 20 | ×3.87 | — |
 
-## 弓（17種）
+## 弓（17種） {#bow}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -265,7 +265,7 @@ pageClass: wide-page sortable-list
 | [スライムショット](/items/suraimusyotto) | 16 | ×3.3 | — |
 | [緋赤鳥の弓](/items/hisekityounoyumi) | 22 | ×3.81 | — |
 
-## ブーメラン（17種）
+## ブーメラン（17種） {#boomerang}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -287,7 +287,7 @@ pageClass: wide-page sortable-list
 | [コメットエッジ](/items/komettoejji) | 20 | ×3.8 | — |
 | [はてんの月輪](/items/hatennogeturin) | 24 | ×3.96 | — |
 
-## バニラ剣（5種）
+## バニラ剣（5種） {#vanilla-sword}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -297,7 +297,7 @@ pageClass: wide-page sortable-list
 | [金の剣[DQM用]](/items/bsword4) | 2 | ×1.4 | — |
 | [ダイヤの剣[DQM用]](/items/bsword5) | 2 | ×1.5 | — |
 
-## 銃（18種）
+## 銃（18種） {#gun}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -320,7 +320,7 @@ pageClass: wide-page sortable-list
 | [竜滅重砲](/items/ryuumetujuuhou) |  |  |  |
 | [星穿神機砲](/items/seisenjinkihou) |  |  |  |
 
-## 戦輪（18種）
+## 戦輪（18種） {#battle-ring}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -343,7 +343,7 @@ pageClass: wide-page sortable-list
 | [神鳥のチャクラム](/items/battle_ring_17_divine_bird) |  |  |  |
 | [神輪アルカナ](/items/battle_ring_18_arcana) |  |  |  |
 
-## 竪琴（18種）
+## 竪琴（18種） {#harp}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |

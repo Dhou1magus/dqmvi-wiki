@@ -51,7 +51,7 @@ export function plainName(cell) {
 
 /** 見出しの突き合わせ用。「剣（28種）」→「剣」 */
 export function headingKey(text) {
-  return String(text ?? '').replace(/^#+\s*/, '').replace(/[（(]\s*\d[^）)]*[）)]\s*$/, '').trim()
+  return String(text ?? '').replace(/^#+\s*/, '').replace(/\s*\{#[^}]+\}\s*$/, '').replace(/[（(]\s*\d[^）)]*[）)]\s*$/, '').trim()
 }
 
 const cells = (line) => line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|')

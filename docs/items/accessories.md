@@ -6,6 +6,8 @@ pageClass: wide-page sortable-list
 
 # アクセサリー一覧
 
+## 耳（21種） {#ear}
+
 | アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | [スライムピアス](/drops/suraimupiasu) | ×1.02 | — | — | ×1.02 | — | — | — |
@@ -18,6 +20,22 @@ pageClass: wide-page sortable-list
 | [天使のピアス](/items/tensinopiasu) | ×1.02 | ×1.01 | ×1.05 | ×1.05 | ×1.05 | ×1.06 | — |
 | [星降るピアス](/items/hosifurupiasu) | ×1.01 | ×1.09 | ×1.02 | ×1.02 | ×1.02 | ×1.1 | — |
 | [真・星降るピアス](/items/hosifurupiasu2) | ×1.04 | ×1.14 | ×1.09 | ×1.09 | ×1.05 | ×1.24 | — |
+| [ももいろ三姉妹のピアス](/drops/momoirosansimainopiasu) | ×1.15 | — | — | — | — | — | — |
+| [ぐるぐるメガネ](/items/gurugurumegane) | — | ×1.05 | — | — | ×1.1 | ×1.1 | — |
+| [炎のイヤリング](/items/honoonoiyaring) | — | — | — | — | ×1.1 | — | — |
+| [光のイヤリング](/items/hikarinoiyaring) | — | — | — | — | ×1.1 | — | — |
+| [吹雪のイヤリング](/items/fubukinoiyaring) | — | — | — | — | ×1.1 | — | — |
+| [土のイヤリング](/items/tutinoiyaring) | — | — | — | — | ×1.1 | — | — |
+| [熱砂のイヤリング](/items/nessanoiyaring) | — | — | — | — | ×1.1 | — | — |
+| [氷のイヤリング](/items/koorinoiyaring) | — | — | — | — | ×1.1 | — | — |
+| [風のイヤリング](/items/kazenoiyaring) | — | — | — | — | ×1.1 | — | — |
+| [雷のイヤリング](/items/kaminarinoiyaring) | — | — | — | — | ×1.1 | — | — |
+| [雷光のイヤリング](/items/raikounoiyaring) | — | — | — | — | ×1.1 | — | — |
+
+## 首（26種） {#neck}
+
+| アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | [星の首飾り](/items/hosinokubikazari) | ×1.02 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
 | [形見の首飾り](/drops/kataminokubikazari) | — | — | ×1.05 | ×1.02 | ×1.02 | ×1.06 | — |
 | [しんごんのじゅず](/items/singonnojuzu) | — | ×1.04 | ×1.01 | ×1.01 | ×1.07 | ×1.15 | — |
@@ -28,6 +46,27 @@ pageClass: wide-page sortable-list
 | [超星空の首飾り](/drops/hosizoranokubikazari2) | ×1.07 | ×1.09 | ×1.09 | ×1.09 | ×1.09 | ×1.11 | — |
 | [極星空の首飾り](/items/hosizoranokubikazari3) | ×1.15 | ×1.24 | ×1.15 | ×1.15 | ×1.15 | ×1.2 | — |
 | [真・極星空の首飾り](/items/hosizoranokubikazari4) | ×1.25 | ×1.5 | ×1.24 | ×1.24 | ×1.2 | ×1.5 | — |
+| [ちょうネクタイ](/items/tyounekutai) | ×1.02 | ×1.01 | — | ×1.02 | ×1.06 | — | — |
+| [きせきのネックレス](/items/kisekinonekkuresu) | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | — |
+| [にじのしずく](/items/nijinosizuku) | — | ×1.05 | — | — | ×1.05 | ×1.05 | — |
+| [バトルチョーカー](/items/batorutyoka) | ×1.1 | — | ×1.1 | ×1.05 | — | — | — |
+| [まんげつの首輪](/items/mangetunokubiwa) | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
+| [めざましチョーカー](/items/mezamasityoka) | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
+| [ようせいの首飾り](/items/youseinokubikazari) | — | ×1.05 | — | — | ×1.05 | — | — |
+| [りせいのネックレス](/items/riseinonekkuresu) | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
+| [海賊王の首飾り](/items/kaizokuounokubikazari) | ×1.05 | — | ×1.05 | ×1.05 | ×1.05 | — | — |
+| [誓いのペンダント](/items/tikainopendanto) | — | ×1.05 | — | ×1.05 | ×1.05 | — | — |
+| [伝説のブロックくずしの首飾り](/items/densetunoburokkukuzusinokubikazari) | ×1.2 | ×1.2 | ×1.2 | ×1.2 | ×1.2 | ×1.2 | — |
+| [破幻のネックレス](/items/hagennonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
+| [破邪のネックレス](/items/hajanonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
+| [破毒のネックレス](/items/hadokunonekkuresu) | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
+| [破封のネックレス](/items/hafuunonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
+| [不惑のネックレス](/items/fuwakunonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
+
+## 腕（14種） {#arm}
+
+| アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | [ゴールドブレスレット](/items/goldburesuretto) | — | — | — | ×1.01 | — | — | — |
 | [ほしふる腕輪](/drops/hosifuru) | ×1.1 | — | — | — | — | — | — |
 | [いやしの腕輪](/items/iyasinoudewa) | ×1.25 | — | — | ×1.05 | — | — | — |
@@ -40,6 +79,13 @@ pageClass: wide-page sortable-list
 | [極守りの腕輪](/items/mamorinoudewa3) | ×1.35 | — | — | ×1.37 | — | — | — |
 | [真・極守りの腕輪](/items/mamorinoudewa4) | ×1.5 | — | — | ×1.5 | — | — | — |
 | [ようせいのうでわ](/items/youseinoudewa) | — | ×1.14 | — | ×1.05 | ×1.15 | ×1.24 | — |
+| [インテリのうでわ](/items/interinoudewa) | — | ×1.1 | — | — | ×1.05 | ×1.15 | — |
+| [命のブレスレット](/items/inotinoburesuretto) | ×1.15 | — | — | — | — | — | — |
+
+## 指（24種） {#finger}
+
+| アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | [ゴールドリング](/items/goldring) | — | — | — | ×1.01 | — | — | — |
 | [ぎんのゆびわ](/items/ginnoyubiwa) | — | ×1.04 | — | — | — | ×1.01 | — |
 | [命のゆびわ](/items/inotinoyubiwa) | ×1.15 | — | — | ×1.01 | — | — | — |
@@ -62,6 +108,13 @@ pageClass: wide-page sortable-list
 | [ひらめきのジュエル](/items/hiramekijueru) | — | ×1.09 | — | — | — | ×1.15 | — |
 | [ピンクパール](/items/pinkparu) | — | ×1.04 | — | ×1.07 | ×1.07 | — | — |
 | [ワナ抜けの指輪](/items/wananukenoyubiwa) | — | — | — | — | — | — | — |
+| [きせきのゆびわ](/items/kisekinoyubiwa) | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | — |
+| [はくあいのゆびわ](/items/hakuainoyubiwa) | ×1.1 | — | — | ×1.05 | ×1.05 | — | — |
+
+## その他（32種） {#other}
+
+| アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | [竜のうろこ](/drops/ryuunouroko) | ×1.05 | — | ×1.05 | ×1.07 | ×1.07 | — | — |
 | [ロイヤルバッジ](/items/roiyarubajjji) | ×1.05 | ×1.04 | ×1.02 | ×1.05 | ×1.05 | ×1.03 | — |
 | [まよけの聖印](/items/mayokenoseiin) | — | ×1.09 | — | ×1.02 | ×1.02 | ×1.06 | — |
@@ -73,57 +126,26 @@ pageClass: wide-page sortable-list
 | [極怒りのタトゥー](/items/ikarinotatu3) | ×1.3 | — | ×1.24 | ×1.11 | ×1.05 | ×1.32 | — |
 | [真・極怒りのタトゥー](/items/ikarinotatu4) | ×1.5 | — | ×1.37 | ×1.18 | ×1.07 | ×1.5 | — |
 | [全てを極めた者の証](/items/saikyounoakasi) | — | — | — | — | — | — | — |
-| [ちょうネクタイ](/items/tyounekutai) | ×1.02 | ×1.01 | — | ×1.02 | ×1.06 | — | — |
-| [ももいろ三姉妹のピアス](/drops/momoirosansimainopiasu) | ×1.15 | — | — | — | — | — | — |
 | [魔王の笛](/items/maounofue) | — | ×1.25 | — | — | — | ×1.25 | — |
 | [あくまのしっぽ](/items/akumanosippo) | — | ×1.1 | — | — | — | ×1.1 | — |
 | [いのりのカード](/items/inorinokado) | — | ×1.15 | — | — | — | ×1.15 | — |
 | [イメチェンリング](/items/imetyenring) | — | — | — | ×1.05 | ×1.05 | — | — |
-| [インテリのうでわ](/items/interinoudewa) | — | ×1.1 | — | — | ×1.05 | ×1.15 | — |
 | [インテリめがね](/items/interimegane) | — | — | — | — | — | ×1.2 | — |
 | [エッチな本](/items/ettinahon) | ×1.35 | ×1.35 | ×1.35 | ×1.35 | ×1.35 | ×1.35 | — |
 | [おしゃれなベルト](/items/osyarenaberuto) | ×1.05 | — | — | ×1.05 | — | — | — |
 | [カリスマスカーフ](/items/karisumasukafu) | ×1.05 | — | — | — | — | — | — |
-| [きせきのネックレス](/items/kisekinonekkuresu) | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | — |
-| [きせきのゆびわ](/items/kisekinoyubiwa) | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | — |
-| [ぐるぐるメガネ](/items/gurugurumegane) | — | ×1.05 | — | — | ×1.1 | ×1.1 | — |
 | [しっぷうのカード](/items/sippuunokado) | — | — | — | — | — | — | — |
-| [にじのしずく](/items/nijinosizuku) | — | ×1.05 | — | — | ×1.05 | ×1.05 | — |
-| [はくあいのゆびわ](/items/hakuainoyubiwa) | ×1.1 | — | — | ×1.05 | ×1.05 | — | — |
-| [バトルチョーカー](/items/batorutyoka) | ×1.1 | — | ×1.1 | ×1.05 | — | — | — |
 | [パワーベルト](/items/pawaberuto) | — | — | ×1.25 | — | — | — | — |
 | [ハンサムスカーフ](/items/hansamusukafu) | — | — | — | — | — | — | — |
 | [ビーナスのなみだ](/items/binasunonamida) | — | ×1.1 | — | — | ×1.1 | — | — |
 | [まもりのカード](/items/mamorinokado) | — | — | — | ×1.15 | ×1.15 | — | — |
-| [まんげつの首輪](/items/mangetunokubiwa) | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
 | [みかわしのカード](/items/mikawasinokado) | — | — | — | — | — | — | — |
-| [めざましチョーカー](/items/mezamasityoka) | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
-| [ようせいの首飾り](/items/youseinokubikazari) | — | ×1.05 | — | — | ×1.05 | — | — |
-| [りせいのネックレス](/items/riseinonekkuresu) | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
 | [ロイヤルチャーム](/items/roiyarutyamu) | — | ×1.15 | — | — | ×1.05 | ×1.05 | — |
-| [炎のイヤリング](/items/honoonoiyaring) | — | — | — | — | ×1.1 | — | — |
 | [会心のカード](/items/kaisinnokado) | ×1.1 | — | ×1.1 | — | — | — | — |
-| [海賊王の首飾り](/items/kaizokuounokubikazari) | ×1.05 | — | ×1.05 | ×1.05 | ×1.05 | — | — |
-| [光のイヤリング](/items/hikarinoiyaring) | — | — | — | — | ×1.1 | — | — |
 | [思い出のリボン](/items/omoidenoribon) | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | — |
 | [集中のカード](/items/syutyuunokado) | — | — | ×1.1 | — | — | — | — |
-| [吹雪のイヤリング](/items/fubukinoiyaring) | — | — | — | — | ×1.1 | — | — |
-| [誓いのペンダント](/items/tikainopendanto) | — | ×1.05 | — | ×1.05 | ×1.05 | — | — |
 | [大地の竜玉](/items/daitinoryuugyoku) | ×1.3 | ×1.3 | ×1.3 | ×1.3 | ×1.3 | ×1.3 | — |
-| [伝説のブロックくずしの首飾り](/items/densetunoburokkukuzusinokubikazari) | ×1.2 | ×1.2 | ×1.2 | ×1.2 | ×1.2 | ×1.2 | — |
-| [土のイヤリング](/items/tutinoiyaring) | — | — | — | — | ×1.1 | — | — |
-| [熱砂のイヤリング](/items/nessanoiyaring) | — | — | — | — | ×1.1 | — | — |
-| [破幻のネックレス](/items/hagennonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
-| [破邪のネックレス](/items/hajanonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
-| [破毒のネックレス](/items/hadokunonekkuresu) | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
-| [破封のネックレス](/items/hafuunonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
-| [氷のイヤリング](/items/koorinoiyaring) | — | — | — | — | ×1.1 | — | — |
-| [不惑のネックレス](/items/fuwakunonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
-| [風のイヤリング](/items/kazenoiyaring) | — | — | — | — | ×1.1 | — | — |
 | [暴走のカード](/items/bousounokado) | — | — | — | — | — | ×1.15 | — |
-| [命のブレスレット](/items/inotinoburesuretto) | ×1.15 | — | — | — | — | — | — |
-| [雷のイヤリング](/items/kaminarinoiyaring) | — | — | — | — | ×1.1 | — | — |
-| [雷光のイヤリング](/items/raikounoiyaring) | — | — | — | — | ×1.1 | — | — |
 | [竜のおまもり](/items/ryuunoomamori) | ×1.15 | — | ×1.05 | ×1.05 | — | — | — |
 
 ## 関連ページ
