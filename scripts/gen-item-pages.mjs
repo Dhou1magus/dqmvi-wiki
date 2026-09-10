@@ -425,12 +425,6 @@ function equipPage(page) {
   lines.push('')
   lines.push(`# ${page.group}一覧`)
   lines.push('')
-  lines.push(`${page.lead}全部で **${list.length}種** です。`)
-  lines.push('')
-  lines.push('::: tip 見かた')
-  lines.push('倍率は、いまの能力に掛かる値です。見出しを押すとその項目で並べ替えできます。')
-  lines.push(':::')
-  lines.push('')
 
   if (page.group === '武器') {
     // 武器種はMODが持っている分類。見出しで区切る
@@ -514,12 +508,6 @@ function otherPage(page) {
   lines.push('')
   lines.push(`# ${page.group}一覧`)
   lines.push('')
-  lines.push(`${page.lead}全部で **${list.length}種** です。品名を押すとそのアイテムのページが開きます。`)
-  lines.push('')
-  if (list.some((i) => DROPPED.has(i.key))) {
-    lines.push('入手方法が「モンスター」の品は、品名を押すと落とすモンスターの一覧が開きます。')
-    lines.push('')
-  }
   if (page.group === '釣り') {
     const byKind = new Map()
     for (const i of list) {
@@ -538,8 +526,6 @@ function otherPage(page) {
       lines.push('')
     }
   } else if (page.group === '素材' && materialRank.size) {
-    lines.push('「ランク」は、そのランクの土地で手に入り始める目安です（「1〜」ならランク1から）。ゲーム内の「素材取得一覧表」と同じ数字です。')
-    lines.push('')
     lines.push(...otherTable(page.group, list, true))
     lines.push(...(extra.get('')?.rows ?? []))
     lines.push('')
