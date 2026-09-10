@@ -1,105 +1,65 @@
-/* ============================================================
-   DQMVI 攻略wiki — テーマ
-
-   書体は2つだけ:
-     見出し・ラベル … M PLUS Rounded 1c 800
-     本文       … Zen Maru Gothic 500
-   font-synthesis:none で、それ以外のウェイト指定が来ても
-   ブラウザが偽ボールドを作らないようにしている
-   ============================================================ */
-
 :root {
-  --f-display: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", sans-serif;
-  /* 本文・表・数字は Noto Sans JP（見出しの丸ゴシックとは別。小さい字でも潰れにくい） */
-  --vp-font-family-base: "Noto Sans JP", "Hiragino Sans", "Yu Gothic UI",
-    "Meiryo", system-ui, sans-serif;
+  --vp-font-family-base: "Noto Sans JP", "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+  --f-display: var(--vp-font-family-base);
   --vp-font-family-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
-
-  --label-ls: 0.06em;
-
-  /* ── ライトテーマ（石のグレー） ── */
-  --vp-c-bg: #f1f2ef;
-  --vp-c-bg-alt: #e7e9e4;
-  --vp-c-bg-soft: #eaece7;
+  --label-ls: .025em;
+  --vp-c-bg: #f6f8fb;
+  --vp-c-bg-alt: #edf1f7;
+  --vp-c-bg-soft: #f0f4f9;
   --vp-c-bg-elv: #ffffff;
-
-  --vp-c-text-1: #191b18;
-  --vp-c-text-2: #5c635a;
-  --vp-c-text-3: #868d83;
-
-  --vp-c-divider: #d6d9d2;
-  --vp-c-gutter: #d6d9d2;
-  --vp-c-border: #d6d9d2;
-  --stone-edge: #b6bbb1;
-
-  --vp-c-brand-1: #0f7a4a;
-  --vp-c-brand-2: #0c6a40;
-  --vp-c-brand-3: #0a5a37;
-  --vp-c-brand-soft: #dfeee6;
-
-  --copper: #a45f2c;
-  --copper-soft: #f3e5d8;
-
+  --vp-c-text-1: #23364d;
+  --vp-c-text-2: #5b6c80;
+  --vp-c-text-3: #748297;
+  --vp-c-divider: #dde4ed;
+  --vp-c-gutter: #dde4ed;
+  --vp-c-border: #c7d3e1;
+  --stone-edge: #bdcad9;
+  --vp-c-brand-1: #2463a5;
+  --vp-c-brand-2: #20568f;
+  --vp-c-brand-3: #2867a7;
+  --vp-c-brand-soft: #e8f0fb;
+  --copper: #9b651f;
+  --copper-soft: #fbf0dd;
   --r: 6px;
-
-  /* ── 押せるもの（ボタン・タイル・チップ）の共通の見た目 ──
-     「ぷにっと押せる」: 厚みのある白いキー。下に --key-edge 色の縁を box-shadow で敷いて
-     厚みに見せ、指を置くと持ち上がり（縁が伸びる）、押すと沈む（縁が縮む）。
-     押せないただの箱（すべてのページ・更新履歴・about）は同じ角丸と枠線だけ使い、厚みは付けない。
-     → 厚みがあるものだけが押せる、という約束（2026-09-08 よっしー選択の A案） */
-  --key-r: 18px;               /* 大きいキー（大ボタン・カード）の角 */
-  --key-r-s: 14px;             /* 小さいキー（1行の導線）の角 */
-  --key-border: #e3e6e0;       /* キーの枠線 */
-  --key-edge: #cfd3cb;         /* キーの厚み（下の縁） */
-  --key-edge-on: var(--vp-c-brand-3); /* 押し込んだ（選択中の）キーの厚み */
-  /* ── レイアウト全体の幅 ──
-     VitePressはサイドバーの幅も本文の左右余白も
-       (画面幅 - この値) / 2
-     を足す形で計算する。この値を画面幅より大きい固定値にすると引き算が
-     負になり、サイドバーが潰れて本文と重なる。
-     min() で画面幅を超えないようにしておけば、狭い画面では0になって
-     既定どおりに、広い画面では1880pxで中央寄せになる。 */
-  --vp-layout-max-width: min(1880px, 100vw);
+  --key-r: 9px;
+  --key-r-s: 6px;
+  --key-border: var(--vp-c-divider);
+  --key-edge: #dce4ef;
+  --key-edge-on: #244f7c;
+  --vp-layout-max-width: min(1600px, 100vw);
+  --vp-sidebar-width: 260px;
 }
-
 .dark {
-  --vp-c-bg: #121411;
-  --vp-c-bg-alt: #1a1d19;
-  --vp-c-bg-soft: #1a1d19;
-  --vp-c-bg-elv: #1e221d;
-
-  --vp-c-text-1: #e6e8e3;
-  --vp-c-text-2: #949a90;
-  --vp-c-text-3: #6d7469;
-
-  --vp-c-divider: #2e332c;
-  --vp-c-gutter: #2e332c;
-  --vp-c-border: #2e332c;
-  --stone-edge: #3d443a;
-
-  --vp-c-brand-1: #4fd48d;
-  --vp-c-brand-2: #3cc37c;
-  --vp-c-brand-3: #2fae6c;
-  --vp-c-brand-soft: #12301f;
-
-  --copper: #d9955c;
-  --copper-soft: #33220f;
-
-  /* 暗い画面では、厚みは背景より暗い縁、枠線は少し明るい線で出す */
-  --key-border: #2f352d;
-  --key-edge: #070907;
-  --key-edge-on: #1f7a4f;
+  --vp-c-bg: #090909;
+  --vp-c-bg-alt: #101010;
+  --vp-c-bg-soft: #1b1b1b;
+  --vp-c-bg-elv: #151515;
+  --vp-c-text-1: #ededed;
+  --vp-c-text-2: #b5b5b5;
+  --vp-c-text-3: #999999;
+  --vp-c-divider: #303030;
+  --vp-c-gutter: #303030;
+  --vp-c-border: #404040;
+  --stone-edge: #454545;
+  --vp-c-brand-1: #90bfff;
+  --vp-c-brand-2: #a5ccff;
+  --vp-c-brand-3: #326ca9;
+  --vp-c-brand-soft: #192536;
+  --copper: #e1b476;
+  --copper-soft: #3c3120;
+  --key-border: var(--vp-c-divider);
+  --key-edge: #050505;
+  --key-edge-on: #15395f;
 }
 
-/* 用意したウェイトは2つだけなので、偽ボールドを禁止する */
 html {
   font-synthesis: none;
 }
 body {
-  font-weight: 500;
+  min-width: 0;
+  font-weight: 400;
 }
 
-/* 太く見せたいものは、すべてこの1本に寄せる */
 h1, h2, h3, h4, h5, h6,
 b, strong, th,
 .VPNavBarTitle .title,
@@ -113,21 +73,15 @@ b, strong, th,
 .VPDocFooter .edit-link-button,
 .theme-switch button {
   font-family: var(--f-display);
-  font-weight: 800;
+  font-weight: 700;
 }
 
-/* ── ナビ・サイドバー ── */
 .VPNavBarTitle .title {
   letter-spacing: 0.01em;
-  font-size: 17.5px;
+  font-size: 18px;
 }
-.VPNavBarMenuLink { font-size: 13.5px; }
+.VPNavBarMenuLink { font-size: 14px; }
 
-/* ── 幅768〜1000pxのナビ ──
-   VitePressがメニューをハンバーガーに畳むのは768px未満だけなので、
-   その少し上の幅では、サイト名・検索欄・メニュー・テーマ切替が
-   横一列に並びきらず右にはみ出して横スクロールが出る。
-   この範囲だけ、検索欄を虫めがねだけにして場所を空ける。 */
 @media (min-width: 768px) and (max-width: 1000px) {
   .VPNavBarSearch .DocSearch-Button-Placeholder,
   .VPNavBarSearch .DocSearch-Button-Keys { display: none; }
@@ -136,18 +90,18 @@ b, strong, th,
   .VPNavBarTitle .title { font-size: 15.5px; }
 }
 .VPSidebarItem.level-0 > .item > .text {
-  font-size: 13.5px;
+  font-size: 14px;
   letter-spacing: var(--label-ls);
   color: var(--vp-c-text-2);
 }
-.VPSidebarItem.level-1 .link .text { font-size: 13.5px; }
+.VPSidebarItem.level-1 .link .text { font-size: 14px; }
 .VPDocAsideOutline .outline-title {
   letter-spacing: var(--label-ls);
-  font-size: 12.5px;
+  font-size: 14px;
 }
 
-/* ── 本文 ── */
-.vp-doc { line-height: 1.95; }
+.vp-doc { font-size: 16px; line-height: 1.9; }
+.vp-doc p, .vp-doc li { line-height: 1.9; }
 .vp-doc h1 {
   letter-spacing: 0.005em;
   text-wrap: balance;
@@ -170,28 +124,15 @@ b, strong, th,
   background: var(--vp-c-brand-1);
   flex-shrink: 0;
 }
-/* ── 本文の幅 ──
-   VitePressの既定は、目次のあるページで本文が688pxに固定される。
-   画面が広くても本文だけ細く残ってしまうので上限を広げる。
-   段落の折り返し制限（既定66ch＝日本語で33字ほど）も外す。枠だけ広くて
-   文字が半分で折り返す状態になるため。 */
-/* セレクタが長いのは、VitePress側が scoped スタイル
-   （.VPDoc.has-aside .content-container[data-v-xxxx]）で688pxを指定しており、
-   同じ強さでは勝てないため。クラスを1つ多く重ねて上書きしている。 */
-.Layout .VPContent .VPDoc.has-aside .content-container { max-width: 1160px; }
+.Layout .VPContent .VPDoc.has-aside .content-container { max-width: 880px; }
 .vp-doc p { max-width: none; }
 
-/* ── 表 ──
-   幅は中身に合わせる（2列の表を本文いっぱいに引き伸ばさない）。
-   本文より広くなる表は、セルの中で折り返す。それでも入らない（折り返せない列ばかりの）表は
-   表だけ横スクロールする（display:block + overflow-x:auto。VitePress 標準と同じ。ページ全体が横に
-   はみ出さないための保険）。一覧ページは下の wide-page で別扱い。 */
 .vp-doc table {
   display: block;
   width: auto;
   max-width: 100%;
   overflow-x: auto;
-  font-size: 13.5px;
+  font-size: 14px;
   border-collapse: collapse;
 }
 .vp-doc tr {
@@ -199,7 +140,7 @@ b, strong, th,
   border-top: 1px solid var(--vp-c-divider);
 }
 .vp-doc th {
-  font-size: 12.5px;
+  font-size: 14px;
   letter-spacing: var(--label-ls);
   color: var(--vp-c-text-2);
   background: var(--vp-c-bg-alt);
@@ -211,18 +152,11 @@ b, strong, th,
   border: 1px solid var(--vp-c-divider);
 }
 .vp-doc tbody tr:hover { background: var(--vp-c-bg-alt); }
-/* 短い列（印 nowrap は config.mts がビルド時に付ける）は途中で折り返さない。
-   長い文の列があると、ブラウザは短い列まで一緒に縮めて「必殺／技」のように割るため（2026-09-05 指摘）。
-   折り返す列（効果の説明など）にも最低幅を持たせ、スマホで「遊び／人の」のように2文字ずつ
-   にならないようにする。入りきらない表は横スクロールになる（上の overflow-x）。 */
 .vp-doc th.nowrap,
 .vp-doc td.nowrap { white-space: nowrap; }
 .vp-doc td:not(.nowrap):not(.dq-rank) { min-width: 9em; }
 
-/* ── 一覧ページ（frontmatter に pageClass: wide-page）──
-   モンスター名や系統が途中で折り返さないよう、本文の幅を広げて
-   セルの改行を止める。それでも入りきらない画面では表だけ横スクロールする。 */
-.Layout.wide-page .VPDoc.has-aside .content-container { max-width: 100%; }
+.Layout.wide-page .VPContent .VPDoc.has-aside .content-container { max-width: 100%; }
 .Layout.wide-page .VPDoc:not(.has-sidebar) .content { max-width: 100%; }
 
 .Layout.wide-page .vp-doc table {
@@ -233,18 +167,10 @@ b, strong, th,
   overflow-x: auto;
   overscroll-behavior-x: contain;
 }
-/* 折り返しを止めるのは名前の列と短い列だけ（印は theme/sortable-tables.ts が付ける）。
-   効果の説明文のような長い列まで一行にすると、表が横に伸びてしまう */
 .Layout.wide-page .vp-doc th.nowrap,
 .Layout.wide-page .vp-doc td.nowrap { white-space: nowrap; }
-/* 折り返す列も、1文字ずつではなく「、」「・」「）」のような区切りで折り返す。
-   表が横にはみ出すとき、折り返せる列はいちばん狭い幅（＝1文字）まで縮められるため、
-   スマホで「あや／かし／草」のように縦に細長くなっていた（2026-09-03 指摘） */
 .Layout.wide-page .vp-doc td { word-break: keep-all; }
 
-/* ── 横にはみ出す表では名前の列を左に固定する（印は theme/sortable-tables.ts が付ける）──
-   固定した列と一緒に罫線も動くよう、一覧ページの表だけ罫線をセル側に持たせる
-   （collapse だと罫線が表側のものになって、固定した列から置いていかれる） */
 .Layout.wide-page .vp-doc table { border-collapse: separate; border-spacing: 0; }
 .Layout.wide-page .vp-doc tr { border: 0; }
 .Layout.wide-page .vp-doc th,
@@ -262,11 +188,6 @@ b, strong, th,
 .Layout.wide-page .vp-doc th.sticky-col { background: var(--vp-c-bg-alt); }
 .Layout.wide-page .vp-doc tbody tr:hover td.sticky-col { background: var(--vp-c-bg-alt); }
 
-/* ── 一覧の画像の列（図鑑の「画像」）──
-   セルの中身が画像1枚だけなら、正方形のサムネイル枠に縮めて出す（縦横比は保つ）。
-   まだ画像が無い行には透明な /img/blank.png が置いてあり、薄い四角の枠だけが見える
-   （どの画像を出すかは scripts/gen-monster-pages.mjs の imageCell）。
-   ★画像は必ず docs/public/ 内のもの。外部URLは security-lint が止める。 */
 .Layout.wide-page .vp-doc td:has(> img:only-child) {
   padding: 4px 8px;
   text-align: center;
@@ -282,18 +203,14 @@ b, strong, th,
 }
 .Layout.wide-page .vp-doc td > img[src$="/img/blank.png"] { background: var(--vp-c-default-soft); }
 
-/* スマホでは表の文字と余白を少し詰めて、横スクロールなしで見える列を増やす */
 @media (max-width: 640px) {
-  .Layout.wide-page .vp-doc table { font-size: 12.5px; }
+  .Layout.wide-page .vp-doc table { font-size: 14px; }
   .Layout.wide-page .vp-doc th,
   .Layout.wide-page .vp-doc td { padding: 6px 10px; }
   .Layout.wide-page .vp-doc td:has(> img:only-child) { padding: 4px 6px; }
   .Layout.wide-page .vp-doc td > img:only-child { width: 32px; height: 32px; }
 }
 
-/* ── 名前だけを並べるページ（frontmatter に pageClass: name-list）──
-   武具は名前しか分かっていないので表にせず箇条書きにしている。
-   1列だと縦に長すぎるので段組みにする。 */
 .Layout.name-list .vp-doc ul {
   column-width: 15em;
   column-gap: 32px;
@@ -304,10 +221,6 @@ b, strong, th,
   margin: 0 0 2px;
 }
 
-/* ── 並べ替えできる表 ──
-   見出しを押すとその列で並べ替わる。どの表を対象にするかの判定と処理は
-   theme/sortable-tables.ts（対象になった表に data-sortable="ready" が付く）。
-   矢印は上向き＝小さい順、下向き＝大きい順。 */
 table[data-sortable] th {
   position: relative;
   padding-right: 22px;
@@ -316,7 +229,6 @@ table[data-sortable] th {
   transition: color 0.12s, background-color 0.12s;
 }
 table[data-sortable] th:hover { color: var(--vp-c-text-1); background: var(--vp-c-bg-soft); }
-/* 画像の列は並べ替えられない（印は theme/sortable-tables.ts が付ける） */
 table[data-sortable] th.no-sort { padding-right: 16px; cursor: default; }
 table[data-sortable] th.no-sort:hover { color: var(--vp-c-text-2); background: var(--vp-c-bg-alt); }
 table[data-sortable] th.no-sort::after { display: none; }
@@ -335,7 +247,6 @@ table[data-sortable] th::after {
   opacity: 0.3;
 }
 table[data-sortable] th:hover::after { opacity: 0.65; }
-/* 未選択：押せることが分かる程度の薄い下向き */
 table[data-sortable] th[aria-sort="none"]::after {
   margin-top: -1px;
   border-top-color: currentColor;
@@ -351,11 +262,6 @@ table[data-sortable] th[aria-sort="descending"]::after {
   opacity: 1;
 }
 
-/* ── ランクの列（SSS〜E だけが入っている列）は等幅の正方形のマス ──
-   印（class dq-rank）は config.mts がビルド時に付ける。職業一覧の「能力の伸び」「武器の適性」、
-   職業ページの「適性」など。列の幅が見出しの文字数で変わらないよう固定する
-   （見出しがマスより長い列だけ、その見出しの幅になる）。
-   .Layout を付けているのは、上の wide-page の余白指定（.Layout.wide-page …）より強くするため。 */
 .Layout .vp-doc table th.dq-rank,
 .Layout .vp-doc table td.dq-rank {
   box-sizing: border-box;
@@ -371,7 +277,6 @@ table[data-sortable] th[aria-sort="descending"]::after {
   font-weight: 700;
   font-size: 15px;
 }
-/* 並べ替えできる表では、矢印を文字の右ではなく下に置く（マスが狭いため） */
 table[data-sortable] th.dq-rank { padding: 6px 4px 14px; }
 table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; margin: 0 -4px 0 0; }
 @media (max-width: 640px) {
@@ -380,7 +285,6 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   .Layout .vp-doc table td.dq-rank { height: 40px; font-size: 14px; }
 }
 
-/* ── 注記ブロック ── */
 .vp-doc .custom-block {
   border-radius: var(--r);
   border: 1px solid var(--vp-c-divider);
@@ -397,20 +301,12 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
 .vp-doc .custom-block.tip .custom-block-title { color: var(--vp-c-brand-1); }
 .vp-doc .custom-block.warning .custom-block-title { color: var(--copper); }
 
-/* ── ステータス枠 ──
-   ```stats の枠。列の数は項目数で決める（data-n は config.mts が付ける）:
-     6項目（職業の「能力の伸び」）… 1行6マスの正方形。スマホは3マス×2行
-     8項目（モンスターの「ステータス」）… 4マス×2行。スマホは2マス×4行
-   以前の auto-fit は画面の幅しだいで 5＋1 のように割れて、空のマスが出ていた。 */
 .dq-stats {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(96px, 110px));
   gap: 6px;
   margin: 22px 0;
 }
-/* マスの上限は 110px（8項目の枠は 170px）。本文いっぱいに伸ばすと、1920px の画面（本文 1160px）で
-   1マス 188px の巨大なマスになり、中の文字が小さく見える（2026-09-05 よっしー指摘）。
-   本文が狭いときは minmax(0, …) で縮む */
 .dq-stats[data-n="6"] { grid-template-columns: repeat(6, minmax(0, 110px)); }
 .dq-stats[data-n="8"] { grid-template-columns: repeat(4, minmax(0, 170px)); }
 .dq-stats > div {
@@ -436,7 +332,7 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
 }
 .dq-stats span {
   font-family: var(--f-display);
-  font-weight: 800;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   font-variant-numeric: tabular-nums;
@@ -450,15 +346,14 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   .dq-stats span { font-size: 24px; }
 }
 
-/* ── ピル ── */
 .dq-pill {
   display: inline-block;
   font-family: var(--f-display);
-  font-weight: 800;
+  font-weight: 700;
   padding: 0 9px;
   border-radius: 999px;
   border: 1.5px solid currentColor;
-  font-size: 12.5px;
+  font-size: 14px;
   line-height: 1.75;
   letter-spacing: var(--label-ls);
   vertical-align: 1px;
@@ -466,10 +361,6 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
 .dq-pill.rare { color: var(--copper); }
 .dq-pill.hard { color: #c0563f; }
 
-/* ============================================================
-   配色テーマの3択スイッチ（ライト / 端末に合わせる / ダーク）
-   VitePress標準の2択トグルは隠して、こちらに置き換えている
-   ============================================================ */
 .VPNavBarAppearance,
 .VPNavScreenAppearance { display: none !important; }
 
@@ -496,6 +387,7 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   padding: 0;
   transition: background 0.12s, color 0.12s;
 }
+.theme-switch button:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: -3px; }
 .theme-switch button:hover { color: var(--vp-c-text-1); }
 .theme-switch button.on {
   background: var(--vp-c-brand-soft);
@@ -510,635 +402,16 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-/* モバイルメニュー内では横幅いっぱいのラベル付きに */
 .VPNavScreen .theme-switch {
   margin: 0;
   width: 100%;
   border-radius: var(--r);
 }
 .VPNavScreen .theme-switch button { flex: 1; height: 40px; }
-
-/* ============================================================
-   トップページ（layout: page）
-   ============================================================ */
-.wiki-top {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 46px 24px 90px;
+@media (max-width: 767px) {
+  .VPNavBar .theme-switch { display: none; }
 }
 
-.top-head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 8px 18px;
-  padding-bottom: 14px;
-  border-bottom: 3px solid var(--vp-c-text-1);
-  margin-bottom: 4px;
-}
-.top-head h1 {
-  font-size: clamp(27px, 4.4vw, 38px);
-  line-height: 1.25;
-  margin: 0;
-  letter-spacing: 0.005em;
-}
-.top-head .sub {
-  font-size: 13.5px;
-  color: var(--vp-c-text-2);
-  margin: 0;
-}
-.top-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 20px;
-  padding: 9px 2px 0;
-  font-size: 13px;
-  color: var(--vp-c-text-2);
-  margin-bottom: 30px;
-}
-.top-meta b {
-  letter-spacing: var(--label-ls);
-  color: var(--vp-c-text-3);
-  margin-right: 6px;
-}
-
-.sec-h {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  font-size: 16px;
-  letter-spacing: var(--label-ls);
-  margin: 42px 0 12px;
-}
-.sec-h::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 2px;
-  background: var(--vp-c-brand-1);
-  flex-shrink: 0;
-}
-.sec-h .note {
-  font-family: var(--vp-font-family-base);
-  font-weight: 500;
-  font-size: 12.5px;
-  letter-spacing: 0;
-  color: var(--vp-c-text-3);
-  margin-left: auto;
-}
-
-/* ── トップの検索 ──
-   ここで直接打てて、そのまま下に候補が出る。押したら別の窓が開く作りは
-   「入力できると思ったのに肩透かし」だったのでやめた（2026-09-01 よっしー）。
-   索引はページの名前と種別だけ。本文まで探したいときは候補の下のボタンから
-   VitePress標準の検索に打った言葉を渡す。 */
-.topsearch {
-  position: relative;
-  margin: 0 0 26px;
-}
-.topsearch .field {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  height: 54px;
-  padding: 0 8px 0 18px;
-  border: 2px solid var(--key-border);
-  border-radius: var(--key-r);
-  background: var(--vp-c-bg-elv);
-  box-shadow: 0 4px 0 var(--key-edge);
-  transition: border-color 0.12s, box-shadow 0.12s;
-}
-.topsearch .field:focus-within { border-color: var(--vp-c-brand-1); box-shadow: 0 4px 0 var(--key-edge-on); }
-.topsearch.open .field {
-  border-color: var(--vp-c-brand-1);
-  border-radius: var(--key-r) var(--key-r) 0 0;
-  box-shadow: none;
-}
-.topsearch svg {
-  width: 19px;
-  height: 19px;
-  stroke: var(--vp-c-text-3);
-  fill: none;
-  stroke-width: 1.9;
-  stroke-linecap: round;
-  flex-shrink: 0;
-}
-.topsearch input {
-  flex: 1;
-  min-width: 0;
-  height: 100%;
-  border: 0;
-  outline: 0;
-  background: transparent;
-  color: var(--vp-c-text-1);
-  font: inherit;
-  font-size: 15.5px;
-}
-.topsearch input::placeholder { color: var(--vp-c-text-3); }
-/* ブラウザ標準の×は位置も色も揃わないので消して自前のものを出す */
-.topsearch input::-webkit-search-cancel-button { display: none; }
-.topsearch .clear {
-  border: 0;
-  background: var(--vp-c-bg-alt);
-  color: var(--vp-c-text-2);
-  font-size: 14px;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  cursor: pointer;
-  flex-shrink: 0;
-}
-.topsearch .clear:hover { background: var(--vp-c-brand-soft); color: var(--vp-c-brand-1); }
-
-.topsearch .results {
-  position: absolute;
-  z-index: 30;
-  left: 0;
-  right: 0;
-  top: 52px;
-  border: 2px solid var(--vp-c-brand-1);
-  border-top: 0;
-  border-radius: 0 0 var(--key-r) var(--key-r);
-  background: var(--vp-c-bg-elv);
-  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.16);
-  overflow: hidden;
-}
-.topsearch .results a {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  padding: 10px 16px;
-  text-decoration: none;
-  color: inherit;
-  border-top: 1px solid var(--vp-c-divider);
-}
-.topsearch .results a.on { background: var(--vp-c-brand-soft); }
-.topsearch .results .nm { font-size: 14.5px; }
-.topsearch .results .kd {
-  margin-left: auto;
-  font-size: 11px;
-  letter-spacing: var(--label-ls);
-  color: var(--vp-c-text-3);
-  white-space: nowrap;
-}
-.topsearch .none {
-  margin: 0;
-  padding: 14px 16px;
-  font-size: 13.5px;
-  color: var(--vp-c-text-2);
-  border-top: 1px solid var(--vp-c-divider);
-}
-.topsearch .full {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  width: 100%;
-  padding: 11px 16px;
-  border: 0;
-  border-top: 1px solid var(--vp-c-divider);
-  background: var(--vp-c-bg-alt);
-  color: var(--vp-c-brand-1);
-  font: inherit;
-  font-size: 13px;
-  font-weight: 700;
-  cursor: pointer;
-  text-align: left;
-}
-.topsearch .full:hover { background: var(--vp-c-brand-soft); }
-.topsearch .full:active { background: var(--vp-c-brand-1); color: #fff; }
-.topsearch kbd {
-  font-family: var(--f-display);
-  font-size: 11px;
-  font-weight: 800;
-  padding: 2px 6px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 4px;
-  background: var(--vp-c-bg-elv);
-  color: var(--vp-c-text-3);
-}
-.topsearch .full kbd:first-of-type { margin-left: auto; }
-@media (max-width: 560px) {
-  .topsearch .field { height: 50px; }
-  .topsearch input { font-size: 16px; } /* 16px未満だとiPhoneが勝手に拡大する */
-  .topsearch .results { top: 48px; }
-}
-
-/* ── よく使うページの大ボタン ──
-   一番上・一番大きく・指で押せる高さ。ここだけで用が済む人が多いはず。
-   4列 → 2列 → 2列（スマホでも1列にしない。1列だと1画面に2つしか入らない） */
-.tiles {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-bottom: 10px;
-}
-@media (max-width: 900px) { .tiles { grid-template-columns: repeat(2, 1fr); } }
-
-/* 厚みのある白いキー。アイコンは緑の座布団（.ic の外側の丸角の箱）に載せる。
-   矢印などの飾りは付けない — 4列のとき「ドロップ品から探す」が折り返す幅しか無い */
-.tile {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-areas: "ic t" "ic d";
-  align-items: center;
-  column-gap: 13px;
-  min-height: 96px;
-  padding: 15px 16px;
-  border: 2px solid var(--key-border);
-  border-radius: var(--key-r);
-  background: var(--vp-c-bg-elv);
-  box-shadow: 0 4px 0 var(--key-edge);
-  color: inherit;
-  text-decoration: none;
-  transition: border-color 0.12s, background 0.12s, transform 0.12s, box-shadow 0.12s;
-}
-@media (hover: hover) {
-  .tile:hover {
-    border-color: var(--vp-c-brand-1);
-    box-shadow: 0 6px 0 var(--key-edge-on);
-    transform: translateY(-2px);
-  }
-  .tile:hover .ic { background: var(--vp-c-brand-1); }
-  .tile:hover .ic svg { stroke: #fff; }
-}
-.tile:active {
-  border-color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  box-shadow: 0 1px 0 var(--key-edge-on);
-  transform: translateY(3px);
-}
-.tile:focus-visible { outline: 3px solid var(--vp-c-brand-1); outline-offset: 3px; }
-/* 座布団。svg 自体ではなく、その入れ物に色を付ける */
-.tile .ic {
-  grid-area: ic;
-  width: 48px;
-  height: 48px;
-  border-radius: 14px;
-  background: var(--vp-c-brand-soft);
-  display: grid;
-  place-items: center;
-  transition: background 0.12s;
-}
-.tile .ic svg {
-  width: 26px;
-  height: 26px;
-  stroke: var(--vp-c-brand-1);
-  fill: none;
-  stroke-width: 1.9;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  transition: stroke 0.12s;
-}
-.tile .t {
-  grid-area: t;
-  align-self: end;
-  font-family: var(--f-display);
-  font-weight: 800;
-  font-size: 16.5px;
-  line-height: 1.3;
-}
-/* ネタバレを含むページの印。押す前に分かるように名前のとなりへ */
-.tile .sp {
-  font-style: normal;
-  font-size: 10.5px;
-  font-weight: 800;
-  letter-spacing: var(--label-ls);
-  margin-left: 7px;
-  padding: 2px 5px;
-  border-radius: 3px;
-  background: var(--copper-soft);
-  color: var(--copper);
-  vertical-align: 2px;
-  white-space: nowrap;
-}
-.tile .d {
-  grid-area: d;
-  align-self: start;
-  margin-top: 3px;
-  font-size: 12px;
-  line-height: 1.55;
-  color: var(--vp-c-text-3);
-}
-@media (max-width: 560px) {
-  /* 2列だと「モンスター図鑑」が図/鑑で切れる。アイコンを上の行に出して
-     名前にカードの横幅をまるごと使わせる（9文字までは1行に収まる） */
-  .tiles { gap: 10px; }
-  .tile {
-    grid-template-columns: 1fr;
-    grid-template-areas: "ic" "t";
-    align-content: start;
-    min-height: 88px;
-    padding: 12px 12px 13px;
-    column-gap: 0;
-    border-radius: 16px;
-    box-shadow: 0 3px 0 var(--key-edge);
-  }
-  .tile:active { box-shadow: 0 1px 0 var(--key-edge-on); transform: translateY(2px); }
-  .tile .ic { width: 36px; height: 36px; border-radius: 11px; margin-bottom: 8px; }
-  .tile .ic svg { width: 20px; height: 20px; }
-  .tile .t { font-size: 14px; align-self: start; }
-  .tile .sp { margin-left: 5px; font-size: 9.5px; padding: 1px 4px; }
-  .tile .d { display: none; }
-}
-
-/* ── こんなときは（疑問のかたちで引く導線）── */
-/* 1行のキー。以前は罫線を共有した1枚の表だったが、項目が奇数だと空きマスが灰色で残った。
-   1つずつ独立したキーにすれば、いくつでも空きは出ない */
-.qlist {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(292px, 1fr));
-  gap: 10px;
-}
-.qlist a {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 3px 8px;
-  background: var(--vp-c-bg-elv);
-  padding: 12px 14px;
-  border: 2px solid var(--key-border);
-  border-radius: var(--key-r-s);
-  box-shadow: 0 3px 0 var(--key-edge);
-  text-decoration: none;
-  color: inherit;
-  transition: border-color 0.12s, background 0.12s, transform 0.12s, box-shadow 0.12s;
-}
-@media (hover: hover) {
-  .qlist a:hover {
-    border-color: var(--vp-c-brand-1);
-    box-shadow: 0 5px 0 var(--key-edge-on);
-    transform: translateY(-2px);
-  }
-  .qlist a:hover .a .arr { background: var(--vp-c-brand-1); }
-  .qlist a:hover .a .arr svg { stroke: #fff; }
-}
-.qlist a:active {
-  border-color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  box-shadow: 0 1px 0 var(--key-edge-on);
-  transform: translateY(2px);
-}
-.qlist a:focus-visible { outline: 3px solid var(--vp-c-brand-1); outline-offset: 3px; }
-.qlist .q { font-size: 13.5px; font-weight: 700; }
-.qlist .a {
-  margin-left: auto;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--vp-c-brand-1);
-  white-space: nowrap;
-}
-/* 行き先の右に小さな丸い矢印。指を置くと緑に塗りつぶす。
-   以前は文字「›」を丸の中央に置いていたが、書体によっては線が極細になり、
-   スマホの実機では点にしか見えなくなる事故が起きた（2026-09-08 よっしー報告）。
-   .tile のアイコンと同じ「stroke で描く svg」に変えて、太さが書体に左右されないようにした */
-.qlist .a .arr {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: var(--vp-c-brand-soft);
-  display: grid;
-  place-items: center;
-  flex-shrink: 0;
-  transition: background 0.12s;
-}
-.qlist .a .arr svg {
-  width: 12px;
-  height: 12px;
-  stroke: var(--vp-c-brand-1);
-  fill: none;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  transition: stroke 0.12s;
-}
-
-/* はじめての人へ */
-.startbar {
-  display: grid;
-  /* 4項目。3+1で並ぶと1マス空くので、4列か2列のどちらかにする */
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-}
-.startbar a {
-  background: var(--vp-c-bg-elv);
-  padding: 14px 16px 15px;
-  border: 2px solid var(--key-border);
-  border-radius: var(--key-r);
-  box-shadow: 0 4px 0 var(--key-edge);
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  transition: border-color 0.12s, background 0.12s, transform 0.12s, box-shadow 0.12s;
-}
-@media (hover: hover) {
-  .startbar a:hover {
-    border-color: var(--vp-c-brand-1);
-    box-shadow: 0 6px 0 var(--key-edge-on);
-    transform: translateY(-2px);
-  }
-  .startbar a:hover .n { background: var(--vp-c-brand-1); color: #fff; }
-}
-.startbar a:active {
-  border-color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  box-shadow: 0 1px 0 var(--key-edge-on);
-  transform: translateY(3px);
-}
-.startbar a:focus-visible { outline: 3px solid var(--vp-c-brand-1); outline-offset: 3px; }
-@media (max-width: 860px) { .startbar { grid-template-columns: repeat(2, 1fr); gap: 10px; } }
-/* FIRST / SETUP … の札。緑の丸い札にして、指を置くと塗りつぶす */
-.startbar .n {
-  font-family: var(--f-display);
-  font-weight: 800;
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  display: inline-block;
-  padding: 2px 9px;
-  border-radius: 999px;
-  transition: background 0.12s, color 0.12s;
-}
-.startbar .t {
-  font-family: var(--f-display);
-  font-weight: 800;
-  font-size: 16px;
-  display: block;
-  margin: 7px 0 2px;
-}
-.startbar .d {
-  font-size: 12.5px;
-  color: var(--vp-c-text-2);
-  display: block;
-  line-height: 1.75;
-}
-
-/* 大題目グリッド */
-/* 押せない箱なので厚み（下の縁）は付けない。角丸と枠線だけキーと揃える。
-   1枚ずつ独立させたので、項目が 4 で割り切れなくても灰色の空きマスは出ない */
-.cat-wall {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
-  gap: 12px;
-  /* 高さは TopPage.vue の equalizeCatHeights() が揃える（2026-09-08）。
-     ここでの align-items: start は、JSが動く前の一瞬と、万一JSが動かない場合の
-     素の見た目（中身なりの高さ）。stretch にしないのは、揃え漏れたときに
-     中身1件の箱だけ引き伸ばされて不自然に空くのを避けるため */
-  align-items: start;
-}
-.cat {
-  background: var(--vp-c-bg-elv);
-  padding: 15px 17px 17px;
-  min-width: 0;
-  border: 2px solid var(--key-border);
-  border-radius: var(--key-r);
-}
-.cat > h3 {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 15.5px;
-  margin: 0 0 9px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--vp-c-divider);
-  letter-spacing: 0.01em;
-}
-.cat > h3::before {
-  content: "";
-  width: 9px;
-  height: 9px;
-  border-radius: 2px;
-  background: var(--vp-c-brand-1);
-  flex-shrink: 0;
-}
-.cat.acc > h3::before { background: var(--copper); }
-.cat ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2px 0;
-}
-/* 項目は1行に1つ（以前は 50% 幅で左右2列に並べ、wide 指定だけ1行にしていた。
-   2026-09-05 よっしー「変なところ(右)にある項目を普通に縦に並べたい」で全部1列に） */
-.cat li {
-  width: 100%;
-  font-size: 13px;
-  line-height: 1.85;
-}
-/* 中のリンクは文字のまま。指を置くと薄緑の丸い札になる（キーより軽い押し心地） */
-.cat a {
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  display: inline-block;
-  margin: 0 -8px;
-  padding: 0 8px;
-  border-radius: 999px;
-  transition: background 0.1s, color 0.1s;
-}
-.cat a:hover {
-  color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-}
-.cat a:active { background: var(--vp-c-brand-1); color: #fff; }
-/* まだ作られていないページ。編集者にとっては「次に書くもの」の一覧になる */
-.cat .todo {
-  color: var(--vp-c-text-3);
-  border-bottom: 1px dashed var(--vp-c-divider);
-  cursor: default;
-}
-
-/* 下段2カラム */
-.two-col {
-  display: grid;
-  grid-template-columns: 1.35fr 1fr;
-  gap: 30px;
-}
-@media (max-width: 780px) {
-  .two-col { grid-template-columns: 1fr; gap: 0; }
-}
-
-.log {
-  border: 2px solid var(--key-border);
-  border-radius: var(--key-r);
-  overflow: hidden;
-  background: var(--vp-c-bg-elv);
-}
-.log ul { list-style: none; margin: 0; padding: 0; }
-.log li {
-  display: flex;
-  gap: 14px;
-  align-items: baseline;
-  padding: 9px 15px;
-  border-bottom: 1px solid var(--vp-c-divider);
-  font-size: 13.5px;
-}
-.log li:last-child { border-bottom: none; }
-.log time {
-  font-family: var(--f-display);
-  font-weight: 800;
-  font-size: 12.5px;
-  color: var(--vp-c-text-3);
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-}
-.log .who {
-  margin-left: auto;
-  font-size: 12px;
-  color: var(--vp-c-text-3);
-  white-space: nowrap;
-}
-.log a {
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  display: inline-block;
-  margin: 0 -8px;
-  padding: 0 8px;
-  border-radius: 999px;
-  transition: background 0.1s, color 0.1s;
-}
-.log a:hover {
-  color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-}
-.log a:active { background: var(--vp-c-brand-1); color: #fff; }
-
-.wanted {
-  border: 2px solid var(--key-border);
-  border-left: 6px solid var(--copper);
-  border-radius: var(--key-r);
-  background: var(--vp-c-bg-elv);
-  padding: 14px 17px;
-}
-.wanted ul { list-style: none; margin: 0; padding: 0; font-size: 13px; }
-.wanted li { margin-bottom: 5px; display: flex; gap: 8px; align-items: baseline; }
-.wanted li b {
-  font-size: 11px;
-  letter-spacing: var(--label-ls);
-  color: var(--vp-c-text-3);
-  white-space: nowrap;
-  min-width: 8.4em;
-}
-.wanted p { font-size: 13px; color: var(--vp-c-text-2); margin: 10px 0 0; line-height: 1.85; }
-
-.about {
-  margin-top: 42px;
-  padding: 16px 19px;
-  border: 2px solid var(--key-border);
-  border-radius: var(--key-r);
-  background: var(--vp-c-bg-alt);
-  font-size: 13px;
-  line-height: 1.9;
-  color: var(--vp-c-text-2);
-}
-.about b { color: var(--vp-c-text-1); }
-
-/* ── ページ末尾の「編集」「変更履歴・復元」 ── */
-/* 標準の編集リンクは PageActions.vue に置き換えているので隠す */
 .VPDocFooter .edit-link { display: none; }
 
 .page-actions {
@@ -1147,40 +420,39 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   gap: 10px 12px;
   margin: 40px 0 0;
   padding: 14px 16px;
-  border: 2px solid var(--key-border);
+  border: 1px solid var(--key-border);
   border-radius: var(--key-r);
   background: var(--vp-c-bg-alt);
-  font-size: 13.5px;
+  font-size: 14px;
 }
-/* 「編集する」「変更履歴」は丸いキー（下の「押せる小さいキー」と同じ作り） */
 .page-actions a {
   display: inline-flex;
   align-items: center;
   gap: 7px;
   padding: 8px 15px;
-  border: 2px solid var(--key-border);
+  border: 1px solid var(--key-border);
   border-radius: 999px;
   background: var(--vp-c-bg-elv);
-  box-shadow: 0 3px 0 var(--key-edge);
+  box-shadow: none;
   color: var(--vp-c-brand-1);
   text-decoration: none;
   font-family: var(--f-display);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.2;
   transition: border-color 0.12s, background 0.12s, transform 0.12s, box-shadow 0.12s;
 }
 @media (hover: hover) {
   .page-actions a:hover {
     border-color: var(--vp-c-brand-1);
-    box-shadow: 0 4px 0 var(--key-edge-on);
-    transform: translateY(-1px);
+    box-shadow: none;
+    transform: none;
   }
 }
 .page-actions a:active {
   border-color: var(--vp-c-brand-1);
   background: var(--vp-c-brand-soft);
-  box-shadow: 0 1px 0 var(--key-edge-on);
-  transform: translateY(2px);
+  box-shadow: none;
+  transform: none;
 }
 .page-actions a:focus-visible { outline: 3px solid var(--vp-c-brand-1); outline-offset: 3px; }
 .page-actions svg {
@@ -1194,30 +466,28 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   flex-shrink: 0;
 }
 
-/* ── ページ末尾の「前のページ／次のページ」（VitePress標準）も同じキーに ── */
 .VPDocFooter .pager-link {
-  border: 2px solid var(--key-border) !important;
+  border: 1px solid var(--key-border) !important;
   border-radius: var(--key-r) !important;
   background: var(--vp-c-bg-elv);
-  box-shadow: 0 4px 0 var(--key-edge);
+  box-shadow: none;
   transition: border-color 0.12s, background 0.12s, transform 0.12s, box-shadow 0.12s;
 }
 @media (hover: hover) {
   .VPDocFooter .pager-link:hover {
     border-color: var(--vp-c-brand-1) !important;
-    box-shadow: 0 6px 0 var(--key-edge-on);
-    transform: translateY(-2px);
+    box-shadow: none;
+    transform: none;
   }
 }
 .VPDocFooter .pager-link:active {
   border-color: var(--vp-c-brand-1) !important;
   background: var(--vp-c-brand-soft);
-  box-shadow: 0 1px 0 var(--key-edge-on);
-  transform: translateY(3px);
+  box-shadow: none;
+  transform: none;
 }
-.VPDocFooter .pager-link .title { font-family: var(--f-display); font-weight: 800; }
+.VPDocFooter .pager-link .title { font-family: var(--f-display); font-weight: 700; }
 
-/* ── ボタン・検索 ── */
 .VPHome .VPButton,
 .VPNav .VPButton,
 .VPNavBarSearch .DocSearch-Button,
@@ -1227,10 +497,6 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   * { transition: none !important; }
 }
 
-/* ── 図鑑の絞り込みボタン（theme/dex-filter.ts が表の上に作る）──
-   ランク1〜7 ／ 系統9つ ／ 雑魚・転生・ボス・コインボス ／ すべて。押した組み合わせに合わない行は dex-hide で消す。
-   **組（.grp）ごとに1行**（2026-09-07 よっしー指示）。最後の組だけ「すべて」と同じ行に置くので、
-   ランク／系統／種類＋すべて の3行になる。組を増やしても、増えた組が新しい行になるだけ */
 .vp-doc .dex-filter {
   display: flex;
   flex-wrap: wrap;
@@ -1244,7 +510,6 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   gap: 6px;
 }
 .vp-doc .dex-filter .grp:not(:last-of-type) { flex-basis: 100%; }
-/* チップも「厚みのある白いキー」。選んだものは緑に沈む */
 .vp-doc .dex-filter button {
   font: inherit;
   font-size: 13px;
@@ -1252,9 +517,9 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   line-height: 1;
   padding: 8px 14px;
   border-radius: 999px;
-  border: 2px solid var(--key-border);
+  border: 1px solid var(--key-border);
   background: var(--vp-c-bg-elv);
-  box-shadow: 0 3px 0 var(--key-edge);
+  box-shadow: none;
   color: var(--vp-c-text-2);
   cursor: pointer;
   white-space: nowrap;
@@ -1264,40 +529,38 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   .vp-doc .dex-filter button:hover {
     color: var(--vp-c-text-1);
     border-color: var(--vp-c-brand-1);
-    box-shadow: 0 4px 0 var(--key-edge-on);
-    transform: translateY(-1px);
+    box-shadow: none;
+    transform: none;
   }
 }
 .vp-doc .dex-filter button:active {
-  box-shadow: 0 1px 0 var(--key-edge-on);
-  transform: translateY(2px);
+  box-shadow: none;
+  transform: none;
 }
 .vp-doc .dex-filter button[aria-pressed="true"] {
   color: var(--vp-c-white, #fff);
-  background: var(--vp-c-brand-1);
-  border-color: var(--vp-c-brand-1);
-  box-shadow: 0 3px 0 var(--key-edge-on);
+  background: var(--vp-c-brand-3);
+  border-color: var(--vp-c-brand-3);
+  box-shadow: none;
 }
 @media (hover: hover) {
-  .vp-doc .dex-filter button[aria-pressed="true"]:hover { color: #fff; background: var(--vp-c-brand-2); }
+  .vp-doc .dex-filter button[aria-pressed="true"]:hover { color: #fff; background: var(--vp-c-brand-3); }
 }
-/* 「すべて」は何も選んでいないときに光る。選択と紛れないよう、緑ではなく灰色で沈ませる */
 .vp-doc .dex-filter button.all[aria-pressed="true"] {
   color: var(--vp-c-text-1);
   background: var(--vp-c-bg-alt);
   border-color: var(--key-border);
-  box-shadow: 0 1px 0 var(--key-edge);
-  transform: translateY(2px);
+  box-shadow: none;
+  transform: none;
 }
 .vp-doc .dex-filter button:focus-visible { outline: 3px solid var(--vp-c-brand-1); outline-offset: 3px; }
 .vp-doc tr.dex-hide { display: none; }
 .vp-doc p.dex-empty { margin: 8px 0 0; font-size: 13px; color: var(--vp-c-text-2); }
 .vp-doc p.dex-empty[hidden] { display: none; }
 @media (max-width: 640px) {
-  .vp-doc .dex-filter button { font-size: 12.5px; padding: 8px 12px; }
+  .vp-doc .dex-filter button { font-size: 14px; padding: 8px 12px; }
 }
 
-/* ── よくある質問のタグ（theme/faq-tags.ts が「タグ:」の段落に付ける）── */
 .vp-doc p.faq-tags {
   display: flex;
   flex-wrap: wrap;

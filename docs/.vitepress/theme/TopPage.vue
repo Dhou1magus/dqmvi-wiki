@@ -1,12 +1,10 @@
 <script setup>
-import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
+import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useData, withBase } from 'vitepress'
+import './top-page.css'
 
 const { frontmatter, theme } = useData()
 
-// ───────────────────────────────────────────────────────────
-//  トップページ
-// ───────────────────────────────────────────────────────────
 const stats = computed(() => theme.value.siteStats ?? {})
 
 const meta = computed(() => [
@@ -16,8 +14,6 @@ const meta = computed(() => [
   { label: '編集者', value: 'Claude Fable5.1 , よっしー' }
 ])
 
-// ── よく使うページ。ここが一番大きく、一番上に出る。
-// アイコンの線画。d属性に入れるだけなので、文字列がそのまま描画されることはない。
 const ICONS = {
   book: 'M4 5.5A1.5 1.5 0 0 1 5.5 4H10a2 2 0 0 1 2 2 2 2 0 0 1 2-2h4.5A1.5 1.5 0 0 1 20 5.5v11a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 0 0-2 2 2 2 0 0 0-2-2H5.5A1.5 1.5 0 0 1 4 16.5zM12 6v13',
   crown: 'M4 8l3.5 3L12 5l4.5 6L20 8l-1.5 9h-13zM6 20h12',
@@ -30,112 +26,149 @@ const ICONS = {
   help: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM9.5 9.3A2.5 2.5 0 1 1 12 12c0 1-.001 1.2 0 2M12 17.2v.01'
 }
 
-/** よく使う8つ。押しやすい大きさで一番上に置く。件数は出さない（2026-09-03 よっしー指示） */
-const primary = [
-  { icon: 'book', t: 'モンスター図鑑', d: 'ステータス・弱点・ドロップ', link: '/monsters/' },
-  { icon: 'box', t: 'ドロップ品から探す', d: 'あの素材を落とすのは誰か', link: '/drops/' },
-  { icon: 'sword', t: '武器・防具', d: '攻撃力・倍率・特殊効果', link: '/items/' },
-  { icon: 'person', t: '職業', d: '伸びる能力・覚える技・必殺技', link: '/jobs/' },
-  { icon: 'spark', t: '呪文・特技', d: '消費MP・威力・範囲', link: '/spells/' },
-  { icon: 'crown', t: '系統から探す', d: 'ドラゴン系・メタル系の顔ぶれ', link: '/species/' },
-  { icon: 'help', t: 'よくある質問', d: '導入・配合・鍛冶のつまずき', link: '/guide/faq' },
-  { icon: 'flag', t: '遊び方ガイド', d: '始め方・配合・鍛冶・農業・釣り', link: '/play/' }
-]
-
-/** 「〜を知りたい」から引く導線。データの分類ではなく、その場の疑問で並べる */
 const questions = [
-  { q: 'そもそも何から始める？', a: 'はじめに', link: '/play/start' },
-  { q: '仲間はどう育てる？', a: 'ペットと配合', link: '/play/pets' },
-  { q: 'この素材、どこで手に入る？', a: 'ドロップ品から探す', link: '/drops/' },
-  { q: '次はどの職業にする？', a: '職業一覧', link: '/jobs/' },
-  { q: 'ドラゴン系って何が居る？', a: '系統から探す', link: '/species/' }
+  { icon: 'crown', q: '仲間を育てたい', a: 'ペット・配合', link: '/play/pets' },
+  { icon: 'sword', q: '装備を作りたい', a: '鍛冶・強化', link: '/play/smithing' },
+  { icon: 'person', q: '転職したい', a: '転職・サブ職業', link: '/play/jobs' },
+  { icon: 'flag', q: '拠点を整えたい', a: '施設と暮らし', link: '/play/facilities' }
 ]
 
 const start = [
-  { n: 'FIRST', t: 'DQMVIとは', d: 'どんなMODなのか、何が追加されるのか', link: '/guide/what-is-dqmvi' },
-  { n: 'SETUP', t: '導入方法', d: '前提MOD・推奨環境・つまずきポイント', link: '/guide/install' },
-  { n: 'PLAY', t: '遊び方ガイド', d: '始め方から釣り・農業・鍛冶まで', link: '/play/' },
-  { n: 'JOIN', t: '編集のしかた', d: 'ブラウザだけで参加できます', link: '/guide/edit' }
+  { n: '01', t: '冒険のきほん', d: '操作・ステータス・戦い方', link: '/play/basics' },
+  { n: '02', t: '最初にすること', d: 'モンスターポートの使い方', link: '/play/start' },
+  { n: '03', t: '仲間を迎える', d: 'ペットの育成と配合', link: '/play/pets' }
 ]
 
-// ── すべてのページ ────────────────────────────────────────
-// link を書かない項目は「まだ無いページ」。読者向けの一覧からは自動で外れ、
-// 下の「編集募集中」にまとまって出る。
 const cats = computed(() => [
   {
+    id: 'monsters',
     title: 'モンスター',
+    icon: 'book',
+    overview: { t: 'モンスター図鑑', link: '/monsters/' },
     items: [
-      { t: 'モンスター図鑑', link: '/monsters/' },
-      { t: 'ドロップ品から探す', link: '/drops/' },
-      { t: '系統から探す', link: '/species/' }
+      { t: 'スライム系', link: '/species/slime' },
+      { t: 'ドラゴン系', link: '/species/dragon' },
+      { t: '自然系', link: '/species/sizen' },
+      { t: '魔獣系', link: '/species/majyu' },
+      { t: '物質系', link: '/species/bussitu' },
+      { t: '悪魔系', link: '/species/akuma' },
+      { t: 'ゾンビ系', link: '/species/zombie' },
+      { t: 'メタル系', link: '/species/metal' },
+      { t: '特殊系', link: '/species/tokusyu' }
     ]
   },
   {
-    title: 'なかまモンスター',
+    id: 'items',
+    title: 'アイテム',
+    icon: 'box',
+    overview: { t: 'アイテム一覧', link: '/items/' },
     items: [
-      { t: '仲間にする・育てる', link: '/play/pets' },
-      { t: '作戦（ガンビット）', link: '/play/gambit' },
-      { t: '配合', link: '/play/pets' },
-      { t: '種族シナジー', link: '/play/pets' },
-      { t: 'おすすめ編成' }
+      { t: '素材', link: '/items/materials' },
+      { t: 'ガンビット', link: '/play/gambit' },
+      { t: '建物', link: '/items/buildings' },
+      { t: '装飾', link: '/items/decoration' },
+      { t: '種・作物', link: '/items/seeds' },
+      { t: '釣り道具・魚', link: '/items/fishing' },
+      { t: '特殊アイテム', link: '/items/special' },
+      { t: '鉱石', link: '/items/materials#鉱石' },
+      { t: 'ドロップ品', link: '/drops/' },
+      { t: 'ちいさなメダル' }
     ]
   },
   {
-    title: '職業',
-    items: [
-      { t: '職業一覧', link: '/jobs/' },
-      { t: '転職とサブ職業', link: '/play/jobs' },
-      { t: '必殺技', link: '/jobs/' }, { t: '武器の適性', link: '/jobs/' },
-      { t: 'おすすめ職業' }
-    ]
-  },
-  {
-    title: '呪文・特技',
-    items: [
-      { t: '呪文一覧', link: '/spells/' },
-      { t: '特技一覧', link: '/skills/' },
-      { t: '消費MPで探す', link: '/spells/' },
-      { t: '武器別の特技', link: '/skills/' },
-      { t: '移動呪文' }
-    ]
-  },
-  {
+    id: 'equipment',
     title: '武器・防具',
+    icon: 'sword',
+    overview: { t: '装備一覧', link: '/items/#装備' },
     items: [
       { t: '武器', link: '/items/weapons' },
       { t: '防具', link: '/items/armor' },
       { t: '盾', link: '/items/shields' },
       { t: 'アクセサリー', link: '/items/accessories' },
       { t: '転生装備', link: '/items/tensei' },
-      { t: '特殊効果つきの装備', link: '/items/weapons' }
-    ]
-  },
-  {
-    title: 'アイテム・素材',
-    items: [
-      { t: 'アイテム一覧', link: '/items/' },
-      { t: '素材', link: '/items/materials' }, { t: '種', link: '/items/seeds' },
-      { t: '釣り', link: '/items/fishing' }, { t: '特殊', link: '/items/special' },
-      { t: '建物', link: '/items/buildings' }, { t: '装飾', link: '/items/decoration' },
-      { t: 'アイテムの使い方', link: '/play/items' },
-      { t: '入手場所から逆引き', link: '/drops/' },
-      { t: '種・作物の育て方', link: '/play/farming' }, { t: 'ちいさなメダル' }
-    ]
-  },
-  {
-    title: '鍛冶・クラフト',
-    items: [
-      { t: '装備を作る（目押し）', link: '/play/smithing' },
-      { t: '品質と強化・分解', link: '/play/smithing' },
-      { t: '素材の集め方', link: '/drops/' },
+      { t: '鍛冶・強化', link: '/play/smithing' },
       { t: 'レシピ一覧' }
+    ]
+  },
+  {
+    id: 'jobs',
+    title: '職業',
+    icon: 'person',
+    overview: { t: '職業一覧', link: '/jobs/' },
+    items: [
+      { t: '転職のしかた', link: '/play/jobs' },
+      { t: '転職条件', link: '/jobs/#転職条件' },
+      { t: 'サブ職業', link: '/jobs/#subjob-rules' },
+      { t: '能力の伸び', link: '/jobs/#能力の伸び'.normalize('NFKD') },
+      { t: '武器の適性', link: '/jobs/#武器の適性' },
+      { t: '必殺技', link: '/jobs/#必殺技' },
+      { t: 'おすすめ職業' }
+    ]
+  },
+  {
+    id: 'pets',
+    title: 'なかまモンスター',
+    icon: 'crown',
+    overview: { t: '育成ガイド', link: '/play/pets' },
+    items: [
+      { t: '仲間にする', link: '/play/pets#仲間にする' },
+      { t: '育成', link: '/play/pets#育成' },
+      { t: '配合', link: '/play/pets#配合' },
+      { t: '種族シナジー', link: '/play/pets#種族シナジー'.normalize('NFKD') },
+      { t: 'フォーメーション', link: '/play/pets#フォーメーション' },
+      { t: '作戦・ガンビット', link: '/play/gambit' },
+      { t: 'おすすめ編成' }
+    ]
+  },
+  {
+    id: 'skills',
+    title: '呪文・特技',
+    icon: 'spark',
+    items: [
+      { t: '呪文一覧', link: '/spells/' },
+      { t: '特技一覧', link: '/skills/' },
+      { t: '呪文の効果', link: '/spells/#効果の決まり方' },
+      { t: 'ペットの呪文習得', link: '/play/pets#呪文・特技の習得' },
+      { t: '他の職業の技を使う', link: '/jobs/#他の職業の呪文・特技を使う' },
+      { t: '戦闘のきほん', link: '/play/basics' },
+      { t: '移動呪文' }
+    ]
+  },
+  {
+    id: 'adventure',
+    title: '冒険・暮らし',
+    icon: 'pin',
+    overview: { t: '遊び方ガイド', link: '/play/' },
+    items: [
+      { t: '最初にすること', link: '/play/start' },
+      { t: '冒険のきほん', link: '/play/basics' },
+      { t: 'クエスト', link: '/play/quests' },
+      { t: '鍛冶', link: '/play/smithing' },
+      { t: '農業', link: '/play/farming' },
+      { t: '釣り', link: '/play/fishing' },
+      { t: '施設・お店', link: '/play/facilities' },
+      { t: 'アイテムの使い方', link: '/play/items' },
+      { t: '系統と弱点', link: '/species/' }
+    ]
+  },
+  {
+    id: 'guide',
+    title: 'MOD情報・wiki',
+    icon: 'help',
+    items: [
+      { t: 'DQMVIとは', link: '/guide/what-is-dqmvi' },
+      { t: '導入方法', link: '/guide/install' },
+      { t: 'よくある質問', link: '/guide/faq' },
+      { t: 'MOD更新履歴', link: '/guide/updates' },
+      { t: 'ご意見箱', link: '/guide/feedback' },
+      { t: '編集のしかた', link: '/guide/edit' },
+      { t: '前提MOD' }, { t: '競合MOD' }
     ]
   },
   {
     title: 'ダンジョン・施設',
     items: [
       { t: 'ダンジョン一覧' }, { t: '村・町一覧' },
-      { t: '拠点づくりとお店', link: '/play/facilities' }
     ]
   },
   {
@@ -150,26 +183,13 @@ const cats = computed(() => [
       { t: 'サーバー構築' }, { t: 'コンフィグ設定' },
       { t: '湧き上限の共有' }, { t: 'おすすめ設定' }, { t: '同期の不具合' }
     ]
-  },
-  {
-    title: 'MOD情報・不具合',
-    acc: true,
-    items: [
-      { t: '導入方法', link: '/guide/install' },
-      { t: 'よくある質問', link: '/guide/faq' },
-      { t: 'ご意見箱', link: '/guide/feedback' },
-      { t: 'MOD更新履歴', link: '/guide/updates' },
-      { t: '前提MOD' }, { t: '競合MOD' }
-    ]
   }
 ])
 
-/** 読者に見せる一覧。まだ無いページは外す */
 const catsReady = computed(() => cats.value
   .map((c) => ({ ...c, items: c.items.filter((i) => i.link) }))
   .filter((c) => c.items.length))
 
-/** まだ無いページ。編集募集の一覧になる */
 const wanted = computed(() => {
   const out = []
   for (const c of cats.value) {
@@ -178,77 +198,58 @@ const wanted = computed(() => {
   return out
 })
 
-/**
- * カードの高さ揃え（2026-09-08 よっしー報告「大見出しがガタガタ」）。
- * カテゴリごとに項目数が違うので、CSSの align-items: start のままだと
- * 段をまたいでカードの下端がバラバラになる。件数を決め打ちにせず、
- * 実際に描画された高さを毎回測って一番高いカードに合わせる
- * （項目を足し引きしても自動で追従する。sortable-tables.ts の
- * 固定列と同じ「measure → resize で付け直す」やり方）。
- * スマホ幅で1列に落ちたときは段の概念が無く揃える意味も無いので触らない
- * （揃えると、件数の少ないカードの下に無駄な空白が延々と続くだけになる）。
- */
-const catWall = ref(null)
-
-function equalizeCatHeights() {
-  const el = catWall.value
-  if (!el) return
-  const cards = [...el.children].filter((c) => c.classList.contains('cat'))
-  if (cards.length < 2) return
-  cards.forEach((c) => { c.style.height = '' })
-  const singleColumn = cards.every((c) => c.offsetLeft === cards[0].offsetLeft)
-  if (singleColumn) return
-  const max = Math.max(...cards.map((c) => c.offsetHeight))
-  cards.forEach((c) => { c.style.height = `${max}px` })
-}
-
-let catResizeTimer
-function onCatWallResize() {
-  clearTimeout(catResizeTimer)
-  catResizeTimer = setTimeout(equalizeCatHeights, 200)
-}
-
-onMounted(() => {
-  equalizeCatHeights()
-  document.fonts?.ready.then(equalizeCatHeights)
-  window.addEventListener('resize', onCatWallResize)
-})
-onUnmounted(() => {
-  window.removeEventListener('resize', onCatWallResize)
-  clearTimeout(catResizeTimer)
-})
-
 const log = [
   { d: '09-08', t: 'ボタンのデザインを変更', link: '/monsters/', who: 'よっしー' },
   { d: '09-08', t: 'モンスター図鑑に系統絞り込み機能を追加', link: '/monsters/', who: 'よっしー' },
   { d: '09-07', t: 'DQMVI 0.28.41 に一部対応', link: '/guide/updates', who: 'よっしー' }
 ]
 
-// ── トップの検索 ──────────────────────────────────────────
-// ここで直接打てて、そのまま候補が出る。別の窓は開かない。
-// 索引は「ページの名前と種別」だけの軽い表（config.mts の virtual:wiki-index）。
-// 本文の中身まで探したいときは、下に出る「本文も含めて探す」から標準の検索へ渡す。
 const query = ref('')
 const active = ref(0)
 const index = ref(null)
 const box = ref(null)
+const searchRoot = ref(null)
+const searchFocused = ref(false)
+const indexFailed = ref(false)
+const showResults = computed(() => searchFocused.value && query.value.trim().length > 0)
+let indexRequest
+let idleTimer
+let idleCallback
+let searchObserver
+let searchTimer
 
-/**
- * 索引（88KB）は別ファイル。全ページのバンドルには載せず、ここでだけ読む。
- * ★読み込みは手が空いたときに先回りしてやる。押してから読み始めると、
- *   打つほうが速くて一瞬「見つかりません」と出てしまう（実際に出た）。
- */
 async function loadIndex() {
   if (index.value) return
-  index.value = (await import('virtual:wiki-index')).pages
+  if (!indexRequest) {
+    indexFailed.value = false
+    indexRequest = import('virtual:wiki-index')
+      .then((module) => { index.value = module.pages })
+      .catch(() => { indexFailed.value = true })
+      .finally(() => { indexRequest = undefined })
+  }
+  return indexRequest
 }
 onMounted(() => {
   const later = () => { loadIndex() }
-  if ('requestIdleCallback' in window) requestIdleCallback(later, { timeout: 2500 })
-  else setTimeout(later, 800)
+  if ('requestIdleCallback' in window) idleCallback = window.requestIdleCallback(later, { timeout: 2500 })
+  else idleTimer = setTimeout(later, 800)
+})
+onUnmounted(() => {
+  if (idleCallback !== undefined) window.cancelIdleCallback(idleCallback)
+  clearTimeout(idleTimer)
+  clearTimeout(searchTimer)
+  searchObserver?.disconnect()
 })
 
-/** ひらがな→カタカナ、大文字小文字、全角スペースの違いを無視して比べる */
+function focusSearch() {
+  searchFocused.value = true
+  loadIndex()
+}
+
+function blurSearch(event) {
+  if (!searchRoot.value?.contains(event.relatedTarget)) searchFocused.value = false
+}
+
 function normalize(text) {
   return text
     .replace(/[ぁ-ゖ]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60))
@@ -264,7 +265,6 @@ const hits = computed(() => {
   if (!q || !index.value) return []
   const found = []
   for (const [title, url, kind, keywords] of index.value) {
-    // 名前で当たれば上、名前に無くてもタグ（keywords）で当たれば下のほうに出す
     const at = normalize(title).indexOf(q)
     let rank = at === 0 ? 0 : at > 0 ? 1 : -1
     if (rank < 0 && keywords && normalize(keywords).includes(q)) rank = 2
@@ -276,160 +276,155 @@ const hits = computed(() => {
   return found.slice(0, MAX_HITS)
 })
 
-watch(query, () => { active.value = 0 })
+watch(query, () => { active.value = 0; searchFocused.value = true })
 
-/** 索引に無いページの本文まで探したいとき。標準の検索に打った言葉を渡す */
 function fullTextSearch() {
   const text = query.value
-  document.querySelector('.DocSearch-Button')?.click()
-  setTimeout(() => {
+  searchFocused.value = false
+  searchObserver?.disconnect()
+  clearTimeout(searchTimer)
+  const transferQuery = () => {
     const input = document.querySelector('.VPLocalSearchBox input, .DocSearch-Input')
-    if (!input) return
+    if (!input) return false
     input.value = text
     input.dispatchEvent(new Event('input', { bubbles: true }))
     input.focus()
-  }, 60)
+    searchObserver?.disconnect()
+    clearTimeout(searchTimer)
+    return true
+  }
+  searchObserver = new MutationObserver(transferQuery)
+  searchObserver.observe(document.body, { childList: true, subtree: true })
+  searchTimer = setTimeout(() => searchObserver?.disconnect(), 10000)
+  document.querySelector('.DocSearch-Button')?.click()
+  transferQuery()
 }
 
 function go(hit) {
   if (hit) window.location.href = withBase(hit.url)
 }
 
-function onKey(event) {
+async function onKey(event) {
+  if (event.isComposing || event.keyCode === 229) return
   if (event.key === 'Escape') {
-    query.value = ''
-    box.value?.blur()
+    event.preventDefault()
+    searchFocused.value = false
+    return
+  }
+  if (event.key === 'Enter') {
+    event.preventDefault()
+    if (showResults.value && hits.value.length) go(hits.value[active.value])
+    else fullTextSearch()
     return
   }
   if (!hits.value.length) return
   if (event.key === 'ArrowDown') {
     event.preventDefault()
+    searchFocused.value = true
     active.value = (active.value + 1) % hits.value.length
   } else if (event.key === 'ArrowUp') {
     event.preventDefault()
+    searchFocused.value = true
     active.value = (active.value - 1 + hits.value.length) % hits.value.length
-  } else if (event.key === 'Enter') {
-    event.preventDefault()
-    go(hits.value[active.value])
+  }
+  if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+    await nextTick()
+    document.getElementById('wiki-hit-' + active.value)?.scrollIntoView({ block: 'nearest' })
   }
 }
 </script>
 
 <template>
-  <div v-if="frontmatter.top" class="wiki-top">
-    <div class="top-head">
-      <h1>{{ frontmatter.title }}</h1>
-      <p class="sub">{{ frontmatter.tagline }}</p>
-    </div>
-
-    <div class="top-meta">
-      <span v-for="m in meta" :key="m.label"><b>{{ m.label }}</b>{{ m.value }}</span>
-    </div>
-
-    <div class="topsearch" :class="{ open: hits.length }">
-      <div class="field">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="11" cy="11" r="6.5" />
-          <path d="M16 16l4.5 4.5" />
-        </svg>
-        <input
-          ref="box"
-          v-model="query"
-          type="search"
-          autocomplete="off"
-          placeholder="モンスター名・アイテム名で検索"
-          aria-label="ページの名前で検索"
-          @focus="loadIndex"
-          @keydown="onKey"
-        >
-        <button v-if="query" class="clear" type="button" aria-label="消す" @click="query = ''">✕</button>
+  <main v-if="frontmatter.top" class="wiki-home" aria-label="DQMVI攻略wiki トップページ">
+    <header class="wiki-hero">
+      <div class="hero-heading">
+        <div>
+          <p class="official-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6zM8 12l3 3 5-6" /></svg>作者ぐりぐりさん公認</p>
+          <h1>DQMVI <span>攻略wiki</span></h1>
+          <p class="hero-description">{{ frontmatter.tagline }}</p>
+        </div>
+        <a class="version-link" :href="withBase('/guide/updates')"><span>掲載データの対応版</span><b>{{ stats.modVersion }}</b><span>MOD更新履歴 →</span></a>
       </div>
-
-      <div v-if="query" class="results">
-        <a
-          v-for="(h, i) in hits"
-          :key="h.url"
-          :href="withBase(h.url)"
-          :class="{ on: i === active }"
-          @mouseenter="active = i"
-        >
-          <span class="nm">{{ h.title }}</span>
-          <span v-if="h.kind" class="kd">{{ h.kind }}</span>
-        </a>
-        <p v-if="!index" class="none">読み込み中…</p>
-        <p v-else-if="!hits.length" class="none">「{{ query }}」に合う名前は見つかりませんでした。</p>
-        <button class="full" type="button" @click="fullTextSearch">
-          本文も含めて探す<kbd>Ctrl</kbd><kbd>K</kbd>
-        </button>
-      </div>
-    </div>
-
-    <div class="tiles">
-      <a v-for="p in primary" :key="p.t" :href="withBase(p.link)" class="tile">
-        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[p.icon]" /></svg></span>
-        <span class="t">{{ p.t }}<i v-if="p.spoiler" class="sp">ネタバレ</i></span>
-        <span class="d">{{ p.d }}</span>
-      </a>
-    </div>
-
-    <h2 class="sec-h">こんなときは</h2>
-    <div class="qlist">
-      <a v-for="q in questions" :key="q.q" :href="withBase(q.link)">
-        <span class="q">{{ q.q }}</span>
-        <span class="a">{{ q.a }}<span class="arr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg></span></span>
-      </a>
-    </div>
-
-    <h2 class="sec-h">はじめての人へ</h2>
-    <div class="startbar">
-      <a v-for="s in start" :key="s.t" :href="withBase(s.link)">
-        <span class="n">{{ s.n }}</span>
-        <span class="t">{{ s.t }}</span>
-        <span class="d">{{ s.d }}</span>
-      </a>
-    </div>
-
-    <h2 class="sec-h">すべてのページ</h2>
-    <div class="cat-wall" ref="catWall">
-      <div v-for="c in catsReady" :key="c.title" class="cat" :class="{ acc: c.acc }">
-        <h3>{{ c.title }}</h3>
-        <ul>
-          <li v-for="i in c.items" :key="i.t">
-            <a :href="withBase(i.link)">{{ i.t }}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="two-col">
-      <div>
-        <h2 class="sec-h">更新履歴</h2>
-        <div class="log">
-          <ul>
-            <li v-for="l in log" :key="l.t">
-              <time>{{ l.d }}</time>
-              <a :href="withBase(l.link)">{{ l.t }}</a>
-              <span class="who">{{ l.who }}</span>
-            </li>
-          </ul>
+      <div ref="searchRoot" class="wiki-search" @focusin="focusSearch" @focusout="blurSearch">
+        <div class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg>
+          <input
+            id="wiki-name-search"
+            ref="box"
+            v-model="query"
+            type="search"
+            role="combobox"
+            autocomplete="off"
+            placeholder="名前・キーワードで検索"
+            aria-label="ページの名前で検索"
+            aria-autocomplete="list"
+            aria-controls="wiki-search-results"
+            :aria-expanded="showResults"
+            :aria-activedescendant="showResults && hits.length ? 'wiki-hit-' + active : undefined"
+            @keydown="onKey"
+          >
+          <button v-if="query" class="search-clear" type="button" aria-label="検索をクリア" @click="query = ''; box?.focus()">×</button>
+          <button class="search-submit" type="button" @click="fullTextSearch">検索<span aria-hidden="true"> →</span></button>
+        </div>
+        <div v-if="showResults" class="search-results">
+          <div id="wiki-search-results" role="listbox" aria-label="ページの候補">
+            <a v-for="(h, i) in hits" :id="'wiki-hit-' + i" :key="h.url + h.title" :href="withBase(h.url)" role="option" tabindex="-1" :aria-selected="i === active" :class="{ on: i === active }" @mouseenter="active = i">
+              <span>{{ h.title }}</span><span class="result-kind">{{ h.kind }}</span>
+            </a>
+          </div>
+          <p v-if="indexFailed" class="search-message" role="status">候補を読み込めませんでした。本文検索をご利用ください。</p>
+          <p v-else-if="!index" class="search-message" role="status">検索データを読み込み中…</p>
+          <p v-else-if="!hits.length" class="search-message" role="status">「{{ query }}」に合う名前は見つかりませんでした。</p>
+          <button class="search-full" type="button" @click="fullTextSearch">本文も含めて探す <span aria-hidden="true">→</span></button>
         </div>
       </div>
-      <div>
-        <h2 class="sec-h">編集募集中</h2>
-        <div class="wanted">
-          <ul>
-            <li v-for="w in wanted" :key="w.cat + w.t"><b>{{ w.cat }}</b>{{ w.t }}</li>
-          </ul>
-          <p>
-            まだ無いページです。断片的な情報でも構いません。書き方は
-            <a :href="withBase('/guide/edit')">編集のしかた</a>を見てください。
-          </p>
-        </div>
-      </div>
-    </div>
+      <div class="hero-shortcuts"><span>すぐに見る</span><a :href="withBase('/monsters/')">モンスター図鑑</a><a :href="withBase('/items/weapons')">武器一覧</a><a :href="withBase('/guide/faq')">よくある質問</a><a href="#all-categories">カテゴリ一覧</a></div>
+    </header>
 
-    <div class="about">
-      <b>このwikiについて</b>　有志による作者公認wikiです。掲載内容の正確性は保証されません。数値は検証環境によって異なる場合があります。誤りを見つけたら、そのページの「このページをブラウザで編集する」から直してください。編集履歴はすべて残るので、失敗しても元に戻せます。
+    <div class="home-content">
+      <section id="all-categories" class="directory-section" aria-label="攻略カテゴリ">
+        <div class="category-directory">
+          <section v-for="c in catsReady" :key="c.id" class="directory-group" :aria-labelledby="'category-' + c.id">
+            <header class="directory-heading">
+              <h2 :id="'category-' + c.id"><svg viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[c.icon]" /></svg>{{ c.title }}</h2>
+              <a v-if="c.overview" class="directory-overview" :href="withBase(c.overview.link)">{{ c.overview.t }}<span aria-hidden="true"> →</span></a>
+            </header>
+            <ul class="directory-links">
+              <li v-for="i in c.items" :key="i.t"><a class="directory-link" :href="withBase(i.link)"><span>{{ i.t }}</span><span class="directory-arrow" aria-hidden="true">›</span></a></li>
+            </ul>
+          </section>
+        </div>
+      </section>
+
+      <div class="home-guides">
+        <aside class="beginner-panel" aria-labelledby="beginner-heading">
+          <div class="beginner-heading"><svg viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS.flag" /></svg><h2 id="beginner-heading">はじめての冒険</h2></div>
+          <p>まずはここから読み進めよう。</p>
+          <ol class="beginner-steps">
+            <li v-for="s in start" :key="s.n"><a :href="withBase(s.link)"><span class="step-number">{{ s.n }}</span><span><b>{{ s.t }}</b><small>{{ s.d }}</small></span><span class="step-arrow" aria-hidden="true">›</span></a></li>
+          </ol>
+          <a class="guide-link" :href="withBase('/play/')">遊び方ガイドをすべて見る <span aria-hidden="true">→</span></a>
+        </aside>
+        <section class="purpose-section" aria-labelledby="purpose-heading">
+          <div class="section-heading"><h2 id="purpose-heading">やりたいことから探す</h2></div>
+          <div class="purpose-grid">
+            <a v-for="q in questions" :key="q.q" :href="withBase(q.link)"><svg viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[q.icon]" /></svg><span><b>{{ q.q }}</b><small>{{ q.a }}</small></span><span aria-hidden="true">›</span></a>
+          </div>
+          <a class="guide-link" :href="withBase('/guide/faq')">よくある質問を見る <span aria-hidden="true">→</span></a>
+        </section>
+      </div>
+
+      <div class="community-grid">
+        <section class="updates-section" aria-labelledby="updates-heading">
+          <div class="section-heading"><h2 id="updates-heading">wikiのお知らせ</h2><a :href="withBase('/guide/updates')">MOD更新履歴 →</a></div>
+          <ul class="wiki-updates"><li v-for="l in log" :key="l.t"><time>{{ l.d }}</time><a :href="withBase(l.link)">{{ l.t }}</a><span>{{ l.who }}</span></li></ul>
+        </section>
+        <section class="contribute-panel" aria-labelledby="contribute-heading">
+          <h2 id="contribute-heading">みんなで育てる攻略wiki</h2><p>気づいたことや攻略のヒントを、ぜひお寄せください。</p><div class="contribute-links"><a :href="withBase('/guide/edit')">編集のしかた →</a><a :href="withBase('/guide/feedback')">ご意見箱 →</a></div>
+          <details class="wanted-pages"><summary>情報を募集しているページ</summary><ul><li v-for="w in wanted" :key="w.cat + w.t"><span>{{ w.cat }}</span>{{ w.t }}</li></ul></details>
+        </section>
+      </div>
+      <footer class="wiki-about"><p>このwikiは、DQMVI作者ぐりぐりさん公認のもと、有志で制作しています。掲載情報は検証環境やバージョンによって異なる場合があります。</p><div class="wiki-metadata"><span v-for="m in meta" :key="m.label"><b>{{ m.label }}</b>{{ m.value }}</span></div></footer>
     </div>
-  </div>
+  </main>
 </template>

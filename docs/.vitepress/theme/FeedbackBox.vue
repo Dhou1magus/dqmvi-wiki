@@ -8,15 +8,9 @@ import {
   FEEDBACK_FORM_HEIGHT_NARROW
 } from './feedback-config'
 
-// frontmatter に feedback: true があるページにだけ出す
 const { frontmatter } = useData()
 const show = computed(() => frontmatter.value.feedback === true)
 
-/**
- * 設定されたURLを検査する。
- * 書き間違いや悪意ある差し替えで、まったく別のサイトを
- * このwikiの中に埋め込んでしまわないようにする。
- */
 const formUrl = computed(() => {
   const raw = (FEEDBACK_FORM_URL || '').trim()
   if (!raw) return ''
@@ -30,7 +24,6 @@ const formUrl = computed(() => {
   }
 })
 
-// 枠の高さ。CSSからは変数として参照する
 const frameStyle = {
   '--fb-h': `${Math.max(400, FEEDBACK_FORM_HEIGHT)}px`,
   '--fb-h-narrow': `${Math.max(400, FEEDBACK_FORM_HEIGHT_NARROW)}px`
@@ -40,12 +33,11 @@ const COOLDOWN_MS = Math.max(1, FEEDBACK_COOLDOWN_MINUTES) * 60 * 1000
 const STORE_KEY = 'dqmvi-wiki:feedback-sent-at'
 
 const mounted = ref(false)
-const state = ref('form') // form | thanks | cooldown
+const state = ref('form')
 const remain = ref(0)
 let timer = 0
 let framePrimed = false
 
-/** 最後に送った時刻。読めない設定のブラウザでは0（＝制限なし）として扱う */
 function lastSentAt() {
   try {
     return Number(localStorage.getItem(STORE_KEY)) || 0
@@ -58,7 +50,6 @@ function markSent() {
   try {
     localStorage.setItem(STORE_KEY, String(Date.now()))
   } catch {
-    // 保存できない設定でも、投稿そのものは成立しているので何もしない
   }
 }
 
@@ -82,11 +73,6 @@ function startTimer() {
   timer = window.setInterval(tick, 1000)
 }
 
-/**
- * Googleフォームは別サイトなので、中で送信されたことを直接は知れない。
- * ただし送信すると枠の中が完了画面に切り替わり、2回目の読み込みが起きる。
- * それを送信の合図として使う。
- */
 function onFrameLoad() {
   if (!framePrimed) {
     framePrimed = true
@@ -97,7 +83,6 @@ function onFrameLoad() {
   startTimer()
 }
 
-/** 残り時間を「あと9分30秒」の形にする */
 const remainText = computed(() => {
   const sec = Math.ceil(remain.value / 1000)
   const m = Math.floor(sec / 60)
@@ -118,27 +103,23 @@ onUnmounted(stopTimer)
 
 <template>
   <section v-if="show" class="feedback">
-    <!-- URLがまだ設定されていない、または安全でないとき -->
     <div v-if="!formUrl" class="fb-panel">
       <p class="fb-title">ただいま準備中です</p>
       <p>投稿の受け付けをまもなく開始します。もう少しお待ちください。</p>
     </div>
 
-    <!-- 送信直後 -->
     <div v-else-if="state === 'thanks'" class="fb-panel fb-thanks">
       <p class="fb-title">送信しました。ありがとうございます</p>
       <p>いただいた内容は運営者が確認します。返事はできませんが、すべて読みます。</p>
       <p class="fb-note">続けて送るのを防ぐため、次の投稿は {{ remainText }} からできます。</p>
     </div>
 
-    <!-- 連投防止の待ち時間中 -->
     <div v-else-if="state === 'cooldown'" class="fb-panel">
       <p class="fb-title">少し時間をおいてください</p>
       <p>さきほど投稿を受け取りました。次の投稿は {{ remainText }} からできます。</p>
       <p class="fb-note">書き足したいことがあるときは、時間をおいてまとめて送ってください。</p>
     </div>
 
-    <!-- 投稿フォーム -->
     <div v-else class="fb-frame" :style="frameStyle">
       <iframe
         v-if="mounted"
@@ -209,7 +190,6 @@ onUnmounted(stopTimer)
   line-height: 1.7;
 }
 
-/* 幅が狭いと文字が折り返してフォームが縦に伸びるので、枠も高くする */
 @media (max-width: 640px) {
   .fb-frame iframe,
   .fb-skeleton { height: var(--fb-h-narrow); }
