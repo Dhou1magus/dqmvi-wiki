@@ -1,0 +1,41 @@
+{
+  "weapons": [
+    { "name": "剣", "id": "sword" },
+    { "name": "勇者の剣", "id": "hero-sword" },
+    { "name": "槍", "id": "spear" },
+    { "name": "短剣", "id": "dagger" },
+    { "name": "杖", "id": "staff" },
+    { "name": "棍", "id": "kon" },
+    { "name": "爪", "id": "claw" },
+    { "name": "拳", "id": "fist" },
+    { "name": "ハンマー", "id": "hammer" },
+    { "name": "斧", "id": "axe" },
+    { "name": "ムチ", "id": "whip" },
+    { "name": "弓", "id": "bow" },
+    { "name": "ブーメラン", "id": "boomerang" },
+    { "name": "バニラ剣", "id": "vanilla-sword" },
+    { "name": "銃", "id": "gun" },
+    { "name": "戦輪", "id": "battle-ring" },
+    { "name": "竪琴", "id": "harp" }
+  ],
+  "armor": [
+    { "name": "頭", "id": "head" },
+    { "name": "胴", "id": "body" },
+    { "name": "脚", "id": "legs" },
+    { "name": "足", "id": "feet" }
+  ],
+  "accessories": [
+    { "name": "耳", "id": "ear" },
+    { "name": "首", "id": "neck" },
+    { "name": "腕", "id": "arm" },
+    { "name": "指", "id": "finger" },
+    { "name": "その他", "id": "other" }
+  ],
+  "tensei": [
+    { "name": "武器", "id": "weapons" },
+    { "name": "防具", "id": "armor" },
+    { "name": "盾", "id": "shields" },
+    { "name": "アクセサリー", "id": "accessories" },
+    { "name": "その他", "id": "other" }
+  ]
+}

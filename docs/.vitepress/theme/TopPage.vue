@@ -1,6 +1,7 @@
 <script setup>
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useData, withBase } from 'vitepress'
+import equipmentCategories from '../../../scripts/data/equipment-categories.json'
 import './top-page.css'
 
 const { frontmatter, theme } = useData()
@@ -22,6 +23,8 @@ const ICONS = {
   person: 'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4.5 20a7.5 7.5 0 0 1 15 0',
   spark: 'M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2zM19 4.5v3M17.5 6h3',
   sword: 'M14.5 3H21v6.5L11 19.5l-1.5-1.5M14.5 3L5 12.5 6.5 14M6.5 14L4 16.5 7.5 20l2.5-2.5M6.5 14l3.5 3.5',
+  shield: 'M12 3l8 3v6c0 5-8 9-8 9s-8-4-8-9V6zM12 7v10M8 11h8',
+  ring: 'M9 3h6l2 3-5 4-5-4zM7 9a7 7 0 1 0 10 0',
   flag: 'M6 21V4M6 5h11l-2 3.5L17 12H6',
   help: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM9.5 9.3A2.5 2.5 0 1 1 12 12c0 1-.001 1.2 0 2M12 17.2v.01'
 }
@@ -38,6 +41,11 @@ const start = [
   { n: '02', t: '最初にすること', d: 'モンスターポートの使い方', link: '/play/start' },
   { n: '03', t: '仲間を迎える', d: 'ペットの育成と配合', link: '/play/pets' }
 ]
+
+const equipmentLinks = (page) => equipmentCategories[page].map(({ name, id }) => ({
+  t: name,
+  link: `/items/${page}#${id}`
+}))
 
 const cats = computed(() => [
   {
@@ -76,19 +84,38 @@ const cats = computed(() => [
     ]
   },
   {
-    id: 'equipment',
-    title: '武器・防具',
+    id: 'weapons',
+    title: '武器',
     icon: 'sword',
-    overview: { t: '装備一覧', link: '/items/#装備' },
+    overview: { t: '武器一覧', link: '/items/weapons' },
     items: [
-      { t: '武器', link: '/items/weapons' },
-      { t: '防具', link: '/items/armor' },
-      { t: '盾', link: '/items/shields' },
-      { t: 'アクセサリー', link: '/items/accessories' },
-      { t: '転生装備', link: '/items/tensei' },
-      { t: '鍛冶・強化', link: '/play/smithing' },
+      ...equipmentLinks('weapons'),
       { t: 'レシピ一覧' }
     ]
+  },
+  {
+    id: 'armor',
+    title: '防具',
+    icon: 'shield',
+    overview: { t: '防具一覧', link: '/items/armor' },
+    items: [
+      ...equipmentLinks('armor'),
+      { t: '盾', link: '/items/shields' }
+    ]
+  },
+  {
+    id: 'accessories',
+    title: 'アクセサリー',
+    icon: 'ring',
+    overview: { t: 'アクセサリー一覧', link: '/items/accessories' },
+    items: equipmentLinks('accessories')
+  },
+  {
+    id: 'tensei',
+    title: '転生装備',
+    icon: 'crown',
+    overview: { t: '転生装備一覧', link: '/items/tensei' },
+    items: equipmentLinks('tensei')
   },
   {
     id: 'jobs',
@@ -384,7 +411,7 @@ async function onKey(event) {
     <div class="home-content">
       <section id="all-categories" class="directory-section" aria-label="攻略カテゴリ">
         <div class="category-directory">
-          <section v-for="c in catsReady" :key="c.id" class="directory-group" :aria-labelledby="'category-' + c.id">
+          <section v-for="c in catsReady" :key="c.id" class="directory-group" :class="{ 'directory-group-wide': c.items.length > 12 }" :aria-labelledby="'category-' + c.id">
             <header class="directory-heading">
               <h2 :id="'category-' + c.id"><svg viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[c.icon]" /></svg>{{ c.title }}</h2>
               <a v-if="c.overview" class="directory-overview" :href="withBase(c.overview.link)">{{ c.overview.t }}<span aria-hidden="true"> →</span></a>

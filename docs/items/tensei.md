@@ -6,7 +6,7 @@ pageClass: wide-page sortable-list
 
 # 転生装備一覧
 
-## 武器（33種）
+## 武器（33種） {#weapons}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -44,7 +44,7 @@ pageClass: wide-page sortable-list
 | [スライダークロボの剣](/drops/suraidakurobonoken) | 10 | ×1.5 | — |
 | [名刀 斬鉄丸](/drops/meitouzantetumaru) | 14 | ×3.18 | — |
 
-## 防具（5種）
+## 防具（5種） {#armor}
 
 | 防具 | 部位 | しゅび | 魔法しゅび | そのほか | 特殊効果 |
 | --- | :--: | ---: | ---: | --- | --- |
@@ -54,13 +54,13 @@ pageClass: wide-page sortable-list
 | [アルケミストンの帽子](/drops/arukemisutonnobousi) | 頭 | ×1.2 | ×1.2 | MP ×1.1 | — |
 | [ピサロナイトの鎧](/drops/pisaronaitonoyoroi) | 胴 | ×1.2 | ×1.2 | HP ×1.2 | — |
 
-## 盾（1種）
+## 盾（1種） {#shields}
 
 | 盾 | しゅび | 魔法しゅび | 構え中 | 適正職業 | 特殊効果 |
 | --- | ---: | ---: | ---: | --- | --- |
 | [シールドあにきの盾](/drops/sirudoanikinotate) | ×1.2 | ×1.2 | ×4 | — | 構え時守備・魔守4倍 |
 
-## アクセサリー（18種）
+## アクセサリー（18種） {#accessories}
 
 | アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -83,7 +83,7 @@ pageClass: wide-page sortable-list
 | [チョコヌーバの指輪](/drops/tyokonubanoyubiwa) | — | ×1.15 | — | — | — | ×1.15 | — |
 | [チョコヌーバの指輪](/drops/tyokonubanoyubiwa) | — | ×1.15 | — | — | — | ×1.15 | — |
 
-## その他（1種）
+## その他（1種） {#other}
 
 - [つむりんママの貝殻](/drops/tumurinmama)
 
