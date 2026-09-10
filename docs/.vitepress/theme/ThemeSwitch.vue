@@ -1,7 +1,6 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from 'vue'
 
-// VitePress標準と同じ保存キーを使う。値は 'auto' | 'light' | 'dark'
 const KEY = 'vitepress-theme-appearance'
 const mode = ref('auto')
 let mq = null
@@ -20,12 +19,10 @@ function set(v) {
   mode.value = v
   try {
     localStorage.setItem(KEY, v)
-    // VitePress内部（@vueuse/useStorage）にも変更を伝える
     window.dispatchEvent(
       new StorageEvent('storage', { key: KEY, newValue: v, storageArea: localStorage })
     )
   } catch (e) {
-    /* プライベートモード等ではlocalStorageが使えない。表示だけ切り替える */
   }
   apply(v)
 }
@@ -39,7 +36,6 @@ onMounted(() => {
   mode.value = v
   apply(v)
 
-  // 「端末に合わせる」を選んでいる間は、OS側の切り替えに追従する
   mq = window.matchMedia('(prefers-color-scheme: dark)')
   onSystemChange = () => {
     if (mode.value === 'auto') apply('auto')
