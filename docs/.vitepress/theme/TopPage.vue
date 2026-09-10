@@ -84,6 +84,41 @@ const cats = computed(() => [
     ]
   },
   {
+    id: 'jobs',
+    title: '職業',
+    icon: 'person',
+    overview: { t: '職業一覧', link: '/jobs/' },
+    items: [
+      { t: '遊び人', link: '/jobs/asobinin' },
+      { t: '戦士', link: '/jobs/senshi' },
+      { t: '武闘家', link: '/jobs/butouka' },
+      { t: '魔法使い', link: '/jobs/mahoutsukai' },
+      { t: '僧侶', link: '/jobs/souryo' },
+      { t: 'バトルマスター', link: '/jobs/battlemaster' },
+      { t: 'パラディン', link: '/jobs/paladin' },
+      { t: '魔法戦士', link: '/jobs/mahousenshi' },
+      { t: 'レンジャー', link: '/jobs/ranger' },
+      { t: '魔物使い', link: '/jobs/mamonotsukai' },
+      { t: 'スーパースター', link: '/jobs/superstar' },
+      { t: '盗賊', link: '/jobs/touzoku' },
+      { t: '賢者', link: '/jobs/kenja' },
+      { t: '道具使い', link: '/jobs/dougutsukai' },
+      { t: '道具マスター', link: '/jobs/dougumaster' },
+      { t: '勇者', link: '/jobs/yuusha' },
+      { t: '忍者', link: '/jobs/ninja' },
+      { t: 'はぐれメタル', link: '/jobs/haguremetal' },
+      { t: '鬼神闘士', link: '/jobs/berserker' },
+      { t: '秘境ハンター', link: '/jobs/travelscholar' },
+      { t: '吟遊詩人', link: '/jobs/ginyuusizin' },
+      { t: 'モンスターロード', link: '/jobs/monstercommander' },
+      { t: 'ゴーストマスター', link: '/jobs/necromancer' },
+      { t: 'ソウルマスター', link: '/jobs/mimic' },
+      { t: '魔導銃士', link: '/jobs/machinehunter' },
+      { t: '戦輪士', link: '/jobs/battleringmaster' },
+      { t: 'おすすめ職業' }
+    ]
+  },
+  {
     id: 'weapons',
     title: '武器',
     icon: 'sword',
@@ -116,21 +151,6 @@ const cats = computed(() => [
     icon: 'crown',
     overview: { t: '転生装備一覧', link: '/items/tensei' },
     items: equipmentLinks('tensei')
-  },
-  {
-    id: 'jobs',
-    title: '職業',
-    icon: 'person',
-    overview: { t: '職業一覧', link: '/jobs/' },
-    items: [
-      { t: '転職のしかた', link: '/play/jobs' },
-      { t: '転職条件', link: '/jobs/#転職条件' },
-      { t: 'サブ職業', link: '/jobs/#subjob-rules' },
-      { t: '能力の伸び', link: '/jobs/#能力の伸び'.normalize('NFKD') },
-      { t: '武器の適性', link: '/jobs/#武器の適性' },
-      { t: '必殺技', link: '/jobs/#必殺技' },
-      { t: 'おすすめ職業' }
-    ]
   },
   {
     id: 'pets',
