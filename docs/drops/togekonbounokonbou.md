@@ -1,6 +1,6 @@
 ---
 title: とげこんぼうの棍棒
-description: DQMVIの「とげこんぼうの棍棒」を落とすモンスター1体の一覧。いちばん弱いのはとげこんぼう（通常・EXP1,861）。
+description: とげこんぼうの棍棒
 pageClass: wide-page sortable-list
 prev:
   text: "どくどくヘドロ"
