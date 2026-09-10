@@ -1,36 +1,10 @@
-/**
- * モンスター図鑑（frontmatter の pageClass に monster-dex があるページ）の表の上に、
- * 絞り込みボタンを出す。
- *
- *   ランク1 … ランク7
- *   スライム … 特殊（系統）
- *   雑魚・転生・ボス・コインボス ＋ すべて
- *
- * 組（span.grp）ごとに1行に並べるのは custom.css の `.grp:not(:last-of-type) { flex-basis: 100% }`。
- * 組を足すときはこの並び順で append すれば、その組も新しい行になる。
- *
- * ランクの列と系統の列は表にある。種類は scripts/data/monster-kinds.json（config.mts が
- * themeConfig.monsterKinds に載せる）で決め、そこに無いものが「雑魚」。
- * 押したボタンは光り、同じ組（ランク同士・系統同士・種類同士）は「どれか」、組をまたぐと「両方」の条件になる。
- * 何も押していなければ全部出る。「すべて」で解除。
- *
- * 本文に HTML を書けない（markdown.html:false）ので、ボタンは表示側で作る。
- * VitePress はページを切り替えても読み込み直さないので、theme/index.ts から遷移のたびに呼ぶ。
- * 並べ替え（sortable-tables.ts）とは独立。行に付ける class dex-hide を custom.css が display:none にする。
- */
 const RANKS = [1, 2, 3, 4, 5, 6, 7]
-/**
- * 系統ボタンの並び（2026-09-07 よっしー指示の順）。表の「系統」の欄と同じ言葉にすること。
- * 欄が空の行（数値を伏せているモンスター）はどの系統にも入らないので、系統を選ぶと消える。
- */
 const SPECIES = ['スライム', 'ドラゴン', '自然', '魔獣', '物質', '悪魔', 'ゾンビ', 'メタル', '特殊']
-/** 種類ボタンの並び。「雑魚」は monster-kinds.json のどこにも無いもの */
 const KINDS = ['雑魚', '転生', 'ボス', 'コインボス']
 const HIDE_CLASS = 'dex-hide'
 
 export type Kinds = Record<string, string[]>
 
-/** 行のモンスターを、ページURLの末尾（id）と表示名で表す */
 function identify(row: HTMLTableRowElement, nameCol: number): { id: string; name: string } {
   const cell = row.cells[nameCol]
   const href = cell?.querySelector('a')?.getAttribute('href') ?? ''
@@ -48,7 +22,6 @@ function kindOf(row: HTMLTableRowElement, nameCol: number, kinds: Kinds): string
   return '雑魚'
 }
 
-/** 表の「系統」の欄をそのまま読む。欄が無い表・空の行は '' */
 function speciesOf(row: HTMLTableRowElement, speciesCol: number): string {
   if (speciesCol < 0) return ''
   return row.cells[speciesCol]?.textContent?.trim() ?? ''
@@ -68,11 +41,9 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
   const rows = [...(table.tBodies[0]?.rows ?? [])]
   const rankCol = columnIndex(headers, 'ランク')
   const nameCol = columnIndex(headers, 'モンスター')
-  // 系統の欄が無い表でも、ランクと種類のボタンは出す
   const speciesCol = columnIndex(headers, '系統')
   if (rankCol < 0 || nameCol < 0 || !rows.length) return null
 
-  // 行ごとの属性は一度だけ調べておく
   const rank = new Map<HTMLTableRowElement, number | null>()
   const species = new Map<HTMLTableRowElement, string>()
   const kind = new Map<HTMLTableRowElement, string>()
@@ -81,7 +52,6 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
     species.set(r, speciesOf(r, speciesCol))
     kind.set(r, kindOf(r, nameCol, kinds))
   }
-  // 表に1体も出てこない系統はボタンを出さない（MODで系統が増減しても勝手に合う）
   const shownSpecies = speciesCol < 0 ? [] : SPECIES.filter((s) => [...species.values()].includes(s))
 
   const selectedRanks = new Set<number>()
@@ -102,7 +72,6 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
     return b
   }
 
-  // 1行も残らないとき（ボス・コインボスがまだ空のときなど）に表の下に出す
   const empty = document.createElement('p')
   empty.className = 'dex-empty'
   empty.textContent = 'この条件にあてはまるモンスターはいないか、ネタバレになる可能性があるため掲載を控えています。'
@@ -176,7 +145,6 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
   return bar
 }
 
-/** kinds は theme/index.ts が useData().theme.value.monsterKinds を渡す（setup の中でしか取れないため） */
 export function setupDexFilter(kinds: Kinds | undefined): void {
   if (!document.querySelector('.Layout.monster-dex')) return
   const table = document.querySelector<HTMLTableElement>('.Layout.monster-dex .vp-doc table')

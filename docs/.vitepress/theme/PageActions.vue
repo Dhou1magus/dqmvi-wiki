@@ -2,9 +2,6 @@
 import { computed } from 'vue'
 import { useData } from 'vitepress'
 
-// 各ページの下に「編集」と「変更履歴・復元」の導線を出す。
-// 履歴はGitHubがページ単位で全世代を保持しているので、
-// バックアップ用のファイルをこちらで持つ必要はない。
 const { theme, page, frontmatter } = useData()
 
 const show = computed(
