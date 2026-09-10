@@ -13,85 +13,85 @@ next:
 
 # 悪魔系
 
-| No. | モンスター | ランク | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |
-| ---: | --- | :--: | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |
-| 3 | [モーモン](/monsters/momon) | 1 | 悪魔 | 炎 | 昼 | 12 | 3 | 1 | 5 | 1 |
-| 5 | [おにこぞう](/monsters/onikozou) | 1 | 悪魔 | 爆 | 昼 | 18 | 8 | 2 | 11 | 2 |
-| 11 | [つかいま](/monsters/tukaima) | 1 | 悪魔 | 氷 | 夜 | 25 | 9 | 3 | 13 | 3 |
-| 21 | [スキッパー](/monsters/sukippaa) | 1 | 悪魔 | 炎 | 昼 | 28 | 13 | 1 | 15 | 3 |
-| 39 | [おにこぞう](/monsters/onikozou2) | 1 | 悪魔 | 爆 | 夜 | 18 | 8 | 3 | 10 | 3 |
-| 40 | [まほうつかい](/monsters/magician) | 1 | 悪魔 | 爆 | 夜 | 15 | 2 | 1 | 13 | 4 |
-| 49 | [メーダ](/monsters/meda) | 1 | 悪魔 | 風 | 昼夜 | 16 | 3 | 2 | 13 | 3 |
-| 59 | [びっくりサタン](/monsters/bikkurisatan) | 1 | 悪魔 | 爆 | 夜 | 12 | 4 | 1 | 5 | 1 |
-| 78 | [スノーモン](/monsters/sunomon) | 2 | 悪魔 | 炎 | 昼 | 36 | 23 | 13 | 36 | 7 |
-| 80 | [リリパット](/monsters/riripat) | 2 | 悪魔 | 氷 | 夜 | 39 | 21 | 12 | 33 | 7 |
-| 82 | [おおめだま](/monsters/oomedama) | 2 | 悪魔 | 爆 | 夜 | 45 | 25 | 14 | 39 | 8 |
-| 83 | [ドラキー](/monsters/doraki) | 2 | 悪魔 | 爆 | 夜 | 38 | 23 | 12 | 35 | 7 |
-| 94 | [ベビーサタン](/monsters/bebisatan) | 2 | 悪魔 | 氷 | 夜 | 50 | 24 | 13 | 38 | 8 |
-| 99 | [ピンクモーモン](/monsters/pinkmomon) | 2 | 悪魔 | 炎 | 昼 | 55 | 29 | 16 | 45 | 9 |
-| 103 | [まじゅつし](/monsters/majutusi) | 2 | 悪魔 | 風 | 夜 | 45 | 24 | 14 | 38 | 8 |
-| 107 | [ピクシー](/monsters/pikusi2) | 2 | 悪魔 | 爆 | 夜 | 45 | 26 | 15 | 41 | 8 |
-| 119 | [スケアフレイル](/monsters/sukeafureiru) | 2 | 悪魔 | 炎 | 夜 | 77 | 36 | 19 | 63 | 12 |
-| 120 | [デザートデーモン](/monsters/dezatodemon) | 2 | 悪魔 | 氷 | 昼夜 | 80 | 35 | 17 | 70 | 15 |
-| 121 | [メーダロード](/monsters/medarodo) | 2 | 悪魔 | 風 | 昼夜 | 44 | 14 | 12 | 64 | 12 |
-| 144 | [タップデビル](/monsters/tappudebiru) | 2 | 悪魔 | 爆 | 夜 | 37 | 22 | 15 | 36 | 7 |
-| 153 | [ウィッチレディ](/monsters/whicchiredi) | 2 | 悪魔 | 氷 | 昼夜 | 50 | 22 | 13 | 47 | 11 |
-| 166 | [げんじゅつし](/monsters/genjutusi) | 3 | 悪魔 | 風 | 夜 | 75 | 40 | 32 | 72 | 14 |
-| 167 | [あくまの書](/monsters/akumanosyo) | 3 | 悪魔 | 炎 | 夜 | 65 | 42 | 34 | 74 | 15 |
-| 169 | [タホドラキー](/monsters/tahodoraki) | 3 | 悪魔 | 爆 | 夜 | 72 | 47 | 36 | 81 | 16 |
-| 176 | [どくやずきん](/monsters/dokuyazukin) | 3 | 悪魔 | 氷 | 夜 | 84 | 49 | 37 | 85 | 17 |
-| 182 | [ナイトウォーカー](/monsters/nightwalker) | 3 | 悪魔 | 炎 | 夜 | 83 | 50 | 35 | 84 | 17 |
-| 183 | [スペクテット](/monsters/supekutetto) | 3 | 悪魔 | 爆 | 昼 | 93 | 49 | 37 | 86 | 17 |
-| 189 | [ドラキーマ](/monsters/dorakima) | 3 | 悪魔 | 爆 | 夜 | 98 | 50 | 35 | 85 | 17 |
-| 198 | [あくま神官](/monsters/akumasinkan) | 3 | 悪魔 | 氷 | 夜 | 94 | 57 | 36 | 92 | 18 |
-| 199 | [きとうし](/monsters/kitousi) | 3 | 悪魔 | 風 | 昼 | 92 | 46 | 34 | 80 | 16 |
-| 202 | [よろいのきし](/monsters/yoroinokisi) | 3 | 悪魔 | 爆 | 夜 | 140 | 82 | 52 | 132 | 32 |
-| 212 | [うらぎりこぞう](/monsters/uragirikozou2) | 3 | 悪魔 | 爆 | 夜 | 90 | 61 | 42 | 95 | 20 |
-| 213 | [まどうし](/monsters/madoushi) | 3 | 悪魔 | 爆 | 夜 | 78 | 32 | 18 | 102 | 24 |
-| 248 | [グリゴンダンス](/monsters/gurigondansu) | 3 | 悪魔 | 爆 | 夜 | 87 | 43 | 37 | 79 | 16 |
-| 263 | [デスセイレス](/monsters/desuseiresu) | 3 | 悪魔 | 炎 | 昼夜 | 102 | 48 | 32 | 97 | 20 |
-| 270 | [レッドアーチャー](/monsters/reddoatya) | 3 | 悪魔 | 強 | 昼夜 | 1,047 | 111 | 69 | 1,871 | 374 |
-| 296 | [メイジドラキー](/monsters/meijidoraki) | 4 | 悪魔 | 爆 | 昼夜 | 176 | 80 | 75 | 156 | 31 |
-| 305 | [ミニデーモン](/monsters/minidemon) | 4 | 悪魔 | 爆 | 昼夜 | 170 | 77 | 68 | 145 | 29 |
-| 308 | [ピクシー](/monsters/pikusi) | 4 | 悪魔 | 爆 | 昼夜 | 178 | 78 | 67 | 147 | 29 |
-| 309 | [きめんどうし](/monsters/kimendousi) | 4 | 悪魔 | 風 | 昼夜 | 170 | 77 | 66 | 144 | 29 |
-| 313 | [アローインプ](/monsters/aroinpu) | 4 | 悪魔 | 氷 | 昼夜 | 178 | 83 | 70 | 154 | 31 |
-| 316 | [ようじゅつし](/monsters/youjutusi) | 4 | 悪魔 | 風 | 昼夜 | 177 | 80 | 75 | 155 | 31 |
-| 319 | [ひょうけつのきし](/monsters/hyouketunokisi) | 4 | 悪魔 | 爆 | 昼夜 | 230 | 132 | 92 | 262 | 55 |
-| 327 | [バアラック](/monsters/baarakku2) | 4 | 悪魔 | 爆 | 夜 | 175 | 82 | 61 | 148 | 30 |
-| 337 | [デュラハーン](/monsters/durahan) | 4 | 悪魔 | 炎 | 夜 | 211 | 99 | 82 | 165 | 33 |
-| 338 | [アークデーモン](/monsters/akudemon) | 4 | 悪魔 | 氷 | 昼夜 | 195 | 80 | 77 | 180 | 35 |
-| 339 | [メーダクイン](/monsters/medakuin) | 4 | 悪魔 | 風 | 昼夜 | 165 | 43 | 43 | 166 | 28 |
-| 362 | [ディアブラダ](/monsters/dexiaburada) | 4 | 悪魔 | 爆 | 夜 | 161 | 74 | 75 | 156 | 29 |
-| 380 | [クイーンモーモン](/monsters/kuinmomon) | 4 | 悪魔 | 強 | 昼 | 2,147 | 200 | 126 | 3,506 | 701 |
-| 381 | [わんぱくサタン](/monsters/wanpakusatan) | 4 | 悪魔 | 強 | 昼 | 1,968 | 203 | 123 | 3,227 | 645 |
-| 387 | [マポレーナ](/monsters/maporena) | 5 | 悪魔 | 炎 | 昼夜 | 343 | 104 | 98 | 212 | 42 |
-| 409 | [トロル](/monsters/tororu) | 5 | 悪魔 | 氷 | 昼夜 | 679 | 157 | 94 | 287 | 57 |
-| 410 | [ドルイド](/monsters/doruido) | 5 | 悪魔 | 風 | 夜 | 486 | 136 | 98 | 254 | 51 |
-| 415 | [バアラック](/monsters/barakku) | 5 | 悪魔 | 爆 | 昼 | 497 | 141 | 102 | 264 | 53 |
-| 421 | [じごくのつかい](/monsters/jigokunotukai) | 5 | 悪魔 | 氷 | 昼夜 | 473 | 137 | 108 | 263 | 53 |
-| 423 | [しにがみのきし](/monsters/sinigaminokisi) | 5 | 悪魔 | 爆 | 夜 | 732 | 193 | 152 | 384 | 72 |
-| 433 | [だいまどう](/monsters/daimadou) | 5 | 悪魔 | 爆 | 夜 | 486 | 137 | 99 | 293 | 59 |
-| 455 | [スターデビル](/monsters/sutaadebiru) | 5 | 悪魔 | 爆 | 夜 | 400 | 126 | 120 | 249 | 44 |
-| 470 | [アトラス](/monsters/atorasu) | 5 | 悪魔 | 強 | 昼 | 5,713 | 345 | 167 | 7,650 | 1,530 |
-| 476 | [ボストロール](/monsters/bosutororu) | 6 | 悪魔 | 氷 | 昼夜 | 1,384 | 171 | 105 | 373 | 75 |
-| 478 | [ケムンクルス](/monsters/kemunkurusu) | 6 | 悪魔 | 炎 | 昼 | 848 | 142 | 122 | 314 | 63 |
-| 502 | [シルバーデビル](/monsters/sirubadebiru) | 6 | 悪魔 | 炎 | 夜 | 1,088 | 213 | 143 | 418 | 84 |
-| 505 | [サイクロプス](/monsters/saikuropusu) | 6 | 悪魔 | 爆 | 昼 | 1,488 | 221 | 120 | 441 | 88 |
-| 510 | [あくまのきし](/monsters/akumanokisi) | 6 | 悪魔 | 強 | 夜 | 1,521 | 266 | 182 | 542 | 98 |
-| 523 | [ベリアル](/monsters/beriaru) | 6 | 悪魔 | 氷 | 夜 | 1,550 | 220 | 125 | 450 | 90 |
-| 524 | [コスモアイ](/monsters/kosumoai) | 6 | 悪魔 | 風 | 昼夜 | 1,220 | 123 | 78 | 421 | 90 |
-| 541 | [ジェントルダンス](/monsters/zyentorudansu) | 6 | 悪魔 | 爆 | 夜 | 1,031 | 149 | 140 | 350 | 73 |
-| 552 | [トロルバッコス](/monsters/tororubakkosu) | 6 | 悪魔 | 強 | 昼 | 14,316 | 512 | 234 | 17,869 | 3,574 |
-| 560 | [トロルボンバー](/monsters/tororubonba) | 7 | 悪魔 | 氷 | 夜 | 2,625 | 398 | 175 | 752 | 150 |
-| 562 | [うらぎりこぞう](/monsters/uragirikozou) | 7 | 悪魔 | 爆 | 昼夜 | 1,665 | 280 | 184 | 567 | 113 |
-| 576 | [デビルロード](/monsters/debirurodo) | 7 | 悪魔 | 爆 | 昼夜 | 1,725 | 347 | 215 | 661 | 132 |
-| 580 | [ダークトロル](/monsters/darktororu) | 7 | 悪魔 | 氷 | 昼夜 | 2,700 | 420 | 186 | 788 | 158 |
-| 584 | [ギガンテス](/monsters/gigantesu) | 7 | 悪魔 | 爆 | 昼夜 | 2,655 | 386 | 200 | 766 | 153 |
-| 588 | [トロルキング](/monsters/tororuking) | 7 | 悪魔 | 氷 | 昼夜 | 3,150 | 451 | 198 | 867 | 173 |
-| 591 | [はめつの使者](/monsters/hametunosisya) | 7 | 悪魔 | 氷 | 昼夜 | 1,965 | 358 | 210 | 688 | 138 |
-| 603 | [ヘルガーディアン](/monsters/herugadexian) | 7 | 悪魔 | 炎 | 夜 | 2,350 | 444 | 270 | 711 | 142 |
-| 605 | [デーモンアミゴ](/monsters/demonamigo) | 7 | 悪魔 | 氷 | 夜 | 3,312 | 412 | 245 | 859 | 154 |
+| No. | 画像 | モンスター | ランク | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |
+| ---: | :--: | --- | :--: | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |
+| 3 | ![モーモン](/img/monsters/momon.png) | [モーモン](/monsters/momon) | 1 | 悪魔 | 炎 | 昼 | 12 | 3 | 1 | 5 | 1 |
+| 5 | ![おにこぞう](/img/monsters/onikozou.png) | [おにこぞう](/monsters/onikozou) | 1 | 悪魔 | 爆 | 昼 | 18 | 8 | 2 | 11 | 2 |
+| 11 | ![つかいま](/img/monsters/tukaima.png) | [つかいま](/monsters/tukaima) | 1 | 悪魔 | 氷 | 夜 | 25 | 9 | 3 | 13 | 3 |
+| 21 | ![スキッパー](/img/monsters/sukippaa.png) | [スキッパー](/monsters/sukippaa) | 1 | 悪魔 | 炎 | 昼 | 28 | 13 | 1 | 15 | 3 |
+| 39 | ![おにこぞう](/img/monsters/onikozou2.png) | [おにこぞう](/monsters/onikozou2) | 1 | 悪魔 | 爆 | 夜 | 18 | 8 | 3 | 10 | 3 |
+| 40 | ![まほうつかい](/img/monsters/magician.png) | [まほうつかい](/monsters/magician) | 1 | 悪魔 | 爆 | 夜 | 15 | 2 | 1 | 13 | 4 |
+| 49 | ![メーダ](/img/monsters/meda.png) | [メーダ](/monsters/meda) | 1 | 悪魔 | 風 | 昼夜 | 16 | 3 | 2 | 13 | 3 |
+| 59 | ![びっくりサタン](/img/monsters/bikkurisatan.png) | [びっくりサタン](/monsters/bikkurisatan) | 1 | 悪魔 | 爆 | 夜 | 12 | 4 | 1 | 5 | 1 |
+| 78 | ![スノーモン](/img/monsters/sunomon.png) | [スノーモン](/monsters/sunomon) | 2 | 悪魔 | 炎 | 昼 | 36 | 23 | 13 | 36 | 7 |
+| 80 | ![リリパット](/img/monsters/riripat.png) | [リリパット](/monsters/riripat) | 2 | 悪魔 | 氷 | 夜 | 39 | 21 | 12 | 33 | 7 |
+| 82 | ![おおめだま](/img/monsters/oomedama.png) | [おおめだま](/monsters/oomedama) | 2 | 悪魔 | 爆 | 夜 | 45 | 25 | 14 | 39 | 8 |
+| 83 | ![ドラキー](/img/monsters/doraki.png) | [ドラキー](/monsters/doraki) | 2 | 悪魔 | 爆 | 夜 | 38 | 23 | 12 | 35 | 7 |
+| 94 | ![ベビーサタン](/img/monsters/bebisatan.png) | [ベビーサタン](/monsters/bebisatan) | 2 | 悪魔 | 氷 | 夜 | 50 | 24 | 13 | 38 | 8 |
+| 99 | ![ピンクモーモン](/img/monsters/pinkmomon.png) | [ピンクモーモン](/monsters/pinkmomon) | 2 | 悪魔 | 炎 | 昼 | 55 | 29 | 16 | 45 | 9 |
+| 103 | ![まじゅつし](/img/monsters/majutusi.png) | [まじゅつし](/monsters/majutusi) | 2 | 悪魔 | 風 | 夜 | 45 | 24 | 14 | 38 | 8 |
+| 107 | ![ピクシー](/img/monsters/pikusi2.png) | [ピクシー](/monsters/pikusi2) | 2 | 悪魔 | 爆 | 夜 | 45 | 26 | 15 | 41 | 8 |
+| 119 | ![スケアフレイル](/img/monsters/sukeafureiru.png) | [スケアフレイル](/monsters/sukeafureiru) | 2 | 悪魔 | 炎 | 夜 | 77 | 36 | 19 | 63 | 12 |
+| 120 | ![デザートデーモン](/img/monsters/dezatodemon.png) | [デザートデーモン](/monsters/dezatodemon) | 2 | 悪魔 | 氷 | 昼夜 | 80 | 35 | 17 | 70 | 15 |
+| 121 | ![メーダロード](/img/monsters/medarodo.png) | [メーダロード](/monsters/medarodo) | 2 | 悪魔 | 風 | 昼夜 | 44 | 14 | 12 | 64 | 12 |
+| 144 | ![タップデビル](/img/monsters/tappudebiru.png) | [タップデビル](/monsters/tappudebiru) | 2 | 悪魔 | 爆 | 夜 | 37 | 22 | 15 | 36 | 7 |
+| 153 | ![ウィッチレディ](/img/monsters/whicchiredi.png) | [ウィッチレディ](/monsters/whicchiredi) | 2 | 悪魔 | 氷 | 昼夜 | 50 | 22 | 13 | 47 | 11 |
+| 166 | ![げんじゅつし](/img/monsters/genjutusi.png) | [げんじゅつし](/monsters/genjutusi) | 3 | 悪魔 | 風 | 夜 | 75 | 40 | 32 | 72 | 14 |
+| 167 | ![あくまの書](/img/monsters/akumanosyo.png) | [あくまの書](/monsters/akumanosyo) | 3 | 悪魔 | 炎 | 夜 | 65 | 42 | 34 | 74 | 15 |
+| 169 | ![タホドラキー](/img/monsters/tahodoraki.png) | [タホドラキー](/monsters/tahodoraki) | 3 | 悪魔 | 爆 | 夜 | 72 | 47 | 36 | 81 | 16 |
+| 176 | ![どくやずきん](/img/monsters/dokuyazukin.png) | [どくやずきん](/monsters/dokuyazukin) | 3 | 悪魔 | 氷 | 夜 | 84 | 49 | 37 | 85 | 17 |
+| 182 | ![ナイトウォーカー](/img/monsters/nightwalker.png) | [ナイトウォーカー](/monsters/nightwalker) | 3 | 悪魔 | 炎 | 夜 | 83 | 50 | 35 | 84 | 17 |
+| 183 | ![スペクテット](/img/monsters/supekutetto.png) | [スペクテット](/monsters/supekutetto) | 3 | 悪魔 | 爆 | 昼 | 93 | 49 | 37 | 86 | 17 |
+| 189 | ![ドラキーマ](/img/monsters/dorakima.png) | [ドラキーマ](/monsters/dorakima) | 3 | 悪魔 | 爆 | 夜 | 98 | 50 | 35 | 85 | 17 |
+| 198 | ![あくま神官](/img/monsters/akumasinkan.png) | [あくま神官](/monsters/akumasinkan) | 3 | 悪魔 | 氷 | 夜 | 94 | 57 | 36 | 92 | 18 |
+| 199 | ![きとうし](/img/monsters/kitousi.png) | [きとうし](/monsters/kitousi) | 3 | 悪魔 | 風 | 昼 | 92 | 46 | 34 | 80 | 16 |
+| 202 | ![よろいのきし](/img/monsters/yoroinokisi.png) | [よろいのきし](/monsters/yoroinokisi) | 3 | 悪魔 | 爆 | 夜 | 140 | 82 | 52 | 132 | 32 |
+| 212 | ![うらぎりこぞう](/img/monsters/uragirikozou2.png) | [うらぎりこぞう](/monsters/uragirikozou2) | 3 | 悪魔 | 爆 | 夜 | 90 | 61 | 42 | 95 | 20 |
+| 213 | ![まどうし](/img/monsters/madoushi.png) | [まどうし](/monsters/madoushi) | 3 | 悪魔 | 爆 | 夜 | 78 | 32 | 18 | 102 | 24 |
+| 248 | ![グリゴンダンス](/img/monsters/gurigondansu.png) | [グリゴンダンス](/monsters/gurigondansu) | 3 | 悪魔 | 爆 | 夜 | 87 | 43 | 37 | 79 | 16 |
+| 263 | ![デスセイレス](/img/monsters/desuseiresu.png) | [デスセイレス](/monsters/desuseiresu) | 3 | 悪魔 | 炎 | 昼夜 | 102 | 48 | 32 | 97 | 20 |
+| 270 | ![レッドアーチャー](/img/monsters/reddoatya.png) | [レッドアーチャー](/monsters/reddoatya) | 3 | 悪魔 | 強 | 昼夜 | 1,047 | 111 | 69 | 1,871 | 374 |
+| 296 | ![メイジドラキー](/img/monsters/meijidoraki.png) | [メイジドラキー](/monsters/meijidoraki) | 4 | 悪魔 | 爆 | 昼夜 | 176 | 80 | 75 | 156 | 31 |
+| 305 | ![ミニデーモン](/img/monsters/minidemon.png) | [ミニデーモン](/monsters/minidemon) | 4 | 悪魔 | 爆 | 昼夜 | 170 | 77 | 68 | 145 | 29 |
+| 308 | ![ピクシー](/img/monsters/pikusi.png) | [ピクシー](/monsters/pikusi) | 4 | 悪魔 | 爆 | 昼夜 | 178 | 78 | 67 | 147 | 29 |
+| 309 | ![きめんどうし](/img/monsters/kimendousi.png) | [きめんどうし](/monsters/kimendousi) | 4 | 悪魔 | 風 | 昼夜 | 170 | 77 | 66 | 144 | 29 |
+| 313 | ![アローインプ](/img/monsters/aroinpu.png) | [アローインプ](/monsters/aroinpu) | 4 | 悪魔 | 氷 | 昼夜 | 178 | 83 | 70 | 154 | 31 |
+| 316 | ![ようじゅつし](/img/monsters/youjutusi.png) | [ようじゅつし](/monsters/youjutusi) | 4 | 悪魔 | 風 | 昼夜 | 177 | 80 | 75 | 155 | 31 |
+| 319 | ![ひょうけつのきし](/img/monsters/hyouketunokisi.png) | [ひょうけつのきし](/monsters/hyouketunokisi) | 4 | 悪魔 | 爆 | 昼夜 | 230 | 132 | 92 | 262 | 55 |
+| 327 | ![バアラック](/img/monsters/baarakku2.png) | [バアラック](/monsters/baarakku2) | 4 | 悪魔 | 爆 | 夜 | 175 | 82 | 61 | 148 | 30 |
+| 337 | ![デュラハーン](/img/monsters/durahan.png) | [デュラハーン](/monsters/durahan) | 4 | 悪魔 | 炎 | 夜 | 211 | 99 | 82 | 165 | 33 |
+| 338 | ![アークデーモン](/img/monsters/akudemon.png) | [アークデーモン](/monsters/akudemon) | 4 | 悪魔 | 氷 | 昼夜 | 195 | 80 | 77 | 180 | 35 |
+| 339 | ![メーダクイン](/img/monsters/medakuin.png) | [メーダクイン](/monsters/medakuin) | 4 | 悪魔 | 風 | 昼夜 | 165 | 43 | 43 | 166 | 28 |
+| 362 | ![ディアブラダ](/img/monsters/dexiaburada.png) | [ディアブラダ](/monsters/dexiaburada) | 4 | 悪魔 | 爆 | 夜 | 161 | 74 | 75 | 156 | 29 |
+| 380 | ![クイーンモーモン](/img/monsters/kuinmomon.png) | [クイーンモーモン](/monsters/kuinmomon) | 4 | 悪魔 | 強 | 昼 | 2,147 | 200 | 126 | 3,506 | 701 |
+| 381 | ![わんぱくサタン](/img/monsters/wanpakusatan.png) | [わんぱくサタン](/monsters/wanpakusatan) | 4 | 悪魔 | 強 | 昼 | 1,968 | 203 | 123 | 3,227 | 645 |
+| 387 | ![マポレーナ](/img/monsters/maporena.png) | [マポレーナ](/monsters/maporena) | 5 | 悪魔 | 炎 | 昼夜 | 343 | 104 | 98 | 212 | 42 |
+| 409 | ![トロル](/img/monsters/tororu.png) | [トロル](/monsters/tororu) | 5 | 悪魔 | 氷 | 昼夜 | 679 | 157 | 94 | 287 | 57 |
+| 410 | ![ドルイド](/img/monsters/doruido.png) | [ドルイド](/monsters/doruido) | 5 | 悪魔 | 風 | 夜 | 486 | 136 | 98 | 254 | 51 |
+| 415 | ![バアラック](/img/monsters/barakku.png) | [バアラック](/monsters/barakku) | 5 | 悪魔 | 爆 | 昼 | 497 | 141 | 102 | 264 | 53 |
+| 421 | ![じごくのつかい](/img/monsters/jigokunotukai.png) | [じごくのつかい](/monsters/jigokunotukai) | 5 | 悪魔 | 氷 | 昼夜 | 473 | 137 | 108 | 263 | 53 |
+| 423 | ![しにがみのきし](/img/monsters/sinigaminokisi.png) | [しにがみのきし](/monsters/sinigaminokisi) | 5 | 悪魔 | 爆 | 夜 | 732 | 193 | 152 | 384 | 72 |
+| 433 | ![だいまどう](/img/monsters/daimadou.png) | [だいまどう](/monsters/daimadou) | 5 | 悪魔 | 爆 | 夜 | 486 | 137 | 99 | 293 | 59 |
+| 455 | ![スターデビル](/img/monsters/sutaadebiru.png) | [スターデビル](/monsters/sutaadebiru) | 5 | 悪魔 | 爆 | 夜 | 400 | 126 | 120 | 249 | 44 |
+| 470 | ![アトラス](/img/monsters/atorasu.png) | [アトラス](/monsters/atorasu) | 5 | 悪魔 | 強 | 昼 | 5,713 | 345 | 167 | 7,650 | 1,530 |
+| 476 | ![ボストロール](/img/monsters/bosutororu.png) | [ボストロール](/monsters/bosutororu) | 6 | 悪魔 | 氷 | 昼夜 | 1,384 | 171 | 105 | 373 | 75 |
+| 478 | ![ケムンクルス](/img/monsters/kemunkurusu.png) | [ケムンクルス](/monsters/kemunkurusu) | 6 | 悪魔 | 炎 | 昼 | 848 | 142 | 122 | 314 | 63 |
+| 502 | ![シルバーデビル](/img/monsters/sirubadebiru.png) | [シルバーデビル](/monsters/sirubadebiru) | 6 | 悪魔 | 炎 | 夜 | 1,088 | 213 | 143 | 418 | 84 |
+| 505 | ![サイクロプス](/img/monsters/saikuropusu.png) | [サイクロプス](/monsters/saikuropusu) | 6 | 悪魔 | 爆 | 昼 | 1,488 | 221 | 120 | 441 | 88 |
+| 510 | ![あくまのきし](/img/monsters/akumanokisi.png) | [あくまのきし](/monsters/akumanokisi) | 6 | 悪魔 | 強 | 夜 | 1,521 | 266 | 182 | 542 | 98 |
+| 523 | ![ベリアル](/img/monsters/beriaru.png) | [ベリアル](/monsters/beriaru) | 6 | 悪魔 | 氷 | 夜 | 1,550 | 220 | 125 | 450 | 90 |
+| 524 | ![コスモアイ](/img/monsters/kosumoai.png) | [コスモアイ](/monsters/kosumoai) | 6 | 悪魔 | 風 | 昼夜 | 1,220 | 123 | 78 | 421 | 90 |
+| 541 | ![ジェントルダンス](/img/monsters/zyentorudansu.png) | [ジェントルダンス](/monsters/zyentorudansu) | 6 | 悪魔 | 爆 | 夜 | 1,031 | 149 | 140 | 350 | 73 |
+| 552 | ![トロルバッコス](/img/monsters/tororubakkosu.png) | [トロルバッコス](/monsters/tororubakkosu) | 6 | 悪魔 | 強 | 昼 | 14,316 | 512 | 234 | 17,869 | 3,574 |
+| 560 | ![トロルボンバー](/img/monsters/tororubonba.png) | [トロルボンバー](/monsters/tororubonba) | 7 | 悪魔 | 氷 | 夜 | 2,625 | 398 | 175 | 752 | 150 |
+| 562 | ![うらぎりこぞう](/img/monsters/uragirikozou.png) | [うらぎりこぞう](/monsters/uragirikozou) | 7 | 悪魔 | 爆 | 昼夜 | 1,665 | 280 | 184 | 567 | 113 |
+| 576 | ![デビルロード](/img/monsters/debirurodo.png) | [デビルロード](/monsters/debirurodo) | 7 | 悪魔 | 爆 | 昼夜 | 1,725 | 347 | 215 | 661 | 132 |
+| 580 | ![ダークトロル](/img/monsters/darktororu.png) | [ダークトロル](/monsters/darktororu) | 7 | 悪魔 | 氷 | 昼夜 | 2,700 | 420 | 186 | 788 | 158 |
+| 584 | ![ギガンテス](/img/monsters/gigantesu.png) | [ギガンテス](/monsters/gigantesu) | 7 | 悪魔 | 爆 | 昼夜 | 2,655 | 386 | 200 | 766 | 153 |
+| 588 | ![トロルキング](/img/monsters/tororuking.png) | [トロルキング](/monsters/tororuking) | 7 | 悪魔 | 氷 | 昼夜 | 3,150 | 451 | 198 | 867 | 173 |
+| 591 | ![はめつの使者](/img/monsters/hametunosisya.png) | [はめつの使者](/monsters/hametunosisya) | 7 | 悪魔 | 氷 | 昼夜 | 1,965 | 358 | 210 | 688 | 138 |
+| 603 | ![ヘルガーディアン](/img/monsters/herugadexian.png) | [ヘルガーディアン](/monsters/herugadexian) | 7 | 悪魔 | 炎 | 夜 | 2,350 | 444 | 270 | 711 | 142 |
+| 605 | ![デーモンアミゴ](/img/monsters/demonamigo.png) | [デーモンアミゴ](/monsters/demonamigo) | 7 | 悪魔 | 氷 | 夜 | 3,312 | 412 | 245 | 859 | 154 |
 
 ## 関連ページ
 

@@ -406,8 +406,6 @@ function tableRows(list, dirOf, { image = false } = {}) {
   const at = typeof dirOf === 'function' ? dirOf : () => dirOf
   // ★先頭の見出しが「No.」の表だけが並べ替えの対象になる（theme/sortable-tables.ts）。
   //   ここの見出しを変えるときは、あちらの SORTABLE_FIRST_HEADER も一緒に直すこと。
-  //   「画像」の列（図鑑だけ。image: true）も、あちらの IMAGE_HEADER と同じ文字にしておくこと
-  //   （並べ替えの対象から外し、名前の列と一緒に左に固定するための目印）。
   const head = image ? '| No. | 画像 | モンスター |' : '| No. | モンスター |'
   const rule = image ? '| ---: | :--: | --- |' : '| ---: | --- |'
   const out = [`${head} ランク | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |`,
@@ -453,7 +451,6 @@ function monsterIndex(normals) {
   lines.push(':::')
   lines.push('')
   const path = join(MON_DIR, 'index.md')
-  // 図鑑だけ「画像」の列がある（No. | 画像 | モンスター …）ので、名前は3列目
   const extra = extraRows(path, new Set(normals.map((m) => plainName(jpName(m.id)))), { nameCol: 2, nameHeader: 'モンスター', header: '| No.' })
   lines.push(...tableRows(normals, 'monsters', { image: true }))
   lines.push(...(extra.get('')?.rows ?? []))
@@ -502,7 +499,20 @@ function speciesGear(name) {
   return n
 }
 // ── 系統のページ ──────────────────────────────────────────
-// prevName/nextName は系統一覧（数の多い順）で隣にあたる系統名。無ければ端っこ
+function addSpeciesImageColumn(extra) {
+  const insert = (row, value) => row.replace(/^(\|[^|]*\|)/, (_, first) => `${first} ${value} |`)
+  for (const table of extra.values()) {
+    if (/\|\s*画像\s*\|/.test(table.head[0])) continue
+    table.head = [insert(table.head[0], '画像'), insert(table.head[1], ':--:')]
+    table.rows = table.rows.map((row) => {
+      const id = row.split('|')[2]?.match(/\]\(\/monsters\/([A-Za-z0-9_-]+)\)/)?.[1]
+      const monster = id && !bossById.has(id) && !blankOf(id) ? statById.get(id) : null
+      return insert(row, monster ? imageCell(monster) : `![](${BLANK_IMG})`)
+    })
+  }
+  return extra
+}
+
 function speciesPage(name, list, prevName, nextName) {
   const slug = SPECIES_SLUG.get(name) ?? name
   const lines = []
@@ -531,8 +541,8 @@ function speciesPage(name, list, prevName, nextName) {
   lines.push(`# ${name}系`)
   lines.push('')
   const path = join(SPECIES_DIR, `${slug}.md`)
-  const extra = extraRows(path, new Set([...list.map((m) => plainName(jpName(m.id))), ...blankNames()]), { nameCol: 1, nameHeader: 'モンスター', header: '| No.' })
-  lines.push(...tableRows(list, 'monsters'))
+  const extra = addSpeciesImageColumn(extraRows(path, new Set([...list.map((m) => plainName(jpName(m.id))), ...blankNames()]), { nameCol: 2, nameHeader: 'モンスター', header: '| No.' }))
+  lines.push(...tableRows(list, 'monsters', { image: true }))
   lines.push(...(extra.get('')?.rows ?? []))
   lines.push('')
   lines.push(...leftoverTables(extra, new Set()))
