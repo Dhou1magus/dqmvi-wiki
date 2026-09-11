@@ -10,21 +10,21 @@ pageClass: wide-page sortable-list
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
-| [マーブルンの尻尾](/drops/maburunnosippo) | 10 | ×1.5 | — |
-| [ハートナイトの剣](/drops/hatonaitonoken) | 10 | ×1.5 | — |
+| [マーブルンの尻尾](/drops/maburunnosippo) | 10 | ×1.5 | 溜め攻撃の前方範囲が8マスになる |
+| [ハートナイトの剣](/drops/hatonaitonoken) | 10 | ×1.5 | 溜め攻撃の前方範囲が10マスになる |
 | [キラートーチのトーチ](/drops/kiratotinototi) | 2 | ×1.1 | 魔力倍率 ×1.5 |
-| [ピンクボンボンの爪](/drops/pinkbonbonnotume) | 10 | ×1.5 | — |
-| [キラーパイクのピッケル](/drops/kirapaikunopikeru) | 10 | ×1.5 | — |
-| [とげこんぼうの棍棒](/drops/togekonbounokonbou) | 10 | ×1.5 | — |
-| [サボテンゴールドの棘](/drops/sabotengoldnotoge) | 10 | ×1.5 | — |
-| [レッドアーチャーの弓](/drops/redatyanoyumi) | 10 | ×1.5 | — |
-| [のろいの岩の槍](/drops/noroiiwanoyari) | 10 | ×1.5 | — |
+| [ピンクボンボンの爪](/drops/pinkbonbonnotume) | 10 | ×1.5 | 通常攻撃が前方3マスの範囲攻撃になる |
+| [キラーパイクのピッケル](/drops/kirapaikunopikeru) | 10 | ×1.5 | 正面の石系ブロックを上下左右に5マス同時に掘る |
+| [とげこんぼうの棍棒](/drops/togekonbounokonbou) | 10 | ×1.5 | 正面の石系ブロックを左右3マス同時に掘る |
+| [サボテンゴールドの棘](/drops/sabotengoldnotoge) | 10 | ×1.5 | 攻撃するたびにダメージの1/100がゴールドになる |
+| [レッドアーチャーの弓](/drops/redatyanoyumi) | 10 | ×1.5 | 1回で矢を2発連続で放つ |
+| [のろいの岩の槍](/drops/noroiiwanoyari) | 10 | ×1.5 | 溜め攻撃が前方10マスまで届く |
 | [にくきゅうの杖](/drops/nikukyuunotue) | — | — | 単体魔法を三方向に放つ(メラ系・ヒャド系・ドルマ系のみ)　/　魔力倍率 ×1.5 |
-| [名刀 斬鉄丸](/drops/meitouzantetumaru) | 14 | ×3.18 | — |
-| [ムーンキメラの羽](/drops/moonkimeranohane) | 10 | ×1.5 | — |
-| [伐採マシンの鎌](/drops/bassaimasinnokama) | 10 | ×1.5 | — |
-| [わんぱくサタンのスプーン](/drops/wanpakusatannosupun) | 10 | ×1.5 | — |
-| [アトラスの大金槌](/drops/atorasunoookanaduti) | 10 | ×1.5 | — |
+| [名刀 斬鉄丸](/drops/meitouzantetumaru) | 14 | ×3.18 | 攻撃するたびに1/8でルカニ(守備力ダウン)がかかる |
+| [ムーンキメラの羽](/drops/moonkimeranohane) | 10 | ×1.5 | ブーメランが左右に分かれて3つ同時に飛ぶ |
+| [伐採マシンの鎌](/drops/bassaimasinnokama) | 10 | ×1.5 | 周囲10マスの草を一気に刈る |
+| [わんぱくサタンのスプーン](/drops/wanpakusatannosupun) | 10 | ×1.5 | 正面の石系ブロックを奥2マス同時に掘る |
+| [アトラスの大金槌](/drops/atorasunoookanaduti) | 10 | ×1.5 | 正面の石系ブロックを左右5マス同時に掘る |
 | [ゴールドマントの剣](/drops/gorudenmantonoken) | 10 | ×1.5 | — |
 | [トロルバッコスの大棍棒](/drops/tororubakkosunoookonnbou) | 10 | ×1.5 | — |
 | [聖銀の拳](/drops/seiginnokobusi) | 10 | ×1.5 | — |
