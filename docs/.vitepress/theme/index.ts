@@ -5,12 +5,14 @@ import type { Theme } from 'vitepress'
 import { setupSortableTables } from './sortable-tables'
 import { markFaqTags } from './faq-tags'
 import { setupDexFilter, type Kinds } from './dex-filter'
+import { setupPetChecklist } from './pet-checklist'
 import ThemeSwitch from './ThemeSwitch.vue'
 import PageActions from './PageActions.vue'
 import FeedbackBox from './FeedbackBox.vue'
 import TopPage from './TopPage.vue'
 import './custom.css'
 import './button-feedback.css'
+import './pet-checklist.css'
 
 export default {
   extends: DefaultTheme,
@@ -26,7 +28,7 @@ export default {
     const route = useRoute()
     const { theme } = useData()
     const kinds = () => (theme.value as { monsterKinds?: Kinds }).monsterKinds
-    const decorate = () => { setupSortableTables(); markFaqTags(); setupDexFilter(kinds()) }
+    const decorate = () => { setupPetChecklist(); setupSortableTables(); markFaqTags(); setupDexFilter(kinds()) }
     onMounted(decorate)
     watch(() => route.path, () => nextTick(decorate))
   }

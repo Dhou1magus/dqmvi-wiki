@@ -1,0 +1,67 @@
+.pet-checklist .pet-progress {
+  margin: 24px 0;
+  padding: 18px 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-alt);
+}
+.pet-checklist .pet-progress-total {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  margin: 0;
+}
+.pet-checklist .pet-progress-total > span:first-child { font-size: 14px; }
+.pet-checklist .pet-progress-total strong { font-size: 26px; font-variant-numeric: tabular-nums; }
+.pet-checklist .pet-progress-percentage { color: var(--vp-c-brand-1); font-size: 16px; font-weight: 700; }
+.pet-checklist .pet-progress-filtered { margin: 6px 0 10px; color: var(--vp-c-text-2); font-size: 13px; }
+.pet-checklist .pet-progress progress {
+  display: block;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 4px;
+  background: var(--vp-c-default-soft);
+  accent-color: var(--vp-c-brand-1);
+}
+.pet-checklist .pet-progress progress::-webkit-progress-bar { background: var(--vp-c-default-soft); }
+.pet-checklist .pet-progress progress::-webkit-progress-value { border-radius: 4px; background: var(--vp-c-brand-1); }
+.pet-checklist .pet-progress progress::-moz-progress-bar { border-radius: 4px; background: var(--vp-c-brand-1); }
+.pet-checklist .pet-save-error { margin: 10px 0 0; color: var(--vp-c-warning-1); font-size: 13px; }
+.pet-checklist .pet-save-error[hidden] { display: none; }
+.pet-checklist .pet-monster-name { display: flex; align-items: center; gap: 6px; }
+.pet-checklist .pet-check {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  min-height: 44px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.pet-checklist .pet-check input {
+  appearance: auto;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--vp-c-brand-1);
+  cursor: pointer;
+}
+.pet-checklist .pet-check:focus-within { outline: 2px solid var(--vp-c-brand-1); outline-offset: 1px; }
+.pet-checklist .pet-check input:focus-visible { outline: none; }
+.Layout.pet-checklist .vp-doc tr.pet-checked,
+.Layout.pet-checklist .vp-doc tr.pet-checked td.sticky-col { background: var(--vp-c-brand-soft); }
+@media (hover: hover) and (pointer: fine) {
+  .pet-checklist .pet-check:hover { background: var(--vp-c-brand-soft); }
+}
+@media (max-width: 640px) {
+  .pet-checklist .pet-progress { padding: 14px 16px; }
+  .pet-checklist .pet-progress-total { gap: 2px 10px; }
+  .pet-checklist .pet-progress-total strong { font-size: 23px; }
+  .pet-checklist .pet-monster-name { gap: 2px; }
+  .pet-checklist .pet-monster-name > a { min-width: 8em; max-width: 10em; white-space: normal; word-break: normal; overflow-wrap: anywhere; }
+}

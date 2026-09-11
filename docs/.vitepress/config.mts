@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { readdirSync, statSync, readFileSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { isEmptyItemPage, seoHead } from './seo.mts'
+import { renderPetChecklist } from './pet-checklist-table.mts'
 
 const MOD_VERSION = '0.28.41'
 
@@ -218,6 +219,7 @@ export default defineConfig({
       const fence = md.renderer.rules.fence!
       md.renderer.rules.fence = (tokens, idx, options, env, self) => {
         const token = tokens[idx]
+        if (token.info.trim() === 'pet-checklist' && !token.content.trim()) return renderPetChecklist(md, env)
         if (token.info.trim() !== 'stats') return fence(tokens, idx, options, env, self)
 
         const lines = token.content
@@ -342,6 +344,7 @@ export default defineConfig({
           { text: 'はじめに', link: '/play/start' },
           { text: '冒険のきほん', link: '/play/basics' },
           { text: 'ペットと配合', link: '/play/pets' },
+          { text: 'ペットチェックリスト', link: '/play/pet-checklist' },
           { text: 'ガンビット', link: '/play/gambit' },
           { text: '転職とサブ職業', link: '/play/jobs' },
           { text: 'アイテム', link: '/play/items' },
