@@ -1,23 +1,16 @@
 ---
 title: ももいろ三姉妹のピアス
-description: DQMVIの「ももいろ三姉妹のピアス」を落とすモンスター1体の一覧。いちばん弱いのはももいろ三姉妹（通常・EXP289）。
+description: ももいろ三姉妹のピアス
 pageClass: wide-page sortable-list
 prev:
-  text: "メタルキングの小手"
-  link: /drops/metarukingnokote
+  text: "タッチャンの首飾り"
+  link: /drops/tattyannokubikazari
 next:
-  text: "もろはのつるぎ"
-  link: /drops/morohanoturugi
+  text: "つむりんママの貝殻"
+  link: /drops/tumurinmama
 ---
 
 # ももいろ三姉妹のピアス
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**ももいろ三姉妹**（通常ドロップ・EXP289）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -34,10 +27,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ももいろ三姉妹](/monsters/momoirosansimai) | 通常 | 1 | [スライム](/species/slime) | 194 | 289 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

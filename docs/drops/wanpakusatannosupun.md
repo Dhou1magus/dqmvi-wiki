@@ -3,11 +3,11 @@ title: わんぱくサタンのスプーン
 description: わんぱくサタンのスプーン
 pageClass: wide-page sortable-list
 prev:
-  text: "れんごくの羽根"
-  link: /drops/rengokunohane
+  text: "伐採マシンの鎌"
+  link: /drops/bassaimasinnokama
 next:
-  text: "花のみつ"
-  link: /drops/hananomitu
+  text: "アトラスの大金槌"
+  link: /drops/atorasunoookanaduti
 ---
 
 # わんぱくサタンのスプーン
@@ -28,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [わんぱくサタン](/monsters/wanpakusatan) | 通常 | 4 | [悪魔](/species/akuma) | 1,968 | 3,227 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

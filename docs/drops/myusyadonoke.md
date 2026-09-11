@@ -1,23 +1,16 @@
 ---
 title: ミュシャドの毛
-description: DQMVIの「ミュシャドの毛」を落とすモンスター1体の一覧。いちばん弱いのはミュシャド（通常・EXP38,259）。
+description: ミュシャドの毛
 pageClass: wide-page sortable-list
 prev:
-  text: "みどりコケ"
-  link: /drops/midorinokoke
+  text: "フレアドラゴンのうろこ"
+  link: /drops/fureadoragonnouroko
 next:
-  text: "ムーンキメラの羽"
-  link: /drops/moonkimeranohane
+  text: "キングヒドラの頭"
+  link: /drops/kinghidoranoatama
 ---
 
 # ミュシャドの毛
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**ミュシャド**（通常ドロップ・EXP38,259）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -37,10 +30,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ミュシャド](/monsters/myusyado) | 通常 | 7 | [魔獣](/species/majyu) | 28,877 | 38,259 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

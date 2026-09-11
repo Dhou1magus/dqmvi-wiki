@@ -1,23 +1,16 @@
 ---
 title: しろバラのきしの兜
-description: DQMVIの「しろバラのきしの兜」を落とすモンスター1体の一覧。いちばん弱いのはしろバラのきし（通常・EXP14,267）。
+description: しろバラのきしの兜
 pageClass: wide-page sortable-list
 prev:
-  text: "ショートボウ"
-  link: /drops/syotobou
+  text: "ゴードンヘッドの小手"
+  link: /drops/godonheddonokote
 next:
-  text: "スライダークロボの剣"
-  link: /drops/suraidakurobonoken
+  text: "シールドあにきの盾"
+  link: /drops/sirudoanikinotate
 ---
 
 # しろバラのきしの兜
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**しろバラのきし**（通常ドロップ・EXP14,267）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -37,10 +30,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [しろバラのきし](/monsters/sirobaranokisi) | 通常 | 6 | [物質](/species/bussitu) | 11,012 | 14,267 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

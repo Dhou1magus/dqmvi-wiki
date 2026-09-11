@@ -1,23 +1,16 @@
 ---
 title: ハートナイトの剣
-description: DQMVIの「ハートナイトの剣」を落とすモンスター1体の一覧。いちばん弱いのはハートナイト（通常・EXP1,027）。
+description: ハートナイトの剣
 pageClass: wide-page sortable-list
 prev:
-  text: "のろいの岩の槍"
-  link: /drops/noroiiwanoyari
+  text: "マーブルンの尻尾"
+  link: /drops/maburunnosippo
 next:
-  text: "はがねの尾羽"
-  link: /drops/haganenoobane
+  text: "キラートーチのトーチ"
+  link: /drops/kiratotinototi
 ---
 
 # ハートナイトの剣
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**ハートナイト**（通常ドロップ・EXP1,027）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -36,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ハートナイト](/monsters/hatonaito) | 通常 | 2 | [スライム](/species/slime) | 669 | 1,027 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

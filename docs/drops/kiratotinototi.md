@@ -1,13 +1,13 @@
 ---
 title: キラートーチのトーチ
-description: DQMVIの「キラートーチのトーチ」を落とすモンスター1体の一覧。いちばん弱いのはキラートーチ（通常・EXP907）。
+description: キラートーチのトーチ
 pageClass: wide-page sortable-list
 prev:
-  text: "キメラのつばさ"
-  link: /drops/kimeranotubasa
+  text: "ハートナイトの剣"
+  link: /drops/hatonaitonoken
 next:
-  text: "キラーパイクのピッケル"
-  link: /drops/kirapaikunopikeru
+  text: "ピンクボンボンの爪"
+  link: /drops/pinkbonbonnotume
 ---
 
 # キラートーチのトーチ
@@ -29,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [キラートーチ](/monsters/kiratoti) | 通常 | 2 | [物質](/species/bussitu) | 446 | 907 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

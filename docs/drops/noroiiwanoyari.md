@@ -3,11 +3,11 @@ title: のろいの岩の槍
 description: のろいの岩の槍
 pageClass: wide-page sortable-list
 prev:
-  text: "ねばねばゼリー"
-  link: /drops/nebanebazeri
+  text: "レッドアーチャーの弓"
+  link: /drops/redatyanoyumi
 next:
-  text: "ハートナイトの剣"
-  link: /drops/hatonaitonoken
+  text: "にくきゅうの杖"
+  link: /drops/nikukyuunotue
 ---
 
 # のろいの岩の槍
@@ -28,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [呪いの岩](/monsters/noroinoiwa) | 通常 | 3 | [物質](/species/bussitu) | 960 | 1,733 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

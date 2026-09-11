@@ -3,11 +3,11 @@ title: トロルバッコスの大棍棒
 description: トロルバッコスの大棍棒
 pageClass: wide-page sortable-list
 prev:
-  text: "ドラゴンのなみだ"
-  link: /drops/doragonnonamida
+  text: "ゴールドマントの剣"
+  link: /drops/gorudenmantonoken
 next:
-  text: "にくきゅうの杖"
-  link: /drops/nikukyuunotue
+  text: "聖銀の拳"
+  link: /drops/seiginnokobusi
 ---
 
 # トロルバッコスの大棍棒
@@ -28,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [トロルバッコス](/monsters/tororubakkosu) | 通常 | 6 | [悪魔](/species/akuma) | 14,316 | 17,869 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

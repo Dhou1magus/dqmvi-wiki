@@ -3,11 +3,11 @@ title: 魔獣イギュアの爪
 description: 魔獣イギュアの爪
 pageClass: wide-page sortable-list
 prev:
-  text: "魔界のつるぎ"
-  link: /drops/makainoturugi
+  text: "りゅうおうもどきの尻尾"
+  link: /drops/ryuuoumodokinosippo
 next:
-  text: "万能薬"
-  link: /drops/bannouyaku
+  text: "スライダークロボの剣"
+  link: /drops/suraidakurobonoken
 ---
 
 # 魔獣イギュアの爪
@@ -28,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [魔獣イギュア](/monsters/majuuigyua) | 通常 | 7 | [魔獣](/species/majyu) | 26,807 | 31,682 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

@@ -1,23 +1,16 @@
 ---
 title: クイーンモーモンの冠
-description: DQMVIの「クイーンモーモンの冠」を落とすモンスター1体の一覧。いちばん弱いのはクイーンモーモン（通常・EXP3,506）。
+description: クイーンモーモンの冠
 pageClass: wide-page sortable-list
 prev:
-  text: "キングヒドラの頭"
-  link: /drops/kinghidoranoatama
+  text: "アルケミストンの帽子"
+  link: /drops/arukemisutonnobousi
 next:
-  text: "グランシーザーの髭"
-  link: /drops/guransizanohige
+  text: "ピサロナイトの鎧"
+  link: /drops/pisaronaitonoyoroi
 ---
 
 # クイーンモーモンの冠
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**クイーンモーモン**（通常ドロップ・EXP3,506）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -37,10 +30,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [クイーンモーモン](/monsters/kuinmomon) | 通常 | 4 | [悪魔](/species/akuma) | 2,147 | 3,506 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)
