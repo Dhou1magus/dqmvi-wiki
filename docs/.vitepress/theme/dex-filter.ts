@@ -95,6 +95,7 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
         : selectedRanks.size === 0 && selectedSpecies.size === 0 && selectedKinds.size === 0
       b.setAttribute('aria-pressed', on ? 'true' : 'false')
     }
+    table.dispatchEvent(new Event('dex-filter-change'))
   }
 
   const rankWrap = document.createElement('span')
