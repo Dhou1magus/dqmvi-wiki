@@ -30,6 +30,14 @@
 .pet-checklist .pet-progress progress::-webkit-progress-bar { background: var(--vp-c-default-soft); }
 .pet-checklist .pet-progress progress::-webkit-progress-value { border-radius: 4px; background: var(--vp-c-brand-1); }
 .pet-checklist .pet-progress progress::-moz-progress-bar { border-radius: 4px; background: var(--vp-c-brand-1); }
+.pet-checklist .pet-species-progress { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--vp-c-divider); }
+.pet-checklist .pet-species-title { margin: 0 0 10px; font-size: 14px; font-weight: 700; }
+.pet-checklist .pet-species-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; }
+.pet-checklist .pet-species-grid > li { min-width: 0; margin: 0; padding: 10px 12px; border: 1px solid var(--vp-c-divider); border-radius: 7px; background: var(--vp-c-bg); }
+.pet-checklist .pet-species-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 2px 6px; margin: 0; font-size: 14px; }
+.pet-checklist .pet-species-heading strong { color: var(--vp-c-brand-1); font-size: 15px; font-variant-numeric: tabular-nums; }
+.pet-checklist .pet-species-count { margin: 2px 0 8px; color: var(--vp-c-text-2); font-size: 13px; font-variant-numeric: tabular-nums; }
+.pet-checklist .pet-species-grid progress { height: 5px; }
 .pet-checklist .pet-save-error { margin: 10px 0 0; color: var(--vp-c-warning-1); font-size: 13px; }
 .pet-checklist .pet-save-error[hidden] { display: none; }
 .pet-checklist .pet-monster-name { display: flex; align-items: center; gap: 6px; }
@@ -62,6 +70,10 @@
   .pet-checklist .pet-progress { padding: 14px 16px; }
   .pet-checklist .pet-progress-total { gap: 2px 10px; }
   .pet-checklist .pet-progress-total strong { font-size: 23px; }
+  .pet-checklist .pet-species-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .pet-checklist .pet-species-grid > li { padding: 8px; }
+  .pet-checklist .pet-species-heading { font-size: 13px; }
+  .pet-checklist .pet-species-heading strong { font-size: 14px; }
   .pet-checklist .pet-monster-name { gap: 2px; }
   .pet-checklist .pet-monster-name > a { min-width: 8em; max-width: 10em; white-space: normal; word-break: normal; overflow-wrap: anywhere; }
 }
