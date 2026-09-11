@@ -3,11 +3,11 @@ title: ピンクボンボンの爪
 description: ピンクボンボンの爪
 pageClass: wide-page sortable-list
 prev:
-  text: "ピサロナイトの鎧"
-  link: /drops/pisaronaitonoyoroi
+  text: "キラートーチのトーチ"
+  link: /drops/kiratotinototi
 next:
-  text: "プラチナ"
-  link: /drops/puratina
+  text: "キラーパイクのピッケル"
+  link: /drops/kirapaikunopikeru
 ---
 
 # ピンクボンボンの爪
@@ -28,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ピンクボンボン](/monsters/pinkbonbon) | 通常 | 2 | [魔獣](/species/majyu) | 580 | 995 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

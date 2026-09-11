@@ -158,6 +158,7 @@ const cats = computed(() => [
     icon: 'crown',
     overview: { t: '育成ガイド', link: '/play/pets' },
     items: [
+      { t: '収集チェック', link: '/play/pet-checklist' },
       { t: '仲間にする', link: '/play/pets#仲間にする' },
       { t: '育成', link: '/play/pets#育成' },
       { t: '配合', link: '/play/pets#配合' },

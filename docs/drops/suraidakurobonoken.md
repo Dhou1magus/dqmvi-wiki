@@ -1,23 +1,16 @@
 ---
 title: スライダークロボの剣
-description: DQMVIの「スライダークロボの剣」を落とすモンスター1体の一覧。いちばん弱いのはスライダークロボ（通常・EXP31,045）。
+description: スライダークロボの剣
 pageClass: wide-page sortable-list
 prev:
-  text: "しろバラのきしの兜"
-  link: /drops/sirobaranokisinokabuto
+  text: "魔獣イギュアの爪"
+  link: /drops/majuuigyuanotume
 next:
-  text: "スライムおしゃれ花"
-  link: /drops/suraimuosyarebana
+  text: "アルケミストンの帽子"
+  link: /drops/arukemisutonnobousi
 ---
 
 # スライダークロボの剣
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**スライダークロボ**（通常ドロップ・EXP31,045）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -36,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [スライダークロボ](/monsters/darkrobotslime) | 通常 | 7 | [スライム](/species/slime) | 29,252 | 31,045 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

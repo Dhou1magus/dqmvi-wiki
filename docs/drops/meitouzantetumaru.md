@@ -1,23 +1,16 @@
 ---
 title: 名刀 斬鉄丸
-description: DQMVIの「名刀 斬鉄丸」を落とすモンスター1体の一覧。いちばん弱いのはアカツキショウグン（通常・EXP3,463）。
+description: 名刀 斬鉄丸
 pageClass: wide-page sortable-list
 prev:
-  text: "万能薬"
-  link: /drops/bannouyaku
+  text: "にくきゅうの杖"
+  link: /drops/nikukyuunotue
 next:
-  text: "矢"
-  link: /drops/mc_arrow
+  text: "ムーンキメラの羽"
+  link: /drops/moonkimeranohane
 ---
 
 # 名刀 斬鉄丸
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**アカツキショウグン**（通常ドロップ・EXP3,463）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -36,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [アカツキショウグン](/monsters/akatsuki_shogun) | 通常 | 4 | [ドラゴン](/species/dragon) | 2,160 | 3,463 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

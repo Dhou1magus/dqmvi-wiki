@@ -1,23 +1,16 @@
 ---
 title: シールドあにきの盾
-description: DQMVIの「シールドあにきの盾」を落とすモンスター1体の一覧。いちばん弱いのはシールドあにき（通常・EXP3,419）。
+description: シールドあにきの盾
 pageClass: wide-page sortable-list
 prev:
-  text: "しあわせの帽子"
-  link: /drops/siawasenobousi
+  text: "しろバラのきしの兜"
+  link: /drops/sirobaranokisinokabuto
 next:
-  text: "ショートボウ"
-  link: /drops/syotobou
+  text: "チョコヌーバの指輪"
+  link: /drops/tyokonubanoyubiwa
 ---
 
 # シールドあにきの盾
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**シールドあにき**（通常ドロップ・EXP3,419）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -37,10 +30,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [シールドあにき](/monsters/sirudoaniki) | 通常 | 4 | [物質](/species/bussitu) | 1,789 | 3,419 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

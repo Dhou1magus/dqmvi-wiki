@@ -2,10 +2,12 @@
 title: アトラスの大金槌
 description: アトラスの大金槌
 pageClass: wide-page sortable-list
-prev: false
+prev:
+  text: "わんぱくサタンのスプーン"
+  link: /drops/wanpakusatannosupun
 next:
-  text: "あまつゆの糸"
-  link: /drops/amatuyunoito
+  text: "ゴールドマントの剣"
+  link: /drops/gorudenmantonoken
 ---
 
 # アトラスの大金槌
@@ -26,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [アトラス](/monsters/atorasu) | 通常 | 5 | [悪魔](/species/akuma) | 5,713 | 7,650 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

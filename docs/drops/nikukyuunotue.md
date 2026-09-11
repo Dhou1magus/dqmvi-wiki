@@ -1,13 +1,13 @@
 ---
 title: にくきゅうの杖
-description: DQMVIの「にくきゅうの杖」を落とすモンスター1体の一覧。いちばん弱いのはミケまどう（通常・EXP1,980）。
+description: にくきゅうの杖
 pageClass: wide-page sortable-list
 prev:
-  text: "トロルバッコスの大棍棒"
-  link: /drops/tororubakkosunoookonnbou
+  text: "のろいの岩の槍"
+  link: /drops/noroiiwanoyari
 next:
-  text: "にじいろの布きれ"
-  link: /drops/nijiirononunokire
+  text: "名刀 斬鉄丸"
+  link: /drops/meitouzantetumaru
 ---
 
 # にくきゅうの杖
@@ -29,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ミケまどう](/monsters/mikemadou) | 通常 | 3 | [魔獣](/species/majyu) | 1,014 | 1,980 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

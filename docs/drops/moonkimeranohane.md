@@ -3,11 +3,11 @@ title: ムーンキメラの羽
 description: ムーンキメラの羽
 pageClass: wide-page sortable-list
 prev:
-  text: "ミュシャドの毛"
-  link: /drops/myusyadonoke
+  text: "名刀 斬鉄丸"
+  link: /drops/meitouzantetumaru
 next:
-  text: "メイジキメラのはね"
-  link: /drops/meijikimeranohane
+  text: "伐採マシンの鎌"
+  link: /drops/bassaimasinnokama
 ---
 
 # ムーンキメラの羽
@@ -28,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ムーンキメラ](/monsters/moonkimera) | 通常 | 4 | [自然](/species/sizen) | 2,683 | 4,032 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

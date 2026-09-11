@@ -1,23 +1,16 @@
 ---
 title: ピサロナイトの鎧
-description: DQMVIの「ピサロナイトの鎧」を落とすモンスター1体の一覧。いちばん弱いのはピサロナイト（通常・EXP7,059）。
+description: ピサロナイトの鎧
 pageClass: wide-page sortable-list
 prev:
-  text: "はめつの盾"
-  link: /drops/hametunotate
+  text: "クイーンモーモンの冠"
+  link: /drops/kuinmomonnokanmuri
 next:
-  text: "ピンクボンボンの爪"
-  link: /drops/pinkbonbonnotume
+  text: "ゴードンヘッドの小手"
+  link: /drops/godonheddonokote
 ---
 
 # ピサロナイトの鎧
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**ピサロナイト**（通常ドロップ・EXP7,059）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -37,10 +30,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ピサロナイト](/monsters/pisaronaito) | 通常 | 5 | [ゾンビ](/species/zombie) | 4,761 | 7,059 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

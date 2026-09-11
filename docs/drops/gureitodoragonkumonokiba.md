@@ -1,23 +1,16 @@
 ---
 title: グレイトドラゴン・雲の牙
-description: DQMVIの「グレイトドラゴン・雲の牙」を落とすモンスター1体の一覧。いちばん弱いのはグレイトドラゴン・雲（通常・EXP3,315）。
+description: グレイトドラゴン・雲の牙
 pageClass: wide-page sortable-list
 prev:
-  text: "グランシーザーの髭"
-  link: /drops/guransizanohige
+  text: "ゲノミーの触手"
+  link: /drops/genominosyokusyu
 next:
-  text: "グレートアックス"
-  link: /drops/gureitoakusu
+  text: "ましょうぐものエキス"
+  link: /drops/masyougumonoekisu
 ---
 
 # グレイトドラゴン・雲の牙
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**グレイトドラゴン・雲**（通常ドロップ・EXP3,315）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -36,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [グレイトドラゴン・雲](/monsters/gureitodoragonkumo) | 通常 | 4 | [ドラゴン](/species/dragon) | 1,789 | 3,315 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

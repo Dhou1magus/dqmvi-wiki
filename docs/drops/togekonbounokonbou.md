@@ -3,11 +3,11 @@ title: とげこんぼうの棍棒
 description: とげこんぼうの棍棒
 pageClass: wide-page sortable-list
 prev:
-  text: "どくどくヘドロ"
-  link: /drops/dokudokuhedoro
+  text: "キラーパイクのピッケル"
+  link: /drops/kirapaikunopikeru
 next:
-  text: "トゲトゲの牙"
-  link: /drops/togetogenokiba
+  text: "サボテンゴールドの棘"
+  link: /drops/sabotengoldnotoge
 ---
 
 # とげこんぼうの棍棒
@@ -28,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [とげこんぼう](/monsters/togekonbou) | 通常 | 3 | [魔獣](/species/majyu) | 873 | 1,861 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

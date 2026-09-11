@@ -1,23 +1,16 @@
 ---
 title: ゴードンヘッドの小手
-description: DQMVIの「ゴードンヘッドの小手」を落とすモンスター1体の一覧。いちばん弱いのはゴードンヘッド（通常・EXP8,519）。
+description: ゴードンヘッドの小手
 pageClass: wide-page sortable-list
 prev:
-  text: "こうもりの羽根"
-  link: /drops/koumorinohane
+  text: "ピサロナイトの鎧"
+  link: /drops/pisaronaitonoyoroi
 next:
-  text: "こおりの結晶"
-  link: /drops/koorinokessyou
+  text: "しろバラのきしの兜"
+  link: /drops/sirobaranokisinokabuto
 ---
 
 # ゴードンヘッドの小手
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**ゴードンヘッド**（通常ドロップ・EXP8,519）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -37,10 +30,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ゴードンヘッド](/monsters/godonheddo) | 通常 | 5 | [物質](/species/bussitu) | 6,189 | 8,519 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

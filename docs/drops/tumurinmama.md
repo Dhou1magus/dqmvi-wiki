@@ -1,23 +1,16 @@
 ---
 title: つむりんママの貝殻
-description: DQMVIの「つむりんママの貝殻」を落とすモンスター1体の一覧。いちばん弱いのはつむりんママ（通常・EXP349）。
+description: つむりんママの貝殻
 pageClass: wide-page sortable-list
 prev:
-  text: "つけもの石"
-  link: /drops/tukemonoisi
+  text: "ももいろ三姉妹のピアス"
+  link: /drops/momoirosansimainopiasu
 next:
-  text: "てつのクギ"
-  link: /drops/tetunokugi
+  text: "ゴールデンコーンの角"
+  link: /drops/gorudenkonnotuno
 ---
 
 # つむりんママの貝殻
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**つむりんママ**（通常ドロップ・EXP349）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -35,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [つむりんママ](/monsters/tumurinmama) | 通常 | 1 | [スライム](/species/slime) | 264 | 349 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)
