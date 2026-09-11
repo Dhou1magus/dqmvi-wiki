@@ -1,5 +1,5 @@
 const RANKS = [1, 2, 3, 4, 5, 6, 7]
-const SPECIES = ['スライム', 'ドラゴン', '自然', '魔獣', '物質', '悪魔', 'ゾンビ', 'メタル', '特殊']
+export const DEX_SPECIES = ['スライム', 'ドラゴン', '自然', '魔獣', '物質', '悪魔', 'ゾンビ', 'メタル', '特殊']
 const KINDS = ['雑魚', '転生', 'ボス', 'コインボス']
 const HIDE_CLASS = 'dex-hide'
 
@@ -52,7 +52,7 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
     species.set(r, speciesOf(r, speciesCol))
     kind.set(r, kindOf(r, nameCol, kinds))
   }
-  const shownSpecies = speciesCol < 0 ? [] : SPECIES.filter((s) => [...species.values()].includes(s))
+  const shownSpecies = speciesCol < 0 ? [] : DEX_SPECIES.filter((s) => [...species.values()].includes(s))
 
   const selectedRanks = new Set<number>()
   const selectedSpecies = new Set<string>()
