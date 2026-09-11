@@ -1,23 +1,16 @@
 ---
 title: グランシーザーの髭
-description: DQMVIの「グランシーザーの髭」を落とすモンスター1体の一覧。いちばん弱いのはグランシーザー（通常・EXP6,989）。
+description: グランシーザーの髭
 pageClass: wide-page sortable-list
 prev:
-  text: "クイーンモーモンの冠"
-  link: /drops/kuinmomonnokanmuri
+  text: "ましょうぐものエキス"
+  link: /drops/masyougumonoekisu
 next:
-  text: "グレイトドラゴン・雲の牙"
-  link: /drops/gureitodoragonkumonokiba
+  text: "タイプGの欠片"
+  link: /drops/taipugnokakera
 ---
 
 # グランシーザーの髭
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**グランシーザー**（通常ドロップ・EXP6,989）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -36,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [グランシーザー](/monsters/guransiza) | 通常 | 5 | [魔獣](/species/majyu) | 5,237 | 6,989 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

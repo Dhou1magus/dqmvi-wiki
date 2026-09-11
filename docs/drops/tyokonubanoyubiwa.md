@@ -1,23 +1,16 @@
 ---
 title: チョコヌーバの指輪
-description: DQMVIの「チョコヌーバの指輪」を落とすモンスター1体の一覧。いちばん弱いのはチョコヌーバ（通常・EXP324）。
+description: チョコヌーバの指輪
 pageClass: wide-page sortable-list
 prev:
-  text: "ちょうの羽"
-  link: /drops/tyounohane
+  text: "シールドあにきの盾"
+  link: /drops/sirudoanikinotate
 next:
-  text: "つけもの石"
-  link: /drops/tukemonoisi
+  text: "タッチャンの首飾り"
+  link: /drops/tattyannokubikazari
 ---
 
 # チョコヌーバの指輪
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**チョコヌーバ**（通常ドロップ・EXP324）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -35,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [チョコヌーバ](/monsters/tyokonuba) | 通常 | 1 | [自然](/species/sizen) | 229 | 324 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

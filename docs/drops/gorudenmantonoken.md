@@ -1,13 +1,13 @@
 ---
 title: ゴールドマントの剣
-description: DQMVIの「ゴールドマントの剣」を落とすモンスター1体の一覧。いちばん弱いのはゴールドマント（通常・EXP24,011）。
+description: ゴールドマントの剣
 pageClass: wide-page sortable-list
 prev:
-  text: "ゴールデンコーンの角"
-  link: /drops/gorudenkonnotuno
+  text: "アトラスの大金槌"
+  link: /drops/atorasunoookanaduti
 next:
-  text: "ゴールド袋(1000G)"
-  link: /drops/okane
+  text: "トロルバッコスの大棍棒"
+  link: /drops/tororubakkosunoookonnbou
 ---
 
 # ゴールドマントの剣
@@ -29,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ゴールドマント](/monsters/goldmanto) | 通常 | 6 | [ゾンビ](/species/zombie) | 11,012 | 24,011 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

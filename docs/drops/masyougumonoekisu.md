@@ -1,23 +1,16 @@
 ---
 title: ましょうぐものエキス
-description: DQMVIの「ましょうぐものエキス」を落とすモンスター1体の一覧。いちばん弱いのはましょうぐも（通常・EXP9,059）。
+description: ましょうぐものエキス
 pageClass: wide-page sortable-list
 prev:
-  text: "まじゅうの皮"
-  link: /drops/majuunokawa
+  text: "グレイトドラゴン・雲の牙"
+  link: /drops/gureitodoragonkumonokiba
 next:
-  text: "まじんのかなづち"
-  link: /drops/majinnokanaduti
+  text: "グランシーザーの髭"
+  link: /drops/guransizanohige
 ---
 
 # ましょうぐものエキス
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**ましょうぐも**（通常ドロップ・EXP9,059）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -36,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ましょうぐも](/monsters/mashougumo) | 通常 | 5 | [物質](/species/bussitu) | 7,141 | 9,059 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

@@ -26,9 +26,10 @@
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
-import { extraRows, leftoverTables, finish, withExtraSections, mergeHandwrittenPages, plainName } from './lib/handwritten.mjs'
+import { extraRows, leftoverTables, finish, withExtraSections, mergeHandwrittenPages, plainName, headingKey } from './lib/handwritten.mjs'
 import { fixMonsterName } from './lib/monster-names.mjs'
 import { BLANK_MONSTERS } from './lib/blank-monsters.mjs'
+import { normalizeEquipmentKey, tenseiEquipmentKind, createTenseiDexOrder, compareTenseiEquipment } from './lib/tensei-equipment.mjs'
 
 const SRC = process.argv[2]
 if (!SRC) {
@@ -113,6 +114,27 @@ const baseKey = (key) => key.replace(/^legacy_(item|block)_/, '')
 /** ページのファイル名。バニラの minecraft:xxx は mc_xxx にする */
 const slugOf = (key) => baseKey(key).replace(/^minecraft:/, 'mc_').replace(/[^A-Za-z0-9_]/g, '_')
 
+const TENSEI_GROUPS = JSON.parse(readFileSync(join('scripts', 'data', 'equipment-categories.json'), 'utf8')).tensei
+const TENSEI_LIST_PATH = join('docs', 'items', 'tensei.md')
+const TENSEI_KEYS = new Set()
+if (existsSync(TENSEI_LIST_PATH)) {
+  const groupNames = new Set(TENSEI_GROUPS.map((group) => group.name))
+  let directRows = false
+  for (const line of readFileSync(TENSEI_LIST_PATH, 'utf8').split(/\r?\n/)) {
+    if (/^##\s/.test(line)) {
+      directRows = groupNames.has(headingKey(line))
+      continue
+    }
+    if (/^#{1,6}\s/.test(line)) { directRows = false; continue }
+    if (!directRows) continue
+    const first = line.startsWith('|') ? line.slice(1).split('|')[0].trim()
+      : /^[-*]\s/.test(line) ? line.replace(/^[-*]\s+/, '') : ''
+    const match = /^\[((?:[^[\]]|\[[^[\]]*\])*)\]\(\/drops\/([^\s)#?]+)(?:[?#][^)]*)?\)/.exec(first)
+    if (match) TENSEI_KEYS.add(normalizeEquipmentKey(match[2]))
+  }
+}
+const isTenseiEquipment = (it) => it.group === '転生装備' || TENSEI_KEYS.has(normalizeEquipmentKey(it.key))
+
 const TIER_RANK = { '通常ドロップ': 0, 'レアドロップ': 1, '超レアドロップ': 2 }
 const TIER_SHORT = { '通常ドロップ': '通常', 'レアドロップ': 'レア', '超レアドロップ': '超レア' }
 
@@ -161,6 +183,20 @@ for (const it of itemsMap.values()) {
 }
 
 const items = [...itemsMap.values()].sort((a, b) => collator.compare(a.name, b.name))
+
+const tenseiGroupOrder = new Map(TENSEI_GROUPS.map((group, index) => [group.name, index]))
+const tenseiListOrder = new Map([...TENSEI_KEYS].map((key, index) => [key, index]))
+const tenseiDexOrder = createTenseiDexOrder(EXTRAS.monsters,
+  new Map(stats.filter((m) => !bossIds.has(m.id) && !BLANK_MONSTERS.has(m.id)).map((m) => [m.id, m.dexNo])))
+const tenseiItems = items.filter(isTenseiEquipment).sort((a, b) =>
+  (tenseiGroupOrder.get(tenseiEquipmentKind(a.key, EQ)) ?? TENSEI_GROUPS.length)
+    - (tenseiGroupOrder.get(tenseiEquipmentKind(b.key, EQ)) ?? TENSEI_GROUPS.length)
+    || compareTenseiEquipment(a.key, b.key, tenseiDexOrder)
+    || (tenseiListOrder.get(normalizeEquipmentKey(a.key)) ?? TENSEI_KEYS.size)
+      - (tenseiListOrder.get(normalizeEquipmentKey(b.key)) ?? TENSEI_KEYS.size))
+const tenseiNeighbors = new Map(tenseiItems.map((it, index) => [it.key, {
+  prev: tenseiItems[index - 1], next: tenseiItems[index + 1]
+}]))
 
 // ── 表示のこまごま ────────────────────────────────────────
 const cell = (v) => String(v ?? '').replace(/\|/g, '\\|').trim() || '—'
@@ -218,6 +254,22 @@ function yamlStr(s) {
   return `"${String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`
 }
 
+function tenseiDescription(it) {
+  const path = join(OUT_DIR, `${it.slug}.md`)
+  if (existsSync(path)) {
+    const frontmatter = /^---\r?\n([\s\S]*?)\r?\n---/.exec(readFileSync(path, 'utf8'))?.[1]
+    const lines = frontmatter?.split(/\r?\n/) ?? []
+    const start = lines.findIndex((line) => /^description:/.test(line))
+    if (start >= 0) {
+      let end = start + 1
+      while (end < lines.length && (!lines[end].trim() || /^[ \t]/.test(lines[end]))) end++
+      const description = lines.slice(start, end).join('\n').trimEnd()
+      if (!description.includes('いちばん弱いのは')) return description
+    }
+  }
+  return `description: ${yamlStr(it.name)}`
+}
+
 /** 手を入れた「## 攻略メモ」以下は再生成しても残す（モンスターページと同じ約束） */
 const KEEP_MARK = '## 攻略メモ'
 function writeKeeping(path, body) {
@@ -232,19 +284,19 @@ function writeKeeping(path, body) {
 }
 
 // ── 1アイテムぶんのページ ──────────────────────────────────
-// prevIt/nextIt は一覧（五十音順）で隣にあたるアイテム。無ければ端っこ
 function itemPage(it, prevIt, nextIt) {
   const best = it.from[0]
   const bestName = monsterName(best.id)
   const bestExp = num(statById.get(best.id)?.dqExperience)
   const eq = equipRows(it.key)
+  const tensei = isTenseiEquipment(it)
 
   const lines = []
   lines.push('---')
   lines.push(`title: ${it.name}`)
-  lines.push(`description: DQMVIの「${it.name}」を落とすモンスター${it.from.length}体の一覧。いちばん弱いのは${bestName}（${TIER_SHORT[best.tier] ?? best.tier}・EXP${bestExp}）。`)
+  lines.push(tensei ? tenseiDescription(it)
+    : `description: DQMVIの「${it.name}」を落とすモンスター${it.from.length}体の一覧。いちばん弱いのは${bestName}（${TIER_SHORT[best.tier] ?? best.tier}・EXP${bestExp}）。`)
   lines.push('pageClass: wide-page sortable-list')
-  // 前後のページ（一覧＝五十音順）。無い側は false で欄ごと隠す（gen-monster-pages.mjs 冒頭の注記と同じ理由）
   if (prevIt) {
     lines.push('prev:')
     lines.push(`  text: ${yamlStr(prevIt.name)}`)
@@ -263,13 +315,15 @@ function itemPage(it, prevIt, nextIt) {
   lines.push('')
   lines.push(`# ${it.name}`)
   lines.push('')
-  lines.push(`${it.group}。**${it.from.length}体**のモンスターが落とします。`)
-  lines.push('')
-  lines.push('::: tip ねらい目')
-  lines.push(`**${bestName}**（${TIER_SHORT[best.tier] ?? best.tier}ドロップ・EXP${bestExp}）。`)
-  lines.push('落とす枠がいちばん手前で、そのなかで一番弱い相手です。')
-  lines.push(':::')
-  lines.push('')
+  if (!tensei) {
+    lines.push(`${it.group}。**${it.from.length}体**のモンスターが落とします。`)
+    lines.push('')
+    lines.push('::: tip ねらい目')
+    lines.push(`**${bestName}**（${TIER_SHORT[best.tier] ?? best.tier}ドロップ・EXP${bestExp}）。`)
+    lines.push('落とす枠がいちばん手前で、そのなかで一番弱い相手です。')
+    lines.push(':::')
+    lines.push('')
+  }
 
   if (eq) {
     lines.push('## 装備としての性能')
@@ -292,10 +346,13 @@ function itemPage(it, prevIt, nextIt) {
     lines.push(`| ${linkTo(f.id)} | ${cell(TIER_SHORT[f.tier] ?? f.tier)} | ${x.rank ?? '—'} | ${x.species && SPECIES_SLUG.has(x.species) ? `[${cell(x.species)}](/species/${SPECIES_SLUG.get(x.species)})` : cell(x.species ?? '—')} | ${num(m?.health)} | ${num(m?.dqExperience)} |`)
   }
   lines.push('')
-  lines.push('見出しを押すと並べ替えできます。')
-  lines.push('')
+  if (!tensei) {
+    lines.push('見出しを押すと並べ替えできます。')
+    lines.push('')
+  }
   lines.push('## 関連ページ')
   lines.push('')
+  if (tensei) lines.push('- [転生装備一覧](/items/tensei)')
   lines.push('- [ドロップ品から探す](/drops/)')
   lines.push('- [モンスター図鑑](/monsters/)')
   lines.push('- [系統から探す](/species/)')
@@ -351,7 +408,9 @@ mkdirSync(OUT_DIR, { recursive: true })
 
 for (let i = 0; i < items.length; i++) {
   const it = items[i]
-  writeKeeping(join(OUT_DIR, `${it.slug}.md`), itemPage(it, items[i - 1], items[i + 1]))
+  const neighbors = tenseiNeighbors.get(it.key)
+  writeKeeping(join(OUT_DIR, `${it.slug}.md`), itemPage(it,
+    neighbors ? neighbors.prev : items[i - 1], neighbors ? neighbors.next : items[i + 1]))
 }
 writeFileSync(join(OUT_DIR, 'index.md'), indexPage(), 'utf8')
 
@@ -367,4 +426,3 @@ console.log(`落とす関係:     ${items.reduce((n, i) => n + i.from.length, 0)
 console.log(`1体だけが落とす: ${items.filter((i) => i.from.length === 1).length}種`)
 if (removed) console.log(`消したページ:   ${removed}件`)
 console.log(`書き出し:       ${OUT_DIR} に ${items.length + 1}ファイル`)
-

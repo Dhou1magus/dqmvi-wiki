@@ -1,23 +1,16 @@
 ---
 title: アルケミストンの帽子
-description: DQMVIの「アルケミストンの帽子」を落とすモンスター1体の一覧。いちばん弱いのはアルケミストン（通常・EXP904）。
+description: アルケミストンの帽子
 pageClass: wide-page sortable-list
 prev:
-  text: "あらくれマスク"
-  link: /drops/arakuremasuku
+  text: "スライダークロボの剣"
+  link: /drops/suraidakurobonoken
 next:
-  text: "いかずちの玉"
-  link: /drops/ikazutinotama
+  text: "クイーンモーモンの冠"
+  link: /drops/kuinmomonnokanmuri
 ---
 
 # アルケミストンの帽子
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**アルケミストン**（通常ドロップ・EXP904）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -37,10 +30,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [アルケミストン](/monsters/arukemisuton) | 通常 | 2 | [魔獣](/species/majyu) | 535 | 904 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

@@ -1,23 +1,16 @@
 ---
 title: 巨大ナスビナーラの髭
-description: DQMVIの「巨大ナスビナーラの髭」を落とすモンスター1体の一覧。いちばん弱いのは巨大ナスビナーラ（通常・EXP879）。
+description: 巨大ナスビナーラの髭
 pageClass: wide-page sortable-list
 prev:
-  text: "貴重なレシピ(魔法)"
-  link: /drops/mahou
+  text: "ゴールデンコーンの角"
+  link: /drops/gorudenkonnotuno
 next:
-  text: "巨大な牙"
-  link: /drops/kyodainakiba
+  text: "ゲノミーの触手"
+  link: /drops/genominosyokusyu
 ---
 
 # 巨大ナスビナーラの髭
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**巨大ナスビナーラ**（通常ドロップ・EXP879）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -35,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [巨大ナスビナーラ](/monsters/kyodainasubira) | 通常 | 2 | [自然](/species/sizen) | 446 | 879 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

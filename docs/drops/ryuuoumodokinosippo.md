@@ -3,11 +3,11 @@ title: りゅうおうもどきの尻尾
 description: りゅうおうもどきの尻尾
 pageClass: wide-page sortable-list
 prev:
-  text: "リサイクルストーン"
-  link: /drops/risaikurusuton
+  text: "聖銀の拳"
+  link: /drops/seiginnokobusi
 next:
-  text: "リンゴ"
-  link: /drops/mc_apple
+  text: "魔獣イギュアの爪"
+  link: /drops/majuuigyuanotume
 ---
 
 # りゅうおうもどきの尻尾
@@ -28,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [りゅうおうもどき](/monsters/ryuuoumodoki) | 通常 | 7 | [ドラゴン](/species/dragon) | 29,041 | 34,890 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

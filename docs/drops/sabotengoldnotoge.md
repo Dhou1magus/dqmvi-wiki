@@ -3,11 +3,11 @@ title: サボテンゴールドの棘
 description: サボテンゴールドの棘
 pageClass: wide-page sortable-list
 prev:
-  text: "さえずりのみつ"
-  link: /drops/saezurinomitu
+  text: "とげこんぼうの棍棒"
+  link: /drops/togekonbounokonbou
 next:
-  text: "さんぞくサーベル"
-  link: /drops/sanzokusaberu
+  text: "レッドアーチャーの弓"
+  link: /drops/redatyanoyumi
 ---
 
 # サボテンゴールドの棘
@@ -29,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [サボテンゴールド](/monsters/sabotengold) | 通常 | 3 | [自然](/species/sizen) | 1,134 | 2,063 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

@@ -1,23 +1,14 @@
 ---
 title: キングヒドラの頭
-description: DQMVIの「キングヒドラの頭」を落とすモンスター1体の一覧。いちばん弱いのはキングヒドラ（通常・EXP27,898）。
+description: キングヒドラの頭
 pageClass: wide-page sortable-list
 prev:
-  text: "キングダイヤ"
-  link: /drops/kingdaiya
-next:
-  text: "クイーンモーモンの冠"
-  link: /drops/kuinmomonnokanmuri
+  text: "ミュシャドの毛"
+  link: /drops/myusyadonoke
+next: false
 ---
 
 # キングヒドラの頭
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**キングヒドラ**（通常ドロップ・EXP27,898）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -35,10 +26,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [キングヒドラ](/monsters/kinghidora) | 通常 | 7 | [ドラゴン](/species/dragon) | 22,339 | 27,898 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

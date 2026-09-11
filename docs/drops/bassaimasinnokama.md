@@ -1,13 +1,13 @@
 ---
 title: 伐採マシンの鎌
-description: DQMVIの「伐採マシンの鎌」を落とすモンスター1体の一覧。いちばん弱いのは伐採マシン（通常・EXP3,906）。
+description: 伐採マシンの鎌
 pageClass: wide-page sortable-list
 prev:
-  text: "爆弾石"
-  link: /drops/bakudanisi
+  text: "ムーンキメラの羽"
+  link: /drops/moonkimeranohane
 next:
-  text: "隼の剣改"
-  link: /drops/hayabusanoturugikai
+  text: "わんぱくサタンのスプーン"
+  link: /drops/wanpakusatannosupun
 ---
 
 # 伐採マシンの鎌
@@ -29,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [伐採マシン](/monsters/bassaimasin) | 通常 | 4 | [物質](/species/bussitu) | 2,325 | 3,906 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

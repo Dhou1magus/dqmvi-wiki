@@ -1,23 +1,16 @@
 ---
 title: タッチャンの首飾り
-description: DQMVIの「タッチャンの首飾り」を落とすモンスター1体の一覧。いちばん弱いのはタッチャン（通常・EXP325）。
+description: タッチャンの首飾り
 pageClass: wide-page sortable-list
 prev:
-  text: "たいようの石"
-  link: /drops/taiyounoisi
+  text: "チョコヌーバの指輪"
+  link: /drops/tyokonubanoyubiwa
 next:
-  text: "タマゴ"
-  link: /drops/mc_egg
+  text: "ももいろ三姉妹のピアス"
+  link: /drops/momoirosansimainopiasu
 ---
 
 # タッチャンの首飾り
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**タッチャン**（通常ドロップ・EXP325）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -35,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [タッチャン](/monsters/tattyan) | 通常 | 1 | [自然](/species/sizen) | 229 | 325 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

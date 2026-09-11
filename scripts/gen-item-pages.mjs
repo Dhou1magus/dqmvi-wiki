@@ -35,6 +35,7 @@ import { join } from 'node:path'
 import { recordNames } from './lib/names.mjs'
 import { extraRows, extraSections, headingKey, leftoverTables, finish, plainName } from './lib/handwritten.mjs'
 import { BLANK_MONSTERS } from './lib/blank-monsters.mjs'
+import { normalizeEquipmentKey, tenseiEquipmentKind, createTenseiDexOrder, compareTenseiEquipment } from './lib/tensei-equipment.mjs'
 
 /** MOD本体から取り出した装備の数値。無くても名前だけで作れるようにしておく */
 const STATS_PATH = join('scripts', 'data', 'equipment.json')
@@ -124,11 +125,11 @@ const isBossItem = (key, name) => /討伐の証/.test(name) && BOSS_STEMS.has(ke
  * ★ページ名の作り方は scripts/gen-drop-pages.mjs の slugOf と必ず揃えること。
  */
 const DROPPED = new Set()
+const EXTRAS_PATH = join('scripts', 'data', 'monster-extras.json')
+const EXTRAS = existsSync(EXTRAS_PATH) ? JSON.parse(readFileSync(EXTRAS_PATH, 'utf8')) : { monsters: {} }
 {
-  const path = join('scripts', 'data', 'monster-extras.json')
-  if (existsSync(path)) {
-    const extras = JSON.parse(readFileSync(path, 'utf8'))
-    for (const [mid, m] of Object.entries(extras.monsters ?? {})) {
+  if (existsSync(EXTRAS_PATH)) {
+    for (const [mid, m] of Object.entries(EXTRAS.monsters ?? {})) {
       if (BOSS_IDS.has(mid) || BOSS_IDS.has(m.id)) continue // ★魔王ボスの落とし物は逆引きページが無い
       if (BLANK_MONSTERS.has(mid)) continue // ★空欄のモンスター（monster-blank.json）の落とし物も逆引きに出ない
       for (const d of m.drops ?? []) {
@@ -139,6 +140,11 @@ const DROPPED = new Set()
     }
   }
 }
+const TENSEI_DEX_NO = new Map(readRows('monster_stats.tsv')
+  .filter((c) => c[0] !== 'id')
+  .map((c, i) => [c[0], i + 1])
+  .filter(([id]) => !BOSS_IDS.has(id) && !BOSS_IDS.has(EXTRAS.monsters?.[id]?.id) && !BLANK_MONSTERS.has(id)))
+const TENSEI_ORDER = createTenseiDexOrder(EXTRAS.monsters, TENSEI_DEX_NO)
 const dropSlug = (key) => key.replace(/^minecraft:/, 'mc_').replace(/[^A-Za-z0-9_]/g, '_')
 /**
  * 入手方法。scripts/data/item-sources.json（固定データ）を読む
@@ -197,16 +203,19 @@ const order = new Map(readRows('legacy_order.tsv')
   .filter((c) => c[0] === 'item' && c[2])
   .map((c) => [c[1], Number(c[2])]))
 
+const seenTenseiKeys = new Set()
 const items = readRows('legacy_tabs.tsv')
   .filter((c) => c[0] === 'item' && TABS.has(c[2]))
   .filter((c) => !isBossItem(c[1], jpName(c[1])))
   .map((c) => {
-    const name = jpName(c[1])
-    const ord = order.has(c[1]) ? order.get(c[1]) : null
+    const key = c[2] === 'TENSEI_EQUIPMENT' ? normalizeEquipmentKey(c[1]) : c[1]
+    const name = jpName(key)
+    const ord = order.has(key) ? order.get(key) : null
     let group = TABS.get(c[2])
     if (c[2] === 'SHIELDS_ACCESSORIES') group = isShield(name, ord) ? '盾' : 'アクセサリー'
-    return { key: c[1], name, ord, group }
+    return { key, name, ord, group }
   })
+  .filter((i) => i.group !== '転生装備' || (!seenTenseiKeys.has(i.key) && seenTenseiKeys.add(i.key)))
 
 const collator = new Intl.Collator('ja')
 /** ゲーム内の並び順。番号のない品はうしろにまわして五十音順にする。
@@ -382,11 +391,36 @@ const SHAPE = {
 
 /** 転生装備は武器・防具・盾・アクセサリーが混ざっているので、種別を見て振り分ける */
 function tenseiKind(key) {
-  if (STATS.weapons[key]?.こうげき != null || STATS.weapons[key]?.武器種) return '武器'
-  if (STATS.armor[key]) return '防具'
-  if (STATS.shields[key]) return '盾'
-  if (STATS.accessories[key]) return 'アクセサリー'
-  return null
+  return tenseiEquipmentKind(key, STATS)
+}
+
+function tenseiRowKey(row) {
+  const first = row.replace(/^\s*(?:\||[-*])\s*/, '').split(/(?<!\\)\|/)[0]
+  const key = /\]\(\/(?:drops|items)\/([^/#?)]+)(?:[?#][^)]*)?\)/.exec(first)?.[1]
+  return key ? normalizeEquipmentKey(decodeURIComponent(key).replace(/\.html$/, '')) : ''
+}
+
+function tenseiRows(rows) {
+  const unique = new Map()
+  for (const row of rows) {
+    const key = tenseiRowKey(row)
+    unique.set(key ? `key:${key}` : `row:${row.trim()}`, { row, key })
+  }
+  return [...unique.values()]
+    .sort((a, b) => compareTenseiEquipment(a.key, b.key, TENSEI_ORDER))
+    .map(({ row }) => row)
+}
+
+function tenseiPageCount(lines) {
+  const unique = new Set()
+  let tableRow = 0
+  for (const row of lines) {
+    tableRow = row.startsWith('|') ? tableRow + 1 : 0
+    if (tableRow > 2 || /^[-*] /.test(row)) {
+      unique.add(tenseiRowKey(row) || plainName(row.replace(/^\s*(?:\||[-*])\s*/, '').split(/(?<!\\)\|/)[0]))
+    }
+  }
+  return unique.size
 }
 
 function table(shape, list, { blank = false } = {}) {
@@ -414,9 +448,11 @@ const KNOWN_NAMES = () => new Set([...items.map((i) => plainName(i.name)), ...PA
                                    ...RANKS.ores.map((o) => plainName(o.name))])  // 素材ページの「鉱石」の表
 
 function equipPage(page) {
+  const isTensei = page.slug === 'tensei'
   const list = pick(page.group)
   const path = join(ITEM_DIR, `${page.slug}.md`)
   const extra = extraRows(path, KNOWN_NAMES())
+  if (isTensei) for (const [key, t] of extra) extra.set(key, { ...t, rows: tenseiRows(t.rows) })
   const emitted = new Set()
   const lines = []
   lines.push('---')
@@ -437,7 +473,7 @@ function equipPage(page) {
       const rows = block.split('\n')
       const nestedHeading = rows.findIndex((line) => /^#{3,6}\s/.test(line))
       const directRows = rows.slice(1, nestedHeading < 0 ? undefined : nestedHeading)
-      return [headingKey(rows[0]), directRows.filter((line) => /^[-*] /.test(line) && !known.has(plainName(line.slice(2))))]
+      return [headingKey(rows[0]), directRows.filter((line) => /^[-*] /.test(line) && (isTensei || !known.has(plainName(line.slice(2)))))]
     }))
     const byKind = new Map()
     for (const i of list) {
@@ -451,21 +487,38 @@ function equipPage(page) {
     }
     for (const { name: k, id } of categories) {
       const group = byKind.get(k) ?? []
-      const addedTables = [extra.get(k), ...(k === 'その他' ? [extra.get('')] : [])].filter(Boolean)
-      const addedItems = extraLists.get(k) ?? []
-      const count = group.length + addedTables.reduce((n, t) => n + t.rows.length, 0) + addedItems.length
-      if (!count) continue
-      lines.push(`## ${k}（${count}種） {#${id}}`)
-      lines.push('')
+      let addedTables = [extra.get(k), ...(k === 'その他' ? [extra.get('')] : [])].filter(Boolean)
+      let addedItems = extraLists.get(k) ?? []
       const shape = page.slug === 'weapons' ? (k === '杖' ? SHAPE.杖 : SHAPE.武器)
         : page.slug === 'tensei' ? SHAPE[k] : SHAPE[page.group]
       const head = shape ? `| ${shape.head.join(' | ')} |` : ''
+      let generated = shape ? table(shape, group, { blank: page.slug === 'weapons' && BLANK_WEAPON_KINDS.has(k) })
+        : group.map((i) => `- ${cell(itemLink(i))}`)
+      if (isTensei) {
+        if (shape) {
+          generated = [...generated.slice(0, 2), ...tenseiRows([
+            ...generated.slice(2), ...addedTables.filter((t) => t.head[0] === head).flatMap((t) => t.rows)
+          ])]
+          addedTables = addedTables.filter((t) => t.head[0] !== head)
+        } else {
+          generated = tenseiRows(generated)
+        }
+        addedTables = addedTables.map((t) => ({ ...t, rows: tenseiRows(t.rows) }))
+        const tableKeys = new Set((shape ? generated.slice(2) : generated)
+          .concat(addedTables.flatMap((t) => t.rows)).map(tenseiRowKey).filter(Boolean))
+        addedItems = tenseiRows(addedItems).filter((row) => !tableKeys.has(tenseiRowKey(row)))
+      }
+      const count = (shape ? generated.length - 2 : generated.length)
+        + addedTables.reduce((n, t) => n + t.rows.length, 0) + addedItems.length
+      if (!count) continue
+      lines.push(`## ${k}（${count}種） {#${id}}`)
+      lines.push('')
       let tableHead = ''
-      if (shape && (group.length || addedTables.some((t) => t.head[0] === head))) {
-        lines.push(...table(shape, group, { blank: page.slug === 'weapons' && BLANK_WEAPON_KINDS.has(k) }))
+      if (shape && (generated.length > 2 || addedTables.some((t) => t.head[0] === head))) {
+        lines.push(...generated)
         tableHead = head
       } else {
-        for (const i of group) lines.push(`- ${cell(itemLink(i))}`)
+        if (!shape) lines.push(...generated)
       }
       for (const t of addedTables) {
         if (t.head[0] !== tableHead) lines.push('', ...t.head)
@@ -488,6 +541,7 @@ function equipPage(page) {
     lines.push(...leftoverTables(extra, emitted))
   }
 
+  if (isTensei) lines[2] = `description: DQMVIの${page.group}${tenseiPageCount(lines)}種のデータ。${page.lead}`
   lines.push('## 関連ページ')
   lines.push('')
   for (const p of PAGES) if (p.slug !== page.slug) lines.push(`- [${p.group}一覧](/items/${p.slug})`)

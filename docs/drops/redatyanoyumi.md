@@ -1,23 +1,16 @@
 ---
 title: レッドアーチャーの弓
-description: DQMVIの「レッドアーチャーの弓」を落とすモンスター1体の一覧。いちばん弱いのはレッドアーチャー（通常・EXP1,871）。
+description: レッドアーチャーの弓
 pageClass: wide-page sortable-list
 prev:
-  text: "ルビーの原石"
-  link: /drops/ore_rubi
+  text: "サボテンゴールドの棘"
+  link: /drops/sabotengoldnotoge
 next:
-  text: "れんごくの羽根"
-  link: /drops/rengokunohane
+  text: "のろいの岩の槍"
+  link: /drops/noroiiwanoyari
 ---
 
 # レッドアーチャーの弓
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**レッドアーチャー**（通常ドロップ・EXP1,871）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -36,10 +29,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [レッドアーチャー](/monsters/reddoatya) | 通常 | 3 | [悪魔](/species/akuma) | 1,047 | 1,871 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

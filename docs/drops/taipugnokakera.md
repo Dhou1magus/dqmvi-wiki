@@ -1,23 +1,16 @@
 ---
 title: タイプGの欠片
-description: DQMVIの「タイプGの欠片」を落とすモンスター1体の一覧。いちばん弱いのはタイプG（通常・EXP29,223）。
+description: タイプGの欠片
 pageClass: wide-page sortable-list
 prev:
-  text: "せかいじゅの葉"
-  link: /drops/sekaijunoha
+  text: "グランシーザーの髭"
+  link: /drops/guransizanohige
 next:
-  text: "たいようの石"
-  link: /drops/taiyounoisi
+  text: "フレアドラゴンのうろこ"
+  link: /drops/fureadoragonnouroko
 ---
 
 # タイプGの欠片
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**タイプG**（通常ドロップ・EXP29,223）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -37,10 +30,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [タイプG](/monsters/taipug) | 通常 | 6 | [物質](/species/bussitu) | 16,518 | 29,223 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

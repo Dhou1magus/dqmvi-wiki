@@ -2,12 +2,10 @@
 title: マーブルンの尻尾
 description: マーブルンの尻尾
 pageClass: wide-page sortable-list
-prev:
-  text: "ほのおの盾"
-  link: /drops/honoonotate
+prev: false
 next:
-  text: "まじゅうの角"
-  link: /drops/majuunotuno
+  text: "ハートナイトの剣"
+  link: /drops/hatonaitonoken
 ---
 
 # マーブルンの尻尾
@@ -28,10 +26,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [マーブルン](/monsters/maaburun) | 通常 | 1 | [魔獣](/species/majyu) | 264 | 346 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

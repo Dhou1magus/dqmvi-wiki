@@ -1,23 +1,16 @@
 ---
 title: ゲノミーの触手
-description: DQMVIの「ゲノミーの触手」を落とすモンスター1体の一覧。いちばん弱いのはゲノミー（通常・EXP1,804）。
+description: ゲノミーの触手
 pageClass: wide-page sortable-list
 prev:
-  text: "グレートアックス"
-  link: /drops/gureitoakusu
+  text: "巨大ナスビナーラの髭"
+  link: /drops/kyodainasubiranohige
 next:
-  text: "げんこつダケ"
-  link: /drops/dqm_genkotu_block
+  text: "グレイトドラゴン・雲の牙"
+  link: /drops/gureitodoragonkumonokiba
 ---
 
 # ゲノミーの触手
-
-転生装備。**1体**のモンスターが落とします。
-
-::: tip ねらい目
-**ゲノミー**（通常ドロップ・EXP1,804）。
-落とす枠がいちばん手前で、そのなかで一番弱い相手です。
-:::
 
 ## 装備としての性能
 
@@ -35,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ゲノミー](/monsters/genomi) | 通常 | 3 | [自然](/species/sizen) | 873 | 1,804 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)

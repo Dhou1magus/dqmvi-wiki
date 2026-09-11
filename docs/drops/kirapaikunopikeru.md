@@ -3,11 +3,11 @@ title: キラーパイクのピッケル
 description: キラーパイクのピッケル
 pageClass: wide-page sortable-list
 prev:
-  text: "キラートーチのトーチ"
-  link: /drops/kiratotinototi
+  text: "ピンクボンボンの爪"
+  link: /drops/pinkbonbonnotume
 next:
-  text: "キングダイヤ"
-  link: /drops/kingdaiya
+  text: "とげこんぼうの棍棒"
+  link: /drops/togekonbounokonbou
 ---
 
 # キラーパイクのピッケル
@@ -28,10 +28,9 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [キラーピッケル](/monsters/kirapike) | 通常 | 3 | [魔獣](/species/majyu) | 1,309 | 2,120 |
 
-見出しを押すと並べ替えできます。
-
 ## 関連ページ
 
+- [転生装備一覧](/items/tensei)
 - [ドロップ品から探す](/drops/)
 - [モンスター図鑑](/monsters/)
 - [系統から探す](/species/)
