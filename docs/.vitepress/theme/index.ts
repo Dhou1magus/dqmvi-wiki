@@ -7,6 +7,7 @@ import { markFaqTags } from './faq-tags'
 import { setupDexFilter, type Kinds } from './dex-filter'
 import { setupPetChecklist } from './pet-checklist'
 import ThemeSwitch from './ThemeSwitch.vue'
+import SidebarToggle from './SidebarToggle.vue'
 import PageActions from './PageActions.vue'
 import FeedbackBox from './FeedbackBox.vue'
 import TopPage from './TopPage.vue'
@@ -18,6 +19,7 @@ export default {
   extends: DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
+      'nav-bar-content-before': () => h(SidebarToggle),
       'nav-bar-content-after': () => h(ThemeSwitch),
       'nav-screen-content-after': () => h(ThemeSwitch),
       'doc-footer-before': () => [h(FeedbackBox), h(PageActions)],
