@@ -1,5 +1,5 @@
 .wiki-home {
-  max-width: 1248px;
+  max-width: 1120px;
   margin: 0 auto;
   padding: 32px 32px 0;
   color: var(--vp-c-text-1);
@@ -148,7 +148,18 @@
   .directory-group-wide .directory-links { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 @media (min-width: 1001px) {
+  .wiki-hero { padding: 24px 28px 20px; }
+  .category-directory, .home-guides { gap: 16px; }
+  .directory-heading { min-height: 54px; padding: 4px 16px; }
+  .directory-links { padding: 10px; }
+  .wiki-home .directory-link { gap: 4px; padding: 6px 8px; font-size: .875rem; }
   .directory-group-wide .directory-links { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .beginner-panel, .purpose-section { padding: 20px; }
+  .purpose-grid a { gap: 10px; padding: 14px 12px; }
+  .community-grid { gap: 24px; }
+}
+@media (min-width: 1001px) and (pointer: fine) {
+  .wiki-home .directory-link { min-height: 40px; }
 }
 @media (max-width: 1000px) {
   .directory-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
