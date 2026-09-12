@@ -52,16 +52,16 @@ pageClass: wide-page sortable-list
 
 | アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| [チョコヌーバの指輪](/drops/tyokonubanoyubiwa) | — | ×1.15 | — | — | — | ×1.15 | — |
-| [タッチャンの首飾り](/drops/tattyannokubikazari) | ×1.15 | — | — | ×1.15 | — | — | — |
-| [ももいろ三姉妹のピアス](/drops/momoirosansimainopiasu) | ×1.15 | — | — | — | — | — | — |
-| [つむりんママの貝殻](/drops/tumurinmama) | — | ×1.15 | — | — | — | ×1.15 | — |
-| [ゴールデンコーンの角](/drops/gorudenkonnotuno) | — | — | ×1.15 | ×1.15 | ×1.15 | — | — |
-| [巨大ナスビナーラの髭](/drops/kyodainasubiranohige) | ×1.15 | — | — | ×1.15 | — | — | — |
-| [ゲノミーの触手](/drops/genominosyokusyu) | — | — | — | — | ×1.15 | ×1.15 | — |
-| [グレイトドラゴン・雲の牙](/drops/gureitodoragonkumonokiba) | ×1.15 | — | ×1.15 | ×1.15 | — | — | — |
-| [ましょうぐものエキス](/drops/masyougumonoekisu) | — | ×1.15 | — | — | ×1.15 | ×1.15 | — |
-| [グランシーザーの髭](/drops/guransizanohige) | — | ×1.15 | ×1.15 | — | — | ×1.15 | — |
+| [チョコヌーバの指輪](/drops/tyokonubanoyubiwa) | — | ×1.15 | — | — | — | ×1.15 | ボミエにかからなくなる |
+| [タッチャンの首飾り](/drops/tattyannokubikazari) | ×1.15 | — | — | ×1.15 | — | — | 混乱にかからなくなる |
+| [ももいろ三姉妹のピアス](/drops/momoirosansimainopiasu) | ×1.15 | — | — | — | — | — | MP回復アイテムが1.5倍の回復量になる |
+| [つむりんママの貝殻](/drops/tumurinmama) | — | ×1.15 | — | — | — | ×1.15 | マホトーンにかからなくなる |
+| [ゴールデンコーンの角](/drops/gorudenkonnotuno) | — | — | ×1.15 | ×1.15 | ×1.15 | — | ゴールドの取得が10％増える |
+| [巨大ナスビナーラの髭](/drops/kyodainasubiranohige) | ×1.15 | — | — | ×1.15 | — | — | HP回復アイテムが1.5倍の回復量になる |
+| [ゲノミーの触手](/drops/genominosyokusyu) | — | — | — | — | ×1.15 | ×1.15 | 海で息が出来るようになる |
+| [グレイトドラゴン・雲の牙](/drops/gureitodoragonkumonokiba) | ×1.15 | — | ×1.15 | ×1.15 | — | — | ジャンプ力が上がる |
+| [ましょうぐものエキス](/drops/masyougumonoekisu) | — | ×1.15 | — | — | ×1.15 | ×1.15 | 落下速度がゆっくりになる |
+| [グランシーザーの髭](/drops/guransizanohige) | — | ×1.15 | ×1.15 | — | — | ×1.15 | ルカニにかからなくなる |
 | [タイプGの欠片](/drops/taipugnokakera) | ×1.15 | ×1.15 | — | ×1.15 | ×1.15 | — | — |
 | [フレアドラゴンのうろこ](/drops/fureadoragonnouroko) | ×1.15 | ×1.15 | ×1.15 | — | — | ×1.15 | — |
 | [ミュシャドの毛](/drops/myusyadonoke) | — | — | ×1.15 | ×1.15 | ×1.15 | ×1.15 | — |
