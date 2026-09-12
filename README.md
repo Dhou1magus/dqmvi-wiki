@@ -27,23 +27,6 @@ npm run docs:dev      # http://localhost:5173 で確認
 | `npm run docs:preview` | ビルド結果を確認 |
 | `npm run check` | セキュリティ検査（PR時とデプロイ時に自動でも走る） |
 
-## 公開
-
-`main` に取り込まれると GitHub Actions が自動でビルドして公開します。
-初回のみ、Settings → Pages → Source を **GitHub Actions** に変更してください。
-
-## Google Search Console
-
-1. [Search Console](https://search.google.com/search-console/)で「URLプレフィックス」を選び、`https://dhou1magus.github.io/dqmvi-wiki/` を登録します。
-2. 「所有権の確認」→「その他の確認方法」→「HTMLタグ」を選びます。発行されたタグの `content` の値を、`docs/.vitepress/config.mts` の `GOOGLE_SITE_VERIFICATION` に設定します。
-3. 変更を公開し、トップページのHTMLソースに `google-site-verification` があることを確かめてから、Search Consoleの「確認」を押します。所有権の維持に使うため、確認後もタグを残します。
-4. 「サイトマップ」で `https://dhou1magus.github.io/dqmvi-wiki/sitemap.xml` を送信します。
-5. 「URL検査」でトップページのURLを検査し、「インデックス登録をリクエスト」を選びます。
-
-サイトマップはVitePressが生成します。各ページの正規URLも自動設定します。名前だけのアイテムページは検索対象とサイトマップから除外し、本文を追加して再ビルドすると自動で対象に戻ります。
-
-Googleによるクロールには数日から数週間かかる場合があり、登録リクエストは検索掲載を保証するものではありません。詳しくは[Googleの所有権確認手順](https://support.google.com/webmasters/answer/9008080?hl=ja)と[再クロールのリクエスト](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl?hl=ja)を参照してください。
-
 ## セキュリティ
 
 - 本文の生HTMLは無効（`markdown.html: false`）。記事に書かれたスクリプトは実行されません
