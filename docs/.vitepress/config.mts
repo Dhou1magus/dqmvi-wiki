@@ -168,6 +168,7 @@ export default defineConfig({
 
   markdown: {
     html: false,
+    headers: true,
     linkify: false,
     breaks: true,
     image: { lazyLoading: true },
