@@ -79,8 +79,7 @@ const cats = computed(() => [
       { t: '釣り道具・魚', link: '/items/fishing' },
       { t: '特殊アイテム', link: '/items/special' },
       { t: '鉱石', link: '/items/materials#鉱石' },
-      { t: 'ドロップ品', link: '/drops/' },
-      { t: 'ちいさなメダル' }
+      { t: 'ドロップ品', link: '/drops/' }
     ]
   },
   {
@@ -114,8 +113,7 @@ const cats = computed(() => [
       { t: 'ゴーストマスター', link: '/jobs/necromancer' },
       { t: 'ソウルマスター', link: '/jobs/mimic' },
       { t: '魔導銃士', link: '/jobs/machinehunter' },
-      { t: '戦輪士', link: '/jobs/battleringmaster' },
-      { t: 'おすすめ職業' }
+      { t: '戦輪士', link: '/jobs/battleringmaster' }
     ]
   },
   {
@@ -123,10 +121,7 @@ const cats = computed(() => [
     title: '武器',
     icon: 'sword',
     overview: { t: '武器一覧', link: '/items/weapons' },
-    items: [
-      ...equipmentLinks('weapons'),
-      { t: 'レシピ一覧' }
-    ]
+    items: equipmentLinks('weapons')
   },
   {
     id: 'armor',
@@ -164,8 +159,7 @@ const cats = computed(() => [
       { t: '配合', link: '/play/pets#配合' },
       { t: '種族シナジー', link: '/play/pets#種族シナジー'.normalize('NFKD') },
       { t: 'フォーメーション', link: '/play/pets#フォーメーション' },
-      { t: '作戦・ガンビット', link: '/play/gambit' },
-      { t: 'おすすめ編成' }
+      { t: '作戦・ガンビット', link: '/play/gambit' }
     ]
   },
   {
@@ -178,8 +172,7 @@ const cats = computed(() => [
       { t: '呪文の効果', link: '/spells/#効果の決まり方' },
       { t: 'ペットの呪文習得', link: '/play/pets#呪文・特技の習得' },
       { t: '他の職業の技を使う', link: '/jobs/#他の職業の呪文・特技を使う' },
-      { t: '戦闘のきほん', link: '/play/basics' },
-      { t: '移動呪文' }
+      { t: '戦闘のきほん', link: '/play/basics' }
     ]
   },
   {
@@ -222,27 +215,7 @@ const cats = computed(() => [
       { t: 'よくある質問', link: '/guide/faq' },
       { t: 'MOD更新履歴', link: '/guide/updates' },
       { t: 'ご意見箱', link: '/guide/feedback' },
-      { t: '編集のしかた', link: '/guide/edit' },
-      { t: '前提MOD' }, { t: '競合MOD' }
-    ]
-  },
-  {
-    title: 'ダンジョン・施設',
-    items: [
-      { t: 'ダンジョン一覧' }, { t: '村・町一覧' },
-    ]
-  },
-  {
-    title: 'バイオーム・マップ',
-    items: [
-      { t: '座標メモ' }
-    ]
-  },
-  {
-    title: 'マルチプレイ',
-    items: [
-      { t: 'サーバー構築' }, { t: 'コンフィグ設定' },
-      { t: '湧き上限の共有' }, { t: 'おすすめ設定' }, { t: '同期の不具合' }
+      { t: '編集のしかた', link: '/guide/edit' }
     ]
   }
 ])
@@ -251,15 +224,13 @@ const catsReady = computed(() => cats.value
   .map((c) => ({ ...c, items: c.items.filter((i) => i.link) }))
   .filter((c) => c.items.length))
 
-const wanted = computed(() => {
-  const out = []
-  for (const c of cats.value) {
-    for (const i of c.items) if (!i.link) out.push({ cat: c.title, t: i.t })
-  }
-  return out
-})
+const wanted = [
+  { cat: 'アイテム', t: 'ちいさなメダル', link: '/play/little-medals' },
+  { cat: 'ダンジョン・施設', t: 'ダンジョン一覧', link: '/play/dungeons' }
+]
 
 const log = [
+  { d: '09-14', t: '情報募集を2件に整理し、ちいさなメダル・ダンジョン一覧の雛形を追加', link: '/#wanted-pages', who: 'よっしー' },
   { d: '09-14', t: 'トップページに「育成」と6本の攻略ページの雛形を追加', link: '/#category-training', who: 'よっしー' },
   { d: '09-14', t: '公式MOD更新履歴と対応バージョンを0.29.67まで更新', link: '/guide/updates', who: 'よっしー' },
   { d: '09-14', t: '整地用ガンビットの設定を追加', link: '/play/recommended-gambits#landscaping', who: 'よっしー' },
@@ -502,7 +473,7 @@ async function onKey(event) {
         </section>
         <section class="contribute-panel" aria-labelledby="contribute-heading">
           <h2 id="contribute-heading">みんなで育てる攻略wiki</h2><p>気づいたことや攻略のヒントを、ぜひお寄せください。</p><div class="contribute-links"><a :href="withBase('/guide/edit')">編集のしかた →</a><a :href="withBase('/guide/feedback')">ご意見箱 →</a></div>
-          <details class="wanted-pages"><summary>情報を募集しているページ</summary><ul><li v-for="w in wanted" :key="w.cat + w.t"><span>{{ w.cat }}</span>{{ w.t }}</li></ul></details>
+          <details id="wanted-pages" class="wanted-pages"><summary>情報を募集しているページ</summary><ul><li v-for="w in wanted" :key="w.cat + w.t"><span>{{ w.cat }}</span><a :href="withBase(w.link)">{{ w.t }}</a></li></ul></details>
         </section>
       </div>
       <footer class="wiki-about"><p>このwikiは、DQMVI作者ぐりぐりさん公認のもと、有志で制作しています。掲載情報は検証環境やバージョンによって異なる場合があります。</p><div class="wiki-metadata"><span v-for="m in meta" :key="m.label"><b>{{ m.label }}</b>{{ m.value }}</span></div></footer>

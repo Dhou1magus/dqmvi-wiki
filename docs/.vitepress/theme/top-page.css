@@ -143,6 +143,7 @@
 .wanted-pages ul { padding: 0; margin: 12px 0 0; list-style: none; }
 .wanted-pages li { display: flex; flex-wrap: wrap; gap: 4px 12px; padding: 5px 0; font-size: .8125rem; }
 .wanted-pages li span { color: var(--vp-c-text-2); }
+.wanted-pages a { color: var(--vp-c-brand-1); text-decoration: underline; text-underline-offset: 3px; }
 .wiki-about { padding: 26px 0; margin-top: 36px; border-top: 1px solid var(--vp-c-divider); color: var(--vp-c-text-2); font-size: .8125rem; }
 .wiki-about p { margin: 0 0 12px; }
 .wiki-metadata { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: .75rem; }
