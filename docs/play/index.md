@@ -25,4 +25,4 @@ description: DQMVIの遊び方。始め方・冒険のきほん・ペット・�
 
 | ページ | 内容 |
 | --- | --- |
-| [おすすめガンビット](/play/recommended-gambits) | 回復・近接攻撃・魔法攻撃・アイテム回収・整地を任せる設定例。 |
+| [おすすめガンビット](/play/recommended-gambits) | 整地用のガンビット設定。 |

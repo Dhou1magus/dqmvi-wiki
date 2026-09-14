@@ -8,7 +8,7 @@ outline: 2
 
 ペットに戦い方を指示するガンビットの組み方。
 
-役割ごとの設定例は[おすすめガンビット](/play/recommended-gambits)を見てください。
+整地用の設定は[おすすめガンビット](/play/recommended-gambits#landscaping)を見てください。
 
 ## ガンビット
 
