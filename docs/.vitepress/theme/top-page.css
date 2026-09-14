@@ -112,6 +112,7 @@
 .directory-overview { display: inline-flex; align-items: center; gap: 3px; min-height: 40px; margin-left: auto; color: var(--vp-c-brand-1); font-size: .8125rem; white-space: nowrap; }
 .directory-overview:hover { text-decoration: underline; text-underline-offset: 4px; }
 .directory-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; margin: 0; padding: 12px; list-style: none; }
+.directory-group-training .directory-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .directory-links li { min-width: 0; }
 .wiki-home .directory-link { display: flex; align-items: center; justify-content: space-between; gap: 6px; min-height: 44px; height: 100%; padding: 8px 10px; border: 1px solid transparent; border-radius: 6px; color: var(--vp-c-brand-1); font-size: .9375rem; font-weight: 500; line-height: 1.6; transform: none; transition: background-color 140ms, border-color 140ms, box-shadow 140ms, color 140ms; -webkit-tap-highlight-color: transparent; }
 .directory-arrow { flex-shrink: 0; color: var(--vp-c-text-3); }
@@ -124,12 +125,15 @@
 @media (prefers-reduced-motion: reduce) {
   .wiki-home .directory-link { transition: none; }
 }
-.community-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; margin-top: 36px; }
+.community-grid { display: grid; grid-template-columns: 1.2fr 1fr; align-items: start; gap: 32px; margin-top: 36px; }
 .wiki-updates { list-style: none; margin: 0; padding: 0; }
 .wiki-updates li { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: baseline; gap: 14px; padding: 15px 0; border-bottom: 1px solid var(--vp-c-divider); font-size: .875rem; }
 .wiki-updates time { color: var(--vp-c-text-2); font-size: .8125rem; font-variant-numeric: tabular-nums; }
 .wiki-updates li > span { color: var(--vp-c-text-2); font-size: .75rem; }
 .wiki-updates a:hover { color: var(--vp-c-brand-1); text-decoration: underline; }
+.wiki-updates-archive { margin-top: 14px; }
+.wiki-updates-archive summary { width: fit-content; padding: 8px 0; color: var(--vp-c-brand-1); font-size: .8125rem; cursor: pointer; }
+.wiki-updates-archive summary:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 4px; border-radius: 3px; }
 .contribute-panel { padding: 23px 24px; border: 1px solid var(--vp-c-divider); border-radius: 9px; background: var(--vp-c-bg-elv); }
 .contribute-panel > p { color: var(--vp-c-text-2); font-size: .875rem; margin: 8px 0 14px; }
 .contribute-links { display: flex; flex-wrap: wrap; gap: 18px; color: var(--vp-c-brand-1); font-size: .875rem; }
@@ -217,7 +221,7 @@
   .directory-links { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 10px; }
   .wiki-home .directory-link { font-size: .875rem; }
   .wiki-updates li { grid-template-columns: auto 1fr; gap: 10px; }
-  .wiki-updates li > span { display: none; }
+  .wiki-updates li > span { grid-column: 2; }
 }
 @media (max-width: 359px) {
   .wiki-home { padding-right: 12px; padding-left: 12px; }

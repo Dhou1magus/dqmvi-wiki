@@ -183,6 +183,19 @@ const cats = computed(() => [
     ]
   },
   {
+    id: 'training',
+    title: '育成',
+    icon: 'flag',
+    items: [
+      { t: '効率的なレベル上げ', link: '/play/leveling' },
+      { t: '最強職業の組み合わせ', link: '/play/best-job-combinations' },
+      { t: '火力を限界まで伸ばす方法', link: '/play/max-damage' },
+      { t: '最強ペットの育て方', link: '/play/strongest-pets' },
+      { t: '神装備を作る鍛冶の極意', link: '/play/best-equipment' },
+      { t: '種集めでステータス爆上げ', link: '/play/stat-seeds' }
+    ]
+  },
+  {
     id: 'adventure',
     title: '冒険・暮らし',
     icon: 'pin',
@@ -247,6 +260,22 @@ const wanted = computed(() => {
 })
 
 const log = [
+  { d: '09-14', t: 'トップページに「育成」と6本の攻略ページの雛形を追加', link: '/#category-training', who: 'よっしー' },
+  { d: '09-14', t: '公式MOD更新履歴と対応バージョンを0.29.67まで更新', link: '/guide/updates', who: 'よっしー' },
+  { d: '09-14', t: '整地用ガンビットの設定を追加', link: '/play/recommended-gambits#landscaping', who: 'よっしー' },
+  { d: '09-14', t: '呪文・特技の一覧を用途別に分類', link: '/spells/', who: 'よっしー' },
+  { d: '09-14', t: '装備一覧に入手先を追加し、鍛冶情報の記入方法を整備', link: '/items/weapons', who: 'よっしー' },
+  { d: '09-14', t: '武器・防具などの一覧にも転生装備を掲載', link: '/items/', who: 'よっしー' },
+  { d: '09-13', t: 'スマホで本文の先頭に目次を表示', link: '/play/gambit', who: 'よっしー' },
+  { d: '09-11', t: 'PCサイドバーの表示・非表示を切り替え可能に', link: '/monsters/', who: 'よっしー' },
+  { d: '09-11', t: 'ペットチェックリストと系統別の達成率を追加', link: '/play/pet-checklist', who: 'よっしー' },
+  { d: '09-11', t: 'トップページの職業・装備を種類別に整理し、PC表示を調整', link: '/#all-categories', who: 'よっしー' },
+  { d: '09-11', t: '転生装備を図鑑No順に整理し、個別ページの前後移動も統一', link: '/items/tensei', who: 'よっしー' },
+  { d: '09-10', t: '系統別のモンスター一覧に画像を追加', link: '/species/slime', who: 'よっしー' },
+  { d: '09-10', t: 'モンスター・アイテムのカテゴリ一覧から導入説明を整理', link: '/items/', who: 'よっしー' },
+  { d: '09-10', t: 'wikiのレイアウト・ボタンの操作感・ダークモードを改善', link: '/', who: 'よっしー' },
+  { d: '09-10', t: '検索エンジン向けの設定を整備', link: '/', who: 'よっしー' },
+  { d: '09-08', t: 'モンスター個別ページの前後移動を図鑑No順に統一', link: '/monsters/', who: 'よっしー' },
   { d: '09-08', t: 'ボタンのデザインを変更', link: '/monsters/', who: 'よっしー' },
   { d: '09-08', t: 'モンスター図鑑に系統絞り込み機能を追加', link: '/monsters/', who: 'よっしー' },
   { d: '09-07', t: 'DQMVI 0.28.41 に一部対応', link: '/guide/updates', who: 'よっしー' }
@@ -432,7 +461,7 @@ async function onKey(event) {
     <div class="home-content">
       <section id="all-categories" class="directory-section" aria-label="攻略カテゴリ">
         <div class="category-directory">
-          <section v-for="c in catsReady" :key="c.id" class="directory-group" :class="{ 'directory-group-wide': c.items.length > 12 }" :aria-labelledby="'category-' + c.id">
+          <section v-for="c in catsReady" :key="c.id" class="directory-group" :class="{ 'directory-group-wide': c.items.length > 12, 'directory-group-training': c.id === 'training' }" :aria-labelledby="'category-' + c.id">
             <header class="directory-heading">
               <h2 :id="'category-' + c.id"><svg viewBox="0 0 24 24" aria-hidden="true"><path :d="ICONS[c.icon]" /></svg>{{ c.title }}</h2>
               <a v-if="c.overview" class="directory-overview" :href="withBase(c.overview.link)">{{ c.overview.t }}<span aria-hidden="true"> →</span></a>
@@ -465,7 +494,11 @@ async function onKey(event) {
       <div class="community-grid">
         <section class="updates-section" aria-labelledby="updates-heading">
           <div class="section-heading"><h2 id="updates-heading">wikiのお知らせ</h2><a :href="withBase('/guide/updates')">MOD更新履歴 →</a></div>
-          <ul class="wiki-updates"><li v-for="l in log" :key="l.t"><time>{{ l.d }}</time><a :href="withBase(l.link)">{{ l.t }}</a><span>{{ l.who }}</span></li></ul>
+          <ul class="wiki-updates"><li v-for="l in log.slice(0, 6)" :key="l.t"><time>{{ l.d }}</time><a :href="withBase(l.link)">{{ l.t }}</a><span>{{ l.who }}</span></li></ul>
+          <details v-if="log.length > 6" class="wiki-updates-archive">
+            <summary>これまでのお知らせ（{{ log.length - 6 }}件）</summary>
+            <ul class="wiki-updates"><li v-for="l in log.slice(6)" :key="l.t"><time>{{ l.d }}</time><a :href="withBase(l.link)">{{ l.t }}</a><span>{{ l.who }}</span></li></ul>
+          </details>
         </section>
         <section class="contribute-panel" aria-labelledby="contribute-heading">
           <h2 id="contribute-heading">みんなで育てる攻略wiki</h2><p>気づいたことや攻略のヒントを、ぜひお寄せください。</p><div class="contribute-links"><a :href="withBase('/guide/edit')">編集のしかた →</a><a :href="withBase('/guide/feedback')">ご意見箱 →</a></div>
