@@ -3,6 +3,7 @@ import { readdirSync, statSync, readFileSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { isEmptyItemPage, seoHead } from './seo.mts'
 import { renderPetChecklist } from './pet-checklist-table.mts'
+import { addEquipmentSources } from './equipment-sources.mts'
 
 const MOD_VERSION = '0.28.41'
 
@@ -173,6 +174,10 @@ export default defineConfig({
     breaks: true,
     image: { lazyLoading: true },
     config(md) {
+      md.core.ruler.before('normalize', 'equipment_sources', (state) => {
+        state.src = addEquipmentSources(state.src, state.env.relativePath)
+      })
+
       const esc = (s: string) =>
         s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
           .replace(/"/g, '&quot;')
