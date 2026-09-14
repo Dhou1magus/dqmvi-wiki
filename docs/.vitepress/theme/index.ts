@@ -8,6 +8,7 @@ import { setupDexFilter, type Kinds } from './dex-filter'
 import { setupPetChecklist } from './pet-checklist'
 import ThemeSwitch from './ThemeSwitch.vue'
 import SidebarToggle from './SidebarToggle.vue'
+import MobileToc from './MobileToc.vue'
 import PageActions from './PageActions.vue'
 import FeedbackBox from './FeedbackBox.vue'
 import TopPage from './TopPage.vue'
@@ -22,6 +23,7 @@ export default {
       'nav-bar-content-before': () => h(SidebarToggle),
       'nav-bar-content-after': () => h(ThemeSwitch),
       'nav-screen-content-after': () => h(ThemeSwitch),
+      'doc-before': () => h(MobileToc),
       'doc-footer-before': () => [h(FeedbackBox), h(PageActions)],
       'page-top': () => h(TopPage)
     })

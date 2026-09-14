@@ -1,12 +1,12 @@
 ---
 title: 武器一覧
-description: DQMVIの武器275種のデータ。剣・槍・棍・爪・斧・弓など。
+description: DQMVIの武器294種のデータ。剣・槍・棍・爪・斧・弓など。
 pageClass: wide-page sortable-list
 ---
 
 # 武器一覧
 
-## 剣（28種） {#sword}
+## 剣（30種） {#sword}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -38,8 +38,10 @@ pageClass: wide-page sortable-list
 | [はぐれメタルの剣](/drops/haguremetarunoturugi) | 15 | ×3.4 | [メタル系](/species/metal)に2倍のダメージ |
 | [奇跡の剣改](/items/kisekinoturugikai) | 13 | ×3.27 | 1/5の確率で与えたダメージの1/10を回復する |
 | [隼の剣改](/drops/hayabusanoturugikai) | 5 | ×1.83 | 2回攻撃 |
+| [名刀 斬鉄丸](/drops/meitouzantetumaru) | 14 | ×3.18 | 攻撃するたびに1/8でルカニ(守備力ダウン)がかかる |
+| [ゴールドマントの剣](/drops/gorudenmantonoken) | 10 | ×1.5 | — |
 
-## 勇者の剣（17種） {#hero-sword}
+## 勇者の剣（19種） {#hero-sword}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -60,8 +62,10 @@ pageClass: wide-page sortable-list
 | [勇者のつるぎ改](/items/yuusyanoturuginew) | 22 | ×3.6 | — |
 | [ライトシャムシール](/items/raitosyamusiru) | 15 | ×3.34 | — |
 | [英雄王の剣](/items/eiyuuounoken) | 17 | ×3.42 | — |
+| [ハートナイトの剣](/drops/hatonaitonoken) | 10 | ×1.5 | 溜め攻撃の前方範囲が10マスになる |
+| [スライダークロボの剣](/drops/suraidakurobonoken) | 10 | ×1.5 | — |
 
-## 槍（17種） {#spear}
+## 槍（18種） {#spear}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -82,8 +86,9 @@ pageClass: wide-page sortable-list
 | [羅刹魔槍](/items/rasetumasou) | 19 | ×3.68 | — |
 | [地獄の魔槍](/items/jigokumasou) | 21 | ×3.84 | — |
 | [真・地獄の魔槍](/items/jigokumasou2) | 24 | ×4 | — |
+| [のろいの岩の槍](/drops/noroiiwanoyari) | 10 | ×1.5 | 溜め攻撃が前方10マスまで届く |
 
-## 短剣（17種） {#dagger}
+## 短剣（18種） {#dagger}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -104,8 +109,9 @@ pageClass: wide-page sortable-list
 | [真・トリリオンダガー](/items/toririondaga2) | 17 | ×4 | — |
 | [イーグルダガー](/items/igurudaga) | 5 | ×2.44 | — |
 | [ライトニングダガー](/items/raitoningudaga) | 14 | ×3.84 | — |
+| [サボテンゴールドの棘](/drops/sabotengoldnotoge) | 10 | ×1.5 | 攻撃するたびにダメージの1/100がゴールドになる |
 
-## 杖（18種） {#staff}
+## 杖（19種） {#staff}
 
 | 杖 | 魔力倍率 | 特殊効果 |
 | --- | ---: | --- |
@@ -127,8 +133,9 @@ pageClass: wide-page sortable-list
 | [水晶の杖](/items/mahoustaff16) | ×2.2 | — |
 | [魔導士の杖](/items/mahoustaff11) | ×1.2 | — |
 | [龍王の杖](/items/mahoustaff18) | ×2.8 | — |
+| [にくきゅうの杖](/drops/nikukyuunotue) | ×1.5 | 単体魔法を三方向に放つ(メラ系・ヒャド系・ドルマ系のみ) |
 
-## 棍（15種） {#kon}
+## 棍（17種） {#kon}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -147,8 +154,10 @@ pageClass: wide-page sortable-list
 | [修羅の棍](/items/syuranokon) | 13 | ×3.64 | — |
 | [如来棍](/items/nyoraikon) | 14 | ×3.82 | — |
 | [真・如来棍](/items/nyoraikon2) | 18 | ×4 | — |
+| [キラートーチのトーチ](/drops/kiratotinototi) | 2 | ×1.1 | 魔力倍率 ×1.5 |
+| [とげこんぼうの棍棒](/drops/togekonbounokonbou) | 10 | ×1.5 | 正面の石系ブロックを左右3マス同時に掘る |
 
-## 爪（17種） {#claw}
+## 爪（18種） {#claw}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -165,12 +174,13 @@ pageClass: wide-page sortable-list
 | [ほのおの爪](/items/honoonotume) | 16 | ×3.55 | 炎属性攻撃 |
 | [神竜の爪](/items/sinryuunotume) | 20 | ×3.78 | — |
 | [真・神竜の爪](/items/sinryuunotume2) | 25 | ×4 | — |
-| [ピンクボンボンの爪](/drops/pinkbonbonnotume) | 10 | ×1.5 | — |
+| [ピンクボンボンの爪](/drops/pinkbonbonnotume) | 10 | ×1.5 | 通常攻撃が前方3マスの範囲攻撃になる |
 | [はやぶさのツメ](/items/hayabusanotume) | 6 | ×1.88 | — |
 | [おうごんのツメ](/items/ougonnotume) | 13 | ×3.22 | — |
 | [オリハルコンのツメ](/items/oriharukonnotume) | 18 | ×3.67 | — |
+| [魔獣イギュアの爪](/drops/majuuigyuanotume) | 10 | ×1.5 | — |
 
-## 拳（4種） {#fist}
+## 拳（5種） {#fist}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -178,8 +188,9 @@ pageClass: wide-page sortable-list
 | [頑丈な拳](/items/kobusi2) | 9 | ×2.26 | — |
 | [最強の拳](/items/kobusi3) | 17 | ×3.42 | — |
 | [真・最強の拳](/items/kobusi32) | 28 | ×4 | — |
+| [聖銀の拳](/drops/seiginnokobusi) | 10 | ×1.5 | — |
 
-## ハンマー（15種） {#hammer}
+## ハンマー（19種） {#hammer}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -198,8 +209,12 @@ pageClass: wide-page sortable-list
 | [星砕き](/items/hosikudaki) | 18 | ×3.64 | — |
 | [破壊の鉄球](/items/hakainotekkyuu) | 23 | ×3.82 | — |
 | [真・破壊の鉄球](/items/hakainotekkyuu2) | 27 | ×4 | — |
+| [キラーパイクのピッケル](/drops/kirapaikunopikeru) | 10 | ×1.5 | 正面の石系ブロックを上下左右に5マス同時に掘る |
+| [わんぱくサタンのスプーン](/drops/wanpakusatannosupun) | 10 | ×1.5 | 正面の石系ブロックを奥2マス同時に掘る |
+| [アトラスの大金槌](/drops/atorasunoookanaduti) | 10 | ×1.5 | 正面の石系ブロックを左右5マス同時に掘る |
+| [トロルバッコスの大棍棒](/drops/tororubakkosunoookonnbou) | 10 | ×1.5 | — |
 
-## 斧（17種） {#axe}
+## 斧（18種） {#axe}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -220,8 +235,9 @@ pageClass: wide-page sortable-list
 | [ブリザードアックス](/items/burizadoakkusu) | 11 | ×3.11 | — |
 | [アポロンのオノ](/items/aporonnoono) | 18 | ×3.69 | — |
 | [カイロスアックス](/items/kairosuakkusu) | 23 | ×3.9 | — |
+| [伐採マシンの鎌](/drops/bassaimasinnokama) | 10 | ×1.5 | 周囲10マスの草を一気に刈る |
 
-## ムチ（17種） {#whip}
+## ムチ（18種） {#whip}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -237,13 +253,14 @@ pageClass: wide-page sortable-list
 | [グリンガムの鞭](/items/guringamunomuti) | 14 | ×3.47 | — |
 | [超グリンガムの鞭](/items/tyouguringamunomuti) | 17 | ×3.74 | — |
 | [真・超グリンガムの鞭](/items/tyouguringamunomuti2) | 23 | ×4 | — |
-| [マーブルンの尻尾](/drops/maburunnosippo) | 10 | ×1.5 | — |
+| [マーブルンの尻尾](/drops/maburunnosippo) | 10 | ×1.5 | 溜め攻撃の前方範囲が8マスになる |
 | [みわくのリボン](/items/miwakunoribon) | 3 | ×1.72 | — |
 | [女帝のムチ](/items/joteinomuti) | 7 | ×2.29 | — |
 | [だいあくまのムチ](/items/daiakumanomuti) | 13 | ×3.34 | — |
 | [グレイプニルのムチ](/items/gureipunirunomuti) | 20 | ×3.87 | — |
+| [りゅうおうもどきの尻尾](/drops/ryuuoumodokinosippo) | 10 | ×1.5 | — |
 
-## 弓（17種） {#bow}
+## 弓（18種） {#bow}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -264,8 +281,9 @@ pageClass: wide-page sortable-list
 | [天使の弓](/items/tensinoyumi) | 12 | ×2.55 | — |
 | [スライムショット](/items/suraimusyotto) | 16 | ×3.3 | — |
 | [緋赤鳥の弓](/items/hisekityounoyumi) | 22 | ×3.81 | — |
+| [レッドアーチャーの弓](/drops/redatyanoyumi) | 10 | ×1.5 | 1回で矢を2発連続で放つ |
 
-## ブーメラン（17種） {#boomerang}
+## ブーメラン（18種） {#boomerang}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -286,6 +304,7 @@ pageClass: wide-page sortable-list
 | [フレイムカッター](/items/fureimukatta) | 18 | ×3.68 | — |
 | [コメットエッジ](/items/komettoejji) | 20 | ×3.8 | — |
 | [はてんの月輪](/items/hatennogeturin) | 24 | ×3.96 | — |
+| [ムーンキメラの羽](/drops/moonkimeranohane) | 10 | ×1.5 | ブーメランが左右に分かれて3つ同時に飛ぶ |
 
 ## バニラ剣（5種） {#vanilla-sword}
 

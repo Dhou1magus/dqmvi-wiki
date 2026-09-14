@@ -1,12 +1,12 @@
 ---
 title: 防具一覧
-description: DQMVIの防具165種のデータ。兜・鎧・小手・服など、身につける装備。
+description: DQMVIの防具166種のデータ。兜・鎧・小手・服など、身につける装備。
 pageClass: wide-page sortable-list
 ---
 
 # 防具一覧
 
-## 頭（43種） {#head}
+## 頭（44種） {#head}
 
 | 防具 | 部位 | しゅび | 魔法しゅび | そのほか | 特殊効果 |
 | --- | :--: | ---: | ---: | --- | --- |
@@ -53,6 +53,7 @@ pageClass: wide-page sortable-list
 | [クイーンモーモンの冠](/drops/kuinmomonnokanmuri) | 頭 | ×1.2 | ×1.2 | HP ×1.1 | — |
 | [アルケミストンの帽子](/drops/arukemisutonnobousi) | 頭 | ×1.2 | ×1.2 | MP ×1.1 | — |
 | [スライムの冠(兜)](/items/suraimunokanmuri_k) | 頭 | ×1.12 | ×1.12 | — | — |
+| [しろバラのきしの兜](/drops/sirobaranokisinokabuto) | 頭 | ×1.2 | ×1.2 | こうげき ×1.1 | — |
 
 ## 胴（49種） {#body}
 
