@@ -1,6 +1,6 @@
 ---
 title: アクセサリー一覧
-description: DQMVIのアクセサリー117種のデータ。指輪・ピアス・首飾り・腕輪など、効果を足す小物。
+description: DQMVIのアクセサリー130種のデータ。指輪・ピアス・首飾り・腕輪など、効果を足す小物。
 pageClass: wide-page sortable-list
 ---
 
@@ -20,7 +20,7 @@ pageClass: wide-page sortable-list
 | [天使のピアス](/items/tensinopiasu) | ×1.02 | ×1.01 | ×1.05 | ×1.05 | ×1.05 | ×1.06 | — |
 | [星降るピアス](/items/hosifurupiasu) | ×1.01 | ×1.09 | ×1.02 | ×1.02 | ×1.02 | ×1.1 | — |
 | [真・星降るピアス](/items/hosifurupiasu2) | ×1.04 | ×1.14 | ×1.09 | ×1.09 | ×1.05 | ×1.24 | — |
-| [ももいろ三姉妹のピアス](/drops/momoirosansimainopiasu) | ×1.15 | — | — | — | — | — | — |
+| [ももいろ三姉妹のピアス](/drops/momoirosansimainopiasu) | ×1.15 | — | — | — | — | — | MP回復アイテムが1.5倍の回復量になる |
 | [ぐるぐるメガネ](/items/gurugurumegane) | — | ×1.05 | — | — | ×1.1 | ×1.1 | — |
 | [炎のイヤリング](/items/honoonoiyaring) | — | — | — | — | ×1.1 | — | — |
 | [光のイヤリング](/items/hikarinoiyaring) | — | — | — | — | ×1.1 | — | — |
@@ -32,7 +32,7 @@ pageClass: wide-page sortable-list
 | [雷のイヤリング](/items/kaminarinoiyaring) | — | — | — | — | ×1.1 | — | — |
 | [雷光のイヤリング](/items/raikounoiyaring) | — | — | — | — | ×1.1 | — | — |
 
-## 首（26種） {#neck}
+## 首（27種） {#neck}
 
 | アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -62,6 +62,7 @@ pageClass: wide-page sortable-list
 | [破毒のネックレス](/items/hadokunonekkuresu) | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | ×1.01 | — |
 | [破封のネックレス](/items/hafuunonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
 | [不惑のネックレス](/items/fuwakunonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
+| [タッチャンの首飾り](/drops/tattyannokubikazari) | ×1.15 | — | — | ×1.15 | — | — | 混乱にかからなくなる |
 
 ## 腕（14種） {#arm}
 
@@ -82,7 +83,7 @@ pageClass: wide-page sortable-list
 | [インテリのうでわ](/items/interinoudewa) | — | ×1.1 | — | — | ×1.05 | ×1.15 | — |
 | [命のブレスレット](/items/inotinoburesuretto) | ×1.15 | — | — | — | — | — | — |
 
-## 指（24種） {#finger}
+## 指（25種） {#finger}
 
 | アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -110,8 +111,9 @@ pageClass: wide-page sortable-list
 | [ワナ抜けの指輪](/items/wananukenoyubiwa) | — | — | — | — | — | — | — |
 | [きせきのゆびわ](/items/kisekinoyubiwa) | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | ×1.05 | — |
 | [はくあいのゆびわ](/items/hakuainoyubiwa) | ×1.1 | — | — | ×1.05 | ×1.05 | — | — |
+| [チョコヌーバの指輪](/drops/tyokonubanoyubiwa) | — | ×1.15 | — | — | — | ×1.15 | ボミエにかからなくなる |
 
-## その他（32種） {#other}
+## その他（43種） {#other}
 
 | アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -147,6 +149,17 @@ pageClass: wide-page sortable-list
 | [大地の竜玉](/items/daitinoryuugyoku) | ×1.3 | ×1.3 | ×1.3 | ×1.3 | ×1.3 | ×1.3 | — |
 | [暴走のカード](/items/bousounokado) | — | — | — | — | — | ×1.15 | — |
 | [竜のおまもり](/items/ryuunoomamori) | ×1.15 | — | ×1.05 | ×1.05 | — | — | — |
+| [つむりんママの貝殻](/drops/tumurinmama) | — | ×1.15 | — | — | — | ×1.15 | マホトーンにかからなくなる |
+| [ゴールデンコーンの角](/drops/gorudenkonnotuno) | — | — | ×1.15 | ×1.15 | ×1.15 | — | ゴールドの取得が10％増える |
+| [巨大ナスビナーラの髭](/drops/kyodainasubiranohige) | ×1.15 | — | — | ×1.15 | — | — | HP回復アイテムが1.5倍の回復量になる |
+| [ゲノミーの触手](/drops/genominosyokusyu) | — | — | — | — | ×1.15 | ×1.15 | 海で息が出来るようになる |
+| [グレイトドラゴン・雲の牙](/drops/gureitodoragonkumonokiba) | ×1.15 | — | ×1.15 | ×1.15 | — | — | ジャンプ力が上がる |
+| [ましょうぐものエキス](/drops/masyougumonoekisu) | — | ×1.15 | — | — | ×1.15 | ×1.15 | 落下速度がゆっくりになる |
+| [グランシーザーの髭](/drops/guransizanohige) | — | ×1.15 | ×1.15 | — | — | ×1.15 | ルカニにかからなくなる |
+| [タイプGの欠片](/drops/taipugnokakera) | ×1.15 | ×1.15 | — | ×1.15 | ×1.15 | — | — |
+| [フレアドラゴンのうろこ](/drops/fureadoragonnouroko) | ×1.15 | ×1.15 | ×1.15 | — | — | ×1.15 | — |
+| [ミュシャドの毛](/drops/myusyadonoke) | — | — | ×1.15 | ×1.15 | ×1.15 | ×1.15 | — |
+| [キングヒドラの頭](/drops/kinghidoranoatama) | — | — | ×1.15 | — | — | ×1.15 | — |
 
 ## 関連ページ
 
