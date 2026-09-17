@@ -1,6 +1,6 @@
 ---
 title: プラチナ
-description: DQMVIの「プラチナ」を落とすモンスター29体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
+description: DQMVIの「プラチナ」を落とすモンスター30体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
 pageClass: wide-page sortable-list
 prev:
   text: "ピンクボンボンの爪"
@@ -12,7 +12,7 @@ next:
 
 # プラチナ
 
-素材。**29体**のモンスターが落とします。
+素材。**30体**のモンスターが落とします。
 
 ::: tip ねらい目
 **グランスライム**（通常ドロップ・EXP333）。
@@ -29,6 +29,7 @@ next:
 | [カラミティサン](/monsters/karamithisan) | 通常 | 6 | [物質](/species/bussitu) | 1,156 | 399 |
 | [マーマンダイン](/monsters/mermandine) | 通常 | 6 | [自然](/species/sizen) | 1,183 | 450 |
 | [ブリザード](/monsters/burizado) | レア | 3 | [物質](/species/bussitu) | 85 | 90 |
+| [しびくらベス](/monsters/shibikurabes) | レア | 3 | [スライム](/species/slime) | 96 | 100 |
 | [だいおうイカ](/monsters/daiouika) | レア | 3 | [自然](/species/sizen) | 175 | 110 |
 | [スライムカルゴ](/monsters/snailslime) | レア | 3 | [スライム](/species/slime) | 159 | 117 |
 | [ジェリーマン](/monsters/jeriman) | レア | 4 | [自然](/species/sizen) | 182 | 148 |

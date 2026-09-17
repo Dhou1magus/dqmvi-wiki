@@ -1,6 +1,6 @@
 ---
 title: よごれた包帯
-description: DQMVIの「よごれた包帯」を落とすモンスター27体の一覧。いちばん弱いのはリリパット（通常・EXP33）。
+description: DQMVIの「よごれた包帯」を落とすモンスター29体の一覧。いちばん弱いのはリリパット（通常・EXP33）。
 pageClass: wide-page sortable-list
 prev:
   text: "やわらかウール"
@@ -12,7 +12,7 @@ next:
 
 # よごれた包帯
 
-素材。**27体**のモンスターが落とします。
+素材。**29体**のモンスターが落とします。
 
 ::: tip ねらい目
 **リリパット**（通常ドロップ・EXP33）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [リリパット](/monsters/riripat) | 通常 | 2 | [悪魔](/species/akuma) | 39 | 33 |
 | [メトロゴースト](/monsters/metoroghost) | 通常 | 2 | [ゾンビ](/species/zombie) | 45 | 38 |
+| [フェアリーバット](/monsters/fruity_succubat) | 通常 | 2 | [悪魔](/species/akuma) | 39 | 38 |
 | [どくイモムシ](/monsters/poison_caterpillar) | 通常 | 2 | [自然](/species/sizen) | 52 | 52 |
 | [ニードルマン](/monsters/ni_doruman) | 通常 | 2 | [物質](/species/bussitu) | 56 | 52 |
 | [マペットマン](/monsters/mapetman) | 通常 | 3 | [特殊](/species/tokusyu) | 97 | 86 |
@@ -36,8 +37,9 @@ next:
 | [シャーマン](/monsters/syaman) | 通常 | 3 | [ゾンビ](/species/zombie) | 115 | 142 |
 | [ドールマスター](/monsters/dollmaster) | 通常 | 5 | [特殊](/species/tokusyu) | 371 | 216 |
 | [しびれあげは](/monsters/sibireageha) | レア | 3 | [自然](/species/sizen) | 84 | 76 |
+| [しびれスライム](/monsters/shibileslime) | レア | 3 | [スライム](/species/slime) | 84 | 89 |
 | [ともしびこぞう](/monsters/tomosibikozou) | レア | 3 | [物質](/species/bussitu) | 83 | 90 |
-| [がいこつけんし](/monsters/gaikotsukenshi2) | レア | 3 | [ゾンビ](/species/zombie) | 155 | 123 |
+| [がいこつけんし2](/monsters/gaikotsukenshi2) | レア | 3 | [ゾンビ](/species/zombie) | 155 | 123 |
 | [バアラック](/monsters/barakku) | レア | 5 | [悪魔](/species/akuma) | 497 | 264 |
 | [ザバン](/monsters/zaban) | レア | 5 | [自然](/species/sizen) | 456 | 274 |
 | [ベルザブル](/monsters/berusaburu) | レア | 5 | [自然](/species/sizen) | 489 | 288 |

@@ -1,6 +1,6 @@
 ---
 title: まりょくの土
-description: DQMVIの「まりょくの土」を落とすモンスター36体の一覧。いちばん弱いのはホイミスライム（通常・EXP30）。
+description: DQMVIの「まりょくの土」を落とすモンスター38体の一覧。いちばん弱いのはホイミスライム（通常・EXP30）。
 pageClass: wide-page sortable-list
 prev:
   text: "まだらクモ糸"
@@ -12,7 +12,7 @@ next:
 
 # まりょくの土
 
-素材。**36体**のモンスターが落とします。
+素材。**38体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ホイミスライム**（通常ドロップ・EXP30）。
@@ -30,6 +30,7 @@ next:
 | [デスマドモアゼル](/monsters/desumadomoazeru) | 通常 | 2 | [物質](/species/bussitu) | 80 | 47 |
 | [たんすミミック](/monsters/tansu) | 通常 | 2 | [物質](/species/bussitu) | 57 | 51 |
 | [スライムコロネ](/monsters/goonachegoodie) | 通常 | 2 | [スライム](/species/slime) | 45 | 54 |
+| [デビルパイン](/monsters/devil_pineapple) | 通常 | 2 | [悪魔](/species/akuma) | 59 | 59 |
 | [ジャガーメイジ](/monsters/zyagameizi) | 通常 | 2 | [魔獣](/species/majyu) | 66 | 62 |
 | [げんじゅつし](/monsters/genjutusi) | 通常 | 3 | [悪魔](/species/akuma) | 75 | 72 |
 | [ピクシー](/monsters/pikusi) | 通常 | 4 | [悪魔](/species/akuma) | 178 | 147 |
@@ -38,7 +39,7 @@ next:
 | [シャドー](/monsters/syado) | レア | 2 | [物質](/species/bussitu) | 52 | 43 |
 | [さそりアーマー](/monsters/sasori_a_ma) | レア | 2 | [自然](/species/sizen) | 52 | 44 |
 | [ハエおとこ](/monsters/heotoko) | レア | 2 | [自然](/species/sizen) | 42 | 47 |
-| [じごくのハサミ](/monsters/jigoku_no_hasami2) | レア | 2 | [自然](/species/sizen) | 60 | 60 |
+| [じごくのハサミ2](/monsters/jigoku_no_hasami2) | レア | 2 | [自然](/species/sizen) | 60 | 60 |
 | [なげきムーン](/monsters/nagekimun) | レア | 2 | [物質](/species/bussitu) | 63 | 63 |
 | [メーダロード](/monsters/medarodo) | レア | 2 | [悪魔](/species/akuma) | 44 | 64 |
 | [デザートデーモン](/monsters/dezatodemon) | レア | 2 | [悪魔](/species/akuma) | 80 | 70 |
@@ -59,6 +60,7 @@ next:
 | [ミケまどう](/monsters/mikemadou) | レア | 3 | [魔獣](/species/majyu) | 1,014 | 1,980 |
 | [いたずらもぐら](/monsters/itamogu) | 超レア | 1 | [魔獣](/species/majyu) | 22 | 13 |
 | [ワンワンダック](/monsters/wanwanduck) | 超レア | 1 | [魔獣](/species/majyu) | 26 | 14 |
+| [たけやりへい](/monsters/takeyarihei) | 超レア | 1 | [物質](/species/bussitu) | 26 | 14 |
 
 見出しを押すと並べ替えできます。
 

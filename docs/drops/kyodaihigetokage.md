@@ -1,6 +1,6 @@
 ---
 title: 巨大ヒゲトカゲ
-description: DQMVIの「巨大ヒゲトカゲ」を落とすモンスター25体の一覧。いちばん弱いのはオベルジーヌ（通常・EXP81）。
+description: DQMVIの「巨大ヒゲトカゲ」を落とすモンスター27体の一覧。いちばん弱いのはオベルジーヌ（通常・EXP81）。
 pageClass: wide-page sortable-list
 prev:
   text: "巨大な牙"
@@ -12,7 +12,7 @@ next:
 
 # 巨大ヒゲトカゲ
 
-素材。**25体**のモンスターが落とします。
+素材。**27体**のモンスターが落とします。
 
 ::: tip ねらい目
 **オベルジーヌ**（通常ドロップ・EXP81）。
@@ -38,10 +38,12 @@ next:
 | [バルンバ](/monsters/balloon_ba) | レア | 5 | [ドラゴン](/species/dragon) | 546 | 335 |
 | [おばけうみうし](/monsters/obakeumiusi) | 超レア | 2 | [自然](/species/sizen) | 45 | 38 |
 | [ぬかどこスライム](/monsters/pickledslime) | 超レア | 2 | [スライム](/species/slime) | 45 | 42 |
-| [デスフラッター](/monsters/deathflutter2) | 超レア | 2 | [自然](/species/sizen) | 38 | 43 |
+| [デスフラッター2](/monsters/deathflutter2) | 超レア | 2 | [自然](/species/sizen) | 38 | 43 |
 | [おおさそり](/monsters/big_scorpion) | 超レア | 2 | [自然](/species/sizen) | 65 | 50 |
 | [ストーンスライム](/monsters/rubbleslime) | 超レア | 2 | [スライム](/species/slime) | 54 | 52 |
 | [しっぽ団のももんじゃ](/monsters/platypunk_shippodan) | 超レア | 2 | [魔獣](/species/majyu) | 67 | 55 |
+| [とうろうへい](/monsters/tourouhei) | 超レア | 2 | [物質](/species/bussitu) | 64 | 58 |
+| [デビルパイン](/monsters/devil_pineapple) | 超レア | 2 | [悪魔](/species/akuma) | 59 | 59 |
 | [ベロベロ](/monsters/berobero) | 超レア | 3 | [ゾンビ](/species/zombie) | 80 | 82 |
 | [モコモコじゅう](/monsters/mokomokojuu) | 超レア | 4 | [魔獣](/species/majyu) | 148 | 140 |
 | [ホーンビートル](/monsters/hornbeet) | 超レア | 4 | [自然](/species/sizen) | 215 | 180 |

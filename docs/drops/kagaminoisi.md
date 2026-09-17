@@ -1,6 +1,6 @@
 ---
 title: かがみの石
-description: DQMVIの「かがみの石」を落とすモンスター38体の一覧。いちばん弱いのはさそりアーマー（通常・EXP44）。
+description: DQMVIの「かがみの石」を落とすモンスター39体の一覧。いちばん弱いのはさそりアーマー（通常・EXP44）。
 pageClass: wide-page sortable-list
 prev:
   text: "オリハルコン合金"
@@ -12,7 +12,7 @@ next:
 
 # かがみの石
 
-素材。**38体**のモンスターが落とします。
+素材。**39体**のモンスターが落とします。
 
 ::: tip ねらい目
 **さそりアーマー**（通常ドロップ・EXP44）。
@@ -31,6 +31,7 @@ next:
 | [まおうのつかい](/monsters/maounotsukai) | 通常 | 4 | [ゾンビ](/species/zombie) | 184 | 191 |
 | [めいふのばんにん](/monsters/meifunobannin) | 通常 | 4 | [物質](/species/bussitu) | 204 | 193 |
 | [まじゅつし](/monsters/majutusi) | レア | 2 | [悪魔](/species/akuma) | 45 | 38 |
+| [スラミチ](/monsters/suramithi) | レア | 3 | [スライム](/species/slime) | 75 | 87 |
 | [スライムボーグ](/monsters/suraimubogu) | レア | 3 | [スライム](/species/slime) | 80 | 89 |
 | [あくま神官](/monsters/akumasinkan) | レア | 3 | [悪魔](/species/akuma) | 94 | 92 |
 | [メイデンドール](/monsters/meidendo_ru) | レア | 3 | [物質](/species/bussitu) | 106 | 101 |
@@ -59,8 +60,8 @@ next:
 | [かいぞくウーパー](/monsters/kaizokuupa) | 超レア | 4 | [自然](/species/sizen) | 170 | 145 |
 | [キングスライムもどき](/monsters/suraimuking) | 超レア | 4 | [スライム](/species/slime) | 198 | 148 |
 | [テンタコルス](/monsters/tentakorusu) | 超レア | 4 | [自然](/species/sizen) | 190 | 155 |
-| [リトルライバーン](/monsters/ritoruraiba) | 超レア | 4 | [ドラゴン](/species/dragon) | 192 | 155 |
 | [たこまじん](/monsters/takomajin) | 超レア | 4 | [自然](/species/sizen) | 175 | 159 |
+| [ヘルダイバー](/monsters/abyssdiver) | 超レア | 4 | [ドラゴン](/species/dragon) | 184 | 166 |
 
 見出しを押すと並べ替えできます。
 

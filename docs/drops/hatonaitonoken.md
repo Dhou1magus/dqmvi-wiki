@@ -3,11 +3,11 @@ title: ハートナイトの剣
 description: ハートナイトの剣
 pageClass: wide-page sortable-list
 prev:
-  text: "マーブルンの尻尾"
-  link: /drops/maburunnosippo
+  text: "のろいの岩の槍"
+  link: /drops/noroiiwanoyari
 next:
-  text: "キラートーチのトーチ"
-  link: /drops/kiratotinototi
+  text: "はがねの尾羽"
+  link: /drops/haganenoobane
 ---
 
 # ハートナイトの剣

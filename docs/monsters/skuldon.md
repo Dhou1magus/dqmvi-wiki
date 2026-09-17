@@ -5,7 +5,7 @@ prev:
   text: "グレイトライドン"
   link: /monsters/greatridon
 next:
-  text: "ダースドラゴン"
+  text: "ダースドラゴン2"
   link: /monsters/darthdragon2
 ---
 
@@ -30,7 +30,7 @@ EXP | 389
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 431 |
+| 図鑑No. | 458 |
 | ランク | 5 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

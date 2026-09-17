@@ -1,6 +1,6 @@
 ---
 title: リサイクルストーン
-description: DQMVIの「リサイクルストーン」を落とすモンスター27体の一覧。いちばん弱いのはパペットこぞう（通常・EXP39）。
+description: DQMVIの「リサイクルストーン」を落とすモンスター29体の一覧。いちばん弱いのはパペットこぞう（通常・EXP39）。
 pageClass: wide-page sortable-list
 prev:
   text: "ライアンのよろい"
@@ -12,7 +12,7 @@ next:
 
 # リサイクルストーン
 
-素材。**27体**のモンスターが落とします。
+素材。**29体**のモンスターが落とします。
 
 ::: tip ねらい目
 **パペットこぞう**（通常ドロップ・EXP39）。
@@ -33,6 +33,7 @@ next:
 | [トラップボックス](/monsters/torappubokkusu) | 通常 | 3 | [物質](/species/bussitu) | 87 | 82 |
 | [スライムボーグ](/monsters/suraimubogu) | 通常 | 3 | [スライム](/species/slime) | 80 | 89 |
 | [おおくちばし](/monsters/ookutibasi) | 通常 | 3 | [自然](/species/sizen) | 96 | 92 |
+| [じごくのたまねぎ](/monsters/zigokunotamanegi) | 通常 | 3 | [自然](/species/sizen) | 75 | 92 |
 | [ボックススライムグリーン](/monsters/boxsuraimu_midori) | 通常 | 3 | [スライム](/species/slime) | 100 | 95 |
 | [パプリカン](/monsters/papurikan) | 通常 | 3 | [自然](/species/sizen) | 88 | 98 |
 | [カパーラナーガ](/monsters/kaparanaga) | 通常 | 3 | [ゾンビ](/species/zombie) | 143 | 100 |
@@ -50,6 +51,7 @@ next:
 | [ばくだんいわ](/monsters/bakudaniwa) | レア | 5 | [物質](/species/bussitu) | 371 | 229 |
 | [ファーラット](/monsters/faratto) | 超レア | 1 | [魔獣](/species/majyu) | 24 | 11 |
 | [はさみくわがた](/monsters/scissorbeatle) | 超レア | 1 | [自然](/species/sizen) | 26 | 14 |
+| [パペットこぞう](/monsters/papetkozou) | 超レア | 2 | [特殊](/species/tokusyu) | 43 | 39 |
 
 見出しを押すと並べ替えできます。
 

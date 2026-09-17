@@ -1,6 +1,6 @@
 ---
 title: まだらクモ糸
-description: DQMVIの「まだらクモ糸」を落とすモンスター10体の一覧。いちばん弱いのはギズモ1（通常・EXP12）。
+description: DQMVIの「まだらクモ糸」を落とすモンスター11体の一覧。いちばん弱いのはギズモ1（通常・EXP12）。
 pageClass: wide-page sortable-list
 prev:
   text: "まじんのかなづち"
@@ -12,7 +12,7 @@ next:
 
 # まだらクモ糸
 
-素材。**10体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ギズモ1**（通常ドロップ・EXP12）。
@@ -26,6 +26,7 @@ next:
 | [ギズモ1](/monsters/gizumo_az) | 通常 | 1 | [物質](/species/bussitu) | 22 | 12 |
 | [フロストギズモ2](/monsters/furosutogizumo) | 通常 | 3 | [物質](/species/bussitu) | 82 | 82 |
 | [ホロゴースト](/monsters/horoghost) | 通常 | 4 | [物質](/species/bussitu) | 182 | 141 |
+| [ふゆぐんそう](/monsters/fuyugunsou) | 通常 | 4 | [物質](/species/bussitu) | 171 | 144 |
 | [ボーンプリズナー](/monsters/bonpurizuna) | 通常 | 4 | [ゾンビ](/species/zombie) | 232 | 172 |
 | [ボーンナイト](/monsters/boneknight) | 通常 | 4 | [ゾンビ](/species/zombie) | 192 | 183 |
 | [ギズモ2](/monsters/gizumo) | レア | 1 | [物質](/species/bussitu) | 22 | 12 |

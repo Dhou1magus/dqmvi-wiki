@@ -1,6 +1,6 @@
 ---
 title: 花のみつ
-description: DQMVIの「花のみつ」を落とすモンスター13体の一覧。いちばん弱いのはぶちスライム（通常・EXP4）。
+description: DQMVIの「花のみつ」を落とすモンスター14体の一覧。いちばん弱いのはぶちスライム（通常・EXP4）。
 pageClass: wide-page sortable-list
 prev:
   text: "わんぱくサタンのスプーン"
@@ -12,7 +12,7 @@ next:
 
 # 花のみつ
 
-素材。**13体**のモンスターが落とします。
+素材。**14体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ぶちスライム**（通常ドロップ・EXP4）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ぶちスライム](/monsters/butisuraimu) | 通常 | 1 | [スライム](/species/slime) | 8 | 4 |
 | [カバシラー](/monsters/swarmtroop) | 通常 | 1 | [自然](/species/sizen) | 12 | 6 |
+| [オニオーン](/monsters/onioon) | 通常 | 1 | [自然](/species/sizen) | 12 | 7 |
 | [マンドラ](/monsters/mandora) | 通常 | 1 | [スライム](/species/slime) | 15 | 9 |
 | [メーダ](/monsters/meda) | 通常 | 1 | [悪魔](/species/akuma) | 16 | 13 |
 | [ナイトウイプス](/monsters/naitouipusu) | レア | 1 | [ゾンビ](/species/zombie) | 20 | 9 |

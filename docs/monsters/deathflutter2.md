@@ -1,15 +1,15 @@
 ---
-title: デスフラッター
-description: DQMVIのモンスター「デスフラッター」のステータス。HP38 / こうげき22 / しゅび16 / 経験値43 / 8G。
+title: デスフラッター2
+description: DQMVIのモンスター「デスフラッター2」のステータス。HP38 / こうげき22 / しゅび16 / 経験値43 / 8G。
 prev:
-  text: "ピクシー"
+  text: "ピクシー2"
   link: /monsters/pikusi2
 next:
   text: "どくイモムシ"
   link: /monsters/poison_caterpillar
 ---
 
-# デスフラッター
+# デスフラッター2
 
 ランク2のモンスター。
 
@@ -30,7 +30,7 @@ EXP | 43
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 108 |
+| 図鑑No. | 113 |
 | ランク | 2 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

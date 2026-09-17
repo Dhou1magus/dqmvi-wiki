@@ -3,11 +3,11 @@ title: のろいの岩の槍
 description: のろいの岩の槍
 pageClass: wide-page sortable-list
 prev:
-  text: "レッドアーチャーの弓"
-  link: /drops/redatyanoyumi
+  text: "ねばねばゼリー"
+  link: /drops/nebanebazeri
 next:
-  text: "にくきゅうの杖"
-  link: /drops/nikukyuunotue
+  text: "ハートナイトの剣"
+  link: /drops/hatonaitonoken
 ---
 
 # のろいの岩の槍

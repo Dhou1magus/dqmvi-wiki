@@ -44,6 +44,8 @@ EXP | 14
 | 通常ドロップ | [スライムゼリー](/drops/suraimuzeri) |
 | レアドロップ | [花のみつ](/drops/hananomitu) |
 | 超レアドロップ | [スライムおしゃれ花](/drops/suraimuosyarebana) |
+| オブジェ | はねスライムのオブジェ |
+| フィギュア | はねスライムのフィギュア |
 
 ## 使う呪文
 

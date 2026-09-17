@@ -2,7 +2,7 @@
 title: たこまじん
 description: DQMVIのモンスター「たこまじん」のステータス。HP175 / こうげき93 / しゅび75 / 経験値159 / 32G。
 prev:
-  text: "キラークラブ"
+  text: "キラークラブ2"
   link: /monsters/killer_crab2
 next:
   text: "キングマーマン"
@@ -30,7 +30,7 @@ EXP | 159
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 329 |
+| 図鑑No. | 351 |
 | ランク | 4 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

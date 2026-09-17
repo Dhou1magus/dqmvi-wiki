@@ -5,8 +5,8 @@ prev:
   text: "メタルドラゴン"
   link: /monsters/metarudoragon
 next:
-  text: "リトルライバーン"
-  link: /monsters/ritoruraiba
+  text: "プロトキラー"
+  link: /monsters/protokira
 ---
 
 # アイアンクック
@@ -30,7 +30,7 @@ EXP | 166
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 334 |
+| 図鑑No. | 356 |
 | ランク | 4 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

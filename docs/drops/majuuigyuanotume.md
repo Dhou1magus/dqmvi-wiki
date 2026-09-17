@@ -3,11 +3,11 @@ title: 魔獣イギュアの爪
 description: 魔獣イギュアの爪
 pageClass: wide-page sortable-list
 prev:
-  text: "りゅうおうもどきの尻尾"
-  link: /drops/ryuuoumodokinosippo
+  text: "魔界のつるぎ"
+  link: /drops/makainoturugi
 next:
-  text: "スライダークロボの剣"
-  link: /drops/suraidakurobonoken
+  text: "万能薬"
+  link: /drops/bannouyaku
 ---
 
 # 魔獣イギュアの爪

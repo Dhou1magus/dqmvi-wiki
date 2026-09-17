@@ -1,6 +1,6 @@
 ---
 title: 聖者の灰
-description: DQMVIの「聖者の灰」を落とすモンスター11体の一覧。いちばん弱いのはゴースト（通常・EXP35）。
+description: DQMVIの「聖者の灰」を落とすモンスター12体の一覧。いちばん弱いのはゴースト（通常・EXP35）。
 pageClass: wide-page sortable-list
 prev:
   text: "聖銀の拳"
@@ -12,7 +12,7 @@ next:
 
 # 聖者の灰
 
-素材。**11体**のモンスターが落とします。
+素材。**12体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ゴースト**（通常ドロップ・EXP35）。
@@ -25,10 +25,11 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ゴースト](/monsters/ghost) | 通常 | 2 | [ゾンビ](/species/zombie) | 39 | 35 |
 | [ベビーサタン](/monsters/bebisatan) | レア | 2 | [悪魔](/species/akuma) | 50 | 38 |
-| [ピクシー](/monsters/pikusi2) | レア | 2 | [悪魔](/species/akuma) | 45 | 41 |
+| [ピクシー2](/monsters/pikusi2) | レア | 2 | [悪魔](/species/akuma) | 45 | 41 |
 | [デスマドモアゼル](/monsters/desumadomoazeru) | レア | 2 | [物質](/species/bussitu) | 80 | 47 |
 | [くしざしツインズ](/monsters/kusizasituinzu) | レア | 2 | [自然](/species/sizen) | 63 | 55 |
 | [デビルアーマー](/monsters/debiruaamaa) | レア | 2 | [物質](/species/bussitu) | 66 | 58 |
+| [とうろうへい](/monsters/tourouhei) | レア | 2 | [物質](/species/bussitu) | 64 | 58 |
 | [ジャガーメイジ](/monsters/zyagameizi) | レア | 2 | [魔獣](/species/majyu) | 66 | 62 |
 | [しのどれい](/monsters/sinodorei) | レア | 2 | [ゾンビ](/species/zombie) | 72 | 65 |
 | [ぼうれい剣士](/monsters/boureikensi) | レア | 5 | [ゾンビ](/species/zombie) | 490 | 270 |

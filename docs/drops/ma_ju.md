@@ -1,6 +1,6 @@
 ---
 title: 貴重なレシピ(魔、呪)
-description: DQMVIの「貴重なレシピ(魔、呪)」を落とすモンスター11体の一覧。いちばん弱いのはメタルスター（レア・EXP700,000）。
+description: DQMVIの「貴重なレシピ(魔、呪)」を落とすモンスター10体の一覧。いちばん弱いのはメタルスター（レア・EXP700,000）。
 pageClass: wide-page sortable-list
 prev:
   text: "貴重なレシピ(防具)"
@@ -12,7 +12,7 @@ next:
 
 # 貴重なレシピ(魔、呪)
 
-素材。**11体**のモンスターが落とします。
+素材。**10体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メタルスター**（レアドロップ・EXP700,000）。
@@ -27,7 +27,6 @@ next:
 | [ほうおう](/monsters/houou) | 超レア | 7 | [魔獣](/species/majyu) | 1,809 | 588 |
 | [ダースギズモ](/monsters/dgizumo) | 超レア | 7 | [物質](/species/bussitu) | 1,785 | 593 |
 | [リューイーソー](/monsters/ryuiso) | 超レア | 7 | [ゾンビ](/species/zombie) | 1,875 | 628 |
-| [スラ・ブラスター](/monsters/slimeblaster) | 超レア | 7 | [スライム](/species/slime) | 1,790 | 632 |
 | [デビルロード](/monsters/debirurodo) | 超レア | 7 | [悪魔](/species/akuma) | 1,725 | 661 |
 | [ロイヤルブルーム](/monsters/roiyaruburumu) | 超レア | 7 | [自然](/species/sizen) | 2,122 | 700 |
 | [ヘルガーディアン](/monsters/herugadexian) | 超レア | 7 | [悪魔](/species/akuma) | 2,350 | 711 |

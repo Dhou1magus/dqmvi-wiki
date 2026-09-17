@@ -1,6 +1,6 @@
 ---
 title: はがねの尾羽
-description: DQMVIの「はがねの尾羽」を落とすモンスター22体の一覧。いちばん弱いのはきとうし（通常・EXP80）。
+description: DQMVIの「はがねの尾羽」を落とすモンスター24体の一覧。いちばん弱いのはきとうし（通常・EXP80）。
 pageClass: wide-page sortable-list
 prev:
   text: "ハートナイトの剣"
@@ -12,7 +12,7 @@ next:
 
 # はがねの尾羽
 
-素材。**22体**のモンスターが落とします。
+素材。**24体**のモンスターが落とします。
 
 ::: tip ねらい目
 **きとうし**（通常ドロップ・EXP80）。
@@ -34,10 +34,12 @@ next:
 | [ガップリン](/monsters/gappurin) | レア | 4 | [自然](/species/sizen) | 176 | 151 |
 | [ジェントルダンス](/monsters/zyentorudansu) | レア | 6 | [悪魔](/species/akuma) | 1,031 | 350 |
 | [パペットマン](/monsters/papettoman) | レア | 6 | [物質](/species/bussitu) | 840 | 357 |
+| [タホドラキー](/monsters/tahodoraki) | 超レア | 3 | [悪魔](/species/akuma) | 72 | 81 |
 | [ホイップスライム](/monsters/whipslime) | 超レア | 3 | [スライム](/species/slime) | 151 | 108 |
 | [ピーチスライム](/monsters/peachslime) | 超レア | 3 | [スライム](/species/slime) | 157 | 125 |
 | [ケダモン](/monsters/kedamon) | 超レア | 4 | [魔獣](/species/majyu) | 178 | 142 |
 | [モビルヘッド](/monsters/mobiruheddo) | 超レア | 4 | [物質](/species/bussitu) | 134 | 142 |
+| [ガップリン](/monsters/gappurin) | 超レア | 4 | [自然](/species/sizen) | 176 | 151 |
 | [メイジドラキー](/monsters/meijidoraki) | 超レア | 4 | [悪魔](/species/akuma) | 176 | 156 |
 | [メーダクイン](/monsters/medakuin) | 超レア | 4 | [悪魔](/species/akuma) | 165 | 166 |
 | [アサシンブラッド](/monsters/assassinblood) | 超レア | 4 | [物質](/species/bussitu) | 186 | 167 |

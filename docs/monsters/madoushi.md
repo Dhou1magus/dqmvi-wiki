@@ -2,7 +2,7 @@
 title: まどうし
 description: DQMVIのモンスター「まどうし」のステータス。HP78 / こうげき32 / しゅび18 / 経験値102 / 24G。
 prev:
-  text: "うらぎりこぞう"
+  text: "うらぎりこぞう2"
   link: /monsters/uragirikozou2
 next:
   text: "かえんムカデ"
@@ -30,7 +30,7 @@ EXP | 102
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 213 |
+| 図鑑No. | 226 |
 | ランク | 3 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

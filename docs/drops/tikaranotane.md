@@ -1,11 +1,13 @@
 ---
 title: 力の種
 description: DQMVIの「力の種」を落とすモンスター1体の一覧。いちばん弱いのはひとくいサーベル（超レア・EXP47）。
-pageClass: wide-page sortable-list
+pageClass: wide-page sortable-list false
 prev:
   text: "竜騎士の鎧"
   link: /drops/ryuukisinoyoroi
-next: false
+next:
+  text: "ライバーンリング"
+  link: /drops/raibanringu
 ---
 
 # 力の種

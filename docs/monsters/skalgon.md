@@ -5,7 +5,7 @@ prev:
   text: "カパーラナーガ"
   link: /monsters/kaparanaga
 next:
-  text: "ドラゴン"
+  text: "ドラゴン2"
   link: /monsters/dragon2
 ---
 
@@ -30,7 +30,7 @@ EXP | 145
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 210 |
+| 図鑑No. | 223 |
 | ランク | 3 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

@@ -1,6 +1,6 @@
 ---
 title: ヘビのぬけがら
-description: DQMVIの「ヘビのぬけがら」を落とすモンスター15体の一覧。いちばん弱いのはおばけうみうし（通常・EXP38）。
+description: DQMVIの「ヘビのぬけがら」を落とすモンスター19体の一覧。いちばん弱いのはおばけうみうし（通常・EXP38）。
 pageClass: wide-page sortable-list
 prev:
   text: "ヘビーメタル"
@@ -12,7 +12,7 @@ next:
 
 # ヘビのぬけがら
 
-素材。**15体**のモンスターが落とします。
+素材。**19体**のモンスターが落とします。
 
 ::: tip ねらい目
 **おばけうみうし**（通常ドロップ・EXP38）。
@@ -24,15 +24,19 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [おばけうみうし](/monsters/obakeumiusi) | 通常 | 2 | [自然](/species/sizen) | 45 | 38 |
-| [デスフラッター](/monsters/deathflutter2) | 通常 | 2 | [自然](/species/sizen) | 38 | 43 |
+| [デスフラッター2](/monsters/deathflutter2) | 通常 | 2 | [自然](/species/sizen) | 38 | 43 |
+| [首長竜](/monsters/kubinagadraco) | 通常 | 2 | [ドラゴン](/species/dragon) | 58 | 49 |
 | [メラリザード](/monsters/merazado) | 通常 | 2 | [ドラゴン](/species/dragon) | 53 | 62 |
 | [メーダロード](/monsters/medarodo) | 通常 | 2 | [悪魔](/species/akuma) | 44 | 64 |
 | [フーセンドラゴン](/monsters/fu_sen_dragon) | 通常 | 3 | [ドラゴン](/species/dragon) | 155 | 107 |
+| [ブラッドレディ](/monsters/vampire_succubat) | 通常 | 3 | [悪魔](/species/akuma) | 151 | 128 |
 | [ぶっちズッキーニャ](/monsters/buttizukinya) | 通常 | 4 | [自然](/species/sizen) | 168 | 146 |
+| [おばけうみうし](/monsters/obakeumiusi) | レア | 2 | [自然](/species/sizen) | 45 | 38 |
 | [ボル](/monsters/boru) | レア | 2 | [物質](/species/bussitu) | 45 | 42 |
+| [デスフラッター2](/monsters/deathflutter2) | レア | 2 | [自然](/species/sizen) | 38 | 43 |
 | [ダックスビル](/monsters/ducksbill) | レア | 3 | [魔獣](/species/majyu) | 83 | 84 |
 | [ドラキーマ](/monsters/dorakima) | レア | 3 | [悪魔](/species/akuma) | 98 | 85 |
-| [うらぎりこぞう](/monsters/uragirikozou2) | レア | 3 | [悪魔](/species/akuma) | 90 | 95 |
+| [うらぎりこぞう2](/monsters/uragirikozou2) | レア | 3 | [悪魔](/species/akuma) | 90 | 95 |
 | [おにぎりスライム](/monsters/onigirislime) | レア | 3 | [スライム](/species/slime) | 156 | 121 |
 | [ガチャコッコ](/monsters/gatyakokko) | レア | 3 | [物質](/species/bussitu) | 166 | 145 |
 | [ケムンクルス](/monsters/kemunkurusu) | レア | 6 | [悪魔](/species/akuma) | 848 | 314 |

@@ -1,6 +1,6 @@
 ---
 title: 鋼の剣
-description: DQMVIの「鋼の剣」を落とすモンスター11体の一覧。いちばん弱いのはデスセイレス（超レア・EXP97）。
+description: DQMVIの「鋼の剣」を落とすモンスター12体の一覧。いちばん弱いのはしびれスライム（超レア・EXP89）。
 pageClass: wide-page sortable-list
 prev:
   text: "鋼の鎧"
@@ -12,10 +12,10 @@ next:
 
 # 鋼の剣
 
-武器。**11体**のモンスターが落とします。
+武器。**12体**のモンスターが落とします。
 
 ::: tip ねらい目
-**デスセイレス**（超レアドロップ・EXP97）。
+**しびれスライム**（超レアドロップ・EXP89）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -34,12 +34,13 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [しびれスライム](/monsters/shibileslime) | 超レア | 3 | [スライム](/species/slime) | 84 | 89 |
 | [デスセイレス](/monsters/desuseiresu) | 超レア | 3 | [悪魔](/species/akuma) | 102 | 97 |
 | [どれいへいし](/monsters/doreiheisi) | 超レア | 3 | [ゾンビ](/species/zombie) | 144 | 98 |
 | [スライムナイト](/monsters/suraimunaito) | 超レア | 3 | [スライム](/species/slime) | 98 | 99 |
 | [ボーンファイター](/monsters/bonfaita) | 超レア | 3 | [ゾンビ](/species/zombie) | 146 | 107 |
 | [プリンスライム](/monsters/puddingslime) | 超レア | 3 | [スライム](/species/slime) | 160 | 114 |
-| [ガニラス](/monsters/ganiras2) | 超レア | 3 | [自然](/species/sizen) | 135 | 115 |
+| [ガニラス2](/monsters/ganiras2) | 超レア | 3 | [自然](/species/sizen) | 135 | 115 |
 | [スライムカルゴ](/monsters/snailslime) | 超レア | 3 | [スライム](/species/slime) | 159 | 117 |
 | [りゅうせんし](/monsters/mandrake_marauder) | 超レア | 3 | [ドラゴン](/species/dragon) | 145 | 121 |
 | [ベリースライム](/monsters/berryslime) | 超レア | 3 | [スライム](/species/slime) | 148 | 126 |

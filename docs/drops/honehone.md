@@ -1,6 +1,6 @@
 ---
 title: ホネホネ
-description: DQMVIの「ホネホネ」を落とすモンスター7体の一覧。いちばん弱いのはがいこつ（通常・EXP163）。
+description: DQMVIの「ホネホネ」を落とすモンスター10体の一覧。いちばん弱いのはがいこつ（通常・EXP163）。
 pageClass: wide-page sortable-list
 prev:
   text: "ほしふる腕輪"
@@ -12,7 +12,7 @@ next:
 
 # ホネホネ
 
-素材。**7体**のモンスターが落とします。
+素材。**10体**のモンスターが落とします。
 
 ::: tip ねらい目
 **がいこつ**（通常ドロップ・EXP163）。
@@ -29,6 +29,9 @@ next:
 | [しりょう](/monsters/siryou) | 通常 | 5 | [ゾンビ](/species/zombie) | 378 | 246 |
 | [メラゴースト](/monsters/meragosuto) | レア | 2 | [ゾンビ](/species/zombie) | 36 | 34 |
 | [おばけキャンドル](/monsters/obakekyandoru) | レア | 2 | [物質](/species/bussitu) | 37 | 42 |
+| [がいこつけんし](/monsters/gaikotukensi) | レア | 5 | [ゾンビ](/species/zombie) | 329 | 225 |
+| [メタルリザード](/monsters/metarurizaado) | レア | 2 | [メタル](/species/metal) | 8 | 3,366 |
+| [くらやみハーピー](/monsters/succubat) | 超レア | 1 | [悪魔](/species/akuma) | 26 | 13 |
 | [つちわらし](/monsters/tutiwarasi) | 超レア | 1 | [ゾンビ](/species/zombie) | 25 | 14 |
 
 見出しを押すと並べ替えできます。

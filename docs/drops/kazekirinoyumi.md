@@ -1,6 +1,6 @@
 ---
 title: 風切りの弓
-description: DQMVIの「風切りの弓」を落とすモンスター3体の一覧。いちばん弱いのはグール（超レア・EXP142）。
+description: DQMVIの「風切りの弓」を落とすモンスター4体の一覧。いちばん弱いのはグール（超レア・EXP142）。
 pageClass: wide-page sortable-list
 prev:
   text: "風切りの羽根"
@@ -12,7 +12,7 @@ next:
 
 # 風切りの弓
 
-武器。**3体**のモンスターが落とします。
+武器。**4体**のモンスターが落とします。
 
 ::: tip ねらい目
 **グール**（超レアドロップ・EXP142）。
@@ -37,6 +37,7 @@ next:
 | [グール](/monsters/guru) | 超レア | 4 | [ゾンビ](/species/zombie) | 180 | 142 |
 | [アローインプ](/monsters/aroinpu) | 超レア | 4 | [悪魔](/species/akuma) | 178 | 154 |
 | [ディアブラダ](/monsters/dexiaburada) | 超レア | 4 | [悪魔](/species/akuma) | 161 | 156 |
+| [おばけトマト](/monsters/obaketomato) | 超レア | 4 | [自然](/species/sizen) | 171 | 164 |
 
 見出しを押すと並べ替えできます。
 

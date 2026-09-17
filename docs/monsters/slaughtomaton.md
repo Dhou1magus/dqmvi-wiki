@@ -2,11 +2,11 @@
 title: デスマシーン
 description: DQMVIのモンスター「デスマシーン」のステータス。
 prev:
-  text: "ホーリーキング"
-  link: /monsters/hollyking
+  text: "ゴーストベリー"
+  link: /monsters/ghostberry
 next:
-  text: "吹雪の魔女"
-  link: /monsters/hubukinomajyo
+  text: "ファイアボール"
+  link: /monsters/huxaiabooru
 ---
 
 # デスマシーン
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 464 |
+| 図鑑No. | 506 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

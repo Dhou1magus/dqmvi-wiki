@@ -3,11 +3,11 @@ title: とげこんぼうの棍棒
 description: とげこんぼうの棍棒
 pageClass: wide-page sortable-list
 prev:
-  text: "キラーパイクのピッケル"
-  link: /drops/kirapaikunopikeru
+  text: "どくどくヘドロ"
+  link: /drops/dokudokuhedoro
 next:
-  text: "サボテンゴールドの棘"
-  link: /drops/sabotengoldnotoge
+  text: "トゲトゲの牙"
+  link: /drops/togetogenokiba
 ---
 
 # とげこんぼうの棍棒

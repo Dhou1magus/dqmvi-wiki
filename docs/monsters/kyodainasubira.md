@@ -5,8 +5,8 @@ prev:
   text: "ゴールデンコーン"
   link: /monsters/gorudenkon
 next:
-  text: "メタルパール"
-  link: /monsters/metalpearl
+  text: "メタルリザード"
+  link: /monsters/metarurizaado
 ---
 
 # 巨大ナスビナーラ
@@ -30,7 +30,7 @@ EXP | 879
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 160 |
+| 図鑑No. | 171 |
 | ランク | 2 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 夜のみ |
@@ -44,6 +44,8 @@ EXP | 879
 | 通常ドロップ | [巨大ナスビナーラの髭](/drops/kyodainasubiranohige) |
 | レアドロップ | 巨大ナスビナーラのオブジェ |
 | 超レアドロップ | 巨大ナスビナーラのフィギュア |
+| オブジェ | 巨大ナスビナーラのオブジェ |
+| フィギュア | 巨大ナスビナーラのフィギュア |
 
 ## 使う呪文
 

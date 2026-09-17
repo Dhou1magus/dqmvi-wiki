@@ -1,6 +1,6 @@
 ---
 title: 呪力のモト
-description: DQMVIの「呪力のモト」を落とすモンスター48体の一覧。いちばん弱いのはプリズニャン（通常・EXP72）。
+description: DQMVIの「呪力のモト」を落とすモンスター50体の一覧。いちばん弱いのはプリズニャン（通常・EXP72）。
 pageClass: wide-page sortable-list
 prev:
   text: "狩人の弓"
@@ -12,7 +12,7 @@ next:
 
 # 呪力のモト
 
-素材。**48体**のモンスターが落とします。
+素材。**50体**のモンスターが落とします。
 
 ::: tip ねらい目
 **プリズニャン**（通常ドロップ・EXP72）。
@@ -37,7 +37,7 @@ next:
 | [コロネホワイト](/monsters/pastypastry) | 通常 | 4 | [スライム](/species/slime) | 193 | 148 |
 | [デュラハーン](/monsters/durahan) | 通常 | 4 | [悪魔](/species/akuma) | 211 | 165 |
 | [しのさそり](/monsters/death_scorpion) | 通常 | 4 | [自然](/species/sizen) | 203 | 174 |
-| [キラークラブ](/monsters/killer_crab2) | 通常 | 4 | [自然](/species/sizen) | 182 | 175 |
+| [キラークラブ2](/monsters/killer_crab2) | 通常 | 4 | [自然](/species/sizen) | 182 | 175 |
 | [バアラック](/monsters/barakku) | 通常 | 5 | [悪魔](/species/akuma) | 497 | 264 |
 | [まおうのランプ](/monsters/annihilantern) | 通常 | 5 | [物質](/species/bussitu) | 435 | 264 |
 | [ザバン](/monsters/zaban) | 通常 | 5 | [自然](/species/sizen) | 456 | 274 |
@@ -55,7 +55,7 @@ next:
 | [まかいファイター](/monsters/commandragor) | レア | 5 | [ドラゴン](/species/dragon) | 555 | 304 |
 | [バル](/monsters/baru) | 超レア | 2 | [物質](/species/bussitu) | 36 | 40 |
 | [シャドー](/monsters/syado) | 超レア | 2 | [物質](/species/bussitu) | 52 | 43 |
-| [じごくのハサミ](/monsters/jigoku_no_hasami2) | 超レア | 2 | [自然](/species/sizen) | 60 | 60 |
+| [じごくのハサミ2](/monsters/jigoku_no_hasami2) | 超レア | 2 | [自然](/species/sizen) | 60 | 60 |
 | [なげきムーン](/monsters/nagekimun) | 超レア | 2 | [物質](/species/bussitu) | 63 | 63 |
 | [メーダロード](/monsters/medarodo) | 超レア | 2 | [悪魔](/species/akuma) | 44 | 64 |
 | [デザートデーモン](/monsters/dezatodemon) | 超レア | 2 | [悪魔](/species/akuma) | 80 | 70 |
@@ -67,7 +67,9 @@ next:
 | [スパイクヘッド](/monsters/supaikuheddo) | 超レア | 3 | [物質](/species/bussitu) | 141 | 123 |
 | [ベンガルクーン](/monsters/bengarukun) | 超レア | 3 | [魔獣](/species/majyu) | 98 | 128 |
 | [マヒャドフライ](/monsters/mahyadofurai) | 超レア | 3 | [自然](/species/sizen) | 122 | 137 |
+| [ブチュチュンパ](/monsters/buchunpa) | 超レア | 4 | [自然](/species/sizen) | 168 | 142 |
 | [しにがみきぞく](/monsters/shinigamikizoku) | 超レア | 3 | [ゾンビ](/species/zombie) | 182 | 143 |
+| [きめんどうし](/monsters/kimendousi) | 超レア | 4 | [悪魔](/species/akuma) | 170 | 144 |
 | [スカルゴン](/monsters/skalgon) | 超レア | 3 | [ドラゴン](/species/dragon) | 175 | 145 |
 | [ハートボイルド](/monsters/heartvoiled) | 超レア | 4 | [スライム](/species/slime) | 191 | 147 |
 | [シュプリンガー](/monsters/springer) | 超レア | 4 | [ドラゴン](/species/dragon) | 184 | 192 |

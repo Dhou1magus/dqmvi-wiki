@@ -2,8 +2,8 @@
 title: 吹雪の魔女
 description: DQMVIのモンスター「吹雪の魔女」のステータス。
 prev:
-  text: "デスマシーン"
-  link: /monsters/slaughtomaton
+  text: "ホーリーキング"
+  link: /monsters/hollyking
 next:
   text: "なみさそり"
   link: /monsters/wave_scorpion
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 465 |
+| 図鑑No. | 491 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

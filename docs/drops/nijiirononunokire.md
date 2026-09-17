@@ -1,6 +1,6 @@
 ---
 title: にじいろの布きれ
-description: DQMVIの「にじいろの布きれ」を落とすモンスター33体の一覧。いちばん弱いのはケダモン（通常・EXP142）。
+description: DQMVIの「にじいろの布きれ」を落とすモンスター37体の一覧。いちばん弱いのはケダモン（通常・EXP142）。
 pageClass: wide-page sortable-list
 prev:
   text: "にくきゅうの杖"
@@ -12,7 +12,7 @@ next:
 
 # にじいろの布きれ
 
-素材。**33体**のモンスターが落とします。
+素材。**37体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ケダモン**（通常ドロップ・EXP142）。
@@ -38,20 +38,24 @@ next:
 | [デビルロード](/monsters/debirurodo) | 通常 | 7 | [悪魔](/species/akuma) | 1,725 | 661 |
 | [ロイヤルブルーム](/monsters/roiyaruburumu) | 通常 | 7 | [自然](/species/sizen) | 2,122 | 700 |
 | [メイジキメラ](/monsters/meijikimera) | レア | 4 | [自然](/species/sizen) | 186 | 168 |
-| [キースドラゴン](/monsters/keethdragon2) | レア | 4 | [ドラゴン](/species/dragon) | 205 | 178 |
+| [キースドラゴン2](/monsters/keethdragon2) | レア | 4 | [ドラゴン](/species/dragon) | 205 | 178 |
 | [ほうおう](/monsters/houou) | レア | 7 | [魔獣](/species/majyu) | 1,809 | 588 |
 | [マージマタンゴ](/monsters/magematango) | レア | 7 | [自然](/species/sizen) | 1,785 | 590 |
 | [ダースギズモ](/monsters/dgizumo) | レア | 7 | [物質](/species/bussitu) | 1,785 | 593 |
+| [デビルロード](/monsters/debirurodo) | レア | 7 | [悪魔](/species/akuma) | 1,725 | 661 |
 | [はめつの使者](/monsters/hametunosisya) | レア | 7 | [悪魔](/species/akuma) | 1,965 | 688 |
+| [ロイヤルブルーム](/monsters/roiyaruburumu) | レア | 7 | [自然](/species/sizen) | 2,122 | 700 |
 | [フロストギズモ2](/monsters/furosutogizumo) | 超レア | 3 | [物質](/species/bussitu) | 82 | 82 |
 | [フロストギズモ1](/monsters/fgizumo) | 超レア | 3 | [物質](/species/bussitu) | 78 | 83 |
 | [レッドマーマン](/monsters/redmerman) | 超レア | 3 | [自然](/species/sizen) | 145 | 102 |
 | [フーセンドラゴン](/monsters/fu_sen_dragon) | 超レア | 3 | [ドラゴン](/species/dragon) | 155 | 107 |
 | [ホロゴースト](/monsters/horoghost) | 超レア | 4 | [物質](/species/bussitu) | 182 | 141 |
+| [ベロニャーゴ](/monsters/beronyaago) | 超レア | 4 | [魔獣](/species/majyu) | 176 | 143 |
 | [オカルトビスク](/monsters/okarutobisuku) | 超レア | 4 | [物質](/species/bussitu) | 173 | 143 |
 | [マジックリップス](/monsters/mrippusu) | 超レア | 4 | [自然](/species/sizen) | 183 | 152 |
 | [モビルレフト](/monsters/mobirurefuto) | 超レア | 4 | [物質](/species/bussitu) | 168 | 155 |
 | [モビルライト](/monsters/mobiruraito) | 超レア | 4 | [物質](/species/bussitu) | 168 | 155 |
+| [ブルベリーノ](/monsters/buruberino) | 超レア | 4 | [自然](/species/sizen) | 174 | 159 |
 | [ボーンプリズナー](/monsters/bonpurizuna) | 超レア | 4 | [ゾンビ](/species/zombie) | 232 | 172 |
 | [ボーンナイト](/monsters/boneknight) | 超レア | 4 | [ゾンビ](/species/zombie) | 192 | 183 |
 | [ワンダーエッグ](/monsters/wonderegg) | 超レア | 4 | [スライム](/species/slime) | 217 | 195 |

@@ -5,8 +5,8 @@ prev:
   text: "スライムタール"
   link: /monsters/slimetar
 next:
-  text: "マーブルン"
-  link: /monsters/maaburun
+  text: "くらやみハーピー"
+  link: /monsters/succubat
 ---
 
 # マル

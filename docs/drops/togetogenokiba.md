@@ -1,6 +1,6 @@
 ---
 title: トゲトゲの牙
-description: DQMVIの「トゲトゲの牙」を落とすモンスター14体の一覧。いちばん弱いのはどくろあらい（通常・EXP39）。
+description: DQMVIの「トゲトゲの牙」を落とすモンスター16体の一覧。いちばん弱いのはどくろあらい（通常・EXP39）。
 pageClass: wide-page sortable-list
 prev:
   text: "とげこんぼうの棍棒"
@@ -12,7 +12,7 @@ next:
 
 # トゲトゲの牙
 
-素材。**14体**のモンスターが落とします。
+素材。**16体**のモンスターが落とします。
 
 ::: tip ねらい目
 **どくろあらい**（通常ドロップ・EXP39）。
@@ -26,10 +26,12 @@ next:
 | [どくろあらい](/monsters/dokuroarai) | 通常 | 2 | [魔獣](/species/majyu) | 38 | 39 |
 | [ブル](/monsters/buru) | 通常 | 2 | [物質](/species/bussitu) | 45 | 42 |
 | [ボル](/monsters/boru) | 通常 | 2 | [物質](/species/bussitu) | 45 | 42 |
+| [しっぽ団のおおきづち](/monsters/hammerhood_shippodan) | 通常 | 2 | [魔獣](/species/majyu) | 51 | 46 |
 | [ひとくいサーベル](/monsters/hitokuisaberu) | 通常 | 2 | [物質](/species/bussitu) | 52 | 47 |
 | [アニマルゾンビ](/monsters/animaruzonbi) | 通常 | 3 | [ゾンビ](/species/zombie) | 86 | 92 |
 | [キングジョーカー](/monsters/kingjoker) | 通常 | 4 | [スライム](/species/slime) | 175 | 142 |
 | [ベビーパンサー](/monsters/kirapan) | 通常 | 4 | [魔獣](/species/majyu) | 168 | 160 |
+| [おばけトマト](/monsters/obaketomato) | 通常 | 4 | [自然](/species/sizen) | 171 | 164 |
 | [しびれだんびら](/monsters/sibiredanbira) | 通常 | 4 | [物質](/species/bussitu) | 180 | 169 |
 | [ホーンビートル](/monsters/hornbeet) | 通常 | 4 | [自然](/species/sizen) | 215 | 180 |
 | [サボテンボール](/monsters/sabotenboru) | レア | 1 | [自然](/species/sizen) | 23 | 12 |

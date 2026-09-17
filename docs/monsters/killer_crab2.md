@@ -1,15 +1,15 @@
 ---
-title: キラークラブ
-description: DQMVIのモンスター「キラークラブ」のステータス。HP182 / こうげき76 / しゅび80 / 経験値175 / 35G。
+title: キラークラブ2
+description: DQMVIのモンスター「キラークラブ2」のステータス。HP182 / こうげき76 / しゅび80 / 経験値175 / 35G。
 prev:
-  text: "バアラック"
+  text: "バアラック2"
   link: /monsters/baarakku2
 next:
   text: "たこまじん"
   link: /monsters/takomajin
 ---
 
-# キラークラブ
+# キラークラブ2
 
 ランク4のモンスター。
 
@@ -30,7 +30,7 @@ EXP | 175
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 328 |
+| 図鑑No. | 350 |
 | ランク | 4 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

@@ -1,6 +1,6 @@
 ---
 title: オリハルコン
-description: DQMVIの「オリハルコン」を落とすモンスター10体の一覧。いちばん弱いのはトロルキング（通常・EXP867）。
+description: DQMVIの「オリハルコン」を落とすモンスター9体の一覧。いちばん弱いのはトロルキング（通常・EXP867）。
 pageClass: wide-page sortable-list
 prev:
   text: "おにのかなぼう"
@@ -12,7 +12,7 @@ next:
 
 # オリハルコン
 
-素材。**10体**のモンスターが落とします。
+素材。**9体**のモンスターが落とします。
 
 ::: tip ねらい目
 **トロルキング**（通常ドロップ・EXP867）。
@@ -24,7 +24,6 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [トロルキング](/monsters/tororuking) | 通常 | 7 | [悪魔](/species/akuma) | 3,150 | 867 |
-| [スラ・ブラスター](/monsters/slimeblaster) | レア | 7 | [スライム](/species/slime) | 1,790 | 632 |
 | [ヘルガーディアン](/monsters/herugadexian) | レア | 7 | [悪魔](/species/akuma) | 2,350 | 711 |
 | [パンドラボックス](/monsters/pandorabox) | レア | 7 | [物質](/species/bussitu) | 2,100 | 726 |
 | [トロルボンバー](/monsters/tororubonba) | レア | 7 | [悪魔](/species/akuma) | 2,625 | 752 |

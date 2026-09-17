@@ -1,6 +1,6 @@
 ---
 title: スライムゼリー
-description: DQMVIの「スライムゼリー」を落とすモンスター18体の一覧。いちばん弱いのはスライム（通常・EXP2）。
+description: DQMVIの「スライムゼリー」を落とすモンスター20体の一覧。いちばん弱いのはスライム（通常・EXP2）。
 pageClass: wide-page sortable-list
 prev:
   text: "スライムおしゃれ花"
@@ -12,7 +12,7 @@ next:
 
 # スライムゼリー
 
-素材。**18体**のモンスターが落とします。
+素材。**20体**のモンスターが落とします。
 
 ::: tip ねらい目
 **スライム**（通常ドロップ・EXP2）。
@@ -26,7 +26,7 @@ next:
 | [スライム](/monsters/sura) | 通常 | 1 | [スライム](/species/slime) | 5 | 2 |
 | [スライムベス](/monsters/suraimubesu) | 通常 | 1 | [スライム](/species/slime) | 7 | 2 |
 | [スライムB](/monsters/slime_b) | 通常 | 1 | [スライム](/species/slime) | 5 | 2 |
-| [おにこぞう](/monsters/onikozou2) | 通常 | 1 | [悪魔](/species/akuma) | 18 | 10 |
+| [おにこぞう2](/monsters/onikozou2) | 通常 | 1 | [悪魔](/species/akuma) | 18 | 10 |
 | [ライムスライム](/monsters/raimusuraimu) | 通常 | 1 | [スライム](/species/slime) | 18 | 11 |
 | [レモンスライム](/monsters/remonsuraimu) | 通常 | 1 | [スライム](/species/slime) | 20 | 11 |
 | [ボックススライムブルー](/monsters/boxsuraimu_ao) | 通常 | 1 | [スライム](/species/slime) | 15 | 13 |
@@ -40,7 +40,9 @@ next:
 | [クリスタルスライム](/monsters/crystalslime) | 通常 | 4 | [スライム](/species/slime) | 198 | 199 |
 | [マッシュスライム](/monsters/slimeshroom) | レア | 1 | [スライム](/species/slime) | 22 | 12 |
 | [ホイミスライム](/monsters/hoimisura) | レア | 2 | [スライム](/species/slime) | 38 | 30 |
+| [しっぽ団のおおきづち](/monsters/hammerhood_shippodan) | レア | 2 | [魔獣](/species/majyu) | 51 | 46 |
 | [ボックススライムレッド](/monsters/boxsuraimu_aka) | レア | 2 | [スライム](/species/slime) | 48 | 50 |
+| [強スライム](/monsters/sura2) | レア | 4 | [スライム](/species/slime) | 165 | 144 |
 
 見出しを押すと並べ替えできます。
 

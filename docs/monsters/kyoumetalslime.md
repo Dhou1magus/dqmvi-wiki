@@ -2,8 +2,8 @@
 title: 凶メタルスライム
 description: DQMVIのモンスター「凶メタルスライム」のステータス。HP12 / こうげき41 / しゅび10,000 / 経験値8,800 / 102G。
 prev:
-  text: "ミケまどう"
-  link: /monsters/mikemadou
+  text: "ゴールドエンゼル"
+  link: /monsters/goldangel
 next:
   text: "ゴールドパール"
   link: /monsters/goldpearl
@@ -30,7 +30,7 @@ EXP | 8,800
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 274 |
+| 図鑑No. | 296 |
 | ランク | 3 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 夜のみ |

@@ -1,6 +1,6 @@
 ---
 title: あやかし草
-description: DQMVIの「あやかし草」を落とすモンスター15体の一覧。いちばん弱いのはベビーサタン（通常・EXP38）。
+description: DQMVIの「あやかし草」を落とすモンスター18体の一覧。いちばん弱いのはベビーサタン（通常・EXP38）。
 pageClass: wide-page sortable-list
 prev:
   text: "あまつゆの糸"
@@ -12,7 +12,7 @@ next:
 
 # あやかし草
 
-素材。**15体**のモンスターが落とします。
+素材。**18体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ベビーサタン**（通常ドロップ・EXP38）。
@@ -25,19 +25,22 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ベビーサタン](/monsters/bebisatan) | 通常 | 2 | [悪魔](/species/akuma) | 50 | 38 |
 | [メランザーナ](/monsters/meranzana) | 通常 | 2 | [自然](/species/sizen) | 44 | 40 |
-| [ピクシー](/monsters/pikusi2) | 通常 | 2 | [悪魔](/species/akuma) | 45 | 41 |
+| [ピクシー2](/monsters/pikusi2) | 通常 | 2 | [悪魔](/species/akuma) | 45 | 41 |
 | [くしざしツインズ](/monsters/kusizasituinzu) | 通常 | 2 | [自然](/species/sizen) | 63 | 55 |
 | [スペクテット](/monsters/supekutetto) | 通常 | 3 | [悪魔](/species/akuma) | 93 | 86 |
 | [デスセイレス](/monsters/desuseiresu) | 通常 | 3 | [悪魔](/species/akuma) | 102 | 97 |
 | [エビルスピリッツ](/monsters/evilspirits) | 通常 | 3 | [ゾンビ](/species/zombie) | 95 | 110 |
+| [メランザーナ](/monsters/meranzana) | レア | 2 | [自然](/species/sizen) | 44 | 40 |
 | [ピンクモーモン](/monsters/pinkmomon) | レア | 2 | [悪魔](/species/akuma) | 55 | 45 |
 | [のろいのランプ](/monsters/malevolantern) | レア | 2 | [物質](/species/bussitu) | 46 | 46 |
 | [オベルジーヌ](/monsters/oberujinu) | レア | 3 | [自然](/species/sizen) | 95 | 81 |
 | [グール](/monsters/guru) | レア | 4 | [ゾンビ](/species/zombie) | 180 | 142 |
 | [モビルヘッド](/monsters/mobiruheddo) | レア | 4 | [物質](/species/bussitu) | 134 | 142 |
 | [アローインプ](/monsters/aroinpu) | レア | 4 | [悪魔](/species/akuma) | 178 | 154 |
+| [おばけトマト](/monsters/obaketomato) | レア | 4 | [自然](/species/sizen) | 171 | 164 |
 | [おにこぞう](/monsters/onikozou) | 超レア | 1 | [悪魔](/species/akuma) | 18 | 11 |
 | [おおめだま](/monsters/oomedama) | 超レア | 2 | [悪魔](/species/akuma) | 45 | 39 |
+| [メランザーナ](/monsters/meranzana) | 超レア | 2 | [自然](/species/sizen) | 44 | 40 |
 
 見出しを押すと並べ替えできます。
 

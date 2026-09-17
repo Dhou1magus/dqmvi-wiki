@@ -2,8 +2,8 @@
 title: マーブルン
 description: DQMVIのモンスター「マーブルン」のステータス。HP264 / こうげき22 / しゅび22 / 経験値346 / 69G。
 prev:
-  text: "マル"
-  link: /monsters/maru
+  text: "リトルライバーン"
+  link: /monsters/ritoruraiba
 next:
   text: "チョコヌーバ"
   link: /monsters/tyokonuba
@@ -30,7 +30,7 @@ EXP | 346
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 66 |
+| 図鑑No. | 71 |
 | ランク | 1 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 昼のみ |
@@ -44,6 +44,8 @@ EXP | 346
 | 通常ドロップ | [マーブルンの尻尾](/drops/maburunnosippo) |
 | レアドロップ | マーブルンのオブジェ |
 | 超レアドロップ | マーブルンのフィギュア |
+| オブジェ | マーブルンのオブジェ |
+| フィギュア | マーブルンのフィギュア |
 
 ## 使う呪文
 

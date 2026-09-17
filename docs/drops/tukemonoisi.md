@@ -28,7 +28,7 @@ next:
 | [ゆうれい](/monsters/spirit) | 通常 | 1 | [ゾンビ](/species/zombie) | 16 | 11 |
 | [スカルサーペント](/monsters/skullserpent) | 通常 | 1 | [ゾンビ](/species/zombie) | 23 | 13 |
 | [つちわらし](/monsters/tutiwarasi) | 通常 | 1 | [ゾンビ](/species/zombie) | 25 | 14 |
-| [ぐんたいガニ](/monsters/army_crab2) | 通常 | 1 | [自然](/species/sizen) | 32 | 16 |
+| [ぐんたいガニ2](/monsters/army_crab2) | 通常 | 1 | [自然](/species/sizen) | 32 | 16 |
 | [ポンコツ兵](/monsters/ponkotuhei) | 通常 | 1 | [物質](/species/bussitu) | 26 | 17 |
 | [スカルガルー](/monsters/skullgaroo) | 通常 | 5 | [魔獣](/species/majyu) | 364 | 230 |
 | [タコメット](/monsters/takometto) | レア | 2 | [自然](/species/sizen) | 35 | 40 |

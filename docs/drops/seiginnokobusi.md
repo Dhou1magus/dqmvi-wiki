@@ -3,11 +3,11 @@ title: 聖銀の拳
 description: 聖銀の拳
 pageClass: wide-page sortable-list
 prev:
-  text: "トロルバッコスの大棍棒"
-  link: /drops/tororubakkosunoookonnbou
+  text: "精霊石"
+  link: /drops/seireiseki
 next:
-  text: "りゅうおうもどきの尻尾"
-  link: /drops/ryuuoumodokinosippo
+  text: "聖者の灰"
+  link: /drops/seijanohai
 ---
 
 # 聖銀の拳

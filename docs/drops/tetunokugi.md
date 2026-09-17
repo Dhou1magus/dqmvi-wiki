@@ -1,6 +1,6 @@
 ---
 title: てつのクギ
-description: DQMVIの「てつのクギ」を落とすモンスター29体の一覧。いちばん弱いのはどろにんぎょう（通常・EXP89）。
+description: DQMVIの「てつのクギ」を落とすモンスター30体の一覧。いちばん弱いのはスラミチ（通常・EXP87）。
 pageClass: wide-page sortable-list
 prev:
   text: "つむりんママの貝殻"
@@ -12,10 +12,10 @@ next:
 
 # てつのクギ
 
-素材。**29体**のモンスターが落とします。
+素材。**30体**のモンスターが落とします。
 
 ::: tip ねらい目
-**どろにんぎょう**（通常ドロップ・EXP89）。
+**スラミチ**（通常ドロップ・EXP87）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -23,6 +23,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [スラミチ](/monsters/suramithi) | 通常 | 3 | [スライム](/species/slime) | 75 | 87 |
 | [どろにんぎょう](/monsters/doroningyou) | 通常 | 3 | [物質](/species/bussitu) | 93 | 89 |
 | [ラリホービートル](/monsters/bedbug) | 通常 | 3 | [自然](/species/sizen) | 86 | 90 |
 | [キラースコップ](/monsters/kirasuko) | 通常 | 3 | [魔獣](/species/majyu) | 87 | 91 |
@@ -36,7 +37,7 @@ next:
 | [メタルクラッシャー](/monsters/metarukurassya) | 通常 | 5 | [物質](/species/bussitu) | 555 | 311 |
 | [プヨンターゲット](/monsters/puyon) | 通常 | 6 | [ゾンビ](/species/zombie) | 944 | 335 |
 | [ごくらくちょう](/monsters/gokurakuchou) | 通常 | 6 | [魔獣](/species/majyu) | 969 | 353 |
-| [ダースドラゴン](/monsters/darthdragon2) | 通常 | 5 | [ドラゴン](/species/dragon) | 627 | 357 |
+| [ダースドラゴン2](/monsters/darthdragon2) | 通常 | 5 | [ドラゴン](/species/dragon) | 627 | 357 |
 | [うらぎりこぞう](/monsters/uragirikozou) | 通常 | 7 | [悪魔](/species/akuma) | 1,665 | 567 |
 | [ボックススライムグリーン](/monsters/boxsuraimu_midori) | レア | 3 | [スライム](/species/slime) | 100 | 95 |
 | [パプリカン](/monsters/papurikan) | レア | 3 | [自然](/species/sizen) | 88 | 98 |

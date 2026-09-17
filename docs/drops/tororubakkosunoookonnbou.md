@@ -3,11 +3,11 @@ title: トロルバッコスの大棍棒
 description: トロルバッコスの大棍棒
 pageClass: wide-page sortable-list
 prev:
-  text: "ゴールドマントの剣"
-  link: /drops/gorudenmantonoken
+  text: "ドラゴンのなみだ"
+  link: /drops/doragonnonamida
 next:
-  text: "聖銀の拳"
-  link: /drops/seiginnokobusi
+  text: "にくきゅうの杖"
+  link: /drops/nikukyuunotue
 ---
 
 # トロルバッコスの大棍棒

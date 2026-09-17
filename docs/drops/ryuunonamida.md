@@ -36,10 +36,10 @@ next:
 | [おどる宝石](/monsters/odoruhouseki) | レア | 4 | [物質](/species/bussitu) | 162 | 142 |
 | [かいぞくウーパー](/monsters/kaizokuupa) | レア | 4 | [自然](/species/sizen) | 170 | 145 |
 | [テンタコルス](/monsters/tentakorusu) | レア | 4 | [自然](/species/sizen) | 190 | 155 |
-| [リトルライバーン](/monsters/ritoruraiba) | レア | 4 | [ドラゴン](/species/dragon) | 192 | 155 |
 | [モビルレフト](/monsters/mobirurefuto) | レア | 4 | [物質](/species/bussitu) | 168 | 155 |
 | [モビルライト](/monsters/mobiruraito) | レア | 4 | [物質](/species/bussitu) | 168 | 155 |
 | [キングマーマン](/monsters/kingmerman) | レア | 4 | [自然](/species/sizen) | 180 | 159 |
+| [ヘルダイバー](/monsters/abyssdiver) | レア | 4 | [ドラゴン](/species/dragon) | 184 | 166 |
 | [しのさそり](/monsters/death_scorpion) | レア | 4 | [自然](/species/sizen) | 203 | 174 |
 | [ミミック木箱](/monsters/mimikkukibako) | レア | 4 | [特殊](/species/tokusyu) | 198 | 189 |
 | [ワンダーエッグ](/monsters/wonderegg) | レア | 4 | [スライム](/species/slime) | 217 | 195 |

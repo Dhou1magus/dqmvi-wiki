@@ -5,7 +5,7 @@ prev:
   text: "タコメット"
   link: /monsters/takometto
 next:
-  text: "ピクシー"
+  text: "ピクシー2"
   link: /monsters/pikusi2
 ---
 
@@ -30,7 +30,7 @@ EXP | 42
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 106 |
+| 図鑑No. | 111 |
 | ランク | 2 |
 | 系統 | [スライム系](/species/slime) |
 | 活動時間 | 昼夜 |

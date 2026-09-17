@@ -1,15 +1,15 @@
 ---
-title: うらぎりこぞう
-description: DQMVIのモンスター「うらぎりこぞう」のステータス。HP90 / こうげき61 / しゅび42 / 経験値95 / 20G。
+title: うらぎりこぞう2
+description: DQMVIのモンスター「うらぎりこぞう2」のステータス。HP90 / こうげき61 / しゅび42 / 経験値95 / 20G。
 prev:
-  text: "ドラゴン"
+  text: "ドラゴン2"
   link: /monsters/dragon2
 next:
   text: "まどうし"
   link: /monsters/madoushi
 ---
 
-# うらぎりこぞう
+# うらぎりこぞう2
 
 ランク3のモンスター。
 
@@ -30,7 +30,7 @@ EXP | 95
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 212 |
+| 図鑑No. | 225 |
 | ランク | 3 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

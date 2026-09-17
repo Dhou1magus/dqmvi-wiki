@@ -1,6 +1,6 @@
 ---
-title: じごくのハサミ
-description: DQMVIのモンスター「じごくのハサミ」のステータス。HP60 / こうげき33 / しゅび22 / 経験値60 / 15G。
+title: じごくのハサミ2
+description: DQMVIのモンスター「じごくのハサミ2」のステータス。HP60 / こうげき33 / しゅび22 / 経験値60 / 15G。
 prev:
   text: "どくイモムシ"
   link: /monsters/poison_caterpillar
@@ -9,7 +9,7 @@ next:
   link: /monsters/merman
 ---
 
-# じごくのハサミ
+# じごくのハサミ2
 
 ランク2のモンスター。
 
@@ -30,7 +30,7 @@ EXP | 60
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 110 |
+| 図鑑No. | 115 |
 | ランク | 2 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

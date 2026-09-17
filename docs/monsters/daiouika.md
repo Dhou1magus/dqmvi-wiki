@@ -2,7 +2,7 @@
 title: だいおうイカ
 description: DQMVIのモンスター「だいおうイカ」のステータス。HP175 / こうげき85 / しゅび24 / 経験値110 / 26G。
 prev:
-  text: "ガニラス"
+  text: "ガニラス2"
   link: /monsters/ganiras2
 next:
   text: "レッドマーマン"
@@ -30,7 +30,7 @@ EXP | 110
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 216 |
+| 図鑑No. | 229 |
 | ランク | 3 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

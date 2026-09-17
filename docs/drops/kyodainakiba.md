@@ -1,6 +1,6 @@
 ---
 title: 巨大な牙
-description: DQMVIの「巨大な牙」を落とすモンスター10体の一覧。いちばん弱いのはおばけキャンドル（通常・EXP42）。
+description: DQMVIの「巨大な牙」を落とすモンスター11体の一覧。いちばん弱いのはおばけキャンドル（通常・EXP42）。
 pageClass: wide-page sortable-list
 prev:
   text: "巨大ナスビナーラの髭"
@@ -12,7 +12,7 @@ next:
 
 # 巨大な牙
 
-素材。**10体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **おばけキャンドル**（通常ドロップ・EXP42）。
@@ -24,10 +24,11 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [おばけキャンドル](/monsters/obakekyandoru) | 通常 | 2 | [物質](/species/bussitu) | 37 | 42 |
+| [たまねぎマン](/monsters/tamanegiman) | 通常 | 2 | [自然](/species/sizen) | 40 | 43 |
 | [つぼ](/monsters/tubo) | 通常 | 2 | [特殊](/species/tokusyu) | 55 | 51 |
 | [かくとうパンサー](/monsters/kakutoupansa) | 通常 | 2 | [魔獣](/species/majyu) | 66 | 60 |
 | [トンブレロ](/monsters/tonburero) | 通常 | 3 | [魔獣](/species/majyu) | 91 | 84 |
-| [ドラゴン](/monsters/dragon2) | 通常 | 3 | [ドラゴン](/species/dragon) | 183 | 152 |
+| [ドラゴン2](/monsters/dragon2) | 通常 | 3 | [ドラゴン](/species/dragon) | 183 | 152 |
 | [バリイドドッグ](/monsters/bariidodog) | 通常 | 5 | [ゾンビ](/species/zombie) | 343 | 219 |
 | [デッドペッカー](/monsters/deddopekka) | 通常 | 5 | [自然](/species/sizen) | 371 | 235 |
 | [ドラゴン](/monsters/dqmdragon) | レア | 4 | [ドラゴン](/species/dragon) | 220 | 200 |

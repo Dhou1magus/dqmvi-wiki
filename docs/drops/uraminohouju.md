@@ -1,6 +1,6 @@
 ---
 title: うらみのほうじゅ
-description: DQMVIの「うらみのほうじゅ」を落とすモンスター22体の一覧。いちばん弱いのはまおうのかげ（通常・EXP350）。
+description: DQMVIの「うらみのほうじゅ」を落とすモンスター25体の一覧。いちばん弱いのはまおうのかげ（通常・EXP350）。
 pageClass: wide-page sortable-list
 prev:
   text: "うまのふん"
@@ -12,7 +12,7 @@ next:
 
 # うらみのほうじゅ
 
-素材。**22体**のモンスターが落とします。
+素材。**25体**のモンスターが落とします。
 
 ::: tip ねらい目
 **まおうのかげ**（通常ドロップ・EXP350）。
@@ -36,13 +36,16 @@ next:
 | [マクロベータ](/monsters/makurobeta) | レア | 6 | [ゾンビ](/species/zombie) | 1,322 | 453 |
 | [モノクロームナイト](/monsters/monokuroomunaito) | レア | 6 | [物質](/species/bussitu) | 1,505 | 460 |
 | [グレートジンガー](/monsters/guretosinga) | レア | 6 | [物質](/species/bussitu) | 1,600 | 600 |
+| [まおうのかげ](/monsters/maounokage) | 超レア | 6 | [物質](/species/bussitu) | 944 | 350 |
 | [ダークスライム](/monsters/darkslime) | 超レア | 6 | [スライム](/species/slime) | 992 | 362 |
 | [しりょうのきし](/monsters/siryounokisi) | 超レア | 6 | [ゾンビ](/species/zombie) | 1,072 | 369 |
 | [デスジャッカル](/monsters/desujakkaru) | 超レア | 6 | [ゾンビ](/species/zombie) | 944 | 377 |
 | [ダゴン](/monsters/dagon) | 超レア | 6 | [自然](/species/sizen) | 1,111 | 392 |
 | [オーラー](/monsters/ora) | 超レア | 6 | [物質](/species/bussitu) | 920 | 413 |
 | [シルバーデビル](/monsters/sirubadebiru) | 超レア | 6 | [悪魔](/species/akuma) | 1,088 | 418 |
+| [コスモアイ](/monsters/kosumoai) | 超レア | 6 | [悪魔](/species/akuma) | 1,220 | 421 |
 | [アッシュリザード](/monsters/ash_lizard) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,449 | 457 |
+| [バラモスゾンビ](/monsters/baramoszombie) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,442 | 469 |
 | [根絶やしの竜](/monsters/nedayashinoryu) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,326 | 472 |
 | [グレイトドラゴン](/monsters/gureitodoragon) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,550 | 550 |
 

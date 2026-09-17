@@ -1,6 +1,6 @@
 ---
 title: 矢
-description: DQMVIの「矢」を落とすモンスター1体の一覧。いちばん弱いのはリリパット（レア・EXP33）。
+description: DQMVIの「矢」を落とすモンスター2体の一覧。いちばん弱いのはリリパット（レア・EXP33）。
 pageClass: wide-page sortable-list
 prev:
   text: "名刀 斬鉄丸"
@@ -12,7 +12,7 @@ next:
 
 # 矢
 
-マイクラ標準。**1体**のモンスターが落とします。
+マイクラ標準。**2体**のモンスターが落とします。
 
 ::: tip ねらい目
 **リリパット**（レアドロップ・EXP33）。
@@ -24,6 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [リリパット](/monsters/riripat) | レア | 2 | [悪魔](/species/akuma) | 39 | 33 |
+| [フェアリーバット](/monsters/fruity_succubat) | レア | 2 | [悪魔](/species/akuma) | 39 | 38 |
 
 見出しを押すと並べ替えできます。
 
