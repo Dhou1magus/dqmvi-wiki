@@ -32,7 +32,6 @@ next:
 | [ジェリーマン](/monsters/jeriman) | 通常 | 4 | [自然](/species/sizen) | 182 | 148 |
 | [スピンサタン](/monsters/supinsatan) | 通常 | 4 | [物質](/species/bussitu) | 169 | 151 |
 | [テンタコルス](/monsters/tentakorusu) | 通常 | 4 | [自然](/species/sizen) | 190 | 155 |
-| [リトルライバーン](/monsters/ritoruraiba) | 通常 | 4 | [ドラゴン](/species/dragon) | 192 | 155 |
 | [うみぼうず](/monsters/umibouzu) | 通常 | 4 | [自然](/species/sizen) | 192 | 156 |
 | [ディアブラダ](/monsters/dexiaburada) | 通常 | 4 | [悪魔](/species/akuma) | 161 | 156 |
 | [メーダクイン](/monsters/medakuin) | 通常 | 4 | [悪魔](/species/akuma) | 165 | 166 |
@@ -46,7 +45,7 @@ next:
 | [キラースター](/monsters/killer_star) | 通常 | 5 | [物質](/species/bussitu) | 564 | 312 |
 | [きめんどうし](/monsters/kimendousi) | レア | 4 | [悪魔](/species/akuma) | 170 | 144 |
 | [ぶっちズッキーニャ](/monsters/buttizukinya) | レア | 4 | [自然](/species/sizen) | 168 | 146 |
-| [バアラック](/monsters/baarakku2) | レア | 4 | [悪魔](/species/akuma) | 175 | 148 |
+| [バアラック2](/monsters/baarakku2) | レア | 4 | [悪魔](/species/akuma) | 175 | 148 |
 | [ばくだんベビー](/monsters/bakudanbebi) | レア | 4 | [物質](/species/bussitu) | 170 | 152 |
 | [ようじゅつし](/monsters/youjutusi) | レア | 4 | [悪魔](/species/akuma) | 177 | 155 |
 | [デビルアンカー](/monsters/devil_anchor) | レア | 4 | [物質](/species/bussitu) | 205 | 194 |
@@ -70,6 +69,7 @@ next:
 | [タコメット](/monsters/takometto) | 超レア | 2 | [自然](/species/sizen) | 35 | 40 |
 | [ウパパロン](/monsters/upaparon) | 超レア | 2 | [自然](/species/sizen) | 45 | 41 |
 | [おばけキャンドル](/monsters/obakekyandoru) | 超レア | 2 | [物質](/species/bussitu) | 37 | 42 |
+| [たまねぎマン](/monsters/tamanegiman) | 超レア | 2 | [自然](/species/sizen) | 40 | 43 |
 | [ハエおとこ](/monsters/heotoko) | 超レア | 2 | [自然](/species/sizen) | 42 | 47 |
 | [スライムアンノウン](/monsters/slimeunknown) | 超レア | 2 | [物質](/species/bussitu) | 60 | 51 |
 

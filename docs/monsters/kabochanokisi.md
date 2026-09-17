@@ -44,6 +44,8 @@ EXP | 14
 | 通常ドロップ | [ちょうの羽](/drops/tyounohane) |
 | レアドロップ | [どくがの粉](/drops/dokuganokona) |
 | 超レアドロップ | [スライムおしゃれ花](/drops/suraimuosyarebana) |
+| オブジェ | かぼちゃの騎士のオブジェ |
+| フィギュア | かぼちゃの騎士のフィギュア |
 
 ## 使う呪文
 

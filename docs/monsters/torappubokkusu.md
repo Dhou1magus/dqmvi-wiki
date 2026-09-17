@@ -5,8 +5,8 @@ prev:
   text: "しっぽ団のダックスビル"
   link: /monsters/platypunk_duckbill
 next:
-  text: "キラーピッケル"
-  link: /monsters/kirapike
+  text: "ギャオース"
+  link: /monsters/seasaur
 ---
 
 # トラップボックス
@@ -30,7 +30,7 @@ EXP | 82
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 266 |
+| 図鑑No. | 279 |
 | ランク | 3 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

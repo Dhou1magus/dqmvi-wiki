@@ -1,15 +1,15 @@
 ---
-title: キースドラゴン
-description: DQMVIのモンスター「キースドラゴン」のステータス。HP205 / こうげき102 / しゅび74 / 経験値178 / 36G。
+title: キースドラゴン2
+description: DQMVIのモンスター「キースドラゴン2」のステータス。HP205 / こうげき102 / しゅび74 / 経験値178 / 36G。
 prev:
   text: "ドラゴンゾンビ"
   link: /monsters/dragonzombie
 next:
-  text: "バアラック"
+  text: "バアラック2"
   link: /monsters/baarakku2
 ---
 
-# キースドラゴン
+# キースドラゴン2
 
 ランク4のモンスター。
 
@@ -30,7 +30,7 @@ EXP | 178
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 326 |
+| 図鑑No. | 348 |
 | ランク | 4 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

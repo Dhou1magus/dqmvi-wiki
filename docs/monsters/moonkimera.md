@@ -2,8 +2,8 @@
 title: ムーンキメラ
 description: DQMVIのモンスター「ムーンキメラ」のステータス。HP2,683 / こうげき190 / しゅび129 / 経験値4,032 / 806G。
 prev:
-  text: "ワンダーエッグ"
-  link: /monsters/wonderegg
+  text: "アカツキショウグン"
+  link: /monsters/akatsuki_shogun
 next:
   text: "シールドあにき"
   link: /monsters/sirudoaniki
@@ -30,7 +30,7 @@ EXP | 4,032
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 377 |
+| 図鑑No. | 404 |
 | ランク | 4 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 夜のみ |
@@ -44,6 +44,8 @@ EXP | 4,032
 | 通常ドロップ | [ムーンキメラの羽](/drops/moonkimeranohane) |
 | レアドロップ | ムーンキメラのオブジェ |
 | 超レアドロップ | ムーンキメラのフィギュア |
+| オブジェ | ムーンキメラのオブジェ |
+| フィギュア | ムーンキメラのフィギュア |
 
 ## 使う呪文
 

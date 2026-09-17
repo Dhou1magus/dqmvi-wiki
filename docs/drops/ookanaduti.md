@@ -1,6 +1,6 @@
 ---
 title: おおかなづち
-description: DQMVIの「おおかなづち」を落とすモンスター2体の一覧。いちばん弱いのはおおきづち（超レア・EXP40）。
+description: DQMVIの「おおかなづち」を落とすモンスター3体の一覧。いちばん弱いのはおおきづち（超レア・EXP40）。
 pageClass: wide-page sortable-list
 prev:
   text: "うるわしキノコ"
@@ -12,7 +12,7 @@ next:
 
 # おおかなづち
 
-武器。**2体**のモンスターが落とします。
+武器。**3体**のモンスターが落とします。
 
 ::: tip ねらい目
 **おおきづち**（超レアドロップ・EXP40）。
@@ -35,6 +35,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [おおきづち](/monsters/ookiduti) | 超レア | 2 | [魔獣](/species/majyu) | 42 | 40 |
+| [首長竜](/monsters/kubinagadraco) | 超レア | 2 | [ドラゴン](/species/dragon) | 58 | 49 |
 | [ブラウニー](/monsters/burauni) | 超レア | 3 | [魔獣](/species/majyu) | 75 | 93 |
 
 見出しを押すと並べ替えできます。

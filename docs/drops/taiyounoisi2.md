@@ -1,6 +1,6 @@
 ---
 title: 太陽石合金
-description: DQMVIの「太陽石合金」を落とすモンスター17体の一覧。いちばん弱いのはガメゴンロード（通常・EXP438）。
+description: DQMVIの「太陽石合金」を落とすモンスター21体の一覧。いちばん弱いのはガメゴンロード（通常・EXP438）。
 pageClass: wide-page sortable-list
 prev:
   text: "赤いサンゴ"
@@ -12,7 +12,7 @@ next:
 
 # 太陽石合金
 
-素材。**17体**のモンスターが落とします。
+素材。**21体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ガメゴンロード**（通常ドロップ・EXP438）。
@@ -32,7 +32,11 @@ next:
 | [ベホイミスライム](/monsters/behoimisuraimu) | 超レア | 3 | [スライム](/species/slime) | 68 | 77 |
 | [じめじめバブル](/monsters/dankbubbleslime) | 超レア | 3 | [スライム](/species/slime) | 74 | 77 |
 | [きとうし](/monsters/kitousi) | 超レア | 3 | [悪魔](/species/akuma) | 92 | 80 |
+| [スラミチ](/monsters/suramithi) | 超レア | 3 | [スライム](/species/slime) | 75 | 87 |
 | [あくま神官](/monsters/akumasinkan) | 超レア | 3 | [悪魔](/species/akuma) | 94 | 92 |
+| [じごくのたまねぎ](/monsters/zigokunotamanegi) | 超レア | 3 | [自然](/species/sizen) | 75 | 92 |
+| [しびくらベス](/monsters/shibikurabes) | 超レア | 3 | [スライム](/species/slime) | 96 | 100 |
+| [ゴールドエンゼル](/monsters/goldangel) | 超レア | 3 | [メタル](/species/metal) | 14 | 121 |
 | [シャーマン](/monsters/syaman) | 超レア | 3 | [ゾンビ](/species/zombie) | 115 | 142 |
 | [ローズバトラー](/monsters/rozubatora) | 超レア | 3 | [自然](/species/sizen) | 188 | 146 |
 | [じごくのつかい](/monsters/jigokunotukai) | 超レア | 5 | [悪魔](/species/akuma) | 473 | 263 |

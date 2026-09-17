@@ -1,6 +1,6 @@
 ---
 title: てんしのはね
-description: DQMVIの「てんしのはね」を落とすモンスター12体の一覧。いちばん弱いのはタホドラキー（通常・EXP81）。
+description: DQMVIの「てんしのはね」を落とすモンスター13体の一覧。いちばん弱いのはタホドラキー（通常・EXP81）。
 pageClass: wide-page sortable-list
 prev:
   text: "てんしのソーマ"
@@ -12,7 +12,7 @@ next:
 
 # てんしのはね
 
-素材。**12体**のモンスターが落とします。
+素材。**13体**のモンスターが落とします。
 
 ::: tip ねらい目
 **タホドラキー**（通常ドロップ・EXP81）。
@@ -25,7 +25,8 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [タホドラキー](/monsters/tahodoraki) | 通常 | 3 | [悪魔](/species/akuma) | 72 | 81 |
 | [ドラキーマ](/monsters/dorakima) | 通常 | 3 | [悪魔](/species/akuma) | 98 | 85 |
-| [うらぎりこぞう](/monsters/uragirikozou2) | 通常 | 3 | [悪魔](/species/akuma) | 90 | 95 |
+| [うらぎりこぞう2](/monsters/uragirikozou2) | 通常 | 3 | [悪魔](/species/akuma) | 90 | 95 |
+| [からくりだいみょう](/monsters/karakuridaimyou) | 通常 | 3 | [物質](/species/bussitu) | 98 | 103 |
 | [おにぎりスライム](/monsters/onigirislime) | 通常 | 3 | [スライム](/species/slime) | 156 | 121 |
 | [ガチャコッコ](/monsters/gatyakokko) | 通常 | 3 | [物質](/species/bussitu) | 166 | 145 |
 | [エンゼルスライム](/monsters/enzeruslime) | 通常 | 5 | [スライム](/species/slime) | 343 | 210 |

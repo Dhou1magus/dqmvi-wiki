@@ -1,6 +1,6 @@
 ---
 title: スライムおしゃれ花
-description: DQMVIの「スライムおしゃれ花」を落とすモンスター32体の一覧。いちばん弱いのはベホイミスライム（通常・EXP77）。
+description: DQMVIの「スライムおしゃれ花」を落とすモンスター35体の一覧。いちばん弱いのはベホイミスライム（通常・EXP77）。
 pageClass: wide-page sortable-list
 prev:
   text: "スライダークロボの剣"
@@ -12,7 +12,7 @@ next:
 
 # スライムおしゃれ花
 
-素材。**32体**のモンスターが落とします。
+素材。**35体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ベホイミスライム**（通常ドロップ・EXP77）。
@@ -35,10 +35,12 @@ next:
 | [モーモン](/monsters/momon) | 超レア | 1 | [悪魔](/species/akuma) | 12 | 5 |
 | [バブルスライム](/monsters/bubsura) | 超レア | 1 | [スライム](/species/slime) | 12 | 6 |
 | [タマゴロン](/monsters/tamagoron) | 超レア | 1 | [自然](/species/sizen) | 12 | 6 |
-| [おおがらす](/monsters/greatraven) | 超レア | 1 | [自然](/species/sizen) | 12 | 9 |
-| [おにこぞう](/monsters/onikozou2) | 超レア | 1 | [悪魔](/species/akuma) | 18 | 10 |
+| [オニオーン](/monsters/onioon) | 超レア | 1 | [自然](/species/sizen) | 12 | 7 |
+| [おおがらす2](/monsters/greatraven) | 超レア | 1 | [自然](/species/sizen) | 12 | 9 |
+| [おにこぞう2](/monsters/onikozou2) | 超レア | 1 | [悪魔](/species/akuma) | 18 | 10 |
 | [マッシュスライム](/monsters/slimeshroom) | 超レア | 1 | [スライム](/species/slime) | 22 | 12 |
 | [ボックススライムブルー](/monsters/boxsuraimu_ao) | 超レア | 1 | [スライム](/species/slime) | 15 | 13 |
+| [スノーム](/monsters/snowmangler) | 超レア | 1 | [スライム](/species/slime) | 25 | 13 |
 | [かぼちゃの騎士](/monsters/kabochanokisi) | 超レア | 1 | [ゾンビ](/species/zombie) | 26 | 14 |
 | [はねスライム](/monsters/hane_suraimu) | 超レア | 1 | [スライム](/species/slime) | 23 | 14 |
 | [ウパソルジャー](/monsters/upasoruja) | 超レア | 1 | [自然](/species/sizen) | 22 | 15 |
@@ -55,6 +57,7 @@ next:
 | [りゅうき兵](/monsters/mandrake_mercenary) | 超レア | 2 | [ドラゴン](/species/dragon) | 64 | 54 |
 | [アクアスライム](/monsters/aquaslime) | 超レア | 2 | [スライム](/species/slime) | 59 | 55 |
 | [スライムファング](/monsters/wildslime) | 超レア | 2 | [スライム](/species/slime) | 63 | 56 |
+| [メタルリザード](/monsters/metarurizaado) | 超レア | 2 | [メタル](/species/metal) | 8 | 3,366 |
 
 見出しを押すと並べ替えできます。
 

@@ -5,8 +5,8 @@ prev:
   text: "どぐう戦士"
   link: /monsters/dgu_fighter
 next:
-  text: "デスマシーン"
-  link: /monsters/slaughtomaton
+  text: "吹雪の魔女"
+  link: /monsters/hubukinomajyo
 ---
 
 # ホーリーキング
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 463 |
+| 図鑑No. | 490 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

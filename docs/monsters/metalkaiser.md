@@ -2,8 +2,8 @@
 title: メタルカイザー
 description: DQMVIのモンスター「メタルカイザー」のステータス。HP34 / こうげき113 / しゅび10,000 / 経験値51,405 / 457G。
 prev:
-  text: "ゴーストベリー"
-  link: /monsters/ghostberry
+  text: "メーダプリンス"
+  link: /monsters/meedapurinsu
 next:
   text: "メタルキング"
   link: /monsters/metaking
@@ -30,7 +30,7 @@ EXP | 51,405
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 473 |
+| 図鑑No. | 509 |
 | ランク | 5 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼夜 |

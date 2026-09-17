@@ -41,7 +41,7 @@ EXP | 6
 
 | 区分 | アイテム |
 | --- | --- |
-| 通常ドロップ | [タマゴ](/drops/mc_egg) |
+| 通常ドロップ | [卵](/drops/mc_egg) |
 | レアドロップ | [薬草(HP+30)](/drops/yakusou) |
 | 超レアドロップ | [スライムおしゃれ花](/drops/suraimuosyarebana) |
 | オブジェ | タマゴロンのオブジェ |

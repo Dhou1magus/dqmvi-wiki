@@ -24,7 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [タマゴロン](/monsters/tamagoron) | 通常 | 1 | [自然](/species/sizen) | 12 | 6 |
-| [おおがらす](/monsters/greatraven) | 通常 | 1 | [自然](/species/sizen) | 12 | 9 |
+| [おおがらす2](/monsters/greatraven) | 通常 | 1 | [自然](/species/sizen) | 12 | 9 |
 
 見出しを押すと並べ替えできます。
 

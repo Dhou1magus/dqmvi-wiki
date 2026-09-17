@@ -38,7 +38,7 @@ next:
 | [ヘルプラネット](/monsters/herupuranetto) | 超レア | 5 | [物質](/species/bussitu) | 459 | 263 |
 | [ビッグフェイス](/monsters/biggufeisu) | 超レア | 5 | [物質](/species/bussitu) | 522 | 294 |
 | [バルンバ](/monsters/balloon_ba) | 超レア | 5 | [ドラゴン](/species/dragon) | 546 | 335 |
-| [ダースドラゴン](/monsters/darthdragon2) | 超レア | 5 | [ドラゴン](/species/dragon) | 627 | 357 |
+| [ダースドラゴン2](/monsters/darthdragon2) | 超レア | 5 | [ドラゴン](/species/dragon) | 627 | 357 |
 
 見出しを押すと並べ替えできます。
 

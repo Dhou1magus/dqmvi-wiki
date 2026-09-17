@@ -26,11 +26,11 @@ next:
 | [ソードファントム](/monsters/sodofantomu) | 通常 | 6 | [ゾンビ](/species/zombie) | 1,184 | 409 |
 | [キラークラブ](/monsters/kirakurabu) | 通常 | 7 | [自然](/species/sizen) | 1,800 | 675 |
 | [コキュードス](/monsters/cocytus) | 通常 | 7 | [ドラゴン](/species/dragon) | 2,438 | 888 |
-| [エンゼルアーマー](/monsters/enzeruaamaa) | 通常 | 7 | [物質](/species/bussitu) | 3,069 | 919 |
 | [プラチナキング](/monsters/puratinaking) | 通常 | 6 | [メタル](/species/metal) | 65 | 150,000 |
 | [まじゅつし](/monsters/majutusi) | 超レア | 2 | [悪魔](/species/akuma) | 45 | 38 |
 | [さそりアーマー](/monsters/sasori_a_ma) | 超レア | 2 | [自然](/species/sizen) | 52 | 44 |
 | [のろいのランプ](/monsters/malevolantern) | 超レア | 2 | [物質](/species/bussitu) | 46 | 46 |
+| [しっぽ団のおおきづち](/monsters/hammerhood_shippodan) | 超レア | 2 | [魔獣](/species/majyu) | 51 | 46 |
 | [ウィッチレディ](/monsters/whicchiredi) | 超レア | 2 | [悪魔](/species/akuma) | 50 | 47 |
 | [デビルアーマー](/monsters/debiruaamaa) | 超レア | 2 | [物質](/species/bussitu) | 66 | 58 |
 | [スケアフレイル](/monsters/sukeafureiru) | 超レア | 2 | [悪魔](/species/akuma) | 77 | 63 |
@@ -38,7 +38,7 @@ next:
 | [トラップボックス](/monsters/torappubokkusu) | 超レア | 3 | [物質](/species/bussitu) | 87 | 82 |
 | [ドラキーマ](/monsters/dorakima) | 超レア | 3 | [悪魔](/species/akuma) | 98 | 85 |
 | [ブリザード](/monsters/burizado) | 超レア | 3 | [物質](/species/bussitu) | 85 | 90 |
-| [うらぎりこぞう](/monsters/uragirikozou2) | 超レア | 3 | [悪魔](/species/akuma) | 90 | 95 |
+| [うらぎりこぞう2](/monsters/uragirikozou2) | 超レア | 3 | [悪魔](/species/akuma) | 90 | 95 |
 | [だいおうイカ](/monsters/daiouika) | 超レア | 3 | [自然](/species/sizen) | 175 | 110 |
 | [バベルボブル](/monsters/baberuboburu) | 超レア | 2 | [物質](/species/bussitu) | 122 | 112 |
 | [アームライオン](/monsters/armraion) | 超レア | 3 | [魔獣](/species/majyu) | 135 | 115 |

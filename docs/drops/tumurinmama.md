@@ -3,11 +3,11 @@ title: つむりんママの貝殻
 description: つむりんママの貝殻
 pageClass: wide-page sortable-list
 prev:
-  text: "ももいろ三姉妹のピアス"
-  link: /drops/momoirosansimainopiasu
+  text: "つけもの石"
+  link: /drops/tukemonoisi
 next:
-  text: "ゴールデンコーンの角"
-  link: /drops/gorudenkonnotuno
+  text: "てつのクギ"
+  link: /drops/tetunokugi
 ---
 
 # つむりんママの貝殻

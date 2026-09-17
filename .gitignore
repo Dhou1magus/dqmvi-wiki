@@ -6,3 +6,5 @@ docs/.vitepress/.temp
 *.log
 docs/.vitepress/*.timestamp-*.mjs
 _to_delete/
+AGENTS.md
+backups/

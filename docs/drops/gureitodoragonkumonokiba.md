@@ -3,11 +3,11 @@ title: グレイトドラゴン・雲の牙
 description: グレイトドラゴン・雲の牙
 pageClass: wide-page sortable-list
 prev:
-  text: "ゲノミーの触手"
-  link: /drops/genominosyokusyu
+  text: "グランシーザーの髭"
+  link: /drops/guransizanohige
 next:
-  text: "ましょうぐものエキス"
-  link: /drops/masyougumonoekisu
+  text: "グレートアックス"
+  link: /drops/gureitoakusu
 ---
 
 # グレイトドラゴン・雲の牙

@@ -1,6 +1,6 @@
 ---
-title: おおがらす
-description: DQMVIのモンスター「おおがらす」のステータス。HP12 / こうげき5 / しゅび2 / 経験値9 / 2G。
+title: おおがらす2
+description: DQMVIのモンスター「おおがらす2」のステータス。HP12 / こうげき5 / しゅび2 / 経験値9 / 2G。
 prev:
   text: "まほうつかい"
   link: /monsters/magician
@@ -9,7 +9,7 @@ next:
   link: /monsters/caterpillar
 ---
 
-# おおがらす
+# おおがらす2
 
 ランク1のモンスター。
 
@@ -41,7 +41,7 @@ EXP | 9
 
 | 区分 | アイテム |
 | --- | --- |
-| 通常ドロップ | [タマゴ](/drops/mc_egg) |
+| 通常ドロップ | [卵](/drops/mc_egg) |
 | レアドロップ | [薬草(HP+30)](/drops/yakusou) |
 | 超レアドロップ | [スライムおしゃれ花](/drops/suraimuosyarebana) |
 | オブジェ | おおがらすのオブジェ |

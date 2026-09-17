@@ -3,11 +3,11 @@ title: フレアドラゴンのうろこ
 description: フレアドラゴンのうろこ
 pageClass: wide-page sortable-list
 prev:
-  text: "タイプGの欠片"
-  link: /drops/taipugnokakera
+  text: "プラチナ合金"
+  link: /drops/puratina2
 next:
-  text: "ミュシャドの毛"
-  link: /drops/myusyadonoke
+  text: "べっこう"
+  link: /drops/bekkou
 ---
 
 # フレアドラゴンのうろこ

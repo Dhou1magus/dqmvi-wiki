@@ -3,11 +3,11 @@ title: にくきゅうの杖
 description: にくきゅうの杖
 pageClass: wide-page sortable-list
 prev:
-  text: "のろいの岩の槍"
-  link: /drops/noroiiwanoyari
+  text: "トロルバッコスの大棍棒"
+  link: /drops/tororubakkosunoookonnbou
 next:
-  text: "名刀 斬鉄丸"
-  link: /drops/meitouzantetumaru
+  text: "にじいろの布きれ"
+  link: /drops/nijiirononunokire
 ---
 
 # にくきゅうの杖

@@ -2,7 +2,7 @@
 title: ウパソルジャー
 description: DQMVIのモンスター「ウパソルジャー」のステータス。HP22 / こうげき7 / しゅび4 / 経験値15 / 2G。
 prev:
-  text: "ぐんたいガニ"
+  text: "ぐんたいガニ2"
   link: /monsters/army_crab2
 next:
   text: "ワンワンダック"

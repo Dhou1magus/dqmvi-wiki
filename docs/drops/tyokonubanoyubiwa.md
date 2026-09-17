@@ -3,11 +3,11 @@ title: チョコヌーバの指輪
 description: チョコヌーバの指輪
 pageClass: wide-page sortable-list
 prev:
-  text: "シールドあにきの盾"
-  link: /drops/sirudoanikinotate
+  text: "ちょうの羽"
+  link: /drops/tyounohane
 next:
-  text: "タッチャンの首飾り"
-  link: /drops/tattyannokubikazari
+  text: "つけもの石"
+  link: /drops/tukemonoisi
 ---
 
 # チョコヌーバの指輪

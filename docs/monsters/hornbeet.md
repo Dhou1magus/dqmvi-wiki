@@ -2,8 +2,8 @@
 title: ホーンビートル
 description: DQMVIのモンスター「ホーンビートル」のステータス。HP215 / こうげき105 / しゅび88 / 経験値180 / 37G。
 prev:
-  text: "アカツキショウグン"
-  link: /monsters/akatsuki_shogun
+  text: "シュプリンガー"
+  link: /monsters/springer
 next:
   text: "だんごスライム"
   link: /monsters/dangoslime
@@ -30,7 +30,7 @@ EXP | 180
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 365 |
+| 図鑑No. | 385 |
 | ランク | 4 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼夜 |
@@ -44,6 +44,8 @@ EXP | 180
 | 通常ドロップ | [トゲトゲの牙](/drops/togetogenokiba) |
 | レアドロップ | [プラチナ](/drops/puratina) |
 | 超レアドロップ | [巨大ヒゲトカゲ](/drops/kyodaihigetokage) |
+| オブジェ | ホーンビートルのオブジェ |
+| フィギュア | ホーンビートルのフィギュア |
 
 ## 使う呪文
 

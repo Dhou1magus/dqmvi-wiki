@@ -1,6 +1,6 @@
 ---
 title: 幻魔石
-description: DQMVIの「幻魔石」を落とすモンスター36体の一覧。いちばん弱いのはおどる宝石（通常・EXP142）。
+description: DQMVIの「幻魔石」を落とすモンスター38体の一覧。いちばん弱いのはおどる宝石（通常・EXP142）。
 pageClass: wide-page sortable-list
 prev:
   text: "賢者の聖水"
@@ -12,7 +12,7 @@ next:
 
 # 幻魔石
 
-素材。**36体**のモンスターが落とします。
+素材。**38体**のモンスターが落とします。
 
 ::: tip ねらい目
 **おどる宝石**（通常ドロップ・EXP142）。
@@ -26,6 +26,7 @@ next:
 | [おどる宝石](/monsters/odoruhouseki) | 通常 | 4 | [物質](/species/bussitu) | 162 | 142 |
 | [ようじゅつし](/monsters/youjutusi) | 通常 | 4 | [悪魔](/species/akuma) | 177 | 155 |
 | [キングマーマン](/monsters/kingmerman) | 通常 | 4 | [自然](/species/sizen) | 180 | 159 |
+| [ヘルダイバー](/monsters/abyssdiver) | 通常 | 4 | [ドラゴン](/species/dragon) | 184 | 166 |
 | [プロトキラー](/monsters/protokira) | 通常 | 4 | [物質](/species/bussitu) | 222 | 200 |
 | [メタルドラゴン](/monsters/metarudoragon) | 通常 | 4 | [物質](/species/bussitu) | 255 | 212 |
 | [ガルーダ](/monsters/garuda) | 通常 | 5 | [魔獣](/species/majyu) | 501 | 268 |
@@ -54,6 +55,7 @@ next:
 | [じごくのきし](/monsters/jigokunokisi) | レア | 6 | [ゾンビ](/species/zombie) | 1,202 | 454 |
 | [ピンキーマッシュ](/monsters/pinkymash) | 超レア | 4 | [スライム](/species/slime) | 187 | 144 |
 | [サンダーシャウト](/monsters/thundershaut) | 超レア | 4 | [物質](/species/bussitu) | 218 | 183 |
+| [グレイビーポット](/monsters/gravy_pot) | 超レア | 4 | [物質](/species/bussitu) | 184 | 191 |
 | [ドールマスター](/monsters/dollmaster) | 超レア | 5 | [特殊](/species/tokusyu) | 371 | 216 |
 | [ブラッディハンド](/monsters/buraddihando) | 超レア | 5 | [物質](/species/bussitu) | 389 | 235 |
 | [ミミック](/monsters/mimikku) | 超レア | 5 | [物質](/species/bussitu) | 522 | 277 |

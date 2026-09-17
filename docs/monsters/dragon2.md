@@ -1,15 +1,15 @@
 ---
-title: ドラゴン
-description: DQMVIのモンスター「ドラゴン」のステータス。HP183 / こうげき73 / しゅび55 / 経験値152 / 33G。
+title: ドラゴン2
+description: DQMVIのモンスター「ドラゴン2」のステータス。HP183 / こうげき73 / しゅび55 / 経験値152 / 33G。
 prev:
   text: "スカルゴン"
   link: /monsters/skalgon
 next:
-  text: "うらぎりこぞう"
+  text: "うらぎりこぞう2"
   link: /monsters/uragirikozou2
 ---
 
-# ドラゴン
+# ドラゴン2
 
 ランク3のモンスター。
 
@@ -30,7 +30,7 @@ EXP | 152
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 211 |
+| 図鑑No. | 224 |
 | ランク | 3 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

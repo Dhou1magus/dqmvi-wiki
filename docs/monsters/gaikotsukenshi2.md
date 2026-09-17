@@ -1,6 +1,6 @@
 ---
-title: がいこつけんし
-description: DQMVIのモンスター「がいこつけんし」のステータス。HP155 / こうげき77 / しゅび45 / 経験値123 / 25G。
+title: がいこつけんし2
+description: DQMVIのモンスター「がいこつけんし2」のステータス。HP155 / こうげき77 / しゅび45 / 経験値123 / 25G。
 prev:
   text: "エビルスピリッツ"
   link: /monsters/evilspirits
@@ -9,7 +9,7 @@ next:
   link: /monsters/shinigamikizoku
 ---
 
-# がいこつけんし
+# がいこつけんし2
 
 ランク3のモンスター。
 
@@ -30,7 +30,7 @@ EXP | 123
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 207 |
+| 図鑑No. | 220 |
 | ランク | 3 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

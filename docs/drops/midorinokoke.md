@@ -1,6 +1,6 @@
 ---
 title: みどりコケ
-description: DQMVIの「みどりコケ」を落とすモンスター17体の一覧。いちばん弱いのはとげぼうず（通常・EXP7）。
+description: DQMVIの「みどりコケ」を落とすモンスター18体の一覧。いちばん弱いのはとげぼうず（通常・EXP7）。
 pageClass: wide-page sortable-list
 prev:
   text: "ミスリル合金"
@@ -12,7 +12,7 @@ next:
 
 # みどりコケ
 
-素材。**17体**のモンスターが落とします。
+素材。**18体**のモンスターが落とします。
 
 ::: tip ねらい目
 **とげぼうず**（通常ドロップ・EXP7）。
@@ -36,6 +36,7 @@ next:
 | [スライムツリー](/monsters/slimetree) | レア | 1 | [スライム](/species/slime) | 10 | 6 |
 | [ライムスライム](/monsters/raimusuraimu) | レア | 1 | [スライム](/species/slime) | 18 | 11 |
 | [ファーラット](/monsters/faratto) | レア | 1 | [魔獣](/species/majyu) | 24 | 11 |
+| [スノーム](/monsters/snowmangler) | レア | 1 | [スライム](/species/slime) | 25 | 13 |
 | [スキッパー](/monsters/sukippaa) | レア | 1 | [悪魔](/species/akuma) | 28 | 15 |
 | [ゴースト](/monsters/ghost) | レア | 2 | [ゾンビ](/species/zombie) | 39 | 35 |
 | [スピニー](/monsters/supini) | レア | 3 | [物質](/species/bussitu) | 72 | 75 |

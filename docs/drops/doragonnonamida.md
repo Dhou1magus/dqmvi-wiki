@@ -41,7 +41,7 @@ next:
 | [スライムナイト](/monsters/suraimunaito) | レア | 3 | [スライム](/species/slime) | 98 | 99 |
 | [ホイップスライム](/monsters/whipslime) | レア | 3 | [スライム](/species/slime) | 151 | 108 |
 | [おにこんぼう](/monsters/onikonbou) | レア | 3 | [ドラゴン](/species/dragon) | 172 | 111 |
-| [ガニラス](/monsters/ganiras2) | レア | 3 | [自然](/species/sizen) | 135 | 115 |
+| [ガニラス2](/monsters/ganiras2) | レア | 3 | [自然](/species/sizen) | 135 | 115 |
 | [スライムダーク](/monsters/slime_dark) | レア | 3 | [スライム](/species/slime) | 162 | 129 |
 | [じごくのよろい](/monsters/jigokunoyoroi) | レア | 6 | [ゾンビ](/species/zombie) | 1,288 | 442 |
 | [グレイトドラゴン](/monsters/gureitodoragon) | レア | 6 | [ドラゴン](/species/dragon) | 1,550 | 550 |

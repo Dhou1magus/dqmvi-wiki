@@ -1,11 +1,13 @@
 ---
 title: マーブルンの尻尾
 description: マーブルンの尻尾
-pageClass: wide-page sortable-list
-prev: false
+pageClass: wide-page sortable-list false
+prev:
+  text: "ほのおの盾"
+  link: /drops/honoonotate
 next:
-  text: "ハートナイトの剣"
-  link: /drops/hatonaitonoken
+  text: "まじゅうの角"
+  link: /drops/majuunotuno
 ---
 
 # マーブルンの尻尾

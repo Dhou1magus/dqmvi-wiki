@@ -1,6 +1,6 @@
 ---
 title: まじゅうの皮
-description: DQMVIの「まじゅうの皮」を落とすモンスター28体の一覧。いちばん弱いのはファーラット（通常・EXP11）。
+description: DQMVIの「まじゅうの皮」を落とすモンスター29体の一覧。いちばん弱いのはファーラット（通常・EXP11）。
 pageClass: wide-page sortable-list
 prev:
   text: "まじゅうの角"
@@ -12,7 +12,7 @@ next:
 
 # まじゅうの皮
 
-素材。**28体**のモンスターが落とします。
+素材。**29体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ファーラット**（通常ドロップ・EXP11）。
@@ -30,6 +30,7 @@ next:
 | [ももんじゃ](/monsters/momonja) | 通常 | 1 | [魔獣](/species/majyu) | 23 | 16 |
 | [おおきづち](/monsters/ookiduti) | 通常 | 2 | [魔獣](/species/majyu) | 42 | 40 |
 | [ダックスビル](/monsters/ducksbill) | 通常 | 3 | [魔獣](/species/majyu) | 83 | 84 |
+| [ギャオース](/monsters/seasaur) | 通常 | 3 | [ドラゴン](/species/dragon) | 151 | 107 |
 | [石炭つむり](/monsters/coalslime) | 通常 | 3 | [スライム](/species/slime) | 150 | 110 |
 | [チェリースライム](/monsters/cherryslime) | 通常 | 3 | [スライム](/species/slime) | 158 | 110 |
 | [モコモコじゅう](/monsters/mokomokojuu) | 通常 | 4 | [魔獣](/species/majyu) | 148 | 140 |
@@ -46,7 +47,7 @@ next:
 | [スラッピー](/monsters/slabbit) | レア | 3 | [スライム](/species/slime) | 153 | 109 |
 | [ベビーニュート](/monsters/bebinyuto) | レア | 3 | [ドラゴン](/species/dragon) | 151 | 124 |
 | [ベンガルクーン](/monsters/bengarukun) | レア | 3 | [魔獣](/species/majyu) | 98 | 128 |
-| [ドラゴン](/monsters/dragon2) | レア | 3 | [ドラゴン](/species/dragon) | 183 | 152 |
+| [ドラゴン2](/monsters/dragon2) | レア | 3 | [ドラゴン](/species/dragon) | 183 | 152 |
 | [ベビーパンサー](/monsters/kirapan) | レア | 4 | [魔獣](/species/majyu) | 168 | 160 |
 | [アカイライ](/monsters/akairai) | レア | 7 | [自然](/species/sizen) | 1,650 | 646 |
 | [魔天海フォルネー](/monsters/matenkaiforney) | レア | 7 | [自然](/species/sizen) | 1,995 | 777 |

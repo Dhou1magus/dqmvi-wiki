@@ -27,7 +27,7 @@ next:
 | [タマゴロン](/monsters/tamagoron) | レア | 1 | [自然](/species/sizen) | 12 | 6 |
 | [とげぼうず](/monsters/togebouzu) | レア | 1 | [物質](/species/bussitu) | 13 | 7 |
 | [マンドラ](/monsters/mandora) | レア | 1 | [スライム](/species/slime) | 15 | 9 |
-| [おおがらす](/monsters/greatraven) | レア | 1 | [自然](/species/sizen) | 12 | 9 |
+| [おおがらす2](/monsters/greatraven) | レア | 1 | [自然](/species/sizen) | 12 | 9 |
 | [ナスビナーラ](/monsters/nasubira) | レア | 1 | [自然](/species/sizen) | 21 | 11 |
 | [まほうつかい](/monsters/magician) | レア | 1 | [悪魔](/species/akuma) | 15 | 13 |
 | [はさみくわがた](/monsters/scissorbeatle) | レア | 1 | [自然](/species/sizen) | 26 | 14 |

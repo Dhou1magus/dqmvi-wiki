@@ -5,8 +5,8 @@ prev:
   text: "キングミミック"
   link: /monsters/kingumimikku
 next:
-  text: "タイプG"
-  link: /monsters/taipug
+  text: "グリンデア"
+  link: /monsters/grindea
 ---
 
 # ニジゴロン
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 549 |
+| 図鑑No. | 585 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

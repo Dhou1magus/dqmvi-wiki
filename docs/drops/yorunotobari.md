@@ -24,7 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [シャドー](/monsters/syado) | 通常 | 2 | [物質](/species/bussitu) | 52 | 43 |
-| [じごくのハサミ](/monsters/jigoku_no_hasami2) | 通常 | 2 | [自然](/species/sizen) | 60 | 60 |
+| [じごくのハサミ2](/monsters/jigoku_no_hasami2) | 通常 | 2 | [自然](/species/sizen) | 60 | 60 |
 | [スケアフレイル](/monsters/sukeafureiru) | 通常 | 2 | [悪魔](/species/akuma) | 77 | 63 |
 | [さまようたましい](/monsters/samayoutamasii) | 通常 | 3 | [ゾンビ](/species/zombie) | 73 | 79 |
 | [ナイトウォーカー](/monsters/nightwalker) | 通常 | 3 | [悪魔](/species/akuma) | 83 | 84 |

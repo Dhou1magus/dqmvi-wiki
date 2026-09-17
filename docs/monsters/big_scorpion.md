@@ -5,8 +5,8 @@ prev:
   text: "ウィッチレディ"
   link: /monsters/whicchiredi
 next:
-  text: "ハートナイト"
-  link: /monsters/hatonaito
+  text: "フェアリーバット"
+  link: /monsters/fruity_succubat
 ---
 
 # おおさそり
@@ -30,7 +30,7 @@ EXP | 50
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 154 |
+| 図鑑No. | 159 |
 | ランク | 2 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼夜 |

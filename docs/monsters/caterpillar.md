@@ -2,10 +2,10 @@
 title: キャタピラー
 description: DQMVIのモンスター「キャタピラー」のステータス。HP24 / こうげき9 / しゅび4 / 経験値15 / 2G。
 prev:
-  text: "おおがらす"
+  text: "おおがらす2"
   link: /monsters/greatraven
 next:
-  text: "ぐんたいガニ"
+  text: "ぐんたいガニ2"
   link: /monsters/army_crab2
 ---
 

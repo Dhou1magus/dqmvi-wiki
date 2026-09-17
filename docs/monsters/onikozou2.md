@@ -1,6 +1,6 @@
 ---
-title: おにこぞう
-description: DQMVIのモンスター「おにこぞう」のステータス。HP18 / こうげき8 / しゅび3 / 経験値10 / 3G。
+title: おにこぞう2
+description: DQMVIのモンスター「おにこぞう2」のステータス。HP18 / こうげき8 / しゅび3 / 経験値10 / 3G。
 prev:
   text: "はなまきドラゴ"
   link: /monsters/hanamakidrago
@@ -9,7 +9,7 @@ next:
   link: /monsters/magician
 ---
 
-# おにこぞう
+# おにこぞう2
 
 ランク1のモンスター。
 

@@ -1,11 +1,13 @@
 ---
 title: キングヒドラの頭
 description: キングヒドラの頭
-pageClass: wide-page sortable-list
+pageClass: wide-page sortable-list false
 prev:
-  text: "ミュシャドの毛"
-  link: /drops/myusyadonoke
-next: false
+  text: "キングダイヤ"
+  link: /drops/kingdaiya
+next:
+  text: "クイーンモーモンの冠"
+  link: /drops/kuinmomonnokanmuri
 ---
 
 # キングヒドラの頭

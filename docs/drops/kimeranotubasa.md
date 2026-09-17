@@ -1,6 +1,6 @@
 ---
 title: キメラのつばさ
-description: DQMVIの「キメラのつばさ」を落とすモンスター4体の一覧。いちばん弱いのはスターキメラ（レア・EXP628）。
+description: DQMVIの「キメラのつばさ」を落とすモンスター5体の一覧。いちばん弱いのはスターキメラ（レア・EXP628）。
 pageClass: wide-page sortable-list
 prev:
   text: "ギガクラッシャー"
@@ -12,7 +12,7 @@ next:
 
 # キメラのつばさ
 
-特殊。**4体**のモンスターが落とします。
+特殊。**5体**のモンスターが落とします。
 
 ::: tip ねらい目
 **スターキメラ**（レアドロップ・EXP628）。
@@ -26,7 +26,8 @@ next:
 | [スターキメラ](/monsters/starkimera) | レア | 7 | [自然](/species/sizen) | 1,770 | 628 |
 | [デーモンソード](/monsters/demonsodo) | レア | 7 | [ゾンビ](/species/zombie) | 2,222 | 867 |
 | [メイジキメラ](/monsters/meijikimera) | 超レア | 4 | [自然](/species/sizen) | 186 | 168 |
-| [キースドラゴン](/monsters/keethdragon2) | 超レア | 4 | [ドラゴン](/species/dragon) | 205 | 178 |
+| [キースドラゴン2](/monsters/keethdragon2) | 超レア | 4 | [ドラゴン](/species/dragon) | 205 | 178 |
+| [ウィングドラゴン](/monsters/wingdraco) | 超レア | 4 | [ドラゴン](/species/dragon) | 219 | 187 |
 
 見出しを押すと並べ替えできます。
 

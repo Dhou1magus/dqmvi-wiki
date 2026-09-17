@@ -5,8 +5,8 @@ prev:
   text: "ディアブラダ"
   link: /monsters/dexiaburada
 next:
-  text: "アカツキショウグン"
-  link: /monsters/akatsuki_shogun
+  text: "ホーンビートル"
+  link: /monsters/hornbeet
 ---
 
 # シュプリンガー
@@ -30,7 +30,7 @@ EXP | 192
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 363 |
+| 図鑑No. | 384 |
 | ランク | 4 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |
@@ -44,6 +44,8 @@ EXP | 192
 | 通常ドロップ | [ガマのあぶら](/drops/gamanoabura) |
 | レアドロップ | [べっこう](/drops/bekkou) |
 | 超レアドロップ | [呪力のモト](/drops/juryokunomoto) |
+| オブジェ | シュプリンガーのオブジェ |
+| フィギュア | シュプリンガーのフィギュア |
 
 ## 使う呪文
 

@@ -1,6 +1,6 @@
 ---
 title: ヘビーメタル
-description: DQMVIの「ヘビーメタル」を落とすモンスター34体の一覧。いちばん弱いのはスライムカルゴ（通常・EXP117）。
+description: DQMVIの「ヘビーメタル」を落とすモンスター46体の一覧。いちばん弱いのはスライムカルゴ（通常・EXP117）。
 pageClass: wide-page sortable-list
 prev:
   text: "べっこう"
@@ -12,7 +12,7 @@ next:
 
 # ヘビーメタル
 
-素材。**34体**のモンスターが落とします。
+素材。**46体**のモンスターが落とします。
 
 ::: tip ねらい目
 **スライムカルゴ**（通常ドロップ・EXP117）。
@@ -25,22 +25,32 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [スライムカルゴ](/monsters/snailslime) | 通常 | 3 | [スライム](/species/slime) | 159 | 117 |
 | [凶スライム](/monsters/kyouslime) | 通常 | 3 | [スライム](/species/slime) | 150 | 126 |
+| [カイロプッテ](/monsters/kairoputte) | 通常 | 4 | [悪魔](/species/akuma) | 183 | 183 |
 | [スライムマデュラ](/monsters/suraimumadyura) | 通常 | 7 | [スライム](/species/slime) | 1,695 | 700 |
 | [キラーマシン2](/monsters/kiramasin2) | 通常 | 7 | [物質](/species/bussitu) | 3,300 | 931 |
 | [メタルスライム](/monsters/metasura) | 通常 | 1 | [メタル](/species/metal) | 4 | 1,050 |
 | [メタルブラザーズ](/monsters/metaruburazazu) | 通常 | 2 | [メタル](/species/metal) | 8 | 3,300 |
+| [メタルリザード](/monsters/metarurizaado) | 通常 | 2 | [メタル](/species/metal) | 8 | 3,366 |
 | [メタルパール](/monsters/metalpearl) | 通常 | 2 | [メタル](/species/metal) | 8 | 4,500 |
 | [メタルホイミン](/monsters/metaruhoimin) | 通常 | 3 | [メタル](/species/metal) | 10 | 6,500 |
 | [はぐれメタル](/monsters/hagumeta) | 通常 | 3 | [メタル](/species/metal) | 13 | 10,500 |
 | [メタルトリュフ](/monsters/metaltruffeslime) | 通常 | 4 | [メタル](/species/metal) | 18 | 16,578 |
 | [ドラゴメタル](/monsters/dragometaru) | 通常 | 4 | [メタル](/species/metal) | 25 | 21,000 |
 | [メタルキング](/monsters/metaking) | 通常 | 5 | [メタル](/species/metal) | 35 | 44,500 |
+| [ギャオース](/monsters/seasaur) | レア | 3 | [ドラゴン](/species/dragon) | 151 | 107 |
+| [グレイビーポット](/monsters/gravy_pot) | レア | 4 | [物質](/species/bussitu) | 184 | 191 |
 | [ロイヤルミミック](/monsters/tansu_royal) | レア | 7 | [物質](/species/bussitu) | 2,261 | 695 |
 | [マッソ](/monsters/masso) | レア | 7 | [ドラゴン](/species/dragon) | 1,860 | 705 |
 | [ダークトロル](/monsters/darktororu) | レア | 7 | [悪魔](/species/akuma) | 2,700 | 788 |
 | [デンガー](/monsters/denga) | レア | 7 | [スライム](/species/slime) | 2,625 | 791 |
 | [ストーンマン](/monsters/stonman) | レア | 7 | [物質](/species/bussitu) | 2,580 | 792 |
 | [ビッグモアイ](/monsters/biggumoai) | レア | 7 | [物質](/species/bussitu) | 2,925 | 809 |
+| [メタルスライム](/monsters/metasura) | レア | 1 | [メタル](/species/metal) | 4 | 1,050 |
+| [メタルブラザーズ](/monsters/metaruburazazu) | レア | 2 | [メタル](/species/metal) | 8 | 3,300 |
+| [メタルホイミン](/monsters/metaruhoimin) | レア | 3 | [メタル](/species/metal) | 10 | 6,500 |
+| [はぐれメタル](/monsters/hagumeta) | レア | 3 | [メタル](/species/metal) | 13 | 10,500 |
+| [メタルトリュフ](/monsters/metaltruffeslime) | レア | 4 | [メタル](/species/metal) | 18 | 16,578 |
+| [ドラゴメタル](/monsters/dragometaru) | レア | 4 | [メタル](/species/metal) | 25 | 21,000 |
 | [てつのさそり](/monsters/iron_scorpion) | 超レア | 3 | [自然](/species/sizen) | 154 | 124 |
 | [スモールグール](/monsters/sumoruguru) | 超レア | 4 | [ゾンビ](/species/zombie) | 165 | 143 |
 | [フェイスボール](/monsters/faceball) | 超レア | 4 | [ゾンビ](/species/zombie) | 202 | 165 |
@@ -57,6 +67,8 @@ next:
 | [メタルスコーピオン](/monsters/metarusukopion) | 超レア | 5 | [自然](/species/sizen) | 555 | 288 |
 | [メタルクラッシャー](/monsters/metarukurassya) | 超レア | 5 | [物質](/species/bussitu) | 555 | 311 |
 | [ブラックドラゴン](/monsters/blackdoragon) | 超レア | 7 | [ドラゴン](/species/dragon) | 3,124 | 1,033 |
+| [メタルブラザーズ](/monsters/metaruburazazu) | 超レア | 2 | [メタル](/species/metal) | 8 | 3,300 |
+| [メタルホイミン](/monsters/metaruhoimin) | 超レア | 3 | [メタル](/species/metal) | 10 | 6,500 |
 
 見出しを押すと並べ替えできます。
 

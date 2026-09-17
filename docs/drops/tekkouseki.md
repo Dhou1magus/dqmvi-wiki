@@ -1,6 +1,6 @@
 ---
 title: 鉄鉱石
-description: DQMVIの「鉄鉱石」を落とすモンスター12体の一覧。いちばん弱いのははじけドーラ（通常・EXP12）。
+description: DQMVIの「鉄鉱石」を落とすモンスター13体の一覧。いちばん弱いのははじけドーラ（通常・EXP12）。
 pageClass: wide-page sortable-list
 prev:
   text: "鉄のヤリ"
@@ -12,7 +12,7 @@ next:
 
 # 鉄鉱石
 
-素材。**12体**のモンスターが落とします。
+素材。**13体**のモンスターが落とします。
 
 ::: tip ねらい目
 **はじけドーラ**（通常ドロップ・EXP12）。
@@ -24,6 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [はじけドーラ](/monsters/hajike_dora) | 通常 | 1 | [ドラゴン](/species/dragon) | 25 | 12 |
+| [たけやりへい](/monsters/takeyarihei) | 通常 | 1 | [物質](/species/bussitu) | 26 | 14 |
 | [黄泉の花](/monsters/yominohana) | 通常 | 2 | [スライム](/species/slime) | 34 | 42 |
 | [ベル](/monsters/bell) | 通常 | 2 | [物質](/species/bussitu) | 63 | 45 |
 | [ひとくい木箱](/monsters/hitokuikibako) | 通常 | 2 | [特殊](/species/tokusyu) | 51 | 54 |

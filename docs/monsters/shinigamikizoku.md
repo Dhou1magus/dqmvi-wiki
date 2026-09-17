@@ -2,7 +2,7 @@
 title: しにがみきぞく
 description: DQMVIのモンスター「しにがみきぞく」のステータス。HP182 / こうげき75 / しゅび47 / 経験値143 / 30G。
 prev:
-  text: "がいこつけんし"
+  text: "がいこつけんし2"
   link: /monsters/gaikotsukenshi2
 next:
   text: "カパーラナーガ"
@@ -30,7 +30,7 @@ EXP | 143
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 208 |
+| 図鑑No. | 221 |
 | ランク | 3 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

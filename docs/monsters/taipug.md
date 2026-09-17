@@ -2,8 +2,8 @@
 title: タイプG
 description: DQMVIのモンスター「タイプG」のステータス。HP16,518 / こうげき547 / しゅび255 / 経験値29,223 / 5,845G。
 prev:
-  text: "ニジゴロン"
-  link: /monsters/nizigoron
+  text: "エンゼルアーマー"
+  link: /monsters/enzeruaamaa
 next:
   text: "ゴールドマント"
   link: /monsters/goldmanto
@@ -30,7 +30,7 @@ EXP | 29,223
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 550 |
+| 図鑑No. | 592 |
 | ランク | 6 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |
@@ -44,6 +44,8 @@ EXP | 29,223
 | 通常ドロップ | [タイプGの欠片](/drops/taipugnokakera) |
 | レアドロップ | タイプGのオブジェ |
 | 超レアドロップ | タイプGのフィギュア |
+| オブジェ | タイプGのオブジェ |
+| フィギュア | タイプGのフィギュア |
 
 ## 関連ページ
 

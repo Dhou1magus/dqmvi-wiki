@@ -2,8 +2,8 @@
 title: ましょうぐも
 description: DQMVIのモンスター「ましょうぐも」のステータス。HP7,141 / こうげき342 / しゅび188 / 経験値9,059 / 1,812G。
 prev:
-  text: "なみさそり"
-  link: /monsters/wave_scorpion
+  text: "からくりしょうぐん"
+  link: /monsters/karakurisyougun
 next:
   text: "ピサロナイト"
   link: /monsters/pisaronaito
@@ -30,7 +30,7 @@ EXP | 9,059
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 467 |
+| 図鑑No. | 500 |
 | ランク | 5 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 夜のみ |
@@ -44,6 +44,8 @@ EXP | 9,059
 | 通常ドロップ | [ましょうぐものエキス](/drops/masyougumonoekisu) |
 | レアドロップ | ましょうぐものオブジェ |
 | 超レアドロップ | ましょうぐものフィギュア |
+| オブジェ | ましょうぐものオブジェ |
+| フィギュア | ましょうぐものフィギュア |
 
 ## 使う呪文
 

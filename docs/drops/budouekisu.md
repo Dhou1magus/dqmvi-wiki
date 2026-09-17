@@ -1,6 +1,6 @@
 ---
 title: 武闘エキス
-description: DQMVIの「武闘エキス」を落とすモンスター44体の一覧。いちばん弱いのはモビルボディ（通常・EXP165）。
+description: DQMVIの「武闘エキス」を落とすモンスター45体の一覧。いちばん弱いのはモビルボディ（通常・EXP165）。
 pageClass: wide-page sortable-list
 prev:
   text: "氷鳥のはね"
@@ -12,7 +12,7 @@ next:
 
 # 武闘エキス
 
-素材。**44体**のモンスターが落とします。
+素材。**45体**のモンスターが落とします。
 
 ::: tip ねらい目
 **モビルボディ**（通常ドロップ・EXP165）。
@@ -55,13 +55,14 @@ next:
 | [ドーラー](/monsters/dora) | レア | 6 | [物質](/species/bussitu) | 1,256 | 422 |
 | [ソーラー](/monsters/sora) | レア | 6 | [物質](/species/bussitu) | 1,256 | 422 |
 | [暗黒の使い](/monsters/ankokunotsukai) | レア | 6 | [ゾンビ](/species/zombie) | 1,407 | 434 |
+| [サイクロプス](/monsters/saikuropusu) | レア | 6 | [悪魔](/species/akuma) | 1,488 | 441 |
 | [ダーククリスタル](/monsters/dark_crystal) | レア | 6 | [物質](/species/bussitu) | 1,258 | 451 |
 | [スノードラゴン](/monsters/snow_dragon) | レア | 6 | [ドラゴン](/species/dragon) | 1,443 | 486 |
 | [スラワッショイ](/monsters/slimewashoi) | レア | 6 | [スライム](/species/slime) | 1,521 | 506 |
 | [ダークホビット](/monsters/dakuhobitto) | レア | 7 | [物質](/species/bussitu) | 1,725 | 678 |
 | [あんこくまじん](/monsters/ankokumajin) | レア | 7 | [物質](/species/bussitu) | 1,890 | 691 |
 | [謎のバケモノ](/monsters/nazonobakemono) | レア | 7 | [ドラゴン](/species/dragon) | 2,853 | 994 |
-| [バアラック](/monsters/baarakku2) | 超レア | 4 | [悪魔](/species/akuma) | 175 | 148 |
+| [バアラック2](/monsters/baarakku2) | 超レア | 4 | [悪魔](/species/akuma) | 175 | 148 |
 | [ばくだんベビー](/monsters/bakudanbebi) | 超レア | 4 | [物質](/species/bussitu) | 170 | 152 |
 | [デュラハーン](/monsters/durahan) | 超レア | 4 | [悪魔](/species/akuma) | 211 | 165 |
 | [ばくだんいわ](/monsters/bakudaniwa) | 超レア | 5 | [物質](/species/bussitu) | 371 | 229 |

@@ -1,6 +1,6 @@
 ---
 title: いかずちの玉
-description: DQMVIの「いかずちの玉」を落とすモンスター55体の一覧。いちばん弱いのはじめじめバブル（通常・EXP77）。
+description: DQMVIの「いかずちの玉」を落とすモンスター57体の一覧。いちばん弱いのはじめじめバブル（通常・EXP77）。
 pageClass: wide-page sortable-list
 prev:
   text: "アルケミストンの帽子"
@@ -12,7 +12,7 @@ next:
 
 # いかずちの玉
 
-素材。**55体**のモンスターが落とします。
+素材。**57体**のモンスターが落とします。
 
 ::: tip ねらい目
 **じめじめバブル**（通常ドロップ・EXP77）。
@@ -27,7 +27,7 @@ next:
 | [パンドラチェスト](/monsters/tansu_pandora) | 通常 | 3 | [物質](/species/bussitu) | 99 | 90 |
 | [スライムナイト](/monsters/suraimunaito) | 通常 | 3 | [スライム](/species/slime) | 98 | 99 |
 | [てっこうまじん](/monsters/tekkoumajin) | 通常 | 3 | [物質](/species/bussitu) | 165 | 108 |
-| [ガニラス](/monsters/ganiras2) | 通常 | 3 | [自然](/species/sizen) | 135 | 115 |
+| [ガニラス2](/monsters/ganiras2) | 通常 | 3 | [自然](/species/sizen) | 135 | 115 |
 | [凶スライムベス](/monsters/kyouslimebes) | 通常 | 3 | [スライム](/species/slime) | 138 | 124 |
 | [スライムダーク](/monsters/slime_dark) | 通常 | 3 | [スライム](/species/slime) | 162 | 129 |
 | [黒怨王](/monsters/kokuenou) | 通常 | 5 | [ゾンビ](/species/zombie) | 495 | 244 |
@@ -63,13 +63,15 @@ next:
 | [エビルスピリッツ](/monsters/evilspirits) | 超レア | 3 | [ゾンビ](/species/zombie) | 95 | 110 |
 | [リビングデッド](/monsters/ribingudeddo) | 超レア | 3 | [ゾンビ](/species/zombie) | 155 | 110 |
 | [こんぺいとう](/monsters/sugarstar_slime) | 超レア | 3 | [スライム](/species/slime) | 166 | 114 |
-| [がいこつけんし](/monsters/gaikotsukenshi2) | 超レア | 3 | [ゾンビ](/species/zombie) | 155 | 123 |
+| [がいこつけんし2](/monsters/gaikotsukenshi2) | 超レア | 3 | [ゾンビ](/species/zombie) | 155 | 123 |
+| [ブラッドレディ](/monsters/vampire_succubat) | 超レア | 3 | [悪魔](/species/akuma) | 151 | 128 |
 | [キングジョーカー](/monsters/kingjoker) | 超レア | 4 | [スライム](/species/slime) | 175 | 142 |
 | [ダークキング](/monsters/darkking) | 超レア | 4 | [スライム](/species/slime) | 186 | 155 |
 | [ベホイムスライム](/monsters/behoimusuraimu) | 超レア | 4 | [スライム](/species/slime) | 168 | 156 |
 | [ボックススライムオレンジ](/monsters/boxsuraimu) | 超レア | 4 | [スライム](/species/slime) | 183 | 160 |
 | [アイアンクック](/monsters/aiankukku) | 超レア | 4 | [物質](/species/bussitu) | 188 | 166 |
 | [ダークペルシャ](/monsters/daakuperusya) | 超レア | 4 | [魔獣](/species/majyu) | 188 | 175 |
+| [カイロプッテ](/monsters/kairoputte) | 超レア | 4 | [悪魔](/species/akuma) | 183 | 183 |
 | [バルザック](/monsters/baruzaku) | 超レア | 4 | [ドラゴン](/species/dragon) | 266 | 185 |
 | [ダーティードール](/monsters/da_thi_do_ru) | 超レア | 4 | [物質](/species/bussitu) | 209 | 185 |
 | [まおうのつかい](/monsters/maounotsukai) | 超レア | 4 | [ゾンビ](/species/zombie) | 184 | 191 |

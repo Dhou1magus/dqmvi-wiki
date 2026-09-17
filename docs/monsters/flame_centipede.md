@@ -5,7 +5,7 @@ prev:
   text: "まどうし"
   link: /monsters/madoushi
 next:
-  text: "ガニラス"
+  text: "ガニラス2"
   link: /monsters/ganiras2
 ---
 
@@ -30,7 +30,7 @@ EXP | 95
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 214 |
+| 図鑑No. | 227 |
 | ランク | 3 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

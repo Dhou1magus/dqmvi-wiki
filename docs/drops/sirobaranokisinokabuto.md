@@ -3,11 +3,11 @@ title: しろバラのきしの兜
 description: しろバラのきしの兜
 pageClass: wide-page sortable-list
 prev:
-  text: "ゴードンヘッドの小手"
-  link: /drops/godonheddonokote
+  text: "ショートボウ"
+  link: /drops/syotobou
 next:
-  text: "シールドあにきの盾"
-  link: /drops/sirudoanikinotate
+  text: "スライダークロボの剣"
+  link: /drops/suraidakurobonoken
 ---
 
 # しろバラのきしの兜

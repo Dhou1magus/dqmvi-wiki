@@ -5,8 +5,8 @@ prev:
   text: "タールキング"
   link: /monsters/tarking
 next:
-  text: "ムーンキメラ"
-  link: /monsters/moonkimera
+  text: "ヘルダイバー"
+  link: /monsters/abyssdiver
 ---
 
 # ワンダーエッグ
@@ -30,7 +30,7 @@ EXP | 195
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 376 |
+| 図鑑No. | 396 |
 | ランク | 4 |
 | 系統 | [スライム系](/species/slime) |
 | 活動時間 | 昼夜 |

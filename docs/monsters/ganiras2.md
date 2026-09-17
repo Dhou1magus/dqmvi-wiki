@@ -1,6 +1,6 @@
 ---
-title: ガニラス
-description: DQMVIのモンスター「ガニラス」のステータス。HP135 / こうげき65 / しゅび82 / 経験値115 / 23G。
+title: ガニラス2
+description: DQMVIのモンスター「ガニラス2」のステータス。HP135 / こうげき65 / しゅび82 / 経験値115 / 23G。
 prev:
   text: "かえんムカデ"
   link: /monsters/flame_centipede
@@ -9,7 +9,7 @@ next:
   link: /monsters/daiouika
 ---
 
-# ガニラス
+# ガニラス2
 
 ランク3のモンスター。
 
@@ -30,7 +30,7 @@ EXP | 115
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 215 |
+| 図鑑No. | 228 |
 | ランク | 3 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

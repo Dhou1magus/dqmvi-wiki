@@ -39,7 +39,7 @@ next:
 | [マッスルアニマル](/monsters/masuruanimaru) | 超レア | 3 | [魔獣](/species/majyu) | 162 | 102 |
 | [石炭つむり](/monsters/coalslime) | 超レア | 3 | [スライム](/species/slime) | 150 | 110 |
 | [ベビーニュート](/monsters/bebinyuto) | 超レア | 3 | [ドラゴン](/species/dragon) | 151 | 124 |
-| [ドラゴン](/monsters/dragon2) | 超レア | 3 | [ドラゴン](/species/dragon) | 183 | 152 |
+| [ドラゴン2](/monsters/dragon2) | 超レア | 3 | [ドラゴン](/species/dragon) | 183 | 152 |
 | [マリンスライム](/monsters/marinsuraimu) | 超レア | 4 | [スライム](/species/slime) | 178 | 167 |
 
 見出しを押すと並べ替えできます。

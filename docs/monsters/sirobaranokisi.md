@@ -5,8 +5,8 @@ prev:
   text: "フレアドラゴン"
   link: /monsters/fureadoragon
 next:
-  text: "ダイヤモンドスライム"
-  link: /monsters/daiyamondosuraimu
+  text: "ゴンズ"
+  link: /monsters/gonzu
 ---
 
 # しろバラのきし
@@ -30,7 +30,7 @@ EXP | 14,267
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 555 |
+| 図鑑No. | 597 |
 | ランク | 6 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼のみ |
@@ -44,6 +44,8 @@ EXP | 14,267
 | 通常ドロップ | [しろバラのきしの兜](/drops/sirobaranokisinokabuto) |
 | レアドロップ | しろバラのきしのオブジェ |
 | 超レアドロップ | しろバラのきしのフィギュア |
+| オブジェ | しろバラのきしのオブジェ |
+| フィギュア | しろバラのきしのフィギュア |
 
 ## 使う呪文
 

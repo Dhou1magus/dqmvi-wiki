@@ -3,11 +3,11 @@ title: アルケミストンの帽子
 description: アルケミストンの帽子
 pageClass: wide-page sortable-list
 prev:
-  text: "スライダークロボの剣"
-  link: /drops/suraidakurobonoken
+  text: "あらくれマスク"
+  link: /drops/arakuremasuku
 next:
-  text: "クイーンモーモンの冠"
-  link: /drops/kuinmomonnokanmuri
+  text: "いかずちの玉"
+  link: /drops/ikazutinotama
 ---
 
 # アルケミストンの帽子

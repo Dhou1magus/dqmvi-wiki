@@ -2,8 +2,8 @@
 title: メタルパール
 description: DQMVIのモンスター「メタルパール」のステータス。HP8 / こうげき21 / しゅび10,000 / 経験値4,500 / 56G。
 prev:
-  text: "巨大ナスビナーラ"
-  link: /monsters/kyodainasubira
+  text: "スライムゴールド"
+  link: /monsters/slimegold
 next:
   text: "メタルブラザーズ"
   link: /monsters/metaruburazazu
@@ -30,7 +30,7 @@ EXP | 4,500
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 161 |
+| 図鑑No. | 174 |
 | ランク | 2 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼のみ |
@@ -44,6 +44,8 @@ EXP | 4,500
 | 通常ドロップ | [ヘビーメタル](/drops/metaru) |
 | レアドロップ | [べっこう](/drops/bekkou) |
 | 超レアドロップ | [プラチナ合金](/drops/puratina2) |
+| オブジェ | メタルパールのオブジェ |
+| フィギュア | メタルパールのフィギュア |
 
 ## 使う呪文
 

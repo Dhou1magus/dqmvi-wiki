@@ -5,8 +5,8 @@ prev:
   text: "まおうのたまご"
   link: /monsters/maounotamago
 next:
-  text: "ミュシャド"
-  link: /monsters/myusyado
+  text: "ガルマッゾ"
+  link: /monsters/garumazzo
 ---
 
 # エンペラン
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 612 |
+| 図鑑No. | 653 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

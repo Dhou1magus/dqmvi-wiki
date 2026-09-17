@@ -5,7 +5,7 @@ prev:
   text: "スカルサーペント"
   link: /monsters/skullserpent
 next:
-  text: "おにこぞう"
+  text: "おにこぞう2"
   link: /monsters/onikozou2
 ---
 

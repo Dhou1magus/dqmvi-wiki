@@ -2,8 +2,8 @@
 title: エビルエスターク
 description: DQMVIのモンスター「エビルエスターク」のステータス。
 prev:
-  text: "スラ・ブラスター"
-  link: /monsters/slimeblaster
+  text: "アスラ王"
+  link: /monsters/asuraou
 next:
   text: "まおうのたまご"
   link: /monsters/maounotamago
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 610 |
+| 図鑑No. | 651 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

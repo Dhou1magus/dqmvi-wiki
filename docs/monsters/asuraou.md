@@ -5,8 +5,8 @@ prev:
   text: "デスマーキュリー"
   link: /monsters/desumakyuri
 next:
-  text: "エンゼルアーマー"
-  link: /monsters/enzeruaamaa
+  text: "エビルエスターク"
+  link: /monsters/ersatzestark
 ---
 
 # アスラ王
@@ -30,7 +30,7 @@ EXP | 807
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 607 |
+| 図鑑No. | 650 |
 | ランク | 7 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

@@ -2,8 +2,8 @@
 title: ミュシャド
 description: DQMVIのモンスター「ミュシャド」のステータス。HP28,877 / こうげき808 / しゅび321 / 経験値38,259 / 7,652G。
 prev:
-  text: "エンペラン"
-  link: /monsters/emperan
+  text: "スラ・ブラスター"
+  link: /monsters/slimeblaster
 next:
   text: "キングヒドラ"
   link: /monsters/kinghidora
@@ -30,7 +30,7 @@ EXP | 38,259
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 613 |
+| 図鑑No. | 664 |
 | ランク | 7 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 夜のみ |
@@ -44,6 +44,8 @@ EXP | 38,259
 | 通常ドロップ | [ミュシャドの毛](/drops/myusyadonoke) |
 | レアドロップ | ミュシャドのオブジェ |
 | 超レアドロップ | ミュシャドのフィギュア |
+| オブジェ | ミュシャドのオブジェ |
+| フィギュア | ミュシャドのフィギュア |
 
 ## 使う呪文
 

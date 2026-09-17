@@ -1,6 +1,6 @@
 ---
 title: せいすい
-description: DQMVIの「せいすい」を落とすモンスター8体の一覧。いちばん弱いのはうみぼうず（レア・EXP156）。
+description: DQMVIの「せいすい」を落とすモンスター9体の一覧。いちばん弱いのはうみぼうず（レア・EXP156）。
 pageClass: wide-page sortable-list
 prev:
   text: "スライムボール"
@@ -12,7 +12,7 @@ next:
 
 # せいすい
 
-素材。**8体**のモンスターが落とします。
+素材。**9体**のモンスターが落とします。
 
 ::: tip ねらい目
 **うみぼうず**（レアドロップ・EXP156）。
@@ -30,6 +30,7 @@ next:
 | [マーマン](/monsters/merman) | 超レア | 2 | [自然](/species/sizen) | 63 | 55 |
 | [くさった死体](/monsters/kusattasitai) | 超レア | 2 | [ゾンビ](/species/zombie) | 80 | 60 |
 | [メラリザード](/monsters/merazado) | 超レア | 2 | [ドラゴン](/species/dragon) | 53 | 62 |
+| [うみぼうず](/monsters/umibouzu) | 超レア | 4 | [自然](/species/sizen) | 192 | 156 |
 | [ベスキング](/monsters/besuking) | 超レア | 5 | [スライム](/species/slime) | 368 | 238 |
 
 見出しを押すと並べ替えできます。

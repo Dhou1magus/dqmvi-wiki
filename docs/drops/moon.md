@@ -1,6 +1,6 @@
 ---
 title: 月のダイヤ
-description: DQMVIの「月のダイヤ」を落とすモンスター18体の一覧。いちばん弱いのはオカルトビスク（通常・EXP143）。
+description: DQMVIの「月のダイヤ」を落とすモンスター19体の一覧。いちばん弱いのはオカルトビスク（通常・EXP143）。
 pageClass: wide-page sortable-list
 prev:
   text: "形見の首飾り"
@@ -12,7 +12,7 @@ next:
 
 # 月のダイヤ
 
-素材。**18体**のモンスターが落とします。
+素材。**19体**のモンスターが落とします。
 
 ::: tip ねらい目
 **オカルトビスク**（通常ドロップ・EXP143）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [オカルトビスク](/monsters/okarutobisuku) | 通常 | 4 | [物質](/species/bussitu) | 173 | 143 |
 | [マーズフェイス](/monsters/mazufeisu) | 通常 | 4 | [物質](/species/bussitu) | 166 | 168 |
+| [グレイビーポット](/monsters/gravy_pot) | 通常 | 4 | [物質](/species/bussitu) | 184 | 191 |
 | [モビルフォース](/monsters/mobirufosu) | 通常 | 4 | [物質](/species/bussitu) | 232 | 222 |
 | [ばくだんいわ](/monsters/bakudaniwa) | 通常 | 5 | [物質](/species/bussitu) | 371 | 229 |
 | [コロネホワイト](/monsters/pastypastry) | レア | 4 | [スライム](/species/slime) | 193 | 148 |

@@ -3,11 +3,11 @@ title: シールドあにきの盾
 description: シールドあにきの盾
 pageClass: wide-page sortable-list
 prev:
-  text: "しろバラのきしの兜"
-  link: /drops/sirobaranokisinokabuto
+  text: "しあわせの帽子"
+  link: /drops/siawasenobousi
 next:
-  text: "チョコヌーバの指輪"
-  link: /drops/tyokonubanoyubiwa
+  text: "ショートボウ"
+  link: /drops/syotobou
 ---
 
 # シールドあにきの盾

@@ -5,8 +5,8 @@ prev:
   text: "メタルスター"
   link: /monsters/metalstar
 next:
-  text: "大魔王オン・ゾ・エーグ"
-  link: /monsters/flucifer
+  text: "超マスターエッグゴールドⅠ"
+  link: /monsters/supermasteregg_gold1
 ---
 
 # はぐれメタルキング
@@ -30,7 +30,7 @@ EXP | 500,000
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 622 |
+| 図鑑No. | 673 |
 | ランク | 7 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼夜 |

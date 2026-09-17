@@ -2,10 +2,10 @@
 title: どくイモムシ
 description: DQMVIのモンスター「どくイモムシ」のステータス。HP52 / こうげき32 / しゅび18 / 経験値52 / 12G。
 prev:
-  text: "デスフラッター"
+  text: "デスフラッター2"
   link: /monsters/deathflutter2
 next:
-  text: "じごくのハサミ"
+  text: "じごくのハサミ2"
   link: /monsters/jigoku_no_hasami2
 ---
 
@@ -30,7 +30,7 @@ EXP | 52
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 109 |
+| 図鑑No. | 114 |
 | ランク | 2 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

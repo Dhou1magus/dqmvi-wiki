@@ -2,8 +2,8 @@
 title: ダイヤモンドスライム
 description: DQMVIのモンスター「ダイヤモンドスライム」のステータス。HP42 / こうげき148.05 / しゅび10,000 / 経験値80,000 / 750G。
 prev:
-  text: "しろバラのきし"
-  link: /monsters/sirobaranokisi
+  text: "ゴンズ"
+  link: /monsters/gonzu
 next:
   text: "プラチナキング"
   link: /monsters/puratinaking
@@ -30,7 +30,7 @@ EXP | 80,000
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 556 |
+| 図鑑No. | 599 |
 | ランク | 6 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼のみ |

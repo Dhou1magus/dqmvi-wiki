@@ -2,7 +2,7 @@
 title: だいまどう
 description: DQMVIのモンスター「だいまどう」のステータス。HP486 / こうげき137 / しゅび99 / 経験値293 / 59G。
 prev:
-  text: "ダースドラゴン"
+  text: "ダースドラゴン2"
   link: /monsters/darthdragon2
 next:
   text: "テンタクルス"
@@ -30,7 +30,7 @@ EXP | 293
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 433 |
+| 図鑑No. | 460 |
 | ランク | 5 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

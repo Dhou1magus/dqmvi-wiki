@@ -2,8 +2,8 @@
 title: キラーピッケル
 description: DQMVIのモンスター「キラーピッケル」のステータス。HP1,309 / こうげき110 / しゅび88 / 経験値2,120 / 424G。
 prev:
-  text: "トラップボックス"
-  link: /monsters/torappubokkusu
+  text: "からくりだいみょう"
+  link: /monsters/karakuridaimyou
 next:
   text: "とげこんぼう"
   link: /monsters/togekonbou
@@ -30,7 +30,7 @@ EXP | 2,120
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 267 |
+| 図鑑No. | 287 |
 | ランク | 3 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 夜のみ |
@@ -44,6 +44,8 @@ EXP | 2,120
 | 通常ドロップ | [キラーパイクのピッケル](/drops/kirapaikunopikeru) |
 | レアドロップ | キラーピッケルのオブジェ |
 | 超レアドロップ | キラーピッケルのフィギュア |
+| オブジェ | キラーピッケルのオブジェ |
+| フィギュア | キラーピッケルのフィギュア |
 
 ## 使う呪文
 

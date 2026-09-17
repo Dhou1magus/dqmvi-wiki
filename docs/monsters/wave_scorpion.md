@@ -5,8 +5,8 @@ prev:
   text: "吹雪の魔女"
   link: /monsters/hubukinomajyo
 next:
-  text: "ましょうぐも"
-  link: /monsters/mashougumo
+  text: "ダークサキュバス"
+  link: /monsters/sepreme_succubat
 ---
 
 # なみさそり
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 466 |
+| 図鑑No. | 492 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

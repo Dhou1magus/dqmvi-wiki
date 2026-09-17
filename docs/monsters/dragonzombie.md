@@ -5,7 +5,7 @@ prev:
   text: "スカイドラゴン"
   link: /monsters/skydragon
 next:
-  text: "キースドラゴン"
+  text: "キースドラゴン2"
   link: /monsters/keethdragon2
 ---
 
@@ -30,7 +30,7 @@ EXP | 171
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 325 |
+| 図鑑No. | 347 |
 | ランク | 4 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

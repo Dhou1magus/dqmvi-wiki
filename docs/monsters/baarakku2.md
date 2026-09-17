@@ -1,15 +1,15 @@
 ---
-title: バアラック
-description: DQMVIのモンスター「バアラック」のステータス。HP175 / こうげき82 / しゅび61 / 経験値148 / 30G。
+title: バアラック2
+description: DQMVIのモンスター「バアラック2」のステータス。HP175 / こうげき82 / しゅび61 / 経験値148 / 30G。
 prev:
-  text: "キースドラゴン"
+  text: "キースドラゴン2"
   link: /monsters/keethdragon2
 next:
-  text: "キラークラブ"
+  text: "キラークラブ2"
   link: /monsters/killer_crab2
 ---
 
-# バアラック
+# バアラック2
 
 ランク4のモンスター。
 
@@ -30,7 +30,7 @@ EXP | 148
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 327 |
+| 図鑑No. | 349 |
 | ランク | 4 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

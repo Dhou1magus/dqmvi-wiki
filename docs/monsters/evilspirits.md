@@ -5,7 +5,7 @@ prev:
   text: "トマトマーレ"
   link: /monsters/tomatomare
 next:
-  text: "がいこつけんし"
+  text: "がいこつけんし2"
   link: /monsters/gaikotsukenshi2
 ---
 
@@ -30,7 +30,7 @@ EXP | 110
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 206 |
+| 図鑑No. | 219 |
 | ランク | 3 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

@@ -5,8 +5,8 @@ prev:
   text: "グランシーザー"
   link: /monsters/guransiza
 next:
-  text: "メタルカイザー"
-  link: /monsters/metalkaiser
+  text: "デスマシーン"
+  link: /monsters/slaughtomaton
 ---
 
 # ゴーストベリー
@@ -30,7 +30,7 @@ EXP | 7,440
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 472 |
+| 図鑑No. | 505 |
 | ランク | 5 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |
@@ -44,6 +44,8 @@ EXP | 7,440
 | 通常ドロップ | [デュークアックス](/drops/dukeakkusu) |
 | レアドロップ | [うるわしキノコ](/drops/uruwasikinoko) |
 | 超レアドロップ | [たいようの石](/drops/taiyounoisi) |
+| オブジェ | ゴーストベリーのオブジェ |
+| フィギュア | ゴーストベリーのフィギュア |
 
 ## 関連ページ
 

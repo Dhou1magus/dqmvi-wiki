@@ -2,11 +2,11 @@
 title: アカツキショウグン
 description: DQMVIのモンスター「アカツキショウグン」のステータス。HP2,160 / こうげき238 / しゅび119 / 経験値3,463 / 722G。
 prev:
-  text: "シュプリンガー"
-  link: /monsters/springer
+  text: "ふゆぐんそう"
+  link: /monsters/fuyugunsou
 next:
-  text: "ホーンビートル"
-  link: /monsters/hornbeet
+  text: "ムーンキメラ"
+  link: /monsters/moonkimera
 ---
 
 # アカツキショウグン
@@ -30,7 +30,7 @@ EXP | 3,463
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 364 |
+| 図鑑No. | 403 |
 | ランク | 4 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |
@@ -44,6 +44,8 @@ EXP | 3,463
 | 通常ドロップ | [名刀 斬鉄丸](/drops/meitouzantetumaru) |
 | レアドロップ | アカツキショウグンのオブジェ |
 | 超レアドロップ | アカツキショウグンのフィギュア |
+| オブジェ | アカツキショウグンのオブジェ |
+| フィギュア | アカツキショウグンのフィギュア |
 
 ## 使う呪文
 
