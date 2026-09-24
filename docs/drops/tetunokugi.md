@@ -1,6 +1,6 @@
 ---
 title: てつのクギ
-description: DQMVIの「てつのクギ」を落とすモンスター30体の一覧。いちばん弱いのはスラミチ（通常・EXP87）。
+description: DQMVIの「てつのクギ」を落とすモンスター34体の一覧。いちばん弱いのはスラミチ（通常・EXP87）。
 pageClass: wide-page sortable-list
 prev:
   text: "つむりんママの貝殻"
@@ -12,7 +12,7 @@ next:
 
 # てつのクギ
 
-素材。**30体**のモンスターが落とします。
+素材。**34体**のモンスターが落とします。
 
 ::: tip ねらい目
 **スラミチ**（通常ドロップ・EXP87）。
@@ -32,9 +32,12 @@ next:
 | [スパイクヘッド](/monsters/supaikuheddo) | 通常 | 3 | [物質](/species/bussitu) | 141 | 123 |
 | [しにがみきぞく](/monsters/shinigamikizoku) | 通常 | 3 | [ゾンビ](/species/zombie) | 182 | 143 |
 | [ダンスニードル](/monsters/dansunidoru) | 通常 | 4 | [自然](/species/sizen) | 176 | 148 |
+| [アイスアーマー](/monsters/aisuaamaa) | 通常 | 5 | [物質](/species/bussitu) | 469 | 249 |
 | [ぼうれい剣士](/monsters/boureikensi) | 通常 | 5 | [ゾンビ](/species/zombie) | 490 | 270 |
+| [なみさそり](/monsters/wave_scorpion) | 通常 | 5 | [自然](/species/sizen) | 649 | 284 |
 | [ビッグフェイス](/monsters/biggufeisu) | 通常 | 5 | [物質](/species/bussitu) | 522 | 294 |
 | [メタルクラッシャー](/monsters/metarukurassya) | 通常 | 5 | [物質](/species/bussitu) | 555 | 311 |
+| [デュラハンナイト](/monsters/dexyurahannaito) | 通常 | 5 | [ゾンビ](/species/zombie) | 637 | 324 |
 | [プヨンターゲット](/monsters/puyon) | 通常 | 6 | [ゾンビ](/species/zombie) | 944 | 335 |
 | [ごくらくちょう](/monsters/gokurakuchou) | 通常 | 6 | [魔獣](/species/majyu) | 969 | 353 |
 | [ダースドラゴン2](/monsters/darthdragon2) | 通常 | 5 | [ドラゴン](/species/dragon) | 627 | 357 |
@@ -52,6 +55,7 @@ next:
 | [しのどれい](/monsters/sinodorei) | 超レア | 2 | [ゾンビ](/species/zombie) | 72 | 65 |
 | [おおくちばし](/monsters/ookutibasi) | 超レア | 3 | [自然](/species/sizen) | 96 | 92 |
 | [カパーラナーガ](/monsters/kaparanaga) | 超レア | 3 | [ゾンビ](/species/zombie) | 143 | 100 |
+| [スカルナイト](/monsters/skull_knight) | 超レア | 3 | [ゾンビ](/species/zombie) | 139 | 115 |
 | [ピクシー](/monsters/pikusi) | 超レア | 4 | [悪魔](/species/akuma) | 178 | 147 |
 
 見出しを押すと並べ替えできます。

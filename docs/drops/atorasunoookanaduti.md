@@ -1,7 +1,7 @@
 ---
 title: アトラスの大金槌
 description: アトラスの大金槌
-pageClass: wide-page sortable-list
+pageClass: wide-page sortable-list false
 prev: false
 next:
   text: "あまつゆの糸"

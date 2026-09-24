@@ -1,6 +1,6 @@
 ---
 title: 貴重なレシピ(魔、呪)
-description: DQMVIの「貴重なレシピ(魔、呪)」を落とすモンスター10体の一覧。いちばん弱いのはメタルスター（レア・EXP700,000）。
+description: DQMVIの「貴重なレシピ(魔、呪)」を落とすモンスター9体の一覧。いちばん弱いのはメタルスター（レア・EXP700,000）。
 pageClass: wide-page sortable-list
 prev:
   text: "貴重なレシピ(防具)"
@@ -12,7 +12,7 @@ next:
 
 # 貴重なレシピ(魔、呪)
 
-素材。**10体**のモンスターが落とします。
+素材。**9体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メタルスター**（レアドロップ・EXP700,000）。
@@ -29,8 +29,7 @@ next:
 | [リューイーソー](/monsters/ryuiso) | 超レア | 7 | [ゾンビ](/species/zombie) | 1,875 | 628 |
 | [デビルロード](/monsters/debirurodo) | 超レア | 7 | [悪魔](/species/akuma) | 1,725 | 661 |
 | [ロイヤルブルーム](/monsters/roiyaruburumu) | 超レア | 7 | [自然](/species/sizen) | 2,122 | 700 |
-| [ヘルガーディアン](/monsters/herugadexian) | 超レア | 7 | [悪魔](/species/akuma) | 2,350 | 711 |
-| [アスラ王](/monsters/asuraou) | 超レア | 7 | [ゾンビ](/species/zombie) | 2,963 | 807 |
+| [ヘルガーディアン](/monsters/herugadexian) | 超レア | 7 | [ゾンビ](/species/zombie) | 2,350 | 711 |
 | [ソードイド](/monsters/sozoido) | 超レア | 7 | [ゾンビ](/species/zombie) | 2,396 | 834 |
 | [デスマーキュリー](/monsters/desumakyuri) | 超レア | 7 | [物質](/species/bussitu) | 2,777 | 900 |
 

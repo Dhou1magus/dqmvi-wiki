@@ -2,8 +2,8 @@
 title: アイアンクック
 description: DQMVIのモンスター「アイアンクック」のステータス。HP188 / こうげき77 / しゅび80 / 経験値166 / 34G。
 prev:
-  text: "メタルドラゴン"
-  link: /monsters/metarudoragon
+  text: "グール"
+  link: /monsters/guru
 next:
   text: "プロトキラー"
   link: /monsters/protokira
@@ -30,7 +30,7 @@ EXP | 166
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 356 |
+| 図鑑No. | 369 |
 | ランク | 4 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

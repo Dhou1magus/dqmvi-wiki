@@ -1,6 +1,6 @@
 ---
 title: うらみのほうじゅ
-description: DQMVIの「うらみのほうじゅ」を落とすモンスター25体の一覧。いちばん弱いのはまおうのかげ（通常・EXP350）。
+description: DQMVIの「うらみのほうじゅ」を落とすモンスター26体の一覧。いちばん弱いのはまおうのかげ（通常・EXP350）。
 pageClass: wide-page sortable-list
 prev:
   text: "うまのふん"
@@ -12,7 +12,7 @@ next:
 
 # うらみのほうじゅ
 
-素材。**25体**のモンスターが落とします。
+素材。**26体**のモンスターが落とします。
 
 ::: tip ねらい目
 **まおうのかげ**（通常ドロップ・EXP350）。
@@ -30,12 +30,12 @@ next:
 | [ダーククリスタル](/monsters/dark_crystal) | 通常 | 6 | [物質](/species/bussitu) | 1,258 | 451 |
 | [バラモスゾンビ](/monsters/baramoszombie) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,442 | 469 |
 | [シルバーマント](/monsters/sirubamanto) | 通常 | 7 | [ゾンビ](/species/zombie) | 1,875 | 709 |
-| [ヘルガーディアン](/monsters/herugadexian) | 通常 | 7 | [悪魔](/species/akuma) | 2,350 | 711 |
-| [アスラ王](/monsters/asuraou) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,963 | 807 |
+| [ヘルガーディアン](/monsters/herugadexian) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,350 | 711 |
 | [デーモンアミゴ](/monsters/demonamigo) | 通常 | 7 | [悪魔](/species/akuma) | 3,312 | 859 |
 | [マクロベータ](/monsters/makurobeta) | レア | 6 | [ゾンビ](/species/zombie) | 1,322 | 453 |
+| [ニジゴロン](/monsters/nizigoron) | レア | 6 | [スライム](/species/slime) | 1,167 | 456 |
 | [モノクロームナイト](/monsters/monokuroomunaito) | レア | 6 | [物質](/species/bussitu) | 1,505 | 460 |
-| [グレートジンガー](/monsters/guretosinga) | レア | 6 | [物質](/species/bussitu) | 1,600 | 600 |
+| [ケベナヒモス](/monsters/kebenahemoth) | レア | 6 | [ドラゴン](/species/dragon) | 1,374 | 513 |
 | [まおうのかげ](/monsters/maounokage) | 超レア | 6 | [物質](/species/bussitu) | 944 | 350 |
 | [ダークスライム](/monsters/darkslime) | 超レア | 6 | [スライム](/species/slime) | 992 | 362 |
 | [しりょうのきし](/monsters/siryounokisi) | 超レア | 6 | [ゾンビ](/species/zombie) | 1,072 | 369 |
@@ -47,6 +47,7 @@ next:
 | [アッシュリザード](/monsters/ash_lizard) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,449 | 457 |
 | [バラモスゾンビ](/monsters/baramoszombie) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,442 | 469 |
 | [根絶やしの竜](/monsters/nedayashinoryu) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,326 | 472 |
+| [グレンデル](/monsters/gurenderu) | 超レア | 6 | [魔獣](/species/majyu) | 1,298 | 512 |
 | [グレイトドラゴン](/monsters/gureitodoragon) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,550 | 550 |
 
 見出しを押すと並べ替えできます。

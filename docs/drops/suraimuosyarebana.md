@@ -1,6 +1,6 @@
 ---
 title: スライムおしゃれ花
-description: DQMVIの「スライムおしゃれ花」を落とすモンスター35体の一覧。いちばん弱いのはベホイミスライム（通常・EXP77）。
+description: DQMVIの「スライムおしゃれ花」を落とすモンスター39体の一覧。いちばん弱いのはベホイミスライム（通常・EXP77）。
 pageClass: wide-page sortable-list
 prev:
   text: "スライダークロボの剣"
@@ -12,7 +12,7 @@ next:
 
 # スライムおしゃれ花
 
-素材。**35体**のモンスターが落とします。
+素材。**39体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ベホイミスライム**（通常ドロップ・EXP77）。
@@ -24,6 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ベホイミスライム](/monsters/behoimisuraimu) | 通常 | 3 | [スライム](/species/slime) | 68 | 77 |
+| [しっぽ団のブラウニー](/monsters/brownie_shippodan) | 通常 | 3 | [魔獣](/species/majyu) | 86 | 90 |
 | [ベホイムスライム](/monsters/behoimusuraimu) | 通常 | 4 | [スライム](/species/slime) | 168 | 156 |
 | [レッドサイクロン](/monsters/redsaikuron) | 通常 | 5 | [自然](/species/sizen) | 518 | 267 |
 | [ケダモン](/monsters/kedamon) | レア | 4 | [魔獣](/species/majyu) | 178 | 142 |
@@ -31,10 +32,13 @@ next:
 | [スカイドラゴン](/monsters/skydragon) | レア | 4 | [ドラゴン](/species/dragon) | 205 | 172 |
 | [チョコタワー](/monsters/chocotower) | レア | 4 | [スライム](/species/slime) | 204 | 181 |
 | [だんごスライム](/monsters/dangoslime) | レア | 4 | [スライム](/species/slime) | 215 | 183 |
+| [スラ忍ブルー](/monsters/sulaninblue) | レア | 4 | [スライム](/species/slime) | 209 | 185 |
 | [ベスキング](/monsters/besuking) | レア | 5 | [スライム](/species/slime) | 368 | 238 |
+| [モビルフォース](/monsters/mobirufosu) | レア | 5 | [物質](/species/bussitu) | 548 | 292 |
 | [モーモン](/monsters/momon) | 超レア | 1 | [悪魔](/species/akuma) | 12 | 5 |
 | [バブルスライム](/monsters/bubsura) | 超レア | 1 | [スライム](/species/slime) | 12 | 6 |
 | [タマゴロン](/monsters/tamagoron) | 超レア | 1 | [自然](/species/sizen) | 12 | 6 |
+| [もみじこぞう](/monsters/momizikozou) | 超レア | 1 | [自然](/species/sizen) | 12 | 6 |
 | [オニオーン](/monsters/onioon) | 超レア | 1 | [自然](/species/sizen) | 12 | 7 |
 | [おおがらす2](/monsters/greatraven) | 超レア | 1 | [自然](/species/sizen) | 12 | 9 |
 | [おにこぞう2](/monsters/onikozou2) | 超レア | 1 | [悪魔](/species/akuma) | 18 | 10 |

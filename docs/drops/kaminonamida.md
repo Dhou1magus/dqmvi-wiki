@@ -35,7 +35,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
-| [ゴメちゃん](/monsters/gomechan) | 通常 | 3 | [メタル](/species/metal) | 138 | 8,564 |
+| [ゴメちゃん](/monsters/gomechan) | 通常 | 7 | [メタル](/species/metal) | 138 | 8,564 |
 
 ## 関連ページ
 

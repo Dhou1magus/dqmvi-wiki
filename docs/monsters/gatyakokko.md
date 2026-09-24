@@ -2,8 +2,8 @@
 title: ガチャコッコ
 description: DQMVIのモンスター「ガチャコッコ」のステータス。HP166 / こうげき55 / しゅび60 / 経験値145 / 30G。
 prev:
-  text: "メカバーン"
-  link: /monsters/mekaban
+  text: "パプリカン"
+  link: /monsters/papurikan
 next:
   text: "ローズバトラー"
   link: /monsters/rozubatora
@@ -30,7 +30,7 @@ EXP | 145
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 235 |
+| 図鑑No. | 240 |
 | ランク | 3 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

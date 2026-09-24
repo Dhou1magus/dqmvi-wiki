@@ -37,7 +37,7 @@ next:
 | [ボックススライムグリーン](/monsters/boxsuraimu_midori) | 通常 | 3 | [スライム](/species/slime) | 100 | 95 |
 | [パプリカン](/monsters/papurikan) | 通常 | 3 | [自然](/species/sizen) | 88 | 98 |
 | [カパーラナーガ](/monsters/kaparanaga) | 通常 | 3 | [ゾンビ](/species/zombie) | 143 | 100 |
-| [バベルボブル](/monsters/baberuboburu) | 通常 | 2 | [物質](/species/bussitu) | 122 | 112 |
+| [スカルナイト](/monsters/skull_knight) | 通常 | 3 | [ゾンビ](/species/zombie) | 139 | 115 |
 | [ピーチスライム](/monsters/peachslime) | 通常 | 3 | [スライム](/species/slime) | 157 | 125 |
 | [スモールグール](/monsters/sumoruguru) | 通常 | 4 | [ゾンビ](/species/zombie) | 165 | 143 |
 | [フェイスボール](/monsters/faceball) | 通常 | 4 | [ゾンビ](/species/zombie) | 202 | 165 |

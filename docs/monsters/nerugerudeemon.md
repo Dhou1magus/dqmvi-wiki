@@ -2,8 +2,8 @@
 title: ネルゲルデーモン
 description: DQMVIのモンスター「ネルゲルデーモン」のステータス。
 prev:
-  text: "ジアメーダ"
-  link: /monsters/ziameeda
+  text: "王の墓守"
+  link: /monsters/king_hakamori_doll
 next:
   text: "ピサロバーン"
   link: /monsters/pisarobaan
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 660 |
+| 図鑑No. | 698 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

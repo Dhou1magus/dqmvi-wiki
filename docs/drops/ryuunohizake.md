@@ -24,9 +24,9 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [じごくのざりがに](/monsters/jigokunozarigani) | 通常 | 6 | [自然](/species/sizen) | 1,282 | 414 |
+| [エビルちくりん](/monsters/ebiruchikurin) | 通常 | 6 | [物質](/species/bussitu) | 1,526 | 448 |
 | [フーラー](/monsters/fura) | 通常 | 6 | [物質](/species/bussitu) | 1,400 | 466 |
 | [キングレオⅡ](/monsters/kingreo2) | 通常 | 6 | [魔獣](/species/majyu) | 1,440 | 482 |
-| [ドラゴントイズ](/monsters/doragontoizu) | 通常 | 6 | [物質](/species/bussitu) | 1,423 | 521 |
 | [あくまのきし](/monsters/akumanokisi) | 通常 | 6 | [悪魔](/species/akuma) | 1,521 | 542 |
 | [グレイトドラゴン](/monsters/gureitodoragon) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,550 | 550 |
 | [ダークホビット](/monsters/dakuhobitto) | 通常 | 7 | [物質](/species/bussitu) | 1,725 | 678 |

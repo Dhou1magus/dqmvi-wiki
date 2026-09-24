@@ -1,6 +1,6 @@
 ---
 title: はがねの尾羽
-description: DQMVIの「はがねの尾羽」を落とすモンスター24体の一覧。いちばん弱いのはきとうし（通常・EXP80）。
+description: DQMVIの「はがねの尾羽」を落とすモンスター25体の一覧。いちばん弱いのはきとうし（通常・EXP80）。
 pageClass: wide-page sortable-list
 prev:
   text: "ハートナイトの剣"
@@ -12,7 +12,7 @@ next:
 
 # はがねの尾羽
 
-素材。**24体**のモンスターが落とします。
+素材。**25体**のモンスターが落とします。
 
 ::: tip ねらい目
 **きとうし**（通常ドロップ・EXP80）。
@@ -27,6 +27,7 @@ next:
 | [うずしおキング](/monsters/uzusioking) | 通常 | 3 | [自然](/species/sizen) | 99 | 94 |
 | [かえんムカデ](/monsters/flame_centipede) | 通常 | 3 | [自然](/species/sizen) | 110 | 95 |
 | [マポレーナ](/monsters/maporena) | 通常 | 5 | [悪魔](/species/akuma) | 343 | 212 |
+| [ホーリーキング](/monsters/hollyking) | 通常 | 5 | [スライム](/species/slime) | 478 | 286 |
 | [アカイライ](/monsters/akairai) | 通常 | 7 | [自然](/species/sizen) | 1,650 | 646 |
 | [魔天海フォルネー](/monsters/matenkaiforney) | 通常 | 7 | [自然](/species/sizen) | 1,995 | 777 |
 | [タホドラキー](/monsters/tahodoraki) | レア | 3 | [悪魔](/species/akuma) | 72 | 81 |

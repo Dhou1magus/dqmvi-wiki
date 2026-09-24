@@ -2,8 +2,8 @@
 title: メタルセラフィム
 description: DQMVIのモンスター「メタルセラフィム」のステータス。
 prev:
-  text: "スライダークロボ"
-  link: /monsters/darkrobotslime
+  text: "ゴメちゃん"
+  link: /monsters/gomechan
 next:
   text: "メタルゴッデス"
   link: /monsters/metal_goddess
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 669 |
+| 図鑑No. | 709 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

@@ -1,6 +1,6 @@
 ---
 title: 特殊系
-description: DQMVIの特殊系モンスター9体の一覧。弱点・活動時間・ステータスつき。
+description: DQMVIの特殊系モンスター10体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
 prev:
@@ -13,15 +13,16 @@ next: false
 
 | No. | 画像 | モンスター | ランク | 系統 | 弱点 | 時間 | HP | こうげき | しゅび | EXP | G |
 | ---: | :--: | --- | :--: | :--: | :--: | :--: | ---: | ---: | ---: | ---: | ---: |
-| 86 | ![パペットこぞう](/img/monsters/papetkozou.png) | [パペットこぞう](/monsters/papetkozou) | 2 | 特殊 | 炎 | 夜 | 43 | 26 | 13 | 39 | 8 |
-| 97 | ![つぼ](/img/monsters/tubo.png) | [つぼ](/monsters/tubo) | 2 | 特殊 | 爆 | 昼夜 | 55 | 31 | 20 | 51 | 10 |
-| 98 | ![ひとくい木箱](/img/monsters/hitokuikibako.png) | [ひとくい木箱](/monsters/hitokuikibako) | 2 | 特殊 | 炎 | 昼夜 | 51 | 33 | 22 | 54 | 11 |
-| 203 | ![マペットマン](/img/monsters/mapetman.png) | [マペットマン](/monsters/mapetman) | 3 | 特殊 | 炎 | 夜 | 97 | 51 | 35 | 86 | 17 |
-| 305 | ![あくまのツボ](/img/monsters/akumanotubo.png) | [あくまのツボ](/monsters/akumanotubo) | 4 | 特殊 | 爆 | 昼夜 | 165 | 106 | 80 | 182 | 36 |
-| 314 | ![ミミック木箱](/img/monsters/mimikkukibako.png) | [ミミック木箱](/monsters/mimikkukibako) | 4 | 特殊 | 炎 | 昼夜 | 198 | 102 | 88 | 189 | 38 |
-| 416 | ![ドールマスター](/img/monsters/dollmaster.png) | [ドールマスター](/monsters/dollmaster) | 5 | 特殊 | 炎 | 昼夜 | 371 | 109 | 94 | 216 | 43 |
-| 428 | ![ツボック](/img/monsters/tubokku.png) | [ツボック](/monsters/tubokku) | 5 | 特殊 | 爆 | 昼夜 | 430 | 130 | 120 | 264 | 53 |
-| 435 | ![パンドラ木箱](/img/monsters/pandorakibako.png) | [パンドラ木箱](/monsters/pandorakibako) | 5 | 特殊 | 炎 | 昼夜 | 536 | 144 | 125 | 290 | 58 |
+| 89 | ![パペットこぞう](/img/monsters/papetkozou.png) | [パペットこぞう](/monsters/papetkozou) | 2 | 特殊 | 炎 | 夜 | 43 | 26 | 13 | 39 | 8 |
+| 100 | ![つぼ](/img/monsters/tubo.png) | [つぼ](/monsters/tubo) | 2 | 特殊 | 爆 | 昼夜 | 55 | 31 | 20 | 51 | 10 |
+| 101 | ![ひとくい木箱](/img/monsters/hitokuikibako.png) | [ひとくい木箱](/monsters/hitokuikibako) | 2 | 特殊 | 炎 | 昼夜 | 51 | 33 | 22 | 54 | 11 |
+| 209 | ![マペットマン](/img/monsters/mapetman.png) | [マペットマン](/monsters/mapetman) | 3 | 特殊 | 炎 | 夜 | 97 | 51 | 35 | 86 | 17 |
+| 319 | ![あくまのツボ](/img/monsters/akumanotubo.png) | [あくまのツボ](/monsters/akumanotubo) | 4 | 特殊 | 爆 | 昼夜 | 165 | 106 | 80 | 182 | 36 |
+| 328 | ![ミミック木箱](/img/monsters/mimikkukibako.png) | [ミミック木箱](/monsters/mimikkukibako) | 4 | 特殊 | 炎 | 昼夜 | 198 | 102 | 88 | 189 | 38 |
+| 437 | ![ドールマスター](/img/monsters/dollmaster.png) | [ドールマスター](/monsters/dollmaster) | 5 | 特殊 | 炎 | 昼夜 | 371 | 109 | 94 | 216 | 43 |
+| 449 | ![ツボック](/img/monsters/tubokku.png) | [ツボック](/monsters/tubokku) | 5 | 特殊 | 爆 | 昼夜 | 430 | 130 | 120 | 264 | 53 |
+| 456 | ![パンドラ木箱](/img/monsters/pandorakibako.png) | [パンドラ木箱](/monsters/pandorakibako) | 5 | 特殊 | 炎 | 昼夜 | 536 | 144 | 125 | 290 | 58 |
+| 514 | ![わたぼう](/img/monsters/watabou.png) | [わたぼう](/monsters/watabou) | 5 | 特殊 | 強 | 昼 | 453 | 141 | 103 | 277 | 54 |
 
 ## 関連ページ
 

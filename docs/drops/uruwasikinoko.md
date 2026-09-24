@@ -1,6 +1,6 @@
 ---
 title: うるわしキノコ
-description: DQMVIの「うるわしキノコ」を落とすモンスター19体の一覧。いちばん弱いのはあやしいかげ（通常・EXP44）。
+description: DQMVIの「うるわしキノコ」を落とすモンスター20体の一覧。いちばん弱いのはあやしいかげ（通常・EXP44）。
 pageClass: wide-page sortable-list
 prev:
   text: "うらみのほうじゅ"
@@ -12,7 +12,7 @@ next:
 
 # うるわしキノコ
 
-素材。**19体**のモンスターが落とします。
+素材。**20体**のモンスターが落とします。
 
 ::: tip ねらい目
 **あやしいかげ**（通常ドロップ・EXP44）。
@@ -38,6 +38,7 @@ next:
 | [シャイニング](/monsters/shainingu) | レア | 3 | [物質](/species/bussitu) | 105 | 96 |
 | [しにがみ](/monsters/meanspirit) | レア | 3 | [ゾンビ](/species/zombie) | 145 | 105 |
 | [ヒートギズモ1](/monsters/hgizumo) | レア | 5 | [物質](/species/bussitu) | 490 | 248 |
+| [まどうスライム](/monsters/madouslime) | レア | 5 | [スライム](/species/slime) | 445 | 267 |
 | [だいおうキッズ](/monsters/daioukizzu) | レア | 5 | [自然](/species/sizen) | 622 | 277 |
 | [ゴーストベリー](/monsters/ghostberry) | レア | 5 | [物質](/species/bussitu) | 6,103 | 7,440 |
 | [おばけきのこ](/monsters/obakekinoko) | 超レア | 1 | [自然](/species/sizen) | 25 | 12 |

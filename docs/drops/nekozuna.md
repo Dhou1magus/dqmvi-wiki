@@ -1,6 +1,6 @@
 ---
 title: ネコ砂
-description: DQMVIの「ネコ砂」を落とすモンスター9体の一覧。いちばん弱いのはドロザラー（通常・EXP6）。
+description: DQMVIの「ネコ砂」を落とすモンスター11体の一覧。いちばん弱いのはドロザラー（通常・EXP6）。
 pageClass: wide-page sortable-list
 prev:
   text: "にじいろの布きれ"
@@ -12,7 +12,7 @@ next:
 
 # ネコ砂
 
-素材。**9体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ドロザラー**（通常ドロップ・EXP6）。
@@ -24,6 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ドロザラー](/monsters/dorozara) | 通常 | 1 | [物質](/species/bussitu) | 14 | 6 |
+| [もみじこぞう](/monsters/momizikozou) | 通常 | 1 | [自然](/species/sizen) | 12 | 6 |
 | [しましまキャット](/monsters/simasimacat) | 通常 | 1 | [魔獣](/species/majyu) | 15 | 7 |
 | [ねこまどう](/monsters/nekomadou) | 通常 | 1 | [魔獣](/species/majyu) | 11 | 12 |
 | [くらやみハーピー](/monsters/succubat) | 通常 | 1 | [悪魔](/species/akuma) | 26 | 13 |
@@ -31,6 +32,7 @@ next:
 | [ワンワンダック](/monsters/wanwanduck) | レア | 1 | [魔獣](/species/majyu) | 26 | 14 |
 | [スノーモン](/monsters/sunomon) | レア | 2 | [悪魔](/species/akuma) | 36 | 36 |
 | [パペットこぞう](/monsters/papetkozou) | レア | 2 | [特殊](/species/tokusyu) | 43 | 39 |
+| [アンデッドマン](/monsters/undeadman) | レア | 2 | [ゾンビ](/species/zombie) | 64 | 59 |
 | [ベロニャーゴ](/monsters/beronyaago) | レア | 4 | [魔獣](/species/majyu) | 176 | 143 |
 
 見出しを押すと並べ替えできます。

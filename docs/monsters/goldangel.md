@@ -2,8 +2,8 @@
 title: ゴールドエンゼル
 description: DQMVIのモンスター「ゴールドエンゼル」のステータス。HP14 / こうげき74 / しゅび10,000 / 経験値121 / 4,321G。
 prev:
-  text: "ゴメちゃん"
-  link: /monsters/gomechan
+  text: "メタルエンゼル"
+  link: /monsters/metalangel
 next:
   text: "凶メタルスライム"
   link: /monsters/kyoumetalslime
@@ -30,7 +30,7 @@ EXP | 121
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 295 |
+| 図鑑No. | 309 |
 | ランク | 3 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼のみ |

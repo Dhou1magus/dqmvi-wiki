@@ -1,6 +1,6 @@
 ---
 title: 太陽石合金
-description: DQMVIの「太陽石合金」を落とすモンスター21体の一覧。いちばん弱いのはガメゴンロード（通常・EXP438）。
+description: DQMVIの「太陽石合金」を落とすモンスター27体の一覧。いちばん弱いのはガメゴンロード（通常・EXP438）。
 pageClass: wide-page sortable-list
 prev:
   text: "赤いサンゴ"
@@ -12,7 +12,7 @@ next:
 
 # 太陽石合金
 
-素材。**21体**のモンスターが落とします。
+素材。**27体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ガメゴンロード**（通常ドロップ・EXP438）。
@@ -24,8 +24,11 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ガメゴンロード](/monsters/gamegonload) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,264 | 438 |
+| [グレンデル](/monsters/gurenderu) | 通常 | 6 | [魔獣](/species/majyu) | 1,298 | 512 |
 | [クイーンマチルダ](/monsters/kuinmatiruda) | レア | 5 | [ゾンビ](/species/zombie) | 469 | 243 |
+| [ミスターガリック](/monsters/misutaagarikku) | レア | 5 | [自然](/species/sizen) | 396 | 262 |
 | [ミミック](/monsters/mimikku) | レア | 5 | [物質](/species/bussitu) | 522 | 277 |
+| [わたぼう](/monsters/watabou) | レア | 5 | [特殊](/species/tokusyu) | 453 | 277 |
 | [デスクローゼット](/monsters/tansu_death) | レア | 5 | [物質](/species/bussitu) | 517 | 288 |
 | [パンドラ木箱](/monsters/pandorakibako) | レア | 5 | [特殊](/species/tokusyu) | 536 | 290 |
 | [げんじゅつし](/monsters/genjutusi) | 超レア | 3 | [悪魔](/species/akuma) | 75 | 72 |
@@ -39,10 +42,13 @@ next:
 | [ゴールドエンゼル](/monsters/goldangel) | 超レア | 3 | [メタル](/species/metal) | 14 | 121 |
 | [シャーマン](/monsters/syaman) | 超レア | 3 | [ゾンビ](/species/zombie) | 115 | 142 |
 | [ローズバトラー](/monsters/rozubatora) | 超レア | 3 | [自然](/species/sizen) | 188 | 146 |
+| [からくりしょうぐん](/monsters/karakurisyougun) | 超レア | 5 | [悪魔](/species/akuma) | 391 | 222 |
 | [じごくのつかい](/monsters/jigokunotukai) | 超レア | 5 | [悪魔](/species/akuma) | 473 | 263 |
+| [モビルフォース](/monsters/mobirufosu) | 超レア | 5 | [物質](/species/bussitu) | 548 | 292 |
 | [ギガデーモン](/monsters/gugademon) | 超レア | 5 | [ドラゴン](/species/dragon) | 601 | 305 |
 | [ベホマスライム](/monsters/behomasuraimu) | 超レア | 6 | [スライム](/species/slime) | 864 | 320 |
 | [グランスライム](/monsters/grandpaslime) | 超レア | 6 | [スライム](/species/slime) | 896 | 333 |
+| [まんじゅシャモン](/monsters/manzyusyamon) | 超レア | 6 | [自然](/species/sizen) | 966 | 344 |
 | [スライムベホマズン](/monsters/suraimubehomazun) | 超レア | 6 | [スライム](/species/slime) | 1,280 | 427 |
 
 見出しを押すと並べ替えできます。

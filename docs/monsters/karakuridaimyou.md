@@ -5,8 +5,8 @@ prev:
   text: "しびくらベス"
   link: /monsters/shibikurabes
 next:
-  text: "キラーピッケル"
-  link: /monsters/kirapike
+  text: "スカルナイト"
+  link: /monsters/skull_knight
 ---
 
 # からくりだいみょう
@@ -30,7 +30,7 @@ EXP | 103
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 286 |
+| 図鑑No. | 291 |
 | ランク | 3 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

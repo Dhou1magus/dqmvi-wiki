@@ -5,8 +5,8 @@ prev:
   text: "マーマンダイン"
   link: /monsters/mermandine
 next:
-  text: "ドラゴントイズ"
-  link: /monsters/doragontoizu
+  text: "ベリアル"
+  link: /monsters/beriaru
 ---
 
 # マッドスミス
@@ -30,7 +30,7 @@ EXP | 345
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 557 |
+| 図鑑No. | 586 |
 | ランク | 6 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

@@ -1,6 +1,6 @@
 ---
 title: にじいろの布きれ
-description: DQMVIの「にじいろの布きれ」を落とすモンスター37体の一覧。いちばん弱いのはケダモン（通常・EXP142）。
+description: DQMVIの「にじいろの布きれ」を落とすモンスター41体の一覧。いちばん弱いのはケダモン（通常・EXP142）。
 pageClass: wide-page sortable-list
 prev:
   text: "にくきゅうの杖"
@@ -12,7 +12,7 @@ next:
 
 # にじいろの布きれ
 
-素材。**37体**のモンスターが落とします。
+素材。**41体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ケダモン**（通常ドロップ・EXP142）。
@@ -27,6 +27,7 @@ next:
 | [ベロニャーゴ](/monsters/beronyaago) | 通常 | 4 | [魔獣](/species/majyu) | 176 | 143 |
 | [ブルベリーノ](/monsters/buruberino) | 通常 | 4 | [自然](/species/sizen) | 174 | 159 |
 | [スカイドラゴン](/monsters/skydragon) | 通常 | 4 | [ドラゴン](/species/dragon) | 205 | 172 |
+| [スラ忍ブルー](/monsters/sulaninblue) | 通常 | 4 | [スライム](/species/slime) | 209 | 185 |
 | [スターデビル](/monsters/sutaadebiru) | 通常 | 5 | [悪魔](/species/akuma) | 400 | 249 |
 | [どくどくゾンビ](/monsters/dokudokuzonbi) | 通常 | 5 | [ゾンビ](/species/zombie) | 555 | 252 |
 | [ドルイド](/monsters/doruido) | 通常 | 5 | [悪魔](/species/akuma) | 486 | 254 |
@@ -49,6 +50,7 @@ next:
 | [フロストギズモ1](/monsters/fgizumo) | 超レア | 3 | [物質](/species/bussitu) | 78 | 83 |
 | [レッドマーマン](/monsters/redmerman) | 超レア | 3 | [自然](/species/sizen) | 145 | 102 |
 | [フーセンドラゴン](/monsters/fu_sen_dragon) | 超レア | 3 | [ドラゴン](/species/dragon) | 155 | 107 |
+| [ひくいどり](/monsters/hikuidori) | 超レア | 3 | [自然](/species/sizen) | 161 | 124 |
 | [ホロゴースト](/monsters/horoghost) | 超レア | 4 | [物質](/species/bussitu) | 182 | 141 |
 | [ベロニャーゴ](/monsters/beronyaago) | 超レア | 4 | [魔獣](/species/majyu) | 176 | 143 |
 | [オカルトビスク](/monsters/okarutobisuku) | 超レア | 4 | [物質](/species/bussitu) | 173 | 143 |
@@ -57,9 +59,11 @@ next:
 | [モビルライト](/monsters/mobiruraito) | 超レア | 4 | [物質](/species/bussitu) | 168 | 155 |
 | [ブルベリーノ](/monsters/buruberino) | 超レア | 4 | [自然](/species/sizen) | 174 | 159 |
 | [ボーンプリズナー](/monsters/bonpurizuna) | 超レア | 4 | [ゾンビ](/species/zombie) | 232 | 172 |
+| [スラ忍イエロー](/monsters/sulaninyellow) | 超レア | 4 | [スライム](/species/slime) | 214 | 181 |
 | [ボーンナイト](/monsters/boneknight) | 超レア | 4 | [ゾンビ](/species/zombie) | 192 | 183 |
 | [ワンダーエッグ](/monsters/wonderegg) | 超レア | 4 | [スライム](/species/slime) | 217 | 195 |
 | [ヘルビートル](/monsters/fire_beatle) | 超レア | 4 | [自然](/species/sizen) | 195 | 197 |
+| [メタルエンゼル](/monsters/metalangel) | 超レア | 3 | [メタル](/species/metal) | 13 | 8,895 |
 
 見出しを押すと並べ替えできます。
 

@@ -1,6 +1,6 @@
 ---
 title: 特やくそう
-description: DQMVIの「特やくそう」を落とすモンスター5体の一覧。いちばん弱いのはベホマスライム（通常・EXP320）。
+description: DQMVIの「特やくそう」を落とすモンスター6体の一覧。いちばん弱いのはベホマスライム（通常・EXP320）。
 pageClass: wide-page sortable-list
 prev:
   text: "闘魂エキス"
@@ -12,7 +12,7 @@ next:
 
 # 特やくそう
 
-素材。**5体**のモンスターが落とします。
+素材。**6体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ベホマスライム**（通常ドロップ・EXP320）。
@@ -27,6 +27,7 @@ next:
 | [ベホイムスライム](/monsters/behoimusuraimu) | レア | 4 | [スライム](/species/slime) | 168 | 156 |
 | [ぶっちズッキーニャ](/monsters/buttizukinya) | 超レア | 4 | [自然](/species/sizen) | 168 | 146 |
 | [ジェリーマン](/monsters/jeriman) | 超レア | 4 | [自然](/species/sizen) | 182 | 148 |
+| [ドロルリッチ](/monsters/dororu_lich) | 超レア | 4 | [ゾンビ](/species/zombie) | 211 | 171 |
 | [しのさそり](/monsters/death_scorpion) | 超レア | 4 | [自然](/species/sizen) | 203 | 174 |
 
 見出しを押すと並べ替えできます。

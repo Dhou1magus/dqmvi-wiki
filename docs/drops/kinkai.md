@@ -1,6 +1,6 @@
 ---
 title: 金塊
-description: DQMVIの「金塊」を落とすモンスター19体の一覧。いちばん弱いのはスライムゴールド（通常・EXP58）。
+description: DQMVIの「金塊」を落とすモンスター21体の一覧。いちばん弱いのはスライムゴールド（通常・EXP58）。
 pageClass: wide-page sortable-list
 prev:
   text: "金貨"
@@ -12,7 +12,7 @@ next:
 
 # 金塊
 
-素材。**19体**のモンスターが落とします。
+素材。**21体**のモンスターが落とします。
 
 ::: tip ねらい目
 **スライムゴールド**（通常ドロップ・EXP58）。
@@ -28,6 +28,7 @@ next:
 | [スライムゴールド](/monsters/slimegold) | レア | 2 | [メタル](/species/metal) | 12 | 58 |
 | [わらいぶくろ](/monsters/waraibukuro) | レア | 3 | [物質](/species/bussitu) | 80 | 79 |
 | [ゴールドパール](/monsters/goldpearl) | レア | 3 | [メタル](/species/metal) | 142 | 121 |
+| [アイスアーマー](/monsters/aisuaamaa) | レア | 5 | [物質](/species/bussitu) | 469 | 249 |
 | [テンタクルス](/monsters/tentacles) | レア | 5 | [自然](/species/sizen) | 534 | 285 |
 | [スライムエンペラー](/monsters/slimeemperor) | レア | 5 | [スライム](/species/slime) | 467 | 298 |
 | [ゴーレム](/monsters/goremu) | レア | 5 | [物質](/species/bussitu) | 581 | 315 |
@@ -39,6 +40,7 @@ next:
 | [つぼ](/monsters/tubo) | 超レア | 2 | [特殊](/species/tokusyu) | 55 | 51 |
 | [ひとくい木箱](/monsters/hitokuikibako) | 超レア | 2 | [特殊](/species/tokusyu) | 51 | 54 |
 | [スライムコロネ](/monsters/goonachegoodie) | 超レア | 2 | [スライム](/species/slime) | 45 | 54 |
+| [しっぽ団のモーモン](/monsters/teeny_sanguini_shippodan) | 超レア | 2 | [悪魔](/species/akuma) | 61 | 55 |
 | [スライムゴールド](/monsters/slimegold) | 超レア | 2 | [メタル](/species/metal) | 12 | 58 |
 | [メタッピー](/monsters/metappi) | 超レア | 2 | [物質](/species/bussitu) | 66 | 61 |
 | [バブリン](/monsters/baburin) | 超レア | 3 | [ゾンビ](/species/zombie) | 90 | 94 |

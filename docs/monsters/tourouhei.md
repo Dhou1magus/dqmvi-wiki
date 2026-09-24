@@ -5,8 +5,8 @@ prev:
   text: "しっぽ団のおおきづち"
   link: /monsters/hammerhood_shippodan
 next:
-  text: "ハートナイト"
-  link: /monsters/hatonaito
+  text: "アンデッドマン"
+  link: /monsters/undeadman
 ---
 
 # とうろうへい
@@ -30,7 +30,7 @@ EXP | 58
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 165 |
+| 図鑑No. | 167 |
 | ランク | 2 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

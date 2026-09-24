@@ -1,6 +1,6 @@
 ---
 title: バトルアックス
-description: DQMVIの「バトルアックス」を落とすモンスター2体の一覧。いちばん弱いのはアックスドラゴン（超レア・EXP368）。
+description: DQMVIの「バトルアックス」を落とすモンスター3体の一覧。いちばん弱いのはアックスドラゴン（超レア・EXP368）。
 pageClass: wide-page sortable-list
 prev:
   text: "はぐれメタルの剣"
@@ -12,7 +12,7 @@ next:
 
 # バトルアックス
 
-武器。**2体**のモンスターが落とします。
+武器。**3体**のモンスターが落とします。
 
 ::: tip ねらい目
 **アックスドラゴン**（超レアドロップ・EXP368）。
@@ -36,6 +36,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [アックスドラゴン](/monsters/axedoragon) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,152 | 368 |
 | [ダーククリスタル](/monsters/dark_crystal) | 超レア | 6 | [物質](/species/bussitu) | 1,258 | 451 |
+| [死神の騎士](/monsters/shinigaminokishi) | 超レア | 6 | [悪魔](/species/akuma) | 1,368 | 475 |
 
 見出しを押すと並べ替えできます。
 

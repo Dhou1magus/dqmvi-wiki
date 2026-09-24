@@ -2,8 +2,8 @@
 title: メタルリザード
 description: DQMVIのモンスター「メタルリザード」のステータス。HP8 / こうげき21 / しゅび10,000 / 経験値3,366 / 49G。
 prev:
-  text: "巨大ナスビナーラ"
-  link: /monsters/kyodainasubira
+  text: "さくらこぞう"
+  link: /monsters/sakurakozou
 next:
   text: "スライムゴールド"
   link: /monsters/slimegold
@@ -30,7 +30,7 @@ EXP | 3,366
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 172 |
+| 図鑑No. | 178 |
 | ランク | 2 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼夜 |

@@ -2,16 +2,16 @@
 title: ゴメちゃん
 description: DQMVIのモンスター「ゴメちゃん」のステータス。HP138 / こうげき75 / しゅび10,000 / 経験値8,564 / 15,315G。
 prev:
-  text: "ミケまどう"
-  link: /monsters/mikemadou
+  text: "亡国の残兵"
+  link: /monsters/boukokunozanpei
 next:
-  text: "ゴールドエンゼル"
-  link: /monsters/goldangel
+  text: "メタルセラフィム"
+  link: /monsters/metal_seraphim
 ---
 
 # ゴメちゃん
 
-ランク3のモンスター。
+ランク7のモンスター。
 
 ## ステータス
 
@@ -30,12 +30,12 @@ EXP | 8,564
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 294 |
-| ランク | 3 |
+| 図鑑No. | 708 |
+| ランク | 7 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼のみ |
 | 弱点 | 無敵（呪文ダメージを受けつけない） |
-| 出現場所 | ランク3のふつうの土地 |
+| 出現場所 | ランク7のふつうの土地 |
 
 ## ドロップ品
 

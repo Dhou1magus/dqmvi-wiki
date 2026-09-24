@@ -1,6 +1,6 @@
 ---
 title: ライアンのよろい
-description: DQMVIの「ライアンのよろい」を落とすモンスター2体の一覧。いちばん弱いのはトレーナースライム（超レア・EXP303）。
+description: DQMVIの「ライアンのよろい」を落とすモンスター3体の一覧。いちばん弱いのはトレーナースライム（超レア・EXP303）。
 pageClass: wide-page sortable-list
 prev:
   text: "よるのとばり"
@@ -12,7 +12,7 @@ next:
 
 # ライアンのよろい
 
-防具。**2体**のモンスターが落とします。
+防具。**3体**のモンスターが落とします。
 
 ::: tip ねらい目
 **トレーナースライム**（超レアドロップ・EXP303）。
@@ -37,6 +37,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [トレーナースライム](/monsters/trainerslime) | 超レア | 5 | [スライム](/species/slime) | 574 | 303 |
 | [キングレオ](/monsters/kingreo1) | 超レア | 5 | [魔獣](/species/majyu) | 630 | 320 |
+| [デュラハンナイト](/monsters/dexyurahannaito) | 超レア | 5 | [ゾンビ](/species/zombie) | 637 | 324 |
 
 見出しを押すと並べ替えできます。
 

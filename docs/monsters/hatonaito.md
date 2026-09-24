@@ -2,8 +2,8 @@
 title: ハートナイト
 description: DQMVIのモンスター「ハートナイト」のステータス。HP669 / こうげき79 / しゅび43 / 経験値1,027 / 205G。
 prev:
-  text: "とうろうへい"
-  link: /monsters/tourouhei
+  text: "アロエおに"
+  link: /monsters/aroeoni
 next:
   text: "キラートーチ"
   link: /monsters/kiratoti
@@ -30,7 +30,7 @@ EXP | 1,027
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 166 |
+| 図鑑No. | 171 |
 | ランク | 2 |
 | 系統 | [スライム系](/species/slime) |
 | 活動時間 | 夜のみ |

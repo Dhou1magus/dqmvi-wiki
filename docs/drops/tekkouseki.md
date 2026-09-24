@@ -1,6 +1,6 @@
 ---
 title: 鉄鉱石
-description: DQMVIの「鉄鉱石」を落とすモンスター13体の一覧。いちばん弱いのははじけドーラ（通常・EXP12）。
+description: DQMVIの「鉄鉱石」を落とすモンスター14体の一覧。いちばん弱いのははじけドーラ（通常・EXP12）。
 pageClass: wide-page sortable-list
 prev:
   text: "鉄のヤリ"
@@ -12,7 +12,7 @@ next:
 
 # 鉄鉱石
 
-素材。**13体**のモンスターが落とします。
+素材。**14体**のモンスターが落とします。
 
 ::: tip ねらい目
 **はじけドーラ**（通常ドロップ・EXP12）。
@@ -28,12 +28,13 @@ next:
 | [黄泉の花](/monsters/yominohana) | 通常 | 2 | [スライム](/species/slime) | 34 | 42 |
 | [ベル](/monsters/bell) | 通常 | 2 | [物質](/species/bussitu) | 63 | 45 |
 | [ひとくい木箱](/monsters/hitokuikibako) | 通常 | 2 | [特殊](/species/tokusyu) | 51 | 54 |
+| [しっぽ団のモーモン](/monsters/teeny_sanguini_shippodan) | 通常 | 2 | [悪魔](/species/akuma) | 61 | 55 |
 | [メタッピー](/monsters/metappi) | 通常 | 2 | [物質](/species/bussitu) | 66 | 61 |
 | [レッドハンター](/monsters/redhanta) | 通常 | 2 | [物質](/species/bussitu) | 70 | 62 |
 | [もりもりスライム](/monsters/behemothslime) | レア | 2 | [スライム](/species/slime) | 42 | 43 |
 | [つららスライム](/monsters/slimecicle) | レア | 2 | [スライム](/species/slime) | 58 | 50 |
 | [スライムファング](/monsters/wildslime) | レア | 2 | [スライム](/species/slime) | 63 | 56 |
-| [スケアフレイル](/monsters/sukeafureiru) | レア | 2 | [悪魔](/species/akuma) | 77 | 63 |
+| [スケアフレイル](/monsters/sukeafureiru) | レア | 2 | [ゾンビ](/species/zombie) | 77 | 63 |
 | [ドロザラー](/monsters/dorozara) | 超レア | 1 | [物質](/species/bussitu) | 14 | 6 |
 | [どくろあらい](/monsters/dokuroarai) | 超レア | 2 | [魔獣](/species/majyu) | 38 | 39 |
 

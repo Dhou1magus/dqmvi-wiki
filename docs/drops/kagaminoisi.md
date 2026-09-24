@@ -26,6 +26,7 @@ next:
 | [さそりアーマー](/monsters/sasori_a_ma) | 通常 | 2 | [自然](/species/sizen) | 52 | 44 |
 | [デビルアーマー](/monsters/debiruaamaa) | 通常 | 2 | [物質](/species/bussitu) | 66 | 58 |
 | [ピンキーマッシュ](/monsters/pinkymash) | 通常 | 4 | [スライム](/species/slime) | 187 | 144 |
+| [ホークブリザード](/monsters/hookuburizaado) | 通常 | 4 | [自然](/species/sizen) | 217 | 171 |
 | [キョンシーゴースト](/monsters/jiangshi_ghost) | 通常 | 4 | [ゾンビ](/species/zombie) | 194 | 178 |
 | [サンダーシャウト](/monsters/thundershaut) | 通常 | 4 | [物質](/species/bussitu) | 218 | 183 |
 | [まおうのつかい](/monsters/maounotsukai) | 通常 | 4 | [ゾンビ](/species/zombie) | 184 | 191 |
@@ -37,7 +38,6 @@ next:
 | [メイデンドール](/monsters/meidendo_ru) | レア | 3 | [物質](/species/bussitu) | 106 | 101 |
 | [ボーンファイター](/monsters/bonfaita) | レア | 3 | [ゾンビ](/species/zombie) | 146 | 107 |
 | [てっこうまじん](/monsters/tekkoumajin) | レア | 3 | [物質](/species/bussitu) | 165 | 108 |
-| [バベルボブル](/monsters/baberuboburu) | レア | 2 | [物質](/species/bussitu) | 122 | 112 |
 | [プリンスライム](/monsters/puddingslime) | レア | 3 | [スライム](/species/slime) | 160 | 114 |
 | [凶スライムベス](/monsters/kyouslimebes) | レア | 3 | [スライム](/species/slime) | 138 | 124 |
 | [てつのさそり](/monsters/iron_scorpion) | レア | 3 | [自然](/species/sizen) | 154 | 124 |

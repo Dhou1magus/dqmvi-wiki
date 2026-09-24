@@ -1,6 +1,6 @@
 ---
 title: キングダイヤ
-description: DQMVIの「キングダイヤ」を落とすモンスター22体の一覧。いちばん弱いのはグレイブディガー（通常・EXP914）。
+description: DQMVIの「キングダイヤ」を落とすモンスター23体の一覧。いちばん弱いのはグレイブディガー（通常・EXP914）。
 pageClass: wide-page sortable-list
 prev:
   text: "キラーパイクのピッケル"
@@ -12,7 +12,7 @@ next:
 
 # キングダイヤ
 
-素材。**22体**のモンスターが落とします。
+素材。**23体**のモンスターが落とします。
 
 ::: tip ねらい目
 **グレイブディガー**（通常ドロップ・EXP914）。
@@ -27,6 +27,7 @@ next:
 | [ダイヤモンドスライム](/monsters/daiyamondosuraimu) | 通常 | 6 | [メタル](/species/metal) | 42 | 80,000 |
 | [キングスライムもどき](/monsters/suraimuking) | レア | 4 | [スライム](/species/slime) | 198 | 148 |
 | [たこまじん](/monsters/takomajin) | レア | 4 | [自然](/species/sizen) | 175 | 159 |
+| [ドロルリッチ](/monsters/dororu_lich) | レア | 4 | [ゾンビ](/species/zombie) | 211 | 171 |
 | [スライムプディング](/monsters/slimepudding) | レア | 4 | [スライム](/species/slime) | 191 | 172 |
 | [ひとくい箱](/monsters/hitokuibako) | レア | 4 | [物質](/species/bussitu) | 184 | 185 |
 | [クイーンスライム](/monsters/kuinsuraimu) | レア | 7 | [スライム](/species/slime) | 2,025 | 648 |

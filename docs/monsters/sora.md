@@ -5,8 +5,8 @@ prev:
   text: "フーラー"
   link: /monsters/fura
 next:
-  text: "グレートジンガー"
-  link: /monsters/guretosinga
+  text: "セイレーンゴースト"
+  link: /monsters/seire_ngo_suto
 ---
 
 # ソーラー
@@ -30,7 +30,7 @@ EXP | 422
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 567 |
+| 図鑑No. | 595 |
 | ランク | 6 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼のみ |

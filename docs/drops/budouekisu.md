@@ -1,6 +1,6 @@
 ---
 title: 武闘エキス
-description: DQMVIの「武闘エキス」を落とすモンスター45体の一覧。いちばん弱いのはモビルボディ（通常・EXP165）。
+description: DQMVIの「武闘エキス」を落とすモンスター51体の一覧。いちばん弱いのはモビルボディ（通常・EXP165）。
 pageClass: wide-page sortable-list
 prev:
   text: "氷鳥のはね"
@@ -12,7 +12,7 @@ next:
 
 # 武闘エキス
 
-素材。**45体**のモンスターが落とします。
+素材。**51体**のモンスターが落とします。
 
 ::: tip ねらい目
 **モビルボディ**（通常ドロップ・EXP165）。
@@ -37,10 +37,13 @@ next:
 | [バブルキング](/monsters/baburuking) | 通常 | 6 | [スライム](/species/slime) | 1,128 | 379 |
 | [クラーゴン](/monsters/kraagon) | 通常 | 6 | [自然](/species/sizen) | 1,208 | 430 |
 | [サイクロプス](/monsters/saikuropusu) | 通常 | 6 | [悪魔](/species/akuma) | 1,488 | 441 |
+| [グリンデア](/monsters/grindea) | 通常 | 6 | [悪魔](/species/akuma) | 1,465 | 448 |
 | [スラキャンサー](/monsters/slimecanser) | 通常 | 6 | [スライム](/species/slime) | 1,122 | 454 |
+| [ニジゴロン](/monsters/nizigoron) | 通常 | 6 | [スライム](/species/slime) | 1,167 | 456 |
 | [かげのきし](/monsters/kagenokisi) | 通常 | 7 | [ゾンビ](/species/zombie) | 1,950 | 676 |
 | [ギーグハンマー](/monsters/giguhanma) | 通常 | 7 | [ドラゴン](/species/dragon) | 3,125 | 702 |
 | [キラーマシン](/monsters/kiramasin) | 通常 | 7 | [物質](/species/bussitu) | 1,950 | 706 |
+| [グレートジンガー](/monsters/guretosinga) | 通常 | 7 | [物質](/species/bussitu) | 2,337 | 723 |
 | [トロルボンバー](/monsters/tororubonba) | 通常 | 7 | [悪魔](/species/akuma) | 2,625 | 752 |
 | [ギガンテス](/monsters/gigantesu) | 通常 | 7 | [悪魔](/species/akuma) | 2,655 | 766 |
 | [デンガー](/monsters/denga) | 通常 | 7 | [スライム](/species/slime) | 2,625 | 791 |
@@ -56,6 +59,7 @@ next:
 | [ソーラー](/monsters/sora) | レア | 6 | [物質](/species/bussitu) | 1,256 | 422 |
 | [暗黒の使い](/monsters/ankokunotsukai) | レア | 6 | [ゾンビ](/species/zombie) | 1,407 | 434 |
 | [サイクロプス](/monsters/saikuropusu) | レア | 6 | [悪魔](/species/akuma) | 1,488 | 441 |
+| [エビルちくりん](/monsters/ebiruchikurin) | レア | 6 | [物質](/species/bussitu) | 1,526 | 448 |
 | [ダーククリスタル](/monsters/dark_crystal) | レア | 6 | [物質](/species/bussitu) | 1,258 | 451 |
 | [スノードラゴン](/monsters/snow_dragon) | レア | 6 | [ドラゴン](/species/dragon) | 1,443 | 486 |
 | [スラワッショイ](/monsters/slimewashoi) | レア | 6 | [スライム](/species/slime) | 1,521 | 506 |
@@ -64,9 +68,11 @@ next:
 | [謎のバケモノ](/monsters/nazonobakemono) | レア | 7 | [ドラゴン](/species/dragon) | 2,853 | 994 |
 | [バアラック2](/monsters/baarakku2) | 超レア | 4 | [悪魔](/species/akuma) | 175 | 148 |
 | [ばくだんベビー](/monsters/bakudanbebi) | 超レア | 4 | [物質](/species/bussitu) | 170 | 152 |
-| [デュラハーン](/monsters/durahan) | 超レア | 4 | [悪魔](/species/akuma) | 211 | 165 |
+| [デュラハーン](/monsters/durahan) | 超レア | 4 | [ゾンビ](/species/zombie) | 211 | 165 |
 | [ばくだんいわ](/monsters/bakudaniwa) | 超レア | 5 | [物質](/species/bussitu) | 371 | 229 |
 | [デッドペッカー](/monsters/deddopekka) | 超レア | 5 | [自然](/species/sizen) | 371 | 235 |
+| [れんごくちょう](/monsters/renngokutyou) | 超レア | 5 | [自然](/species/sizen) | 569 | 304 |
+| [キングミミック](/monsters/kingumimikku) | 超レア | 6 | [悪魔](/species/akuma) | 1,019 | 341 |
 | [セイレーンゴースト](/monsters/seire_ngo_suto) | 超レア | 6 | [物質](/species/bussitu) | 1,216 | 374 |
 
 見出しを押すと並べ替えできます。

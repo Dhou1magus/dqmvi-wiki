@@ -1,6 +1,6 @@
 ---
 title: プラチナシールド
-description: DQMVIの「プラチナシールド」を落とすモンスター4体の一覧。いちばん弱いのはヘルプラネット（超レア・EXP263）。
+description: DQMVIの「プラチナシールド」を落とすモンスター5体の一覧。いちばん弱いのはミスターガリック（超レア・EXP262）。
 pageClass: wide-page sortable-list
 prev:
   text: "プラチナ"
@@ -12,10 +12,10 @@ next:
 
 # プラチナシールド
 
-盾・アクセサリー。**4体**のモンスターが落とします。
+盾・アクセサリー。**5体**のモンスターが落とします。
 
 ::: tip ねらい目
-**ヘルプラネット**（超レアドロップ・EXP263）。
+**ミスターガリック**（超レアドロップ・EXP262）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -35,6 +35,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [ミスターガリック](/monsters/misutaagarikku) | 超レア | 5 | [自然](/species/sizen) | 396 | 262 |
 | [ヘルプラネット](/monsters/herupuranetto) | 超レア | 5 | [物質](/species/bussitu) | 459 | 263 |
 | [ビッグフェイス](/monsters/biggufeisu) | 超レア | 5 | [物質](/species/bussitu) | 522 | 294 |
 | [バルンバ](/monsters/balloon_ba) | 超レア | 5 | [ドラゴン](/species/dragon) | 546 | 335 |

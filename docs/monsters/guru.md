@@ -5,8 +5,8 @@ prev:
   text: "かいぞくウーパー"
   link: /monsters/kaizokuupa
 next:
-  text: "メタルドラゴン"
-  link: /monsters/metarudoragon
+  text: "アイアンクック"
+  link: /monsters/aiankukku
 ---
 
 # グール
@@ -30,7 +30,7 @@ EXP | 142
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 354 |
+| 図鑑No. | 368 |
 | ランク | 4 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

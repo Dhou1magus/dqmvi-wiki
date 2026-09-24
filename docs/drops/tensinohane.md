@@ -1,6 +1,6 @@
 ---
 title: てんしのはね
-description: DQMVIの「てんしのはね」を落とすモンスター13体の一覧。いちばん弱いのはタホドラキー（通常・EXP81）。
+description: DQMVIの「てんしのはね」を落とすモンスター14体の一覧。いちばん弱いのはタホドラキー（通常・EXP81）。
 pageClass: wide-page sortable-list
 prev:
   text: "てんしのソーマ"
@@ -12,7 +12,7 @@ next:
 
 # てんしのはね
 
-素材。**13体**のモンスターが落とします。
+素材。**14体**のモンスターが落とします。
 
 ::: tip ねらい目
 **タホドラキー**（通常ドロップ・EXP81）。
@@ -31,6 +31,7 @@ next:
 | [ガチャコッコ](/monsters/gatyakokko) | 通常 | 3 | [物質](/species/bussitu) | 166 | 145 |
 | [エンゼルスライム](/monsters/enzeruslime) | 通常 | 5 | [スライム](/species/slime) | 343 | 210 |
 | [プオーン](/monsters/puohn) | 通常 | 5 | [魔獣](/species/majyu) | 411 | 261 |
+| [コスモスライム](/monsters/cosmoslime) | 通常 | 5 | [スライム](/species/slime) | 561 | 312 |
 | [マジカルハット](/monsters/majikaruhatto) | 通常 | 6 | [魔獣](/species/majyu) | 824 | 333 |
 | [じごくのきし](/monsters/jigokunokisi) | 通常 | 6 | [ゾンビ](/species/zombie) | 1,202 | 454 |
 | [メイジももんじゃ](/monsters/magemomonja) | レア | 6 | [魔獣](/species/majyu) | 984 | 324 |

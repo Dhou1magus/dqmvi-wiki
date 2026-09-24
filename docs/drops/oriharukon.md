@@ -24,7 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [トロルキング](/monsters/tororuking) | 通常 | 7 | [悪魔](/species/akuma) | 3,150 | 867 |
-| [ヘルガーディアン](/monsters/herugadexian) | レア | 7 | [悪魔](/species/akuma) | 2,350 | 711 |
+| [ヘルガーディアン](/monsters/herugadexian) | レア | 7 | [ゾンビ](/species/zombie) | 2,350 | 711 |
 | [パンドラボックス](/monsters/pandorabox) | レア | 7 | [物質](/species/bussitu) | 2,100 | 726 |
 | [トロルボンバー](/monsters/tororubonba) | レア | 7 | [悪魔](/species/akuma) | 2,625 | 752 |
 | [ギガンテス](/monsters/gigantesu) | レア | 7 | [悪魔](/species/akuma) | 2,655 | 766 |

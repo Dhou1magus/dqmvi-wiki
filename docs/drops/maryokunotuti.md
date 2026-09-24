@@ -1,6 +1,6 @@
 ---
 title: まりょくの土
-description: DQMVIの「まりょくの土」を落とすモンスター38体の一覧。いちばん弱いのはホイミスライム（通常・EXP30）。
+description: DQMVIの「まりょくの土」を落とすモンスター39体の一覧。いちばん弱いのはホイミスライム（通常・EXP30）。
 pageClass: wide-page sortable-list
 prev:
   text: "まだらクモ糸"
@@ -12,7 +12,7 @@ next:
 
 # まりょくの土
 
-素材。**38体**のモンスターが落とします。
+素材。**39体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ホイミスライム**（通常ドロップ・EXP30）。
@@ -47,6 +47,7 @@ next:
 | [グリゴンダンス](/monsters/gurigondansu) | レア | 3 | [悪魔](/species/akuma) | 87 | 79 |
 | [トラップボックス](/monsters/torappubokkusu) | レア | 3 | [物質](/species/bussitu) | 87 | 82 |
 | [ナイトウォーカー](/monsters/nightwalker) | レア | 3 | [悪魔](/species/akuma) | 83 | 84 |
+| [デビルスノー](/monsters/debirusunoo) | レア | 3 | [物質](/species/bussitu) | 80 | 84 |
 | [マペットマン](/monsters/mapetman) | レア | 3 | [特殊](/species/tokusyu) | 97 | 86 |
 | [プチアーノン](/monsters/putianon) | レア | 3 | [自然](/species/sizen) | 85 | 86 |
 | [しっぽ団のダックスビル](/monsters/platypunk_duckbill) | レア | 3 | [魔獣](/species/majyu) | 76 | 89 |

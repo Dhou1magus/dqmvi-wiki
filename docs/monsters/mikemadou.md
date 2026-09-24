@@ -5,8 +5,8 @@ prev:
   text: "ゲノミー"
   link: /monsters/genomi
 next:
-  text: "ゴメちゃん"
-  link: /monsters/gomechan
+  text: "シドもじゃ"
+  link: /monsters/shidomoja
 ---
 
 # ミケまどう
@@ -30,7 +30,7 @@ EXP | 1,980
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 293 |
+| 図鑑No. | 306 |
 | ランク | 3 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 昼夜 |

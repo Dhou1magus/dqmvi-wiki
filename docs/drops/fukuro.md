@@ -24,10 +24,10 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [わらいぶくろ](/monsters/waraibukuro) | 超レア | 3 | [物質](/species/bussitu) | 80 | 79 |
+| [メタルドラゴン](/monsters/metarudoragon) | 超レア | 3 | [物質](/species/bussitu) | 91 | 93 |
 | [ゴールドパール](/monsters/goldpearl) | 超レア | 3 | [メタル](/species/metal) | 142 | 121 |
 | [おどる宝石](/monsters/odoruhouseki) | 超レア | 4 | [物質](/species/bussitu) | 162 | 142 |
 | [キングマーマン](/monsters/kingmerman) | 超レア | 4 | [自然](/species/sizen) | 180 | 159 |
-| [メタルドラゴン](/monsters/metarudoragon) | 超レア | 4 | [物質](/species/bussitu) | 255 | 212 |
 
 見出しを押すと並べ替えできます。
 

@@ -1,6 +1,6 @@
 ---
 title: プラチナ
-description: DQMVIの「プラチナ」を落とすモンスター30体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
+description: DQMVIの「プラチナ」を落とすモンスター33体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
 pageClass: wide-page sortable-list
 prev:
   text: "ピンクボンボンの爪"
@@ -12,7 +12,7 @@ next:
 
 # プラチナ
 
-素材。**30体**のモンスターが落とします。
+素材。**33体**のモンスターが落とします。
 
 ::: tip ねらい目
 **グランスライム**（通常ドロップ・EXP333）。
@@ -28,6 +28,7 @@ next:
 | [ブラッドソード](/monsters/buraddosodo) | 通常 | 6 | [物質](/species/bussitu) | 1,008 | 387 |
 | [カラミティサン](/monsters/karamithisan) | 通常 | 6 | [物質](/species/bussitu) | 1,156 | 399 |
 | [マーマンダイン](/monsters/mermandine) | 通常 | 6 | [自然](/species/sizen) | 1,183 | 450 |
+| [ケベナヒモス](/monsters/kebenahemoth) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,374 | 513 |
 | [ブリザード](/monsters/burizado) | レア | 3 | [物質](/species/bussitu) | 85 | 90 |
 | [しびくらベス](/monsters/shibikurabes) | レア | 3 | [スライム](/species/slime) | 96 | 100 |
 | [だいおうイカ](/monsters/daiouika) | レア | 3 | [自然](/species/sizen) | 175 | 110 |
@@ -50,9 +51,11 @@ next:
 | [スライムボーグ](/monsters/suraimubogu) | 超レア | 3 | [スライム](/species/slime) | 80 | 89 |
 | [凶スライム](/monsters/kyouslime) | 超レア | 3 | [スライム](/species/slime) | 150 | 126 |
 | [強スライム](/monsters/sura2) | 超レア | 4 | [スライム](/species/slime) | 165 | 144 |
+| [スラ忍レッド](/monsters/sulaninred) | 超レア | 4 | [スライム](/species/slime) | 191 | 188 |
 | [黒怨王](/monsters/kokuenou) | 超レア | 5 | [ゾンビ](/species/zombie) | 495 | 244 |
 | [カンダタこぶん](/monsters/kandatakobun) | 超レア | 5 | [ゾンビ](/species/zombie) | 511 | 280 |
 | [デーモンスピリット](/monsters/demonspirit) | 超レア | 5 | [ゾンビ](/species/zombie) | 523 | 285 |
+| [どぐうせんし](/monsters/clay_doll) | 超レア | 5 | [物質](/species/bussitu) | 584 | 325 |
 
 見出しを押すと並べ替えできます。
 

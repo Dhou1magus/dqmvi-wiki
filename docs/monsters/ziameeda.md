@@ -5,8 +5,8 @@ prev:
   text: "キングホイミスライム"
   link: /monsters/kinghoimislime
 next:
-  text: "ネルゲルデーモン"
-  link: /monsters/nerugerudeemon
+  text: "ブリザードジェネラル"
+  link: /monsters/burizaadozyeneraru
 ---
 
 # ジアメーダ
@@ -28,7 +28,7 @@ EXP |
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 659 |
+| 図鑑No. | 691 |
 | ランク |  |
 | 系統 |  |
 | 活動時間 |  |

@@ -1,6 +1,6 @@
 ---
 title: 竜のなみだ
-description: DQMVIの「竜のなみだ」を落とすモンスター28体の一覧。いちばん弱いのはドラゴンゾンビ（通常・EXP171）。
+description: DQMVIの「竜のなみだ」を落とすモンスター31体の一覧。いちばん弱いのはドラゴンゾンビ（通常・EXP171）。
 pageClass: wide-page sortable-list
 prev:
   text: "竜のうろこ"
@@ -12,7 +12,7 @@ next:
 
 # 竜のなみだ
 
-素材。**28体**のモンスターが落とします。
+素材。**31体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ドラゴンゾンビ**（通常ドロップ・EXP171）。
@@ -33,6 +33,7 @@ next:
 | [ダークナイト](/monsters/dakunaito) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,325 | 756 |
 | [ガメゴンレジェンド](/monsters/gamegonrejendo) | 通常 | 7 | [ドラゴン](/species/dragon) | 2,700 | 822 |
 | [ソードイド](/monsters/sozoido) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,396 | 834 |
+| [メタルドラゴン](/monsters/metarudoragon) | レア | 3 | [物質](/species/bussitu) | 91 | 93 |
 | [おどる宝石](/monsters/odoruhouseki) | レア | 4 | [物質](/species/bussitu) | 162 | 142 |
 | [かいぞくウーパー](/monsters/kaizokuupa) | レア | 4 | [自然](/species/sizen) | 170 | 145 |
 | [テンタコルス](/monsters/tentakorusu) | レア | 4 | [自然](/species/sizen) | 190 | 155 |
@@ -41,14 +42,16 @@ next:
 | [キングマーマン](/monsters/kingmerman) | レア | 4 | [自然](/species/sizen) | 180 | 159 |
 | [ヘルダイバー](/monsters/abyssdiver) | レア | 4 | [ドラゴン](/species/dragon) | 184 | 166 |
 | [しのさそり](/monsters/death_scorpion) | レア | 4 | [自然](/species/sizen) | 203 | 174 |
+| [スラ忍イエロー](/monsters/sulaninyellow) | レア | 4 | [スライム](/species/slime) | 214 | 181 |
 | [ミミック木箱](/monsters/mimikkukibako) | レア | 4 | [特殊](/species/tokusyu) | 198 | 189 |
 | [ワンダーエッグ](/monsters/wonderegg) | レア | 4 | [スライム](/species/slime) | 217 | 195 |
-| [メタルドラゴン](/monsters/metarudoragon) | レア | 4 | [物質](/species/bussitu) | 255 | 212 |
 | [ホタテワラビー](/monsters/hotatewarabi) | レア | 6 | [魔獣](/species/majyu) | 880 | 314 |
+| [ドラグノワール](/monsters/doragunowaaru) | レア | 6 | [ドラゴン](/species/dragon) | 1,306 | 448 |
 | [スライムマデュラ](/monsters/suraimumadyura) | レア | 7 | [スライム](/species/slime) | 1,695 | 700 |
 | [スカルガルー](/monsters/skullgaroo) | 超レア | 5 | [魔獣](/species/majyu) | 364 | 230 |
 | [クイーンマチルダ](/monsters/kuinmatiruda) | 超レア | 5 | [ゾンビ](/species/zombie) | 469 | 243 |
 | [スマイルロック](/monsters/sumairurokku) | 超レア | 5 | [物質](/species/bussitu) | 444 | 250 |
+| [まだらイチョウ](/monsters/madaraichou) | 超レア | 5 | [自然](/species/sizen) | 389 | 266 |
 | [メタルライダー](/monsters/metaruraida) | 超レア | 5 | [スライム](/species/slime) | 469 | 269 |
 | [パンドラ木箱](/monsters/pandorakibako) | 超レア | 5 | [特殊](/species/tokusyu) | 536 | 290 |
 
