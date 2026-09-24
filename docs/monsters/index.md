@@ -732,12 +732,15 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 711 | ![メタルゴッデス2](/img/monsters/metalgoddes2.png) | [メタルゴッデス2](/monsters/metalgoddes2) |  |  |  |  |  |  |  |  |  |
 | 712 | ![メタルスター](/img/monsters/metalstar.png) | [メタルスター](/monsters/metalstar) | 7 | メタル | 無敵 | 昼 | 165 | 400 | 10,000 | 700,000 | 5,000 |
 | 713 | ![はぐれメタルキング](/img/monsters/haguremetaruking.png) | [はぐれメタルキング](/monsters/haguremetaruking) | 7 | メタル | 無敵 | 昼夜 | 135 | 364 | 10,000 | 500,000 | 3,500 |
+| 730 | ![大魔王オン・ゾ・エーグ](/img/monsters/flucifer.png) | [大魔王オン・ゾ・エーグ](/monsters/flucifer) | — | 特殊 | 強 | 昼夜 | 500,000 | 7,324 | 6,342 | 6,423,533 | 1,245,778 |
+| 731 | ![魔剣士ピサロ](/img/monsters/psaro.png) | [魔剣士ピサロ](/monsters/psaro) | — | 特殊 | 強 | 昼夜 | 466,686 | 7,543 | 5,468 | 6,745,248 | 1,342,342 |
+| 732 | ![モモンジャガー](/img/monsters/momonjagar.png) | [モモンジャガー](/monsters/momonjagar) | — | 物質 | 強 | 昼夜 | 12,818 | 638 | 2,006 | 21,642 | 4,948 |
+| 733 | ![スラリンガル](/img/monsters/slalingal.png) | [スラリンガル](/monsters/slalingal) | — | スライム | 強 | 昼夜 | 507,155 | 8,119 | 5,651 | 6,663,242 | 1,322,255 |
+| 734 | ![神獣王WORLD](/img/monsters/shinjuuou_world.png) | [神獣王WORLD](/monsters/shinjuuou_world) | — | 特殊 | 強 | 昼夜 | 658,978 | 6,858 | 6,128 | 6,238,631 | 1,342,464 |
+| 735 | ![ゾーマ](/img/monsters/zoma2.png) | [ゾーマ](/monsters/zoma2) | — | 特殊 | 強 | 昼夜 | 449,384 | 7,858 | 5,501 | 6,776,767 | 1,378,841 |
 | 736 | ![超マスターエッグゴールドⅠ](/img/monsters/supermasteregg_gold1.png) | [超マスターエッグゴールドⅠ](/monsters/supermasteregg_gold1) | 1 | スライム | 強 | 昼夜 | 100 | 10 | 5 | 30 | 30 |
 | 737 | ![超マスターエッグゴールドⅡ](/img/monsters/supermasteregg_gold2.png) | [超マスターエッグゴールドⅡ](/monsters/supermasteregg_gold2) | 2 | スライム | 強 | 昼夜 | 300 | 30 | 20 | 200 | 200 |
 | 738 | ![超マスターエッグゴールドⅢ](/img/monsters/supermasteregg_gold3.png) | [超マスターエッグゴールドⅢ](/monsters/supermasteregg_gold3) | 3 | スライム | 強 | 昼夜 | 900 | 70 | 50 | 500 | 500 |
 | 739 | ![超マスターエッグシルバーⅠ](/img/monsters/supermasteregg_silver1.png) | [超マスターエッグシルバーⅠ](/monsters/supermasteregg_silver1) | 4 | スライム | 強 | 昼夜 | 3,000 | 115 | 80 | 1,000 | 1,000 |
 | 740 | ![超マスターエッグシルバーⅡ](/img/monsters/supermasteregg_silver2.png) | [超マスターエッグシルバーⅡ](/monsters/supermasteregg_silver2) | 5 | スライム | 強 | 昼夜 | 8,000 | 166 | 110 | 3,000 | 3,000 |
 | 741 | ![超マスターエッグシルバーⅢ](/img/monsters/supermasteregg_silver3.png) | [超マスターエッグシルバーⅢ](/monsters/supermasteregg_silver3) | 6 | スライム | 強 | 昼夜 | 25,000 | 230 | 150 | 5,000 | 5,000 |
-| ??? | ![](/img/blank.png) | [大魔王オン・ゾ・エーグ](/monsters/flucifer) | ??? | ??? | ??? | ??? | ??? | ??? | ??? | ??? | ??? |
-| ??? | ![](/img/blank.png) | [魔剣士ピサロ](/monsters/psaro) | ??? | ??? | ??? | ??? | ??? | ??? | ??? | ??? | ??? |
-| ??? | ![](/img/blank.png) | [モモンジャガー](/monsters/momonjagar) | ??? | ??? | ??? | ??? | ??? | ??? | ??? | ??? | ??? |

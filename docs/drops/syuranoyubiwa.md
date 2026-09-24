@@ -5,7 +5,9 @@ pageClass: wide-page sortable-list
 prev:
   text: "シャ攻の戦籠手"
   link: /drops/gauntlet_20_syakou
-next: false
+next:
+  text: "魔王の笛"
+  link: /drops/maounofue
 ---
 
 # 修羅の指環

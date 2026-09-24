@@ -1,7 +1,7 @@
 ---
 title: マーブルンの尻尾
 description: マーブルンの尻尾
-pageClass: wide-page sortable-list false
+pageClass: wide-page sortable-list
 prev:
   text: "ほのおの盾"
   link: /drops/honoonotate

@@ -1,12 +1,12 @@
 ---
 title: ドロップ品から探す
-description: DQMVIでモンスターが落とすアイテム226種。アイテム名から、それを落とすモンスターを逆に引けます。
+description: DQMVIでモンスターが落とすアイテム236種。アイテム名から、それを落とすモンスターを逆に引けます。
 pageClass: wide-page sortable-list
 ---
 
 # ドロップ品から探す
 
-モンスターが落とすアイテムは **226種** です。
+モンスターが落とすアイテムは **236種** です。
 欲しいアイテムを押すと、それを落とすモンスターが全部出ます。
 
 ::: tip 見かた
@@ -245,6 +245,16 @@ pageClass: wide-page sortable-list
 | [勇車の笛(弱)](/drops/yuusyanofue_zyaku) | 転生装備 | 1 | [プチリンガル](/monsters/putislalingal) | 通常 | 22,892 |
 | [シャ攻の戦籠手](/drops/gauntlet_20_syakou) | 転生装備 | 1 | [シャコウ鬼神](/monsters/syakou_doll) | 通常 | 24,638 |
 | [修羅の指環](/drops/syuranoyubiwa) | 転生装備 | 1 | [アスラ王](/monsters/asuraou) | 通常 | 23,454 |
+| [魔王の笛](/drops/maounofue) | 転生装備 | 1 | [大魔王オン・ゾ・エーグ](/monsters/flucifer) | 通常 | 6,423,533 |
+| [ピサロの剣](/drops/pisaronoken) | 転生装備 | 1 | [魔剣士ピサロ](/monsters/psaro) | 通常 | 6,745,248 |
+| [スライムボックス](/drops/suraimubokkusu) | 転生装備 | 1 | [モモンジャガー](/monsters/momonjagar) | 通常 | 21,642 |
+| [勇車の笛](/drops/yuusyanofue) | 転生装備 | 1 | [スラリンガル](/monsters/slalingal) | 通常 | 6,663,242 |
+| [神獣王の戦篭手](/drops/gauntlet_19_shinjuuou) | 転生装備 | 1 | [神獣王WORLD](/monsters/shinjuuou_world) | 通常 | 6,238,631 |
+| [神獣王の兜](/drops/shinjuuounokabuto) | 転生装備 | 1 | [神獣王WORLD](/monsters/shinjuuou_world) | 通常 | 6,238,631 |
+| [神獣王の鎧](/drops/shinjuuounoyoroi) | 転生装備 | 1 | [神獣王WORLD](/monsters/shinjuuou_world) | 通常 | 6,238,631 |
+| [神獣王の籠手](/drops/shinjuuounokote) | 転生装備 | 1 | [神獣王WORLD](/monsters/shinjuuou_world) | 通常 | 6,238,631 |
+| [神獣王のレギンス](/drops/shinjuuounoreginsu) | 転生装備 | 1 | [神獣王WORLD](/monsters/shinjuuou_world) | 通常 | 6,238,631 |
+| [やみのころも](/drops/yaminokoromo) | 盾・アクセサリー | 1 | [ゾーマ](/monsters/zoma2) | 通常 | 6,776,767 |
 
 ## 関連ページ
 

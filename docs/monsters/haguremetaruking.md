@@ -5,8 +5,8 @@ prev:
   text: "メタルスター"
   link: /monsters/metalstar
 next:
-  text: "超マスターエッグゴールドⅠ"
-  link: /monsters/supermasteregg_gold1
+  text: "大魔王オン・ゾ・エーグ"
+  link: /monsters/flucifer
 ---
 
 # はぐれメタルキング

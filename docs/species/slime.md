@@ -1,6 +1,6 @@
 ---
 title: スライム系
-description: DQMVIのスライム系モンスター119体の一覧。弱点・活動時間・ステータスつき。
+description: DQMVIのスライム系モンスター120体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
 prev:
@@ -128,6 +128,7 @@ next:
 | 665 | ![ゴッドライダー](/img/monsters/godraida.png) | [ゴッドライダー](/monsters/godraida) | 7 | スライム | 強 | 昼夜 | 3,000 | 386 | 287 | 876 | 175 |
 | 701 | ![スラ・ブラスター](/img/monsters/slimeblaster.png) | [スラ・ブラスター](/monsters/slimeblaster) | 7 | スライム | 強 | 昼夜 | 31,243 | 923 | 342 | 37,654 | 6,754 |
 | 706 | ![スライダークロボ](/img/monsters/darkrobotslime.png) | [スライダークロボ](/monsters/darkrobotslime) | 7 | スライム | 炎 | 夜 | 29,252 | 1,101 | 314 | 31,045 | 6,909 |
+| 733 | ![スラリンガル](/img/monsters/slalingal.png) | [スラリンガル](/monsters/slalingal) | — | スライム | 強 | 昼夜 | 507,155 | 8,119 | 5,651 | 6,663,242 | 1,322,255 |
 | 736 | ![超マスターエッグゴールドⅠ](/img/monsters/supermasteregg_gold1.png) | [超マスターエッグゴールドⅠ](/monsters/supermasteregg_gold1) | 1 | スライム | 強 | 昼夜 | 100 | 10 | 5 | 30 | 30 |
 | 737 | ![超マスターエッグゴールドⅡ](/img/monsters/supermasteregg_gold2.png) | [超マスターエッグゴールドⅡ](/monsters/supermasteregg_gold2) | 2 | スライム | 強 | 昼夜 | 300 | 30 | 20 | 200 | 200 |
 | 738 | ![超マスターエッグゴールドⅢ](/img/monsters/supermasteregg_gold3.png) | [超マスターエッグゴールドⅢ](/monsters/supermasteregg_gold3) | 3 | スライム | 強 | 昼夜 | 900 | 70 | 50 | 500 | 500 |

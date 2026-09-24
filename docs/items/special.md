@@ -1,6 +1,6 @@
 ---
 title: 特殊一覧
-description: DQMVIの特殊91種の一覧。配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。
+description: DQMVIの特殊96種の一覧。配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。
 pageClass: wide-page sortable-list
 ---
 
@@ -64,6 +64,11 @@ pageClass: wide-page sortable-list
 | [魔導銃士の証](/items/ki) | — |
 | [戦輪士の証](/items/sr) | — |
 | [大魔王オン・ゾ・エーグのコイン](/items/coin_flucifer) | — |
+| [魔剣士ピサロのコイン](/items/coin_psaro) | — |
+| [モモンジャガーのコイン](/items/coin_momonjaguar) | — |
+| [スラリンガルのコイン](/items/coin_suraringaru) | — |
+| [ゾーマのコイン](/items/coin_zoma2) | — |
+| [神獣王WORLDのコイン](/items/coin_shinjuuou_world) | — |
 | [ライフルユニット](/items/raifuruyunitto) | — |
 | [ショットガンユニット](/items/syottogunyunitto) | — |
 | [マシンガンユニット](/items/masinganyunitto) | — |

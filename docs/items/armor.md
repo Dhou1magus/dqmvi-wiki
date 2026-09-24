@@ -55,7 +55,7 @@ pageClass: wide-page sortable-list
 | [スライムの冠(兜)](/items/suraimunokanmuri_k) | 頭 | ×1.12 | ×1.12 | — | — |
 | [しろバラのきしの兜](/drops/sirobaranokisinokabuto) | 頭 | ×1.2 | ×1.2 | こうげき ×1.1 | — |
 | [シドのゴーグル](/drops/sidonogoguru) | 頭 | ×1.05 | ×1.05 | — | 鍛冶のゾーンが15%広がる |
-| [神獣王の兜](/items/shinjuuounokabuto) | 頭 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
+| [神獣王の兜](/drops/shinjuuounokabuto) | 頭 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
 
 ## 胴（50種） {#body}
 
@@ -110,7 +110,7 @@ pageClass: wide-page sortable-list
 | [あぶない水着(上)](/items/abunaimizugiue) | 胴 | ×1.12 | ×1.12 | — | 水中速度UP（防具2点で発動） |
 | [バニースーツ](/items/banisutu) | 胴 | ×1.12 | ×1.05 | — | — |
 | [ピサロナイトの鎧](/drops/pisaronaitonoyoroi) | 胴 | ×1.2 | ×1.2 | HP ×1.2 | — |
-| [神獣王の鎧](/items/shinjuuounoyoroi) | 胴 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
+| [神獣王の鎧](/drops/shinjuuounoyoroi) | 胴 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
 
 ## 脚（37種） {#legs}
 
@@ -152,7 +152,7 @@ pageClass: wide-page sortable-list
 | [あぶない水着(下)](/items/abunaimizugisita) | 脚 | ×1.12 | ×1.12 | — | — |
 | [あみタイツ](/items/amitaitu) | 脚 | ×1.11 | ×1.11 | — | — |
 | [ゴードンヘッドの小手](/drops/godonheddonokote) | 脚 | ×1.2 | ×1.2 | こうげき ×1.1 | — |
-| [神獣王の籠手](/items/shinjuuounokote) | 脚 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
+| [神獣王の籠手](/drops/shinjuuounokote) | 脚 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
 
 ## 足（38種） {#feet}
 
@@ -195,7 +195,7 @@ pageClass: wide-page sortable-list
 | [グランバニアの靴](/items/guranbanianokutu) | 足 | ×1.3 | ×1 | — | — |
 | [ハイヒール](/items/haihiru) | 足 | ×1.12 | ×1.05 | — | — |
 | [しあわせのくつ](/items/siawasenokutu) | 足 | ×1.12 | ×1.12 | — | 経験値取得時10％UP |
-| [神獣王のレギンス](/items/shinjuuounoreginsu) | 足 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
+| [神獣王のレギンス](/drops/shinjuuounoreginsu) | 足 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
 
 ## 関連ページ
 

@@ -4,9 +4,7 @@ description: DQMVIのモンスター「超マスターエッグシルバーⅢ�
 prev:
   text: "超マスターエッグシルバーⅡ"
   link: /monsters/supermasteregg_silver2
-next:
-  text: "大魔王オン・ゾ・エーグ"
-  link: /monsters/flucifer
+next: false
 ---
 
 # 超マスターエッグシルバーⅢ

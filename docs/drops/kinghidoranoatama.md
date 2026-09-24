@@ -1,7 +1,7 @@
 ---
 title: キングヒドラの頭
 description: キングヒドラの頭
-pageClass: wide-page sortable-list false
+pageClass: wide-page sortable-list
 prev:
   text: "キングダイヤ"
   link: /drops/kingdaiya

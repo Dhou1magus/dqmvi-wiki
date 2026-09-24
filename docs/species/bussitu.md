@@ -1,6 +1,6 @@
 ---
 title: 物質系
-description: DQMVIの物質系モンスター140体の一覧。弱点・活動時間・ステータスつき。
+description: DQMVIの物質系モンスター141体の一覧。弱点・活動時間・ステータスつき。
 pageClass: wide-page
 aside: false
 prev: false
@@ -153,6 +153,7 @@ next:
 | 682 | ![デスマーキュリー](/img/monsters/desumakyuri.png) | [デスマーキュリー](/monsters/desumakyuri) | 7 | 物質 | 強 | 夜 | 2,777 | 322 | 222 | 900 | 124 |
 | 693 | ![グレートジンガー](/img/monsters/guretosinga.png) | [グレートジンガー](/monsters/guretosinga) | 7 | 物質 | 風 | 昼夜 | 2,337 | 333 | 265 | 723 | 160 |
 | 696 | ![ダークネビュラス](/img/monsters/dakunepyurasu.png) | [ダークネビュラス](/monsters/dakunepyurasu) | 7 | 物質 | 爆 | 夜 | 2,125 | 365 | 272 | 734 | 141 |
+| 732 | ![モモンジャガー](/img/monsters/momonjagar.png) | [モモンジャガー](/monsters/momonjagar) | — | 物質 | 強 | 昼夜 | 12,818 | 638 | 2,006 | 21,642 | 4,948 |
 
 ## 関連ページ
 
