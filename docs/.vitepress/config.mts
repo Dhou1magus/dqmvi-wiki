@@ -173,6 +173,7 @@ export default defineConfig({
     linkify: false,
     breaks: true,
     image: { lazyLoading: true },
+    attrs: { allowedAttributes: ['id', 'class'] },
     config(md) {
       md.core.ruler.before('normalize', 'equipment_sources', (state) => {
         state.src = addEquipmentSources(state.src, state.env.relativePath)

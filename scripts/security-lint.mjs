@@ -23,6 +23,7 @@ const RULES = [
   { re: /<\s*(object|embed|form|base|meta|link)\b/i, msg: '危険なHTMLタグ' },
   { re: /<\s*style\b/i, msg: '<style> タグ' },
   { re: /\son[a-z]{3,}\s*=\s*["'{]/i, msg: 'onclick などのイベント属性' },
+  { re: /\{[^}\n]*\bon[a-z]{3,}\s*=/i, msg: '{ } の属性指定に onclick などのイベント属性' },
   { re: /javascript\s*:/i, msg: 'javascript: URL' },
   { re: /data:\s*text\/html/i, msg: 'data:text/html URL' },
   { re: /\{\{/, msg: 'Vueの式展開 {{ }}（本文では使えません）' },

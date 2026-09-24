@@ -3,7 +3,7 @@ import { join } from 'node:path'
 
 const CATALOGS = /^items\/(weapons|armor|shields|accessories|tensei)\.md$/
 const CATEGORY_IDS: Record<string, Set<string>> = {
-  weapons: new Set(['sword', 'hero-sword', 'spear', 'dagger', 'staff', 'kon', 'claw', 'fist', 'hammer', 'axe', 'whip', 'bow', 'boomerang', 'vanilla-sword', 'gun', 'battle-ring', 'harp', 'other']),
+  weapons: new Set(['sword', 'hero-sword', 'spear', 'dagger', 'staff', 'kon', 'claw', 'fist', 'hammer', 'axe', 'whip', 'bow', 'boomerang', 'vanilla-sword', 'gun', 'battle-ring', 'harp', 'scythe', 'gauntlet', 'drill', 'chain-sickle', 'other']),
   armor: new Set(['head', 'body', 'legs', 'feet', 'other']),
   accessories: new Set(['ear', 'neck', 'arm', 'finger', 'other']),
   tensei: new Set(['weapons', 'armor', 'shields', 'accessories'])

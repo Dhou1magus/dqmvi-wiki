@@ -12,7 +12,7 @@ pageClass: wide-page sortable-list
 | --- | ---: | ---: | --- |
 | [マーブルンの尻尾](/drops/maburunnosippo) | 10 | ×1.5 | 溜め攻撃の前方範囲が8マスになる |
 | [ハートナイトの剣](/drops/hatonaitonoken) | 10 | ×1.5 | 溜め攻撃の前方範囲が10マスになる |
-| [キラートーチのトーチ](/drops/kiratotinototi) | 2 | ×1.1 | 魔力倍率 ×1.5 |
+| [キラートーチのトーチ](/drops/kiratotinototi) | 2 | ×1.1 | 魔力倍率 ×1.5　/　右クリックで松明を置き、耐久を1消費する |
 | [ピンクボンボンの爪](/drops/pinkbonbonnotume) | 10 | ×1.5 | 通常攻撃が前方3マスの範囲攻撃になる |
 | [キラーパイクのピッケル](/drops/kirapaikunopikeru) | 10 | ×1.5 | 正面の石系ブロックを上下左右に5マス同時に掘る |
 | [とげこんぼうの棍棒](/drops/togekonbounokonbou) | 10 | ×1.5 | 正面の石系ブロックを左右3マス同時に掘る |
@@ -25,12 +25,12 @@ pageClass: wide-page sortable-list
 | [伐採マシンの鎌](/drops/bassaimasinnokama) | 10 | ×1.5 | 周囲10マスの草を一気に刈る |
 | [わんぱくサタンのスプーン](/drops/wanpakusatannosupun) | 10 | ×1.5 | 正面の石系ブロックを奥2マス同時に掘る |
 | [アトラスの大金槌](/drops/atorasunoookanaduti) | 10 | ×1.5 | 正面の石系ブロックを左右5マス同時に掘る |
-| [ゴールドマントの剣](/drops/gorudenmantonoken) | 10 | ×1.5 | — |
-| [トロルバッコスの大棍棒](/drops/tororubakkosunoookonnbou) | 10 | ×1.5 | — |
-| [聖銀の拳](/drops/seiginnokobusi) | 10 | ×1.5 | — |
-| [りゅうおうもどきの尻尾](/drops/ryuuoumodokinosippo) | 10 | ×1.5 | — |
-| [魔獣イギュアの爪](/drops/majuuigyuanotume) | 10 | ×1.5 | — |
-| [スライダークロボの剣](/drops/suraidakurobonoken) | 10 | ×1.5 | — |
+| [ゴールドマントの剣](/drops/gorudenmantonoken) | 10 | ×1.5 | 攻撃する度にダメージの1/100がゴールドになる |
+| [トロルバッコスの大棍棒](/drops/tororubakkosunoookonnbou) | 10 | ×1.5 | 正面の石系ブロックを上下3マス同時に掘る |
+| [聖銀の拳](/drops/seiginnokobusi) | 10 | ×1.5 | 防御力が50上がる |
+| [りゅうおうもどきの尻尾](/drops/ryuuoumodokinosippo) | 10 | ×1.5 | 溜め攻撃の前方範囲が10マスになる |
+| [魔獣イギュアの爪](/drops/majuuigyuanotume) | 10 | ×1.5 | 通常攻撃が3回攻撃になる（1倍・0.75倍・0.5倍） |
+| [スライダークロボの剣](/drops/suraidakurobonoken) | 10 | ×1.5 | 溜め攻撃で剣を20マス一直線上に投げることが出来る。投げた後戻ってくる |
 
 ## 防具（5種） {#armor}
 
