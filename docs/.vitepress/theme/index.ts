@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import { useRoute, useData } from 'vitepress'
 import type { Theme } from 'vitepress'
 import { setupSortableTables } from './sortable-tables'
+import { setupTabs } from './tabs'
 import { markFaqTags } from './faq-tags'
 import { setupDexFilter, type Kinds } from './dex-filter'
 import { setupPetChecklist } from './pet-checklist'
@@ -32,7 +33,7 @@ export default {
     const route = useRoute()
     const { theme } = useData()
     const kinds = () => (theme.value as { monsterKinds?: Kinds }).monsterKinds
-    const decorate = () => { setupPetChecklist(); setupSortableTables(); markFaqTags(); setupDexFilter(kinds()) }
+    const decorate = () => { setupPetChecklist(); setupSortableTables(); setupTabs(); markFaqTags(); setupDexFilter(kinds()) }
     onMounted(decorate)
     watch(() => route.path, () => nextTick(decorate))
   }

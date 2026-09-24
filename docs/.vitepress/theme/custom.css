@@ -283,6 +283,7 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
   .Layout .vp-doc table th.dq-rank,
   .Layout .vp-doc table td.dq-rank { width: 40px; min-width: 40px; }
   .Layout .vp-doc table td.dq-rank { height: 40px; font-size: 14px; }
+  .Layout.wide-page .vp-doc table[data-sortable] th:not(.dq-rank):not(.no-sort) { padding-right: 20px; }
 }
 
 .vp-doc .custom-block {
@@ -560,6 +561,36 @@ table[data-sortable] th.dq-rank::after { right: 50%; top: auto; bottom: 3px; mar
 @media (max-width: 640px) {
   .vp-doc .dex-filter button { font-size: 14px; padding: 8px 12px; }
 }
+
+.vp-doc .dq-tabs { margin: 16px 0 24px; }
+.vp-doc .dq-tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 8px;
+  margin: 0 0 14px;
+}
+.vp-doc .dq-tab-list button {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 8px 16px;
+  border: 1px solid var(--key-border);
+  background-color: var(--vp-c-bg-elv);
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  white-space: nowrap;
+}
+@media (hover: hover) {
+  .vp-doc .dq-tab-list button:not([aria-selected="true"]):hover { color: var(--vp-c-text-1); }
+}
+.vp-doc .dq-tab-list button[aria-selected="true"] {
+  color: var(--vp-c-white, #fff);
+  background-color: var(--vp-c-brand-3);
+  border-color: var(--vp-c-brand-3);
+}
+.vp-doc .dq-tab-panel[hidden] { display: none; }
+.vp-doc .dq-tab-panel > :first-child { margin-top: 0; }
 
 .vp-doc p.faq-tags {
   display: flex;

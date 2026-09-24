@@ -276,6 +276,58 @@ export default defineConfig({
           i = j
         }
       })
+
+      md.core.ruler.push('dq_tabs', (state) => {
+        const tokens = state.tokens
+        const isTab = (t: (typeof tokens)[number]) =>
+          t.type === 'heading_open' && (t.attrGet('class') ?? '').split(/\s+/).includes('tab')
+        const html = (content: string) => {
+          const t = new state.Token('html_block', '', 0)
+          t.content = content
+          return t
+        }
+        const out: typeof tokens = []
+        let i = 0
+        while (i < tokens.length) {
+          const first = tokens[i]
+          if (!isTab(first)) {
+            out.push(tokens[i++])
+            continue
+          }
+          const depth = first.level
+          const rank = Number(first.tag.slice(1))
+          const panels: { label: string; body: typeof tokens }[] = []
+          while (i < tokens.length && isTab(tokens[i]) && tokens[i].tag === first.tag && tokens[i].level === depth) {
+            const label = (tokens[i + 1].children ?? [])
+              .filter((c) => c.type === 'text' || c.type === 'code_inline')
+              .map((c) => c.content)
+              .join('')
+              .trim()
+            i += 3
+            const body: typeof tokens = []
+            while (
+              i < tokens.length &&
+              tokens[i].level >= depth &&
+              !(tokens[i].type === 'heading_open' && tokens[i].level === depth && Number(tokens[i].tag.slice(1)) <= rank)
+            ) body.push(tokens[i++])
+            panels.push({ label, body })
+          }
+          const group = (state.env.dqTabs = (state.env.dqTabs ?? 0) + 1)
+          const id = (part: string, k: number) => `dq-tabs-${group}-${part}-${k}`
+          const buttons = panels
+            .map((p, k) =>
+              `<button type="button" class="dq-tab" role="tab" id="${id('tab', k)}" aria-controls="${id('panel', k)}" aria-selected="${k === 0}" tabindex="${k === 0 ? 0 : -1}">${esc(p.label)}</button>`)
+            .join('')
+          out.push(html(`<div class="dq-tabs"><div class="dq-tab-list" role="tablist">${buttons}</div>\n`))
+          panels.forEach((p, k) => {
+            out.push(html(`<div class="dq-tab-panel" role="tabpanel" id="${id('panel', k)}" aria-labelledby="${id('tab', k)}"${k === 0 ? '' : ' hidden'}>\n`))
+            out.push(...p.body)
+            out.push(html('</div>\n'))
+          })
+          out.push(html('</div>\n'))
+        }
+        state.tokens = out
+      })
     }
   },
 

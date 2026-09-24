@@ -5,15 +5,28 @@ function toNumber(text: string): number | null {
   return Number(t)
 }
 
-function isNumericColumn(rows: HTMLTableRowElement[], index: number): boolean {
-  let checked = 0
+const RANK_ORDER = ['E', 'D', 'C', 'B', 'A', 'S', 'SS', 'SSS']
+
+function toRank(text: string): number | null {
+  const i = RANK_ORDER.indexOf(text.trim())
+  return i < 0 ? null : i + 1
+}
+
+type ColumnKind = 'number' | 'rank' | 'text'
+
+function columnKind(rows: HTMLTableRowElement[], index: number): ColumnKind {
+  let numbers = 0
+  let ranks = 0
   for (const row of rows) {
     const text = row.cells[index]?.textContent?.trim()
     if (!text || text === '—') continue
-    if (toNumber(text) === null) return false
-    if (++checked >= 20) break
+    if (toNumber(text) !== null) numbers++
+    else if (toRank(text) !== null) ranks++
+    else return 'text'
+    if (numbers + ranks >= 20) break
   }
-  return checked > 0
+  if (numbers && ranks) return 'text'
+  return numbers ? 'number' : ranks ? 'rank' : 'text'
 }
 
 const SORTABLE_FIRST_HEADER = 'No.'
@@ -36,18 +49,19 @@ function sortRows(
   headers: HTMLTableCellElement[],
   index: number,
   direction: 'asc' | 'desc',
-  numeric: boolean
+  kind: ColumnKind
 ): void {
   const sign = direction === 'asc' ? 1 : -1
   const rows = [...tbody.rows]
+  const valueOf = kind === 'rank' ? toRank : toNumber
 
   rows.sort((a, b) => {
     const ta = a.cells[index]?.textContent?.trim() ?? ''
     const tb = b.cells[index]?.textContent?.trim() ?? ''
 
-    if (numeric) {
-      const na = toNumber(ta)
-      const nb = toNumber(tb)
+    if (kind !== 'text') {
+      const na = valueOf(ta)
+      const nb = valueOf(tb)
       if (na === null && nb !== null) return 1
       if (nb === null && na !== null) return -1
       if (na !== null && nb !== null && na !== nb) return (na - nb) * sign
@@ -119,7 +133,7 @@ function markStickyColumns(table: HTMLTableElement): void {
   }
 }
 
-function refreshStickyColumns(): void {
+export function refreshStickyColumns(): void {
   for (const t of document.querySelectorAll<HTMLTableElement>('.Layout.wide-page .vp-doc table[data-table-ready]')) {
     markStickyColumns(t)
   }
@@ -159,7 +173,7 @@ export function setupSortableTables(): void {
 
     const rows = [...tbody.rows]
     rows.forEach((row, i) => originalIndex.set(row, i))
-    const numericColumn = headers.map((_, i) => isNumericColumn(rows, i))
+    const kinds = headers.map((_, i) => columnKind(rows, i))
 
     headers.forEach((th, i) => {
       if (!isSortableHeader(th)) {
@@ -174,12 +188,12 @@ export function setupSortableTables(): void {
 
       const toggle = () => {
         const current = th.getAttribute('aria-sort')
-        const firstPress: 'asc' | 'desc' = i === 0 || !numericColumn[i] ? 'asc' : 'desc'
+        const firstPress: 'asc' | 'desc' = kinds[i] === 'rank' || (i > 0 && kinds[i] === 'number') ? 'desc' : 'asc'
         const direction: 'asc' | 'desc' =
           current === 'ascending' ? 'desc'
           : current === 'descending' ? 'asc'
           : firstPress
-        sortRows(tbody, headers, i, direction, numericColumn[i])
+        sortRows(tbody, headers, i, direction, kinds[i])
       }
 
       th.addEventListener('click', toggle)
