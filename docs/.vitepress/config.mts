@@ -5,7 +5,7 @@ import { isEmptyItemPage, seoHead } from './seo.mts'
 import { renderPetChecklist } from './pet-checklist-table.mts'
 import { addEquipmentSources } from './equipment-sources.mts'
 
-const MOD_VERSION = '0.29.67'
+const MOD_VERSION = '0.31.97'
 
 function modVersion(): string {
   const manual = MOD_VERSION.trim()
