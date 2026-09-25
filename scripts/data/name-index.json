@@ -19,10 +19,10 @@
    "BGM 音楽 ogg OGG Vorbis 外部BGM 曲が流れない config/dqmvi/bgm"
   ],
   [
-   "マルチが重い",
-   "/guide/faq#マルチが重い",
+   "動作が重い・カクつく",
+   "/guide/faq#動作が重い・カクつく",
    "よくある質問",
-   "重い ラグ カクつく 軽量化 メモリ 割り当て サーバースペック 影MOD 処理落ち おもい らぐ"
+   "重い ラグ カクつく 軽量化 メモリ 割り当て スペック 影MOD 処理落ち おもい らぐ"
   ],
   [
    "サーバーを立てたのにDQMバイオームが出てこない",
@@ -46,7 +46,7 @@
    "メタル系はどうやって倒す？",
    "/guide/faq#メタル系はどうやって倒す",
    "よくある質問",
-   "メタル はぐれメタル メタルキング どくばり まじんのかなづち 会心 逃げる メタル狩り めたる はぐれめたる"
+   "メタル はぐれメタル メタルキング どくばり まじんのかなづち 会心 逃げる メタル狩り めたる はぐれ"
   ],
   [
    "「空の証」「地上の証」が使えるモンスターが分からない",
@@ -7336,6 +7336,50 @@
    "やみのドラゴンのペンダント",
    "/items/accessories",
    "アクセサリー"
+  ]
+ ],
+ "mods": [
+  [
+   "HP表示MOD",
+   "/guide/recommended-mods#hp",
+   "案内",
+   "Neat HPバー 体力 ゲージ"
+  ],
+  [
+   "ミニマップMOD",
+   "/guide/recommended-mods#minimap",
+   "案内",
+   "JourneyMap マップ 地図 ウェイポイント"
+  ],
+  [
+   "軽量化MOD",
+   "/guide/recommended-mods#performance",
+   "案内",
+   "Lithium ImmediatelyFast Immersive Optimization XP Stream 重い ラグ"
+  ],
+  [
+   "便利MOD",
+   "/guide/recommended-mods#convenience",
+   "案内",
+   "Mouse Tweaks CutAll SMP MineAll SMP 一括破壊 Effortless Building Sophisticated Backpacks バックパック"
+  ],
+  [
+   "音声パック",
+   "/guide/recommended-mods#voice",
+   "案内",
+   "ボイス 声 音声"
+  ],
+  [
+   "影MOD",
+   "/guide/recommended-mods#shaders",
+   "案内",
+   "シェーダー Iris Shaders Sodium Complementary Shaders BSL Shaders"
+  ],
+  [
+   "レシピMOD（非推奨）",
+   "/guide/recommended-mods#not-recommended",
+   "案内",
+   "JEI REI EMI Just Enough Items"
   ]
  ]
 }

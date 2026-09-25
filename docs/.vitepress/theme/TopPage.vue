@@ -212,6 +212,7 @@ const cats = computed(() => [
     items: [
       { t: 'DQMVIとは', link: '/guide/what-is-dqmvi' },
       { t: '導入方法', link: '/guide/install' },
+      { t: '併用推奨MOD', link: '/guide/recommended-mods' },
       { t: 'よくある質問', link: '/guide/faq' },
       { t: 'MOD更新履歴', link: '/guide/updates' },
       { t: 'ご意見箱', link: '/guide/feedback' },
@@ -230,6 +231,7 @@ const wanted = [
 ]
 
 const log = [
+  { d: '09-25', t: '併用推奨MODのページを追加（HP表示・ミニマップ・軽量化など。レシピMODは非推奨）', link: '/guide/recommended-mods', who: 'よっしー' },
   { d: '09-25', t: '公式MOD更新履歴と対応バージョンを0.31.97まで更新', link: '/guide/updates', who: 'よっしー' },
   { d: '09-24', t: 'コインボス6体を図鑑に掲載（スラリンガル・神獣王WORLD・ゾーマを追加）', link: '/monsters/flucifer', who: 'よっしー' },
   { d: '09-24', t: 'コインボスが落とす10種のドロップ品ページを追加し、コイン5種を特殊一覧に掲載', link: '/drops/', who: 'よっしー' },

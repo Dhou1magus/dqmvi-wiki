@@ -385,6 +385,7 @@ export default defineConfig({
         items: [
           { text: 'DQMVIとは', link: '/guide/what-is-dqmvi' },
           { text: '導入方法', link: '/guide/install' },
+          { text: '併用推奨MOD', link: '/guide/recommended-mods' },
           { text: 'よくある質問', link: '/guide/faq' }
         ]
       },
