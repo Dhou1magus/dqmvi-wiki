@@ -1,6 +1,6 @@
 ---
 title: ドラゴンのなみだ
-description: DQMVIの「ドラゴンのなみだ」を落とすモンスター29体の一覧。いちばん弱いのはアームライオン（通常・EXP115）。
+description: DQMVIの「ドラゴンのなみだ」を落とすモンスター32体の一覧。いちばん弱いのはアームライオン（通常・EXP115）。
 pageClass: wide-page sortable-list
 prev:
   text: "ドラゴンスレイヤー"
@@ -12,7 +12,7 @@ next:
 
 # ドラゴンのなみだ
 
-素材。**29体**のモンスターが落とします。
+素材。**32体**のモンスターが落とします。
 
 ::: tip ねらい目
 **アームライオン**（通常ドロップ・EXP115）。
@@ -24,18 +24,21 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [アームライオン](/monsters/armraion) | 通常 | 3 | [魔獣](/species/majyu) | 135 | 115 |
+| [ファントムシャドウ](/monsters/huxantomsyadou) | 通常 | 3 | [ゾンビ](/species/zombie) | 164 | 121 |
 | [ミミック木箱](/monsters/mimikkukibako) | 通常 | 4 | [特殊](/species/tokusyu) | 198 | 189 |
 | [ツボック](/monsters/tubokku) | 通常 | 5 | [特殊](/species/tokusyu) | 430 | 264 |
 | [トロル](/monsters/tororu) | 通常 | 5 | [悪魔](/species/akuma) | 679 | 287 |
 | [エレフローパー](/monsters/elefloper) | 通常 | 5 | [自然](/species/sizen) | 517 | 287 |
 | [グレイトライドン](/monsters/greatridon) | 通常 | 5 | [ゾンビ](/species/zombie) | 521 | 298 |
 | [ドラゴンナイト](/monsters/dragonnaito) | 通常 | 5 | [ドラゴン](/species/dragon) | 574 | 311 |
-| [ダークネビュラス](/monsters/dakunepyurasu) | 通常 | 5 | [物質](/species/bussitu) | 600 | 322 |
+| [ニズゼナイト](/monsters/nizze_knight) | 通常 | 5 | [ゾンビ](/species/zombie) | 608 | 331 |
 | [バルンバ](/monsters/balloon_ba) | 通常 | 5 | [ドラゴン](/species/dragon) | 546 | 335 |
 | [アックスドラゴン](/monsters/axedoragon) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,152 | 368 |
 | [ガニラス](/monsters/ganirasu) | 通常 | 6 | [自然](/species/sizen) | 960 | 376 |
 | [キースドラゴン](/monsters/kisudragon) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,264 | 418 |
 | [ダースドラゴン](/monsters/dasudragon) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,384 | 442 |
+| [ドラグノワール](/monsters/doragunowaaru) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,306 | 448 |
+| [ダークネビュラス](/monsters/dakunepyurasu) | 通常 | 7 | [物質](/species/bussitu) | 2,125 | 734 |
 | [ドラゴンダーク](/monsters/dragondarknaito) | 通常 | 7 | [ドラゴン](/species/dragon) | 2,850 | 819 |
 | [ブラックドラゴン](/monsters/blackdoragon) | 通常 | 7 | [ドラゴン](/species/dragon) | 3,124 | 1,033 |
 | [スライムナイト](/monsters/suraimunaito) | レア | 3 | [スライム](/species/slime) | 98 | 99 |

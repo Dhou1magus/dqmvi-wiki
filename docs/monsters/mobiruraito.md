@@ -5,8 +5,8 @@ prev:
   text: "モビルボディ"
   link: /monsters/mobirubodexi
 next:
-  text: "モビルフォース"
-  link: /monsters/mobirufosu
+  text: "ダークペルシャ"
+  link: /monsters/daakuperusya
 ---
 
 # モビルライト
@@ -30,7 +30,7 @@ EXP | 155
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 367 |
+| 図鑑No. | 380 |
 | ランク | 4 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼のみ |

@@ -1,6 +1,6 @@
 ---
 title: 闘魂エキス
-description: DQMVIの「闘魂エキス」を落とすモンスター13体の一覧。いちばん弱いのはテンタクルス（通常・EXP285）。
+description: DQMVIの「闘魂エキス」を落とすモンスター14体の一覧。いちばん弱いのはテンタクルス（通常・EXP285）。
 pageClass: wide-page sortable-list
 prev:
   text: "鉄鉱石"
@@ -12,7 +12,7 @@ next:
 
 # 闘魂エキス
 
-素材。**13体**のモンスターが落とします。
+素材。**14体**のモンスターが落とします。
 
 ::: tip ねらい目
 **テンタクルス**（通常ドロップ・EXP285）。
@@ -29,6 +29,7 @@ next:
 | [キングレオ](/monsters/kingreo1) | 通常 | 5 | [魔獣](/species/majyu) | 630 | 320 |
 | [キラーパンサー](/monsters/kirapan2) | 通常 | 6 | [魔獣](/species/majyu) | 960 | 350 |
 | [しにがみのきし](/monsters/sinigaminokisi) | 通常 | 5 | [悪魔](/species/akuma) | 732 | 384 |
+| [死神の騎士](/monsters/shinigaminokishi) | 通常 | 6 | [悪魔](/species/akuma) | 1,368 | 475 |
 | [スノードラゴン](/monsters/snow_dragon) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,443 | 486 |
 | [ゴッドライダー](/monsters/godraida) | 通常 | 7 | [スライム](/species/slime) | 3,000 | 876 |
 | [タイガークロー](/monsters/taigakuro) | レア | 5 | [魔獣](/species/majyu) | 512 | 299 |

@@ -1,6 +1,6 @@
 ---
 title: 呪力のモト
-description: DQMVIの「呪力のモト」を落とすモンスター50体の一覧。いちばん弱いのはプリズニャン（通常・EXP72）。
+description: DQMVIの「呪力のモト」を落とすモンスター54体の一覧。いちばん弱いのはプリズニャン（通常・EXP72）。
 pageClass: wide-page sortable-list
 prev:
   text: "狩人の弓"
@@ -12,7 +12,7 @@ next:
 
 # 呪力のモト
 
-素材。**50体**のモンスターが落とします。
+素材。**54体**のモンスターが落とします。
 
 ::: tip ねらい目
 **プリズニャン**（通常ドロップ・EXP72）。
@@ -35,24 +35,28 @@ next:
 | [ミニデーモン](/monsters/minidemon) | 通常 | 4 | [悪魔](/species/akuma) | 170 | 145 |
 | [ローズバトラー](/monsters/rozubatora) | 通常 | 3 | [自然](/species/sizen) | 188 | 146 |
 | [コロネホワイト](/monsters/pastypastry) | 通常 | 4 | [スライム](/species/slime) | 193 | 148 |
-| [デュラハーン](/monsters/durahan) | 通常 | 4 | [悪魔](/species/akuma) | 211 | 165 |
+| [デュラハーン](/monsters/durahan) | 通常 | 4 | [ゾンビ](/species/zombie) | 211 | 165 |
 | [しのさそり](/monsters/death_scorpion) | 通常 | 4 | [自然](/species/sizen) | 203 | 174 |
 | [キラークラブ2](/monsters/killer_crab2) | 通常 | 4 | [自然](/species/sizen) | 182 | 175 |
+| [コスモキャンディ](/monsters/cosmo_candy) | 通常 | 4 | [スライム](/species/slime) | 190 | 199 |
 | [バアラック](/monsters/barakku) | 通常 | 5 | [悪魔](/species/akuma) | 497 | 264 |
 | [まおうのランプ](/monsters/annihilantern) | 通常 | 5 | [物質](/species/bussitu) | 435 | 264 |
 | [ザバン](/monsters/zaban) | 通常 | 5 | [自然](/species/sizen) | 456 | 274 |
 | [デススパーク](/monsters/desusupaku) | 通常 | 5 | [ゾンビ](/species/zombie) | 675 | 282 |
 | [ベルザブル](/monsters/berusaburu) | 通常 | 5 | [自然](/species/sizen) | 489 | 288 |
 | [ゾンビマスター](/monsters/zonbimasuta) | 通常 | 5 | [ゾンビ](/species/zombie) | 521 | 300 |
+| [れんごくちょう](/monsters/renngokutyou) | 通常 | 5 | [自然](/species/sizen) | 569 | 304 |
 | [パペットマン](/monsters/papettoman) | 通常 | 6 | [物質](/species/bussitu) | 840 | 357 |
 | [しりょうのきし](/monsters/siryounokisi) | 通常 | 6 | [ゾンビ](/species/zombie) | 1,072 | 369 |
 | [根絶やしの竜](/monsters/nedayashinoryu) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,326 | 472 |
 | [凶メタルスライム](/monsters/kyoumetalslime) | 通常 | 3 | [メタル](/species/metal) | 12 | 8,800 |
+| [メタルエンゼル](/monsters/metalangel) | 通常 | 3 | [メタル](/species/metal) | 13 | 8,895 |
 | [きとうし](/monsters/kitousi) | レア | 3 | [悪魔](/species/akuma) | 92 | 80 |
 | [シャーマン](/monsters/syaman) | レア | 3 | [ゾンビ](/species/zombie) | 115 | 142 |
 | [ブラックベジター](/monsters/burakkubejita) | レア | 5 | [自然](/species/sizen) | 532 | 260 |
 | [だいまどう](/monsters/daimadou) | レア | 5 | [悪魔](/species/akuma) | 486 | 293 |
 | [まかいファイター](/monsters/commandragor) | レア | 5 | [ドラゴン](/species/dragon) | 555 | 304 |
+| [アロエおに](/monsters/aroeoni) | 超レア | 2 | [自然](/species/sizen) | 42 | 37 |
 | [バル](/monsters/baru) | 超レア | 2 | [物質](/species/bussitu) | 36 | 40 |
 | [シャドー](/monsters/syado) | 超レア | 2 | [物質](/species/bussitu) | 52 | 43 |
 | [じごくのハサミ2](/monsters/jigoku_no_hasami2) | 超レア | 2 | [自然](/species/sizen) | 60 | 60 |

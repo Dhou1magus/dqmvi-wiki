@@ -5,8 +5,8 @@ prev:
   text: "リビングデッド"
   link: /monsters/ribingudeddo
 next:
-  text: "メカバーン"
-  link: /monsters/mekaban
+  text: "ガチャコッコ"
+  link: /monsters/gatyakokko
 ---
 
 # パプリカン
@@ -30,7 +30,7 @@ EXP | 98
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 233 |
+| 図鑑No. | 239 |
 | ランク | 3 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

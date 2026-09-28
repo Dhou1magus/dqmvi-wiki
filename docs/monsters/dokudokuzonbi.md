@@ -5,8 +5,8 @@ prev:
   text: "ザバン"
   link: /monsters/zaban
 next:
-  text: "ダークネビュラス"
-  link: /monsters/dakunepyurasu
+  text: "エビルプラント"
+  link: /monsters/ebirupuranto
 ---
 
 # どくどくゾンビ
@@ -30,7 +30,7 @@ EXP | 252
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 464 |
+| 図鑑No. | 485 |
 | ランク | 5 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

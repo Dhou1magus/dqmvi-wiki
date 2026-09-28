@@ -5,8 +5,8 @@ prev:
   text: "魔獣イギュア"
   link: /monsters/majuuigyua
 next:
-  text: "メタルセラフィム"
-  link: /monsters/metal_seraphim
+  text: "亡国の残兵"
+  link: /monsters/boukokunozanpei
 ---
 
 # スライダークロボ
@@ -30,7 +30,7 @@ EXP | 31,045
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 668 |
+| 図鑑No. | 706 |
 | ランク | 7 |
 | 系統 | [スライム系](/species/slime) |
 | 活動時間 | 夜のみ |

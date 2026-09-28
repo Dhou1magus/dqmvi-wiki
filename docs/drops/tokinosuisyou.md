@@ -1,6 +1,6 @@
 ---
 title: 時の水晶
-description: DQMVIの「時の水晶」を落とすモンスター8体の一覧。いちばん弱いのはマッドスミス（レア・EXP345）。
+description: DQMVIの「時の水晶」を落とすモンスター10体の一覧。いちばん弱いのはキングミミック（レア・EXP341）。
 pageClass: wide-page sortable-list
 prev:
   text: "死神の首飾り"
@@ -12,10 +12,10 @@ next:
 
 # 時の水晶
 
-素材。**8体**のモンスターが落とします。
+素材。**10体**のモンスターが落とします。
 
 ::: tip ねらい目
-**マッドスミス**（レアドロップ・EXP345）。
+**キングミミック**（レアドロップ・EXP341）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -23,10 +23,12 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [キングミミック](/monsters/kingumimikku) | レア | 6 | [悪魔](/species/akuma) | 1,019 | 341 |
 | [マッドスミス](/monsters/maddosumisu) | レア | 6 | [ゾンビ](/species/zombie) | 1,123 | 345 |
 | [オーラー](/monsters/ora) | レア | 6 | [物質](/species/bussitu) | 920 | 413 |
 | [ドラゴンライダー](/monsters/dragonraida) | レア | 6 | [ドラゴン](/species/dragon) | 1,160 | 420 |
 | [ニードルうさこ](/monsters/ni_doruusako) | レア | 6 | [物質](/species/bussitu) | 1,389 | 459 |
+| [ミステリドール](/monsters/mystery_doll) | レア | 6 | [物質](/species/bussitu) | 1,375 | 466 |
 | [うらぎりこぞう](/monsters/uragirikozou) | レア | 7 | [悪魔](/species/akuma) | 1,665 | 567 |
 | [アルミラージ](/monsters/arumiraji) | 超レア | 2 | [魔獣](/species/majyu) | 59 | 47 |
 | [スライムタワー](/monsters/suraimutawa) | 超レア | 3 | [スライム](/species/slime) | 70 | 86 |

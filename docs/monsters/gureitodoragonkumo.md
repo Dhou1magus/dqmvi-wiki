@@ -5,8 +5,8 @@ prev:
   text: "わんぱくサタン"
   link: /monsters/wanpakusatan
 next:
-  text: "メタルトリュフ"
-  link: /monsters/metaltruffeslime
+  text: "ウサンダー"
+  link: /monsters/usander
 ---
 
 # グレイトドラゴン・雲
@@ -30,7 +30,7 @@ EXP | 3,315
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 409 |
+| 図鑑No. | 428 |
 | ランク | 4 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 夜のみ |

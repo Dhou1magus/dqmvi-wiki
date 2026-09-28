@@ -1,6 +1,6 @@
 ---
 title: メイジキメラのはね
-description: DQMVIの「メイジキメラのはね」を落とすモンスター11体の一覧。いちばん弱いのはメイジドラキー（通常・EXP156）。
+description: DQMVIの「メイジキメラのはね」を落とすモンスター13体の一覧。いちばん弱いのはメイジドラキー（通常・EXP156）。
 pageClass: wide-page sortable-list
 prev:
   text: "ムーンキメラの羽"
@@ -12,7 +12,7 @@ next:
 
 # メイジキメラのはね
 
-素材。**11体**のモンスターが落とします。
+素材。**13体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メイジドラキー**（通常ドロップ・EXP156）。
@@ -32,8 +32,10 @@ next:
 | [スラワッショイ](/monsters/slimewashoi) | 通常 | 6 | [スライム](/species/slime) | 1,521 | 506 |
 | [デスフラッター](/monsters/desufuratta) | レア | 4 | [自然](/species/sizen) | 170 | 146 |
 | [カイロプッテ](/monsters/kairoputte) | レア | 4 | [悪魔](/species/akuma) | 183 | 183 |
+| [まんじゅシャモン](/monsters/manzyusyamon) | レア | 6 | [自然](/species/sizen) | 966 | 344 |
 | [シルバーデビル](/monsters/sirubadebiru) | レア | 6 | [悪魔](/species/akuma) | 1,088 | 418 |
 | [バリイドドッグ](/monsters/bariidodog) | 超レア | 5 | [ゾンビ](/species/zombie) | 343 | 219 |
+| [コスモスライム](/monsters/cosmoslime) | 超レア | 5 | [スライム](/species/slime) | 561 | 312 |
 
 見出しを押すと並べ替えできます。
 

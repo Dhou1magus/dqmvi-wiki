@@ -5,8 +5,8 @@ prev:
   text: "ベル"
   link: /monsters/bell
 next:
-  text: "バベルボブル"
-  link: /monsters/baberuboburu
+  text: "ジャガーメイジ"
+  link: /monsters/zyagameizi
 ---
 
 # ボル
@@ -30,7 +30,7 @@ EXP | 42
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 133 |
+| 図鑑No. | 136 |
 | ランク | 2 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼のみ |

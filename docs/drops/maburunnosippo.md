@@ -1,7 +1,7 @@
 ---
 title: マーブルンの尻尾
 description: マーブルンの尻尾
-pageClass: wide-page sortable-list false
+pageClass: wide-page sortable-list
 prev:
   text: "ほのおの盾"
   link: /drops/honoonotate
@@ -18,7 +18,7 @@ next:
 | 種類 | 武器（ムチ） |
 | こうげき | 10 |
 | 攻撃倍率 | ×1.5 |
-| 特殊効果 | — |
+| 特殊効果 | 溜め攻撃の前方範囲が8マスになる |
 
 倍率は、いまの能力に掛かる値です。
 

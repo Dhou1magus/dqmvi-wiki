@@ -1,6 +1,6 @@
 ---
 title: 薬草(HP+30)
-description: DQMVIの「薬草(HP+30)」を落とすモンスター10体の一覧。いちばん弱いのはぶちスライム（レア・EXP4）。
+description: DQMVIの「薬草(HP+30)」を落とすモンスター11体の一覧。いちばん弱いのはぶちスライム（レア・EXP4）。
 pageClass: wide-page sortable-list
 prev:
   text: "矢"
@@ -12,7 +12,7 @@ next:
 
 # 薬草(HP+30)
 
-種。**10体**のモンスターが落とします。
+種。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ぶちスライム**（レアドロップ・EXP4）。
@@ -33,6 +33,7 @@ next:
 | [はさみくわがた](/monsters/scissorbeatle) | レア | 1 | [自然](/species/sizen) | 26 | 14 |
 | [ブチュチュンパ](/monsters/buchunpa) | レア | 4 | [自然](/species/sizen) | 168 | 142 |
 | [ピクシー](/monsters/pikusi) | レア | 4 | [悪魔](/species/akuma) | 178 | 147 |
+| [コスモキャンディ](/monsters/cosmo_candy) | レア | 4 | [スライム](/species/slime) | 190 | 199 |
 
 見出しを押すと並べ替えできます。
 

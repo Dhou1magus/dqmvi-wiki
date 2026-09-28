@@ -24,7 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ベスキング](/monsters/besuking) | 通常 | 5 | [スライム](/species/slime) | 368 | 238 |
-| [グレートジンガー](/monsters/guretosinga) | 通常 | 6 | [物質](/species/bussitu) | 1,600 | 600 |
+| [まだらイチョウ](/monsters/madaraichou) | 通常 | 5 | [自然](/species/sizen) | 389 | 266 |
 | [デスニャーゴ](/monsters/desunyago) | レア | 6 | [魔獣](/species/majyu) | 896 | 344 |
 | [コスモアイ](/monsters/kosumoai) | レア | 6 | [悪魔](/species/akuma) | 1,220 | 421 |
 | [ガメゴンロード](/monsters/gamegonload) | レア | 6 | [ドラゴン](/species/dragon) | 1,264 | 438 |

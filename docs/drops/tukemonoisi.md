@@ -1,6 +1,6 @@
 ---
 title: つけもの石
-description: DQMVIの「つけもの石」を落とすモンスター13体の一覧。いちばん弱いのはおおがらす（通常・EXP7）。
+description: DQMVIの「つけもの石」を落とすモンスター14体の一覧。いちばん弱いのはおおがらす（通常・EXP7）。
 pageClass: wide-page sortable-list
 prev:
   text: "チョコヌーバの指輪"
@@ -12,7 +12,7 @@ next:
 
 # つけもの石
 
-素材。**13体**のモンスターが落とします。
+素材。**14体**のモンスターが落とします。
 
 ::: tip ねらい目
 **おおがらす**（通常ドロップ・EXP7）。
@@ -31,6 +31,7 @@ next:
 | [ぐんたいガニ2](/monsters/army_crab2) | 通常 | 1 | [自然](/species/sizen) | 32 | 16 |
 | [ポンコツ兵](/monsters/ponkotuhei) | 通常 | 1 | [物質](/species/bussitu) | 26 | 17 |
 | [スカルガルー](/monsters/skullgaroo) | 通常 | 5 | [魔獣](/species/majyu) | 364 | 230 |
+| [ダークサキュバス](/monsters/sepreme_succubat) | 通常 | 5 | [悪魔](/species/akuma) | 627 | 316 |
 | [タコメット](/monsters/takometto) | レア | 2 | [自然](/species/sizen) | 35 | 40 |
 | [ウパパロン](/monsters/upaparon) | レア | 2 | [自然](/species/sizen) | 45 | 41 |
 | [ひとくいサーベル](/monsters/hitokuisaberu) | レア | 2 | [物質](/species/bussitu) | 52 | 47 |

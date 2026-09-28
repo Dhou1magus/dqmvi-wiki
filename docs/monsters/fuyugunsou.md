@@ -5,8 +5,8 @@ prev:
   text: "グレイビーポット"
   link: /monsters/gravy_pot
 next:
-  text: "アカツキショウグン"
-  link: /monsters/akatsuki_shogun
+  text: "いしにんぎょう"
+  link: /monsters/stone_doll
 ---
 
 # ふゆぐんそう
@@ -30,7 +30,7 @@ EXP | 144
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 402 |
+| 図鑑No. | 414 |
 | ランク | 4 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

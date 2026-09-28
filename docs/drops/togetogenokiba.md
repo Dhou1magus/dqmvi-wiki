@@ -1,6 +1,6 @@
 ---
 title: トゲトゲの牙
-description: DQMVIの「トゲトゲの牙」を落とすモンスター16体の一覧。いちばん弱いのはどくろあらい（通常・EXP39）。
+description: DQMVIの「トゲトゲの牙」を落とすモンスター17体の一覧。いちばん弱いのはどくろあらい（通常・EXP39）。
 pageClass: wide-page sortable-list
 prev:
   text: "とげこんぼうの棍棒"
@@ -12,7 +12,7 @@ next:
 
 # トゲトゲの牙
 
-素材。**16体**のモンスターが落とします。
+素材。**17体**のモンスターが落とします。
 
 ::: tip ねらい目
 **どくろあらい**（通常ドロップ・EXP39）。
@@ -33,6 +33,7 @@ next:
 | [ベビーパンサー](/monsters/kirapan) | 通常 | 4 | [魔獣](/species/majyu) | 168 | 160 |
 | [おばけトマト](/monsters/obaketomato) | 通常 | 4 | [自然](/species/sizen) | 171 | 164 |
 | [しびれだんびら](/monsters/sibiredanbira) | 通常 | 4 | [物質](/species/bussitu) | 180 | 169 |
+| [いしにんぎょう](/monsters/stone_doll) | 通常 | 4 | [物質](/species/bussitu) | 207 | 173 |
 | [ホーンビートル](/monsters/hornbeet) | 通常 | 4 | [自然](/species/sizen) | 215 | 180 |
 | [サボテンボール](/monsters/sabotenboru) | レア | 1 | [自然](/species/sizen) | 23 | 12 |
 | [とげぼうず](/monsters/togebouzu) | 超レア | 1 | [物質](/species/bussitu) | 13 | 7 |

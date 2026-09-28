@@ -1,6 +1,6 @@
 ---
 title: ガマのあぶら
-description: DQMVIの「ガマのあぶら」を落とすモンスター49体の一覧。いちばん弱いのはスライムフェアリー（通常・EXP40）。
+description: DQMVIの「ガマのあぶら」を落とすモンスター53体の一覧。いちばん弱いのはアロエおに（通常・EXP37）。
 pageClass: wide-page sortable-list
 prev:
   text: "かがみの石"
@@ -12,10 +12,10 @@ next:
 
 # ガマのあぶら
 
-素材。**49体**のモンスターが落とします。
+素材。**53体**のモンスターが落とします。
 
 ::: tip ねらい目
-**スライムフェアリー**（通常ドロップ・EXP40）。
+**アロエおに**（通常ドロップ・EXP37）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -23,6 +23,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [アロエおに](/monsters/aroeoni) | 通常 | 2 | [自然](/species/sizen) | 42 | 37 |
 | [スライムフェアリー](/monsters/suraimu_feari) | 通常 | 2 | [スライム](/species/slime) | 38 | 40 |
 | [しびれくらげ](/monsters/sibirekurage) | 通常 | 2 | [スライム](/species/slime) | 53 | 45 |
 | [ボックススライムレッド](/monsters/boxsuraimu_aka) | 通常 | 2 | [スライム](/species/slime) | 48 | 50 |
@@ -36,11 +37,13 @@ next:
 | [ディアブラダ](/monsters/dexiaburada) | 通常 | 4 | [悪魔](/species/akuma) | 161 | 156 |
 | [メーダクイン](/monsters/medakuin) | 通常 | 4 | [悪魔](/species/akuma) | 165 | 166 |
 | [アサシンブラッド](/monsters/assassinblood) | 通常 | 4 | [物質](/species/bussitu) | 186 | 167 |
+| [ドロルリッチ](/monsters/dororu_lich) | 通常 | 4 | [ゾンビ](/species/zombie) | 211 | 171 |
 | [チョコタワー](/monsters/chocotower) | 通常 | 4 | [スライム](/species/slime) | 204 | 181 |
 | [シュプリンガー](/monsters/springer) | 通常 | 4 | [ドラゴン](/species/dragon) | 184 | 192 |
 | [フレイム](/monsters/fureimu) | 通常 | 5 | [物質](/species/bussitu) | 371 | 219 |
 | [スマイルロック](/monsters/sumairurokku) | 通常 | 5 | [物質](/species/bussitu) | 444 | 250 |
 | [どぐう戦士](/monsters/dgu_fighter) | 通常 | 5 | [物質](/species/bussitu) | 481 | 261 |
+| [モビルフォース](/monsters/mobirufosu) | 通常 | 5 | [物質](/species/bussitu) | 548 | 292 |
 | [エビルプラント](/monsters/ebirupuranto) | 通常 | 5 | [自然](/species/sizen) | 588 | 311 |
 | [キラースター](/monsters/killer_star) | 通常 | 5 | [物質](/species/bussitu) | 564 | 312 |
 | [きめんどうし](/monsters/kimendousi) | レア | 4 | [悪魔](/species/akuma) | 170 | 144 |
@@ -51,6 +54,7 @@ next:
 | [デビルアンカー](/monsters/devil_anchor) | レア | 4 | [物質](/species/bussitu) | 205 | 194 |
 | [ブラッディハンド](/monsters/buraddihando) | レア | 5 | [物質](/species/bussitu) | 389 | 235 |
 | [ヒートギズモ2](/monsters/hiitogizumo) | レア | 5 | [物質](/species/bussitu) | 494 | 253 |
+| [れんごくちょう](/monsters/renngokutyou) | レア | 5 | [自然](/species/sizen) | 569 | 304 |
 | [ガニラス](/monsters/ganirasu) | レア | 6 | [自然](/species/sizen) | 960 | 376 |
 | [スライムツリー](/monsters/slimetree) | 超レア | 1 | [スライム](/species/slime) | 10 | 6 |
 | [ビーンファイター](/monsters/binfaita) | 超レア | 1 | [自然](/species/sizen) | 15 | 9 |

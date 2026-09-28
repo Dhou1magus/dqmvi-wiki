@@ -5,8 +5,8 @@ prev:
   text: "ゴールデンコーン"
   link: /monsters/gorudenkon
 next:
-  text: "メタルリザード"
-  link: /monsters/metarurizaado
+  text: "さくらこぞう"
+  link: /monsters/sakurakozou
 ---
 
 # 巨大ナスビナーラ
@@ -30,7 +30,7 @@ EXP | 879
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 171 |
+| 図鑑No. | 176 |
 | ランク | 2 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 夜のみ |

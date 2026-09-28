@@ -2,8 +2,8 @@
 title: 超マスターエッグゴールドⅠ
 description: DQMVIのモンスター「超マスターエッグゴールドⅠ」のステータス。HP100 / こうげき10 / しゅび5 / 経験値30 / 30G。
 prev:
-  text: "はぐれメタルキング"
-  link: /monsters/haguremetaruking
+  text: "ゾーマ"
+  link: /monsters/zoma2
 next:
   text: "超マスターエッグゴールドⅡ"
   link: /monsters/supermasteregg_gold2
@@ -30,7 +30,7 @@ EXP | 30
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 693 |
+| 図鑑No. | 736 |
 | ランク | 1 |
 | 系統 | [スライム系](/species/slime) |
 | 活動時間 | 昼夜 |

@@ -2,8 +2,8 @@
 title: ダークペルシャ
 description: DQMVIのモンスター「ダークペルシャ」のステータス。HP188 / こうげき77 / しゅび61 / 経験値175 / 35G。
 prev:
-  text: "モビルフォース"
-  link: /monsters/mobirufosu
+  text: "モビルライト"
+  link: /monsters/mobiruraito
 next:
   text: "オカルトビスク"
   link: /monsters/okarutobisuku
@@ -30,7 +30,7 @@ EXP | 175
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 369 |
+| 図鑑No. | 381 |
 | ランク | 4 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 夜のみ |

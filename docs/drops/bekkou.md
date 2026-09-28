@@ -1,6 +1,6 @@
 ---
 title: べっこう
-description: DQMVIの「べっこう」を落とすモンスター61体の一覧。いちばん弱いのはプレミアムスライム（通常・EXP40）。
+description: DQMVIの「べっこう」を落とすモンスター68体の一覧。いちばん弱いのはプレミアムスライム（通常・EXP40）。
 pageClass: wide-page sortable-list
 prev:
   text: "フレアドラゴンのうろこ"
@@ -12,7 +12,7 @@ next:
 
 # べっこう
 
-素材。**61体**のモンスターが落とします。
+素材。**68体**のモンスターが落とします。
 
 ::: tip ねらい目
 **プレミアムスライム**（通常ドロップ・EXP40）。
@@ -36,14 +36,15 @@ next:
 | [レッドスコーピオン](/monsters/reddosukopion) | 通常 | 3 | [自然](/species/sizen) | 96 | 90 |
 | [やみしばり](/monsters/yamishibari) | 通常 | 3 | [ゾンビ](/species/zombie) | 82 | 93 |
 | [シャイニング](/monsters/shainingu) | 通常 | 3 | [物質](/species/bussitu) | 105 | 96 |
+| [バベルボブル](/monsters/baberuboburu) | 通常 | 3 | [物質](/species/bussitu) | 102 | 98 |
 | [しびくらベス](/monsters/shibikurabes) | 通常 | 3 | [スライム](/species/slime) | 96 | 100 |
 | [しにがみ](/monsters/meanspirit) | 通常 | 3 | [ゾンビ](/species/zombie) | 145 | 105 |
 | [ゴールドエンゼル](/monsters/goldangel) | 通常 | 3 | [メタル](/species/metal) | 14 | 121 |
 | [ゴールドパール](/monsters/goldpearl) | 通常 | 3 | [メタル](/species/metal) | 142 | 121 |
 | [ベンガルクーン](/monsters/bengarukun) | 通常 | 3 | [魔獣](/species/majyu) | 98 | 128 |
 | [よろいのきし](/monsters/yoroinokisi) | 通常 | 3 | [悪魔](/species/akuma) | 140 | 132 |
-| [メカバーン](/monsters/mekaban) | 通常 | 3 | [物質](/species/bussitu) | 200 | 155 |
 | [あくまのツボ](/monsters/akumanotubo) | 通常 | 4 | [特殊](/species/tokusyu) | 165 | 182 |
+| [メカバーン](/monsters/mekaban) | 通常 | 5 | [物質](/species/bussitu) | 469 | 279 |
 | [プレミアムスライム](/monsters/puremiasuraimu) | レア | 2 | [スライム](/species/slime) | 45 | 40 |
 | [ウィッチレディ](/monsters/whicchiredi) | レア | 2 | [悪魔](/species/akuma) | 50 | 47 |
 | [スライムコロネ](/monsters/goonachegoodie) | レア | 2 | [スライム](/species/slime) | 45 | 54 |
@@ -65,7 +66,9 @@ next:
 | [ガメゴン](/monsters/gamegon) | レア | 4 | [ドラゴン](/species/dragon) | 200 | 183 |
 | [ウィングドラゴン](/monsters/wingdraco) | レア | 4 | [ドラゴン](/species/dragon) | 219 | 187 |
 | [シュプリンガー](/monsters/springer) | レア | 4 | [ドラゴン](/species/dragon) | 184 | 192 |
+| [ハーゴンのきし](/monsters/hagon_knight) | レア | 5 | [ゾンビ](/species/zombie) | 634 | 280 |
 | [ビッグフェイス](/monsters/biggufeisu) | レア | 5 | [物質](/species/bussitu) | 522 | 294 |
+| [ニズゼナイト](/monsters/nizze_knight) | レア | 5 | [ゾンビ](/species/zombie) | 608 | 331 |
 | [スライムカラー](/monsters/suraimuhaitawa) | レア | 6 | [スライム](/species/slime) | 872 | 356 |
 | [ダースドラゴン2](/monsters/darthdragon2) | レア | 5 | [ドラゴン](/species/dragon) | 627 | 357 |
 | [ブラッドソード](/monsters/buraddosodo) | レア | 6 | [物質](/species/bussitu) | 1,008 | 387 |
@@ -74,11 +77,15 @@ next:
 | [おおなめくじ](/monsters/oonamekuji) | 超レア | 1 | [自然](/species/sizen) | 12 | 6 |
 | [カバシラー](/monsters/swarmtroop) | 超レア | 1 | [自然](/species/sizen) | 12 | 6 |
 | [たこやり兵](/monsters/takoyarihei) | 超レア | 1 | [自然](/species/sizen) | 18 | 9 |
+| [ドロルメイジ](/monsters/dororu_meizi) | 超レア | 1 | [ゾンビ](/species/zombie) | 17 | 11 |
+| [ドロル](/monsters/dororu) | 超レア | 1 | [ゾンビ](/species/zombie) | 24 | 12 |
 | [メーダ](/monsters/meda) | 超レア | 1 | [悪魔](/species/akuma) | 16 | 13 |
 | [ぐんたいガニ2](/monsters/army_crab2) | 超レア | 1 | [自然](/species/sizen) | 32 | 16 |
 | [メラゴースト](/monsters/meragosuto) | 超レア | 2 | [ゾンビ](/species/zombie) | 36 | 34 |
 | [スピニー](/monsters/supini) | 超レア | 3 | [物質](/species/bussitu) | 72 | 75 |
 | [マドハンド](/monsters/madohando) | 超レア | 3 | [物質](/species/bussitu) | 65 | 78 |
+| [デビルスノー](/monsters/debirusunoo) | 超レア | 3 | [物質](/species/bussitu) | 80 | 84 |
+| [しっぽ団のブラウニー](/monsters/brownie_shippodan) | 超レア | 3 | [魔獣](/species/majyu) | 86 | 90 |
 | [ギャオース](/monsters/seasaur) | 超レア | 3 | [ドラゴン](/species/dragon) | 151 | 107 |
 | [うみうし](/monsters/umiusi) | 超レア | 4 | [自然](/species/sizen) | 152 | 132 |
 | [ふゆぐんそう](/monsters/fuyugunsou) | 超レア | 4 | [物質](/species/bussitu) | 171 | 144 |

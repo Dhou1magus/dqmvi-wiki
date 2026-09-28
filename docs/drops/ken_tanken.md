@@ -1,6 +1,6 @@
 ---
 title: 貴重なレシピ(剣、短剣)
-description: DQMVIの「貴重なレシピ(剣、短剣)」を落とすモンスター3体の一覧。いちばん弱いのはかげのきし（超レア・EXP676）。
+description: DQMVIの「貴重なレシピ(剣、短剣)」を落とすモンスター4体の一覧。いちばん弱いのはかげのきし（超レア・EXP676）。
 pageClass: wide-page sortable-list
 prev:
   text: "貴重なレシピ(弓、ブーメラン)"
@@ -12,7 +12,7 @@ next:
 
 # 貴重なレシピ(剣、短剣)
 
-素材。**3体**のモンスターが落とします。
+素材。**4体**のモンスターが落とします。
 
 ::: tip ねらい目
 **かげのきし**（超レアドロップ・EXP676）。
@@ -24,6 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [かげのきし](/monsters/kagenokisi) | 超レア | 7 | [ゾンビ](/species/zombie) | 1,950 | 676 |
+| [グレートジンガー](/monsters/guretosinga) | 超レア | 7 | [物質](/species/bussitu) | 2,337 | 723 |
 | [デンガー](/monsters/denga) | 超レア | 7 | [スライム](/species/slime) | 2,625 | 791 |
 | [光の番人](/monsters/hikarinobannin) | 超レア | 7 | [ドラゴン](/species/dragon) | 2,863 | 953 |
 

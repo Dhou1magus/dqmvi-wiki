@@ -1,6 +1,6 @@
 ---
 title: 万能薬
-description: DQMVIの「万能薬」を落とすモンスター4体の一覧。いちばん弱いのはプヨンターゲット（レア・EXP335）。
+description: DQMVIの「万能薬」を落とすモンスター5体の一覧。いちばん弱いのはプヨンターゲット（レア・EXP335）。
 pageClass: wide-page sortable-list
 prev:
   text: "魔獣イギュアの爪"
@@ -12,7 +12,7 @@ next:
 
 # 万能薬
 
-素材。**4体**のモンスターが落とします。
+素材。**5体**のモンスターが落とします。
 
 ::: tip ねらい目
 **プヨンターゲット**（レアドロップ・EXP335）。
@@ -27,6 +27,7 @@ next:
 | [ごくらくちょう](/monsters/gokurakuchou) | レア | 6 | [魔獣](/species/majyu) | 969 | 353 |
 | [きのみのせいれい](/monsters/kinominoseirei) | 超レア | 4 | [スライム](/species/slime) | 174 | 134 |
 | [ヘルゴースト](/monsters/herughost) | 超レア | 4 | [ゾンビ](/species/zombie) | 174 | 144 |
+| [コスモキャンディ](/monsters/cosmo_candy) | 超レア | 4 | [スライム](/species/slime) | 190 | 199 |
 
 見出しを押すと並べ替えできます。
 

@@ -5,8 +5,8 @@ prev:
   text: "デーモンアミゴ"
   link: /monsters/demonamigo
 next:
-  text: "アスラ王"
-  link: /monsters/asuraou
+  text: "エビルエスターク"
+  link: /monsters/ersatzestark
 ---
 
 # デスマーキュリー
@@ -30,7 +30,7 @@ EXP | 900
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 649 |
+| 図鑑No. | 682 |
 | ランク | 7 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 夜のみ |

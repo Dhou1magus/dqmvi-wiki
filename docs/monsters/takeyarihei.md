@@ -5,8 +5,8 @@ prev:
   text: "スノーム"
   link: /monsters/snowmangler
 next:
-  text: "リトルライバーン"
-  link: /monsters/ritoruraiba
+  text: "ドロル"
+  link: /monsters/dororu
 ---
 
 # たけやりへい

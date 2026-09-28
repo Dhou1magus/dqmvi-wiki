@@ -16,7 +16,12 @@
     { "name": "バニラ剣", "id": "vanilla-sword" },
     { "name": "銃", "id": "gun" },
     { "name": "戦輪", "id": "battle-ring" },
-    { "name": "竪琴", "id": "harp" }
+    { "name": "竪琴", "id": "harp" },
+    { "name": "大鎌", "id": "scythe" },
+    { "name": "戦籠手", "id": "gauntlet" },
+    { "name": "ドリル", "id": "drill" },
+    { "name": "鎖鎌", "id": "chain-sickle" },
+    { "name": "ダンジョン限定", "id": "dungeon" }
   ],
   "armor": [
     { "name": "頭", "id": "head" },

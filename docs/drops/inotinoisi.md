@@ -30,7 +30,7 @@ next:
 | [だんごスライム](/monsters/dangoslime) | 通常 | 4 | [スライム](/species/slime) | 215 | 183 |
 | [マジックアーマー](/monsters/majikkuaamaa) | 通常 | 4 | [物質](/species/bussitu) | 221 | 185 |
 | [エビルポット](/monsters/malevolamp) | レア | 4 | [物質](/species/bussitu) | 172 | 147 |
-| [デュラハーン](/monsters/durahan) | レア | 4 | [悪魔](/species/akuma) | 211 | 165 |
+| [デュラハーン](/monsters/durahan) | レア | 4 | [ゾンビ](/species/zombie) | 211 | 165 |
 | [さまようよろい](/monsters/samayouyoroi) | レア | 4 | [ゾンビ](/species/zombie) | 186 | 182 |
 | [キングスライム](/monsters/kingsura) | レア | 5 | [スライム](/species/slime) | 385 | 241 |
 | [ダースドラゴン](/monsters/dasudragon) | レア | 6 | [ドラゴン](/species/dragon) | 1,384 | 442 |

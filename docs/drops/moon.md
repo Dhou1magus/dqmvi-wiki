@@ -26,7 +26,6 @@ next:
 | [オカルトビスク](/monsters/okarutobisuku) | 通常 | 4 | [物質](/species/bussitu) | 173 | 143 |
 | [マーズフェイス](/monsters/mazufeisu) | 通常 | 4 | [物質](/species/bussitu) | 166 | 168 |
 | [グレイビーポット](/monsters/gravy_pot) | 通常 | 4 | [物質](/species/bussitu) | 184 | 191 |
-| [モビルフォース](/monsters/mobirufosu) | 通常 | 4 | [物質](/species/bussitu) | 232 | 222 |
 | [ばくだんいわ](/monsters/bakudaniwa) | 通常 | 5 | [物質](/species/bussitu) | 371 | 229 |
 | [コロネホワイト](/monsters/pastypastry) | レア | 4 | [スライム](/species/slime) | 193 | 148 |
 | [ボックススライムオレンジ](/monsters/boxsuraimu) | レア | 4 | [スライム](/species/slime) | 183 | 160 |
@@ -34,10 +33,11 @@ next:
 | [アイアンクック](/monsters/aiankukku) | レア | 4 | [物質](/species/bussitu) | 188 | 166 |
 | [クリスタルスライム](/monsters/crystalslime) | レア | 4 | [スライム](/species/slime) | 198 | 199 |
 | [ドルイド](/monsters/doruido) | レア | 5 | [悪魔](/species/akuma) | 486 | 254 |
+| [ダークサキュバス](/monsters/sepreme_succubat) | レア | 5 | [悪魔](/species/akuma) | 627 | 316 |
 | [デスジャッカル](/monsters/desujakkaru) | レア | 6 | [ゾンビ](/species/zombie) | 944 | 377 |
 | [スカルドン](/monsters/skuldon) | レア | 5 | [ドラゴン](/species/dragon) | 661 | 389 |
 | [スラキャンサー](/monsters/slimecanser) | レア | 6 | [スライム](/species/slime) | 1,122 | 454 |
-| [ドラゴントイズ](/monsters/doragontoizu) | レア | 6 | [物質](/species/bussitu) | 1,423 | 521 |
+| [死神の騎士](/monsters/shinigaminokishi) | レア | 6 | [悪魔](/species/akuma) | 1,368 | 475 |
 | [あくまのきし](/monsters/akumanokisi) | レア | 6 | [悪魔](/species/akuma) | 1,521 | 542 |
 | [タールキング](/monsters/tarking) | 超レア | 4 | [スライム](/species/slime) | 177 | 140 |
 | [スピンサタン](/monsters/supinsatan) | 超レア | 4 | [物質](/species/bussitu) | 169 | 151 |

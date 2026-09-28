@@ -1,6 +1,6 @@
 ---
 title: 巨大ヒゲトカゲ
-description: DQMVIの「巨大ヒゲトカゲ」を落とすモンスター27体の一覧。いちばん弱いのはオベルジーヌ（通常・EXP81）。
+description: DQMVIの「巨大ヒゲトカゲ」を落とすモンスター30体の一覧。いちばん弱いのはオベルジーヌ（通常・EXP81）。
 pageClass: wide-page sortable-list
 prev:
   text: "巨大な牙"
@@ -12,7 +12,7 @@ next:
 
 # 巨大ヒゲトカゲ
 
-素材。**27体**のモンスターが落とします。
+素材。**30体**のモンスターが落とします。
 
 ::: tip ねらい目
 **オベルジーヌ**（通常ドロップ・EXP81）。
@@ -31,11 +31,14 @@ next:
 | [デスジャッカル](/monsters/desujakkaru) | 通常 | 6 | [ゾンビ](/species/zombie) | 944 | 377 |
 | [ビッグハンマー](/monsters/bighanma) | レア | 5 | [魔獣](/species/majyu) | 402 | 248 |
 | [カンダタこぶん](/monsters/kandatakobun) | レア | 5 | [ゾンビ](/species/zombie) | 511 | 280 |
+| [なみさそり](/monsters/wave_scorpion) | レア | 5 | [自然](/species/sizen) | 649 | 284 |
 | [デーモンスピリット](/monsters/demonspirit) | レア | 5 | [ゾンビ](/species/zombie) | 523 | 285 |
 | [エレフローパー](/monsters/elefloper) | レア | 5 | [自然](/species/sizen) | 517 | 287 |
 | [ドラゴンナイト](/monsters/dragonnaito) | レア | 5 | [ドラゴン](/species/dragon) | 574 | 311 |
-| [ダークネビュラス](/monsters/dakunepyurasu) | レア | 5 | [物質](/species/bussitu) | 600 | 322 |
+| [コスモスライム](/monsters/cosmoslime) | レア | 5 | [スライム](/species/slime) | 561 | 312 |
+| [デュラハンナイト](/monsters/dexyurahannaito) | レア | 5 | [ゾンビ](/species/zombie) | 637 | 324 |
 | [バルンバ](/monsters/balloon_ba) | レア | 5 | [ドラゴン](/species/dragon) | 546 | 335 |
+| [ダークネビュラス](/monsters/dakunepyurasu) | レア | 7 | [物質](/species/bussitu) | 2,125 | 734 |
 | [おばけうみうし](/monsters/obakeumiusi) | 超レア | 2 | [自然](/species/sizen) | 45 | 38 |
 | [ぬかどこスライム](/monsters/pickledslime) | 超レア | 2 | [スライム](/species/slime) | 45 | 42 |
 | [デスフラッター2](/monsters/deathflutter2) | 超レア | 2 | [自然](/species/sizen) | 38 | 43 |

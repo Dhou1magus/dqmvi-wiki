@@ -1,7 +1,7 @@
 ---
 title: キングヒドラの頭
 description: キングヒドラの頭
-pageClass: wide-page sortable-list false
+pageClass: wide-page sortable-list
 prev:
   text: "キングダイヤ"
   link: /drops/kingdaiya
@@ -19,6 +19,7 @@ next:
 | 種類 | アクセサリー |
 | こうげき | ×1.15 |
 | まりょく | ×1.15 |
+| 特殊効果 | メラ系、ギラ系のダメージが1.2倍になる |
 
 倍率は、いまの能力に掛かる値です。
 

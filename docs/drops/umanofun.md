@@ -1,6 +1,6 @@
 ---
 title: うまのふん
-description: DQMVIの「うまのふん」を落とすモンスター11体の一覧。いちばん弱いのはおおなめくじ（通常・EXP6）。
+description: DQMVIの「うまのふん」を落とすモンスター12体の一覧。いちばん弱いのはおおなめくじ（通常・EXP6）。
 pageClass: wide-page sortable-list
 prev:
   text: "うしのふん"
@@ -12,7 +12,7 @@ next:
 
 # うまのふん
 
-素材。**11体**のモンスターが落とします。
+素材。**12体**のモンスターが落とします。
 
 ::: tip ねらい目
 **おおなめくじ**（通常ドロップ・EXP6）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [おおなめくじ](/monsters/oonamekuji) | 通常 | 1 | [自然](/species/sizen) | 12 | 6 |
 | [ビッグハット](/monsters/bigguhatto) | 通常 | 1 | [魔獣](/species/majyu) | 16 | 7 |
+| [ドロルメイジ](/monsters/dororu_meizi) | 通常 | 1 | [ゾンビ](/species/zombie) | 17 | 11 |
 | [びっくりサタン](/monsters/bikkurisatan) | レア | 1 | [悪魔](/species/akuma) | 12 | 5 |
 | [おばけきのこ](/monsters/obakekinoko) | レア | 1 | [自然](/species/sizen) | 25 | 12 |
 | [ドロヌーバ](/monsters/doronuba) | レア | 1 | [自然](/species/sizen) | 25 | 13 |

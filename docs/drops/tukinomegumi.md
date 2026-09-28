@@ -1,6 +1,6 @@
 ---
 title: 月のめぐみ
-description: DQMVIの「月のめぐみ」を落とすモンスター10体の一覧。いちばん弱いのはブラッディハンド（通常・EXP235）。
+description: DQMVIの「月のめぐみ」を落とすモンスター11体の一覧。いちばん弱いのはからくりしょうぐん（通常・EXP222）。
 pageClass: wide-page sortable-list
 prev:
   text: "月のダイヤ"
@@ -12,10 +12,10 @@ next:
 
 # 月のめぐみ
 
-素材。**10体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
-**ブラッディハンド**（通常ドロップ・EXP235）。
+**からくりしょうぐん**（通常ドロップ・EXP222）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -23,6 +23,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [からくりしょうぐん](/monsters/karakurisyougun) | 通常 | 5 | [悪魔](/species/akuma) | 391 | 222 |
 | [ブラッディハンド](/monsters/buraddihando) | 通常 | 5 | [物質](/species/bussitu) | 389 | 235 |
 | [ミミック](/monsters/mimikku) | 通常 | 5 | [物質](/species/bussitu) | 522 | 277 |
 | [メガザルロック](/monsters/megazarurokku) | 通常 | 6 | [物質](/species/bussitu) | 896 | 340 |

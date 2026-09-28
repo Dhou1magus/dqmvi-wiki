@@ -1,6 +1,6 @@
 ---
 title: ミスリル合金
-description: DQMVIの「ミスリル合金」を落とすモンスター18体の一覧。いちばん弱いのはキングレオⅢ（通常・EXP774）。
+description: DQMVIの「ミスリル合金」を落とすモンスター19体の一覧。いちばん弱いのはキングレオⅢ（通常・EXP774）。
 pageClass: wide-page sortable-list
 prev:
   text: "ミスリルメイル"
@@ -12,7 +12,7 @@ next:
 
 # ミスリル合金
 
-素材。**18体**のモンスターが落とします。
+素材。**19体**のモンスターが落とします。
 
 ::: tip ねらい目
 **キングレオⅢ**（通常ドロップ・EXP774）。
@@ -36,6 +36,7 @@ next:
 | [マスタースライム](/monsters/masterslime) | 超レア | 6 | [スライム](/species/slime) | 1,130 | 435 |
 | [ガメゴンロード](/monsters/gamegonload) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,264 | 438 |
 | [ダースドラゴン](/monsters/dasudragon) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,384 | 442 |
+| [ドラグノワール](/monsters/doragunowaaru) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,306 | 448 |
 | [マクロベータ](/monsters/makurobeta) | 超レア | 6 | [ゾンビ](/species/zombie) | 1,322 | 453 |
 | [スラキャンサー](/monsters/slimecanser) | 超レア | 6 | [スライム](/species/slime) | 1,122 | 454 |
 | [ホワイトジャッジ](/monsters/howaitojaji) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,600 | 461 |

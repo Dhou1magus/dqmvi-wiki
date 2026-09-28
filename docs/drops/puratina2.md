@@ -1,6 +1,6 @@
 ---
 title: プラチナ合金
-description: DQMVIの「プラチナ合金」を落とすモンスター26体の一覧。いちばん弱いのはソードファントム（通常・EXP409）。
+description: DQMVIの「プラチナ合金」を落とすモンスター27体の一覧。いちばん弱いのはソードファントム（通常・EXP409）。
 pageClass: wide-page sortable-list
 prev:
   text: "プラチナシールド"
@@ -12,7 +12,7 @@ next:
 
 # プラチナ合金
 
-素材。**26体**のモンスターが落とします。
+素材。**27体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ソードファントム**（通常ドロップ・EXP409）。
@@ -33,20 +33,21 @@ next:
 | [しっぽ団のおおきづち](/monsters/hammerhood_shippodan) | 超レア | 2 | [魔獣](/species/majyu) | 51 | 46 |
 | [ウィッチレディ](/monsters/whicchiredi) | 超レア | 2 | [悪魔](/species/akuma) | 50 | 47 |
 | [デビルアーマー](/monsters/debiruaamaa) | 超レア | 2 | [物質](/species/bussitu) | 66 | 58 |
-| [スケアフレイル](/monsters/sukeafureiru) | 超レア | 2 | [悪魔](/species/akuma) | 77 | 63 |
+| [スケアフレイル](/monsters/sukeafureiru) | 超レア | 2 | [ゾンビ](/species/zombie) | 77 | 63 |
 | [あくまの書](/monsters/akumanosyo) | 超レア | 3 | [悪魔](/species/akuma) | 65 | 74 |
 | [トラップボックス](/monsters/torappubokkusu) | 超レア | 3 | [物質](/species/bussitu) | 87 | 82 |
 | [ドラキーマ](/monsters/dorakima) | 超レア | 3 | [悪魔](/species/akuma) | 98 | 85 |
 | [ブリザード](/monsters/burizado) | 超レア | 3 | [物質](/species/bussitu) | 85 | 90 |
 | [うらぎりこぞう2](/monsters/uragirikozou2) | 超レア | 3 | [悪魔](/species/akuma) | 90 | 95 |
+| [バベルボブル](/monsters/baberuboburu) | 超レア | 3 | [物質](/species/bussitu) | 102 | 98 |
 | [だいおうイカ](/monsters/daiouika) | 超レア | 3 | [自然](/species/sizen) | 175 | 110 |
-| [バベルボブル](/monsters/baberuboburu) | 超レア | 2 | [物質](/species/bussitu) | 122 | 112 |
 | [アームライオン](/monsters/armraion) | 超レア | 3 | [魔獣](/species/majyu) | 135 | 115 |
 | [おにぎりスライム](/monsters/onigirislime) | 超レア | 3 | [スライム](/species/slime) | 156 | 121 |
+| [ファントムシャドウ](/monsters/huxantomsyadou) | 超レア | 3 | [ゾンビ](/species/zombie) | 164 | 121 |
 | [よろいのきし](/monsters/yoroinokisi) | 超レア | 3 | [悪魔](/species/akuma) | 140 | 132 |
 | [ガチャコッコ](/monsters/gatyakokko) | 超レア | 3 | [物質](/species/bussitu) | 166 | 145 |
-| [メカバーン](/monsters/mekaban) | 超レア | 3 | [物質](/species/bussitu) | 200 | 155 |
 | [ようじゅつし](/monsters/youjutusi) | 超レア | 4 | [悪魔](/species/akuma) | 177 | 155 |
+| [メカバーン](/monsters/mekaban) | 超レア | 5 | [物質](/species/bussitu) | 469 | 279 |
 | [ブラッドソード](/monsters/buraddosodo) | 超レア | 6 | [物質](/species/bussitu) | 1,008 | 387 |
 | [メタルパール](/monsters/metalpearl) | 超レア | 2 | [メタル](/species/metal) | 8 | 4,500 |
 
