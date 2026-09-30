@@ -31,7 +31,6 @@ CurseForge や Modrinth で探すときは、Minecraft のバージョンを **2
 
 | MOD | できること | 動いている版 |
 | --- | --- | --- |
-| [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) | ゲームの内部処理を効率化して、遊び方を変えずに軽くします。 | 0.25.3+mc26.2 |
 | [ImmediatelyFast](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast) | 文字やアイコンなどの描画を効率化して、フレームレートを上げます。 | 1.16.2+26.2 |
 | [Immersive Optimization](https://www.curseforge.com/minecraft/mc-mods/immersive-optimization) | 遠くのエンティティなどの更新を間引いて、ラグを抑えます。 | 26.2-0.2.0 |
 | [XP Stream](https://www.curseforge.com/minecraft/mc-mods/xp-stream) | 経験値オーブの吸い込みを、速くなめらかにします。 | 26.2-1.1.5 |
@@ -78,6 +77,11 @@ DQMVIの画面（GUI）と表示が重なってしまうことがあるため、
 DQMVIの武器・防具は、ほぼすべて「鍛冶用モンスターポート」で作ります。レシピは鍛冶ポートの一覧で確認できるので、レシピMODがなくても困りません。
 
 → [鍛冶](/play/smithing)
+
+### Lithium （軽量化MOD）
+
+configファイルを正しく記述しない限りDQMVIで追加されるレッドストーン系ブロックが致命的なレベルで動作しなくなるため、入れないほうがいいというよりむしろ入れてはいけないMODです。
+
 
 ## 関連ページ
 
