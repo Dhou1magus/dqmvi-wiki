@@ -800,12 +800,12 @@ pageClass: wide-page sortable-list
 | 787 | ![デスピサロ第2形態](/img/monsters/desupisaro2_big.png) | [デスピサロ第2形態](/monsters/desupisaro2_big) | デスピサロ第2形態（実物大特殊オブジェ） | デスピサロ第2形態(特殊系フィギュア) | — |
 | 788 | ![デスピサロ第3形態](/img/monsters/desupisaro3_big.png) | [デスピサロ第3形態](/monsters/desupisaro3_big) | [デスピサロ討伐の証](/drops/desupisaro) | デスピサロ第3形態（実物大特殊オブジェ） | デスピサロ第3形態(特殊系フィギュア) |
 | 789 | ![バズズ](/img/monsters/bazuzu_big.png) | [バズズ](/monsters/bazuzu_big) | [バズズ討伐の証](/drops/bazuzu) | バズズ（実物大特殊オブジェ） | バズズ(特殊系フィギュア) |
-| 790 | ![マスタードラゴン](/img/monsters/masterdoragon.png) | [マスタードラゴン](/monsters/masterdoragon) | [マスタードラゴン討伐の証](/drops/masterdoragon) | マスタードラゴン（実物大特殊オブジェ） | マスタードラゴン(特殊系フィギュア) |
+| 790 | ![マ？？ー？？？？ン](/img/monsters/masterdoragon.png) | [マ？？ー？？？ン](/monsters/masterdoragon) | [マ？？ー？？？ン討伐の証](/drops/masterdoragon) | マ？？ー？？？ン（実物大特殊オブジェ） | マ？？ー？？？ン(特殊系フィギュア) |
 | 791 | ![やまたのおろち](/img/monsters/yamatanooroti.png) | [やまたのおろち](/monsters/yamatanooroti) | [やまたのおろち討伐の証](/drops/yamatanooroti) | やまたのおろち（実物大特殊オブジェ） | やまたのおろち(特殊系フィギュア) |
-| 792 | ![呪われた剣](/img/monsters/norowaretaturugi.png) | [呪われた剣](/monsters/norowaretaturugi) | [呪剣討伐の証](/drops/norowaretaturugi) | 呪われた剣（実物大特殊オブジェ） | 呪われた剣(特殊系フィギュア) |
+| 792 | ![？？？？剣](/img/monsters/norowaretaturugi.png) | [？？？？剣](/monsters/norowaretaturugi) | [？剣討伐の証](/drops/norowaretaturugi) | ？？？？剣（実物大特殊オブジェ） | ？？？？剣(特殊系フィギュア) |
 | 793 | ![竜王](/img/monsters/ryuuou.png) | [竜王](/monsters/ryuuou) | 竜王（実物大特殊オブジェ） | 竜王(特殊系フィギュア) | — |
 | 794 | ![竜王変身後](/img/monsters/ryuuou2.png) | [竜王変身後](/monsters/ryuuou2) | [竜王討伐の証](/drops/ryuuou) | 竜王変身後（実物大特殊オブジェ） | 竜王変身後(特殊系フィギュア) |
-| 795 | ![全てを超越せし者](/img/monsters/god.png) | [全てを超越せし者](/monsters/god) | [全てを超越せし者討伐の証](/drops/god) | 全てを超越せし者（実物大特殊オブジェ） | 全てを超越せし者(特殊系フィギュア) |
+| 795 | ![ラスボス](/img/monsters/god.png) | [ラスボス](/monsters/god) | [ラスボス討伐の証](/drops/god) | ラスボス（実物大特殊オブジェ） | ラスボス(特殊系フィギュア) |
 | 796 | ![大魔王オン・ゾ・エーグ](/img/monsters/flucifer.png) | [大魔王オン・ゾ・エーグ](/monsters/flucifer) | [魔王の笛](/drops/maounofue) | 大魔王オン・ゾ・エーグのオブジェ | 大魔王オン・ゾ・エーグのフィギュア |
 | 797 | ![魔剣士ピサロ](/img/monsters/psaro.png) | [魔剣士ピサロ](/monsters/psaro) | [ピサロの剣](/drops/pisaronoken) | 魔剣士ピサロのオブジェ | 魔剣士ピサロのフィギュア |
 | 798 | ![モモンジャガー](/img/monsters/momonjagar.png) | [モモンジャガー](/monsters/momonjagar) | [スライムボックス](/drops/suraimubokkusu) | モモンジャガーのオブジェ | モモンジャガーのフィギュア |
@@ -814,8 +814,8 @@ pageClass: wide-page sortable-list
 | 801 | ![ゾーマ](/img/monsters/zoma2.png) | [ゾーマ](/monsters/zoma2) | [やみのころも](/drops/yaminokoromo) | ゾーマのオブジェ | ゾーマのフィギュア |
 | 802 | ![魔勇者アンルシア](/img/monsters/evil_hero_anlucia_boss.png) | [魔勇者アンルシア](/monsters/evil_hero_anlucia_boss) | — | — | — |
 | 803 | ![ドン・モジャール](/img/monsters/don_clawleone.png) | [ドン・モジャール](/monsters/don_clawleone) | [ももんじゃのしっぽ](/drops/momonjanoshippo) | ドン・モジャールのオブジェ | ドン・モジャールのフィギュア |
-| 804 | ![異界滅神ジャゴヌバ](/img/monsters/ikaimessin_jagonuba.png) | [異界滅神ジャゴヌバ](/monsters/ikaimessin_jagonuba) | — | — | — |
-| 805 | ![絶対滅神ジャゴヌバ](/img/monsters/zettaimessin_jagonuba.png) | [絶対滅神ジャゴヌバ](/monsters/zettaimessin_jagonuba) | [ルティアナの弓](/drops/lutiana_bow) | — | — |
+| 804 | ![異？？？？？？ヌバ](/img/monsters/ikaimessin_jagonuba.png) | [異？？？？？？ヌバ](/monsters/ikaimessin_jagonuba) | — | — | — |
+| 805 | ![絶？？？？？？ヌバ](/img/monsters/zettaimessin_jagonuba.png) | [絶？？？？？？ヌバ](/monsters/zettaimessin_jagonuba) | [ルティアナの弓](/drops/lutiana_bow) | — | — |
 | 806 | ![超マスターエッグゴールドⅠ](/img/monsters/supermasteregg_gold1.png) | [超マスターエッグゴールドⅠ](/monsters/supermasteregg_gold1) | 超マスターエッグゴールドⅠのオブジェ | 超マスターエッグゴールドⅠのフィギュア | — |
 | 807 | ![超マスターエッグゴールドⅡ](/img/monsters/supermasteregg_gold2.png) | [超マスターエッグゴールドⅡ](/monsters/supermasteregg_gold2) | 超マスターエッグゴールドⅡのオブジェ | 超マスターエッグゴールドⅡのフィギュア | — |
 | 808 | ![超マスターエッグゴールドⅢ](/img/monsters/supermasteregg_gold3.png) | [超マスターエッグゴールドⅢ](/monsters/supermasteregg_gold3) | 超マスターエッグゴールドⅢのオブジェ | 超マスターエッグゴールドⅢのフィギュア | — |
