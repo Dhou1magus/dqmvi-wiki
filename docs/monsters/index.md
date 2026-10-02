@@ -813,7 +813,7 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 792 | ![呪われた剣](/img/monsters/norowaretaturugi.png) | [呪われた剣](/monsters/norowaretaturugi) | — | 特殊 | 無敵 | 昼夜 | 112,500 | 1,960 | 875 | 161,800 | 21,250 |
 | 793 | ![竜王](/img/monsters/ryuuou.png) | [竜王](/monsters/ryuuou) | — | 特殊 | 強 | 昼夜 | 49,500 | 840 | 350 | 71,192 | 9,350 |
 | 794 | ![竜王変身後](/img/monsters/ryuuou2.png) | [竜王変身後](/monsters/ryuuou2) | — | 特殊 | 強 | 昼夜 | 74,250 | 1,680 | 700 | 106,788 | 14,025 |
-| 795 | ![全てを超越せし者](/img/monsters/god.png) | [全てを超越せし者](/monsters/god) | — | 特殊 | 無敵 | 昼夜 | 300,000 | 5,000 | 5,000 | 5,000,000 | 1,000,000 |
+| 795 | ![ラスボス](/img/monsters/god.png) | [ラスボス](/monsters/god) | — | 特殊 | 無敵 | 昼夜 | 300,000 | 5,000 | 5,000 | 5,000,000 | 1,000,000 |
 | 796 | ![大魔王オン・ゾ・エーグ](/img/monsters/flucifer.png) | [大魔王オン・ゾ・エーグ](/monsters/flucifer) | — | 特殊 | 強 | 昼夜 | 500,000 | 7,324 | 6,342 | 6,423,533 | 1,245,778 |
 | 797 | ![魔剣士ピサロ](/img/monsters/psaro.png) | [魔剣士ピサロ](/monsters/psaro) | — | 特殊 | 強 | 昼夜 | 466,686 | 7,543 | 5,468 | 6,745,248 | 1,342,342 |
 | 798 | ![モモンジャガー](/img/monsters/momonjagar.png) | [モモンジャガー](/monsters/momonjagar) | — | 物質 | 強 | 昼夜 | 12,818 | 638 | 2,006 | 21,642 | 4,948 |
@@ -822,8 +822,8 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 801 | ![ゾーマ](/img/monsters/zoma2.png) | [ゾーマ](/monsters/zoma2) | — | 特殊 | 強 | 昼夜 | 449,384 | 7,858 | 5,501 | 6,776,767 | 1,378,841 |
 | 802 | ![魔勇者アンルシア](/img/monsters/evil_hero_anlucia_boss.png) | [魔勇者アンルシア](/monsters/evil_hero_anlucia_boss) | — | 特殊 | 強 | 昼夜 | 466,686 | 7,543 | 4,328 | 6,745,248 | 1,342,342 |
 | 803 | ![ドン・モジャール](/img/monsters/don_clawleone.png) | [ドン・モジャール](/monsters/don_clawleone) | — | 魔獣 | 強 | 昼夜 | 156,789 | 3,255 | 3,544 | 1,456,543 | 34,567 |
-| 804 | ![異界滅神ジャゴヌバ](/img/monsters/ikaimessin_jagonuba.png) | [異界滅神ジャゴヌバ](/monsters/ikaimessin_jagonuba) | — | 特殊 | 強 | 昼夜 | 451,657 | 7,180 | 6,061 | 7,068,476 | 1,274,636 |
-| 805 | ![絶対滅神ジャゴヌバ](/img/monsters/zettaimessin_jagonuba.png) | [絶対滅神ジャゴヌバ](/monsters/zettaimessin_jagonuba) | — | 特殊 | 強 | 昼夜 | 658,970 | 7,770 | 6,114 | 8,442,143 | 1,479,615 |
+| 804 | ![異界??????バ](/img/monsters/ikaimessin_jagonuba.png) | [異界??????バ](/monsters/ikaimessin_jagonuba) | — | 特殊 | 強 | 昼夜 | 451,657 | 7,180 | 6,061 | 7,068,476 | 1,274,636 |
+| 805 | ![絶対??????バ](/img/monsters/zettaimessin_jagonuba.png) | [絶対??????バ](/monsters/zettaimessin_jagonuba) | — | 特殊 | 強 | 昼夜 | 658,970 | 7,770 | 6,114 | 8,442,143 | 1,479,615 |
 | 806 | ![超マスターエッグゴールドⅠ](/img/monsters/supermasteregg_gold1.png) | [超マスターエッグゴールドⅠ](/monsters/supermasteregg_gold1) | 1 | スライム | 強 | 昼夜 | 100 | 10 | 5 | 30 | 30 |
 | 807 | ![超マスターエッグゴールドⅡ](/img/monsters/supermasteregg_gold2.png) | [超マスターエッグゴールドⅡ](/monsters/supermasteregg_gold2) | 2 | スライム | 強 | 昼夜 | 300 | 30 | 20 | 200 | 200 |
 | 808 | ![超マスターエッグゴールドⅢ](/img/monsters/supermasteregg_gold3.png) | [超マスターエッグゴールドⅢ](/monsters/supermasteregg_gold3) | 3 | スライム | 強 | 昼夜 | 900 | 70 | 50 | 500 | 500 |
