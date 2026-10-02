@@ -808,9 +808,9 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 787 | ![デスピサロ第2形態](/img/monsters/desupisaro2_big.png) | [デスピサロ第2形態](/monsters/desupisaro2_big) | — | 特殊 | 強 | 昼夜 | 67,500 | 1,260 | 525 | 97,080 | 12,750 |
 | 788 | ![デスピサロ第3形態](/img/monsters/desupisaro3_big.png) | [デスピサロ第3形態](/monsters/desupisaro3_big) | — | 特殊 | 強 | 昼夜 | 78,750 | 1,540 | 613 | 113,260 | 14,875 |
 | 789 | ![バズズ](/img/monsters/bazuzu_big.png) | [バズズ](/monsters/bazuzu_big) | — | 特殊 | 強 | 昼夜 | 72,000 | 1,316 | 455 | 103,552 | 13,600 |
-| 790 | ![マスタードラゴン](/img/monsters/masterdoragon.png) | [マスタードラゴン](/monsters/masterdoragon) | — | 特殊 | 強 | 昼夜 | 67,500 | 1,344 | 525 | 97,080 | 12,750 |
+| 790 | ![マ？？ー？？？？ン](/img/monsters/masterdoragon.png) | [マ？？ー？？？ン](/monsters/masterdoragon) | — | 特殊 | 強 | 昼夜 | 67,500 | 1,344 | 525 | 97,080 | 12,750 |
 | 791 | ![やまたのおろち](/img/monsters/yamatanooroti.png) | [やまたのおろち](/monsters/yamatanooroti) | — | 特殊 | 強 | 昼夜 | 63,000 | 1,260 | 490 | 90,608 | 11,900 |
-| 792 | ![呪われた剣](/img/monsters/norowaretaturugi.png) | [呪われた剣](/monsters/norowaretaturugi) | — | 特殊 | 無敵 | 昼夜 | 112,500 | 1,960 | 875 | 161,800 | 21,250 |
+| 792 | ![？？？？剣](/img/monsters/norowaretaturugi.png) | [？？？？剣](/monsters/norowaretaturugi) | — | 特殊 | 無敵 | 昼夜 | 112,500 | 1,960 | 875 | 161,800 | 21,250 |
 | 793 | ![竜王](/img/monsters/ryuuou.png) | [竜王](/monsters/ryuuou) | — | 特殊 | 強 | 昼夜 | 49,500 | 840 | 350 | 71,192 | 9,350 |
 | 794 | ![竜王変身後](/img/monsters/ryuuou2.png) | [竜王変身後](/monsters/ryuuou2) | — | 特殊 | 強 | 昼夜 | 74,250 | 1,680 | 700 | 106,788 | 14,025 |
 | 795 | ![ラスボス](/img/monsters/god.png) | [ラスボス](/monsters/god) | — | 特殊 | 無敵 | 昼夜 | 300,000 | 5,000 | 5,000 | 5,000,000 | 1,000,000 |
@@ -822,8 +822,8 @@ DQMVIに登場するモンスターを、ゲーム内の図鑑と同じ番号順
 | 801 | ![ゾーマ](/img/monsters/zoma2.png) | [ゾーマ](/monsters/zoma2) | — | 特殊 | 強 | 昼夜 | 449,384 | 7,858 | 5,501 | 6,776,767 | 1,378,841 |
 | 802 | ![魔勇者アンルシア](/img/monsters/evil_hero_anlucia_boss.png) | [魔勇者アンルシア](/monsters/evil_hero_anlucia_boss) | — | 特殊 | 強 | 昼夜 | 466,686 | 7,543 | 4,328 | 6,745,248 | 1,342,342 |
 | 803 | ![ドン・モジャール](/img/monsters/don_clawleone.png) | [ドン・モジャール](/monsters/don_clawleone) | — | 魔獣 | 強 | 昼夜 | 156,789 | 3,255 | 3,544 | 1,456,543 | 34,567 |
-| 804 | ![異界??????バ](/img/monsters/ikaimessin_jagonuba.png) | [異界??????バ](/monsters/ikaimessin_jagonuba) | — | 特殊 | 強 | 昼夜 | 451,657 | 7,180 | 6,061 | 7,068,476 | 1,274,636 |
-| 805 | ![絶対??????バ](/img/monsters/zettaimessin_jagonuba.png) | [絶対??????バ](/monsters/zettaimessin_jagonuba) | — | 特殊 | 強 | 昼夜 | 658,970 | 7,770 | 6,114 | 8,442,143 | 1,479,615 |
+| 804 | ![異？？？？？？ヌバ](/img/monsters/ikaimessin_jagonuba.png) | [異？？？？？？ヌバ](/monsters/ikaimessin_jagonuba) | — | 特殊 | 強 | 昼夜 | 451,657 | 7,180 | 6,061 | 7,068,476 | 1,274,636 |
+| 805 | ![絶？？？？？？ヌバ](/img/monsters/zettaimessin_jagonuba.png) | [絶？？？？？？ヌバ](/monsters/zettaimessin_jagonuba) | — | 特殊 | 強 | 昼夜 | 658,970 | 7,770 | 6,114 | 8,442,143 | 1,479,615 |
 | 806 | ![超マスターエッグゴールドⅠ](/img/monsters/supermasteregg_gold1.png) | [超マスターエッグゴールドⅠ](/monsters/supermasteregg_gold1) | 1 | スライム | 強 | 昼夜 | 100 | 10 | 5 | 30 | 30 |
 | 807 | ![超マスターエッグゴールドⅡ](/img/monsters/supermasteregg_gold2.png) | [超マスターエッグゴールドⅡ](/monsters/supermasteregg_gold2) | 2 | スライム | 強 | 昼夜 | 300 | 30 | 20 | 200 | 200 |
 | 808 | ![超マスターエッグゴールドⅢ](/img/monsters/supermasteregg_gold3.png) | [超マスターエッグゴールドⅢ](/monsters/supermasteregg_gold3) | 3 | スライム | 強 | 昼夜 | 900 | 70 | 50 | 500 | 500 |
