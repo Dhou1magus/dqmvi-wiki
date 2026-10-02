@@ -1,6 +1,6 @@
 ---
 title: ベビーサタン
-description: DQMVIのモンスター「ベビーサタン」のステータス。HP50 / こうげき23.94 / しゅび13 / 経験値38 / 8G。
+description: DQMVIのモンスター「ベビーサタン」のステータス。HP50 / こうげき24 / しゅび13 / 経験値38 / 8G。
 prev:
   text: "ひとくい木箱"
   link: /monsters/hitokuikibako
@@ -30,7 +30,7 @@ EXP | 38
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 102 |
+| 図鑑No. | 108 |
 | ランク | 2 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

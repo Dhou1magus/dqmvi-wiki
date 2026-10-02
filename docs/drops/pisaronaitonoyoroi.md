@@ -3,11 +3,11 @@ title: ピサロナイトの鎧
 description: ピサロナイトの鎧
 pageClass: wide-page sortable-list
 prev:
-  text: "はめつの盾"
-  link: /drops/hametunotate
+  text: "クイーンモーモンの冠"
+  link: /drops/kuinmomonnokanmuri
 next:
-  text: "ピンクボンボンの爪"
-  link: /drops/pinkbonbonnotume
+  text: "ゴードンヘッドの小手"
+  link: /drops/godonheddonokote
 ---
 
 # ピサロナイトの鎧

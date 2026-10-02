@@ -1,6 +1,6 @@
 ---
 title: れんごくの羽根
-description: DQMVIの「れんごくの羽根」を落とすモンスター28体の一覧。いちばん弱いのはメラゴースト（通常・EXP34）。
+description: DQMVIの「れんごくの羽根」を落とすモンスター30体の一覧。いちばん弱いのはメラゴースト（通常・EXP34）。
 pageClass: wide-page sortable-list
 prev:
   text: "レッドアーチャーの弓"
@@ -12,7 +12,7 @@ next:
 
 # れんごくの羽根
 
-素材。**28体**のモンスターが落とします。
+素材。**30体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メラゴースト**（通常ドロップ・EXP34）。
@@ -29,13 +29,14 @@ next:
 | [しびれスライム](/monsters/shibileslime) | 通常 | 3 | [スライム](/species/slime) | 84 | 89 |
 | [ともしびこぞう](/monsters/tomosibikozou) | 通常 | 3 | [物質](/species/bussitu) | 83 | 90 |
 | [こうてつまじん](/monsters/metalheavy) | 通常 | 3 | [物質](/species/bussitu) | 104 | 96 |
+| [凶おおみみず](/monsters/kyouwiggly) | 通常 | 3 | [自然](/species/sizen) | 1,540 | 103 |
 | [おにこんぼう](/monsters/onikonbou) | 通常 | 3 | [ドラゴン](/species/dragon) | 172 | 111 |
 | [りゅうせんし](/monsters/mandrake_marauder) | 通常 | 3 | [ドラゴン](/species/dragon) | 145 | 121 |
 | [がいこつけんし2](/monsters/gaikotsukenshi2) | 通常 | 3 | [ゾンビ](/species/zombie) | 155 | 123 |
 | [ベビーニュート](/monsters/bebinyuto) | 通常 | 3 | [ドラゴン](/species/dragon) | 151 | 124 |
 | [ヒートギズモ1](/monsters/hgizumo) | 通常 | 5 | [物質](/species/bussitu) | 490 | 248 |
 | [ヒートギズモ2](/monsters/hiitogizumo) | 通常 | 5 | [物質](/species/bussitu) | 494 | 253 |
-| [ようがんまじん](/monsters/youganmajin) | 通常 | 5 | [物質](/species/bussitu) | 556 | 285 |
+| [ようがんまじん](/monsters/youganmajin) | 通常 | 5 | [物質](/species/bussitu) | 557 | 285 |
 | [ひとくいが](/monsters/hitokuiga) | レア | 2 | [自然](/species/sizen) | 53 | 41 |
 | [たまねぎマン](/monsters/tamanegiman) | レア | 2 | [自然](/species/sizen) | 40 | 43 |
 | [キメラ](/monsters/kimera) | レア | 2 | [自然](/species/sizen) | 46 | 48 |
@@ -51,6 +52,7 @@ next:
 | [ねこまどう](/monsters/nekomadou) | 超レア | 1 | [魔獣](/species/majyu) | 11 | 12 |
 | [スカルサーペント](/monsters/skullserpent) | 超レア | 1 | [ゾンビ](/species/zombie) | 23 | 13 |
 | [スライムタール](/monsters/slimetar) | 超レア | 1 | [スライム](/species/slime) | 27 | 14 |
+| [ぷちメタル](/monsters/putimetal) | 超レア | 1 | [メタル](/species/metal) | 4 | 1,050 |
 
 見出しを押すと並べ替えできます。
 

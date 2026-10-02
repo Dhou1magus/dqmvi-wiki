@@ -5,8 +5,8 @@ prev:
   text: "ダゴン"
   link: /monsters/dagon
 next:
-  text: "マッドスミス"
-  link: /monsters/maddosumisu
+  text: "ベリアル"
+  link: /monsters/beriaru
 ---
 
 # マーマンダイン
@@ -30,7 +30,7 @@ EXP | 450
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 585 |
+| 図鑑No. | 639 |
 | ランク | 6 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼のみ |

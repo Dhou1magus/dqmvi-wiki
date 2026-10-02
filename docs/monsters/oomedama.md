@@ -1,6 +1,6 @@
 ---
 title: おおめだま
-description: DQMVIのモンスター「おおめだま」のステータス。HP45 / こうげき25.02 / しゅび14 / 経験値39 / 8G。
+description: DQMVIのモンスター「おおめだま」のステータス。HP45 / こうげき25 / しゅび14 / 経験値39 / 8G。
 prev:
   text: "パペットこぞう"
   link: /monsters/papetkozou
@@ -30,7 +30,7 @@ EXP | 39
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 90 |
+| 図鑑No. | 96 |
 | ランク | 2 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

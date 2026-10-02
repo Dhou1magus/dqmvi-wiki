@@ -1,13 +1,13 @@
 ---
 title: タマゴ
-description: DQMVIの「タマゴ」を落とすモンスター2体の一覧。いちばん弱いのはタマゴロン（通常・EXP6）。
+description: DQMVIの「卵」を落とすモンスター2体の一覧。いちばん弱いのはタマゴロン（通常・EXP6）。
 pageClass: wide-page sortable-list
 prev:
-  text: "タッチャンの首飾り"
-  link: /drops/tattyannokubikazari
+  text: "溶岩石のかけら"
+  link: /drops/yougansekinokakera
 next:
-  text: "ちいさなメダル"
-  link: /drops/littlemedal
+  text: "竜のうろこ"
+  link: /drops/ryuunouroko
 ---
 
 # タマゴ

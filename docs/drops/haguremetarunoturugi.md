@@ -6,8 +6,8 @@ prev:
   text: "はがねの尾羽"
   link: /drops/haganenoobane
 next:
-  text: "バトルアックス"
-  link: /drops/sizen
+  text: "バズズ討伐の証"
+  link: /drops/bazuzu
 ---
 
 # はぐれメタルの剣

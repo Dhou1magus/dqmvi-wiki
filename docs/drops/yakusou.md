@@ -6,8 +6,8 @@ prev:
   text: "矢"
   link: /drops/mc_arrow
 next:
-  text: "溶岩石のかけら"
-  link: /drops/yougansekinokakera
+  text: "勇車の笛"
+  link: /drops/yuusyanofue
 ---
 
 # 薬草(HP+30)
@@ -32,7 +32,7 @@ next:
 | [まほうつかい](/monsters/magician) | レア | 1 | [悪魔](/species/akuma) | 15 | 13 |
 | [はさみくわがた](/monsters/scissorbeatle) | レア | 1 | [自然](/species/sizen) | 26 | 14 |
 | [ブチュチュンパ](/monsters/buchunpa) | レア | 4 | [自然](/species/sizen) | 168 | 142 |
-| [ピクシー](/monsters/pikusi) | レア | 4 | [悪魔](/species/akuma) | 178 | 147 |
+| [ピクシー](/monsters/pikusi) | レア | 4 | [悪魔](/species/akuma) | 179 | 147 |
 | [コスモキャンディ](/monsters/cosmo_candy) | レア | 4 | [スライム](/species/slime) | 190 | 199 |
 
 見出しを押すと並べ替えできます。

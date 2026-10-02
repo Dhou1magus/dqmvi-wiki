@@ -1,6 +1,6 @@
 ---
 title: 闘魂エキス
-description: DQMVIの「闘魂エキス」を落とすモンスター14体の一覧。いちばん弱いのはテンタクルス（通常・EXP285）。
+description: DQMVIの「闘魂エキス」を落とすモンスター16体の一覧。いちばん弱いのはテンタクルス（通常・EXP285）。
 pageClass: wide-page sortable-list
 prev:
   text: "鉄鉱石"
@@ -12,7 +12,7 @@ next:
 
 # 闘魂エキス
 
-素材。**14体**のモンスターが落とします。
+素材。**16体**のモンスターが落とします。
 
 ::: tip ねらい目
 **テンタクルス**（通常ドロップ・EXP285）。
@@ -24,11 +24,13 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [テンタクルス](/monsters/tentacles) | 通常 | 5 | [自然](/species/sizen) | 534 | 285 |
+| [ソードドラゴン](/monsters/sword_dragon) | 通常 | 5 | [ドラゴン](/species/dragon) | 587 | 295 |
 | [トレーナースライム](/monsters/trainerslime) | 通常 | 5 | [スライム](/species/slime) | 574 | 303 |
 | [ゴーレム](/monsters/goremu) | 通常 | 5 | [物質](/species/bussitu) | 581 | 315 |
 | [キングレオ](/monsters/kingreo1) | 通常 | 5 | [魔獣](/species/majyu) | 630 | 320 |
 | [キラーパンサー](/monsters/kirapan2) | 通常 | 6 | [魔獣](/species/majyu) | 960 | 350 |
 | [しにがみのきし](/monsters/sinigaminokisi) | 通常 | 5 | [悪魔](/species/akuma) | 732 | 384 |
+| [ランガー](/monsters/lanngar) | 通常 | 6 | [悪魔](/species/akuma) | 1,359 | 459 |
 | [死神の騎士](/monsters/shinigaminokishi) | 通常 | 6 | [悪魔](/species/akuma) | 1,368 | 475 |
 | [スノードラゴン](/monsters/snow_dragon) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,443 | 486 |
 | [ゴッドライダー](/monsters/godraida) | 通常 | 7 | [スライム](/species/slime) | 3,000 | 876 |

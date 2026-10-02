@@ -3,8 +3,8 @@ title: やみのころも
 description: DQMVIの「やみのころも」を落とすモンスター1体の一覧。いちばん弱いのはゾーマ（通常・EXP6,776,767）。
 pageClass: wide-page sortable-list
 prev:
-  text: "神獣王のレギンス"
-  link: /drops/shinjuuounoreginsu
+  text: "ももんじゃのしっぽ"
+  link: /drops/momonjanoshippo
 next: false
 ---
 

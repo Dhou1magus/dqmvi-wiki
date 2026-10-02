@@ -1,6 +1,6 @@
 ---
 title: わらいぶくろ
-description: DQMVIのモンスター「わらいぶくろ」のステータス。HP80 / こうげき43.2 / しゅび36 / 経験値79 / 16G。
+description: DQMVIのモンスター「わらいぶくろ」のステータス。HP80 / こうげき43 / しゅび36 / 経験値79 / 16G。
 prev:
   text: "プリズニャン"
   link: /monsters/purizunyan
@@ -30,7 +30,7 @@ EXP | 79
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 183 |
+| 図鑑No. | 198 |
 | ランク | 3 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼のみ |

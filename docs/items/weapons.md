@@ -159,7 +159,7 @@ pageClass: wide-page sortable-list
 | [真・如来棍](/items/nyoraikon2) | 18 | ×4 | — |
 | [キラートーチのトーチ](/drops/kiratotinototi) | 2 | ×1.1 | 魔力倍率 ×1.5　/　右クリックで松明を置き、耐久を1消費する |
 | [とげこんぼうの棍棒](/drops/togekonbounokonbou) | 10 | ×1.5 | 正面の石系ブロックを左右3マス同時に掘る |
-| [ゴッデス･オレオール](/items/goddesuoreoru) | 50 | ×1.4 | [メタル系](/species/metal)に3～10のダメージ　/　経験値取得1.2倍 |
+| [ゴッデス･オレオール](/drops/goddesuoreoru) | 50 | ×1.4 | [メタル系](/species/metal)に3～10のダメージ　/　経験値取得1.2倍 |
 
 ## 爪（18種） {#claw}
 
@@ -218,7 +218,7 @@ pageClass: wide-page sortable-list
 | [アトラスの大金槌](/drops/atorasunoookanaduti) | 10 | ×1.5 | 正面の石系ブロックを左右5マス同時に掘る |
 | [トロルバッコスの大棍棒](/drops/tororubakkosunoookonnbou) | 10 | ×1.5 | 正面の石系ブロックを上下3マス同時に掘る |
 | [アトラスのかなづち](/items/atorasunokanaduti) | 11 | ×2.91 | — |
-| [デーモンハンマー](/items/demonhanma) | 20 | ×3.8 | 2段階目の溜め攻撃で、狙っているモンスターの所へワープして範囲攻撃する |
+| [デーモンハンマー](/drops/demonhanma) | 20 | ×3.8 | 2段階目の溜め攻撃で、狙っているモンスターの所へワープして範囲攻撃する |
 
 ## 斧（18種） {#axe}
 
@@ -371,7 +371,7 @@ pageClass: wide-page sortable-list
 | [天空の戦輪](/items/battle_ring_16_sky) | 22 | ×3.82 | — |
 | [神鳥のチャクラム](/items/battle_ring_17_divine_bird) | 24 | ×3.91 | — |
 | [神輪アルカナ](/items/battle_ring_18_arcana) | 27 | ×4 | — |
-| [バーンチャクラム](/items/battle_ring_burn) | 20 | ×3.8 | 溜め切って投げると、当たった相手を中心に爆発を起こす(1投げに1回) |
+| [バーンチャクラム](/drops/battle_ring_burn) | 20 | ×3.8 | 溜め切って投げると、当たった相手を中心に爆発を起こす(1投げに1回) |
 
 投げると、まだ当たっていない敵へ自動で跳ね返ります（基本2回・サブ職業で最大5回・戦輪士で最大9回）。
 

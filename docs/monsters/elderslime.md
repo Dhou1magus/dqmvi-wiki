@@ -5,8 +5,8 @@ prev:
   text: "じごくのざりがに"
   link: /monsters/jigokunozarigani
 next:
-  text: "ジェントルダンス"
-  link: /monsters/zyentorudansu
+  text: "アッシュリザード"
+  link: /monsters/ash_lizard
 ---
 
 # エルダースライム
@@ -30,7 +30,7 @@ EXP | 428
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 603 |
+| 図鑑No. | 656 |
 | ランク | 6 |
 | 系統 | [スライム系](/species/slime) |
 | 活動時間 | 昼夜 |

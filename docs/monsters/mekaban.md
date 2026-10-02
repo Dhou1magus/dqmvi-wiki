@@ -5,8 +5,8 @@ prev:
   text: "まだらイチョウ"
   link: /monsters/madaraichou
 next:
-  text: "ましょうぐも"
-  link: /monsters/mashougumo
+  text: "アクアトラップ"
+  link: /monsters/aqua_trap
 ---
 
 # メカバーン
@@ -30,7 +30,7 @@ EXP | 279
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 528 |
+| 図鑑No. | 571 |
 | ランク | 5 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

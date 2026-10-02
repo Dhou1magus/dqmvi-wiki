@@ -1,6 +1,6 @@
 ---
 title: 風切りの羽根
-description: DQMVIの「風切りの羽根」を落とすモンスター16体の一覧。いちばん弱いのはキメラ（通常・EXP48）。
+description: DQMVIの「風切りの羽根」を落とすモンスター20体の一覧。いちばん弱いのはキメラ（通常・EXP48）。
 pageClass: wide-page sortable-list
 prev:
   text: "武闘エキス"
@@ -12,7 +12,7 @@ next:
 
 # 風切りの羽根
 
-素材。**16体**のモンスターが落とします。
+素材。**20体**のモンスターが落とします。
 
 ::: tip ねらい目
 **キメラ**（通常ドロップ・EXP48）。
@@ -27,6 +27,7 @@ next:
 | [もみじこぞう](/monsters/momizikozou) | レア | 1 | [自然](/species/sizen) | 12 | 6 |
 | [おおがらす](/monsters/big_crow) | レア | 1 | [自然](/species/sizen) | 13 | 7 |
 | [マグマスライム](/monsters/magmaslime) | レア | 1 | [スライム](/species/slime) | 20 | 9 |
+| [コロマージ](/monsters/wiz_pip) | レア | 1 | [悪魔](/species/akuma) | 19 | 9 |
 | [はじけドーラ](/monsters/hajike_dora) | レア | 1 | [ドラゴン](/species/dragon) | 25 | 12 |
 | [つかいま](/monsters/tukaima) | レア | 1 | [悪魔](/species/akuma) | 25 | 13 |
 | [スカルサーペント](/monsters/skullserpent) | レア | 1 | [ゾンビ](/species/zombie) | 23 | 13 |
@@ -37,7 +38,10 @@ next:
 | [フーセンドラゴン](/monsters/fu_sen_dragon) | レア | 3 | [ドラゴン](/species/dragon) | 155 | 107 |
 | [ファントムシャドウ](/monsters/huxantomsyadou) | レア | 3 | [ゾンビ](/species/zombie) | 164 | 121 |
 | [ブラッドレディ](/monsters/vampire_succubat) | レア | 3 | [悪魔](/species/akuma) | 151 | 128 |
+| [フライングデビル](/monsters/flyngdevil) | レア | 3 | [悪魔](/species/akuma) | 141 | 129 |
 | [まおうのかげ](/monsters/maounokage) | レア | 6 | [物質](/species/bussitu) | 944 | 350 |
+| [ダーククリスタル](/monsters/dark_crystal) | レア | 6 | [物質](/species/bussitu) | 1,126 | 436 |
+| [ランガー](/monsters/lanngar) | レア | 6 | [悪魔](/species/akuma) | 1,359 | 459 |
 | [バラモスゾンビ](/monsters/baramoszombie) | レア | 6 | [ドラゴン](/species/dragon) | 1,442 | 469 |
 
 見出しを押すと並べ替えできます。

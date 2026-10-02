@@ -1,6 +1,6 @@
 ---
 title: あくまのツボ
-description: DQMVIのモンスター「あくまのツボ」のステータス。HP165 / こうげき105.79 / しゅび80 / 経験値182 / 36G。
+description: DQMVIのモンスター「あくまのツボ」のステータス。HP165 / こうげき106 / しゅび80 / 経験値182 / 36G。
 prev:
   text: "しびれだんびら"
   link: /monsters/sibiredanbira
@@ -30,7 +30,7 @@ EXP | 182
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 319 |
+| 図鑑No. | 344 |
 | ランク | 4 |
 | 系統 | [特殊系](/species/tokusyu) |
 | 活動時間 | 昼夜 |

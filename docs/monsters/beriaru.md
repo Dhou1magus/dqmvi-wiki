@@ -2,8 +2,8 @@
 title: ベリアル
 description: DQMVIのモンスター「ベリアル」のステータス。HP1,550 / こうげき220 / しゅび125 / 経験値450 / 90G。
 prev:
-  text: "マッドスミス"
-  link: /monsters/maddosumisu
+  text: "マーマンダイン"
+  link: /monsters/mermandine
 next:
   text: "コスモアイ"
   link: /monsters/kosumoai
@@ -30,7 +30,7 @@ EXP | 450
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 587 |
+| 図鑑No. | 640 |
 | ランク | 6 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

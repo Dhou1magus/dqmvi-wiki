@@ -3,11 +3,11 @@ title: シャ攻の戦籠手
 description: DQMVIの「シャ攻の戦籠手」を落とすモンスター1体の一覧。いちばん弱いのはシャコウ鬼神（通常・EXP24,638）。
 pageClass: wide-page sortable-list
 prev:
-  text: "勇車の笛(弱)"
-  link: /drops/yuusyanofue_zyaku
+  text: "神獣王の戦篭手"
+  link: /drops/gauntlet_19_shinjuuou
 next:
-  text: "修羅の指環"
-  link: /drops/syuranoyubiwa
+  text: "デュークアックス"
+  link: /drops/dukeakkusu
 ---
 
 # シャ攻の戦籠手

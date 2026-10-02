@@ -5,8 +5,8 @@ prev:
   text: "ファイアボール"
   link: /monsters/huxaiabooru
 next:
-  text: "メタルカイザー"
-  link: /monsters/metalkaiser
+  text: "ジェントルダンス"
+  link: /monsters/zyentorudansu
 ---
 
 # メーダプリンス
@@ -30,7 +30,7 @@ EXP | 8,635
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 537 |
+| 図鑑No. | 590 |
 | ランク | 5 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

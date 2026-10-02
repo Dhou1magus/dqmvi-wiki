@@ -3,8 +3,8 @@ title: 魔界のつるぎ
 description: DQMVIの「魔界のつるぎ」を落とすモンスター1体の一覧。いちばん弱いのはダークナイト（超レア・EXP756）。
 pageClass: wide-page sortable-list
 prev:
-  text: "磨き砂"
-  link: /drops/migakizuna
+  text: "魔王の笛"
+  link: /drops/maounofue
 next:
   text: "魔獣イギュアの爪"
   link: /drops/majuuigyuanotume

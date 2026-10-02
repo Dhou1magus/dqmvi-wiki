@@ -1,18 +1,18 @@
 ---
 title: せかいじゅの葉
-description: DQMVIの「せかいじゅの葉」を落とすモンスター7体の一覧。いちばん弱いのはベホイミスライム（レア・EXP77）。
+description: DQMVIの「せかいじゅの葉」を落とすモンスター8体の一覧。いちばん弱いのはベホイミスライム（レア・EXP77）。
 pageClass: wide-page sortable-list
 prev:
   text: "せいなるしずく"
   link: /drops/seinarusizuku
 next:
-  text: "タイプGの欠片"
-  link: /drops/taipugnokakera
+  text: "ゾーマ討伐の証"
+  link: /drops/zoma
 ---
 
 # せかいじゅの葉
 
-素材。**7体**のモンスターが落とします。
+素材。**8体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ベホイミスライム**（レアドロップ・EXP77）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ベホイミスライム](/monsters/behoimisuraimu) | レア | 3 | [スライム](/species/slime) | 68 | 77 |
 | [ベホマスライム](/monsters/behomasuraimu) | レア | 6 | [スライム](/species/slime) | 864 | 320 |
+| [ブラックハンド](/monsters/black_hand) | レア | 6 | [物質](/species/bussitu) | 954 | 330 |
 | [グランスライム](/monsters/grandpaslime) | レア | 6 | [スライム](/species/slime) | 896 | 333 |
 | [サボテンボール](/monsters/sabotenboru) | 超レア | 1 | [自然](/species/sizen) | 23 | 12 |
 | [ホイミスライム](/monsters/hoimisura) | 超レア | 2 | [スライム](/species/slime) | 38 | 30 |

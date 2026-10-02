@@ -1,6 +1,6 @@
 ---
 title: 巨大ヒゲトカゲ
-description: DQMVIの「巨大ヒゲトカゲ」を落とすモンスター30体の一覧。いちばん弱いのはオベルジーヌ（通常・EXP81）。
+description: DQMVIの「巨大ヒゲトカゲ」を落とすモンスター31体の一覧。いちばん弱いのはオベルジーヌ（通常・EXP81）。
 pageClass: wide-page sortable-list
 prev:
   text: "巨大な牙"
@@ -12,7 +12,7 @@ next:
 
 # 巨大ヒゲトカゲ
 
-素材。**30体**のモンスターが落とします。
+素材。**31体**のモンスターが落とします。
 
 ::: tip ねらい目
 **オベルジーヌ**（通常ドロップ・EXP81）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [オベルジーヌ](/monsters/oberujinu) | 通常 | 3 | [自然](/species/sizen) | 95 | 81 |
 | [バブリン](/monsters/baburin) | 通常 | 3 | [ゾンビ](/species/zombie) | 90 | 94 |
+| [しっぽ団のアルミラージ](/monsters/spikedhare_shippodan) | 通常 | 3 | [魔獣](/species/majyu) | 157 | 117 |
 | [うみうし](/monsters/umiusi) | 通常 | 4 | [自然](/species/sizen) | 152 | 132 |
 | [ブラックベジター](/monsters/burakkubejita) | 通常 | 5 | [自然](/species/sizen) | 532 | 260 |
 | [だいまどう](/monsters/daimadou) | 通常 | 5 | [悪魔](/species/akuma) | 486 | 293 |
@@ -48,7 +49,7 @@ next:
 | [とうろうへい](/monsters/tourouhei) | 超レア | 2 | [物質](/species/bussitu) | 64 | 58 |
 | [デビルパイン](/monsters/devil_pineapple) | 超レア | 2 | [悪魔](/species/akuma) | 59 | 59 |
 | [ベロベロ](/monsters/berobero) | 超レア | 3 | [ゾンビ](/species/zombie) | 80 | 82 |
-| [モコモコじゅう](/monsters/mokomokojuu) | 超レア | 4 | [魔獣](/species/majyu) | 148 | 140 |
+| [モコモコじゅう](/monsters/mokomokojuu) | 超レア | 4 | [魔獣](/species/majyu) | 149 | 140 |
 | [ホーンビートル](/monsters/hornbeet) | 超レア | 4 | [自然](/species/sizen) | 215 | 180 |
 | [だいおうキッズ](/monsters/daioukizzu) | 超レア | 5 | [自然](/species/sizen) | 622 | 277 |
 | [デスクローゼット](/monsters/tansu_death) | 超レア | 5 | [物質](/species/bussitu) | 517 | 288 |

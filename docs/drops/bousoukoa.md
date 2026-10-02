@@ -3,11 +3,11 @@ title: 暴走コア
 description: DQMVIの「暴走コア」を落とすモンスター1体の一覧。いちばん弱いのはファイアボール（通常・EXP7,321）。
 pageClass: wide-page sortable-list
 prev:
-  text: "デスマスク"
-  link: /drops/desumasuku
+  text: "勇車の笛(弱)"
+  link: /drops/yuusyanofue_zyaku
 next:
-  text: "触手のイヤリング"
-  link: /drops/syokusyunoiyaringu
+  text: "神の涙"
+  link: /drops/kaminonamida
 ---
 
 # 暴走コア

@@ -3,8 +3,8 @@ title: ちいさなメダル
 description: DQMVIの「ちいさなメダル」を落とすモンスター2体の一覧。いちばん弱いのはあくまのツボ（超レア・EXP182）。
 pageClass: wide-page sortable-list
 prev:
-  text: "タマゴ"
-  link: /drops/mc_egg
+  text: "タッチャンの首飾り"
+  link: /drops/tattyannokubikazari
 next:
   text: "ちからの盾"
   link: /drops/tikaranotate

@@ -1,6 +1,6 @@
 ---
 title: 武闘エキス
-description: DQMVIの「武闘エキス」を落とすモンスター51体の一覧。いちばん弱いのはモビルボディ（通常・EXP165）。
+description: DQMVIの「武闘エキス」を落とすモンスター54体の一覧。いちばん弱いのはタイラントワームP（通常・EXP156）。
 pageClass: wide-page sortable-list
 prev:
   text: "氷鳥のはね"
@@ -12,10 +12,10 @@ next:
 
 # 武闘エキス
 
-素材。**51体**のモンスターが落とします。
+素材。**54体**のモンスターが落とします。
 
 ::: tip ねらい目
-**モビルボディ**（通常ドロップ・EXP165）。
+**タイラントワームP**（通常ドロップ・EXP156）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -23,11 +23,12 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [タイラントワームP](/monsters/tyrantwormp) | 通常 | 4 | [自然](/species/sizen) | 1,820 | 156 |
 | [モビルボディ](/monsters/mobirubodexi) | 通常 | 4 | [物質](/species/bussitu) | 199 | 165 |
 | [アークデーモン](/monsters/akudemon) | 通常 | 4 | [悪魔](/species/akuma) | 195 | 180 |
 | [さまようよろい](/monsters/samayouyoroi) | 通常 | 4 | [ゾンビ](/species/zombie) | 186 | 182 |
 | [バルザック](/monsters/baruzaku) | 通常 | 4 | [ドラゴン](/species/dragon) | 266 | 185 |
-| [やつざきアニマル](/monsters/yatuzakianimaru) | 通常 | 4 | [魔獣](/species/majyu) | 202 | 212 |
+| [やつざきアニマル](/monsters/yatuzakianimaru) | 通常 | 4 | [魔獣](/species/majyu) | 203 | 212 |
 | [スライムエンペラー](/monsters/slimeemperor) | 通常 | 5 | [スライム](/species/slime) | 467 | 298 |
 | [タイガークロー](/monsters/taigakuro) | 通常 | 5 | [魔獣](/species/majyu) | 512 | 299 |
 | [まかいファイター](/monsters/commandragor) | 通常 | 5 | [ドラゴン](/species/dragon) | 555 | 304 |
@@ -35,6 +36,7 @@ next:
 | [ヘルクラッシャー](/monsters/herukurassya) | 通常 | 5 | [ゾンビ](/species/zombie) | 621 | 320 |
 | [サタンメイル](/monsters/satanmeiru) | 通常 | 5 | [物質](/species/bussitu) | 609 | 340 |
 | [バブルキング](/monsters/baburuking) | 通常 | 6 | [スライム](/species/slime) | 1,128 | 379 |
+| [だいおうクジラ](/monsters/greatwhale) | 通常 | 6 | [自然](/species/sizen) | 12,520 | 409 |
 | [クラーゴン](/monsters/kraagon) | 通常 | 6 | [自然](/species/sizen) | 1,208 | 430 |
 | [サイクロプス](/monsters/saikuropusu) | 通常 | 6 | [悪魔](/species/akuma) | 1,488 | 441 |
 | [グリンデア](/monsters/grindea) | 通常 | 6 | [悪魔](/species/akuma) | 1,465 | 448 |
@@ -43,10 +45,13 @@ next:
 | [かげのきし](/monsters/kagenokisi) | 通常 | 7 | [ゾンビ](/species/zombie) | 1,950 | 676 |
 | [ギーグハンマー](/monsters/giguhanma) | 通常 | 7 | [ドラゴン](/species/dragon) | 3,125 | 702 |
 | [キラーマシン](/monsters/kiramasin) | 通常 | 7 | [物質](/species/bussitu) | 1,950 | 706 |
+| [ガルマッゾ](/monsters/garumazzo) | 通常 | 7 | [特殊](/species/tokusyu) | 2,223 | 713 |
 | [グレートジンガー](/monsters/guretosinga) | 通常 | 7 | [物質](/species/bussitu) | 2,337 | 723 |
 | [トロルボンバー](/monsters/tororubonba) | 通常 | 7 | [悪魔](/species/akuma) | 2,625 | 752 |
 | [ギガンテス](/monsters/gigantesu) | 通常 | 7 | [悪魔](/species/akuma) | 2,655 | 766 |
 | [デンガー](/monsters/denga) | 通常 | 7 | [スライム](/species/slime) | 2,625 | 791 |
+| [エビルエスターク](/monsters/ersatzestark) | 通常 | 7 | [物質](/species/bussitu) | 2,502 | 793 |
+| [ブリザードジェネラル](/monsters/burizaadozyeneraru) | 通常 | 7 | [物質](/species/bussitu) | 2,943 | 900 |
 | [光の番人](/monsters/hikarinobannin) | 通常 | 7 | [ドラゴン](/species/dragon) | 2,863 | 953 |
 | [ピンキーマッシュ](/monsters/pinkymash) | レア | 4 | [スライム](/species/slime) | 187 | 144 |
 | [めいふのばんにん](/monsters/meifunobannin) | レア | 4 | [物質](/species/bussitu) | 204 | 193 |
@@ -58,9 +63,7 @@ next:
 | [ドーラー](/monsters/dora) | レア | 6 | [物質](/species/bussitu) | 1,256 | 422 |
 | [ソーラー](/monsters/sora) | レア | 6 | [物質](/species/bussitu) | 1,256 | 422 |
 | [暗黒の使い](/monsters/ankokunotsukai) | レア | 6 | [ゾンビ](/species/zombie) | 1,407 | 434 |
-| [サイクロプス](/monsters/saikuropusu) | レア | 6 | [悪魔](/species/akuma) | 1,488 | 441 |
 | [エビルちくりん](/monsters/ebiruchikurin) | レア | 6 | [物質](/species/bussitu) | 1,526 | 448 |
-| [ダーククリスタル](/monsters/dark_crystal) | レア | 6 | [物質](/species/bussitu) | 1,258 | 451 |
 | [スノードラゴン](/monsters/snow_dragon) | レア | 6 | [ドラゴン](/species/dragon) | 1,443 | 486 |
 | [スラワッショイ](/monsters/slimewashoi) | レア | 6 | [スライム](/species/slime) | 1,521 | 506 |
 | [ダークホビット](/monsters/dakuhobitto) | レア | 7 | [物質](/species/bussitu) | 1,725 | 678 |

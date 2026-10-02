@@ -1,6 +1,6 @@
 ---
 title: あくま神官
-description: DQMVIのモンスター「あくま神官」のステータス。HP94 / こうげき56.8 / しゅび36 / 経験値92 / 18G。
+description: DQMVIのモンスター「あくま神官」のステータス。HP94 / こうげき57 / しゅび36 / 経験値92 / 18G。
 prev:
   text: "ボックススライムグリーン"
   link: /monsters/boxsuraimu_midori
@@ -30,7 +30,7 @@ EXP | 92
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 217 |
+| 図鑑No. | 232 |
 | ランク | 3 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

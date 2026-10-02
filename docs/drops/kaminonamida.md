@@ -3,11 +3,11 @@ title: 神の涙
 description: DQMVIの「神の涙」を落とすモンスター1体の一覧。いちばん弱いのはゴメちゃん（通常・EXP8,564）。
 pageClass: wide-page sortable-list
 prev:
+  text: "暴走コア"
+  link: /drops/bousoukoa
+next:
   text: "ライバーンリング"
   link: /drops/raibanringu
-next:
-  text: "女神のイヤリング"
-  link: /drops/megaminoiyaringu
 ---
 
 # 神の涙

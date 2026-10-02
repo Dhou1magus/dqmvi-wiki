@@ -1,6 +1,6 @@
 ---
 title: トロル
-description: DQMVIのモンスター「トロル」のステータス。HP679 / こうげき157.04 / しゅび94 / 経験値287 / 57G。
+description: DQMVIのモンスター「トロル」のステータス。HP679 / こうげき157 / しゅび94 / 経験値287 / 57G。
 prev:
   text: "パンドラ木箱"
   link: /monsters/pandorakibako
@@ -30,7 +30,7 @@ EXP | 287
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 457 |
+| 図鑑No. | 500 |
 | ランク | 5 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 昼夜 |

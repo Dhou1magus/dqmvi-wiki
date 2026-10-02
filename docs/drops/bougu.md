@@ -1,6 +1,6 @@
 ---
 title: 貴重なレシピ(防具)
-description: DQMVIの「貴重なレシピ(防具)」を落とすモンスター4体の一覧。いちばん弱いのはキラークラブ（超レア・EXP675）。
+description: DQMVIの「貴重なレシピ(防具)」を落とすモンスター6体の一覧。いちばん弱いのはキラークラブ（超レア・EXP675）。
 pageClass: wide-page sortable-list
 prev:
   text: "貴重なレシピ(斧、槌、棍)"
@@ -12,7 +12,7 @@ next:
 
 # 貴重なレシピ(防具)
 
-素材。**4体**のモンスターが落とします。
+素材。**6体**のモンスターが落とします。
 
 ::: tip ねらい目
 **キラークラブ**（超レアドロップ・EXP675）。
@@ -26,6 +26,8 @@ next:
 | [キラークラブ](/monsters/kirakurabu) | 超レア | 7 | [自然](/species/sizen) | 1,800 | 675 |
 | [ロイヤルミミック](/monsters/tansu_royal) | 超レア | 7 | [物質](/species/bussitu) | 2,261 | 695 |
 | [ストーンマン](/monsters/stonman) | 超レア | 7 | [物質](/species/bussitu) | 2,580 | 792 |
+| [エビルエスターク](/monsters/ersatzestark) | 超レア | 7 | [物質](/species/bussitu) | 2,502 | 793 |
+| [シーバーン](/monsters/seavern) | 超レア | 7 | [ドラゴン](/species/dragon) | 2,633 | 828 |
 | [コキュードス](/monsters/cocytus) | 超レア | 7 | [ドラゴン](/species/dragon) | 2,438 | 888 |
 
 見出しを押すと並べ替えできます。

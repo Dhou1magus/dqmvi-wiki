@@ -3,11 +3,11 @@ title: 勇車の笛
 description: DQMVIの「勇車の笛」を落とすモンスター1体の一覧。いちばん弱いのはスラリンガル（通常・EXP6,663,242）。
 pageClass: wide-page sortable-list
 prev:
-  text: "スライムボックス"
-  link: /drops/suraimubokkusu
+  text: "魔王の笛"
+  link: /drops/maounofue
 next:
-  text: "神獣王の戦篭手"
-  link: /drops/gauntlet_19_shinjuuou
+  text: "勇車の笛(弱)"
+  link: /drops/yuusyanofue_zyaku
 ---
 
 # 勇車の笛

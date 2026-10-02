@@ -3,11 +3,11 @@ title: ミュシャドの毛
 description: ミュシャドの毛
 pageClass: wide-page sortable-list
 prev:
-  text: "みどりコケ"
-  link: /drops/midorinokoke
+  text: "フレアドラゴンのうろこ"
+  link: /drops/fureadoragonnouroko
 next:
-  text: "ムーンキメラの羽"
-  link: /drops/moonkimeranohane
+  text: "キングヒドラの頭"
+  link: /drops/kinghidoranoatama
 ---
 
 # ミュシャドの毛

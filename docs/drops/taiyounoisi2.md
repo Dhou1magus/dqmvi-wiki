@@ -1,10 +1,10 @@
 ---
 title: 太陽石合金
-description: DQMVIの「太陽石合金」を落とすモンスター27体の一覧。いちばん弱いのはガメゴンロード（通常・EXP438）。
+description: DQMVIの「太陽石合金」を落とすモンスター29体の一覧。いちばん弱いのはキラープラスター（通常・EXP395）。
 pageClass: wide-page sortable-list
 prev:
-  text: "赤いサンゴ"
-  link: /drops/akaisango
+  text: "全てを超越せし者討伐の証"
+  link: /drops/god
 next:
   text: "大きな袋"
   link: /drops/fukuro
@@ -12,10 +12,10 @@ next:
 
 # 太陽石合金
 
-素材。**27体**のモンスターが落とします。
+素材。**29体**のモンスターが落とします。
 
 ::: tip ねらい目
-**ガメゴンロード**（通常ドロップ・EXP438）。
+**キラープラスター**（通常ドロップ・EXP395）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -23,6 +23,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [キラープラスター](/monsters/killerplaster) | 通常 | 6 | [物質](/species/bussitu) | 1,107 | 395 |
 | [ガメゴンロード](/monsters/gamegonload) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,264 | 438 |
 | [グレンデル](/monsters/gurenderu) | 通常 | 6 | [魔獣](/species/majyu) | 1,298 | 512 |
 | [クイーンマチルダ](/monsters/kuinmatiruda) | レア | 5 | [ゾンビ](/species/zombie) | 469 | 243 |
@@ -48,6 +49,7 @@ next:
 | [ギガデーモン](/monsters/gugademon) | 超レア | 5 | [ドラゴン](/species/dragon) | 601 | 305 |
 | [ベホマスライム](/monsters/behomasuraimu) | 超レア | 6 | [スライム](/species/slime) | 864 | 320 |
 | [グランスライム](/monsters/grandpaslime) | 超レア | 6 | [スライム](/species/slime) | 896 | 333 |
+| [オイリーハンド](/monsters/oily_hand) | 超レア | 6 | [物質](/species/bussitu) | 974 | 333 |
 | [まんじゅシャモン](/monsters/manzyusyamon) | 超レア | 6 | [自然](/species/sizen) | 966 | 344 |
 | [スライムベホマズン](/monsters/suraimubehomazun) | 超レア | 6 | [スライム](/species/slime) | 1,280 | 427 |
 

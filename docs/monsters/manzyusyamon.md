@@ -5,8 +5,8 @@ prev:
   text: "死神の騎士"
   link: /monsters/shinigaminokishi
 next:
-  text: "エンゼルアーマー"
-  link: /monsters/enzeruaamaa
+  text: "オイリーハンド"
+  link: /monsters/oily_hand
 ---
 
 # まんじゅシャモン
@@ -30,7 +30,7 @@ EXP | 344
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 620 |
+| 図鑑No. | 672 |
 | ランク | 6 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼夜 |

@@ -1,6 +1,6 @@
 ---
 title: プラチナ合金
-description: DQMVIの「プラチナ合金」を落とすモンスター27体の一覧。いちばん弱いのはソードファントム（通常・EXP409）。
+description: DQMVIの「プラチナ合金」を落とすモンスター28体の一覧。いちばん弱いのはソードファントム（通常・EXP409）。
 pageClass: wide-page sortable-list
 prev:
   text: "プラチナシールド"
@@ -12,7 +12,7 @@ next:
 
 # プラチナ合金
 
-素材。**27体**のモンスターが落とします。
+素材。**28体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ソードファントム**（通常ドロップ・EXP409）。
@@ -40,6 +40,7 @@ next:
 | [ブリザード](/monsters/burizado) | 超レア | 3 | [物質](/species/bussitu) | 85 | 90 |
 | [うらぎりこぞう2](/monsters/uragirikozou2) | 超レア | 3 | [悪魔](/species/akuma) | 90 | 95 |
 | [バベルボブル](/monsters/baberuboburu) | 超レア | 3 | [物質](/species/bussitu) | 102 | 98 |
+| [凶おおみみず](/monsters/kyouwiggly) | 超レア | 3 | [自然](/species/sizen) | 1,540 | 103 |
 | [だいおうイカ](/monsters/daiouika) | 超レア | 3 | [自然](/species/sizen) | 175 | 110 |
 | [アームライオン](/monsters/armraion) | 超レア | 3 | [魔獣](/species/majyu) | 135 | 115 |
 | [おにぎりスライム](/monsters/onigirislime) | 超レア | 3 | [スライム](/species/slime) | 156 | 121 |

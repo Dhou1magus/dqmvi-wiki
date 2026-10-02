@@ -3,11 +3,11 @@ title: キラートーチのトーチ
 description: キラートーチのトーチ
 pageClass: wide-page sortable-list
 prev:
-  text: "キメラのつばさ"
-  link: /drops/kimeranotubasa
+  text: "ハートナイトの剣"
+  link: /drops/hatonaitonoken
 next:
-  text: "キラーパイクのピッケル"
-  link: /drops/kirapaikunopikeru
+  text: "ピンクボンボンの爪"
+  link: /drops/pinkbonbonnotume
 ---
 
 # キラートーチのトーチ

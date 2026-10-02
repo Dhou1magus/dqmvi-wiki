@@ -1,6 +1,6 @@
 ---
 title: 鉄鉱石
-description: DQMVIの「鉄鉱石」を落とすモンスター14体の一覧。いちばん弱いのははじけドーラ（通常・EXP12）。
+description: DQMVIの「鉄鉱石」を落とすモンスター15体の一覧。いちばん弱いのははじけドーラ（通常・EXP12）。
 pageClass: wide-page sortable-list
 prev:
   text: "鉄のヤリ"
@@ -12,7 +12,7 @@ next:
 
 # 鉄鉱石
 
-素材。**14体**のモンスターが落とします。
+素材。**15体**のモンスターが落とします。
 
 ::: tip ねらい目
 **はじけドーラ**（通常ドロップ・EXP12）。
@@ -36,6 +36,7 @@ next:
 | [スライムファング](/monsters/wildslime) | レア | 2 | [スライム](/species/slime) | 63 | 56 |
 | [スケアフレイル](/monsters/sukeafureiru) | レア | 2 | [ゾンビ](/species/zombie) | 77 | 63 |
 | [ドロザラー](/monsters/dorozara) | 超レア | 1 | [物質](/species/bussitu) | 14 | 6 |
+| [コロマージ](/monsters/wiz_pip) | 超レア | 1 | [悪魔](/species/akuma) | 19 | 9 |
 | [どくろあらい](/monsters/dokuroarai) | 超レア | 2 | [魔獣](/species/majyu) | 38 | 39 |
 
 見出しを押すと並べ替えできます。

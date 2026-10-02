@@ -1,10 +1,10 @@
 ---
 title: 竜のうろこ
-description: DQMVIの「竜のうろこ」を落とすモンスター1体の一覧。いちばん弱いのはドラゴン（超レア・EXP200）。
+description: DQMVIの「竜のうろこ」を落とすモンスター2体の一覧。いちばん弱いのはしっぽ団のキラーマシン（超レア・EXP169）。
 pageClass: wide-page sortable-list
 prev:
-  text: "溶岩石のかけら"
-  link: /drops/yougansekinokakera
+  text: "卵"
+  link: /drops/mc_egg
 next:
   text: "竜のなみだ"
   link: /drops/ryuunonamida
@@ -12,10 +12,10 @@ next:
 
 # 竜のうろこ
 
-盾・アクセサリー。**1体**のモンスターが落とします。
+盾・アクセサリー。**2体**のモンスターが落とします。
 
 ::: tip ねらい目
-**ドラゴン**（超レアドロップ・EXP200）。
+**しっぽ団のキラーマシン**（超レアドロップ・EXP169）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -35,7 +35,8 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
-| [ドラゴン](/monsters/dqmdragon) | 超レア | 4 | [ドラゴン](/species/dragon) | 220 | 200 |
+| [しっぽ団のキラーマシン](/monsters/shippodannokilermachine) | 超レア | 4 | [物質](/species/bussitu) | 197 | 169 |
+| [ドラゴン](/monsters/dqmdragon) | 超レア | 4 | [ドラゴン](/species/dragon) | 221 | 200 |
 
 見出しを押すと並べ替えできます。
 

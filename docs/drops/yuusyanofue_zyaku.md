@@ -3,11 +3,11 @@ title: 勇車の笛(弱)
 description: DQMVIの「勇車の笛(弱)」を落とすモンスター1体の一覧。いちばん弱いのはプチリンガル（通常・EXP22,892）。
 pageClass: wide-page sortable-list
 prev:
-  text: "龍の左眼"
-  link: /drops/ryuunohidarime
+  text: "勇車の笛"
+  link: /drops/yuusyanofue
 next:
-  text: "シャ攻の戦籠手"
-  link: /drops/gauntlet_20_syakou
+  text: "暴走コア"
+  link: /drops/bousoukoa
 ---
 
 # 勇車の笛(弱)

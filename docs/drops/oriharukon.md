@@ -1,6 +1,6 @@
 ---
 title: オリハルコン
-description: DQMVIの「オリハルコン」を落とすモンスター9体の一覧。いちばん弱いのはトロルキング（通常・EXP867）。
+description: DQMVIの「オリハルコン」を落とすモンスター11体の一覧。いちばん弱いのはトロルキング（通常・EXP867）。
 pageClass: wide-page sortable-list
 prev:
   text: "おにのかなぼう"
@@ -12,7 +12,7 @@ next:
 
 # オリハルコン
 
-素材。**9体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **トロルキング**（通常ドロップ・EXP867）。
@@ -28,8 +28,10 @@ next:
 | [パンドラボックス](/monsters/pandorabox) | レア | 7 | [物質](/species/bussitu) | 2,100 | 726 |
 | [トロルボンバー](/monsters/tororubonba) | レア | 7 | [悪魔](/species/akuma) | 2,625 | 752 |
 | [ギガンテス](/monsters/gigantesu) | レア | 7 | [悪魔](/species/akuma) | 2,655 | 766 |
+| [凶ぬしさま](/monsters/kyounusisama) | レア | 7 | [自然](/species/sizen) | 27,800 | 811 |
 | [ドラゴンダーク](/monsters/dragondarknaito) | レア | 7 | [ドラゴン](/species/dragon) | 2,850 | 819 |
 | [ガメゴンレジェンド](/monsters/gamegonrejendo) | レア | 7 | [ドラゴン](/species/dragon) | 2,700 | 822 |
+| [王の墓守](/monsters/king_hakamori_doll) | レア | 7 | [物質](/species/bussitu) | 2,824 | 882 |
 | [デスマーキュリー](/monsters/desumakyuri) | レア | 7 | [物質](/species/bussitu) | 2,777 | 900 |
 | [ブラックドラゴン](/monsters/blackdoragon) | レア | 7 | [ドラゴン](/species/dragon) | 3,124 | 1,033 |
 

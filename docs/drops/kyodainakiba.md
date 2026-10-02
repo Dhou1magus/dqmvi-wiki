@@ -1,6 +1,6 @@
 ---
 title: 巨大な牙
-description: DQMVIの「巨大な牙」を落とすモンスター12体の一覧。いちばん弱いのはおばけキャンドル（通常・EXP42）。
+description: DQMVIの「巨大な牙」を落とすモンスター13体の一覧。いちばん弱いのはおばけキャンドル（通常・EXP42）。
 pageClass: wide-page sortable-list
 prev:
   text: "巨大ナスビナーラの髭"
@@ -12,7 +12,7 @@ next:
 
 # 巨大な牙
 
-素材。**12体**のモンスターが落とします。
+素材。**13体**のモンスターが落とします。
 
 ::: tip ねらい目
 **おばけキャンドル**（通常ドロップ・EXP42）。
@@ -31,8 +31,9 @@ next:
 | [ドラゴン2](/monsters/dragon2) | 通常 | 3 | [ドラゴン](/species/dragon) | 183 | 152 |
 | [バリイドドッグ](/monsters/bariidodog) | 通常 | 5 | [ゾンビ](/species/zombie) | 343 | 219 |
 | [デッドペッカー](/monsters/deddopekka) | 通常 | 5 | [自然](/species/sizen) | 371 | 235 |
+| [しっぽ団のキラーマシン](/monsters/shippodannokilermachine) | レア | 4 | [物質](/species/bussitu) | 197 | 169 |
 | [ホークブリザード](/monsters/hookuburizaado) | レア | 4 | [自然](/species/sizen) | 217 | 171 |
-| [ドラゴン](/monsters/dqmdragon) | レア | 4 | [ドラゴン](/species/dragon) | 220 | 200 |
+| [ドラゴン](/monsters/dqmdragon) | レア | 4 | [ドラゴン](/species/dragon) | 221 | 200 |
 | [スカルガルー](/monsters/skullgaroo) | レア | 5 | [魔獣](/species/majyu) | 364 | 230 |
 | [トレーナースライム](/monsters/trainerslime) | レア | 5 | [スライム](/species/slime) | 574 | 303 |
 

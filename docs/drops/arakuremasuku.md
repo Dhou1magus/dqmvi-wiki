@@ -35,7 +35,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
-| [やつざきアニマル](/monsters/yatuzakianimaru) | 超レア | 4 | [魔獣](/species/majyu) | 202 | 212 |
+| [やつざきアニマル](/monsters/yatuzakianimaru) | 超レア | 4 | [魔獣](/species/majyu) | 203 | 212 |
 
 見出しを押すと並べ替えできます。
 

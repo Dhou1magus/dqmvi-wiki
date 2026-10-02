@@ -3,11 +3,11 @@ title: レッドアーチャーの弓
 description: レッドアーチャーの弓
 pageClass: wide-page sortable-list
 prev:
-  text: "ルビーの原石"
-  link: /drops/ore_rubi
+  text: "サボテンゴールドの棘"
+  link: /drops/sabotengoldnotoge
 next:
-  text: "れんごくの羽根"
-  link: /drops/rengokunohane
+  text: "のろいの岩の槍"
+  link: /drops/noroiiwanoyari
 ---
 
 # レッドアーチャーの弓

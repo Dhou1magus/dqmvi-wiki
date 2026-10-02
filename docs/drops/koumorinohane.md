@@ -1,6 +1,6 @@
 ---
 title: こうもりの羽根
-description: DQMVIの「こうもりの羽根」を落とすモンスター7体の一覧。いちばん弱いのはナイトウイプス（通常・EXP9）。
+description: DQMVIの「こうもりの羽根」を落とすモンスター9体の一覧。いちばん弱いのはナイトウイプス（通常・EXP9）。
 pageClass: wide-page sortable-list
 prev:
   text: "けんじゃの石"
@@ -12,7 +12,7 @@ next:
 
 # こうもりの羽根
 
-素材。**7体**のモンスターが落とします。
+素材。**9体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ナイトウイプス**（通常ドロップ・EXP9）。
@@ -30,6 +30,8 @@ next:
 | [ドラキー](/monsters/doraki) | レア | 2 | [悪魔](/species/akuma) | 38 | 35 |
 | [キングジョーカー](/monsters/kingjoker) | レア | 4 | [スライム](/species/slime) | 175 | 142 |
 | [メイジドラキー](/monsters/meijidoraki) | レア | 4 | [悪魔](/species/akuma) | 176 | 156 |
+| [ゴールデンハンド](/monsters/golden_hand) | レア | 4 | [メタル](/species/metal) | 24 | 1,299 |
+| [メタルハンド](/monsters/metal_hand) | レア | 4 | [メタル](/species/metal) | 23 | 14,466 |
 
 見出しを押すと並べ替えできます。
 

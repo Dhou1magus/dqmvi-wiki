@@ -1,6 +1,6 @@
 ---
 title: ネコ砂
-description: DQMVIの「ネコ砂」を落とすモンスター11体の一覧。いちばん弱いのはドロザラー（通常・EXP6）。
+description: DQMVIの「ネコ砂」を落とすモンスター13体の一覧。いちばん弱いのはドロザラー（通常・EXP6）。
 pageClass: wide-page sortable-list
 prev:
   text: "にじいろの布きれ"
@@ -12,7 +12,7 @@ next:
 
 # ネコ砂
 
-素材。**11体**のモンスターが落とします。
+素材。**13体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ドロザラー**（通常ドロップ・EXP6）。
@@ -33,7 +33,9 @@ next:
 | [スノーモン](/monsters/sunomon) | レア | 2 | [悪魔](/species/akuma) | 36 | 36 |
 | [パペットこぞう](/monsters/papetkozou) | レア | 2 | [特殊](/species/tokusyu) | 43 | 39 |
 | [アンデッドマン](/monsters/undeadman) | レア | 2 | [ゾンビ](/species/zombie) | 64 | 59 |
+| [コロボックル族](/monsters/pips) | レア | 2 | [悪魔](/species/akuma) | 62 | 59 |
 | [ベロニャーゴ](/monsters/beronyaago) | レア | 4 | [魔獣](/species/majyu) | 176 | 143 |
+| [スラ忍ピンク](/monsters/sulaninpink) | レア | 4 | [スライム](/species/slime) | 183 | 187 |
 
 見出しを押すと並べ替えできます。
 

@@ -1,10 +1,10 @@
 ---
 title: てつのクギ
-description: DQMVIの「てつのクギ」を落とすモンスター34体の一覧。いちばん弱いのはスラミチ（通常・EXP87）。
+description: DQMVIの「てつのクギ」を落とすモンスター35体の一覧。いちばん弱いのはスラミチ（通常・EXP87）。
 pageClass: wide-page sortable-list
 prev:
-  text: "つむりんママの貝殻"
-  link: /drops/tumurinmama
+  text: "デスマスク"
+  link: /drops/desumasuku
 next:
   text: "デュークアックス"
   link: /drops/dukeakkusu
@@ -12,7 +12,7 @@ next:
 
 # てつのクギ
 
-素材。**34体**のモンスターが落とします。
+素材。**35体**のモンスターが落とします。
 
 ::: tip ねらい目
 **スラミチ**（通常ドロップ・EXP87）。
@@ -42,7 +42,8 @@ next:
 | [ごくらくちょう](/monsters/gokurakuchou) | 通常 | 6 | [魔獣](/species/majyu) | 969 | 353 |
 | [ダースドラゴン2](/monsters/darthdragon2) | 通常 | 5 | [ドラゴン](/species/dragon) | 627 | 357 |
 | [うらぎりこぞう](/monsters/uragirikozou) | 通常 | 7 | [悪魔](/species/akuma) | 1,665 | 567 |
-| [ボックススライムグリーン](/monsters/boxsuraimu_midori) | レア | 3 | [スライム](/species/slime) | 100 | 95 |
+| [まおうのたまご](/monsters/maounotamago) | 通常 | 7 | [スライム](/species/slime) | 2,601 | 791 |
+| [ボックススライムグリーン](/monsters/boxsuraimu_midori) | レア | 3 | [スライム](/species/slime) | 101 | 95 |
 | [パプリカン](/monsters/papurikan) | レア | 3 | [自然](/species/sizen) | 88 | 98 |
 | [ガルーダ](/monsters/garuda) | レア | 5 | [魔獣](/species/majyu) | 501 | 268 |
 | [メタルハンター１](/monsters/metaruhanta) | レア | 5 | [物質](/species/bussitu) | 476 | 274 |
@@ -56,7 +57,7 @@ next:
 | [おおくちばし](/monsters/ookutibasi) | 超レア | 3 | [自然](/species/sizen) | 96 | 92 |
 | [カパーラナーガ](/monsters/kaparanaga) | 超レア | 3 | [ゾンビ](/species/zombie) | 143 | 100 |
 | [スカルナイト](/monsters/skull_knight) | 超レア | 3 | [ゾンビ](/species/zombie) | 139 | 115 |
-| [ピクシー](/monsters/pikusi) | 超レア | 4 | [悪魔](/species/akuma) | 178 | 147 |
+| [ピクシー](/monsters/pikusi) | 超レア | 4 | [悪魔](/species/akuma) | 179 | 147 |
 
 見出しを押すと並べ替えできます。
 

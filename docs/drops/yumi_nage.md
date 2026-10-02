@@ -1,6 +1,6 @@
 ---
 title: 貴重なレシピ(弓、ブーメラン)
-description: DQMVIの「貴重なレシピ(弓、ブーメラン)」を落とすモンスター3体の一覧。いちばん弱いのはアカイライ（超レア・EXP646）。
+description: DQMVIの「貴重なレシピ(弓、ブーメラン)」を落とすモンスター4体の一覧。いちばん弱いのはアカイライ（超レア・EXP646）。
 pageClass: wide-page sortable-list
 prev:
   text: "貴重なレシピ(メタル、氷)"
@@ -12,7 +12,7 @@ next:
 
 # 貴重なレシピ(弓、ブーメラン)
 
-素材。**3体**のモンスターが落とします。
+素材。**4体**のモンスターが落とします。
 
 ::: tip ねらい目
 **アカイライ**（超レアドロップ・EXP646）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [アカイライ](/monsters/akairai) | 超レア | 7 | [自然](/species/sizen) | 1,650 | 646 |
 | [クイーンスライム](/monsters/kuinsuraimu) | 超レア | 7 | [スライム](/species/slime) | 2,025 | 648 |
+| [ノーライフロード](/monsters/nooraihuroodo) | 超レア | 7 | [ゾンビ](/species/zombie) | 1,918 | 678 |
 | [魔天海フォルネー](/monsters/matenkaiforney) | 超レア | 7 | [自然](/species/sizen) | 1,995 | 777 |
 
 見出しを押すと並べ替えできます。

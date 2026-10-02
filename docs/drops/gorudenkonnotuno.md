@@ -3,11 +3,11 @@ title: ゴールデンコーンの角
 description: ゴールデンコーンの角
 pageClass: wide-page sortable-list
 prev:
-  text: "こおりの結晶"
-  link: /drops/koorinokessyou
+  text: "つむりんママの貝殻"
+  link: /drops/tumurinmama
 next:
-  text: "ゴールドマントの剣"
-  link: /drops/gorudenmantonoken
+  text: "巨大ナスビナーラの髭"
+  link: /drops/kyodainasubiranohige
 ---
 
 # ゴールデンコーンの角

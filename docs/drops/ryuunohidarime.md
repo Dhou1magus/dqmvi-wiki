@@ -3,11 +3,11 @@ title: 龍の左眼
 description: DQMVIの「龍の左眼」を落とすモンスター1体の一覧。いちばん弱いのはゴンズ（通常・EXP20,421）。
 pageClass: wide-page sortable-list
 prev:
-  text: "触手のイヤリング"
-  link: /drops/syokusyunoiyaringu
+  text: "ライバーンリング"
+  link: /drops/raibanringu
 next:
-  text: "勇車の笛(弱)"
-  link: /drops/yuusyanofue_zyaku
+  text: "スライムボックス"
+  link: /drops/suraimubokkusu
 ---
 
 # 龍の左眼

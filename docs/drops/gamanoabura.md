@@ -1,6 +1,6 @@
 ---
 title: ガマのあぶら
-description: DQMVIの「ガマのあぶら」を落とすモンスター53体の一覧。いちばん弱いのはアロエおに（通常・EXP37）。
+description: DQMVIの「ガマのあぶら」を落とすモンスター58体の一覧。いちばん弱いのはアロエおに（通常・EXP37）。
 pageClass: wide-page sortable-list
 prev:
   text: "かがみの石"
@@ -12,7 +12,7 @@ next:
 
 # ガマのあぶら
 
-素材。**53体**のモンスターが落とします。
+素材。**58体**のモンスターが落とします。
 
 ::: tip ねらい目
 **アロエおに**（通常ドロップ・EXP37）。
@@ -29,6 +29,7 @@ next:
 | [ボックススライムレッド](/monsters/boxsuraimu_aka) | 通常 | 2 | [スライム](/species/slime) | 48 | 50 |
 | [おおさそり](/monsters/big_scorpion) | 通常 | 2 | [自然](/species/sizen) | 65 | 50 |
 | [マドハンド](/monsters/madohando) | 通常 | 3 | [物質](/species/bussitu) | 65 | 78 |
+| [レッドドラゴン](/monsters/reddragon) | 通常 | 4 | [ドラゴン](/species/dragon) | 188 | 138 |
 | [かいぞくウーパー](/monsters/kaizokuupa) | 通常 | 4 | [自然](/species/sizen) | 170 | 145 |
 | [ジェリーマン](/monsters/jeriman) | 通常 | 4 | [自然](/species/sizen) | 182 | 148 |
 | [スピンサタン](/monsters/supinsatan) | 通常 | 4 | [物質](/species/bussitu) | 169 | 151 |
@@ -38,11 +39,13 @@ next:
 | [メーダクイン](/monsters/medakuin) | 通常 | 4 | [悪魔](/species/akuma) | 165 | 166 |
 | [アサシンブラッド](/monsters/assassinblood) | 通常 | 4 | [物質](/species/bussitu) | 186 | 167 |
 | [ドロルリッチ](/monsters/dororu_lich) | 通常 | 4 | [ゾンビ](/species/zombie) | 211 | 171 |
+| [ヘルドラード](/monsters/helldorado) | 通常 | 4 | [自然](/species/sizen) | 210 | 174 |
+| [タイラントワーム](/monsters/tyrantworm) | 通常 | 4 | [自然](/species/sizen) | 2,020 | 176 |
 | [チョコタワー](/monsters/chocotower) | 通常 | 4 | [スライム](/species/slime) | 204 | 181 |
+| [スラ忍グリーン](/monsters/sulaningrean) | 通常 | 4 | [スライム](/species/slime) | 195 | 184 |
 | [シュプリンガー](/monsters/springer) | 通常 | 4 | [ドラゴン](/species/dragon) | 184 | 192 |
 | [フレイム](/monsters/fureimu) | 通常 | 5 | [物質](/species/bussitu) | 371 | 219 |
-| [スマイルロック](/monsters/sumairurokku) | 通常 | 5 | [物質](/species/bussitu) | 444 | 250 |
-| [どぐう戦士](/monsters/dgu_fighter) | 通常 | 5 | [物質](/species/bussitu) | 481 | 261 |
+| [スマイルロック](/monsters/sumairurokku) | 通常 | 5 | [物質](/species/bussitu) | 445 | 250 |
 | [モビルフォース](/monsters/mobirufosu) | 通常 | 5 | [物質](/species/bussitu) | 548 | 292 |
 | [エビルプラント](/monsters/ebirupuranto) | 通常 | 5 | [自然](/species/sizen) | 588 | 311 |
 | [キラースター](/monsters/killer_star) | 通常 | 5 | [物質](/species/bussitu) | 564 | 312 |
@@ -76,6 +79,8 @@ next:
 | [たまねぎマン](/monsters/tamanegiman) | 超レア | 2 | [自然](/species/sizen) | 40 | 43 |
 | [ハエおとこ](/monsters/heotoko) | 超レア | 2 | [自然](/species/sizen) | 42 | 47 |
 | [スライムアンノウン](/monsters/slimeunknown) | 超レア | 2 | [物質](/species/bussitu) | 60 | 51 |
+| [プチファイター](/monsters/conkerer) | 超レア | 2 | [悪魔](/species/akuma) | 60 | 58 |
+| [コロボックル族](/monsters/pips) | 超レア | 2 | [悪魔](/species/akuma) | 62 | 59 |
 
 見出しを押すと並べ替えできます。
 

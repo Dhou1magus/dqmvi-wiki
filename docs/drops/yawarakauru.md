@@ -1,10 +1,10 @@
 ---
 title: やわらかウール
-description: DQMVIの「やわらかウール」を落とすモンスター8体の一覧。いちばん弱いのはモーモン（通常・EXP5）。
+description: DQMVIの「やわらかウール」を落とすモンスター10体の一覧。いちばん弱いのはモーモン（通常・EXP5）。
 pageClass: wide-page sortable-list
 prev:
-  text: "もろはのつるぎ"
-  link: /drops/morohanoturugi
+  text: "やみのドラゴンのペンダント"
+  link: /drops/yaminodragonnopendanto
 next:
   text: "よごれた包帯"
   link: /drops/yogoretahoutai
@@ -12,7 +12,7 @@ next:
 
 # やわらかウール
 
-素材。**8体**のモンスターが落とします。
+素材。**10体**のモンスターが落とします。
 
 ::: tip ねらい目
 **モーモン**（通常ドロップ・EXP5）。
@@ -26,9 +26,11 @@ next:
 | [モーモン](/monsters/momon) | 通常 | 1 | [悪魔](/species/akuma) | 12 | 5 |
 | [ギズモ2](/monsters/gizumo) | 通常 | 1 | [物質](/species/bussitu) | 22 | 12 |
 | [スノーモン](/monsters/sunomon) | 通常 | 2 | [悪魔](/species/akuma) | 36 | 36 |
+| [プチヒーロー](/monsters/conkuistador) | 通常 | 2 | [悪魔](/species/akuma) | 67 | 55 |
 | [アンデッドマン](/monsters/undeadman) | 通常 | 2 | [ゾンビ](/species/zombie) | 64 | 59 |
 | [いっかくうさぎ](/monsters/ikkakuusagi) | レア | 1 | [魔獣](/species/majyu) | 18 | 11 |
 | [ギズモ1](/monsters/gizumo_az) | レア | 1 | [物質](/species/bussitu) | 22 | 12 |
+| [コロヒーロー](/monsters/pip_fighter) | レア | 1 | [悪魔](/species/akuma) | 26 | 12 |
 | [ももんじゃ](/monsters/momonja) | レア | 1 | [魔獣](/species/majyu) | 23 | 16 |
 | [マポレーナ](/monsters/maporena) | レア | 5 | [悪魔](/species/akuma) | 343 | 212 |
 

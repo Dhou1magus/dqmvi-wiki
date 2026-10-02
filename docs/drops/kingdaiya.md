@@ -1,10 +1,10 @@
 ---
 title: キングダイヤ
-description: DQMVIの「キングダイヤ」を落とすモンスター23体の一覧。いちばん弱いのはグレイブディガー（通常・EXP914）。
+description: DQMVIの「キングダイヤ」を落とすモンスター26体の一覧。いちばん弱いのはヘルオーディン（通常・EXP852）。
 pageClass: wide-page sortable-list
 prev:
-  text: "キラーパイクのピッケル"
-  link: /drops/kirapaikunopikeru
+  text: "キラーマジンガ討伐の証"
+  link: /drops/kiramajinga
 next:
   text: "キングヒドラの頭"
   link: /drops/kinghidoranoatama
@@ -12,10 +12,10 @@ next:
 
 # キングダイヤ
 
-素材。**23体**のモンスターが落とします。
+素材。**26体**のモンスターが落とします。
 
 ::: tip ねらい目
-**グレイブディガー**（通常ドロップ・EXP914）。
+**ヘルオーディン**（通常ドロップ・EXP852）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -23,19 +23,22 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [ヘルオーディン](/monsters/heruoodexin) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,988 | 852 |
 | [グレイブディガー](/monsters/gureibudiga) | 通常 | 7 | [魔獣](/species/majyu) | 2,775 | 914 |
 | [ダイヤモンドスライム](/monsters/daiyamondosuraimu) | 通常 | 6 | [メタル](/species/metal) | 42 | 80,000 |
 | [キングスライムもどき](/monsters/suraimuking) | レア | 4 | [スライム](/species/slime) | 198 | 148 |
 | [たこまじん](/monsters/takomajin) | レア | 4 | [自然](/species/sizen) | 175 | 159 |
 | [ドロルリッチ](/monsters/dororu_lich) | レア | 4 | [ゾンビ](/species/zombie) | 211 | 171 |
 | [スライムプディング](/monsters/slimepudding) | レア | 4 | [スライム](/species/slime) | 191 | 172 |
-| [ひとくい箱](/monsters/hitokuibako) | レア | 4 | [物質](/species/bussitu) | 184 | 185 |
+| [タイラントワーム](/monsters/tyrantworm) | レア | 4 | [自然](/species/sizen) | 2,020 | 176 |
+| [ひとくい箱](/monsters/hitokuibako) | レア | 4 | [物質](/species/bussitu) | 185 | 185 |
 | [クイーンスライム](/monsters/kuinsuraimu) | レア | 7 | [スライム](/species/slime) | 2,025 | 648 |
+| [キングホイミスライム](/monsters/kinghoimislime) | レア | 7 | [スライム](/species/slime) | 2,041 | 676 |
 | [プチアーノン](/monsters/putianon) | 超レア | 3 | [自然](/species/sizen) | 85 | 86 |
 | [レッドスコーピオン](/monsters/reddosukopion) | 超レア | 3 | [自然](/species/sizen) | 96 | 90 |
 | [パンドラチェスト](/monsters/tansu_pandora) | 超レア | 3 | [物質](/species/bussitu) | 99 | 90 |
 | [やみしばり](/monsters/yamishibari) | 超レア | 3 | [ゾンビ](/species/zombie) | 82 | 93 |
-| [ボックススライムグリーン](/monsters/boxsuraimu_midori) | 超レア | 3 | [スライム](/species/slime) | 100 | 95 |
+| [ボックススライムグリーン](/monsters/boxsuraimu_midori) | 超レア | 3 | [スライム](/species/slime) | 101 | 95 |
 | [シャイニング](/monsters/shainingu) | 超レア | 3 | [物質](/species/bussitu) | 105 | 96 |
 | [ひょうがまじん](/monsters/hyouganmajin) | 超レア | 3 | [物質](/species/bussitu) | 105 | 98 |
 | [パプリカン](/monsters/papurikan) | 超レア | 3 | [自然](/species/sizen) | 88 | 98 |
@@ -44,7 +47,7 @@ next:
 | [おにこんぼう](/monsters/onikonbou) | 超レア | 3 | [ドラゴン](/species/dragon) | 172 | 111 |
 | [ダークプラネット](/monsters/dakupuranetto) | 超レア | 3 | [物質](/species/bussitu) | 123 | 133 |
 | [キングスライム](/monsters/kingsura) | 超レア | 5 | [スライム](/species/slime) | 385 | 241 |
-| [ツボック](/monsters/tubokku) | 超レア | 5 | [特殊](/species/tokusyu) | 430 | 264 |
+| [ツボック](/monsters/tubokku) | 超レア | 5 | [特殊](/species/tokusyu) | 431 | 264 |
 | [スライムエンペラー](/monsters/slimeemperor) | 超レア | 5 | [スライム](/species/slime) | 467 | 298 |
 
 見出しを押すと並べ替えできます。

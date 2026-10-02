@@ -3,11 +3,11 @@ title: ましょうぐものエキス
 description: ましょうぐものエキス
 pageClass: wide-page sortable-list
 prev:
-  text: "まじゅうの皮"
-  link: /drops/majuunokawa
+  text: "グレイトドラゴン・雲の牙"
+  link: /drops/gureitodoragonkumonokiba
 next:
-  text: "まじんのかなづち"
-  link: /drops/majinnokanaduti
+  text: "グランシーザーの髭"
+  link: /drops/guransizanohige
 ---
 
 # ましょうぐものエキス

@@ -1,6 +1,6 @@
 ---
 title: あまつゆの糸
-description: DQMVIの「あまつゆの糸」を落とすモンスター14体の一覧。いちばん弱いのはマクロベータ（通常・EXP453）。
+description: DQMVIの「あまつゆの糸」を落とすモンスター16体の一覧。いちばん弱いのはマクロベータ（通常・EXP453）。
 pageClass: wide-page sortable-list
 prev:
   text: "アトラスの大金槌"
@@ -12,7 +12,7 @@ next:
 
 # あまつゆの糸
 
-素材。**14体**のモンスターが落とします。
+素材。**16体**のモンスターが落とします。
 
 ::: tip ねらい目
 **マクロベータ**（通常ドロップ・EXP453）。
@@ -28,6 +28,8 @@ next:
 | [ミステリドール](/monsters/mystery_doll) | 通常 | 6 | [物質](/species/bussitu) | 1,375 | 466 |
 | [ほうおう](/monsters/houou) | 通常 | 7 | [魔獣](/species/majyu) | 1,809 | 588 |
 | [ダースギズモ](/monsters/dgizumo) | 通常 | 7 | [物質](/species/bussitu) | 1,785 | 593 |
+| [シーバーン](/monsters/seavern) | 通常 | 7 | [ドラゴン](/species/dragon) | 2,633 | 828 |
+| [王の墓守](/monsters/king_hakamori_doll) | 通常 | 7 | [物質](/species/bussitu) | 2,824 | 882 |
 | [エルダースライム](/monsters/elderslime) | レア | 6 | [スライム](/species/slime) | 1,548 | 428 |
 | [マスタースライム](/monsters/masterslime) | レア | 6 | [スライム](/species/slime) | 1,130 | 435 |
 | [ホタテワラビー](/monsters/hotatewarabi) | 超レア | 6 | [魔獣](/species/majyu) | 880 | 314 |

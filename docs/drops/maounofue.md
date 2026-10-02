@@ -3,11 +3,11 @@ title: 魔王の笛
 description: DQMVIの「魔王の笛」を落とすモンスター1体の一覧。いちばん弱いのは大魔王オン・ゾ・エーグ（通常・EXP6,423,533）。
 pageClass: wide-page sortable-list
 prev:
-  text: "修羅の指環"
-  link: /drops/syuranoyubiwa
+  text: "サクラの指輪"
+  link: /drops/sakuranoyubiwa
 next:
-  text: "ピサロの剣"
-  link: /drops/pisaronoken
+  text: "勇車の笛"
+  link: /drops/yuusyanofue
 ---
 
 # 魔王の笛

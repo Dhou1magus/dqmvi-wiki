@@ -3,11 +3,11 @@ title: 巨大ナスビナーラの髭
 description: 巨大ナスビナーラの髭
 pageClass: wide-page sortable-list
 prev:
-  text: "貴重なレシピ(魔法)"
-  link: /drops/mahou
+  text: "ゴールデンコーンの角"
+  link: /drops/gorudenkonnotuno
 next:
-  text: "巨大な牙"
-  link: /drops/kyodainakiba
+  text: "ゲノミーの触手"
+  link: /drops/genominosyokusyu
 ---
 
 # 巨大ナスビナーラの髭

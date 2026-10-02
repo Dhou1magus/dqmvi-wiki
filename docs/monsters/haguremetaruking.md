@@ -5,8 +5,8 @@ prev:
   text: "メタルスター"
   link: /monsters/metalstar
 next:
-  text: "大魔王オン・ゾ・エーグ"
-  link: /monsters/flucifer
+  text: "エスターク"
+  link: /monsters/esterk_big
 ---
 
 # はぐれメタルキング
@@ -30,7 +30,7 @@ EXP | 500,000
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 713 |
+| 図鑑No. | 779 |
 | ランク | 7 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼夜 |

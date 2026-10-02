@@ -6,8 +6,8 @@ prev:
   text: "風切りの羽根"
   link: /drops/kazekirinohane
 next:
-  text: "磨き砂"
-  link: /drops/migakizuna
+  text: "暴走コア"
+  link: /drops/bousoukoa
 ---
 
 # 風切りの弓
@@ -35,7 +35,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [グール](/monsters/guru) | 超レア | 4 | [ゾンビ](/species/zombie) | 180 | 142 |
-| [アローインプ](/monsters/aroinpu) | 超レア | 4 | [悪魔](/species/akuma) | 178 | 154 |
+| [アローインプ](/monsters/aroinpu) | 超レア | 4 | [悪魔](/species/akuma) | 179 | 154 |
 | [ディアブラダ](/monsters/dexiaburada) | 超レア | 4 | [悪魔](/species/akuma) | 161 | 156 |
 | [おばけトマト](/monsters/obaketomato) | 超レア | 4 | [自然](/species/sizen) | 171 | 164 |
 

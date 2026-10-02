@@ -26,10 +26,10 @@ next:
 | [がいこつ](/monsters/gaikotu) | 通常 | 4 | [ゾンビ](/species/zombie) | 168 | 163 |
 | [デビルアンカー](/monsters/devil_anchor) | 通常 | 4 | [物質](/species/bussitu) | 205 | 194 |
 | [がいこつけんし](/monsters/gaikotukensi) | 通常 | 5 | [ゾンビ](/species/zombie) | 329 | 225 |
+| [アンドレアル](/monsters/rashaverak) | 通常 | 5 | [ドラゴン](/species/dragon) | 434 | 231 |
 | [しりょう](/monsters/siryou) | 通常 | 5 | [ゾンビ](/species/zombie) | 378 | 246 |
 | [メラゴースト](/monsters/meragosuto) | レア | 2 | [ゾンビ](/species/zombie) | 36 | 34 |
 | [おばけキャンドル](/monsters/obakekyandoru) | レア | 2 | [物質](/species/bussitu) | 37 | 42 |
-| [がいこつけんし](/monsters/gaikotukensi) | レア | 5 | [ゾンビ](/species/zombie) | 329 | 225 |
 | [ソルジャーブル](/monsters/soldier_bull) | レア | 5 | [魔獣](/species/majyu) | 595 | 304 |
 | [メタルリザード](/monsters/metarurizaado) | レア | 2 | [メタル](/species/metal) | 8 | 3,366 |
 | [くらやみハーピー](/monsters/succubat) | 超レア | 1 | [悪魔](/species/akuma) | 26 | 13 |

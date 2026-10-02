@@ -5,8 +5,8 @@ prev:
   text: "スラ忍ブルー"
   link: /monsters/sulaninblue
 next:
-  text: "アカツキショウグン"
-  link: /monsters/akatsuki_shogun
+  text: "しっぽ団のキラーマシン"
+  link: /monsters/shippodannokilermachine
 ---
 
 # スラ忍レッド
@@ -30,7 +30,7 @@ EXP | 188
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 421 |
+| 図鑑No. | 446 |
 | ランク | 4 |
 | 系統 | [スライム系](/species/slime) |
 | 活動時間 | 夜のみ |

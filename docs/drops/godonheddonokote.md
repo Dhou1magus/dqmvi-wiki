@@ -3,11 +3,11 @@ title: ゴードンヘッドの小手
 description: ゴードンヘッドの小手
 pageClass: wide-page sortable-list
 prev:
-  text: "こうもりの羽根"
-  link: /drops/koumorinohane
+  text: "ピサロナイトの鎧"
+  link: /drops/pisaronaitonoyoroi
 next:
-  text: "こおりの結晶"
-  link: /drops/koorinokessyou
+  text: "しろバラのきしの兜"
+  link: /drops/sirobaranokisinokabuto
 ---
 
 # ゴードンヘッドの小手

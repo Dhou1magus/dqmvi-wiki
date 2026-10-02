@@ -1,6 +1,6 @@
 ---
 title: 貴重なレシピ(斧、槌、棍)
-description: DQMVIの「貴重なレシピ(斧、槌、棍)」を落とすモンスター4体の一覧。いちばん弱いのはバトルレックス（超レア・EXP675）。
+description: DQMVIの「貴重なレシピ(斧、槌、棍)」を落とすモンスター5体の一覧。いちばん弱いのはバトルレックス（超レア・EXP675）。
 pageClass: wide-page sortable-list
 prev:
   text: "貴重なレシピ(破壊)"
@@ -12,7 +12,7 @@ next:
 
 # 貴重なレシピ(斧、槌、棍)
 
-素材。**4体**のモンスターが落とします。
+素材。**5体**のモンスターが落とします。
 
 ::: tip ねらい目
 **バトルレックス**（超レアドロップ・EXP675）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [バトルレックス](/monsters/batorurex) | 超レア | 7 | [ドラゴン](/species/dragon) | 1,800 | 675 |
 | [ギーグハンマー](/monsters/giguhanma) | 超レア | 7 | [ドラゴン](/species/dragon) | 3,125 | 702 |
+| [オーシャンボーン](/monsters/oceanbone) | 超レア | 7 | [自然](/species/sizen) | 24,600 | 722 |
 | [ギガンテス](/monsters/gigantesu) | 超レア | 7 | [悪魔](/species/akuma) | 2,655 | 766 |
 | [デーモンアミゴ](/monsters/demonamigo) | 超レア | 7 | [悪魔](/species/akuma) | 3,312 | 859 |
 

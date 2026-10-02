@@ -1,6 +1,6 @@
 ---
 title: 白いかいがら
-description: DQMVIの「白いかいがら」を落とすモンスター15体の一覧。いちばん弱いのはズッキーニャ（通常・EXP5）。
+description: DQMVIの「白いかいがら」を落とすモンスター16体の一覧。いちばん弱いのはズッキーニャ（通常・EXP5）。
 pageClass: wide-page sortable-list
 prev:
   text: "破毒のリング"
@@ -12,7 +12,7 @@ next:
 
 # 白いかいがら
 
-素材。**15体**のモンスターが落とします。
+素材。**16体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ズッキーニャ**（通常ドロップ・EXP5）。
@@ -27,7 +27,7 @@ next:
 | [タコメット](/monsters/takometto) | 通常 | 2 | [自然](/species/sizen) | 35 | 40 |
 | [ウパパロン](/monsters/upaparon) | 通常 | 2 | [自然](/species/sizen) | 45 | 41 |
 | [シールドこぞう](/monsters/sirudokozou) | 通常 | 2 | [物質](/species/bussitu) | 40 | 51 |
-| [マリンスライム](/monsters/marinsuraimu) | 通常 | 4 | [スライム](/species/slime) | 178 | 167 |
+| [マリンスライム](/monsters/marinsuraimu) | 通常 | 4 | [スライム](/species/slime) | 179 | 167 |
 | [くらやみハーピー](/monsters/succubat) | レア | 1 | [悪魔](/species/akuma) | 26 | 13 |
 | [つちわらし](/monsters/tutiwarasi) | レア | 1 | [ゾンビ](/species/zombie) | 25 | 14 |
 | [ポンコツ兵](/monsters/ponkotuhei) | レア | 1 | [物質](/species/bussitu) | 26 | 17 |
@@ -35,6 +35,7 @@ next:
 | [ぬかどこスライム](/monsters/pickledslime) | レア | 2 | [スライム](/species/slime) | 45 | 42 |
 | [しびれくらげ](/monsters/sibirekurage) | レア | 2 | [スライム](/species/slime) | 53 | 45 |
 | [ベル](/monsters/bell) | レア | 2 | [物質](/species/bussitu) | 63 | 45 |
+| [しっぽ団のいっかくうさぎ](/monsters/bunicorn_shippodan) | レア | 2 | [魔獣](/species/majyu) | 64 | 50 |
 | [ストーンスライム](/monsters/rubbleslime) | レア | 2 | [スライム](/species/slime) | 54 | 52 |
 | [スピンスライム](/monsters/spinslime) | レア | 2 | [スライム](/species/slime) | 62 | 52 |
 | [かくとうパンサー](/monsters/kakutoupansa) | レア | 2 | [魔獣](/species/majyu) | 66 | 60 |

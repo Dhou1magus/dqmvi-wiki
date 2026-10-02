@@ -6,8 +6,8 @@ prev:
   text: "神獣王の籠手"
   link: /drops/shinjuuounokote
 next:
-  text: "やみのころも"
-  link: /drops/yaminokoromo
+  text: "シールドあにきの盾"
+  link: /drops/sirudoanikinotate
 ---
 
 # 神獣王のレギンス

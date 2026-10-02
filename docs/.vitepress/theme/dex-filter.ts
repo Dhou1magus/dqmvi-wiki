@@ -74,7 +74,7 @@ function buildBar(table: HTMLTableElement, kinds: Kinds): HTMLElement | null {
 
   const empty = document.createElement('p')
   empty.className = 'dex-empty'
-  empty.textContent = 'この条件にあてはまるモンスターはいないか、ネタバレになる可能性があるため掲載を控えています。'
+  empty.textContent = 'この条件にあてはまるモンスターはいません。'
   empty.hidden = true
 
   const apply = () => {

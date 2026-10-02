@@ -3,11 +3,11 @@ title: 神獣王の戦篭手
 description: DQMVIの「神獣王の戦篭手」を落とすモンスター1体の一覧。いちばん弱いのは神獣王WORLD（通常・EXP6,238,631）。
 pageClass: wide-page sortable-list
 prev:
-  text: "勇車の笛"
-  link: /drops/yuusyanofue
+  text: "トイガン"
+  link: /drops/toigan
 next:
-  text: "神獣王の兜"
-  link: /drops/shinjuuounokabuto
+  text: "シャ攻の戦籠手"
+  link: /drops/gauntlet_20_syakou
 ---
 
 # 神獣王の戦篭手

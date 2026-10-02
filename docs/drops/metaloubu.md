@@ -1,6 +1,6 @@
 ---
 title: メタルオーブ
-description: DQMVIの「メタルオーブ」を落とすモンスター7体の一覧。いちばん弱いのはメタルスター（通常・EXP700,000）。
+description: DQMVIの「メタルオーブ」を落とすモンスター8体の一覧。いちばん弱いのはメタルスター（通常・EXP700,000）。
 pageClass: wide-page sortable-list
 prev:
   text: "メイジキメラのはね"
@@ -12,7 +12,7 @@ next:
 
 # メタルオーブ
 
-素材。**7体**のモンスターが落とします。
+素材。**8体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メタルスター**（通常ドロップ・EXP700,000）。
@@ -24,6 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [メタルスター](/monsters/metalstar) | 通常 | 7 | [メタル](/species/metal) | 165 | 700,000 |
+| [メタルゴッデス2](/monsters/metalgoddes2) | 通常 | 7 | [メタル](/species/metal) | 158 | 880,000 |
 | [メタルキング](/monsters/metaking) | レア | 5 | [メタル](/species/metal) | 35 | 44,500 |
 | [メタルカイザー](/monsters/metalkaiser) | レア | 5 | [メタル](/species/metal) | 34 | 51,405 |
 | [ダイヤモンドスライム](/monsters/daiyamondosuraimu) | レア | 6 | [メタル](/species/metal) | 42 | 80,000 |

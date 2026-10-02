@@ -1,6 +1,6 @@
 ---
 title: ブラウニー
-description: DQMVIのモンスター「ブラウニー」のステータス。HP75 / こうげき55.2 / しゅび41 / 経験値93 / 19G。
+description: DQMVIのモンスター「ブラウニー」のステータス。HP75 / こうげき55 / しゅび41 / 経験値93 / 19G。
 prev:
   text: "アニマルゾンビ"
   link: /monsters/animaruzonbi
@@ -30,7 +30,7 @@ EXP | 93
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 193 |
+| 図鑑No. | 208 |
 | ランク | 3 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 昼のみ |

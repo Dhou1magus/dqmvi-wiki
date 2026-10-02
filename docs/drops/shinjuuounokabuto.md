@@ -3,8 +3,8 @@ title: 神獣王の兜
 description: DQMVIの「神獣王の兜」を落とすモンスター1体の一覧。いちばん弱いのは神獣王WORLD（通常・EXP6,238,631）。
 pageClass: wide-page sortable-list
 prev:
-  text: "神獣王の戦篭手"
-  link: /drops/gauntlet_19_shinjuuou
+  text: "シドのゴーグル"
+  link: /drops/sidonogoguru
 next:
   text: "神獣王の鎧"
   link: /drops/shinjuuounoyoroi

@@ -3,11 +3,11 @@ title: りゅうおうもどきの尻尾
 description: りゅうおうもどきの尻尾
 pageClass: wide-page sortable-list
 prev:
-  text: "リサイクルストーン"
-  link: /drops/risaikurusuton
+  text: "聖銀の拳"
+  link: /drops/seiginnokobusi
 next:
-  text: "リンゴ"
-  link: /drops/mc_apple
+  text: "魔獣イギュアの爪"
+  link: /drops/majuuigyuanotume
 ---
 
 # りゅうおうもどきの尻尾

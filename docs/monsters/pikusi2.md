@@ -1,6 +1,6 @@
 ---
 title: ピクシー2
-description: DQMVIのモンスター「ピクシー2」のステータス。HP45 / こうげき26.23 / しゅび15 / 経験値41 / 8G。
+description: DQMVIのモンスター「ピクシー2」のステータス。HP45 / こうげき26 / しゅび15 / 経験値41 / 8G。
 prev:
   text: "黄泉の花"
   link: /monsters/yominohana
@@ -30,7 +30,7 @@ EXP | 41
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 115 |
+| 図鑑No. | 121 |
 | ランク | 2 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

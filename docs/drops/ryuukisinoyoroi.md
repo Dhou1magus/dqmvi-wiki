@@ -3,11 +3,11 @@ title: 竜騎士の鎧
 description: DQMVIの「竜騎士の鎧」を落とすモンスター1体の一覧。いちばん弱いのはキラーアーマー（超レア・EXP739）。
 pageClass: wide-page sortable-list
 prev:
-  text: "竜の火酒"
-  link: /drops/ryuunohizake
+  text: "竜王討伐の証"
+  link: /drops/ryuuou
 next:
-  text: "力の種"
-  link: /drops/tikaranotane
+  text: "龍の左眼"
+  link: /drops/ryuunohidarime
 ---
 
 # 竜騎士の鎧

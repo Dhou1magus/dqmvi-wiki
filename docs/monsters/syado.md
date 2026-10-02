@@ -1,6 +1,6 @@
 ---
 title: シャドー
-description: DQMVIのモンスター「シャドー」のステータス。HP52 / こうげき28.08 / しゅび14 / 経験値43 / 9G。
+description: DQMVIのモンスター「シャドー」のステータス。HP52 / こうげき28 / しゅび14 / 経験値43 / 9G。
 prev:
   text: "メトロゴースト"
   link: /monsters/metoroghost
@@ -30,7 +30,7 @@ EXP | 43
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 105 |
+| 図鑑No. | 111 |
 | ランク | 2 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 夜のみ |

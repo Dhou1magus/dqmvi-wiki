@@ -1,6 +1,6 @@
 ---
 title: 月のダイヤ
-description: DQMVIの「月のダイヤ」を落とすモンスター19体の一覧。いちばん弱いのはオカルトビスク（通常・EXP143）。
+description: DQMVIの「月のダイヤ」を落とすモンスター23体の一覧。いちばん弱いのはオカルトビスク（通常・EXP143）。
 pageClass: wide-page sortable-list
 prev:
   text: "形見の首飾り"
@@ -12,7 +12,7 @@ next:
 
 # 月のダイヤ
 
-素材。**19体**のモンスターが落とします。
+素材。**23体**のモンスターが落とします。
 
 ::: tip ねらい目
 **オカルトビスク**（通常ドロップ・EXP143）。
@@ -31,8 +31,11 @@ next:
 | [ボックススライムオレンジ](/monsters/boxsuraimu) | レア | 4 | [スライム](/species/slime) | 183 | 160 |
 | [モビルボディ](/monsters/mobirubodexi) | レア | 4 | [物質](/species/bussitu) | 199 | 165 |
 | [アイアンクック](/monsters/aiankukku) | レア | 4 | [物質](/species/bussitu) | 188 | 166 |
+| [スラ忍オレンジ](/monsters/sulaninorange) | レア | 4 | [スライム](/species/slime) | 194 | 173 |
+| [スラ忍グリーン](/monsters/sulaningrean) | レア | 4 | [スライム](/species/slime) | 195 | 184 |
 | [クリスタルスライム](/monsters/crystalslime) | レア | 4 | [スライム](/species/slime) | 198 | 199 |
 | [ドルイド](/monsters/doruido) | レア | 5 | [悪魔](/species/akuma) | 486 | 254 |
+| [ブラッドミスト](/monsters/bloodmist) | レア | 5 | [物質](/species/bussitu) | 447 | 288 |
 | [ダークサキュバス](/monsters/sepreme_succubat) | レア | 5 | [悪魔](/species/akuma) | 627 | 316 |
 | [デスジャッカル](/monsters/desujakkaru) | レア | 6 | [ゾンビ](/species/zombie) | 944 | 377 |
 | [スカルドン](/monsters/skuldon) | レア | 5 | [ドラゴン](/species/dragon) | 661 | 389 |
@@ -41,7 +44,8 @@ next:
 | [あくまのきし](/monsters/akumanokisi) | レア | 6 | [悪魔](/species/akuma) | 1,521 | 542 |
 | [タールキング](/monsters/tarking) | 超レア | 4 | [スライム](/species/slime) | 177 | 140 |
 | [スピンサタン](/monsters/supinsatan) | 超レア | 4 | [物質](/species/bussitu) | 169 | 151 |
-| [ひとくい箱](/monsters/hitokuibako) | 超レア | 4 | [物質](/species/bussitu) | 184 | 185 |
+| [デスプリースト](/monsters/desupuriisuto) | 超レア | 4 | [ゾンビ](/species/zombie) | 179 | 160 |
+| [ひとくい箱](/monsters/hitokuibako) | 超レア | 4 | [物質](/species/bussitu) | 185 | 185 |
 
 見出しを押すと並べ替えできます。
 

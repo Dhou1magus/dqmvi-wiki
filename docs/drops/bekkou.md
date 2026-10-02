@@ -39,13 +39,13 @@ next:
 | [バベルボブル](/monsters/baberuboburu) | 通常 | 3 | [物質](/species/bussitu) | 102 | 98 |
 | [しびくらベス](/monsters/shibikurabes) | 通常 | 3 | [スライム](/species/slime) | 96 | 100 |
 | [しにがみ](/monsters/meanspirit) | 通常 | 3 | [ゾンビ](/species/zombie) | 145 | 105 |
+| [ベビーパンサー2](/monsters/baby_panther_2) | 通常 | 3 | [魔獣](/species/majyu) | 152 | 119 |
 | [ゴールドエンゼル](/monsters/goldangel) | 通常 | 3 | [メタル](/species/metal) | 14 | 121 |
 | [ゴールドパール](/monsters/goldpearl) | 通常 | 3 | [メタル](/species/metal) | 142 | 121 |
 | [ベンガルクーン](/monsters/bengarukun) | 通常 | 3 | [魔獣](/species/majyu) | 98 | 128 |
 | [よろいのきし](/monsters/yoroinokisi) | 通常 | 3 | [悪魔](/species/akuma) | 140 | 132 |
 | [あくまのツボ](/monsters/akumanotubo) | 通常 | 4 | [特殊](/species/tokusyu) | 165 | 182 |
 | [メカバーン](/monsters/mekaban) | 通常 | 5 | [物質](/species/bussitu) | 469 | 279 |
-| [プレミアムスライム](/monsters/puremiasuraimu) | レア | 2 | [スライム](/species/slime) | 45 | 40 |
 | [ウィッチレディ](/monsters/whicchiredi) | レア | 2 | [悪魔](/species/akuma) | 50 | 47 |
 | [スライムコロネ](/monsters/goonachegoodie) | レア | 2 | [スライム](/species/slime) | 45 | 54 |
 | [スライムタワー](/monsters/suraimutawa) | レア | 3 | [スライム](/species/slime) | 70 | 86 |

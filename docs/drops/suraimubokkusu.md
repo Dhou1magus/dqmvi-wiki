@@ -3,11 +3,11 @@ title: スライムボックス
 description: DQMVIの「スライムボックス」を落とすモンスター1体の一覧。いちばん弱いのはモモンジャガー（通常・EXP21,642）。
 pageClass: wide-page sortable-list
 prev:
-  text: "ピサロの剣"
-  link: /drops/pisaronoken
+  text: "龍の左眼"
+  link: /drops/ryuunohidarime
 next:
-  text: "勇車の笛"
-  link: /drops/yuusyanofue
+  text: "触手のイヤリング"
+  link: /drops/syokusyunoiyaringu
 ---
 
 # スライムボックス

@@ -3,11 +3,11 @@ title: ピサロの剣
 description: DQMVIの「ピサロの剣」を落とすモンスター1体の一覧。いちばん弱いのは魔剣士ピサロ（通常・EXP6,745,248）。
 pageClass: wide-page sortable-list
 prev:
-  text: "魔王の笛"
-  link: /drops/maounofue
+  text: "デス・キャロット"
+  link: /drops/desukyarotto
 next:
-  text: "スライムボックス"
-  link: /drops/suraimubokkusu
+  text: "スラブラスター"
+  link: /drops/suraburasuta
 ---
 
 # ピサロの剣

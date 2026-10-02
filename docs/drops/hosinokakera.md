@@ -1,6 +1,6 @@
 ---
 title: ほしのカケラ
-description: DQMVIの「ほしのカケラ」を落とすモンスター5体の一覧。いちばん弱いのはボックススライムオレンジ（通常・EXP160）。
+description: DQMVIの「ほしのカケラ」を落とすモンスター6体の一覧。いちばん弱いのはボックススライムオレンジ（通常・EXP160）。
 pageClass: wide-page sortable-list
 prev:
   text: "ヘビのぬけがら"
@@ -12,7 +12,7 @@ next:
 
 # ほしのカケラ
 
-素材。**5体**のモンスターが落とします。
+素材。**6体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ボックススライムオレンジ**（通常ドロップ・EXP160）。
@@ -27,7 +27,8 @@ next:
 | [アイアンクック](/monsters/aiankukku) | 通常 | 4 | [物質](/species/bussitu) | 188 | 166 |
 | [スライムプディング](/monsters/slimepudding) | 通常 | 4 | [スライム](/species/slime) | 191 | 172 |
 | [スラ忍レッド](/monsters/sulaninred) | 通常 | 4 | [スライム](/species/slime) | 191 | 188 |
-| [マリンスライム](/monsters/marinsuraimu) | レア | 4 | [スライム](/species/slime) | 178 | 167 |
+| [マリンスライム](/monsters/marinsuraimu) | レア | 4 | [スライム](/species/slime) | 179 | 167 |
+| [スラ忍パープル](/monsters/sulaninpurple) | レア | 4 | [スライム](/species/slime) | 188 | 170 |
 
 見出しを押すと並べ替えできます。
 

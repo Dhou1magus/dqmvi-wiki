@@ -1,6 +1,6 @@
 ---
 title: おおきづち
-description: DQMVIのモンスター「おおきづち」のステータス。HP42 / こうげき28.08 / しゅび12 / 経験値40 / 8G。
+description: DQMVIのモンスター「おおきづち」のステータス。HP42 / こうげき28 / しゅび12 / 経験値40 / 8G。
 prev:
   text: "きりかぶおばけ"
   link: /monsters/kirikabuobake
@@ -30,7 +30,7 @@ EXP | 40
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 83 |
+| 図鑑No. | 89 |
 | ランク | 2 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 昼のみ |

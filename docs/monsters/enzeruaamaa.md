@@ -2,8 +2,8 @@
 title: エンゼルアーマー
 description: DQMVIのモンスター「エンゼルアーマー」のステータス。HP17,423 / こうげき576 / しゅび266 / 経験値32,464 / 4,567G。
 prev:
-  text: "まんじゅシャモン"
-  link: /monsters/manzyusyamon
+  text: "凶アンドレアル"
+  link: /monsters/kyourashaverak
 next:
   text: "タイプG"
   link: /monsters/taipug
@@ -30,7 +30,7 @@ EXP | 32,464
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 621 |
+| 図鑑No. | 682 |
 | ランク | 6 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 夜のみ |

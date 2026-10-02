@@ -2,8 +2,8 @@
 title: 大魔王オン・ゾ・エーグ
 description: DQMVIのモンスター「大魔王オン・ゾ・エーグ」のステータス。HP500,000 / こうげき7,324 / しゅび6,342 / 経験値6,423,533 / 1,245,778G。
 prev:
-  text: "はぐれメタルキング"
-  link: /monsters/haguremetaruking
+  text: "全てを超越せし者"
+  link: /monsters/god
 next:
   text: "魔剣士ピサロ"
   link: /monsters/psaro
@@ -30,7 +30,7 @@ EXP | 6,423,533
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 730 |
+| 図鑑No. | 796 |
 | 系統 | [特殊系](/species/tokusyu) |
 | 活動時間 | 昼夜 |
 | 弱点 | 強（呪文が効きにくい） |

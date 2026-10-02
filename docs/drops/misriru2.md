@@ -30,7 +30,7 @@ next:
 | [キングレオⅡ](/monsters/kingreo2) | レア | 6 | [魔獣](/species/majyu) | 1,440 | 482 |
 | [ガニラス](/monsters/ganirasu) | 超レア | 6 | [自然](/species/sizen) | 960 | 376 |
 | [カラミティサン](/monsters/karamithisan) | 超レア | 6 | [物質](/species/bussitu) | 1,156 | 399 |
-| [キースドラゴン](/monsters/kisudragon) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,264 | 418 |
+| [ロードコープス](/monsters/roodokoopusu) | 超レア | 6 | [ゾンビ](/species/zombie) | 1,116 | 405 |
 | [エルダースライム](/monsters/elderslime) | 超レア | 6 | [スライム](/species/slime) | 1,548 | 428 |
 | [暗黒の使い](/monsters/ankokunotsukai) | 超レア | 6 | [ゾンビ](/species/zombie) | 1,407 | 434 |
 | [マスタースライム](/monsters/masterslime) | 超レア | 6 | [スライム](/species/slime) | 1,130 | 435 |

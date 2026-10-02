@@ -2,8 +2,8 @@
 title: キラーピッケル
 description: DQMVIのモンスター「キラーピッケル」のステータス。HP1,309 / こうげき110 / しゅび88 / 経験値2,120 / 424G。
 prev:
-  text: "メタルドラゴン"
-  link: /monsters/metarudoragon
+  text: "グリーンドラゴン"
+  link: /monsters/greandragon
 next:
   text: "とげこんぼう"
   link: /monsters/togekonbou
@@ -30,7 +30,7 @@ EXP | 2,120
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 300 |
+| 図鑑No. | 323 |
 | ランク | 3 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 夜のみ |

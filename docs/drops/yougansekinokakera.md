@@ -3,11 +3,11 @@ title: 溶岩石のかけら
 description: DQMVIの「溶岩石のかけら」を落とすモンスター1体の一覧。いちばん弱いのはようがんまじん（レア・EXP285）。
 pageClass: wide-page sortable-list
 prev:
-  text: "薬草(HP+30)"
-  link: /drops/yakusou
+  text: "勇車の笛(弱)"
+  link: /drops/yuusyanofue_zyaku
 next:
-  text: "竜のうろこ"
-  link: /drops/ryuunouroko
+  text: "卵"
+  link: /drops/mc_egg
 ---
 
 # 溶岩石のかけら
@@ -23,7 +23,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
-| [ようがんまじん](/monsters/youganmajin) | レア | 5 | [物質](/species/bussitu) | 556 | 285 |
+| [ようがんまじん](/monsters/youganmajin) | レア | 5 | [物質](/species/bussitu) | 557 | 285 |
 
 見出しを押すと並べ替えできます。
 

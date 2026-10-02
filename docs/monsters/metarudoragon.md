@@ -5,8 +5,8 @@ prev:
   text: "しっぽ団のブラウニー"
   link: /monsters/brownie_shippodan
 next:
-  text: "キラーピッケル"
-  link: /monsters/kirapike
+  text: "しっぽ団のアルミラージ"
+  link: /monsters/spikedhare_shippodan
 ---
 
 # メタルドラゴン
@@ -30,7 +30,7 @@ EXP | 93
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 299 |
+| 図鑑No. | 314 |
 | ランク | 3 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

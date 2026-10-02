@@ -3,11 +3,11 @@ title: キラーパイクのピッケル
 description: キラーパイクのピッケル
 pageClass: wide-page sortable-list
 prev:
-  text: "キラートーチのトーチ"
-  link: /drops/kiratotinototi
+  text: "ピンクボンボンの爪"
+  link: /drops/pinkbonbonnotume
 next:
-  text: "キングダイヤ"
-  link: /drops/kingdaiya
+  text: "とげこんぼうの棍棒"
+  link: /drops/togekonbounokonbou
 ---
 
 # キラーパイクのピッケル

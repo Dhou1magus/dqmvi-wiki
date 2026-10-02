@@ -1,6 +1,6 @@
 ---
 title: ドラゴンキラー
-description: DQMVIの「ドラゴンキラー」を落とすモンスター6体の一覧。いちばん弱いのはエレフローパー（超レア・EXP287）。
+description: DQMVIの「ドラゴンキラー」を落とすモンスター7体の一覧。いちばん弱いのはエレフローパー（超レア・EXP287）。
 pageClass: wide-page sortable-list
 prev:
   text: "トゲトゲの牙"
@@ -12,7 +12,7 @@ next:
 
 # ドラゴンキラー
 
-武器。**6体**のモンスターが落とします。
+武器。**7体**のモンスターが落とします。
 
 ::: tip ねらい目
 **エレフローパー**（超レアドロップ・EXP287）。
@@ -38,6 +38,7 @@ next:
 | [まかいファイター](/monsters/commandragor) | 超レア | 5 | [ドラゴン](/species/dragon) | 555 | 304 |
 | [ソルジャーブル](/monsters/soldier_bull) | 超レア | 5 | [魔獣](/species/majyu) | 595 | 304 |
 | [ドラゴンナイト](/monsters/dragonnaito) | 超レア | 5 | [ドラゴン](/species/dragon) | 574 | 311 |
+| [シャドウベビー](/monsters/shadow_baby) | 超レア | 5 | [魔獣](/species/majyu) | 644 | 335 |
 | [サタンメイル](/monsters/satanmeiru) | 超レア | 5 | [物質](/species/bussitu) | 609 | 340 |
 | [ダークネビュラス](/monsters/dakunepyurasu) | 超レア | 7 | [物質](/species/bussitu) | 2,125 | 734 |
 

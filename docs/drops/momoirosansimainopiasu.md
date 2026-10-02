@@ -3,11 +3,11 @@ title: ももいろ三姉妹のピアス
 description: ももいろ三姉妹のピアス
 pageClass: wide-page sortable-list
 prev:
-  text: "メタルキングの小手"
-  link: /drops/metarukingnokote
+  text: "タッチャンの首飾り"
+  link: /drops/tattyannokubikazari
 next:
-  text: "もろはのつるぎ"
-  link: /drops/morohanoturugi
+  text: "つむりんママの貝殻"
+  link: /drops/tumurinmama
 ---
 
 # ももいろ三姉妹のピアス

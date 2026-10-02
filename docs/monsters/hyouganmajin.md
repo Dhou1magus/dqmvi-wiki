@@ -1,6 +1,6 @@
 ---
 title: ひょうがまじん
-description: DQMVIのモンスター「ひょうがまじん」のステータス。HP105 / こうげき55.2 / しゅび43 / 経験値98 / 20G。
+description: DQMVIのモンスター「ひょうがまじん」のステータス。HP105 / こうげき55 / しゅび43 / 経験値98 / 20G。
 prev:
   text: "フロストギズモ2"
   link: /monsters/furosutogizumo
@@ -30,7 +30,7 @@ EXP | 98
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 215 |
+| 図鑑No. | 230 |
 | ランク | 3 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

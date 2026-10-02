@@ -3,11 +3,11 @@ title: 触手のイヤリング
 description: DQMVIの「触手のイヤリング」を落とすモンスター1体の一覧。いちばん弱いのはメーダプリンス（通常・EXP8,635）。
 pageClass: wide-page sortable-list
 prev:
-  text: "暴走コア"
-  link: /drops/bousoukoa
+  text: "スライムボックス"
+  link: /drops/suraimubokkusu
 next:
-  text: "龍の左眼"
-  link: /drops/ryuunohidarime
+  text: "女神のイヤリング"
+  link: /drops/megaminoiyaringu
 ---
 
 # 触手のイヤリング

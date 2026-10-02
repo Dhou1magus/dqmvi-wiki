@@ -1,18 +1,18 @@
 ---
 title: スライムおしゃれ花
-description: DQMVIの「スライムおしゃれ花」を落とすモンスター39体の一覧。いちばん弱いのはベホイミスライム（通常・EXP77）。
+description: DQMVIの「スライムおしゃれ花」を落とすモンスター43体の一覧。いちばん弱いのはベホイミスライム（通常・EXP77）。
 pageClass: wide-page sortable-list
 prev:
   text: "スライダークロボの剣"
   link: /drops/suraidakurobonoken
 next:
-  text: "スライムゼリー"
-  link: /drops/suraimuzeri
+  text: "スライムジェネラル討伐の証"
+  link: /drops/suraimujeneraru
 ---
 
 # スライムおしゃれ花
 
-素材。**39体**のモンスターが落とします。
+素材。**43体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ベホイミスライム**（通常ドロップ・EXP77）。
@@ -25,9 +25,10 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ベホイミスライム](/monsters/behoimisuraimu) | 通常 | 3 | [スライム](/species/slime) | 68 | 77 |
 | [しっぽ団のブラウニー](/monsters/brownie_shippodan) | 通常 | 3 | [魔獣](/species/majyu) | 86 | 90 |
+| [グリーンドラゴン](/monsters/greandragon) | 通常 | 3 | [ドラゴン](/species/dragon) | 74 | 93 |
 | [ベホイムスライム](/monsters/behoimusuraimu) | 通常 | 4 | [スライム](/species/slime) | 168 | 156 |
 | [レッドサイクロン](/monsters/redsaikuron) | 通常 | 5 | [自然](/species/sizen) | 518 | 267 |
-| [ケダモン](/monsters/kedamon) | レア | 4 | [魔獣](/species/majyu) | 178 | 142 |
+| [ケダモン](/monsters/kedamon) | レア | 4 | [魔獣](/species/majyu) | 179 | 142 |
 | [ダンスニードル](/monsters/dansunidoru) | レア | 4 | [自然](/species/sizen) | 176 | 148 |
 | [スカイドラゴン](/monsters/skydragon) | レア | 4 | [ドラゴン](/species/dragon) | 205 | 172 |
 | [チョコタワー](/monsters/chocotower) | レア | 4 | [スライム](/species/slime) | 204 | 181 |
@@ -43,6 +44,7 @@ next:
 | [おおがらす2](/monsters/greatraven) | 超レア | 1 | [自然](/species/sizen) | 12 | 9 |
 | [おにこぞう2](/monsters/onikozou2) | 超レア | 1 | [悪魔](/species/akuma) | 18 | 10 |
 | [マッシュスライム](/monsters/slimeshroom) | 超レア | 1 | [スライム](/species/slime) | 22 | 12 |
+| [コロヒーロー](/monsters/pip_fighter) | 超レア | 1 | [悪魔](/species/akuma) | 26 | 12 |
 | [ボックススライムブルー](/monsters/boxsuraimu_ao) | 超レア | 1 | [スライム](/species/slime) | 15 | 13 |
 | [スノーム](/monsters/snowmangler) | 超レア | 1 | [スライム](/species/slime) | 25 | 13 |
 | [かぼちゃの騎士](/monsters/kabochanokisi) | 超レア | 1 | [ゾンビ](/species/zombie) | 26 | 14 |
@@ -52,8 +54,10 @@ next:
 | [スライムフェアリー](/monsters/suraimu_feari) | 超レア | 2 | [スライム](/species/slime) | 38 | 40 |
 | [もりもりスライム](/monsters/behemothslime) | 超レア | 2 | [スライム](/species/slime) | 42 | 43 |
 | [スライムつむり](/monsters/suraimutumuri) | 超レア | 2 | [スライム](/species/slime) | 41 | 44 |
+| [ガマニアン](/monsters/dreadherring) | 超レア | 2 | [自然](/species/sizen) | 55 | 49 |
 | [ボックススライムレッド](/monsters/boxsuraimu_aka) | 超レア | 2 | [スライム](/species/slime) | 48 | 50 |
 | [つららスライム](/monsters/slimecicle) | 超レア | 2 | [スライム](/species/slime) | 58 | 50 |
+| [しっぽ団のいっかくうさぎ](/monsters/bunicorn_shippodan) | 超レア | 2 | [魔獣](/species/majyu) | 64 | 50 |
 | [たんすミミック](/monsters/tansu) | 超レア | 2 | [物質](/species/bussitu) | 57 | 51 |
 | [スピンスライム](/monsters/spinslime) | 超レア | 2 | [スライム](/species/slime) | 62 | 52 |
 | [バーガースライム](/monsters/burgerslime) | 超レア | 2 | [スライム](/species/slime) | 58 | 52 |

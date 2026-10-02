@@ -5,8 +5,8 @@ prev:
   text: "しっぽ団のモーモン"
   link: /monsters/teeny_sanguini_shippodan
 next:
-  text: "ハートナイト"
-  link: /monsters/hatonaito
+  text: "しっぽ団のいっかくうさぎ"
+  link: /monsters/bunicorn_shippodan
 ---
 
 # アロエおに
@@ -30,7 +30,7 @@ EXP | 37
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 170 |
+| 図鑑No. | 176 |
 | ランク | 2 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼夜 |

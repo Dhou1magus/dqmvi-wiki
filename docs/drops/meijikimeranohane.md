@@ -1,6 +1,6 @@
 ---
 title: メイジキメラのはね
-description: DQMVIの「メイジキメラのはね」を落とすモンスター13体の一覧。いちばん弱いのはメイジドラキー（通常・EXP156）。
+description: DQMVIの「メイジキメラのはね」を落とすモンスター14体の一覧。いちばん弱いのはメイジドラキー（通常・EXP156）。
 pageClass: wide-page sortable-list
 prev:
   text: "ムーンキメラの羽"
@@ -12,7 +12,7 @@ next:
 
 # メイジキメラのはね
 
-素材。**13体**のモンスターが落とします。
+素材。**14体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メイジドラキー**（通常ドロップ・EXP156）。
@@ -35,6 +35,7 @@ next:
 | [まんじゅシャモン](/monsters/manzyusyamon) | レア | 6 | [自然](/species/sizen) | 966 | 344 |
 | [シルバーデビル](/monsters/sirubadebiru) | レア | 6 | [悪魔](/species/akuma) | 1,088 | 418 |
 | [バリイドドッグ](/monsters/bariidodog) | 超レア | 5 | [ゾンビ](/species/zombie) | 343 | 219 |
+| [ソードドラゴン](/monsters/sword_dragon) | 超レア | 5 | [ドラゴン](/species/dragon) | 587 | 295 |
 | [コスモスライム](/monsters/cosmoslime) | 超レア | 5 | [スライム](/species/slime) | 561 | 312 |
 
 見出しを押すと並べ替えできます。

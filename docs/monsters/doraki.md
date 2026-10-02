@@ -1,6 +1,6 @@
 ---
 title: ドラキー
-description: DQMVIのモンスター「ドラキー」のステータス。HP38 / こうげき23.04 / しゅび12 / 経験値35 / 7G。
+description: DQMVIのモンスター「ドラキー」のステータス。HP38 / こうげき23 / しゅび12 / 経験値35 / 7G。
 prev:
   text: "おおめだま"
   link: /monsters/oomedama
@@ -30,7 +30,7 @@ EXP | 35
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 91 |
+| 図鑑No. | 97 |
 | ランク | 2 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

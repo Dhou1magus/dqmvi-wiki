@@ -1,18 +1,18 @@
 ---
 title: さえずりのみつ
-description: DQMVIの「さえずりのみつ」を落とすモンスター15体の一覧。いちばん弱いのはキングスライム（通常・EXP241）。
+description: DQMVIの「さえずりのみつ」を落とすモンスター16体の一覧。いちばん弱いのはキングスライム（通常・EXP241）。
 pageClass: wide-page sortable-list
 prev:
-  text: "ゴールド袋(1万G)"
-  link: /drops/okane10000
+  text: "ゴッデス･オレオール"
+  link: /drops/goddesuoreoru
 next:
-  text: "サボテンゴールドの棘"
-  link: /drops/sabotengoldnotoge
+  text: "サクラの指輪"
+  link: /drops/sakuranoyubiwa
 ---
 
 # さえずりのみつ
 
-素材。**15体**のモンスターが落とします。
+素材。**16体**のモンスターが落とします。
 
 ::: tip ねらい目
 **キングスライム**（通常ドロップ・EXP241）。
@@ -32,6 +32,7 @@ next:
 | [デスクローゼット](/monsters/tansu_death) | 通常 | 5 | [物質](/species/bussitu) | 517 | 288 |
 | [ソルジャーブル](/monsters/soldier_bull) | 通常 | 5 | [魔獣](/species/majyu) | 595 | 304 |
 | [メイジももんじゃ](/monsters/magemomonja) | 通常 | 6 | [魔獣](/species/majyu) | 984 | 324 |
+| [オイリーハンド](/monsters/oily_hand) | 通常 | 6 | [物質](/species/bussitu) | 974 | 333 |
 | [まんじゅシャモン](/monsters/manzyusyamon) | 通常 | 6 | [自然](/species/sizen) | 966 | 344 |
 | [エンゼルスライム](/monsters/enzeruslime) | レア | 5 | [スライム](/species/slime) | 343 | 210 |
 | [からくりしょうぐん](/monsters/karakurisyougun) | レア | 5 | [悪魔](/species/akuma) | 391 | 222 |

@@ -1,10 +1,10 @@
 ---
 title: ルビー
-description: DQMVIの「ルビー」を落とすモンスター7体の一覧。いちばん弱いのはベスキング（通常・EXP238）。
+description: DQMVIの「ルビー」を落とすモンスター9体の一覧。いちばん弱いのはベスキング（通常・EXP238）。
 pageClass: wide-page sortable-list
 prev:
-  text: "りんねの盾"
-  link: /drops/rinnenotate
+  text: "ルティアナの弓"
+  link: /drops/lutiana_bow
 next:
   text: "ルビーの原石"
   link: /drops/ore_rubi
@@ -12,7 +12,7 @@ next:
 
 # ルビー
 
-素材。**7体**のモンスターが落とします。
+素材。**9体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ベスキング**（通常ドロップ・EXP238）。
@@ -24,10 +24,12 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ベスキング](/monsters/besuking) | 通常 | 5 | [スライム](/species/slime) | 368 | 238 |
+| [どぐう戦士](/monsters/dgu_fighter) | 通常 | 5 | [物質](/species/bussitu) | 524 | 253 |
 | [まだらイチョウ](/monsters/madaraichou) | 通常 | 5 | [自然](/species/sizen) | 389 | 266 |
 | [デスニャーゴ](/monsters/desunyago) | レア | 6 | [魔獣](/species/majyu) | 896 | 344 |
 | [コスモアイ](/monsters/kosumoai) | レア | 6 | [悪魔](/species/akuma) | 1,220 | 421 |
 | [ガメゴンロード](/monsters/gamegonload) | レア | 6 | [ドラゴン](/species/dragon) | 1,264 | 438 |
+| [れんごく天馬](/monsters/tantamount) | レア | 6 | [魔獣](/species/majyu) | 1,468 | 495 |
 | [ゴールデンドラゴン](/monsters/goldendragon) | レア | 6 | [ドラゴン](/species/dragon) | 1,319 | 496 |
 | [ダークナイト](/monsters/dakunaito) | レア | 7 | [ゾンビ](/species/zombie) | 2,325 | 756 |
 

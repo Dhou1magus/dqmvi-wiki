@@ -3,11 +3,11 @@ title: ムーンキメラの羽
 description: ムーンキメラの羽
 pageClass: wide-page sortable-list
 prev:
-  text: "ミュシャドの毛"
-  link: /drops/myusyadonoke
+  text: "名刀 斬鉄丸"
+  link: /drops/meitouzantetumaru
 next:
-  text: "メイジキメラのはね"
-  link: /drops/meijikimeranohane
+  text: "伐採マシンの鎌"
+  link: /drops/bassaimasinnokama
 ---
 
 # ムーンキメラの羽

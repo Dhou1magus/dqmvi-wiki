@@ -3,11 +3,11 @@ title: ピンクボンボンの爪
 description: ピンクボンボンの爪
 pageClass: wide-page sortable-list
 prev:
-  text: "ピサロナイトの鎧"
-  link: /drops/pisaronaitonoyoroi
+  text: "キラートーチのトーチ"
+  link: /drops/kiratotinototi
 next:
-  text: "プラチナ"
-  link: /drops/puratina
+  text: "キラーパイクのピッケル"
+  link: /drops/kirapaikunopikeru
 ---
 
 # ピンクボンボンの爪

@@ -1,6 +1,6 @@
 ---
 title: ガニラス
-description: DQMVIのモンスター「ガニラス」のステータス。HP960 / こうげき166.38 / しゅび155 / 経験値376 / 75G。
+description: DQMVIのモンスター「ガニラス」のステータス。HP960 / こうげき166 / しゅび155 / 経験値376 / 75G。
 prev:
   text: "スライムカラー"
   link: /monsters/suraimuhaitawa
@@ -30,7 +30,7 @@ EXP | 376
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 558 |
+| 図鑑No. | 612 |
 | ランク | 6 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 夜のみ |

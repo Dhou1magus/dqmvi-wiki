@@ -1,6 +1,6 @@
 ---
 title: ほのおの盾
-description: DQMVIの「ほのおの盾」を落とすモンスター3体の一覧。いちばん弱いのはドラゴンゾンビ（超レア・EXP171）。
+description: DQMVIの「ほのおの盾」を落とすモンスター6体の一覧。いちばん弱いのはレッドドラゴン（超レア・EXP138）。
 pageClass: wide-page sortable-list
 prev:
   text: "ホネホネ"
@@ -12,10 +12,10 @@ next:
 
 # ほのおの盾
 
-盾・アクセサリー。**3体**のモンスターが落とします。
+盾・アクセサリー。**6体**のモンスターが落とします。
 
 ::: tip ねらい目
-**ドラゴンゾンビ**（超レアドロップ・EXP171）。
+**レッドドラゴン**（超レアドロップ・EXP138）。
 落とす枠がいちばん手前で、そのなかで一番弱い相手です。
 :::
 
@@ -35,8 +35,11 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [レッドドラゴン](/monsters/reddragon) | 超レア | 4 | [ドラゴン](/species/dragon) | 188 | 138 |
 | [ドラゴンゾンビ](/monsters/dragonzombie) | 超レア | 4 | [ドラゴン](/species/dragon) | 197 | 171 |
 | [スライムプディング](/monsters/slimepudding) | 超レア | 4 | [スライム](/species/slime) | 191 | 172 |
+| [ヘルドラード](/monsters/helldorado) | 超レア | 4 | [自然](/species/sizen) | 210 | 174 |
+| [マリンワーム](/monsters/marineworm) | 超レア | 4 | [自然](/species/sizen) | 1,760 | 176 |
 | [ガメゴン](/monsters/gamegon) | 超レア | 4 | [ドラゴン](/species/dragon) | 200 | 183 |
 
 見出しを押すと並べ替えできます。

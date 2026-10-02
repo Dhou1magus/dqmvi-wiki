@@ -1,6 +1,6 @@
 ---
 title: ねばねばゼリー
-description: DQMVIの「ねばねばゼリー」を落とすモンスター10体の一覧。いちばん弱いのはリップス（通常・EXP11）。
+description: DQMVIの「ねばねばゼリー」を落とすモンスター11体の一覧。いちばん弱いのはリップス（通常・EXP11）。
 pageClass: wide-page sortable-list
 prev:
   text: "ネコ砂"
@@ -12,7 +12,7 @@ next:
 
 # ねばねばゼリー
 
-素材。**10体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **リップス**（通常ドロップ・EXP11）。
@@ -24,6 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [リップス](/monsters/rippusu) | 通常 | 1 | [自然](/species/sizen) | 18 | 11 |
+| [コロヒーロー](/monsters/pip_fighter) | 通常 | 1 | [悪魔](/species/akuma) | 26 | 12 |
 | [ドロヌーバ](/monsters/doronuba) | 通常 | 1 | [自然](/species/sizen) | 25 | 13 |
 | [スノーム](/monsters/snowmangler) | 通常 | 1 | [スライム](/species/slime) | 25 | 13 |
 | [スライムブレス](/monsters/suraimuburesu) | 通常 | 4 | [スライム](/species/slime) | 180 | 160 |

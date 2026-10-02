@@ -1,6 +1,6 @@
 ---
 title: ミスリル
-description: DQMVIの「ミスリル」を落とすモンスター15体の一覧。いちばん弱いのはメタルライダー（通常・EXP269）。
+description: DQMVIの「ミスリル」を落とすモンスター18体の一覧。いちばん弱いのはメタルライダー（通常・EXP269）。
 pageClass: wide-page sortable-list
 prev:
   text: "まりょくの土"
@@ -12,7 +12,7 @@ next:
 
 # ミスリル
 
-素材。**15体**のモンスターが落とします。
+素材。**18体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メタルライダー**（通常ドロップ・EXP269）。
@@ -29,12 +29,15 @@ next:
 | [マッソ](/monsters/masso) | 通常 | 7 | [ドラゴン](/species/dragon) | 1,860 | 705 |
 | [ダークトロル](/monsters/darktororu) | 通常 | 7 | [悪魔](/species/akuma) | 2,700 | 788 |
 | [黒怨王](/monsters/kokuenou) | レア | 5 | [ゾンビ](/species/zombie) | 495 | 244 |
+| [アクアトラップ](/monsters/aqua_trap) | レア | 5 | [物質](/species/bussitu) | 401 | 247 |
 | [ヘルプラネット](/monsters/herupuranetto) | レア | 5 | [物質](/species/bussitu) | 459 | 263 |
 | [ギガデーモン](/monsters/gugademon) | レア | 5 | [ドラゴン](/species/dragon) | 601 | 305 |
 | [メタルクラッシャー](/monsters/metarukurassya) | レア | 5 | [物質](/species/bussitu) | 555 | 311 |
 | [ドラゴンソルジャー](/monsters/doragonsoruja) | レア | 7 | [ドラゴン](/species/dragon) | 1,980 | 681 |
 | [キラーマシン](/monsters/kiramasin) | レア | 7 | [物質](/species/bussitu) | 1,950 | 706 |
 | [シルバーマント](/monsters/sirubamanto) | レア | 7 | [ゾンビ](/species/zombie) | 1,875 | 709 |
+| [まおうのたまご](/monsters/maounotamago) | レア | 7 | [スライム](/species/slime) | 2,601 | 791 |
+| [シーバーン](/monsters/seavern) | レア | 7 | [ドラゴン](/species/dragon) | 2,633 | 828 |
 | [コロネホワイト](/monsters/pastypastry) | 超レア | 4 | [スライム](/species/slime) | 193 | 148 |
 | [ベビーパンサー](/monsters/kirapan) | 超レア | 4 | [魔獣](/species/majyu) | 168 | 160 |
 | [モビルボディ](/monsters/mobirubodexi) | 超レア | 4 | [物質](/species/bussitu) | 199 | 165 |

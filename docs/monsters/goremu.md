@@ -1,6 +1,6 @@
 ---
 title: ゴーレム
-description: DQMVIのモンスター「ゴーレム」のステータス。HP581 / こうげき146.64 / しゅび145 / 経験値315 / 63G。
+description: DQMVIのモンスター「ゴーレム」のステータス。HP581 / こうげき147 / しゅび145 / 経験値315 / 63G。
 prev:
   text: "ブラックベジター"
   link: /monsters/burakkubejita
@@ -30,7 +30,7 @@ EXP | 315
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 461 |
+| 図鑑No. | 504 |
 | ランク | 5 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

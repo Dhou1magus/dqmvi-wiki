@@ -1,6 +1,6 @@
 ---
 title: 氷鳥のはね
-description: DQMVIの「氷鳥のはね」を落とすモンスター17体の一覧。いちばん弱いのはフロストギズモ1（通常・EXP83）。
+description: DQMVIの「氷鳥のはね」を落とすモンスター19体の一覧。いちばん弱いのはフロストギズモ1（通常・EXP83）。
 pageClass: wide-page sortable-list
 prev:
   text: "皮のぼうし"
@@ -12,7 +12,7 @@ next:
 
 # 氷鳥のはね
 
-素材。**17体**のモンスターが落とします。
+素材。**19体**のモンスターが落とします。
 
 ::: tip ねらい目
 **フロストギズモ1**（通常ドロップ・EXP83）。
@@ -39,6 +39,8 @@ next:
 | [ナイトウォーカー](/monsters/nightwalker) | 超レア | 3 | [悪魔](/species/akuma) | 83 | 84 |
 | [ラリホービートル](/monsters/bedbug) | 超レア | 3 | [自然](/species/sizen) | 86 | 90 |
 | [トマトマーレ](/monsters/tomatomare) | 超レア | 3 | [スライム](/species/slime) | 80 | 92 |
+| [なげきの亡霊](/monsters/nagekinobourei) | 超レア | 3 | [ゾンビ](/species/zombie) | 95 | 95 |
+| [ぬしさま](/monsters/nusisama) | 超レア | 3 | [自然](/species/sizen) | 2,456 | 99 |
 | [ヘルコンドル](/monsters/hellcondor) | 超レア | 3 | [魔獣](/species/majyu) | 120 | 120 |
 
 見出しを押すと並べ替えできます。

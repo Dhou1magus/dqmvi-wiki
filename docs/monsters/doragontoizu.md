@@ -5,8 +5,8 @@ prev:
   text: "ウサンダー"
   link: /monsters/usander
 next:
-  text: "メタルトリュフ"
-  link: /monsters/metaltruffeslime
+  text: "メタルハンド"
+  link: /monsters/metal_hand
 ---
 
 # ドラゴントイズ
@@ -30,7 +30,7 @@ EXP | 3,316
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 430 |
+| 図鑑No. | 471 |
 | ランク | 4 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

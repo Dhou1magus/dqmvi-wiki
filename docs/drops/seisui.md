@@ -3,8 +3,8 @@ title: せいすい
 description: DQMVIの「せいすい」を落とすモンスター9体の一覧。いちばん弱いのはうみぼうず（レア・EXP156）。
 pageClass: wide-page sortable-list
 prev:
-  text: "スライムボール"
-  link: /drops/mc_slime_ball
+  text: "スラブラスター"
+  link: /drops/suraburasuta
 next:
   text: "せいどうの盾"
   link: /drops/seidounotate
@@ -24,13 +24,13 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [うみぼうず](/monsters/umibouzu) | レア | 4 | [自然](/species/sizen) | 192 | 156 |
+| [マリンワーム](/monsters/marineworm) | レア | 4 | [自然](/species/sizen) | 1,760 | 176 |
 | [しりょう](/monsters/siryou) | レア | 5 | [ゾンビ](/species/zombie) | 378 | 246 |
 | [ひとくいが](/monsters/hitokuiga) | 超レア | 2 | [自然](/species/sizen) | 53 | 41 |
 | [ニードルマン](/monsters/ni_doruman) | 超レア | 2 | [物質](/species/bussitu) | 56 | 52 |
 | [マーマン](/monsters/merman) | 超レア | 2 | [自然](/species/sizen) | 63 | 55 |
 | [くさった死体](/monsters/kusattasitai) | 超レア | 2 | [ゾンビ](/species/zombie) | 80 | 60 |
 | [メラリザード](/monsters/merazado) | 超レア | 2 | [ドラゴン](/species/dragon) | 53 | 62 |
-| [うみぼうず](/monsters/umibouzu) | 超レア | 4 | [自然](/species/sizen) | 192 | 156 |
 | [ベスキング](/monsters/besuking) | 超レア | 5 | [スライム](/species/slime) | 368 | 238 |
 
 見出しを押すと並べ替えできます。

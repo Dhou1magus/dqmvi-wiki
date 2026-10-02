@@ -1,6 +1,6 @@
 ---
 title: いかずちの玉
-description: DQMVIの「いかずちの玉」を落とすモンスター60体の一覧。いちばん弱いのはじめじめバブル（通常・EXP77）。
+description: DQMVIの「いかずちの玉」を落とすモンスター70体の一覧。いちばん弱いのはじめじめバブル（通常・EXP77）。
 pageClass: wide-page sortable-list
 prev:
   text: "アルケミストンの帽子"
@@ -12,7 +12,7 @@ next:
 
 # いかずちの玉
 
-素材。**60体**のモンスターが落とします。
+素材。**70体**のモンスターが落とします。
 
 ::: tip ねらい目
 **じめじめバブル**（通常ドロップ・EXP77）。
@@ -26,15 +26,18 @@ next:
 | [じめじめバブル](/monsters/dankbubbleslime) | 通常 | 3 | [スライム](/species/slime) | 74 | 77 |
 | [パンドラチェスト](/monsters/tansu_pandora) | 通常 | 3 | [物質](/species/bussitu) | 99 | 90 |
 | [スライムナイト](/monsters/suraimunaito) | 通常 | 3 | [スライム](/species/slime) | 98 | 99 |
+| [ぬしさま](/monsters/nusisama) | 通常 | 3 | [自然](/species/sizen) | 2,456 | 99 |
 | [てっこうまじん](/monsters/tekkoumajin) | 通常 | 3 | [物質](/species/bussitu) | 165 | 108 |
 | [ガニラス2](/monsters/ganiras2) | 通常 | 3 | [自然](/species/sizen) | 135 | 115 |
 | [ディープドロル](/monsters/deep_dororu) | 通常 | 3 | [ゾンビ](/species/zombie) | 145 | 123 |
 | [凶スライムベス](/monsters/kyouslimebes) | 通常 | 3 | [スライム](/species/slime) | 138 | 124 |
 | [スライムダーク](/monsters/slime_dark) | 通常 | 3 | [スライム](/species/slime) | 162 | 129 |
 | [黒怨王](/monsters/kokuenou) | 通常 | 5 | [ゾンビ](/species/zombie) | 495 | 244 |
+| [ブラッディハンド2](/monsters/bloody_hand) | 通常 | 5 | [物質](/species/bussitu) | 433 | 248 |
 | [ミスターガリック](/monsters/misutaagarikku) | 通常 | 5 | [自然](/species/sizen) | 396 | 262 |
 | [カンダタこぶん](/monsters/kandatakobun) | 通常 | 5 | [ゾンビ](/species/zombie) | 511 | 280 |
 | [デーモンスピリット](/monsters/demonspirit) | 通常 | 5 | [ゾンビ](/species/zombie) | 523 | 285 |
+| [シャドウベビー](/monsters/shadow_baby) | 通常 | 5 | [魔獣](/species/majyu) | 644 | 335 |
 | [じごくのハサミ](/monsters/jigokunohasami) | 通常 | 6 | [自然](/species/sizen) | 1,024 | 346 |
 | [ボストロール](/monsters/bosutororu) | 通常 | 6 | [悪魔](/species/akuma) | 1,384 | 373 |
 | [ドーラー](/monsters/dora) | 通常 | 6 | [物質](/species/bussitu) | 1,256 | 422 |
@@ -52,6 +55,7 @@ next:
 | [デススパーク](/monsters/desusupaku) | レア | 5 | [ゾンビ](/species/zombie) | 675 | 282 |
 | [ダークスライム](/monsters/darkslime) | レア | 6 | [スライム](/species/slime) | 992 | 362 |
 | [ダゴン](/monsters/dagon) | レア | 6 | [自然](/species/sizen) | 1,111 | 392 |
+| [だいおうクジラ](/monsters/greatwhale) | レア | 6 | [自然](/species/sizen) | 12,520 | 409 |
 | [フーラー](/monsters/fura) | レア | 6 | [物質](/species/bussitu) | 1,400 | 466 |
 | [グレンデル](/monsters/gurenderu) | レア | 6 | [魔獣](/species/majyu) | 1,298 | 512 |
 | [しびれあげは](/monsters/sibireageha) | 超レア | 3 | [自然](/species/sizen) | 84 | 76 |
@@ -67,9 +71,12 @@ next:
 | [こんぺいとう](/monsters/sugarstar_slime) | 超レア | 3 | [スライム](/species/slime) | 166 | 114 |
 | [がいこつけんし2](/monsters/gaikotsukenshi2) | 超レア | 3 | [ゾンビ](/species/zombie) | 155 | 123 |
 | [ブラッドレディ](/monsters/vampire_succubat) | 超レア | 3 | [悪魔](/species/akuma) | 151 | 128 |
+| [フライングデビル](/monsters/flyngdevil) | 超レア | 3 | [悪魔](/species/akuma) | 141 | 129 |
 | [キングジョーカー](/monsters/kingjoker) | 超レア | 4 | [スライム](/species/slime) | 175 | 142 |
 | [ダークキング](/monsters/darkking) | 超レア | 4 | [スライム](/species/slime) | 186 | 155 |
 | [ベホイムスライム](/monsters/behoimusuraimu) | 超レア | 4 | [スライム](/species/slime) | 168 | 156 |
+| [タイラントワームP](/monsters/tyrantwormp) | 超レア | 4 | [自然](/species/sizen) | 1,820 | 156 |
+| [凶グリーンドラゴン](/monsters/kyougreandragon) | 超レア | 4 | [ドラゴン](/species/dragon) | 176 | 159 |
 | [ボックススライムオレンジ](/monsters/boxsuraimu) | 超レア | 4 | [スライム](/species/slime) | 183 | 160 |
 | [アイアンクック](/monsters/aiankukku) | 超レア | 4 | [物質](/species/bussitu) | 188 | 166 |
 | [いしにんぎょう](/monsters/stone_doll) | 超レア | 4 | [物質](/species/bussitu) | 207 | 173 |
@@ -77,8 +84,11 @@ next:
 | [カイロプッテ](/monsters/kairoputte) | 超レア | 4 | [悪魔](/species/akuma) | 183 | 183 |
 | [バルザック](/monsters/baruzaku) | 超レア | 4 | [ドラゴン](/species/dragon) | 266 | 185 |
 | [ダーティードール](/monsters/da_thi_do_ru) | 超レア | 4 | [物質](/species/bussitu) | 209 | 185 |
+| [スノーベビー](/monsters/snow_baby) | 超レア | 4 | [魔獣](/species/majyu) | 210 | 186 |
 | [まおうのつかい](/monsters/maounotsukai) | 超レア | 4 | [ゾンビ](/species/zombie) | 184 | 191 |
+| [スラ忍ブラック](/monsters/sulaninblack) | 超レア | 4 | [スライム](/species/slime) | 201 | 191 |
 | [デビルアンカー](/monsters/devil_anchor) | 超レア | 4 | [物質](/species/bussitu) | 205 | 194 |
+| [スラ忍ブラウン](/monsters/sulaninbrown) | 超レア | 4 | [スライム](/species/slime) | 216 | 194 |
 | [クリスタルスライム](/monsters/crystalslime) | 超レア | 4 | [スライム](/species/slime) | 198 | 199 |
 | [プロトキラー](/monsters/protokira) | 超レア | 4 | [物質](/species/bussitu) | 222 | 200 |
 | [マポレーナ](/monsters/maporena) | 超レア | 5 | [悪魔](/species/akuma) | 343 | 212 |

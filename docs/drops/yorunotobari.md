@@ -1,6 +1,6 @@
 ---
 title: よるのとばり
-description: DQMVIの「よるのとばり」を落とすモンスター28体の一覧。いちばん弱いのはシャドー（通常・EXP43）。
+description: DQMVIの「よるのとばり」を落とすモンスター29体の一覧。いちばん弱いのはシャドー（通常・EXP43）。
 pageClass: wide-page sortable-list
 prev:
   text: "よごれた包帯"
@@ -12,7 +12,7 @@ next:
 
 # よるのとばり
 
-素材。**28体**のモンスターが落とします。
+素材。**29体**のモンスターが落とします。
 
 ::: tip ねらい目
 **シャドー**（通常ドロップ・EXP43）。
@@ -36,6 +36,7 @@ next:
 | [ヘルゴースト](/monsters/herughost) | 通常 | 4 | [ゾンビ](/species/zombie) | 174 | 144 |
 | [デスフラッター](/monsters/desufuratta) | 通常 | 4 | [自然](/species/sizen) | 170 | 146 |
 | [ハートボイルド](/monsters/heartvoiled) | 通常 | 4 | [スライム](/species/slime) | 191 | 147 |
+| [スラ忍パープル](/monsters/sulaninpurple) | 通常 | 4 | [スライム](/species/slime) | 188 | 170 |
 | [ダーティードール](/monsters/da_thi_do_ru) | 通常 | 4 | [物質](/species/bussitu) | 209 | 185 |
 | [アルミラージ](/monsters/arumiraji) | レア | 2 | [魔獣](/species/majyu) | 59 | 47 |
 | [ホロゴースト](/monsters/horoghost) | レア | 4 | [物質](/species/bussitu) | 182 | 141 |

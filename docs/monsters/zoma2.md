@@ -5,8 +5,8 @@ prev:
   text: "神獣王WORLD"
   link: /monsters/shinjuuou_world
 next:
-  text: "超マスターエッグゴールドⅠ"
-  link: /monsters/supermasteregg_gold1
+  text: "魔勇者アンルシア"
+  link: /monsters/evil_hero_anlucia_boss
 ---
 
 # ゾーマ
@@ -30,7 +30,7 @@ EXP | 6,776,767
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 735 |
+| 図鑑No. | 801 |
 | 系統 | [特殊系](/species/tokusyu) |
 | 活動時間 | 昼夜 |
 | 弱点 | 強（呪文が効きにくい） |

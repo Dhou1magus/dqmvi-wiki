@@ -2,8 +2,8 @@
 title: アカツキショウグン
 description: DQMVIのモンスター「アカツキショウグン」のステータス。HP2,160 / こうげき238 / しゅび119 / 経験値3,463 / 722G。
 prev:
-  text: "スラ忍レッド"
-  link: /monsters/sulaninred
+  text: "凶グリーンドラゴン"
+  link: /monsters/kyougreandragon
 next:
   text: "ムーンキメラ"
   link: /monsters/moonkimera
@@ -30,7 +30,7 @@ EXP | 3,463
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 422 |
+| 図鑑No. | 463 |
 | ランク | 4 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

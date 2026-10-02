@@ -1,6 +1,6 @@
 ---
 title: 大きな袋
-description: DQMVIの「大きな袋」を落とすモンスター5体の一覧。いちばん弱いのはわらいぶくろ（超レア・EXP79）。
+description: DQMVIの「大きな袋」を落とすモンスター6体の一覧。いちばん弱いのはわらいぶくろ（超レア・EXP79）。
 pageClass: wide-page sortable-list
 prev:
   text: "太陽石合金"
@@ -12,7 +12,7 @@ next:
 
 # 大きな袋
 
-特殊。**5体**のモンスターが落とします。
+特殊。**6体**のモンスターが落とします。
 
 ::: tip ねらい目
 **わらいぶくろ**（超レアドロップ・EXP79）。
@@ -28,6 +28,7 @@ next:
 | [ゴールドパール](/monsters/goldpearl) | 超レア | 3 | [メタル](/species/metal) | 142 | 121 |
 | [おどる宝石](/monsters/odoruhouseki) | 超レア | 4 | [物質](/species/bussitu) | 162 | 142 |
 | [キングマーマン](/monsters/kingmerman) | 超レア | 4 | [自然](/species/sizen) | 180 | 159 |
+| [タイラントワーム](/monsters/tyrantworm) | 超レア | 4 | [自然](/species/sizen) | 2,020 | 176 |
 
 見出しを押すと並べ替えできます。
 

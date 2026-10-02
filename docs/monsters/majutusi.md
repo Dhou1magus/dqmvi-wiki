@@ -1,6 +1,6 @@
 ---
 title: まじゅつし
-description: DQMVIのモンスター「まじゅつし」のステータス。HP45 / こうげき23.76 / しゅび14 / 経験値38 / 8G。
+description: DQMVIのモンスター「まじゅつし」のステータス。HP45 / こうげき24 / しゅび14 / 経験値38 / 8G。
 prev:
   text: "ボックススライムレッド"
   link: /monsters/boxsuraimu_aka
@@ -30,7 +30,7 @@ EXP | 38
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 111 |
+| 図鑑No. | 117 |
 | ランク | 2 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

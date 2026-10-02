@@ -5,8 +5,8 @@ prev:
   text: "ももいろ三姉妹"
   link: /monsters/momoirosansimai
 next:
-  text: "メタルスライム"
-  link: /monsters/metasura
+  text: "ぷちメタル"
+  link: /monsters/putimetal
 ---
 
 # つむりんママ
@@ -30,7 +30,7 @@ EXP | 349
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 78 |
+| 図鑑No. | 83 |
 | ランク | 1 |
 | 系統 | [スライム系](/species/slime) |
 | 活動時間 | 昼のみ |

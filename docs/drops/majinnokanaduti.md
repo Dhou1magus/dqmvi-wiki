@@ -6,8 +6,8 @@ prev:
   text: "ましょうぐものエキス"
   link: /drops/masyougumonoekisu
 next:
-  text: "まだらクモ糸"
-  link: /drops/madarakumonoito
+  text: "マスタードラゴン討伐の証"
+  link: /drops/masterdoragon
 ---
 
 # まじんのかなづち

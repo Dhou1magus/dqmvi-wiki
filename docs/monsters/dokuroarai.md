@@ -1,6 +1,6 @@
 ---
 title: どくろあらい
-description: DQMVIのモンスター「どくろあらい」のステータス。HP38 / こうげき25.02 / しゅび15 / 経験値39 / 8G。
+description: DQMVIのモンスター「どくろあらい」のステータス。HP38 / こうげき25 / しゅび15 / 経験値39 / 8G。
 prev:
   text: "プレミアムスライム"
   link: /monsters/puremiasuraimu
@@ -30,7 +30,7 @@ EXP | 39
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 85 |
+| 図鑑No. | 91 |
 | ランク | 2 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 昼のみ |

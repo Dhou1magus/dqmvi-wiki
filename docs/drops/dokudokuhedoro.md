@@ -1,6 +1,6 @@
 ---
 title: どくどくヘドロ
-description: DQMVIの「どくどくヘドロ」を落とすモンスター17体の一覧。いちばん弱いのはひとくいが（通常・EXP41）。
+description: DQMVIの「どくどくヘドロ」を落とすモンスター18体の一覧。いちばん弱いのはひとくいが（通常・EXP41）。
 pageClass: wide-page sortable-list
 prev:
   text: "どくがの粉"
@@ -12,7 +12,7 @@ next:
 
 # どくどくヘドロ
 
-素材。**17体**のモンスターが落とします。
+素材。**18体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ひとくいが**（通常ドロップ・EXP41）。
@@ -33,6 +33,7 @@ next:
 | [どくやずきん](/monsters/dokuyazukin) | 通常 | 3 | [悪魔](/species/akuma) | 84 | 85 |
 | [ろうごくのぬし](/monsters/rougokunonusi) | 通常 | 6 | [ゾンビ](/species/zombie) | 1,455 | 444 |
 | [バリイドドッグ](/monsters/bariidodog) | レア | 5 | [ゾンビ](/species/zombie) | 343 | 219 |
+| [シャドウベビー](/monsters/shadow_baby) | レア | 5 | [魔獣](/species/majyu) | 644 | 335 |
 | [しりょうのきし](/monsters/siryounokisi) | レア | 6 | [ゾンビ](/species/zombie) | 1,072 | 369 |
 | [バブルキング](/monsters/baburuking) | レア | 6 | [スライム](/species/slime) | 1,128 | 379 |
 | [クラーゴン](/monsters/kraagon) | レア | 6 | [自然](/species/sizen) | 1,208 | 430 |

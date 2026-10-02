@@ -1,6 +1,6 @@
 ---
 title: かがみの石
-description: DQMVIの「かがみの石」を落とすモンスター39体の一覧。いちばん弱いのはさそりアーマー（通常・EXP44）。
+description: DQMVIの「かがみの石」を落とすモンスター44体の一覧。いちばん弱いのはさそりアーマー（通常・EXP44）。
 pageClass: wide-page sortable-list
 prev:
   text: "オリハルコン合金"
@@ -12,7 +12,7 @@ next:
 
 # かがみの石
 
-素材。**39体**のモンスターが落とします。
+素材。**44体**のモンスターが落とします。
 
 ::: tip ねらい目
 **さそりアーマー**（通常ドロップ・EXP44）。
@@ -35,6 +35,7 @@ next:
 | [スラミチ](/monsters/suramithi) | レア | 3 | [スライム](/species/slime) | 75 | 87 |
 | [スライムボーグ](/monsters/suraimubogu) | レア | 3 | [スライム](/species/slime) | 80 | 89 |
 | [あくま神官](/monsters/akumasinkan) | レア | 3 | [悪魔](/species/akuma) | 94 | 92 |
+| [ぬしさま](/monsters/nusisama) | レア | 3 | [自然](/species/sizen) | 2,456 | 99 |
 | [メイデンドール](/monsters/meidendo_ru) | レア | 3 | [物質](/species/bussitu) | 106 | 101 |
 | [ボーンファイター](/monsters/bonfaita) | レア | 3 | [ゾンビ](/species/zombie) | 146 | 107 |
 | [てっこうまじん](/monsters/tekkoumajin) | レア | 3 | [物質](/species/bussitu) | 165 | 108 |
@@ -46,10 +47,14 @@ next:
 | [ローズバトラー](/monsters/rozubatora) | レア | 3 | [自然](/species/sizen) | 188 | 146 |
 | [あくまのツボ](/monsters/akumanotubo) | レア | 4 | [特殊](/species/tokusyu) | 165 | 182 |
 | [かげのきし](/monsters/kagenokisi) | レア | 7 | [ゾンビ](/species/zombie) | 1,950 | 676 |
+| [ノーライフロード](/monsters/nooraihuroodo) | レア | 7 | [ゾンビ](/species/zombie) | 1,918 | 678 |
+| [ベロドム](/monsters/miry_hands) | レア | 7 | [物質](/species/bussitu) | 2,214 | 738 |
 | [光の番人](/monsters/hikarinobannin) | レア | 7 | [ドラゴン](/species/dragon) | 2,863 | 953 |
 | [タップデビル](/monsters/tappudebiru) | 超レア | 2 | [悪魔](/species/akuma) | 37 | 36 |
 | [しびれくらげ](/monsters/sibirekurage) | 超レア | 2 | [スライム](/species/slime) | 53 | 45 |
 | [ベル](/monsters/bell) | 超レア | 2 | [物質](/species/bussitu) | 63 | 45 |
+| [ガスト](/monsters/miasma) | 超レア | 2 | [物質](/species/bussitu) | 49 | 48 |
+| [プチマージ](/monsters/conkjurer) | 超レア | 2 | [悪魔](/species/akuma) | 49 | 52 |
 | [かくとうパンサー](/monsters/kakutoupansa) | 超レア | 2 | [魔獣](/species/majyu) | 66 | 60 |
 | [レッドハンター](/monsters/redhanta) | 超レア | 2 | [物質](/species/bussitu) | 70 | 62 |
 | [ジャガーメイジ](/monsters/zyagameizi) | 超レア | 2 | [魔獣](/species/majyu) | 66 | 62 |

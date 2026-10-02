@@ -1,6 +1,6 @@
 ---
 title: アルミラージ
-description: DQMVIのモンスター「アルミラージ」のステータス。HP59 / こうげき32.04 / しゅび14 / 経験値47 / 9G。
+description: DQMVIのモンスター「アルミラージ」のステータス。HP59 / こうげき32 / しゅび14 / 経験値47 / 9G。
 prev:
   text: "しびれくらげ"
   link: /monsters/sibirekurage
@@ -30,7 +30,7 @@ EXP | 47
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 109 |
+| 図鑑No. | 115 |
 | ランク | 2 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 夜のみ |

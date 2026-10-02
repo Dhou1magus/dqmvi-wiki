@@ -3,11 +3,11 @@ title: グランシーザーの髭
 description: グランシーザーの髭
 pageClass: wide-page sortable-list
 prev:
-  text: "クイーンモーモンの冠"
-  link: /drops/kuinmomonnokanmuri
+  text: "ましょうぐものエキス"
+  link: /drops/masyougumonoekisu
 next:
-  text: "グレイトドラゴン・雲の牙"
-  link: /drops/gureitodoragonkumonokiba
+  text: "タイプGの欠片"
+  link: /drops/taipugnokakera
 ---
 
 # グランシーザーの髭

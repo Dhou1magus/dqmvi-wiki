@@ -3,11 +3,11 @@ title: わんぱくサタンのスプーン
 description: わんぱくサタンのスプーン
 pageClass: wide-page sortable-list
 prev:
-  text: "れんごくの羽根"
-  link: /drops/rengokunohane
+  text: "伐採マシンの鎌"
+  link: /drops/bassaimasinnokama
 next:
-  text: "花のみつ"
-  link: /drops/hananomitu
+  text: "アトラスの大金槌"
+  link: /drops/atorasunoookanaduti
 ---
 
 # わんぱくサタンのスプーン

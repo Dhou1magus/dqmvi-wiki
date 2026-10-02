@@ -1,6 +1,6 @@
 ---
 title: プラチナ
-description: DQMVIの「プラチナ」を落とすモンスター33体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
+description: DQMVIの「プラチナ」を落とすモンスター35体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
 pageClass: wide-page sortable-list
 prev:
   text: "ピンクボンボンの爪"
@@ -12,7 +12,7 @@ next:
 
 # プラチナ
 
-素材。**33体**のモンスターが落とします。
+素材。**35体**のモンスターが落とします。
 
 ::: tip ねらい目
 **グランスライム**（通常ドロップ・EXP333）。
@@ -43,7 +43,7 @@ next:
 | [マジックアーマー](/monsters/majikkuaamaa) | レア | 4 | [物質](/species/bussitu) | 221 | 185 |
 | [ダーティードール](/monsters/da_thi_do_ru) | レア | 4 | [物質](/species/bussitu) | 209 | 185 |
 | [プロトキラー](/monsters/protokira) | レア | 4 | [物質](/species/bussitu) | 222 | 200 |
-| [やつざきアニマル](/monsters/yatuzakianimaru) | レア | 4 | [魔獣](/species/majyu) | 202 | 212 |
+| [やつざきアニマル](/monsters/yatuzakianimaru) | レア | 4 | [魔獣](/species/majyu) | 203 | 212 |
 | [ひょうけつのきし](/monsters/hyouketunokisi) | レア | 4 | [悪魔](/species/akuma) | 230 | 262 |
 | [ソードファントム](/monsters/sodofantomu) | レア | 6 | [ゾンビ](/species/zombie) | 1,184 | 409 |
 | [バトルレックス](/monsters/batorurex) | レア | 7 | [ドラゴン](/species/dragon) | 1,800 | 675 |
@@ -52,7 +52,9 @@ next:
 | [凶スライム](/monsters/kyouslime) | 超レア | 3 | [スライム](/species/slime) | 150 | 126 |
 | [強スライム](/monsters/sura2) | 超レア | 4 | [スライム](/species/slime) | 165 | 144 |
 | [スラ忍レッド](/monsters/sulaninred) | 超レア | 4 | [スライム](/species/slime) | 191 | 188 |
+| [アンドレアル](/monsters/rashaverak) | 超レア | 5 | [ドラゴン](/species/dragon) | 434 | 231 |
 | [黒怨王](/monsters/kokuenou) | 超レア | 5 | [ゾンビ](/species/zombie) | 495 | 244 |
+| [ワイトキング](/monsters/waitoking) | 超レア | 5 | [ゾンビ](/species/zombie) | 471 | 245 |
 | [カンダタこぶん](/monsters/kandatakobun) | 超レア | 5 | [ゾンビ](/species/zombie) | 511 | 280 |
 | [デーモンスピリット](/monsters/demonspirit) | 超レア | 5 | [ゾンビ](/species/zombie) | 523 | 285 |
 | [どぐうせんし](/monsters/clay_doll) | 超レア | 5 | [物質](/species/bussitu) | 584 | 325 |

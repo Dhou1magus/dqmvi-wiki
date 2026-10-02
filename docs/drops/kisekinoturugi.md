@@ -6,8 +6,8 @@ prev:
   text: "花のみつ"
   link: /drops/hananomitu
 next:
-  text: "貴重なレシピ(メタル、氷)"
-  link: /drops/koori_metaru
+  text: "機械仕掛けのこころ"
+  link: /drops/kikaijikakenokokoro
 ---
 
 # 奇跡の剣

@@ -1,6 +1,6 @@
 ---
 title: ガップリン
-description: DQMVIのモンスター「ガップリン」のステータス。HP176 / こうげき80.94 / しゅび69 / 経験値151 / 30G。
+description: DQMVIのモンスター「ガップリン」のステータス。HP176 / こうげき81 / しゅび69 / 経験値151 / 30G。
 prev:
   text: "ミミック木箱"
   link: /monsters/mimikkukibako
@@ -30,7 +30,7 @@ EXP | 151
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 329 |
+| 図鑑No. | 354 |
 | ランク | 4 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼夜 |

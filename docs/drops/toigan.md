@@ -3,11 +3,11 @@ title: トイガン
 description: DQMVIの「トイガン」を落とすモンスター1体の一覧。いちばん弱いのはドラゴントイズ（通常・EXP3,316）。
 pageClass: wide-page sortable-list
 prev:
-  text: "デス・キャロット"
-  link: /drops/desukyarotto
+  text: "スラブラスター"
+  link: /drops/suraburasuta
 next:
-  text: "デスマスク"
-  link: /drops/desumasuku
+  text: "神獣王の戦篭手"
+  link: /drops/gauntlet_19_shinjuuou
 ---
 
 # トイガン

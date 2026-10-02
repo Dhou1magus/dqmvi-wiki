@@ -2,8 +2,8 @@
 title: メタルトリュフ
 description: DQMVIのモンスター「メタルトリュフ」のステータス。HP18 / こうげき76 / しゅび10,000 / 経験値16,578 / 400G。
 prev:
-  text: "ドラゴントイズ"
-  link: /monsters/doragontoizu
+  text: "ゴールデンハンド"
+  link: /monsters/golden_hand
 next:
   text: "ドラゴメタル"
   link: /monsters/dragometaru
@@ -30,7 +30,7 @@ EXP | 16,578
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 431 |
+| 図鑑No. | 474 |
 | ランク | 4 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼夜 |

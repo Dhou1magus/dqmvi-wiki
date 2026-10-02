@@ -2,8 +2,8 @@
 title: ましょうぐも
 description: DQMVIのモンスター「ましょうぐも」のステータス。HP7,141 / こうげき342 / しゅび188 / 経験値9,059 / 1,812G。
 prev:
-  text: "メカバーン"
-  link: /monsters/mekaban
+  text: "凶レッドドラゴン"
+  link: /monsters/kyoureddragon
 next:
   text: "ピサロナイト"
   link: /monsters/pisaronaito
@@ -30,7 +30,7 @@ EXP | 9,059
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 529 |
+| 図鑑No. | 582 |
 | ランク | 5 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 夜のみ |

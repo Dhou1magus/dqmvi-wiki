@@ -5,8 +5,8 @@ prev:
   text: "ミケまどう"
   link: /monsters/mikemadou
 next:
-  text: "メタルエンゼル"
-  link: /monsters/metalangel
+  text: "マッドスミス"
+  link: /monsters/maddosumisu
 ---
 
 # シドもじゃ
@@ -30,7 +30,7 @@ EXP | 1,977
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 307 |
+| 図鑑No. | 330 |
 | ランク | 3 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 昼のみ |

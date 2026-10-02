@@ -3,11 +3,11 @@ title: サクラの指輪
 description: DQMVIの「サクラの指輪」を落とすモンスター1体の一覧。いちばん弱いのはさくらこぞう（通常・EXP985）。
 pageClass: wide-page sortable-list
 prev:
-  text: "スラブラスター"
-  link: /drops/suraburasuta
+  text: "機械仕掛けのこころ"
+  link: /drops/kikaijikakenokokoro
 next:
-  text: "シドのゴーグル"
-  link: /drops/sidonogoguru
+  text: "魔王の笛"
+  link: /drops/maounofue
 ---
 
 # サクラの指輪

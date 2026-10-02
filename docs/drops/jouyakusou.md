@@ -1,18 +1,18 @@
 ---
 title: 上やくそう
-description: DQMVIの「上やくそう」を落とすモンスター8体の一覧。いちばん弱いのはもりもりスライム（通常・EXP43）。
+description: DQMVIの「上やくそう」を落とすモンスター9体の一覧。いちばん弱いのはもりもりスライム（通常・EXP43）。
 pageClass: wide-page sortable-list
 prev:
-  text: "呪力のモト"
-  link: /drops/juryokunomoto
+  text: "女神のイヤリング"
+  link: /drops/megaminoiyaringu
 next:
-  text: "精霊石"
-  link: /drops/seireiseki
+  text: "触手のイヤリング"
+  link: /drops/syokusyunoiyaringu
 ---
 
 # 上やくそう
 
-素材。**8体**のモンスターが落とします。
+素材。**9体**のモンスターが落とします。
 
 ::: tip ねらい目
 **もりもりスライム**（通常ドロップ・EXP43）。
@@ -27,6 +27,7 @@ next:
 | [りゅうき兵](/monsters/mandrake_mercenary) | 通常 | 2 | [ドラゴン](/species/dragon) | 64 | 54 |
 | [黄泉の花](/monsters/yominohana) | レア | 2 | [スライム](/species/slime) | 34 | 42 |
 | [ニードルマン](/monsters/ni_doruman) | レア | 2 | [物質](/species/bussitu) | 56 | 52 |
+| [プチマージ](/monsters/conkjurer) | レア | 2 | [悪魔](/species/akuma) | 49 | 52 |
 | [ひとくい木箱](/monsters/hitokuikibako) | レア | 2 | [特殊](/species/tokusyu) | 51 | 54 |
 | [しっぽ団のモーモン](/monsters/teeny_sanguini_shippodan) | レア | 2 | [悪魔](/species/akuma) | 61 | 55 |
 | [デビルパイン](/monsters/devil_pineapple) | レア | 2 | [悪魔](/species/akuma) | 59 | 59 |

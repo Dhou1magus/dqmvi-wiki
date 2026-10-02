@@ -1,6 +1,6 @@
 ---
 title: ベロベロ
-description: DQMVIのモンスター「ベロベロ」のステータス。HP80 / こうげき45.2 / しゅび38 / 経験値82 / 16G。
+description: DQMVIのモンスター「ベロベロ」のステータス。HP80 / こうげき45 / しゅび38 / 経験値82 / 16G。
 prev:
   text: "ベホイミスライム"
   link: /monsters/behoimisuraimu
@@ -30,7 +30,7 @@ EXP | 82
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 191 |
+| 図鑑No. | 206 |
 | ランク | 3 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

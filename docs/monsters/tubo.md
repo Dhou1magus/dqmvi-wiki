@@ -1,6 +1,6 @@
 ---
 title: つぼ
-description: DQMVIのモンスター「つぼ」のステータス。HP55 / こうげき30.96 / しゅび20 / 経験値51 / 10G。
+description: DQMVIのモンスター「つぼ」のステータス。HP55 / こうげき31 / しゅび20 / 経験値51 / 10G。
 prev:
   text: "ひとくいサーベル"
   link: /monsters/hitokuisaberu
@@ -30,7 +30,7 @@ EXP | 51
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 100 |
+| 図鑑No. | 106 |
 | ランク | 2 |
 | 系統 | [特殊系](/species/tokusyu) |
 | 活動時間 | 昼夜 |

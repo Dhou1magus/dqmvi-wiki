@@ -2,8 +2,8 @@
 title: アッシュリザード
 description: DQMVIのモンスター「アッシュリザード」のステータス。HP1,449 / こうげき228 / しゅび168 / 経験値457 / 86G。
 prev:
-  text: "ジェントルダンス"
-  link: /monsters/zyentorudansu
+  text: "エルダースライム"
+  link: /monsters/elderslime
 next:
   text: "スラキャンサー"
   link: /monsters/slimecanser
@@ -30,7 +30,7 @@ EXP | 457
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 605 |
+| 図鑑No. | 657 |
 | ランク | 6 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

@@ -1,6 +1,6 @@
 ---
 title: ちからの盾
-description: DQMVIの「ちからの盾」を落とすモンスター2体の一覧。いちばん弱いのはダークホビット（超レア・EXP678）。
+description: DQMVIの「ちからの盾」を落とすモンスター3体の一覧。いちばん弱いのはダークホビット（超レア・EXP678）。
 pageClass: wide-page sortable-list
 prev:
   text: "ちいさなメダル"
@@ -12,7 +12,7 @@ next:
 
 # ちからの盾
 
-盾・アクセサリー。**2体**のモンスターが落とします。
+盾・アクセサリー。**3体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ダークホビット**（超レアドロップ・EXP678）。
@@ -36,6 +36,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ダークホビット](/monsters/dakuhobitto) | 超レア | 7 | [物質](/species/bussitu) | 1,725 | 678 |
+| [ガルマッゾ](/monsters/garumazzo) | 超レア | 7 | [特殊](/species/tokusyu) | 2,223 | 713 |
 | [謎のバケモノ](/monsters/nazonobakemono) | 超レア | 7 | [ドラゴン](/species/dragon) | 2,853 | 994 |
 
 見出しを押すと並べ替えできます。

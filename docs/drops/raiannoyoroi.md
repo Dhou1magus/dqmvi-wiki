@@ -6,8 +6,8 @@ prev:
   text: "よるのとばり"
   link: /drops/yorunotobari
 next:
-  text: "リサイクルストーン"
-  link: /drops/risaikurusuton
+  text: "ライバーンリング"
+  link: /drops/raibanringu
 ---
 
 # ライアンのよろい

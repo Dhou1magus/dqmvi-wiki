@@ -1,6 +1,6 @@
 ---
 title: あやしいかげ
-description: DQMVIのモンスター「あやしいかげ」のステータス。HP42 / こうげき28.08 / しゅび17 / 経験値44 / 9G。
+description: DQMVIのモンスター「あやしいかげ」のステータス。HP42 / こうげき28 / しゅび17 / 経験値44 / 9G。
 prev:
   text: "おばけキャンドル"
   link: /monsters/obakekyandoru
@@ -30,7 +30,7 @@ EXP | 44
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 95 |
+| 図鑑No. | 101 |
 | ランク | 2 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 夜のみ |

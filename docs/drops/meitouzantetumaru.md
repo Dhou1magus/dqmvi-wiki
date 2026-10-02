@@ -3,11 +3,11 @@ title: 名刀 斬鉄丸
 description: 名刀 斬鉄丸
 pageClass: wide-page sortable-list
 prev:
-  text: "万能薬"
-  link: /drops/bannouyaku
+  text: "にくきゅうの杖"
+  link: /drops/nikukyuunotue
 next:
-  text: "矢"
-  link: /drops/mc_arrow
+  text: "ムーンキメラの羽"
+  link: /drops/moonkimeranohane
 ---
 
 # 名刀 斬鉄丸

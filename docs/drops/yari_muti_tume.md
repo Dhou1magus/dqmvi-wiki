@@ -1,6 +1,6 @@
 ---
 title: 貴重なレシピ(槍、鞭、爪)
-description: DQMVIの「貴重なレシピ(槍、鞭、爪)」を落とすモンスター2体の一覧。いちばん弱いのはうらぎりこぞう（超レア・EXP567）。
+description: DQMVIの「貴重なレシピ(槍、鞭、爪)」を落とすモンスター3体の一覧。いちばん弱いのはうらぎりこぞう（超レア・EXP567）。
 pageClass: wide-page sortable-list
 prev:
   text: "貴重なレシピ(剣、短剣)"
@@ -12,7 +12,7 @@ next:
 
 # 貴重なレシピ(槍、鞭、爪)
 
-素材。**2体**のモンスターが落とします。
+素材。**3体**のモンスターが落とします。
 
 ::: tip ねらい目
 **うらぎりこぞう**（超レアドロップ・EXP567）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [うらぎりこぞう](/monsters/uragirikozou) | 超レア | 7 | [悪魔](/species/akuma) | 1,665 | 567 |
 | [あんこくまじん](/monsters/ankokumajin) | 超レア | 7 | [物質](/species/bussitu) | 1,890 | 691 |
+| [浄化のたまねぎ](/monsters/zyoukanotamanegi) | 超レア | 7 | [自然](/species/sizen) | 2,093 | 749 |
 
 見出しを押すと並べ替えできます。
 

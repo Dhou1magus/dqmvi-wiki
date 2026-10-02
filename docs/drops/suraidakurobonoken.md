@@ -3,11 +3,11 @@ title: スライダークロボの剣
 description: スライダークロボの剣
 pageClass: wide-page sortable-list
 prev:
-  text: "しろバラのきしの兜"
-  link: /drops/sirobaranokisinokabuto
+  text: "魔獣イギュアの爪"
+  link: /drops/majuuigyuanotume
 next:
-  text: "スライムおしゃれ花"
-  link: /drops/suraimuosyarebana
+  text: "デーモンハンマー"
+  link: /drops/demonhanma
 ---
 
 # スライダークロボの剣

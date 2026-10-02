@@ -1,6 +1,6 @@
 ---
 title: げんこつダケ
-description: DQMVIの「げんこつダケ」を落とすモンスター2体の一覧。いちばん弱いのはケムンクルス（通常・EXP314）。
+description: DQMVIの「げんこつダケ」を落とすモンスター3体の一覧。いちばん弱いのはケムンクルス（通常・EXP314）。
 pageClass: wide-page sortable-list
 prev:
   text: "ゲノミーの触手"
@@ -12,7 +12,7 @@ next:
 
 # げんこつダケ
 
-施設。**2体**のモンスターが落とします。
+施設。**3体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ケムンクルス**（通常ドロップ・EXP314）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ケムンクルス](/monsters/kemunkurusu) | 通常 | 6 | [悪魔](/species/akuma) | 848 | 314 |
 | [キングミミック](/monsters/kingumimikku) | 通常 | 6 | [悪魔](/species/akuma) | 1,019 | 341 |
+| [ロードコープス](/monsters/roodokoopusu) | 通常 | 6 | [ゾンビ](/species/zombie) | 1,116 | 405 |
 
 見出しを押すと並べ替えできます。
 

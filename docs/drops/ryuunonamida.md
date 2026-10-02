@@ -1,6 +1,6 @@
 ---
 title: 竜のなみだ
-description: DQMVIの「竜のなみだ」を落とすモンスター31体の一覧。いちばん弱いのはドラゴンゾンビ（通常・EXP171）。
+description: DQMVIの「竜のなみだ」を落とすモンスター36体の一覧。いちばん弱いのはドラゴンゾンビ（通常・EXP171）。
 pageClass: wide-page sortable-list
 prev:
   text: "竜のうろこ"
@@ -12,7 +12,7 @@ next:
 
 # 竜のなみだ
 
-素材。**31体**のモンスターが落とします。
+素材。**36体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ドラゴンゾンビ**（通常ドロップ・EXP171）。
@@ -25,20 +25,24 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ドラゴンゾンビ](/monsters/dragonzombie) | 通常 | 4 | [ドラゴン](/species/dragon) | 197 | 171 |
 | [ガメゴン](/monsters/gamegon) | 通常 | 4 | [ドラゴン](/species/dragon) | 200 | 183 |
-| [ひとくい箱](/monsters/hitokuibako) | 通常 | 4 | [物質](/species/bussitu) | 184 | 185 |
+| [ひとくい箱](/monsters/hitokuibako) | 通常 | 4 | [物質](/species/bussitu) | 185 | 185 |
 | [ポムポムボム](/monsters/pombom) | 通常 | 6 | [ゾンビ](/species/zombie) | 968 | 382 |
 | [マグマロン](/monsters/magumaron) | 通常 | 7 | [自然](/species/sizen) | 1,770 | 592 |
 | [リューイーソー](/monsters/ryuiso) | 通常 | 7 | [ゾンビ](/species/zombie) | 1,875 | 628 |
+| [ジアメーダ](/monsters/ziameeda) | 通常 | 7 | [悪魔](/species/akuma) | 2,084 | 663 |
 | [バトルレックス](/monsters/batorurex) | 通常 | 7 | [ドラゴン](/species/dragon) | 1,800 | 675 |
+| [空の神ホアカリ](/monsters/hoakari) | 通常 | 7 | [特殊](/species/tokusyu) | 1,803 | 675 |
 | [ダークナイト](/monsters/dakunaito) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,325 | 756 |
 | [ガメゴンレジェンド](/monsters/gamegonrejendo) | 通常 | 7 | [ドラゴン](/species/dragon) | 2,700 | 822 |
 | [ソードイド](/monsters/sozoido) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,396 | 834 |
 | [メタルドラゴン](/monsters/metarudoragon) | レア | 3 | [物質](/species/bussitu) | 91 | 93 |
+| [レッドドラゴン](/monsters/reddragon) | レア | 4 | [ドラゴン](/species/dragon) | 188 | 138 |
 | [おどる宝石](/monsters/odoruhouseki) | レア | 4 | [物質](/species/bussitu) | 162 | 142 |
 | [かいぞくウーパー](/monsters/kaizokuupa) | レア | 4 | [自然](/species/sizen) | 170 | 145 |
 | [テンタコルス](/monsters/tentakorusu) | レア | 4 | [自然](/species/sizen) | 190 | 155 |
 | [モビルレフト](/monsters/mobirurefuto) | レア | 4 | [物質](/species/bussitu) | 168 | 155 |
 | [モビルライト](/monsters/mobiruraito) | レア | 4 | [物質](/species/bussitu) | 168 | 155 |
+| [タイラントワームP](/monsters/tyrantwormp) | レア | 4 | [自然](/species/sizen) | 1,820 | 156 |
 | [キングマーマン](/monsters/kingmerman) | レア | 4 | [自然](/species/sizen) | 180 | 159 |
 | [ヘルダイバー](/monsters/abyssdiver) | レア | 4 | [ドラゴン](/species/dragon) | 184 | 166 |
 | [しのさそり](/monsters/death_scorpion) | レア | 4 | [自然](/species/sizen) | 203 | 174 |
@@ -48,9 +52,10 @@ next:
 | [ホタテワラビー](/monsters/hotatewarabi) | レア | 6 | [魔獣](/species/majyu) | 880 | 314 |
 | [ドラグノワール](/monsters/doragunowaaru) | レア | 6 | [ドラゴン](/species/dragon) | 1,306 | 448 |
 | [スライムマデュラ](/monsters/suraimumadyura) | レア | 7 | [スライム](/species/slime) | 1,695 | 700 |
+| [ガルマッゾ](/monsters/garumazzo) | レア | 7 | [特殊](/species/tokusyu) | 2,223 | 713 |
 | [スカルガルー](/monsters/skullgaroo) | 超レア | 5 | [魔獣](/species/majyu) | 364 | 230 |
 | [クイーンマチルダ](/monsters/kuinmatiruda) | 超レア | 5 | [ゾンビ](/species/zombie) | 469 | 243 |
-| [スマイルロック](/monsters/sumairurokku) | 超レア | 5 | [物質](/species/bussitu) | 444 | 250 |
+| [スマイルロック](/monsters/sumairurokku) | 超レア | 5 | [物質](/species/bussitu) | 445 | 250 |
 | [まだらイチョウ](/monsters/madaraichou) | 超レア | 5 | [自然](/species/sizen) | 389 | 266 |
 | [メタルライダー](/monsters/metaruraida) | 超レア | 5 | [スライム](/species/slime) | 469 | 269 |
 | [パンドラ木箱](/monsters/pandorakibako) | 超レア | 5 | [特殊](/species/tokusyu) | 536 | 290 |

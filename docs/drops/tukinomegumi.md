@@ -1,6 +1,6 @@
 ---
 title: 月のめぐみ
-description: DQMVIの「月のめぐみ」を落とすモンスター11体の一覧。いちばん弱いのはからくりしょうぐん（通常・EXP222）。
+description: DQMVIの「月のめぐみ」を落とすモンスター10体の一覧。いちばん弱いのはからくりしょうぐん（通常・EXP222）。
 pageClass: wide-page sortable-list
 prev:
   text: "月のダイヤ"
@@ -12,7 +12,7 @@ next:
 
 # 月のめぐみ
 
-素材。**11体**のモンスターが落とします。
+素材。**10体**のモンスターが落とします。
 
 ::: tip ねらい目
 **からくりしょうぐん**（通常ドロップ・EXP222）。
@@ -31,7 +31,6 @@ next:
 | [キラーアーマー](/monsters/kiraama) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,250 | 739 |
 | [ケムンクルス](/monsters/kemunkurusu) | 超レア | 6 | [悪魔](/species/akuma) | 848 | 314 |
 | [プヨンターゲット](/monsters/puyon) | 超レア | 6 | [ゾンビ](/species/zombie) | 944 | 335 |
-| [ジェントルダンス](/monsters/zyentorudansu) | 超レア | 6 | [悪魔](/species/akuma) | 1,031 | 350 |
 | [ごくらくちょう](/monsters/gokurakuchou) | 超レア | 6 | [魔獣](/species/majyu) | 969 | 353 |
 | [パペットマン](/monsters/papettoman) | 超レア | 6 | [物質](/species/bussitu) | 840 | 357 |
 

@@ -1,6 +1,6 @@
 ---
 title: うらみのほうじゅ
-description: DQMVIの「うらみのほうじゅ」を落とすモンスター26体の一覧。いちばん弱いのはまおうのかげ（通常・EXP350）。
+description: DQMVIの「うらみのほうじゅ」を落とすモンスター24体の一覧。いちばん弱いのはまおうのかげ（通常・EXP350）。
 pageClass: wide-page sortable-list
 prev:
   text: "うまのふん"
@@ -12,7 +12,7 @@ next:
 
 # うらみのほうじゅ
 
-素材。**26体**のモンスターが落とします。
+素材。**24体**のモンスターが落とします。
 
 ::: tip ねらい目
 **まおうのかげ**（通常ドロップ・EXP350）。
@@ -27,25 +27,23 @@ next:
 | [セイレーンゴースト](/monsters/seire_ngo_suto) | 通常 | 6 | [物質](/species/bussitu) | 1,216 | 374 |
 | [コスモアイ](/monsters/kosumoai) | 通常 | 6 | [悪魔](/species/akuma) | 1,220 | 421 |
 | [ベリアル](/monsters/beriaru) | 通常 | 6 | [悪魔](/species/akuma) | 1,550 | 450 |
-| [ダーククリスタル](/monsters/dark_crystal) | 通常 | 6 | [物質](/species/bussitu) | 1,258 | 451 |
 | [バラモスゾンビ](/monsters/baramoszombie) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,442 | 469 |
 | [シルバーマント](/monsters/sirubamanto) | 通常 | 7 | [ゾンビ](/species/zombie) | 1,875 | 709 |
 | [ヘルガーディアン](/monsters/herugadexian) | 通常 | 7 | [ゾンビ](/species/zombie) | 2,350 | 711 |
+| [オーシャンボーン](/monsters/oceanbone) | 通常 | 7 | [自然](/species/sizen) | 24,600 | 722 |
 | [デーモンアミゴ](/monsters/demonamigo) | 通常 | 7 | [悪魔](/species/akuma) | 3,312 | 859 |
 | [マクロベータ](/monsters/makurobeta) | レア | 6 | [ゾンビ](/species/zombie) | 1,322 | 453 |
 | [ニジゴロン](/monsters/nizigoron) | レア | 6 | [スライム](/species/slime) | 1,167 | 456 |
 | [モノクロームナイト](/monsters/monokuroomunaito) | レア | 6 | [物質](/species/bussitu) | 1,505 | 460 |
 | [ケベナヒモス](/monsters/kebenahemoth) | レア | 6 | [ドラゴン](/species/dragon) | 1,374 | 513 |
-| [まおうのかげ](/monsters/maounokage) | 超レア | 6 | [物質](/species/bussitu) | 944 | 350 |
+| [ダークドリーマー](/monsters/darkdreamer) | 超レア | 6 | [物質](/species/bussitu) | 921 | 345 |
 | [ダークスライム](/monsters/darkslime) | 超レア | 6 | [スライム](/species/slime) | 992 | 362 |
 | [しりょうのきし](/monsters/siryounokisi) | 超レア | 6 | [ゾンビ](/species/zombie) | 1,072 | 369 |
 | [デスジャッカル](/monsters/desujakkaru) | 超レア | 6 | [ゾンビ](/species/zombie) | 944 | 377 |
 | [ダゴン](/monsters/dagon) | 超レア | 6 | [自然](/species/sizen) | 1,111 | 392 |
 | [オーラー](/monsters/ora) | 超レア | 6 | [物質](/species/bussitu) | 920 | 413 |
 | [シルバーデビル](/monsters/sirubadebiru) | 超レア | 6 | [悪魔](/species/akuma) | 1,088 | 418 |
-| [コスモアイ](/monsters/kosumoai) | 超レア | 6 | [悪魔](/species/akuma) | 1,220 | 421 |
 | [アッシュリザード](/monsters/ash_lizard) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,449 | 457 |
-| [バラモスゾンビ](/monsters/baramoszombie) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,442 | 469 |
 | [根絶やしの竜](/monsters/nedayashinoryu) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,326 | 472 |
 | [グレンデル](/monsters/gurenderu) | 超レア | 6 | [魔獣](/species/majyu) | 1,298 | 512 |
 | [グレイトドラゴン](/monsters/gureitodoragon) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,550 | 550 |

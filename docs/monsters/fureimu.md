@@ -1,6 +1,6 @@
 ---
 title: フレイム
-description: DQMVIのモンスター「フレイム」のステータス。HP371 / こうげき112.32 / しゅび94 / 経験値219 / 44G。
+description: DQMVIのモンスター「フレイム」のステータス。HP371 / こうげき112 / しゅび94 / 経験値219 / 44G。
 prev:
   text: "ばくだんいわ"
   link: /monsters/bakudaniwa
@@ -30,7 +30,7 @@ EXP | 219
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 440 |
+| 図鑑No. | 483 |
 | ランク | 5 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

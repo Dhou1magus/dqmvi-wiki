@@ -1,6 +1,6 @@
 ---
 title: よごれた包帯
-description: DQMVIの「よごれた包帯」を落とすモンスター32体の一覧。いちばん弱いのはリリパット（通常・EXP33）。
+description: DQMVIの「よごれた包帯」を落とすモンスター34体の一覧。いちばん弱いのはリリパット（通常・EXP33）。
 pageClass: wide-page sortable-list
 prev:
   text: "やわらかウール"
@@ -12,7 +12,7 @@ next:
 
 # よごれた包帯
 
-素材。**32体**のモンスターが落とします。
+素材。**34体**のモンスターが落とします。
 
 ::: tip ねらい目
 **リリパット**（通常ドロップ・EXP33）。
@@ -28,6 +28,7 @@ next:
 | [フェアリーバット](/monsters/fruity_succubat) | 通常 | 2 | [悪魔](/species/akuma) | 39 | 38 |
 | [どくイモムシ](/monsters/poison_caterpillar) | 通常 | 2 | [自然](/species/sizen) | 52 | 52 |
 | [ニードルマン](/monsters/ni_doruman) | 通常 | 2 | [物質](/species/bussitu) | 56 | 52 |
+| [プチファイター](/monsters/conkerer) | 通常 | 2 | [悪魔](/species/akuma) | 60 | 58 |
 | [デビルスノー](/monsters/debirusunoo) | 通常 | 3 | [物質](/species/bussitu) | 80 | 84 |
 | [マペットマン](/monsters/mapetman) | 通常 | 3 | [特殊](/species/tokusyu) | 97 | 86 |
 | [スライムジョーカー](/monsters/slimejoker) | 通常 | 3 | [スライム](/species/slime) | 88 | 88 |
@@ -46,6 +47,7 @@ next:
 | [ザバン](/monsters/zaban) | レア | 5 | [自然](/species/sizen) | 456 | 274 |
 | [ベルザブル](/monsters/berusaburu) | レア | 5 | [自然](/species/sizen) | 489 | 288 |
 | [びっくりサタン](/monsters/bikkurisatan) | 超レア | 1 | [悪魔](/species/akuma) | 12 | 5 |
+| [コロプリースト](/monsters/epipany) | 超レア | 1 | [悪魔](/species/akuma) | 10 | 6 |
 | [ナイトウイプス](/monsters/naitouipusu) | 超レア | 1 | [ゾンビ](/species/zombie) | 20 | 9 |
 | [ギズモ1](/monsters/gizumo_az) | 超レア | 1 | [物質](/species/bussitu) | 22 | 12 |
 | [ギズモ2](/monsters/gizumo) | 超レア | 1 | [物質](/species/bussitu) | 22 | 12 |

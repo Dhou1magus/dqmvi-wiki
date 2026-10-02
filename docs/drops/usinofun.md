@@ -1,6 +1,6 @@
 ---
 title: うしのふん
-description: DQMVIの「うしのふん」を落とすモンスター15体の一覧。いちばん弱いのはびっくりサタン（通常・EXP5）。
+description: DQMVIの「うしのふん」を落とすモンスター18体の一覧。いちばん弱いのはびっくりサタン（通常・EXP5）。
 pageClass: wide-page sortable-list
 prev:
   text: "うさぎのしっぽ"
@@ -12,7 +12,7 @@ next:
 
 # うしのふん
 
-素材。**15体**のモンスターが落とします。
+素材。**18体**のモンスターが落とします。
 
 ::: tip ねらい目
 **びっくりサタン**（通常ドロップ・EXP5）。
@@ -25,8 +25,10 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [びっくりサタン](/monsters/bikkurisatan) | 通常 | 1 | [悪魔](/species/akuma) | 12 | 5 |
 | [スライムツリー](/monsters/slimetree) | 通常 | 1 | [スライム](/species/slime) | 10 | 6 |
+| [コロマージ](/monsters/wiz_pip) | 通常 | 1 | [悪魔](/species/akuma) | 19 | 9 |
 | [おばけきのこ](/monsters/obakekinoko) | 通常 | 1 | [自然](/species/sizen) | 25 | 12 |
 | [ドロザラー](/monsters/dorozara) | レア | 1 | [物質](/species/bussitu) | 14 | 6 |
+| [コロプリースト](/monsters/epipany) | レア | 1 | [悪魔](/species/akuma) | 10 | 6 |
 | [おにこぞう](/monsters/onikozou) | レア | 1 | [悪魔](/species/akuma) | 18 | 11 |
 | [リップス](/monsters/rippusu) | レア | 1 | [自然](/species/sizen) | 18 | 11 |
 | [ドロルメイジ](/monsters/dororu_meizi) | レア | 1 | [ゾンビ](/species/zombie) | 17 | 11 |
@@ -38,6 +40,7 @@ next:
 | [しにがみきぞく](/monsters/shinigamikizoku) | レア | 3 | [ゾンビ](/species/zombie) | 182 | 143 |
 | [ヘルゴースト](/monsters/herughost) | レア | 4 | [ゾンビ](/species/zombie) | 174 | 144 |
 | [ふゆぐんそう](/monsters/fuyugunsou) | レア | 4 | [物質](/species/bussitu) | 171 | 144 |
+| [デスプリースト](/monsters/desupuriisuto) | レア | 4 | [ゾンビ](/species/zombie) | 179 | 160 |
 
 見出しを押すと並べ替えできます。
 

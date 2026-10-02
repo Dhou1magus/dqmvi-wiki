@@ -1,6 +1,6 @@
 ---
 title: マドハンド
-description: DQMVIのモンスター「マドハンド」のステータス。HP65 / こうげき45.2 / しゅび35 / 経験値78 / 16G。
+description: DQMVIのモンスター「マドハンド」のステータス。HP65 / こうげき45 / しゅび35 / 経験値78 / 16G。
 prev:
   text: "あくまの書"
   link: /monsters/akumanosyo
@@ -30,7 +30,7 @@ EXP | 78
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 187 |
+| 図鑑No. | 202 |
 | ランク | 3 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼のみ |

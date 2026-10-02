@@ -1,10 +1,10 @@
 ---
 title: リサイクルストーン
-description: DQMVIの「リサイクルストーン」を落とすモンスター29体の一覧。いちばん弱いのはパペットこぞう（通常・EXP39）。
+description: DQMVIの「リサイクルストーン」を落とすモンスター35体の一覧。いちばん弱いのはパペットこぞう（通常・EXP39）。
 pageClass: wide-page sortable-list
 prev:
-  text: "ライアンのよろい"
-  link: /drops/raiannoyoroi
+  text: "ライバーンリング"
+  link: /drops/raibanringu
 next:
   text: "りゅうおうもどきの尻尾"
   link: /drops/ryuuoumodokinosippo
@@ -12,7 +12,7 @@ next:
 
 # リサイクルストーン
 
-素材。**29体**のモンスターが落とします。
+素材。**35体**のモンスターが落とします。
 
 ::: tip ねらい目
 **パペットこぞう**（通常ドロップ・EXP39）。
@@ -25,20 +25,25 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [パペットこぞう](/monsters/papetkozou) | 通常 | 2 | [特殊](/species/tokusyu) | 43 | 39 |
 | [ぬかどこスライム](/monsters/pickledslime) | 通常 | 2 | [スライム](/species/slime) | 45 | 42 |
+| [おおみみず](/monsters/wiggly) | 通常 | 2 | [自然](/species/sizen) | 470 | 47 |
 | [ぐんたいガニ](/monsters/guntaigani) | 通常 | 2 | [自然](/species/sizen) | 50 | 49 |
+| [ガマニアン](/monsters/dreadherring) | 通常 | 2 | [自然](/species/sizen) | 55 | 49 |
 | [つららスライム](/monsters/slimecicle) | 通常 | 2 | [スライム](/species/slime) | 58 | 50 |
+| [しっぽ団のいっかくうさぎ](/monsters/bunicorn_shippodan) | 通常 | 2 | [魔獣](/species/majyu) | 64 | 50 |
 | [スピンスライム](/monsters/spinslime) | 通常 | 2 | [スライム](/species/slime) | 62 | 52 |
+| [コロボックル族](/monsters/pips) | 通常 | 2 | [悪魔](/species/akuma) | 62 | 59 |
 | [グリゴンダンス](/monsters/gurigondansu) | 通常 | 3 | [悪魔](/species/akuma) | 87 | 79 |
 | [ベロベロ](/monsters/berobero) | 通常 | 3 | [ゾンビ](/species/zombie) | 80 | 82 |
 | [トラップボックス](/monsters/torappubokkusu) | 通常 | 3 | [物質](/species/bussitu) | 87 | 82 |
 | [スライムボーグ](/monsters/suraimubogu) | 通常 | 3 | [スライム](/species/slime) | 80 | 89 |
 | [おおくちばし](/monsters/ookutibasi) | 通常 | 3 | [自然](/species/sizen) | 96 | 92 |
 | [じごくのたまねぎ](/monsters/zigokunotamanegi) | 通常 | 3 | [自然](/species/sizen) | 75 | 92 |
-| [ボックススライムグリーン](/monsters/boxsuraimu_midori) | 通常 | 3 | [スライム](/species/slime) | 100 | 95 |
+| [ボックススライムグリーン](/monsters/boxsuraimu_midori) | 通常 | 3 | [スライム](/species/slime) | 101 | 95 |
 | [パプリカン](/monsters/papurikan) | 通常 | 3 | [自然](/species/sizen) | 88 | 98 |
 | [カパーラナーガ](/monsters/kaparanaga) | 通常 | 3 | [ゾンビ](/species/zombie) | 143 | 100 |
 | [スカルナイト](/monsters/skull_knight) | 通常 | 3 | [ゾンビ](/species/zombie) | 139 | 115 |
 | [ピーチスライム](/monsters/peachslime) | 通常 | 3 | [スライム](/species/slime) | 157 | 125 |
+| [プチット族](/monsters/conklave) | 通常 | 3 | [悪魔](/species/akuma) | 162 | 125 |
 | [スモールグール](/monsters/sumoruguru) | 通常 | 4 | [ゾンビ](/species/zombie) | 165 | 143 |
 | [フェイスボール](/monsters/faceball) | 通常 | 4 | [ゾンビ](/species/zombie) | 202 | 165 |
 | [ヘルビートル](/monsters/fire_beatle) | 通常 | 4 | [自然](/species/sizen) | 195 | 197 |
@@ -47,11 +52,12 @@ next:
 | [つぼ](/monsters/tubo) | レア | 2 | [特殊](/species/tokusyu) | 55 | 51 |
 | [レッドハンター](/monsters/redhanta) | レア | 2 | [物質](/species/bussitu) | 70 | 62 |
 | [もりもりベス](/monsters/beshemothslime) | レア | 3 | [スライム](/species/slime) | 78 | 86 |
+| [凶グリーンドラゴン](/monsters/kyougreandragon) | レア | 4 | [ドラゴン](/species/dragon) | 176 | 159 |
 | [しびれだんびら](/monsters/sibiredanbira) | レア | 4 | [物質](/species/bussitu) | 180 | 169 |
 | [ばくだんいわ](/monsters/bakudaniwa) | レア | 5 | [物質](/species/bussitu) | 371 | 229 |
 | [ファーラット](/monsters/faratto) | 超レア | 1 | [魔獣](/species/majyu) | 24 | 11 |
 | [はさみくわがた](/monsters/scissorbeatle) | 超レア | 1 | [自然](/species/sizen) | 26 | 14 |
-| [パペットこぞう](/monsters/papetkozou) | 超レア | 2 | [特殊](/species/tokusyu) | 43 | 39 |
+| [プチヒーロー](/monsters/conkuistador) | 超レア | 2 | [悪魔](/species/akuma) | 67 | 55 |
 
 見出しを押すと並べ替えできます。
 

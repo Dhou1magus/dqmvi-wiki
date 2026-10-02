@@ -5,8 +5,8 @@ prev:
   text: "ドロルメイジ"
   link: /monsters/dororu_meizi
 next:
-  text: "リトルライバーン"
-  link: /monsters/ritoruraiba
+  text: "コロマージ"
+  link: /monsters/wiz_pip
 ---
 
 # もみじこぞう

@@ -1,6 +1,6 @@
 ---
 title: リリパット
-description: DQMVIのモンスター「リリパット」のステータス。HP39 / こうげき21.06 / しゅび12 / 経験値33 / 7G。
+description: DQMVIのモンスター「リリパット」のステータス。HP39 / こうげき21 / しゅび12 / 経験値33 / 7G。
 prev:
   text: "スライムつむり"
   link: /monsters/suraimutumuri
@@ -30,7 +30,7 @@ EXP | 33
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 88 |
+| 図鑑No. | 94 |
 | ランク | 2 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 夜のみ |

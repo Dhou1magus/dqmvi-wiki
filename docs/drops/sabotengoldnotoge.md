@@ -3,11 +3,11 @@ title: サボテンゴールドの棘
 description: サボテンゴールドの棘
 pageClass: wide-page sortable-list
 prev:
-  text: "さえずりのみつ"
-  link: /drops/saezurinomitu
+  text: "とげこんぼうの棍棒"
+  link: /drops/togekonbounokonbou
 next:
-  text: "さんぞくサーベル"
-  link: /drops/sanzokusaberu
+  text: "レッドアーチャーの弓"
+  link: /drops/redatyanoyumi
 ---
 
 # サボテンゴールドの棘

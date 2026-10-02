@@ -1,6 +1,6 @@
 ---
 title: スノーモン
-description: DQMVIのモンスター「スノーモン」のステータス。HP36 / こうげき23.04 / しゅび13 / 経験値36 / 7G。
+description: DQMVIのモンスター「スノーモン」のステータス。HP36 / こうげき23 / しゅび13 / 経験値36 / 7G。
 prev:
   text: "どくろあらい"
   link: /monsters/dokuroarai
@@ -30,7 +30,7 @@ EXP | 36
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 86 |
+| 図鑑No. | 92 |
 | ランク | 2 |
 | 系統 | [悪魔系](/species/akuma) |
 | 活動時間 | 昼のみ |

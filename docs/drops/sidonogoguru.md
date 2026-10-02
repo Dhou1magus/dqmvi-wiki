@@ -3,11 +3,11 @@ title: シドのゴーグル
 description: DQMVIの「シドのゴーグル」を落とすモンスター1体の一覧。いちばん弱いのはシドもじゃ（通常・EXP1,977）。
 pageClass: wide-page sortable-list
 prev:
-  text: "サクラの指輪"
-  link: /drops/sakuranoyubiwa
+  text: "しろバラのきしの兜"
+  link: /drops/sirobaranokisinokabuto
 next:
-  text: "デス・キャロット"
-  link: /drops/desukyarotto
+  text: "神獣王の兜"
+  link: /drops/shinjuuounokabuto
 ---
 
 # シドのゴーグル

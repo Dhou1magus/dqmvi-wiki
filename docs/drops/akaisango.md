@@ -1,18 +1,18 @@
 ---
 title: 赤いサンゴ
-description: DQMVIの「赤いサンゴ」を落とすモンスター30体の一覧。いちばん弱いのはマグマスライム（通常・EXP9）。
+description: DQMVIの「赤いサンゴ」を落とすモンスター32体の一覧。いちばん弱いのはマグマスライム（通常・EXP9）。
 pageClass: wide-page sortable-list
 prev:
   text: "聖者の灰"
   link: /drops/seijanohai
 next:
-  text: "太陽石合金"
-  link: /drops/taiyounoisi2
+  text: "全てを超越せし者討伐の証"
+  link: /drops/god
 ---
 
 # 赤いサンゴ
 
-素材。**30体**のモンスターが落とします。
+素材。**32体**のモンスターが落とします。
 
 ::: tip ねらい目
 **マグマスライム**（通常ドロップ・EXP9）。
@@ -42,6 +42,7 @@ next:
 | [パールスライム](/monsters/pearlgel) | レア | 2 | [スライム](/species/slime) | 66 | 54 |
 | [アクアスライム](/monsters/aquaslime) | レア | 2 | [スライム](/species/slime) | 59 | 55 |
 | [しっぽ団のももんじゃ](/monsters/platypunk_shippodan) | レア | 2 | [魔獣](/species/majyu) | 67 | 55 |
+| [プチファイター](/monsters/conkerer) | レア | 2 | [悪魔](/species/akuma) | 60 | 58 |
 | [さまようたましい](/monsters/samayoutamasii) | レア | 3 | [ゾンビ](/species/zombie) | 73 | 79 |
 | [スライムジョーカー](/monsters/slimejoker) | レア | 3 | [スライム](/species/slime) | 88 | 88 |
 | [ラリホービートル](/monsters/bedbug) | レア | 3 | [自然](/species/sizen) | 86 | 90 |
@@ -51,6 +52,7 @@ next:
 | [ディープドロル](/monsters/deep_dororu) | レア | 3 | [ゾンビ](/species/zombie) | 145 | 123 |
 | [ひくいどり](/monsters/hikuidori) | レア | 3 | [自然](/species/sizen) | 161 | 124 |
 | [ミニデーモン](/monsters/minidemon) | レア | 4 | [悪魔](/species/akuma) | 170 | 145 |
+| [ヘルドラード](/monsters/helldorado) | レア | 4 | [自然](/species/sizen) | 210 | 174 |
 | [キラークラブ2](/monsters/killer_crab2) | レア | 4 | [自然](/species/sizen) | 182 | 175 |
 | [マグマロン](/monsters/magumaron) | レア | 7 | [自然](/species/sizen) | 1,770 | 592 |
 
