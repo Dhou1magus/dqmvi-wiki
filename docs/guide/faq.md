@@ -72,7 +72,6 @@ NeoForgeのバージョン **26.2.0.6-beta**のリリース日(2026/06/21頃)以
 
 代表的なものを挙げると
 
-- Lithium
 - XP Stream
 - ImmediatelyFast
 - Immersive Optimization
@@ -80,6 +79,8 @@ NeoForgeのバージョン **26.2.0.6-beta**のリリース日(2026/06/21頃)以
 など
 
 各MODの配布ページと動いている版は、[併用推奨MOD](/guide/recommended-mods#performance)にまとめています。
+
+Lithiumは入れないでください。設定ファイルを正しく書かない限り、DQMVIで追加されるレッドストーン系のブロックが動かなくなります（[入れないほうがいいMOD](/guide/recommended-mods#not-recommended)）。
 
 CurseForge等のサイトで探す際は必ず Minecraftのバージョンを**26.2**、MODローダーを**NeoForge**に設定し絞り込むのを忘れないでください。
 
