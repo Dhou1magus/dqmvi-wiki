@@ -398,6 +398,7 @@ export default defineConfig({
           { text: '冒険のきほん', link: '/play/basics' },
           { text: 'ペットと配合', link: '/play/pets' },
           { text: 'ペットチェックリスト', link: '/play/pet-checklist' },
+          { text: '仲間NPC（勇者）', link: '/play/companions' },
           { text: 'ガンビット', link: '/play/gambit' },
           { text: '転職とサブ職業', link: '/play/jobs' },
           { text: 'アイテム', link: '/play/items' },
