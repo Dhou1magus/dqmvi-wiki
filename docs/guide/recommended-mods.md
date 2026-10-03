@@ -5,10 +5,10 @@ description: DQMVIといっしょに入れると便利なMOD（HP表示・ミニ
 
 # 併用推奨MOD
 
-DQMVIといっしょに入れると便利なMODを紹介します。表の「動いている版」は、DQMVI 0.31.97 と同じ mods フォルダに入れて動いている版です。
+DQMVIといっしょに入れると便利なMODを紹介します。表の「動いている版」は、DQMVI 0.31.97と同じmodsフォルダに入れて動いている版です。
 
 ::: tip 探すときのコツ
-CurseForge や Modrinth で探すときは、Minecraft のバージョンを **26.2**、MODローダーを **NeoForge** に絞り込んでください。
+CurseForgeやModrinthで探すときは、Minecraftのバージョンを26.2、MODローダーをNeoForgeに絞り込んでください。
 
 マルチで遊ぶときは、サーバーにも入れる必要があるMODがあります。配布ページの説明を確認してください。
 :::
@@ -47,11 +47,11 @@ CurseForge や Modrinth で探すときは、Minecraft のバージョンを **2
 | [Effortless Building](https://www.curseforge.com/minecraft/mc-mods/effortless-building) | 壁や床をまとめて置いたり、鏡写しに置いたりして、建築を楽にします。 | 26.2-4.3 |
 | [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) | 持ち歩けるバックパックを追加します。アップグレードで容量や機能を足せます。 | 26.2-3.25.83.2018 |
 
-Sophisticated Backpacks を使うには、前提MODの [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core)（26.2-1.4.90.2199）も必要です。
+Sophisticated Backpacksを使うには、前提MODの [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core)（26.2-1.4.90.2199）も必要です。
 
 ## 音声パック（公式） {#voice}
 
-DQMVIの公式サイトで、音声パックが配布されています。入れると、ペット・まちの人・クエストに声が付きます。DQMVI本体と同じ mods フォルダに入れるだけです。
+DQMVIの公式サイトで、音声パックが配布されています。入れると、ペット・まちの人・クエストに声が付きます。DQMVI本体と同じmodsフォルダに入れるだけです。
 
 → [DQMⅥ 公式サイト（ダウンロード）](https://dqmvi.kj-apps.com/#download)
 
