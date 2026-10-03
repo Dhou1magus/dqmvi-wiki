@@ -2173,31 +2173,6 @@
    "装飾"
   ],
   [
-   "アカシアのドア",
-   "/items/special",
-   "特殊"
-  ],
-  [
-   "白樺のドア",
-   "/items/special",
-   "特殊"
-  ],
-  [
-   "ダークオークのドア",
-   "/items/special",
-   "特殊"
-  ],
-  [
-   "熱帯樹のドア",
-   "/items/special",
-   "特殊"
-  ],
-  [
-   "松のドア",
-   "/items/special",
-   "特殊"
-  ],
-  [
    "横壁ブロック",
    "/items/special",
    "特殊"
@@ -4484,31 +4459,6 @@
   ],
   [
    "ビッグボウガン",
-   "/items/weapons",
-   "武器"
-  ],
-  [
-   "木の剣[DQM用]",
-   "/items/weapons",
-   "武器"
-  ],
-  [
-   "石の剣[DQM用]",
-   "/items/weapons",
-   "武器"
-  ],
-  [
-   "鉄の剣[DQM用]",
-   "/items/weapons",
-   "武器"
-  ],
-  [
-   "金の剣[DQM用]",
-   "/items/weapons",
-   "武器"
-  ],
-  [
-   "ダイヤの剣[DQM用]",
    "/items/weapons",
    "武器"
   ],

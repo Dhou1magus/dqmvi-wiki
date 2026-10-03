@@ -202,6 +202,7 @@ b, strong, th,
   border-radius: 6px;
 }
 .Layout.wide-page .vp-doc td > img[src$="/img/blank.png"] { background: var(--vp-c-default-soft); }
+.Layout.wide-page .vp-doc td > img[src*="/img/items/"] { image-rendering: pixelated; }
 
 @media (max-width: 640px) {
   .Layout.wide-page .vp-doc table { font-size: 14px; }

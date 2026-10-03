@@ -3,7 +3,7 @@ import { join } from 'node:path'
 
 const CATALOGS = /^items\/(weapons|armor|shields|accessories|tensei)\.md$/
 const CATEGORY_IDS: Record<string, Set<string>> = {
-  weapons: new Set(['sword', 'hero-sword', 'spear', 'dagger', 'staff', 'kon', 'claw', 'fist', 'hammer', 'axe', 'whip', 'bow', 'boomerang', 'vanilla-sword', 'gun', 'battle-ring', 'harp', 'scythe', 'gauntlet', 'drill', 'chain-sickle', 'other']),
+  weapons: new Set(['sword', 'hero-sword', 'spear', 'dagger', 'staff', 'kon', 'claw', 'fist', 'hammer', 'axe', 'whip', 'bow', 'boomerang', 'gun', 'battle-ring', 'harp', 'scythe', 'gauntlet', 'drill', 'chain-sickle', 'other']),
   armor: new Set(['head', 'body', 'legs', 'feet', 'other']),
   accessories: new Set(['ear', 'neck', 'arm', 'finger', 'other']),
   tensei: new Set(['weapons', 'armor', 'shields', 'accessories'])
@@ -104,13 +104,14 @@ export function addEquipmentSources(markdown: string, relativePath: string, docs
     if (catalog === 'shields' ? !beforeSections : !CATEGORY_IDS[catalog]?.has(category)) continue
     if (depth > 2 || !lines[i].startsWith('|') || !/^\|[ :|\t-]+\|$/.test(lines[i + 1] ?? '')) continue
     const head = splitCells(lines[i])
-    if (!EQUIPMENT_HEADS.has(head[0]) || head.at(-1) !== '特殊効果') continue
+    const nameCol = head[0] === '画像' ? 1 : 0
+    if (!EQUIPMENT_HEADS.has(head[nameCol]) || head.at(-1) !== '特殊効果') continue
     lines[i] = rowText([...head, '入手先'])
     lines[i + 1] = rowText([...splitCells(lines[i + 1]), '---'])
     i += 2
     while (i < lines.length && lines[i].startsWith('|')) {
       const values = splitCells(lines[i])
-      const href = values[0].match(/\]\((\/(?:drops|items)\/[a-zA-Z0-9_-]+)\)/)?.[1]
+      const href = values[nameCol].match(/\]\((\/(?:drops|items)\/[a-zA-Z0-9_-]+)\)/)?.[1]
       const path = href ? join(docsDir, `${href.slice(1)}.md`) : ''
       const source = path && existsSync(path) ? readFileSync(path, 'utf8') : ''
       lines[i] = rowText([...values, href && source ? equipmentSourceLabel(source, href) : '未確認'])

@@ -1,12 +1,12 @@
 ---
 title: アイテム一覧
-description: DQMVIに出てくるアイテム1448種。武器・防具・盾・アクセサリー・転生装備は種類ごとのページに分けています。
+description: DQMVIに出てくるアイテム1438種。武器・防具・盾・アクセサリー・転生装備は種類ごとのページに分けています。
 pageClass: wide-page sortable-list
 ---
 
 # アイテム一覧
 
-DQMVIに出てくるアイテムは **1448種** です。
+DQMVIに出てくるアイテムは **1438種** です。
 
 ## 装備
 
@@ -14,7 +14,7 @@ DQMVIに出てくるアイテムは **1448種** です。
 
 | 種類 | 数 | 中身 |
 | --- | ---: | --- |
-| [武器](/items/weapons) | 578 | 剣・槍・棍・爪・斧・弓など。 |
+| [武器](/items/weapons) | 573 | 剣・槍・棍・爪・斧・弓など。 |
 | [防具](/items/armor) | 172 | 兜・鎧・小手・服など、身につける装備。 |
 | [盾](/items/shields) | 38 | 片手にかまえる盾。なべのふたやトレイもここに入ります。 |
 | [アクセサリー](/items/accessories) | 147 | 指輪・ピアス・首飾り・腕輪など、効果を足す小物。 |
@@ -22,510 +22,505 @@ DQMVIに出てくるアイテムは **1448種** です。
 
 ## そのほか
 
-装備以外の **489種** です。分類ごとのページもあります。
+装備以外の **484種** です。分類ごとのページもあります。
 
 | 分類 | 数 | 中身 |
 | --- | ---: | --- |
 | [素材](/items/materials) | 122 | モンスターの落とし物・鉱石・薬など。 |
 | [種](/items/seeds) | 74 | 畑に植える苗と、育てて採れる作物。 |
 | [釣り](/items/fishing) | 122 | 釣り竿・ルアーと、釣れる魚。 |
-| [特殊](/items/special) | 96 | 配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。 |
+| [特殊](/items/special) | 91 | 配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。 |
 | [建物](/items/buildings) | 71 | ポートに入れるとペットが建ててくれる施設。 |
 | [装飾](/items/decoration) | 4 | 鍵で開く扉など。 |
 
 全部をひとつの表で見るならこちら。見出しを押すと分類ごとや五十音順に並べ替えできます。
 
-| アイテム | 分類 |
-| --- | :--: |
-| [配合の杖](/items/haigou) | 特殊 |
-| [転生の杖](/items/haigou2) | 特殊 |
-| [盗賊の鍵](/items/touzokunokagi) | 特殊 |
-| [魔法の鍵](/items/mahounokagi) | 特殊 |
-| [最後の鍵](/items/saigonokagi) | 特殊 |
-| [扉[盗賊の鍵]](/items/door1) | 装飾 |
-| [扉[魔法の鍵]](/items/door2) | 装飾 |
-| [扉[最後の鍵]](/items/door3) | 装飾 |
-| [アカシアのドア](/items/door4) | 特殊 |
-| [白樺のドア](/items/door5) | 特殊 |
-| [ダークオークのドア](/items/door6) | 特殊 |
-| [熱帯樹のドア](/items/door7) | 特殊 |
-| [松のドア](/items/door8) | 特殊 |
-| [あやかし草](/drops/ayakasisou) | 素材 |
-| [どくどくヘドロ](/drops/dokudokuhedoro) | 素材 |
-| [どくがの粉](/drops/dokuganokona) | 素材 |
-| [ヘビのぬけがら](/drops/hebinonukegara) | 素材 |
-| [呪力のモト](/drops/juryokunomoto) | 素材 |
-| [こうもりの羽根](/drops/koumorinohane) | 素材 |
-| [まりょくの土](/drops/maryokunotuti) | 素材 |
-| [うるわしキノコ](/drops/uruwasikinoko) | 素材 |
-| [うさぎのしっぽ](/drops/usaginosippo) | 素材 |
-| [うらみのほうじゅ](/drops/uraminohouju) | 素材 |
-| [赤いサンゴ](/drops/akaisango) | 素材 |
-| [まじゅうの角](/drops/majuunotuno) | 素材 |
-| [スライムおしゃれ花](/drops/suraimuosyarebana) | 素材 |
-| [にじいろの布きれ](/drops/nijiirononunokire) | 素材 |
-| [竜の火酒](/drops/ryuunohizake) | 素材 |
-| [武闘エキス](/drops/budouekisu) | 素材 |
-| [れんごくの羽根](/drops/rengokunohane) | 素材 |
-| [闘魂エキス](/drops/toukonekisu) | 素材 |
-| [ガマのあぶら](/drops/gamanoabura) | 素材 |
-| [花のみつ](/drops/hananomitu) | 素材 |
-| [まだらクモ糸](/drops/madarakumonoito) | 素材 |
-| [ネコ砂](/drops/nekozuna) | 素材 |
-| [聖者の灰](/drops/seijanohai) | 素材 |
-| [うまのふん](/drops/umanofun) | 素材 |
-| [うしのふん](/drops/usinofun) | 素材 |
-| [さえずりのみつ](/drops/saezurinomitu) | 素材 |
-| [スライムの冠](/drops/suraimunokanmuri) | 素材 |
-| [月のめぐみ](/drops/tukinomegumi) | 素材 |
-| [はがねの尾羽](/drops/haganenoobane) | 素材 |
-| [巨大ヒゲトカゲ](/drops/kyodaihigetokage) | 素材 |
-| [まじゅうの皮](/drops/majuunokawa) | 素材 |
-| [みどりコケ](/drops/midorinokoke) | 素材 |
-| [スライムゼリー](/drops/suraimuzeri) | 素材 |
-| [ねばねばゼリー](/drops/nebanebazeri) | 素材 |
-| [風切りの羽根](/drops/kazekirinohane) | 素材 |
-| [きよめの水](/items/kiyomenomizu) | 素材 |
-| [ちょうの羽](/drops/tyounohane) | 素材 |
-| [あまつゆの糸](/drops/amatuyunoito) | 素材 |
-| [氷鳥のはね](/drops/hyoutyounohane) | 素材 |
-| [せいなるしずく](/drops/seinarusizuku) | 素材 |
-| [よるのとばり](/drops/yorunotobari) | 素材 |
-| [ホネホネ](/drops/honehone) | 素材 |
-| [巨大な牙](/drops/kyodainakiba) | 素材 |
-| [メイジキメラのはね](/drops/meijikimeranohane) | 素材 |
-| [白いかいがら](/drops/siroikaigara) | 素材 |
-| [てんしのはね](/drops/tensinohane) | 素材 |
-| [トゲトゲの牙](/drops/togetogenokiba) | 素材 |
-| [やわらかウール](/drops/yawarakauru) | 素材 |
-| [よごれた包帯](/drops/yogoretahoutai) | 素材 |
-| [つけもの石](/drops/tukemonoisi) | 素材 |
-| [リサイクルストーン](/drops/risaikurusuton) | 素材 |
-| [てつのクギ](/drops/tetunokugi) | 素材 |
-| [溶岩石のかけら](/drops/yougansekinokakera) | 素材 |
-| [ルビー](/drops/rubinogenseki) | 素材 |
-| [進化の秘石](/items/sinkanohiseki) | 素材 |
-| [たいようの石](/drops/taiyounoisi) | 素材 |
-| [太陽石合金](/drops/taiyounoisi2) | 素材 |
-| [竜のなみだ](/drops/ryuunonamida) | 素材 |
-| [爆弾石](/drops/bakudanisi) | 素材 |
-| [べっこう](/drops/bekkou) | 素材 |
-| [鉄鉱石](/drops/tekkouseki) | 素材 |
-| [月のダイヤ](/drops/moon) | 素材 |
-| [金塊](/drops/kinkai) | 素材 |
-| [ほしのカケラ](/drops/hosinokakera) | 素材 |
-| [磨き砂](/drops/migakizuna) | 素材 |
-| [ドラゴンのなみだ](/drops/doragonnonamida) | 素材 |
-| [光の石](/drops/hikarinoisi) | 素材 |
-| [キングダイヤ](/drops/kingdaiya) | 素材 |
-| [こおりの結晶](/drops/koorinokessyou) | 素材 |
-| [精霊石](/drops/seireiseki) | 素材 |
-| [時の水晶](/drops/tokinosuisyou) | 素材 |
-| [いのちの石](/drops/inotinoisi) | 素材 |
-| [ミスリル](/drops/misriru) | 素材 |
-| [オリハルコン](/drops/oriharukon) | 素材 |
-| [プラチナ](/drops/puratina) | 素材 |
-| [ミスリル合金](/drops/misriru2) | 素材 |
-| [オリハルコン合金](/drops/oriharukon2) | 素材 |
-| [プラチナ合金](/drops/puratina2) | 素材 |
-| [いかずちの玉](/drops/ikazutinotama) | 素材 |
-| [かがみの石](/drops/kagaminoisi) | 素材 |
-| [ヘビーメタル](/drops/metaru) | 素材 |
-| [幻魔石](/drops/genmaseki) | 素材 |
-| [メタルオーブ](/drops/metaloubu) | 素材 |
-| [レッドオーブ](/items/redoubu) | 素材 |
-| [グリーンオーブ](/items/gurinoubu) | 素材 |
-| [ブルーオーブ](/items/buruoubu) | 素材 |
-| [イエローオーブ](/items/ierooubu) | 素材 |
-| [パープルオーブ](/items/paapuruoubu) | 素材 |
-| [ちいさなメダル](/drops/littlemedal) | 特殊 |
-| [銀貨](/items/ginka) | 素材 |
-| [金貨](/drops/kinka) | 素材 |
-| [万能薬](/drops/bannouyaku) | 素材 |
-| [上やくそう](/drops/jouyakusou) | 素材 |
-| [特やくそう](/drops/tokuyakusou) | 素材 |
-| [せかいじゅの葉](/drops/sekaijunoha) | 素材 |
-| [けんじゃの石](/drops/kenjanoisi) | 素材 |
-| [あやしい小ビン](/drops/ayasiikobin) | 素材 |
-| [賢者の聖水](/drops/kenjanoseisui) | 素材 |
-| [てんしのソーマ](/drops/tensinosoma) | 素材 |
-| [せいすい](/drops/seisui) | 素材 |
-| [修理キット](/items/syuuri) | 特殊 |
-| [キメラのつばさ](/drops/kimeranotubasa) | 特殊 |
-| [毒入りバケツ](/items/bucketpoison) | 特殊 |
-| [リレミトの巻物](/items/riremitonomakimono) | 特殊 |
-| [矢印ブロック(全方角)](/items/yajirusiblock) | 特殊 |
-| [福引券](/items/fukubikiken) | 特殊 |
-| [スーパー矢印ブロック(全方角)](/items/yajirusiblock2) | 特殊 |
-| [ウルトラ矢印ブロック(全方角)](/items/yajirusiblock3) | 特殊 |
-| [マッハ矢印ブロック(全方角)](/items/yajirusiblock4) | 特殊 |
-| [スーパー矢印ブロック(全方角)[破壊不可]](/items/yajirusiblock2n) | 特殊 |
-| [ウルトラ矢印ブロック(全方角)[破壊不可]](/items/yajirusiblock3n) | 特殊 |
-| [マッハ矢印ブロック(全方角)[破壊不可]](/items/yajirusiblock4n) | 特殊 |
-| [矢印ブロック(全方角)[破壊不可]](/items/yajirusiblock5n) | 特殊 |
-| [ペット収納ベル(100匹)](/items/petsyuunou) | 特殊 |
-| [入門ロッド](/items/turizao1) | 釣り |
-| [スピニングロッド](/items/turizao2) | 釣り |
-| [ベイトロッド](/items/turizao3) | 釣り |
-| [ジギングロッド](/items/turizao4) | 釣り |
-| [投げ竿](/items/turizao5) | 釣り |
-| [磯竿](/items/turizao6) | 釣り |
-| [トラウトロッド](/items/turizao7) | 釣り |
-| [フライロッド](/items/turizao8) | 釣り |
-| [深海ロッド](/items/turizao9) | 釣り |
-| [黄金ロッド](/items/turizao10) | 釣り |
-| [ミノー](/items/rua1) | 釣り |
-| [クランクベイト](/items/rua2) | 釣り |
-| [ポッパー](/items/rua3) | 釣り |
-| [メタルジグ](/items/rua4) | 釣り |
-| [スプーン](/items/rua5) | 釣り |
-| [スピナー](/items/rua6) | 釣り |
-| [ワーム](/items/rua7) | 釣り |
-| [フロッグ](/items/rua8) | 釣り |
-| [エギ](/items/rua9) | 釣り |
-| [ダーマ神殿](/items/sdama) | 建物 |
-| [特技ダーマ神殿](/items/sdama2) | 建物 |
-| [カジノ(Rank1)[施設生成アイテム]](/items/skajino1) | 建物 |
-| [カジノ(Rank2)[施設生成アイテム]](/items/skajino2) | 建物 |
-| [カジノ(Rank3)[施設生成アイテム]](/items/skajino3) | 建物 |
-| [武器屋](/items/sbukiya) | 建物 |
-| [修理屋](/items/ssyuuriya) | 建物 |
-| [鍛冶屋](/items/skajiya) | 建物 |
-| [魚交換所](/items/sginkou) | 建物 |
-| [買取屋](/items/skaitori) | 建物 |
-| [ペンシルベイト](/items/rua10) | 釣り |
-| [宝物庫](/items/wg_houmotuko) | 建物 |
-| [老人の家](/items/wg_ie) | 建物 |
-| [ピラミッド](/items/wg_piramiddo) | 建物 |
-| [小ピラミッド](/items/wg_piramiddo_little) | 建物 |
-| [墓](/items/wg_haka) | 建物 |
-| [地下墓地](/items/wg_haka_tika) | 建物 |
-| [大穴](/items/wg_ana) | 建物 |
-| [鉱石の大樹](/items/wg_wood) | 建物 |
-| [剣の刺さった岩](/items/wg_sword) | 建物 |
-| [王者の剣の台座](/items/wg_sword3) | 建物 |
-| [武器屋の小屋](/items/wg_bukiya_koya) | 建物 |
-| [買取屋の小屋](/items/wg_kaitori_koya) | 建物 |
-| [修理屋の小屋](/items/wg_syuuri_koya) | 建物 |
-| [ゴールド預かり屋の小屋](/items/wg_okane_koya) | 建物 |
-| [転職の祭壇](/items/wg_job) | 建物 |
-| [オベリスク](/items/wg_ob2) | 建物 |
-| [まもののエサ](/items/niku1) | 特殊 |
-| [くんせいにく](/items/niku2) | 特殊 |
-| [ほねつきにく](/items/niku3) | 特殊 |
-| [しもふりにく](/items/niku4) | 特殊 |
-| [貴重なレシピ(防具)](/drops/bougu) | 素材 |
-| [貴重なレシピ(伝説)](/items/densetu) | 素材 |
-| [貴重なレシピ(破壊)](/drops/hakai) | 素材 |
-| [貴重なレシピ(魔法)](/drops/mahou) | 素材 |
-| [貴重なレシピ(天空)](/drops/tenkuu) | 素材 |
-| [遊び人の証](/items/as) | 特殊 |
-| [戦士の証](/items/se) | 特殊 |
-| [武闘家の証](/items/bu) | 特殊 |
-| [バトルマスターの証](/items/ba) | 特殊 |
-| [魔法使いの証](/items/ma) | 特殊 |
-| [僧侶の証](/items/so) | 特殊 |
-| [賢者の証](/items/ke) | 特殊 |
-| [勇者の証](/items/yu) | 特殊 |
-| [パラディンの証](/items/pa) | 特殊 |
-| [魔法戦士の証](/items/mk) | 特殊 |
-| [レンジャーの証](/items/re) | 特殊 |
-| [魔物使いの証](/items/mm) | 特殊 |
-| [スーパースターの証](/items/su) | 特殊 |
-| [はぐれメタルの証](/items/me) | 特殊 |
-| [盗賊の証](/items/to) | 特殊 |
-| [忍者の証](/items/ni) | 特殊 |
-| [道具使いの証](/items/dt) | 特殊 |
-| [道具マスターの証](/items/dm) | 特殊 |
-| [鬼神闘士の証](/items/be) | 特殊 |
-| [秘境ハンターの証](/items/tg) | 特殊 |
-| [吟遊詩人の証](/items/sn) | 特殊 |
-| [モンスターロードの証](/items/mc) | 特殊 |
-| [ゴーストマスターの証](/items/nc) | 特殊 |
-| [ソウルマスターの証](/items/mn) | 特殊 |
-| [魔導銃士の証](/items/ki) | 特殊 |
-| [戦輪士の証](/items/sr) | 特殊 |
-| [魔法の実(苗)](/items/mahounomiseed) | 種 |
-| [超魔法の実(苗)](/items/mahounomiseed2) | 種 |
-| [極魔法の実(苗)](/items/mahounomiseed3) | 種 |
-| [魔力の種(苗)](/items/maryokunotaneseed) | 種 |
-| [超魔力の種(苗)](/items/maryokunotaneseed2) | 種 |
-| [極魔力の種(苗)](/items/maryokunotaneseed3) | 種 |
-| [薬草(HP+30)](/drops/yakusou) | 種 |
-| [超薬草(HP+80)](/items/yakusou2) | 種 |
-| [極薬草(HP+250)](/items/yakusou3) | 種 |
-| [毒消し草](/items/dokukesisou) | 種 |
-| [超毒消し草(HP+30)](/items/dokukesisou2) | 種 |
-| [極毒消し草(HP+80)](/items/dokukesisou3) | 種 |
-| [力の種](/drops/tikaranotane) | 種 |
-| [超力の種](/items/tikaranotane2) | 種 |
-| [極力の種](/items/tikaranotane3) | 種 |
-| [守りの種](/drops/mamorinotane) | 種 |
-| [超守りの種](/items/mamorinotane2) | 種 |
-| [極守りの種](/items/mamorinotane3) | 種 |
-| [素早さの種](/items/subayasanotane) | 種 |
-| [超素早さの種](/items/subayasanotane2) | 種 |
-| [極素早さの種](/items/subayasanotane3) | 種 |
-| [いやしの実](/items/iyasinomi) | 種 |
-| [超いやしの実](/items/iyasinomi2) | 種 |
-| [極いやしの実](/items/iyasinomi3) | 種 |
-| [炎の実](/items/honoonomi) | 種 |
-| [超炎の実](/items/honoonomi2) | 種 |
-| [極炎の実](/items/honoonomi3) | 種 |
-| [黄金の実](/items/ougon) | 種 |
-| [超黄金の実](/items/ougon2) | 種 |
-| [極黄金の実](/items/ougon3) | 種 |
-| [真・極黄金の実](/items/ougon4) | 種 |
-| [大魔王オン・ゾ・エーグのコイン](/items/coin_flucifer) | 特殊 |
-| [魔剣士ピサロのコイン](/items/coin_psaro) | 特殊 |
-| [モモンジャガーのコイン](/items/coin_momonjaguar) | 特殊 |
-| [スラリンガルのコイン](/items/coin_suraringaru) | 特殊 |
-| [ゾーマのコイン](/items/coin_zoma2) | 特殊 |
-| [神獣王WORLDのコイン](/items/coin_shinjuuou_world) | 特殊 |
-| [ライフルユニット](/items/raifuruyunitto) | 特殊 |
-| [ショットガンユニット](/items/syottogunyunitto) | 特殊 |
-| [マシンガンユニット](/items/masinganyunitto) | 特殊 |
-| [マグナムユニット](/items/magunamuyunitto) | 特殊 |
-| [ハンドガンユニット](/items/handoganyunitto) | 特殊 |
-| [アイナメ](/items/sakana16) | 釣り |
-| [アオブダイ](/items/sakana29) | 釣り |
-| [アカエイ](/items/sakana41) | 釣り |
-| [アカマンボウ](/items/sakana99) | 釣り |
-| [アジ](/items/sakana0) | 釣り |
-| [アバキの草](/items/flower09) | 種 |
-| [アユ](/items/sakana56) | 釣り |
-| [アリゲーターガー](/items/sakana70) | 釣り |
-| [アロワナ](/items/sakana72) | 釣り |
-| [イシダイ](/items/sakana13) | 釣り |
-| [いやしそう](/items/kaifuku02) | 素材 |
-| [いやしの種(苗)](/items/iyasi_seed) | 種 |
-| [イワシ](/items/sakana2) | 釣り |
-| [イワナ](/items/sakana55) | 釣り |
-| [ウォール街](/items/toukou22) | 建物 |
-| [ウグイ](/items/sakana57) | 釣り |
-| [うつくしそう](/items/flower05) | 種 |
-| [ウツボ](/items/sakana35) | 釣り |
-| [エルフののみぐすり](/items/kaifuku05) | 素材 |
-| [エルヘブン](/items/toukou26) | 建物 |
-| [オスカー](/items/sakana78) | 釣り |
-| [オニイトマキエイ](/items/sakana40) | 釣り |
-| [オニカマス](/items/sakana21) | 釣り |
-| [オヒョウ](/items/sakana98) | 釣り |
-| [カクレクマノミ](/items/sakana32) | 釣り |
-| [カサゴ](/items/sakana14) | 釣り |
-| [カツオ](/items/sakana7) | 釣り |
-| [カレイ](/items/sakana11) | 釣り |
-| [カワハギ](/items/sakana18) | 釣り |
-| [カワマス](/items/sakana54) | 釣り |
-| [カンパチ](/items/sakana5) | 釣り |
-| [キンギョ](/items/sakana60) | 釣り |
-| [キンチャクダイ](/items/sakana31) | 釣り |
-| [グラミー](/items/sakana81) | 釣り |
-| [グランバニア城](/items/toukou25) | 建物 |
-| [クロカジキ](/items/sakana24) | 釣り |
-| [クロダイ](/items/sakana9) | 釣り |
-| [クロマグロ](/items/sakana6) | 釣り |
-| [ゲンキ草](/items/flower00) | 種 |
-| [コイ](/items/sakana58) | 釣り |
-| [ゴールドチケット](/items/gold_t) | 特殊 |
-| [コクチバス](/items/sakana66) | 釣り |
-| [コダラ](/items/sakana96) | 釣り |
-| [コバンザメ](/items/sakana93) | 釣り |
-| [サイコロ](/items/saikoro_i) | 特殊 |
-| [サバ](/items/sakana1) | 釣り |
-| [サバヒー](/items/sakana91) | 釣り |
-| [サラボナの町](/items/toukou27) | 建物 |
-| [サンマ](/items/sakana3) | 釣り |
-| [シイラ](/items/sakana22) | 釣り |
-| [シーラカンス](/items/sakana43) | 釣り |
-| [シュモクザメ](/items/sakana38) | 釣り |
-| [ジンベエザメ](/items/sakana39) | 釣り |
-| [スギ](/items/sakana94) | 釣り |
-| [スケトウダラ](/items/sakana97) | 釣り |
-| [すごろく券](/items/sugoroku_ticket) | 特殊 |
-| [すごろく場(ランク1)](/items/ssugoroku1) | 建物 |
-| [すごろく場(ランク2)](/items/ssugoroku2) | 建物 |
-| [すごろく場(ランク3)](/items/ssugoroku3) | 建物 |
-| [すごろく場(ランク4)](/items/ssugoroku4) | 建物 |
-| [すごろく場(ランク5)](/items/ssugoroku5) | 建物 |
-| [スズキ](/items/sakana12) | 釣り |
-| [スライムハウス](/items/toukou04) | 建物 |
-| [スライム船](/items/toukou17) | 建物 |
-| [せかいじゅのしずく](/items/kaifuku03) | 素材 |
-| [せかいじゅのわかば](/items/flower06) | 種 |
-| [ゼブラフィッシュ](/items/sakana82) | 釣り |
-| [ターニアの家](/items/toukou11) | 建物 |
-| [ターポン](/items/sakana89) | 釣り |
-| [タイセイヨウサケ](/items/sakana51) | 釣り |
-| [タイセイヨウダラ](/items/sakana95) | 釣り |
-| [タツノオトシゴ](/items/sakana50) | 釣り |
-| [タマカイ](/items/sakana27) | 釣り |
-| [チョウザメ](/items/sakana87) | 釣り |
-| [チョウチョウウオ](/items/sakana30) | 釣り |
-| [チョウチンアンコウ](/items/sakana45) | 釣り |
-| [ディスカス](/items/sakana79) | 釣り |
-| [ティラピア](/items/sakana76) | 釣り |
-| [デメニギス](/items/sakana47) | 釣り |
-| [ドジョウ](/items/sakana86) | 釣り |
-| [トビウオ](/items/sakana20) | 釣り |
-| [トラフグ](/items/sakana17) | 釣り |
-| [ドワーフの村](/items/toukou29) | 建物 |
-| [ナイルパーチ](/items/sakana77) | 釣り |
-| [ナマズ](/items/sakana62) | 釣り |
-| [ナンヨウハギ](/items/sakana33) | 釣り |
-| [ニシキゴイ](/items/sakana61) | 釣り |
-| [ニジマス](/items/sakana52) | 釣り |
-| [ニホンウナギ](/items/sakana63) | 釣り |
-| [ネッドの宿屋](/items/toukou23) | 建物 |
-| [ノーザンパイク](/items/sakana68) | 釣り |
-| [パクー](/items/sakana74) | 釣り |
-| [バショウカジキ](/items/sakana25) | 釣り |
-| [ハゼ](/items/sakana85) | 釣り |
-| [ハダカイワシ](/items/sakana46) | 釣り |
-| [ピーコックバス](/items/sakana75) | 釣り |
-| [ピラニア](/items/sakana73) | 釣り |
-| [ヒラメ](/items/sakana10) | 釣り |
-| [ピラルク](/items/sakana71) | 釣り |
-| [フエダイ](/items/sakana28) | 釣り |
-| [フォーメーション10](/items/formation10) | 特殊 |
-| [フォーメーション3](/items/formation3) | 特殊 |
-| [フォーメーション4](/items/formation4) | 特殊 |
-| [フォーメーション5](/items/formation5) | 特殊 |
-| [フォーメーション6](/items/formation6) | 特殊 |
-| [フォーメーション7](/items/formation7) | 特殊 |
-| [フォーメーション8](/items/formation8) | 特殊 |
-| [フォーメーション9](/items/formation9) | 特殊 |
-| [フナ](/items/sakana59) | 釣り |
-| [ブラウントラウト](/items/sakana53) | 釣り |
-| [ブラックバス](/items/sakana65) | 釣り |
-| [ブリ](/items/sakana4) | 釣り |
-| [ブルーギル](/items/sakana67) | 釣り |
-| [ブロブフィッシュ](/items/sakana48) | 釣り |
-| [ベタ](/items/sakana80) | 釣り |
-| [ヘパイトスの火種](/items/hepaitosunohidane) | 装飾 |
-| [ヘラチョウザメ](/items/sakana88) | 釣り |
-| [ベルガラック](/items/toukou28) | 建物 |
-| [ホーム](/items/toukou40) | 建物 |
-| [ボーンフィッシュ](/items/sakana90) | 釣り |
-| [ホホジロザメ](/items/sakana37) | 釣り |
-| [ボラ](/items/sakana92) | 釣り |
-| [マアナゴ](/items/sakana36) | 釣り |
-| [マジックツール(ダンジョン用)](/items/magic_tool5) | 特殊 |
-| [マジックツール(測定用)](/items/magic_tool10) | 特殊 |
-| [マスキー](/items/sakana69) | 釣り |
-| [マダイ](/items/sakana8) | 釣り |
-| [マハタ](/items/sakana26) | 釣り |
-| [まほうのせいすい](/items/kaifuku04) | 素材 |
-| [マンボウ](/items/sakana42) | 釣り |
-| [みかわしそう](/items/flower07) | 種 |
-| [ミツクリザメ](/items/sakana49) | 釣り |
-| [ミノカサゴ](/items/sakana34) | 釣り |
-| [ムツゴロウ](/items/sakana84) | 釣り |
-| [メカジキ](/items/sakana23) | 釣り |
-| [メダカ](/items/sakana83) | 釣り |
-| [メタルチケット](/items/metaru_t) | 特殊 |
-| [メタルチケットII](/items/metaru_t2) | 特殊 |
-| [メダル王の城](/items/toukou15) | 建物 |
-| [メバル](/items/sakana15) | 釣り |
-| [モンガラカワハギ](/items/sakana19) | 釣り |
-| [モンスターパーク](/items/toukou07) | 建物 |
-| [ライギョ](/items/sakana64) | 釣り |
-| [ライフコッド](/items/toukou24) | 建物 |
-| [リュウグウノツカイ](/items/sakana44) | 釣り |
-| [ルイーダの酒場](/items/toukou16) | 建物 |
-| [レッドストーン](/items/redstone_toumei) | 特殊 |
-| [叡智の種](/items/eichinotane) | 種 |
-| [炎の種(苗)](/items/honoo_seed) | 種 |
-| [横壁ブロック](/items/kabe_y) | 特殊 |
-| [黄金の種(苗)](/items/ougon_seed) | 種 |
-| [貴重なレシピ(メタル、氷)](/drops/koori_metaru) | 素材 |
-| [貴重なレシピ(弓、ブーメラン)](/drops/yumi_nage) | 素材 |
-| [貴重なレシピ(剣、短剣)](/drops/ken_tanken) | 素材 |
-| [貴重なレシピ(槍、鞭、爪)](/drops/yari_muti_tume) | 素材 |
-| [貴重なレシピ(斧、槌、棍)](/drops/ono_tuti_kon) | 素材 |
-| [貴重なレシピ(魔、呪)](/drops/ma_ju) | 素材 |
-| [貴重なレシピ(竜、炎)](/items/honoo_ryuu) | 素材 |
-| [教会の道具屋](/items/toukou01) | 建物 |
-| [橋](/items/toukou08) | 建物 |
-| [極いやしの種(苗)](/items/iyasi_seed3) | 種 |
-| [極炎の種(苗)](/items/honoo_seed3) | 種 |
-| [極黄金の種(苗)](/items/ougon_seed3) | 種 |
-| [極守りの種(苗)](/items/mamori_seed3) | 種 |
-| [極素早さの種(苗)](/items/subayasa_seed3) | 種 |
-| [極毒消し草(苗)](/items/dokukesisou_seed3) | 種 |
-| [極肥料](/items/hiryou3) | 特殊 |
-| [極魔法の実](/items/mahounomi_i3) | 種 |
-| [極魔力の種](/items/maryokunotane_i3) | 種 |
-| [極薬草(苗)](/items/yakusou_seed3) | 種 |
-| [極力の種(苗)](/items/tikara_seed3) | 種 |
-| [経験値預かり屋](/items/toukou14) | 建物 |
-| [港のある町](/items/toukou20) | 建物 |
-| [鉱脈探知機](/items/oredetector) | 特殊 |
-| [剛力の種](/items/gourikinotane) | 種 |
-| [紫のさとりそう](/items/flower08) | 種 |
-| [時の扉](/items/toukou13) | 建物 |
-| [守りの種(苗)](/items/mamori_seed) | 種 |
-| [小さなメタスラ城](/items/toukou38) | 建物 |
-| [小さな港のある町](/items/toukou21) | 建物 |
-| [鐘の鳴る城](/items/toukou18) | 建物 |
-| [上どくけしそう](/items/kaifuku00) | 素材 |
-| [真・極黄金の種](/items/ougon_seed4) | 種 |
-| [神薬草](/items/yakusou6) | 素材 |
-| [水晶階段下り](/items/toukou34) | 建物 |
-| [水晶階段上り](/items/toukou31) | 建物 |
-| [水晶広場](/items/toukou35) | 建物 |
-| [水晶十字路](/items/toukou32) | 建物 |
-| [水晶通路](/items/toukou30) | 建物 |
-| [水晶踊場](/items/toukou33) | 建物 |
-| [聖者の祈り](/items/seijanoinori) | 特殊 |
-| [聖薬草](/items/yakusou5) | 素材 |
-| [青幻魔石](/items/genmaseki_b) | 素材 |
-| [石のめざめの花](/items/flower04) | 種 |
-| [赤いゆめみの花](/items/flower03) | 種 |
-| [素早さの種(苗)](/items/subayasa_seed) | 種 |
-| [大きな袋](/drops/fukuro) | 特殊 |
-| [大きな袋(増)](/items/fukuro_ex) | 特殊 |
-| [大橋](/items/toukou09) | 建物 |
-| [鍛冶の秘伝書](/items/kajihidensho) | 特殊 |
-| [超いやしの種(苗)](/items/iyasi_seed2) | 種 |
-| [超炎の種(苗)](/items/honoo_seed2) | 種 |
-| [超黄金の種(苗)](/items/ougon_seed2) | 種 |
-| [超守りの種(苗)](/items/mamori_seed2) | 種 |
-| [超素早さの種(苗)](/items/subayasa_seed2) | 種 |
-| [超毒消し草(苗)](/items/dokukesisou_seed2) | 種 |
-| [超肥料](/items/hiryou2) | 特殊 |
-| [超魔法の実](/items/mahounomi_i2) | 種 |
-| [超魔力の種](/items/maryokunotane_i2) | 種 |
-| [超薬草(苗)](/items/yakusou_seed2) | 種 |
-| [超力の種(苗)](/items/tikara_seed2) | 種 |
-| [天空の城](/items/toukou12) | 建物 |
-| [伝説のルアー](/items/rua11) | 釣り |
-| [伝説の釣り竿](/items/turizao11) | 釣り |
-| [凍ったいやしそう](/items/flower01) | 種 |
-| [道具屋(施設生成)[東西南北対応]](/items/toukou02) | 建物 |
-| [特どくけしそう](/items/kaifuku01) | 素材 |
-| [特技アイテム販売ダーマ神殿](/items/toukou36) | 建物 |
-| [特大の袋](/items/fukuro2) | 特殊 |
-| [特大の袋(増)](/items/fukuro2_ex) | 特殊 |
-| [毒消し草(苗)](/items/dokukesisou_seed) | 種 |
-| [農家](/items/toukou06) | 建物 |
-| [農業の秘伝書](/items/nogyohidensho) | 特殊 |
-| [肥料](/items/hiryou) | 特殊 |
-| [福引屋](/items/toukou10) | 建物 |
-| [宝箱部屋(ランダム)(施設生成)](/items/toukou39) | 建物 |
-| [宝箱部屋(施設生成)](/items/toukou19) | 建物 |
-| [防具屋(施設生成)[東西南北対応]](/items/toukou03) | 建物 |
-| [魔法の実](/items/mahounomi_i) | 種 |
-| [魔力の種](/items/maryokunotane_i) | 種 |
-| [無限の袋](/items/fukuro3) | 特殊 |
-| [無限の袋(増)](/items/fukuro3_ex) | 特殊 |
-| [紋章屋](/items/toukou37) | 建物 |
-| [薬草(苗)](/items/yakusou_seed) | 種 |
-| [力の種(苗)](/items/tikara_seed) | 種 |
-| [緑のきつけそう](/items/flower02) | 種 |
-| [緑幻魔石](/items/genmaseki_g) | 素材 |
-| [霊薬草](/items/yakusou4) | 素材 |
-| [祠](/items/toukou05) | 建物 |
+| 画像 | アイテム | 分類 |
+| :--: | --- | :--: |
+| ![配合の杖](/img/items/haigou.png) | [配合の杖](/items/haigou) | 特殊 |
+| ![転生の杖](/img/items/haigou2.png) | [転生の杖](/items/haigou2) | 特殊 |
+| ![盗賊の鍵](/img/items/touzokunokagi.png) | [盗賊の鍵](/items/touzokunokagi) | 特殊 |
+| ![魔法の鍵](/img/items/mahounokagi.png) | [魔法の鍵](/items/mahounokagi) | 特殊 |
+| ![最後の鍵](/img/items/saigonokagi.png) | [最後の鍵](/items/saigonokagi) | 特殊 |
+| ![扉盗賊の鍵](/img/items/door1.png) | [扉[盗賊の鍵]](/items/door1) | 装飾 |
+| ![扉魔法の鍵](/img/items/door2.png) | [扉[魔法の鍵]](/items/door2) | 装飾 |
+| ![扉最後の鍵](/img/items/door3.png) | [扉[最後の鍵]](/items/door3) | 装飾 |
+| ![あやかし草](/img/items/ayakasisou.png) | [あやかし草](/drops/ayakasisou) | 素材 |
+| ![どくどくヘドロ](/img/items/dokudokuhedoro.png) | [どくどくヘドロ](/drops/dokudokuhedoro) | 素材 |
+| ![どくがの粉](/img/items/dokuganokona.png) | [どくがの粉](/drops/dokuganokona) | 素材 |
+| ![ヘビのぬけがら](/img/items/hebinonukegara.png) | [ヘビのぬけがら](/drops/hebinonukegara) | 素材 |
+| ![呪力のモト](/img/items/juryokunomoto.png) | [呪力のモト](/drops/juryokunomoto) | 素材 |
+| ![こうもりの羽根](/img/items/koumorinohane.png) | [こうもりの羽根](/drops/koumorinohane) | 素材 |
+| ![まりょくの土](/img/items/maryokunotuti.png) | [まりょくの土](/drops/maryokunotuti) | 素材 |
+| ![うるわしキノコ](/img/items/uruwasikinoko.png) | [うるわしキノコ](/drops/uruwasikinoko) | 素材 |
+| ![うさぎのしっぽ](/img/items/usaginosippo.png) | [うさぎのしっぽ](/drops/usaginosippo) | 素材 |
+| ![うらみのほうじゅ](/img/items/uraminohouju.png) | [うらみのほうじゅ](/drops/uraminohouju) | 素材 |
+| ![赤いサンゴ](/img/items/akaisango.png) | [赤いサンゴ](/drops/akaisango) | 素材 |
+| ![まじゅうの角](/img/items/majuunotuno.png) | [まじゅうの角](/drops/majuunotuno) | 素材 |
+| ![スライムおしゃれ花](/img/items/suraimuosyarebana.png) | [スライムおしゃれ花](/drops/suraimuosyarebana) | 素材 |
+| ![にじいろの布きれ](/img/items/nijiirononunokire.png) | [にじいろの布きれ](/drops/nijiirononunokire) | 素材 |
+| ![竜の火酒](/img/items/ryuunohizake.png) | [竜の火酒](/drops/ryuunohizake) | 素材 |
+| ![武闘エキス](/img/items/budouekisu.png) | [武闘エキス](/drops/budouekisu) | 素材 |
+| ![れんごくの羽根](/img/items/rengokunohane.png) | [れんごくの羽根](/drops/rengokunohane) | 素材 |
+| ![闘魂エキス](/img/items/toukonekisu.png) | [闘魂エキス](/drops/toukonekisu) | 素材 |
+| ![ガマのあぶら](/img/items/gamanoabura.png) | [ガマのあぶら](/drops/gamanoabura) | 素材 |
+| ![花のみつ](/img/items/hananomitu.png) | [花のみつ](/drops/hananomitu) | 素材 |
+| ![まだらクモ糸](/img/items/madarakumonoito.png) | [まだらクモ糸](/drops/madarakumonoito) | 素材 |
+| ![ネコ砂](/img/items/nekozuna.png) | [ネコ砂](/drops/nekozuna) | 素材 |
+| ![聖者の灰](/img/items/seijanohai.png) | [聖者の灰](/drops/seijanohai) | 素材 |
+| ![うまのふん](/img/items/umanofun.png) | [うまのふん](/drops/umanofun) | 素材 |
+| ![うしのふん](/img/items/usinofun.png) | [うしのふん](/drops/usinofun) | 素材 |
+| ![さえずりのみつ](/img/items/saezurinomitu.png) | [さえずりのみつ](/drops/saezurinomitu) | 素材 |
+| ![スライムの冠](/img/items/suraimunokanmuri.png) | [スライムの冠](/drops/suraimunokanmuri) | 素材 |
+| ![月のめぐみ](/img/items/tukinomegumi.png) | [月のめぐみ](/drops/tukinomegumi) | 素材 |
+| ![はがねの尾羽](/img/items/haganenoobane.png) | [はがねの尾羽](/drops/haganenoobane) | 素材 |
+| ![巨大ヒゲトカゲ](/img/items/kyodaihigetokage.png) | [巨大ヒゲトカゲ](/drops/kyodaihigetokage) | 素材 |
+| ![まじゅうの皮](/img/items/majuunokawa.png) | [まじゅうの皮](/drops/majuunokawa) | 素材 |
+| ![みどりコケ](/img/items/midorinokoke.png) | [みどりコケ](/drops/midorinokoke) | 素材 |
+| ![スライムゼリー](/img/items/suraimuzeri.png) | [スライムゼリー](/drops/suraimuzeri) | 素材 |
+| ![ねばねばゼリー](/img/items/nebanebazeri.png) | [ねばねばゼリー](/drops/nebanebazeri) | 素材 |
+| ![風切りの羽根](/img/items/kazekirinohane.png) | [風切りの羽根](/drops/kazekirinohane) | 素材 |
+| ![きよめの水](/img/items/kiyomenomizu.png) | [きよめの水](/items/kiyomenomizu) | 素材 |
+| ![ちょうの羽](/img/items/tyounohane.png) | [ちょうの羽](/drops/tyounohane) | 素材 |
+| ![あまつゆの糸](/img/items/amatuyunoito.png) | [あまつゆの糸](/drops/amatuyunoito) | 素材 |
+| ![氷鳥のはね](/img/items/hyoutyounohane.png) | [氷鳥のはね](/drops/hyoutyounohane) | 素材 |
+| ![せいなるしずく](/img/items/seinarusizuku.png) | [せいなるしずく](/drops/seinarusizuku) | 素材 |
+| ![よるのとばり](/img/items/yorunotobari.png) | [よるのとばり](/drops/yorunotobari) | 素材 |
+| ![ホネホネ](/img/items/honehone.png) | [ホネホネ](/drops/honehone) | 素材 |
+| ![巨大な牙](/img/items/kyodainakiba.png) | [巨大な牙](/drops/kyodainakiba) | 素材 |
+| ![メイジキメラのはね](/img/items/meijikimeranohane.png) | [メイジキメラのはね](/drops/meijikimeranohane) | 素材 |
+| ![白いかいがら](/img/items/siroikaigara.png) | [白いかいがら](/drops/siroikaigara) | 素材 |
+| ![てんしのはね](/img/items/tensinohane.png) | [てんしのはね](/drops/tensinohane) | 素材 |
+| ![トゲトゲの牙](/img/items/togetogenokiba.png) | [トゲトゲの牙](/drops/togetogenokiba) | 素材 |
+| ![やわらかウール](/img/items/yawarakauru.png) | [やわらかウール](/drops/yawarakauru) | 素材 |
+| ![よごれた包帯](/img/items/yogoretahoutai.png) | [よごれた包帯](/drops/yogoretahoutai) | 素材 |
+| ![つけもの石](/img/items/tukemonoisi.png) | [つけもの石](/drops/tukemonoisi) | 素材 |
+| ![リサイクルストーン](/img/items/risaikurusuton.png) | [リサイクルストーン](/drops/risaikurusuton) | 素材 |
+| ![てつのクギ](/img/items/tetunokugi.png) | [てつのクギ](/drops/tetunokugi) | 素材 |
+| ![溶岩石のかけら](/img/items/yougansekinokakera.png) | [溶岩石のかけら](/drops/yougansekinokakera) | 素材 |
+| ![ルビー](/img/items/rubinogenseki.png) | [ルビー](/drops/rubinogenseki) | 素材 |
+| ![進化の秘石](/img/items/sinkanohiseki.png) | [進化の秘石](/items/sinkanohiseki) | 素材 |
+| ![たいようの石](/img/items/taiyounoisi.png) | [たいようの石](/drops/taiyounoisi) | 素材 |
+| ![太陽石合金](/img/items/taiyounoisi2.png) | [太陽石合金](/drops/taiyounoisi2) | 素材 |
+| ![竜のなみだ](/img/items/ryuunonamida.png) | [竜のなみだ](/drops/ryuunonamida) | 素材 |
+| ![爆弾石](/img/items/bakudanisi.png) | [爆弾石](/drops/bakudanisi) | 素材 |
+| ![べっこう](/img/items/bekkou.png) | [べっこう](/drops/bekkou) | 素材 |
+| ![鉄鉱石](/img/items/tekkouseki.png) | [鉄鉱石](/drops/tekkouseki) | 素材 |
+| ![月のダイヤ](/img/items/moon.png) | [月のダイヤ](/drops/moon) | 素材 |
+| ![金塊](/img/items/kinkai.png) | [金塊](/drops/kinkai) | 素材 |
+| ![ほしのカケラ](/img/items/hosinokakera.png) | [ほしのカケラ](/drops/hosinokakera) | 素材 |
+| ![磨き砂](/img/items/migakizuna.png) | [磨き砂](/drops/migakizuna) | 素材 |
+| ![ドラゴンのなみだ](/img/items/doragonnonamida.png) | [ドラゴンのなみだ](/drops/doragonnonamida) | 素材 |
+| ![光の石](/img/items/hikarinoisi.png) | [光の石](/drops/hikarinoisi) | 素材 |
+| ![キングダイヤ](/img/items/kingdaiya.png) | [キングダイヤ](/drops/kingdaiya) | 素材 |
+| ![こおりの結晶](/img/items/koorinokessyou.png) | [こおりの結晶](/drops/koorinokessyou) | 素材 |
+| ![精霊石](/img/items/seireiseki.png) | [精霊石](/drops/seireiseki) | 素材 |
+| ![時の水晶](/img/items/tokinosuisyou.png) | [時の水晶](/drops/tokinosuisyou) | 素材 |
+| ![いのちの石](/img/items/inotinoisi.png) | [いのちの石](/drops/inotinoisi) | 素材 |
+| ![ミスリル](/img/items/misriru.png) | [ミスリル](/drops/misriru) | 素材 |
+| ![オリハルコン](/img/items/oriharukon.png) | [オリハルコン](/drops/oriharukon) | 素材 |
+| ![プラチナ](/img/items/puratina.png) | [プラチナ](/drops/puratina) | 素材 |
+| ![ミスリル合金](/img/items/misriru2.png) | [ミスリル合金](/drops/misriru2) | 素材 |
+| ![オリハルコン合金](/img/items/oriharukon2.png) | [オリハルコン合金](/drops/oriharukon2) | 素材 |
+| ![プラチナ合金](/img/items/puratina2.png) | [プラチナ合金](/drops/puratina2) | 素材 |
+| ![いかずちの玉](/img/items/ikazutinotama.png) | [いかずちの玉](/drops/ikazutinotama) | 素材 |
+| ![かがみの石](/img/items/kagaminoisi.png) | [かがみの石](/drops/kagaminoisi) | 素材 |
+| ![ヘビーメタル](/img/items/metaru.png) | [ヘビーメタル](/drops/metaru) | 素材 |
+| ![幻魔石](/img/items/genmaseki.png) | [幻魔石](/drops/genmaseki) | 素材 |
+| ![メタルオーブ](/img/items/metaloubu.png) | [メタルオーブ](/drops/metaloubu) | 素材 |
+| ![レッドオーブ](/img/items/redoubu.png) | [レッドオーブ](/items/redoubu) | 素材 |
+| ![グリーンオーブ](/img/items/gurinoubu.png) | [グリーンオーブ](/items/gurinoubu) | 素材 |
+| ![ブルーオーブ](/img/items/buruoubu.png) | [ブルーオーブ](/items/buruoubu) | 素材 |
+| ![イエローオーブ](/img/items/ierooubu.png) | [イエローオーブ](/items/ierooubu) | 素材 |
+| ![パープルオーブ](/img/items/paapuruoubu.png) | [パープルオーブ](/items/paapuruoubu) | 素材 |
+| ![ちいさなメダル](/img/items/littlemedal.png) | [ちいさなメダル](/drops/littlemedal) | 特殊 |
+| ![銀貨](/img/items/ginka.png) | [銀貨](/items/ginka) | 素材 |
+| ![金貨](/img/items/kinka.png) | [金貨](/drops/kinka) | 素材 |
+| ![万能薬](/img/items/bannouyaku.png) | [万能薬](/drops/bannouyaku) | 素材 |
+| ![上やくそう](/img/items/jouyakusou.png) | [上やくそう](/drops/jouyakusou) | 素材 |
+| ![特やくそう](/img/items/tokuyakusou.png) | [特やくそう](/drops/tokuyakusou) | 素材 |
+| ![せかいじゅの葉](/img/items/sekaijunoha.png) | [せかいじゅの葉](/drops/sekaijunoha) | 素材 |
+| ![けんじゃの石](/img/items/kenjanoisi.png) | [けんじゃの石](/drops/kenjanoisi) | 素材 |
+| ![あやしい小ビン](/img/items/ayasiikobin.png) | [あやしい小ビン](/drops/ayasiikobin) | 素材 |
+| ![賢者の聖水](/img/items/kenjanoseisui.png) | [賢者の聖水](/drops/kenjanoseisui) | 素材 |
+| ![てんしのソーマ](/img/items/tensinosoma.png) | [てんしのソーマ](/drops/tensinosoma) | 素材 |
+| ![せいすい](/img/items/seisui.png) | [せいすい](/drops/seisui) | 素材 |
+| ![修理キット](/img/items/syuuri.png) | [修理キット](/items/syuuri) | 特殊 |
+| ![キメラのつばさ](/img/items/kimeranotubasa.png) | [キメラのつばさ](/drops/kimeranotubasa) | 特殊 |
+| ![毒入りバケツ](/img/items/bucketpoison.png) | [毒入りバケツ](/items/bucketpoison) | 特殊 |
+| ![リレミトの巻物](/img/items/riremitonomakimono.png) | [リレミトの巻物](/items/riremitonomakimono) | 特殊 |
+| ![矢印ブロック(全方角)](/img/items/yajirusiblock.png) | [矢印ブロック(全方角)](/items/yajirusiblock) | 特殊 |
+| ![福引券](/img/items/fukubikiken.png) | [福引券](/items/fukubikiken) | 特殊 |
+| ![スーパー矢印ブロック(全方角)](/img/items/yajirusiblock2.png) | [スーパー矢印ブロック(全方角)](/items/yajirusiblock2) | 特殊 |
+| ![ウルトラ矢印ブロック(全方角)](/img/items/yajirusiblock3.png) | [ウルトラ矢印ブロック(全方角)](/items/yajirusiblock3) | 特殊 |
+| ![マッハ矢印ブロック(全方角)](/img/items/yajirusiblock4.png) | [マッハ矢印ブロック(全方角)](/items/yajirusiblock4) | 特殊 |
+| ![スーパー矢印ブロック(全方角)破壊不可](/img/items/yajirusiblock2n.png) | [スーパー矢印ブロック(全方角)[破壊不可]](/items/yajirusiblock2n) | 特殊 |
+| ![ウルトラ矢印ブロック(全方角)破壊不可](/img/items/yajirusiblock3n.png) | [ウルトラ矢印ブロック(全方角)[破壊不可]](/items/yajirusiblock3n) | 特殊 |
+| ![マッハ矢印ブロック(全方角)破壊不可](/img/items/yajirusiblock4n.png) | [マッハ矢印ブロック(全方角)[破壊不可]](/items/yajirusiblock4n) | 特殊 |
+| ![矢印ブロック(全方角)破壊不可](/img/items/yajirusiblock5n.png) | [矢印ブロック(全方角)[破壊不可]](/items/yajirusiblock5n) | 特殊 |
+| ![ペット収納ベル(100匹)](/img/items/petsyuunou.png) | [ペット収納ベル(100匹)](/items/petsyuunou) | 特殊 |
+| ![入門ロッド](/img/items/turizao1.png) | [入門ロッド](/items/turizao1) | 釣り |
+| ![スピニングロッド](/img/items/turizao2.png) | [スピニングロッド](/items/turizao2) | 釣り |
+| ![ベイトロッド](/img/items/turizao3.png) | [ベイトロッド](/items/turizao3) | 釣り |
+| ![ジギングロッド](/img/items/turizao4.png) | [ジギングロッド](/items/turizao4) | 釣り |
+| ![投げ竿](/img/items/turizao5.png) | [投げ竿](/items/turizao5) | 釣り |
+| ![磯竿](/img/items/turizao6.png) | [磯竿](/items/turizao6) | 釣り |
+| ![トラウトロッド](/img/items/turizao7.png) | [トラウトロッド](/items/turizao7) | 釣り |
+| ![フライロッド](/img/items/turizao8.png) | [フライロッド](/items/turizao8) | 釣り |
+| ![深海ロッド](/img/items/turizao9.png) | [深海ロッド](/items/turizao9) | 釣り |
+| ![黄金ロッド](/img/items/turizao10.png) | [黄金ロッド](/items/turizao10) | 釣り |
+| ![ミノー](/img/items/rua1.png) | [ミノー](/items/rua1) | 釣り |
+| ![クランクベイト](/img/items/rua2.png) | [クランクベイト](/items/rua2) | 釣り |
+| ![ポッパー](/img/items/rua3.png) | [ポッパー](/items/rua3) | 釣り |
+| ![メタルジグ](/img/items/rua4.png) | [メタルジグ](/items/rua4) | 釣り |
+| ![スプーン](/img/items/rua5.png) | [スプーン](/items/rua5) | 釣り |
+| ![スピナー](/img/items/rua6.png) | [スピナー](/items/rua6) | 釣り |
+| ![ワーム](/img/items/rua7.png) | [ワーム](/items/rua7) | 釣り |
+| ![フロッグ](/img/items/rua8.png) | [フロッグ](/items/rua8) | 釣り |
+| ![エギ](/img/items/rua9.png) | [エギ](/items/rua9) | 釣り |
+| ![ダーマ神殿](/img/items/sdama.png) | [ダーマ神殿](/items/sdama) | 建物 |
+| ![特技ダーマ神殿](/img/items/sdama2.png) | [特技ダーマ神殿](/items/sdama2) | 建物 |
+| ![カジノ(Rank1)施設生成アイテム](/img/items/skajino1.png) | [カジノ(Rank1)[施設生成アイテム]](/items/skajino1) | 建物 |
+| ![カジノ(Rank2)施設生成アイテム](/img/items/skajino2.png) | [カジノ(Rank2)[施設生成アイテム]](/items/skajino2) | 建物 |
+| ![カジノ(Rank3)施設生成アイテム](/img/items/skajino3.png) | [カジノ(Rank3)[施設生成アイテム]](/items/skajino3) | 建物 |
+| ![武器屋](/img/items/sbukiya.png) | [武器屋](/items/sbukiya) | 建物 |
+| ![修理屋](/img/items/ssyuuriya.png) | [修理屋](/items/ssyuuriya) | 建物 |
+| ![鍛冶屋](/img/items/skajiya.png) | [鍛冶屋](/items/skajiya) | 建物 |
+| ![魚交換所](/img/items/sginkou.png) | [魚交換所](/items/sginkou) | 建物 |
+| ![買取屋](/img/items/skaitori.png) | [買取屋](/items/skaitori) | 建物 |
+| ![ペンシルベイト](/img/items/rua10.png) | [ペンシルベイト](/items/rua10) | 釣り |
+| ![宝物庫](/img/items/wg_houmotuko.png) | [宝物庫](/items/wg_houmotuko) | 建物 |
+| ![老人の家](/img/items/wg_ie.png) | [老人の家](/items/wg_ie) | 建物 |
+| ![ピラミッド](/img/items/wg_piramiddo.png) | [ピラミッド](/items/wg_piramiddo) | 建物 |
+| ![小ピラミッド](/img/items/wg_piramiddo_little.png) | [小ピラミッド](/items/wg_piramiddo_little) | 建物 |
+| ![墓](/img/items/wg_haka.png) | [墓](/items/wg_haka) | 建物 |
+| ![地下墓地](/img/items/wg_haka_tika.png) | [地下墓地](/items/wg_haka_tika) | 建物 |
+| ![大穴](/img/items/wg_ana.png) | [大穴](/items/wg_ana) | 建物 |
+| ![鉱石の大樹](/img/items/wg_wood.png) | [鉱石の大樹](/items/wg_wood) | 建物 |
+| ![剣の刺さった岩](/img/items/wg_sword.png) | [剣の刺さった岩](/items/wg_sword) | 建物 |
+| ![王者の剣の台座](/img/items/wg_sword3.png) | [王者の剣の台座](/items/wg_sword3) | 建物 |
+| ![武器屋の小屋](/img/items/wg_bukiya_koya.png) | [武器屋の小屋](/items/wg_bukiya_koya) | 建物 |
+| ![買取屋の小屋](/img/items/wg_kaitori_koya.png) | [買取屋の小屋](/items/wg_kaitori_koya) | 建物 |
+| ![修理屋の小屋](/img/items/wg_syuuri_koya.png) | [修理屋の小屋](/items/wg_syuuri_koya) | 建物 |
+| ![ゴールド預かり屋の小屋](/img/items/wg_okane_koya.png) | [ゴールド預かり屋の小屋](/items/wg_okane_koya) | 建物 |
+| ![転職の祭壇](/img/items/wg_job.png) | [転職の祭壇](/items/wg_job) | 建物 |
+| ![オベリスク](/img/items/wg_ob2.png) | [オベリスク](/items/wg_ob2) | 建物 |
+| ![まもののエサ](/img/items/niku1.png) | [まもののエサ](/items/niku1) | 特殊 |
+| ![くんせいにく](/img/items/niku2.png) | [くんせいにく](/items/niku2) | 特殊 |
+| ![ほねつきにく](/img/items/niku3.png) | [ほねつきにく](/items/niku3) | 特殊 |
+| ![しもふりにく](/img/items/niku4.png) | [しもふりにく](/items/niku4) | 特殊 |
+| ![貴重なレシピ(防具)](/img/items/bougu.png) | [貴重なレシピ(防具)](/drops/bougu) | 素材 |
+| ![貴重なレシピ(伝説)](/img/items/densetu.png) | [貴重なレシピ(伝説)](/items/densetu) | 素材 |
+| ![貴重なレシピ(破壊)](/img/items/hakai.png) | [貴重なレシピ(破壊)](/drops/hakai) | 素材 |
+| ![貴重なレシピ(魔法)](/img/items/mahou.png) | [貴重なレシピ(魔法)](/drops/mahou) | 素材 |
+| ![貴重なレシピ(天空)](/img/items/tenkuu.png) | [貴重なレシピ(天空)](/drops/tenkuu) | 素材 |
+| ![遊び人の証](/img/items/as.png) | [遊び人の証](/items/as) | 特殊 |
+| ![戦士の証](/img/items/se.png) | [戦士の証](/items/se) | 特殊 |
+| ![武闘家の証](/img/items/bu.png) | [武闘家の証](/items/bu) | 特殊 |
+| ![バトルマスターの証](/img/items/ba.png) | [バトルマスターの証](/items/ba) | 特殊 |
+| ![魔法使いの証](/img/items/ma.png) | [魔法使いの証](/items/ma) | 特殊 |
+| ![僧侶の証](/img/items/so.png) | [僧侶の証](/items/so) | 特殊 |
+| ![賢者の証](/img/items/ke.png) | [賢者の証](/items/ke) | 特殊 |
+| ![勇者の証](/img/items/yu.png) | [勇者の証](/items/yu) | 特殊 |
+| ![パラディンの証](/img/items/pa.png) | [パラディンの証](/items/pa) | 特殊 |
+| ![魔法戦士の証](/img/items/mk.png) | [魔法戦士の証](/items/mk) | 特殊 |
+| ![レンジャーの証](/img/items/re.png) | [レンジャーの証](/items/re) | 特殊 |
+| ![魔物使いの証](/img/items/mm.png) | [魔物使いの証](/items/mm) | 特殊 |
+| ![スーパースターの証](/img/items/su.png) | [スーパースターの証](/items/su) | 特殊 |
+| ![はぐれメタルの証](/img/items/me.png) | [はぐれメタルの証](/items/me) | 特殊 |
+| ![盗賊の証](/img/items/to.png) | [盗賊の証](/items/to) | 特殊 |
+| ![忍者の証](/img/items/ni.png) | [忍者の証](/items/ni) | 特殊 |
+| ![道具使いの証](/img/items/dt.png) | [道具使いの証](/items/dt) | 特殊 |
+| ![道具マスターの証](/img/items/dm.png) | [道具マスターの証](/items/dm) | 特殊 |
+| ![鬼神闘士の証](/img/items/be.png) | [鬼神闘士の証](/items/be) | 特殊 |
+| ![秘境ハンターの証](/img/items/tg.png) | [秘境ハンターの証](/items/tg) | 特殊 |
+| ![吟遊詩人の証](/img/items/sn.png) | [吟遊詩人の証](/items/sn) | 特殊 |
+| ![モンスターロードの証](/img/items/mc.png) | [モンスターロードの証](/items/mc) | 特殊 |
+| ![ゴーストマスターの証](/img/items/nc.png) | [ゴーストマスターの証](/items/nc) | 特殊 |
+| ![ソウルマスターの証](/img/items/mn.png) | [ソウルマスターの証](/items/mn) | 特殊 |
+| ![魔導銃士の証](/img/items/ki.png) | [魔導銃士の証](/items/ki) | 特殊 |
+| ![戦輪士の証](/img/items/sr.png) | [戦輪士の証](/items/sr) | 特殊 |
+| ![魔法の実(苗)](/img/items/mahounomiseed.png) | [魔法の実(苗)](/items/mahounomiseed) | 種 |
+| ![超魔法の実(苗)](/img/items/mahounomiseed2.png) | [超魔法の実(苗)](/items/mahounomiseed2) | 種 |
+| ![極魔法の実(苗)](/img/items/mahounomiseed3.png) | [極魔法の実(苗)](/items/mahounomiseed3) | 種 |
+| ![魔力の種(苗)](/img/items/maryokunotaneseed.png) | [魔力の種(苗)](/items/maryokunotaneseed) | 種 |
+| ![超魔力の種(苗)](/img/items/maryokunotaneseed2.png) | [超魔力の種(苗)](/items/maryokunotaneseed2) | 種 |
+| ![極魔力の種(苗)](/img/items/maryokunotaneseed3.png) | [極魔力の種(苗)](/items/maryokunotaneseed3) | 種 |
+| ![薬草(HP+30)](/img/items/yakusou.png) | [薬草(HP+30)](/drops/yakusou) | 種 |
+| ![超薬草(HP+80)](/img/items/yakusou2.png) | [超薬草(HP+80)](/items/yakusou2) | 種 |
+| ![極薬草(HP+250)](/img/items/yakusou3.png) | [極薬草(HP+250)](/items/yakusou3) | 種 |
+| ![毒消し草](/img/items/dokukesisou.png) | [毒消し草](/items/dokukesisou) | 種 |
+| ![超毒消し草(HP+30)](/img/items/dokukesisou2.png) | [超毒消し草(HP+30)](/items/dokukesisou2) | 種 |
+| ![極毒消し草(HP+80)](/img/items/dokukesisou3.png) | [極毒消し草(HP+80)](/items/dokukesisou3) | 種 |
+| ![力の種](/img/items/tikaranotane.png) | [力の種](/drops/tikaranotane) | 種 |
+| ![超力の種](/img/items/tikaranotane2.png) | [超力の種](/items/tikaranotane2) | 種 |
+| ![極力の種](/img/items/tikaranotane3.png) | [極力の種](/items/tikaranotane3) | 種 |
+| ![守りの種](/img/items/mamorinotane.png) | [守りの種](/drops/mamorinotane) | 種 |
+| ![超守りの種](/img/items/mamorinotane2.png) | [超守りの種](/items/mamorinotane2) | 種 |
+| ![極守りの種](/img/items/mamorinotane3.png) | [極守りの種](/items/mamorinotane3) | 種 |
+| ![素早さの種](/img/items/subayasanotane.png) | [素早さの種](/items/subayasanotane) | 種 |
+| ![超素早さの種](/img/items/subayasanotane2.png) | [超素早さの種](/items/subayasanotane2) | 種 |
+| ![極素早さの種](/img/items/subayasanotane3.png) | [極素早さの種](/items/subayasanotane3) | 種 |
+| ![いやしの実](/img/items/iyasinomi.png) | [いやしの実](/items/iyasinomi) | 種 |
+| ![超いやしの実](/img/items/iyasinomi2.png) | [超いやしの実](/items/iyasinomi2) | 種 |
+| ![極いやしの実](/img/items/iyasinomi3.png) | [極いやしの実](/items/iyasinomi3) | 種 |
+| ![炎の実](/img/items/honoonomi.png) | [炎の実](/items/honoonomi) | 種 |
+| ![超炎の実](/img/items/honoonomi2.png) | [超炎の実](/items/honoonomi2) | 種 |
+| ![極炎の実](/img/items/honoonomi3.png) | [極炎の実](/items/honoonomi3) | 種 |
+| ![黄金の実](/img/items/ougon.png) | [黄金の実](/items/ougon) | 種 |
+| ![超黄金の実](/img/items/ougon2.png) | [超黄金の実](/items/ougon2) | 種 |
+| ![極黄金の実](/img/items/ougon3.png) | [極黄金の実](/items/ougon3) | 種 |
+| ![真・極黄金の実](/img/items/ougon4.png) | [真・極黄金の実](/items/ougon4) | 種 |
+| ![大魔王オン・ゾ・エーグのコイン](/img/items/coin_flucifer.png) | [大魔王オン・ゾ・エーグのコイン](/items/coin_flucifer) | 特殊 |
+| ![魔剣士ピサロのコイン](/img/items/coin_psaro.png) | [魔剣士ピサロのコイン](/items/coin_psaro) | 特殊 |
+| ![モモンジャガーのコイン](/img/items/coin_momonjaguar.png) | [モモンジャガーのコイン](/items/coin_momonjaguar) | 特殊 |
+| ![スラリンガルのコイン](/img/items/coin_suraringaru.png) | [スラリンガルのコイン](/items/coin_suraringaru) | 特殊 |
+| ![ゾーマのコイン](/img/items/coin_zoma2.png) | [ゾーマのコイン](/items/coin_zoma2) | 特殊 |
+| ![神獣王WORLDのコイン](/img/items/coin_shinjuuou_world.png) | [神獣王WORLDのコイン](/items/coin_shinjuuou_world) | 特殊 |
+| ![ライフルユニット](/img/items/raifuruyunitto.png) | [ライフルユニット](/items/raifuruyunitto) | 特殊 |
+| ![ショットガンユニット](/img/items/syottogunyunitto.png) | [ショットガンユニット](/items/syottogunyunitto) | 特殊 |
+| ![マシンガンユニット](/img/items/masinganyunitto.png) | [マシンガンユニット](/items/masinganyunitto) | 特殊 |
+| ![マグナムユニット](/img/items/magunamuyunitto.png) | [マグナムユニット](/items/magunamuyunitto) | 特殊 |
+| ![ハンドガンユニット](/img/items/handoganyunitto.png) | [ハンドガンユニット](/items/handoganyunitto) | 特殊 |
+| ![アイナメ](/img/items/sakana16.png) | [アイナメ](/items/sakana16) | 釣り |
+| ![アオブダイ](/img/items/sakana29.png) | [アオブダイ](/items/sakana29) | 釣り |
+| ![アカエイ](/img/items/sakana41.png) | [アカエイ](/items/sakana41) | 釣り |
+| ![アカマンボウ](/img/items/sakana99.png) | [アカマンボウ](/items/sakana99) | 釣り |
+| ![アジ](/img/items/sakana0.png) | [アジ](/items/sakana0) | 釣り |
+| ![アバキの草](/img/items/flower09.png) | [アバキの草](/items/flower09) | 種 |
+| ![アユ](/img/items/sakana56.png) | [アユ](/items/sakana56) | 釣り |
+| ![アリゲーターガー](/img/items/sakana70.png) | [アリゲーターガー](/items/sakana70) | 釣り |
+| ![アロワナ](/img/items/sakana72.png) | [アロワナ](/items/sakana72) | 釣り |
+| ![イシダイ](/img/items/sakana13.png) | [イシダイ](/items/sakana13) | 釣り |
+| ![いやしそう](/img/items/kaifuku02.png) | [いやしそう](/items/kaifuku02) | 素材 |
+| ![いやしの種(苗)](/img/items/iyasi_seed.png) | [いやしの種(苗)](/items/iyasi_seed) | 種 |
+| ![イワシ](/img/items/sakana2.png) | [イワシ](/items/sakana2) | 釣り |
+| ![イワナ](/img/items/sakana55.png) | [イワナ](/items/sakana55) | 釣り |
+| ![ウォール街](/img/items/toukou22.png) | [ウォール街](/items/toukou22) | 建物 |
+| ![ウグイ](/img/items/sakana57.png) | [ウグイ](/items/sakana57) | 釣り |
+| ![うつくしそう](/img/items/flower05.png) | [うつくしそう](/items/flower05) | 種 |
+| ![ウツボ](/img/items/sakana35.png) | [ウツボ](/items/sakana35) | 釣り |
+| ![エルフののみぐすり](/img/items/kaifuku05.png) | [エルフののみぐすり](/items/kaifuku05) | 素材 |
+| ![エルヘブン](/img/items/toukou26.png) | [エルヘブン](/items/toukou26) | 建物 |
+| ![オスカー](/img/items/sakana78.png) | [オスカー](/items/sakana78) | 釣り |
+| ![オニイトマキエイ](/img/items/sakana40.png) | [オニイトマキエイ](/items/sakana40) | 釣り |
+| ![オニカマス](/img/items/sakana21.png) | [オニカマス](/items/sakana21) | 釣り |
+| ![オヒョウ](/img/items/sakana98.png) | [オヒョウ](/items/sakana98) | 釣り |
+| ![カクレクマノミ](/img/items/sakana32.png) | [カクレクマノミ](/items/sakana32) | 釣り |
+| ![カサゴ](/img/items/sakana14.png) | [カサゴ](/items/sakana14) | 釣り |
+| ![カツオ](/img/items/sakana7.png) | [カツオ](/items/sakana7) | 釣り |
+| ![カレイ](/img/items/sakana11.png) | [カレイ](/items/sakana11) | 釣り |
+| ![カワハギ](/img/items/sakana18.png) | [カワハギ](/items/sakana18) | 釣り |
+| ![カワマス](/img/items/sakana54.png) | [カワマス](/items/sakana54) | 釣り |
+| ![カンパチ](/img/items/sakana5.png) | [カンパチ](/items/sakana5) | 釣り |
+| ![キンギョ](/img/items/sakana60.png) | [キンギョ](/items/sakana60) | 釣り |
+| ![キンチャクダイ](/img/items/sakana31.png) | [キンチャクダイ](/items/sakana31) | 釣り |
+| ![グラミー](/img/items/sakana81.png) | [グラミー](/items/sakana81) | 釣り |
+| ![グランバニア城](/img/items/toukou25.png) | [グランバニア城](/items/toukou25) | 建物 |
+| ![クロカジキ](/img/items/sakana24.png) | [クロカジキ](/items/sakana24) | 釣り |
+| ![クロダイ](/img/items/sakana9.png) | [クロダイ](/items/sakana9) | 釣り |
+| ![クロマグロ](/img/items/sakana6.png) | [クロマグロ](/items/sakana6) | 釣り |
+| ![ゲンキ草](/img/items/flower00.png) | [ゲンキ草](/items/flower00) | 種 |
+| ![コイ](/img/items/sakana58.png) | [コイ](/items/sakana58) | 釣り |
+| ![ゴールドチケット](/img/items/gold_t.png) | [ゴールドチケット](/items/gold_t) | 特殊 |
+| ![コクチバス](/img/items/sakana66.png) | [コクチバス](/items/sakana66) | 釣り |
+| ![コダラ](/img/items/sakana96.png) | [コダラ](/items/sakana96) | 釣り |
+| ![コバンザメ](/img/items/sakana93.png) | [コバンザメ](/items/sakana93) | 釣り |
+| ![サイコロ](/img/items/saikoro_i.png) | [サイコロ](/items/saikoro_i) | 特殊 |
+| ![サバ](/img/items/sakana1.png) | [サバ](/items/sakana1) | 釣り |
+| ![サバヒー](/img/items/sakana91.png) | [サバヒー](/items/sakana91) | 釣り |
+| ![サラボナの町](/img/items/toukou27.png) | [サラボナの町](/items/toukou27) | 建物 |
+| ![サンマ](/img/items/sakana3.png) | [サンマ](/items/sakana3) | 釣り |
+| ![シイラ](/img/items/sakana22.png) | [シイラ](/items/sakana22) | 釣り |
+| ![シーラカンス](/img/items/sakana43.png) | [シーラカンス](/items/sakana43) | 釣り |
+| ![シュモクザメ](/img/items/sakana38.png) | [シュモクザメ](/items/sakana38) | 釣り |
+| ![ジンベエザメ](/img/items/sakana39.png) | [ジンベエザメ](/items/sakana39) | 釣り |
+| ![スギ](/img/items/sakana94.png) | [スギ](/items/sakana94) | 釣り |
+| ![スケトウダラ](/img/items/sakana97.png) | [スケトウダラ](/items/sakana97) | 釣り |
+| ![すごろく券](/img/items/sugoroku_ticket.png) | [すごろく券](/items/sugoroku_ticket) | 特殊 |
+| ![すごろく場(ランク1)](/img/items/ssugoroku1.png) | [すごろく場(ランク1)](/items/ssugoroku1) | 建物 |
+| ![すごろく場(ランク2)](/img/items/ssugoroku2.png) | [すごろく場(ランク2)](/items/ssugoroku2) | 建物 |
+| ![すごろく場(ランク3)](/img/items/ssugoroku3.png) | [すごろく場(ランク3)](/items/ssugoroku3) | 建物 |
+| ![すごろく場(ランク4)](/img/items/ssugoroku4.png) | [すごろく場(ランク4)](/items/ssugoroku4) | 建物 |
+| ![すごろく場(ランク5)](/img/items/ssugoroku5.png) | [すごろく場(ランク5)](/items/ssugoroku5) | 建物 |
+| ![スズキ](/img/items/sakana12.png) | [スズキ](/items/sakana12) | 釣り |
+| ![スライムハウス](/img/items/toukou04.png) | [スライムハウス](/items/toukou04) | 建物 |
+| ![スライム船](/img/items/toukou17.png) | [スライム船](/items/toukou17) | 建物 |
+| ![せかいじゅのしずく](/img/items/kaifuku03.png) | [せかいじゅのしずく](/items/kaifuku03) | 素材 |
+| ![せかいじゅのわかば](/img/items/flower06.png) | [せかいじゅのわかば](/items/flower06) | 種 |
+| ![ゼブラフィッシュ](/img/items/sakana82.png) | [ゼブラフィッシュ](/items/sakana82) | 釣り |
+| ![ターニアの家](/img/items/toukou11.png) | [ターニアの家](/items/toukou11) | 建物 |
+| ![ターポン](/img/items/sakana89.png) | [ターポン](/items/sakana89) | 釣り |
+| ![タイセイヨウサケ](/img/items/sakana51.png) | [タイセイヨウサケ](/items/sakana51) | 釣り |
+| ![タイセイヨウダラ](/img/items/sakana95.png) | [タイセイヨウダラ](/items/sakana95) | 釣り |
+| ![タツノオトシゴ](/img/items/sakana50.png) | [タツノオトシゴ](/items/sakana50) | 釣り |
+| ![タマカイ](/img/items/sakana27.png) | [タマカイ](/items/sakana27) | 釣り |
+| ![チョウザメ](/img/items/sakana87.png) | [チョウザメ](/items/sakana87) | 釣り |
+| ![チョウチョウウオ](/img/items/sakana30.png) | [チョウチョウウオ](/items/sakana30) | 釣り |
+| ![チョウチンアンコウ](/img/items/sakana45.png) | [チョウチンアンコウ](/items/sakana45) | 釣り |
+| ![ディスカス](/img/items/sakana79.png) | [ディスカス](/items/sakana79) | 釣り |
+| ![ティラピア](/img/items/sakana76.png) | [ティラピア](/items/sakana76) | 釣り |
+| ![デメニギス](/img/items/sakana47.png) | [デメニギス](/items/sakana47) | 釣り |
+| ![ドジョウ](/img/items/sakana86.png) | [ドジョウ](/items/sakana86) | 釣り |
+| ![トビウオ](/img/items/sakana20.png) | [トビウオ](/items/sakana20) | 釣り |
+| ![トラフグ](/img/items/sakana17.png) | [トラフグ](/items/sakana17) | 釣り |
+| ![ドワーフの村](/img/items/toukou29.png) | [ドワーフの村](/items/toukou29) | 建物 |
+| ![ナイルパーチ](/img/items/sakana77.png) | [ナイルパーチ](/items/sakana77) | 釣り |
+| ![ナマズ](/img/items/sakana62.png) | [ナマズ](/items/sakana62) | 釣り |
+| ![ナンヨウハギ](/img/items/sakana33.png) | [ナンヨウハギ](/items/sakana33) | 釣り |
+| ![ニシキゴイ](/img/items/sakana61.png) | [ニシキゴイ](/items/sakana61) | 釣り |
+| ![ニジマス](/img/items/sakana52.png) | [ニジマス](/items/sakana52) | 釣り |
+| ![ニホンウナギ](/img/items/sakana63.png) | [ニホンウナギ](/items/sakana63) | 釣り |
+| ![ネッドの宿屋](/img/items/toukou23.png) | [ネッドの宿屋](/items/toukou23) | 建物 |
+| ![ノーザンパイク](/img/items/sakana68.png) | [ノーザンパイク](/items/sakana68) | 釣り |
+| ![パクー](/img/items/sakana74.png) | [パクー](/items/sakana74) | 釣り |
+| ![バショウカジキ](/img/items/sakana25.png) | [バショウカジキ](/items/sakana25) | 釣り |
+| ![ハゼ](/img/items/sakana85.png) | [ハゼ](/items/sakana85) | 釣り |
+| ![ハダカイワシ](/img/items/sakana46.png) | [ハダカイワシ](/items/sakana46) | 釣り |
+| ![ピーコックバス](/img/items/sakana75.png) | [ピーコックバス](/items/sakana75) | 釣り |
+| ![ピラニア](/img/items/sakana73.png) | [ピラニア](/items/sakana73) | 釣り |
+| ![ヒラメ](/img/items/sakana10.png) | [ヒラメ](/items/sakana10) | 釣り |
+| ![ピラルク](/img/items/sakana71.png) | [ピラルク](/items/sakana71) | 釣り |
+| ![フエダイ](/img/items/sakana28.png) | [フエダイ](/items/sakana28) | 釣り |
+| ![フォーメーション10](/img/items/formation10.png) | [フォーメーション10](/items/formation10) | 特殊 |
+| ![フォーメーション3](/img/items/formation3.png) | [フォーメーション3](/items/formation3) | 特殊 |
+| ![フォーメーション4](/img/items/formation4.png) | [フォーメーション4](/items/formation4) | 特殊 |
+| ![フォーメーション5](/img/items/formation5.png) | [フォーメーション5](/items/formation5) | 特殊 |
+| ![フォーメーション6](/img/items/formation6.png) | [フォーメーション6](/items/formation6) | 特殊 |
+| ![フォーメーション7](/img/items/formation7.png) | [フォーメーション7](/items/formation7) | 特殊 |
+| ![フォーメーション8](/img/items/formation8.png) | [フォーメーション8](/items/formation8) | 特殊 |
+| ![フォーメーション9](/img/items/formation9.png) | [フォーメーション9](/items/formation9) | 特殊 |
+| ![フナ](/img/items/sakana59.png) | [フナ](/items/sakana59) | 釣り |
+| ![ブラウントラウト](/img/items/sakana53.png) | [ブラウントラウト](/items/sakana53) | 釣り |
+| ![ブラックバス](/img/items/sakana65.png) | [ブラックバス](/items/sakana65) | 釣り |
+| ![ブリ](/img/items/sakana4.png) | [ブリ](/items/sakana4) | 釣り |
+| ![ブルーギル](/img/items/sakana67.png) | [ブルーギル](/items/sakana67) | 釣り |
+| ![ブロブフィッシュ](/img/items/sakana48.png) | [ブロブフィッシュ](/items/sakana48) | 釣り |
+| ![ベタ](/img/items/sakana80.png) | [ベタ](/items/sakana80) | 釣り |
+| ![ヘパイトスの火種](/img/items/hepaitosunohidane.png) | [ヘパイトスの火種](/items/hepaitosunohidane) | 装飾 |
+| ![ヘラチョウザメ](/img/items/sakana88.png) | [ヘラチョウザメ](/items/sakana88) | 釣り |
+| ![ベルガラック](/img/items/toukou28.png) | [ベルガラック](/items/toukou28) | 建物 |
+| ![ホーム](/img/items/toukou40.png) | [ホーム](/items/toukou40) | 建物 |
+| ![ボーンフィッシュ](/img/items/sakana90.png) | [ボーンフィッシュ](/items/sakana90) | 釣り |
+| ![ホホジロザメ](/img/items/sakana37.png) | [ホホジロザメ](/items/sakana37) | 釣り |
+| ![ボラ](/img/items/sakana92.png) | [ボラ](/items/sakana92) | 釣り |
+| ![マアナゴ](/img/items/sakana36.png) | [マアナゴ](/items/sakana36) | 釣り |
+| ![マジックツール(ダンジョン用)](/img/items/magic_tool5.png) | [マジックツール(ダンジョン用)](/items/magic_tool5) | 特殊 |
+| ![マジックツール(測定用)](/img/items/magic_tool10.png) | [マジックツール(測定用)](/items/magic_tool10) | 特殊 |
+| ![マスキー](/img/items/sakana69.png) | [マスキー](/items/sakana69) | 釣り |
+| ![マダイ](/img/items/sakana8.png) | [マダイ](/items/sakana8) | 釣り |
+| ![マハタ](/img/items/sakana26.png) | [マハタ](/items/sakana26) | 釣り |
+| ![まほうのせいすい](/img/items/kaifuku04.png) | [まほうのせいすい](/items/kaifuku04) | 素材 |
+| ![マンボウ](/img/items/sakana42.png) | [マンボウ](/items/sakana42) | 釣り |
+| ![みかわしそう](/img/items/flower07.png) | [みかわしそう](/items/flower07) | 種 |
+| ![ミツクリザメ](/img/items/sakana49.png) | [ミツクリザメ](/items/sakana49) | 釣り |
+| ![ミノカサゴ](/img/items/sakana34.png) | [ミノカサゴ](/items/sakana34) | 釣り |
+| ![ムツゴロウ](/img/items/sakana84.png) | [ムツゴロウ](/items/sakana84) | 釣り |
+| ![メカジキ](/img/items/sakana23.png) | [メカジキ](/items/sakana23) | 釣り |
+| ![メダカ](/img/items/sakana83.png) | [メダカ](/items/sakana83) | 釣り |
+| ![メタルチケット](/img/items/metaru_t.png) | [メタルチケット](/items/metaru_t) | 特殊 |
+| ![メタルチケットII](/img/items/metaru_t2.png) | [メタルチケットII](/items/metaru_t2) | 特殊 |
+| ![メダル王の城](/img/items/toukou15.png) | [メダル王の城](/items/toukou15) | 建物 |
+| ![メバル](/img/items/sakana15.png) | [メバル](/items/sakana15) | 釣り |
+| ![モンガラカワハギ](/img/items/sakana19.png) | [モンガラカワハギ](/items/sakana19) | 釣り |
+| ![モンスターパーク](/img/items/toukou07.png) | [モンスターパーク](/items/toukou07) | 建物 |
+| ![ライギョ](/img/items/sakana64.png) | [ライギョ](/items/sakana64) | 釣り |
+| ![ライフコッド](/img/items/toukou24.png) | [ライフコッド](/items/toukou24) | 建物 |
+| ![リュウグウノツカイ](/img/items/sakana44.png) | [リュウグウノツカイ](/items/sakana44) | 釣り |
+| ![ルイーダの酒場](/img/items/toukou16.png) | [ルイーダの酒場](/items/toukou16) | 建物 |
+| ![レッドストーン](/img/items/redstone_toumei.png) | [レッドストーン](/items/redstone_toumei) | 特殊 |
+| ![叡智の種](/img/items/eichinotane.png) | [叡智の種](/items/eichinotane) | 種 |
+| ![炎の種(苗)](/img/items/honoo_seed.png) | [炎の種(苗)](/items/honoo_seed) | 種 |
+| ![横壁ブロック](/img/items/kabe_y.png) | [横壁ブロック](/items/kabe_y) | 特殊 |
+| ![黄金の種(苗)](/img/items/ougon_seed.png) | [黄金の種(苗)](/items/ougon_seed) | 種 |
+| ![貴重なレシピ(メタル、氷)](/img/items/koori_metaru.png) | [貴重なレシピ(メタル、氷)](/drops/koori_metaru) | 素材 |
+| ![貴重なレシピ(弓、ブーメラン)](/img/items/yumi_nage.png) | [貴重なレシピ(弓、ブーメラン)](/drops/yumi_nage) | 素材 |
+| ![貴重なレシピ(剣、短剣)](/img/items/ken_tanken.png) | [貴重なレシピ(剣、短剣)](/drops/ken_tanken) | 素材 |
+| ![貴重なレシピ(槍、鞭、爪)](/img/items/yari_muti_tume.png) | [貴重なレシピ(槍、鞭、爪)](/drops/yari_muti_tume) | 素材 |
+| ![貴重なレシピ(斧、槌、棍)](/img/items/ono_tuti_kon.png) | [貴重なレシピ(斧、槌、棍)](/drops/ono_tuti_kon) | 素材 |
+| ![貴重なレシピ(魔、呪)](/img/items/ma_ju.png) | [貴重なレシピ(魔、呪)](/drops/ma_ju) | 素材 |
+| ![貴重なレシピ(竜、炎)](/img/items/honoo_ryuu.png) | [貴重なレシピ(竜、炎)](/items/honoo_ryuu) | 素材 |
+| ![教会の道具屋](/img/items/toukou01.png) | [教会の道具屋](/items/toukou01) | 建物 |
+| ![橋](/img/items/toukou08.png) | [橋](/items/toukou08) | 建物 |
+| ![極いやしの種(苗)](/img/items/iyasi_seed3.png) | [極いやしの種(苗)](/items/iyasi_seed3) | 種 |
+| ![極炎の種(苗)](/img/items/honoo_seed3.png) | [極炎の種(苗)](/items/honoo_seed3) | 種 |
+| ![極黄金の種(苗)](/img/items/ougon_seed3.png) | [極黄金の種(苗)](/items/ougon_seed3) | 種 |
+| ![極守りの種(苗)](/img/items/mamori_seed3.png) | [極守りの種(苗)](/items/mamori_seed3) | 種 |
+| ![極素早さの種(苗)](/img/items/subayasa_seed3.png) | [極素早さの種(苗)](/items/subayasa_seed3) | 種 |
+| ![極毒消し草(苗)](/img/items/dokukesisou_seed3.png) | [極毒消し草(苗)](/items/dokukesisou_seed3) | 種 |
+| ![極肥料](/img/items/hiryou3.png) | [極肥料](/items/hiryou3) | 特殊 |
+| ![極魔法の実](/img/items/mahounomi_i3.png) | [極魔法の実](/items/mahounomi_i3) | 種 |
+| ![極魔力の種](/img/items/maryokunotane_i3.png) | [極魔力の種](/items/maryokunotane_i3) | 種 |
+| ![極薬草(苗)](/img/items/yakusou_seed3.png) | [極薬草(苗)](/items/yakusou_seed3) | 種 |
+| ![極力の種(苗)](/img/items/tikara_seed3.png) | [極力の種(苗)](/items/tikara_seed3) | 種 |
+| ![経験値預かり屋](/img/items/toukou14.png) | [経験値預かり屋](/items/toukou14) | 建物 |
+| ![港のある町](/img/items/toukou20.png) | [港のある町](/items/toukou20) | 建物 |
+| ![鉱脈探知機](/img/items/oredetector.png) | [鉱脈探知機](/items/oredetector) | 特殊 |
+| ![剛力の種](/img/items/gourikinotane.png) | [剛力の種](/items/gourikinotane) | 種 |
+| ![紫のさとりそう](/img/items/flower08.png) | [紫のさとりそう](/items/flower08) | 種 |
+| ![時の扉](/img/items/toukou13.png) | [時の扉](/items/toukou13) | 建物 |
+| ![守りの種(苗)](/img/items/mamori_seed.png) | [守りの種(苗)](/items/mamori_seed) | 種 |
+| ![小さなメタスラ城](/img/items/toukou38.png) | [小さなメタスラ城](/items/toukou38) | 建物 |
+| ![小さな港のある町](/img/items/toukou21.png) | [小さな港のある町](/items/toukou21) | 建物 |
+| ![鐘の鳴る城](/img/items/toukou18.png) | [鐘の鳴る城](/items/toukou18) | 建物 |
+| ![上どくけしそう](/img/items/kaifuku00.png) | [上どくけしそう](/items/kaifuku00) | 素材 |
+| ![真・極黄金の種](/img/items/ougon_seed4.png) | [真・極黄金の種](/items/ougon_seed4) | 種 |
+| ![神薬草](/img/items/yakusou6.png) | [神薬草](/items/yakusou6) | 素材 |
+| ![水晶階段下り](/img/items/toukou34.png) | [水晶階段下り](/items/toukou34) | 建物 |
+| ![水晶階段上り](/img/items/toukou31.png) | [水晶階段上り](/items/toukou31) | 建物 |
+| ![水晶広場](/img/items/toukou35.png) | [水晶広場](/items/toukou35) | 建物 |
+| ![水晶十字路](/img/items/toukou32.png) | [水晶十字路](/items/toukou32) | 建物 |
+| ![水晶通路](/img/items/toukou30.png) | [水晶通路](/items/toukou30) | 建物 |
+| ![水晶踊場](/img/items/toukou33.png) | [水晶踊場](/items/toukou33) | 建物 |
+| ![聖者の祈り](/img/items/seijanoinori.png) | [聖者の祈り](/items/seijanoinori) | 特殊 |
+| ![聖薬草](/img/items/yakusou5.png) | [聖薬草](/items/yakusou5) | 素材 |
+| ![青幻魔石](/img/items/genmaseki_b.png) | [青幻魔石](/items/genmaseki_b) | 素材 |
+| ![石のめざめの花](/img/items/flower04.png) | [石のめざめの花](/items/flower04) | 種 |
+| ![赤いゆめみの花](/img/items/flower03.png) | [赤いゆめみの花](/items/flower03) | 種 |
+| ![素早さの種(苗)](/img/items/subayasa_seed.png) | [素早さの種(苗)](/items/subayasa_seed) | 種 |
+| ![大きな袋](/img/items/fukuro.png) | [大きな袋](/drops/fukuro) | 特殊 |
+| ![大きな袋(増)](/img/items/fukuro_ex.png) | [大きな袋(増)](/items/fukuro_ex) | 特殊 |
+| ![大橋](/img/items/toukou09.png) | [大橋](/items/toukou09) | 建物 |
+| ![鍛冶の秘伝書](/img/items/kajihidensho.png) | [鍛冶の秘伝書](/items/kajihidensho) | 特殊 |
+| ![超いやしの種(苗)](/img/items/iyasi_seed2.png) | [超いやしの種(苗)](/items/iyasi_seed2) | 種 |
+| ![超炎の種(苗)](/img/items/honoo_seed2.png) | [超炎の種(苗)](/items/honoo_seed2) | 種 |
+| ![超黄金の種(苗)](/img/items/ougon_seed2.png) | [超黄金の種(苗)](/items/ougon_seed2) | 種 |
+| ![超守りの種(苗)](/img/items/mamori_seed2.png) | [超守りの種(苗)](/items/mamori_seed2) | 種 |
+| ![超素早さの種(苗)](/img/items/subayasa_seed2.png) | [超素早さの種(苗)](/items/subayasa_seed2) | 種 |
+| ![超毒消し草(苗)](/img/items/dokukesisou_seed2.png) | [超毒消し草(苗)](/items/dokukesisou_seed2) | 種 |
+| ![超肥料](/img/items/hiryou2.png) | [超肥料](/items/hiryou2) | 特殊 |
+| ![超魔法の実](/img/items/mahounomi_i2.png) | [超魔法の実](/items/mahounomi_i2) | 種 |
+| ![超魔力の種](/img/items/maryokunotane_i2.png) | [超魔力の種](/items/maryokunotane_i2) | 種 |
+| ![超薬草(苗)](/img/items/yakusou_seed2.png) | [超薬草(苗)](/items/yakusou_seed2) | 種 |
+| ![超力の種(苗)](/img/items/tikara_seed2.png) | [超力の種(苗)](/items/tikara_seed2) | 種 |
+| ![天空の城](/img/items/toukou12.png) | [天空の城](/items/toukou12) | 建物 |
+| ![伝説のルアー](/img/items/rua11.png) | [伝説のルアー](/items/rua11) | 釣り |
+| ![伝説の釣り竿](/img/items/turizao11.png) | [伝説の釣り竿](/items/turizao11) | 釣り |
+| ![凍ったいやしそう](/img/items/flower01.png) | [凍ったいやしそう](/items/flower01) | 種 |
+| ![道具屋(施設生成)東西南北対応](/img/items/toukou02.png) | [道具屋(施設生成)[東西南北対応]](/items/toukou02) | 建物 |
+| ![特どくけしそう](/img/items/kaifuku01.png) | [特どくけしそう](/items/kaifuku01) | 素材 |
+| ![特技アイテム販売ダーマ神殿](/img/items/toukou36.png) | [特技アイテム販売ダーマ神殿](/items/toukou36) | 建物 |
+| ![特大の袋](/img/items/fukuro2.png) | [特大の袋](/items/fukuro2) | 特殊 |
+| ![特大の袋(増)](/img/items/fukuro2_ex.png) | [特大の袋(増)](/items/fukuro2_ex) | 特殊 |
+| ![毒消し草(苗)](/img/items/dokukesisou_seed.png) | [毒消し草(苗)](/items/dokukesisou_seed) | 種 |
+| ![農家](/img/items/toukou06.png) | [農家](/items/toukou06) | 建物 |
+| ![農業の秘伝書](/img/items/nogyohidensho.png) | [農業の秘伝書](/items/nogyohidensho) | 特殊 |
+| ![肥料](/img/items/hiryou.png) | [肥料](/items/hiryou) | 特殊 |
+| ![福引屋](/img/items/toukou10.png) | [福引屋](/items/toukou10) | 建物 |
+| ![宝箱部屋(ランダム)(施設生成)](/img/items/toukou39.png) | [宝箱部屋(ランダム)(施設生成)](/items/toukou39) | 建物 |
+| ![宝箱部屋(施設生成)](/img/items/toukou19.png) | [宝箱部屋(施設生成)](/items/toukou19) | 建物 |
+| ![防具屋(施設生成)東西南北対応](/img/items/toukou03.png) | [防具屋(施設生成)[東西南北対応]](/items/toukou03) | 建物 |
+| ![魔法の実](/img/items/mahounomi_i.png) | [魔法の実](/items/mahounomi_i) | 種 |
+| ![魔力の種](/img/items/maryokunotane_i.png) | [魔力の種](/items/maryokunotane_i) | 種 |
+| ![無限の袋](/img/items/fukuro3.png) | [無限の袋](/items/fukuro3) | 特殊 |
+| ![無限の袋(増)](/img/items/fukuro3_ex.png) | [無限の袋(増)](/items/fukuro3_ex) | 特殊 |
+| ![紋章屋](/img/items/toukou37.png) | [紋章屋](/items/toukou37) | 建物 |
+| ![薬草(苗)](/img/items/yakusou_seed.png) | [薬草(苗)](/items/yakusou_seed) | 種 |
+| ![力の種(苗)](/img/items/tikara_seed.png) | [力の種(苗)](/items/tikara_seed) | 種 |
+| ![緑のきつけそう](/img/items/flower02.png) | [緑のきつけそう](/items/flower02) | 種 |
+| ![緑幻魔石](/img/items/genmaseki_g.png) | [緑幻魔石](/items/genmaseki_g) | 素材 |
+| ![霊薬草](/img/items/yakusou4.png) | [霊薬草](/items/yakusou4) | 素材 |
+| ![祠](/img/items/toukou05.png) | [祠](/items/toukou05) | 建物 |
 
 ## 関連ページ
 
