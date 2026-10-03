@@ -1,6 +1,6 @@
 ---
 title: 武器一覧
-description: DQMVIの武器576種のデータ。剣・槍・棍・爪・斧・弓など。
+description: DQMVIの武器578種のデータ。剣・槍・棍・爪・斧・弓など。
 pageClass: wide-page sortable-list
 ---
 
@@ -112,7 +112,7 @@ pageClass: wide-page sortable-list
 | [ライトニングダガー](/items/raitoningudaga) | 14 | ×3.84 | — |
 | [サボテンゴールドの棘](/drops/sabotengoldnotoge) | 10 | ×1.5 | 攻撃する度にダメージの1/100がゴールドになる |
 
-## 杖（19種） {#staff}
+## 杖（20種） {#staff}
 
 | 杖 | 魔力倍率 | 特殊効果 |
 | --- | ---: | --- |
@@ -135,6 +135,7 @@ pageClass: wide-page sortable-list
 | [魔導士の杖](/items/mahoustaff11) | ×1.2 | — |
 | [龍王の杖](/items/mahoustaff18) | ×2.8 | — |
 | [にくきゅうの杖](/drops/nikukyuunotue) | ×1.5 | 単体魔法を三方向に放つ(メラ系・ヒャド系・ドルマ系のみ) |
+| [ジェントルステッキ](/drops/zyentorusutekki) | ×2.4 | 自分以外対象の回復魔法のみ詠唱時間を0.5倍する |
 
 杖には武器としての攻撃力がなく、「魔力倍率」が呪文の威力にかかります。
 
@@ -266,7 +267,7 @@ pageClass: wide-page sortable-list
 | [グレイプニルのムチ](/items/gureipunirunomuti) | 20 | ×3.87 | — |
 | [りゅうおうもどきの尻尾](/drops/ryuuoumodokinosippo) | 10 | ×1.5 | 溜め攻撃の前方範囲が10マスになる |
 
-## 弓（18種） {#bow}
+## 弓（19種） {#bow}
 
 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | --- | ---: | ---: | --- |
@@ -288,6 +289,7 @@ pageClass: wide-page sortable-list
 | [スライムショット](/items/suraimusyotto) | 16 | ×3.3 | — |
 | [緋赤鳥の弓](/items/hisekityounoyumi) | 22 | ×3.81 | — |
 | [レッドアーチャーの弓](/drops/redatyanoyumi) | 10 | ×1.5 | 1回で矢を2発連続で放つ |
+| [ルティアナの弓](/drops/lutiana_bow) | 25 | ×3.9 | — |
 
 ## ブーメラン（18種） {#boomerang}
 

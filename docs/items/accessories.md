@@ -34,7 +34,7 @@ pageClass: wide-page sortable-list
 | [触手のイヤリング](/drops/syokusyunoiyaringu) | ×1.15 | ×1.2 | — | — | — | ×1.2 | 呪文を溜めている間、守備と魔守が2倍 |
 | [女神のイヤリング](/drops/megaminoiyaringu) | — | — | — | ×1.25 | ×1.25 | — | 呪文・炎ダメージを30％減 |
 
-## 首（28種） {#neck}
+## 首（29種） {#neck}
 
 | アクセサリー | HP | MP | 攻撃 | 守備 | 魔守 | 魔力 | 特殊効果 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -66,8 +66,9 @@ pageClass: wide-page sortable-list
 | [不惑のネックレス](/items/fuwakunonekkuresu) | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | ×1.02 | — |
 | [タッチャンの首飾り](/drops/tattyannokubikazari) | ×1.15 | — | — | ×1.15 | — | — | 混乱にかからなくなる |
 | [やみのドラゴンのペンダント](/drops/yaminodragonnopendanto) | — | — | ×1.15 | ×1.2 | ×1.15 | ×1.2 | ドルマ系の威力1.2倍・ドルマ系の被ダメージ5％減 |
+| [闘技場を制し者の首飾り](/items/tougijouwoseishimononokubikazari) | ×1.25 | ×1.25 | ×1.25 | ×1.25 | ×1.25 | ×1.25 | 全ての能力が1.25倍 |
 
-## 腕（14種） {#arm}
+## 腕（15種） {#arm}
 
 | アクセサリー | HP | MP | 攻撃 | 守備 | 魔守 | 魔力 | 特殊効果 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -85,6 +86,7 @@ pageClass: wide-page sortable-list
 | [ようせいのうでわ](/items/youseinoudewa) | — | ×1.14 | — | ×1.05 | ×1.15 | ×1.24 | — |
 | [インテリのうでわ](/items/interinoudewa) | — | ×1.1 | — | — | ×1.05 | ×1.15 | — |
 | [命のブレスレット](/items/inotinoburesuretto) | ×1.15 | — | — | — | — | — | — |
+| [スミスの腕輪](/drops/sumisunoudewa) | — | — | ×1.2 | — | — | — | 鍛冶のバーの速度が15%低下する |
 
 ## 指（28種） {#finger}
 
