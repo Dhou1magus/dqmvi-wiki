@@ -1,6 +1,6 @@
 ---
 title: 花のみつ
-description: DQMVIの「花のみつ」を落とすモンスター16体の一覧。いちばん弱いのはぶちスライム（通常・EXP4）。
+description: DQMVIの「花のみつ」を落とすモンスター18体の一覧。いちばん弱いのはぶちスライム（通常・EXP4）。
 pageClass: wide-page sortable-list
 prev:
   text: "わんぱくサタンのスプーン"
@@ -12,7 +12,7 @@ next:
 
 # 花のみつ
 
-素材。**16体**のモンスターが落とします。
+素材。**18体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ぶちスライム**（通常ドロップ・EXP4）。
@@ -30,7 +30,9 @@ next:
 | [メーダ](/monsters/meda) | 通常 | 1 | [悪魔](/species/akuma) | 16 | 13 |
 | [ナイトウイプス](/monsters/naitouipusu) | レア | 1 | [ゾンビ](/species/zombie) | 20 | 9 |
 | [ビーンファイター](/monsters/binfaita) | レア | 1 | [自然](/species/sizen) | 15 | 9 |
+| [キュートスライム](/monsters/cuteslime) | レア | 1 | [スライム](/species/slime) | 17 | 10 |
 | [レモンスライム](/monsters/remonsuraimu) | レア | 1 | [スライム](/species/slime) | 20 | 11 |
+| [マーブルスライム](/monsters/marbleslime) | レア | 1 | [スライム](/species/slime) | 27 | 13 |
 | [はねスライム](/monsters/hane_suraimu) | レア | 1 | [スライム](/species/slime) | 23 | 14 |
 | [スライムタール](/monsters/slimetar) | レア | 1 | [スライム](/species/slime) | 27 | 14 |
 | [キャタピラー](/monsters/caterpillar) | レア | 1 | [自然](/species/sizen) | 24 | 15 |

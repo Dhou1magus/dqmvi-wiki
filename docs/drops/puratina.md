@@ -1,6 +1,6 @@
 ---
 title: プラチナ
-description: DQMVIの「プラチナ」を落とすモンスター35体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
+description: DQMVIの「プラチナ」を落とすモンスター37体の一覧。いちばん弱いのはグランスライム（通常・EXP333）。
 pageClass: wide-page sortable-list
 prev:
   text: "ピンクボンボンの爪"
@@ -12,7 +12,7 @@ next:
 
 # プラチナ
 
-素材。**35体**のモンスターが落とします。
+素材。**37体**のモンスターが落とします。
 
 ::: tip ねらい目
 **グランスライム**（通常ドロップ・EXP333）。
@@ -42,10 +42,12 @@ next:
 | [バルザック](/monsters/baruzaku) | レア | 4 | [ドラゴン](/species/dragon) | 266 | 185 |
 | [マジックアーマー](/monsters/majikkuaamaa) | レア | 4 | [物質](/species/bussitu) | 221 | 185 |
 | [ダーティードール](/monsters/da_thi_do_ru) | レア | 4 | [物質](/species/bussitu) | 209 | 185 |
+| [ケンタラウス](/monsters/kentarausu) | レア | 4 | [魔獣](/species/majyu) | 198 | 194 |
 | [プロトキラー](/monsters/protokira) | レア | 4 | [物質](/species/bussitu) | 222 | 200 |
 | [やつざきアニマル](/monsters/yatuzakianimaru) | レア | 4 | [魔獣](/species/majyu) | 203 | 212 |
 | [ひょうけつのきし](/monsters/hyouketunokisi) | レア | 4 | [悪魔](/species/akuma) | 230 | 262 |
 | [ソードファントム](/monsters/sodofantomu) | レア | 6 | [ゾンビ](/species/zombie) | 1,184 | 409 |
+| [ベルフェゴル](/monsters/beruhuxegol) | レア | 6 | [悪魔](/species/akuma) | 1,494 | 429 |
 | [バトルレックス](/monsters/batorurex) | レア | 7 | [ドラゴン](/species/dragon) | 1,800 | 675 |
 | [グリゴンダンス](/monsters/gurigondansu) | 超レア | 3 | [悪魔](/species/akuma) | 87 | 79 |
 | [スライムボーグ](/monsters/suraimubogu) | 超レア | 3 | [スライム](/species/slime) | 80 | 89 |

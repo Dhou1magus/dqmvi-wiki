@@ -5,8 +5,8 @@ prev:
   text: "巨大ナスビナーラ"
   link: /monsters/kyodainasubira
 next:
-  text: "メタルリザード"
-  link: /monsters/metarurizaado
+  text: "オリエンタシス"
+  link: /monsters/orientasis
 ---
 
 # さくらこぞう
@@ -30,7 +30,7 @@ EXP | 985
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 192 |
+| 図鑑No. | 197 |
 | ランク | 2 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 昼夜 |

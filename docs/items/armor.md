@@ -1,12 +1,12 @@
 ---
 title: 防具一覧
-description: DQMVIの防具172種のデータ。兜・鎧・小手・服など、身につける装備。
+description: DQMVIの防具167種のデータ。兜・鎧・小手・服など、身につける装備。
 pageClass: wide-page sortable-list
 ---
 
 # 防具一覧
 
-## 頭（46種） {#head}
+## 頭（45種） {#head}
 
 | 画像 | 防具 | 部位 | しゅび | 魔法しゅび | そのほか | 特殊効果 |
 | :--: | --- | :--: | ---: | ---: | --- | --- |
@@ -55,9 +55,8 @@ pageClass: wide-page sortable-list
 | ![スライムの冠(兜)](/img/items/suraimunokanmuri_k.png) | [スライムの冠(兜)](/items/suraimunokanmuri_k) | 頭 | ×1.12 | ×1.12 | — | — |
 | ![しろバラのきしの兜](/img/items/sirobaranokisinokabuto.png) | [しろバラのきしの兜](/drops/sirobaranokisinokabuto) | 頭 | ×1.2 | ×1.2 | こうげき ×1.1 | — |
 | ![シドのゴーグル](/img/items/sidonogoguru.png) | [シドのゴーグル](/drops/sidonogoguru) | 頭 | ×1.05 | ×1.05 | — | 鍛冶のゾーンが15%広がる |
-| ![神獣王の兜](/img/items/shinjuuounokabuto.png) | [神獣王の兜](/drops/shinjuuounokabuto) | 頭 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
 
-## 胴（51種） {#body}
+## 胴（49種） {#body}
 
 | 画像 | 防具 | 部位 | しゅび | 魔法しゅび | そのほか | 特殊効果 |
 | :--: | --- | :--: | ---: | ---: | --- | --- |
@@ -110,10 +109,8 @@ pageClass: wide-page sortable-list
 | ![あぶない水着(上)](/img/items/abunaimizugiue.png) | [あぶない水着(上)](/items/abunaimizugiue) | 胴 | ×1.12 | ×1.12 | — | 水中速度UP（防具2点で発動） |
 | ![バニースーツ](/img/items/banisutu.png) | [バニースーツ](/items/banisutu) | 胴 | ×1.12 | ×1.05 | — | — |
 | ![ピサロナイトの鎧](/img/items/pisaronaitonoyoroi.png) | [ピサロナイトの鎧](/drops/pisaronaitonoyoroi) | 胴 | ×1.2 | ×1.2 | HP ×1.2 | — |
-| ![神獣王の鎧](/img/items/shinjuuounoyoroi.png) | [神獣王の鎧](/drops/shinjuuounoyoroi) | 胴 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
-| ![ももんじゃのしっぽ](/img/items/momonjanoshippo.png) | [ももんじゃのしっぽ](/drops/momonjanoshippo) | 胴 | ×1.3 | ×1.3 | — | 特技の消費HPが10%軽減される |
 
-## 脚（37種） {#legs}
+## 脚（36種） {#legs}
 
 | 画像 | 防具 | 部位 | しゅび | 魔法しゅび | そのほか | 特殊効果 |
 | :--: | --- | :--: | ---: | ---: | --- | --- |
@@ -153,9 +150,8 @@ pageClass: wide-page sortable-list
 | ![あぶない水着(下)](/img/items/abunaimizugisita.png) | [あぶない水着(下)](/items/abunaimizugisita) | 脚 | ×1.12 | ×1.12 | — | — |
 | ![あみタイツ](/img/items/amitaitu.png) | [あみタイツ](/items/amitaitu) | 脚 | ×1.11 | ×1.11 | — | — |
 | ![ゴードンヘッドの小手](/img/items/godonheddonokote.png) | [ゴードンヘッドの小手](/drops/godonheddonokote) | 脚 | ×1.2 | ×1.2 | こうげき ×1.1 | — |
-| ![神獣王の籠手](/img/items/shinjuuounokote.png) | [神獣王の籠手](/drops/shinjuuounokote) | 脚 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
 
-## 足（38種） {#feet}
+## 足（37種） {#feet}
 
 | 画像 | 防具 | 部位 | しゅび | 魔法しゅび | そのほか | 特殊効果 |
 | :--: | --- | :--: | ---: | ---: | --- | --- |
@@ -196,7 +192,6 @@ pageClass: wide-page sortable-list
 | ![グランバニアの靴](/img/items/guranbanianokutu.png) | [グランバニアの靴](/items/guranbanianokutu) | 足 | ×1.3 | ×1 | — | — |
 | ![ハイヒール](/img/items/haihiru.png) | [ハイヒール](/items/haihiru) | 足 | ×1.12 | ×1.05 | — | — |
 | ![しあわせのくつ](/img/items/siawasenokutu.png) | [しあわせのくつ](/items/siawasenokutu) | 足 | ×1.12 | ×1.12 | — | 経験値取得時10％UP |
-| ![神獣王のレギンス](/img/items/shinjuuounoreginsu.png) | [神獣王のレギンス](/drops/shinjuuounoreginsu) | 足 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
 
 ## 関連ページ
 

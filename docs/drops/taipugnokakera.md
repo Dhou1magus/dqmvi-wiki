@@ -3,11 +3,11 @@ title: タイプGの欠片
 description: タイプGの欠片
 pageClass: wide-page sortable-list
 prev:
-  text: "グランシーザーの髭"
-  link: /drops/guransizanohige
+  text: "スラブラスター"
+  link: /drops/suraburasuta
 next:
-  text: "フレアドラゴンのうろこ"
-  link: /drops/fureadoragonnouroko
+  text: "タッチャンの首飾り"
+  link: /drops/tattyannokubikazari
 ---
 
 # タイプGの欠片

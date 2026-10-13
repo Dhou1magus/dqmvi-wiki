@@ -6,8 +6,8 @@ prev:
   text: "スライムヘッド"
   link: /drops/suraimuhead
 next:
-  text: "スライムボックス"
-  link: /drops/suraimubokkusu
+  text: "スラブラスター"
+  link: /drops/suraburasuta
 ---
 
 # スライムボール

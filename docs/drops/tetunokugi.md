@@ -1,6 +1,6 @@
 ---
 title: てつのクギ
-description: DQMVIの「てつのクギ」を落とすモンスター35体の一覧。いちばん弱いのはスラミチ（通常・EXP87）。
+description: DQMVIの「てつのクギ」を落とすモンスター36体の一覧。いちばん弱いのはスラミチ（通常・EXP87）。
 pageClass: wide-page sortable-list
 prev:
   text: "デスマスク"
@@ -12,7 +12,7 @@ next:
 
 # てつのクギ
 
-素材。**35体**のモンスターが落とします。
+素材。**36体**のモンスターが落とします。
 
 ::: tip ねらい目
 **スラミチ**（通常ドロップ・EXP87）。
@@ -45,6 +45,7 @@ next:
 | [まおうのたまご](/monsters/maounotamago) | 通常 | 7 | [スライム](/species/slime) | 2,601 | 791 |
 | [ボックススライムグリーン](/monsters/boxsuraimu_midori) | レア | 3 | [スライム](/species/slime) | 101 | 95 |
 | [パプリカン](/monsters/papurikan) | レア | 3 | [自然](/species/sizen) | 88 | 98 |
+| [ケセランパサラン](/monsters/keseranpasaran) | レア | 3 | [自然](/species/sizen) | 143 | 119 |
 | [ガルーダ](/monsters/garuda) | レア | 5 | [魔獣](/species/majyu) | 501 | 268 |
 | [メタルハンター１](/monsters/metaruhanta) | レア | 5 | [物質](/species/bussitu) | 476 | 274 |
 | [メタルハンター２](/monsters/metaruhantaken) | レア | 5 | [物質](/species/bussitu) | 490 | 275 |

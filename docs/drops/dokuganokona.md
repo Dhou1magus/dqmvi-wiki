@@ -1,6 +1,6 @@
 ---
 title: どくがの粉
-description: DQMVIの「どくがの粉」を落とすモンスター13体の一覧。いちばん弱いのはバブルスライム（通常・EXP6）。
+description: DQMVIの「どくがの粉」を落とすモンスター14体の一覧。いちばん弱いのはバブルスライム（通常・EXP6）。
 pageClass: wide-page sortable-list
 prev:
   text: "トイガン"
@@ -12,7 +12,7 @@ next:
 
 # どくがの粉
 
-素材。**13体**のモンスターが落とします。
+素材。**14体**のモンスターが落とします。
 
 ::: tip ねらい目
 **バブルスライム**（通常ドロップ・EXP6）。
@@ -29,6 +29,7 @@ next:
 | [マル](/monsters/maru) | レア | 1 | [物質](/species/bussitu) | 24 | 13 |
 | [かぼちゃの騎士](/monsters/kabochanokisi) | レア | 1 | [ゾンビ](/species/zombie) | 26 | 14 |
 | [ジャングラー](/monsters/feralslime) | レア | 1 | [スライム](/species/slime) | 23 | 14 |
+| [どんぐりベビー](/monsters/dongribaby) | レア | 1 | [自然](/species/sizen) | 24 | 14 |
 | [どくやずきん](/monsters/dokuyazukin) | レア | 3 | [悪魔](/species/akuma) | 84 | 85 |
 | [マタンゴ](/monsters/matango) | レア | 3 | [自然](/species/sizen) | 90 | 91 |
 | [じごくのたまねぎ](/monsters/zigokunotamanegi) | レア | 3 | [自然](/species/sizen) | 75 | 92 |

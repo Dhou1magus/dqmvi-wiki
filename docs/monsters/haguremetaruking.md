@@ -5,8 +5,8 @@ prev:
   text: "メタルスター"
   link: /monsters/metalstar
 next:
-  text: "エスターク"
-  link: /monsters/esterk_big
+  text: "超マスターエッグゴールドⅠ"
+  link: /monsters/supermasteregg_gold1
 ---
 
 # はぐれメタルキング
@@ -30,7 +30,7 @@ EXP | 500,000
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 779 |
+| 図鑑No. | 803 |
 | ランク | 7 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼夜 |
@@ -44,8 +44,8 @@ EXP | 500,000
 | 通常ドロップ | [オリハルコン合金](/drops/oriharukon2) |
 | レアドロップ | [メタルオーブ](/drops/metaloubu) |
 | 超レアドロップ | [メタルキングの鎧](/drops/metarukingnoyoroi) |
-| オブジェ | はぐれメタルキング(スライム系オブジェ) |
-| フィギュア | はぐれメタルキング(スライム系フィギュア) |
+| オブジェ | はぐれメタルキングのオブジェ |
+| フィギュア | はぐれメタルキングのフィギュア |
 
 ## 使う呪文
 

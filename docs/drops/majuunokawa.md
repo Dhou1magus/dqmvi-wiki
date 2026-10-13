@@ -1,6 +1,6 @@
 ---
 title: まじゅうの皮
-description: DQMVIの「まじゅうの皮」を落とすモンスター34体の一覧。いちばん弱いのはファーラット（通常・EXP11）。
+description: DQMVIの「まじゅうの皮」を落とすモンスター36体の一覧。いちばん弱いのはファーラット（通常・EXP11）。
 pageClass: wide-page sortable-list
 prev:
   text: "まじゅうの角"
@@ -12,7 +12,7 @@ next:
 
 # まじゅうの皮
 
-素材。**34体**のモンスターが落とします。
+素材。**36体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ファーラット**（通常ドロップ・EXP11）。
@@ -25,8 +25,10 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [ファーラット](/monsters/faratto) | 通常 | 1 | [魔獣](/species/majyu) | 24 | 11 |
 | [いたずらもぐら](/monsters/itamogu) | 通常 | 1 | [魔獣](/species/majyu) | 22 | 13 |
+| [マーブルスライム](/monsters/marbleslime) | 通常 | 1 | [スライム](/species/slime) | 27 | 13 |
 | [ワンワンダック](/monsters/wanwanduck) | 通常 | 1 | [魔獣](/species/majyu) | 26 | 14 |
 | [はさみくわがた](/monsters/scissorbeatle) | 通常 | 1 | [自然](/species/sizen) | 26 | 14 |
+| [どんぐりベビー](/monsters/dongribaby) | 通常 | 1 | [自然](/species/sizen) | 24 | 14 |
 | [ももんじゃ](/monsters/momonja) | 通常 | 1 | [魔獣](/species/majyu) | 23 | 16 |
 | [おおきづち](/monsters/ookiduti) | 通常 | 2 | [魔獣](/species/majyu) | 42 | 40 |
 | [ダックスビル](/monsters/ducksbill) | 通常 | 3 | [魔獣](/species/majyu) | 83 | 84 |

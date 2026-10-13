@@ -5,8 +5,8 @@ prev:
   text: "スノーベビー"
   link: /monsters/snow_baby
 next:
-  text: "アカツキショウグン"
-  link: /monsters/akatsuki_shogun
+  text: "ケンタラウス"
+  link: /monsters/kentarausu
 ---
 
 # 凶グリーンドラゴン
@@ -30,7 +30,7 @@ EXP | 159
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 462 |
+| 図鑑No. | 472 |
 | ランク | 4 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

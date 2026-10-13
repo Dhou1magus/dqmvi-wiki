@@ -3,11 +3,11 @@ title: ライバーンリング
 description: DQMVIの「ライバーンリング」を落とすモンスター1体の一覧。いちばん弱いのはリトルライバーン（通常・EXP365）。
 pageClass: wide-page sortable-list
 prev:
-  text: "神の涙"
-  link: /drops/kaminonamida
+  text: "やみのドラゴンのペンダント"
+  link: /drops/yaminodragonnopendanto
 next:
-  text: "龍の左眼"
-  link: /drops/ryuunohidarime
+  text: "りゅうおうもどきの尻尾"
+  link: /drops/ryuuoumodokinosippo
 ---
 
 # ライバーンリング

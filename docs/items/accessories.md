@@ -6,7 +6,7 @@ pageClass: wide-page sortable-list
 
 # アクセサリー一覧
 
-## 耳（23種） {#ear}
+## 耳（24種） {#ear}
 
 | 画像 | アクセサリー | HP | MP | 攻撃 | 守備 | 魔守 | 魔力 | 特殊効果 |
 | :--: | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -33,8 +33,9 @@ pageClass: wide-page sortable-list
 | ![雷光のイヤリング](/img/items/raikounoiyaring.png) | [雷光のイヤリング](/items/raikounoiyaring) | — | — | — | — | ×1.1 | — | — |
 | ![触手のイヤリング](/img/items/syokusyunoiyaringu.png) | [触手のイヤリング](/drops/syokusyunoiyaringu) | ×1.15 | ×1.2 | — | — | — | ×1.2 | 呪文を溜めている間、守備と魔守が2倍 |
 | ![女神のイヤリング](/img/items/megaminoiyaringu.png) | [女神のイヤリング](/drops/megaminoiyaringu) | — | — | — | ×1.25 | ×1.25 | — | 呪文・炎ダメージを30％減 |
+| ![雪玉のイヤリング](/img/items/yukidamanoiyaringu.png) | [雪玉のイヤリング](/drops/yukidamanoiyaringu) | — | — | — | — | ×1.2 | — | メラ系の呪文で受けるダメージが2倍。ヒャド系の呪文は受けず、最大HPの1/4を回復する |
 
-## 首（29種） {#neck}
+## 首（30種） {#neck}
 
 | 画像 | アクセサリー | HP | MP | 攻撃 | 守備 | 魔守 | 魔力 | 特殊効果 |
 | :--: | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -67,8 +68,9 @@ pageClass: wide-page sortable-list
 | ![タッチャンの首飾り](/img/items/tattyannokubikazari.png) | [タッチャンの首飾り](/drops/tattyannokubikazari) | ×1.15 | — | — | ×1.15 | — | — | 混乱にかからなくなる |
 | ![やみのドラゴンのペンダント](/img/items/yaminodragonnopendanto.png) | [やみのドラゴンのペンダント](/drops/yaminodragonnopendanto) | — | — | ×1.15 | ×1.2 | ×1.15 | ×1.2 | ドルマ系の威力1.2倍・ドルマ系の被ダメージ5％減 |
 | ![闘技場を制し者の首飾り](/img/items/tougijouwoseishimononokubikazari.png) | [闘技場を制し者の首飾り](/items/tougijouwoseishimononokubikazari) | ×1.25 | ×1.25 | ×1.25 | ×1.25 | ×1.25 | ×1.25 | 全ての能力が1.25倍 |
+| ![東方魔柱の護符](/img/items/touhoumachuunogofu.png) | [東方魔柱の護符](/drops/touhoumachuunogofu) | — | — | — | — | — | — | 最大MP+20・魔法守備+15・攻撃が当たると5%で敵の強化を解除し、成功したら最大MPの5%回復 |
 
-## 腕（15種） {#arm}
+## 腕（16種） {#arm}
 
 | 画像 | アクセサリー | HP | MP | 攻撃 | 守備 | 魔守 | 魔力 | 特殊効果 |
 | :--: | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -87,8 +89,9 @@ pageClass: wide-page sortable-list
 | ![インテリのうでわ](/img/items/interinoudewa.png) | [インテリのうでわ](/items/interinoudewa) | — | ×1.1 | — | — | ×1.05 | ×1.15 | — |
 | ![命のブレスレット](/img/items/inotinoburesuretto.png) | [命のブレスレット](/items/inotinoburesuretto) | ×1.15 | — | — | — | — | — | — |
 | ![スミスの腕輪](/img/items/sumisunoudewa.png) | [スミスの腕輪](/drops/sumisunoudewa) | — | — | ×1.2 | — | — | — | 鍛冶のバーの速度が15%低下する |
+| ![支配者の腕輪](/img/items/sihaisyanoudewa.png) | [支配者の腕輪](/drops/sihaisyanoudewa) | — | — | ×1.25 | — | ×1.25 | — | 即死が効かない |
 
-## 指（28種） {#finger}
+## 指（30種） {#finger}
 
 | 画像 | アクセサリー | HP | MP | 攻撃 | 守備 | 魔守備 | 魔力 | 特殊効果 |
 | :--: | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -120,8 +123,10 @@ pageClass: wide-page sortable-list
 | ![サクラの指輪](/img/items/sakuranoyubiwa.png) | [サクラの指輪](/drops/sakuranoyubiwa) | — | — | — | ×1.17 | ×1.17 | — | 手に入る経験値が10%増える |
 | ![ライバーンリング](/img/items/raibanringu.png) | [ライバーンリング](/drops/raibanringu) | ×1.15 | — | ×1.15 | — | — | — | メラ系ダメージ1.2倍 |
 | ![修羅の指環](/img/items/syuranoyubiwa.png) | [修羅の指環](/drops/syuranoyubiwa) | ×1.25 | — | ×1.25 | — | — | — | 30%で通常攻撃が4回攻撃(1倍・0.75倍・0.5倍・0.25倍) |
+| ![ほのおのリング](/img/items/honoonoring.png) | [ほのおのリング](/items/honoonoring) | — | — | — | — | — | — | メラ系のダメージを半減する |
+| ![みずのリング](/img/items/mizunoring.png) | [みずのリング](/items/mizunoring) | — | — | — | — | — | — | ヒャド系のダメージを半減する |
 
-## その他（52種） {#other}
+## その他（50種） {#other}
 
 | 画像 | アクセサリー | HP | MP | 攻撃 | 守備 | 魔守 | 魔力 | 特殊効果 |
 | :--: | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -136,7 +141,6 @@ pageClass: wide-page sortable-list
 | ![極怒りのタトゥー](/img/items/ikarinotatu3.png) | [極怒りのタトゥー](/items/ikarinotatu3) | ×1.3 | — | ×1.24 | ×1.11 | ×1.05 | ×1.32 | — |
 | ![真・極怒りのタトゥー](/img/items/ikarinotatu4.png) | [真・極怒りのタトゥー](/items/ikarinotatu4) | ×1.5 | — | ×1.37 | ×1.18 | ×1.07 | ×1.5 | — |
 | ![全てを極めた者の証](/img/items/saikyounoakasi.png) | [全てを極めた者の証](/items/saikyounoakasi) | — | — | — | — | — | — | — |
-| ![魔王の笛](/img/items/maounofue.png) | [魔王の笛](/drops/maounofue) | — | ×1.25 | — | — | — | ×1.25 | 装備中、詠唱時間を1.5倍にする代わりに呪文のダメージを2倍にする |
 | ![あくまのしっぽ](/img/items/akumanosippo.png) | [あくまのしっぽ](/items/akumanosippo) | — | ×1.1 | — | — | — | ×1.1 | — |
 | ![いのりのカード](/img/items/inorinokado.png) | [いのりのカード](/items/inorinokado) | — | ×1.15 | — | — | — | ×1.15 | — |
 | ![イメチェンリング](/img/items/imetyenring.png) | [イメチェンリング](/items/imetyenring) | — | — | — | ×1.05 | ×1.05 | — | — |
@@ -170,13 +174,12 @@ pageClass: wide-page sortable-list
 | ![キングヒドラの頭](/img/items/kinghidoranoatama.png) | [キングヒドラの頭](/drops/kinghidoranoatama) | — | — | ×1.15 | — | — | ×1.15 | メラ系、ギラ系のダメージが1.2倍になる |
 | ![デスマスク](/img/items/desumasuku.png) | [デスマスク](/drops/desumasuku) | — | — | ×1.2 | ×1.15 | ×1.15 | — | ダメージを受けた際、5%でバイキルト |
 | ![機械仕掛けのこころ](/img/items/kikaijikakenokokoro.png) | [機械仕掛けのこころ](/drops/kikaijikakenokokoro) | — | — | — | ×1.1 | ×1.1 | — | HPが30%を切ると1分間 守備が4倍(そのあと5分は効かない) |
-| ![勇車の笛](/img/items/yuusyanofue.png) | [勇車の笛](/drops/yuusyanofue) | — | ×1.25 | — | — | — | ×1.25 | 装備中、呪文のダメージを0.8倍する代わりに詠唱時間を0.5倍にする |
 | ![勇車の笛(弱)](/img/items/yuusyanofue_zyaku.png) | [勇車の笛(弱)](/drops/yuusyanofue_zyaku) | — | ×1.15 | — | — | — | ×1.15 | 装備中、呪文のダメージを0.6倍する代わりに詠唱時間を0.8倍にする |
 | ![暴走コア](/img/items/bousoukoa.png) | [暴走コア](/drops/bousoukoa) | — | — | — | — | — | ×2 | 毎秒HPが3〜5%減る |
 | ![神の涙](/img/items/kaminonamida.png) | [神の涙](/drops/kaminonamida) | ×1.25 | — | — | ×1.25 | ×1.25 | — | ピンチでザオリク(最大HPの1/4で復活・10秒間会心率+20%・1時間に1度) |
 | ![龍の左眼](/img/items/ryuunohidarime.png) | [龍の左眼](/drops/ryuunohidarime) | — | — | ×1.15 | — | — | ×0.95 | [ドラゴン系](/species/dragon)に1.25倍のダメージ |
-| ![スライムボックス](/img/items/suraimubokkusu.png) | [スライムボックス](/drops/suraimubokkusu) | ×1.15 | — | — | ×1.15 | — | — | モンスターが仲間になる確率が上がる |
-| ![やみのころも](/img/items/yaminokoromo.png) | [やみのころも](/drops/yaminokoromo) | — | — | — | — | — | — | 受けるダメージが半分になる代わりに、自分の回復量も半分になる |
+| ![りゅうのみぎめ](/img/items/ryuunomigime.png) | [りゅうのみぎめ](/drops/ryuunomigime) | — | — | ×0.95 | — | — | ×1.05 | デイン系以外の魔法ダメージを60%減らす。デイン系を受けるとバリアが壊れ、5分間、魔法ダメージが50%増える |
+| ![高濃度マ素結晶](/img/items/koudonomasokessyou.png) | [高濃度マ素結晶](/drops/koudonomasokessyou) | — | — | — | — | ×1.15 | ×1.25 | 魔力の暴走: 呪文が10%で会心(2倍)。他の効果で変わらず、複数着けても重ならない |
 
 ## 関連ページ
 

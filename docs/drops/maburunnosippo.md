@@ -2,10 +2,12 @@
 title: マーブルンの尻尾
 description: マーブルンの尻尾
 pageClass: wide-page sortable-list
-prev: false
+prev:
+  text: "フレアドラゴンのうろこ"
+  link: /drops/fureadoragonnouroko
 next:
-  text: "ハートナイトの剣"
-  link: /drops/hatonaitonoken
+  text: "ましょうぐものエキス"
+  link: /drops/masyougumonoekisu
 ---
 
 # マーブルンの尻尾

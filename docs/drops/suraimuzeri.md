@@ -3,8 +3,8 @@ title: スライムゼリー
 description: DQMVIの「スライムゼリー」を落とすモンスター25体の一覧。いちばん弱いのはスライム（通常・EXP2）。
 pageClass: wide-page sortable-list
 prev:
-  text: "スライムジェネラル討伐の証"
-  link: /drops/suraimujeneraru
+  text: "スライムおしゃれ花"
+  link: /drops/suraimuosyarebana
 next:
   text: "スライムトレイ"
   link: /drops/suraimutorei

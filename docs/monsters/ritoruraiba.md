@@ -2,8 +2,8 @@
 title: リトルライバーン
 description: DQMVIのモンスター「リトルライバーン」のステータス。HP328 / こうげき43 / しゅび23 / 経験値365 / 55G。
 prev:
-  text: "スモーク"
-  link: /monsters/smoke
+  text: "どんぐりベビー"
+  link: /monsters/dongribaby
 next:
   text: "マーブルン"
   link: /monsters/maaburun
@@ -30,7 +30,7 @@ EXP | 365
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 78 |
+| 図鑑No. | 82 |
 | ランク | 1 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

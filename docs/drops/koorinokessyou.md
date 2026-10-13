@@ -1,6 +1,6 @@
 ---
 title: こおりの結晶
-description: DQMVIの「こおりの結晶」を落とすモンスター5体の一覧。いちばん弱いのはひょうがまじん（通常・EXP98）。
+description: DQMVIの「こおりの結晶」を落とすモンスター6体の一覧。いちばん弱いのはひょうがまじん（通常・EXP98）。
 pageClass: wide-page sortable-list
 prev:
   text: "ゴードンヘッドの小手"
@@ -12,7 +12,7 @@ next:
 
 # こおりの結晶
 
-素材。**5体**のモンスターが落とします。
+素材。**6体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ひょうがまじん**（通常ドロップ・EXP98）。
@@ -27,6 +27,7 @@ next:
 | [ひょうけつのきし](/monsters/hyouketunokisi) | 通常 | 4 | [悪魔](/species/akuma) | 230 | 262 |
 | [フロストギズモ1](/monsters/fgizumo) | レア | 3 | [物質](/species/bussitu) | 78 | 83 |
 | [パンドラチェスト](/monsters/tansu_pandora) | レア | 3 | [物質](/species/bussitu) | 99 | 90 |
+| [デスマーブル](/monsters/death_marble) | レア | 3 | [物質](/species/bussitu) | 90 | 98 |
 | [レッドマーマン](/monsters/redmerman) | レア | 3 | [自然](/species/sizen) | 145 | 102 |
 
 見出しを押すと並べ替えできます。

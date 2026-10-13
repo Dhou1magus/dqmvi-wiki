@@ -1,6 +1,6 @@
 ---
 title: 賢者の聖水
-description: DQMVIの「賢者の聖水」を落とすモンスター10体の一覧。いちばん弱いのは凶レッドドラゴン（超レア・EXP228）。
+description: DQMVIの「賢者の聖水」を落とすモンスター11体の一覧。いちばん弱いのは凶レッドドラゴン（超レア・EXP228）。
 pageClass: wide-page sortable-list
 prev:
   text: "月のめぐみ"
@@ -12,7 +12,7 @@ next:
 
 # 賢者の聖水
 
-素材。**10体**のモンスターが落とします。
+素材。**11体**のモンスターが落とします。
 
 ::: tip ねらい目
 **凶レッドドラゴン**（超レアドロップ・EXP228）。
@@ -29,6 +29,7 @@ next:
 | [どくどくゾンビ](/monsters/dokudokuzonbi) | 超レア | 5 | [ゾンビ](/species/zombie) | 555 | 252 |
 | [マネマネ](/monsters/manemane) | 超レア | 5 | [ゾンビ](/species/zombie) | 486 | 260 |
 | [スライムエネルゴン](/monsters/slimeenergon) | 超レア | 5 | [スライム](/species/slime) | 491 | 268 |
+| [ワルぼう](/monsters/warubou) | 超レア | 5 | [特殊](/species/tokusyu) | 485 | 274 |
 | [ホーリーキング](/monsters/hollyking) | 超レア | 5 | [スライム](/species/slime) | 478 | 286 |
 | [ネコノマンサー](/monsters/nekonomansa) | 超レア | 5 | [魔獣](/species/majyu) | 488 | 288 |
 | [ブラッドミスト](/monsters/bloodmist) | 超レア | 5 | [物質](/species/bussitu) | 447 | 288 |

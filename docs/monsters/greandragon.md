@@ -5,8 +5,8 @@ prev:
   text: "プチット族"
   link: /monsters/conklave
 next:
-  text: "キラーピッケル"
-  link: /monsters/kirapike
+  text: "デスマーブル"
+  link: /monsters/death_marble
 ---
 
 # グリーンドラゴン
@@ -30,7 +30,7 @@ EXP | 93
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 322 |
+| 図鑑No. | 328 |
 | ランク | 3 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

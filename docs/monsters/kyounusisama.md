@@ -5,8 +5,8 @@ prev:
   text: "オーシャンボーン"
   link: /monsters/oceanbone
 next:
-  text: "ネルゲルデーモン"
-  link: /monsters/nerugerudeemon
+  text: "デーモンキング"
+  link: /monsters/deemonking
 ---
 
 # 凶ぬしさま
@@ -30,12 +30,13 @@ EXP | 811
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 763 |
+| 図鑑No. | 785 |
 | ランク | 7 |
 | 系統 | [自然系](/species/sizen) |
 | 活動時間 | 夜のみ |
 | 弱点 | 強（呪文が効きにくい） |
 | 出現場所 | 冷たい海・凍った深海・冷たい深海 |
+| 出現条件 | 雷雨のとき・ダンジョンの外だけ |
 
 ## ドロップ品
 

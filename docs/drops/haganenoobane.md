@@ -1,6 +1,6 @@
 ---
 title: はがねの尾羽
-description: DQMVIの「はがねの尾羽」を落とすモンスター27体の一覧。いちばん弱いのはきとうし（通常・EXP80）。
+description: DQMVIの「はがねの尾羽」を落とすモンスター29体の一覧。いちばん弱いのはきとうし（通常・EXP80）。
 pageClass: wide-page sortable-list
 prev:
   text: "バーンチャクラム"
@@ -12,7 +12,7 @@ next:
 
 # はがねの尾羽
 
-素材。**27体**のモンスターが落とします。
+素材。**29体**のモンスターが落とします。
 
 ::: tip ねらい目
 **きとうし**（通常ドロップ・EXP80）。
@@ -31,8 +31,10 @@ next:
 | [アカイライ](/monsters/akairai) | 通常 | 7 | [自然](/species/sizen) | 1,650 | 646 |
 | [ノーライフロード](/monsters/nooraihuroodo) | 通常 | 7 | [ゾンビ](/species/zombie) | 1,918 | 678 |
 | [魔天海フォルネー](/monsters/matenkaiforney) | 通常 | 7 | [自然](/species/sizen) | 1,995 | 777 |
+| [デーモンキング](/monsters/deemonking) | 通常 | 7 | [悪魔](/species/akuma) | 2,738 | 858 |
 | [タホドラキー](/monsters/tahodoraki) | レア | 3 | [悪魔](/species/akuma) | 72 | 81 |
 | [フロストギズモ2](/monsters/furosutogizumo) | レア | 3 | [物質](/species/bussitu) | 82 | 82 |
+| [モコフル](/monsters/mocohuru) | レア | 3 | [自然](/species/sizen) | 159 | 111 |
 | [しっぽ団のアルミラージ](/monsters/spikedhare_shippodan) | レア | 3 | [魔獣](/species/majyu) | 157 | 117 |
 | [ガップリン](/monsters/gappurin) | レア | 4 | [自然](/species/sizen) | 176 | 151 |
 | [パペットマン](/monsters/papettoman) | レア | 6 | [物質](/species/bussitu) | 840 | 357 |

@@ -1,12 +1,12 @@
 ---
 title: 転生装備一覧
-description: DQMVIの転生装備74種のデータ。転生したモンスターから手に入る装備。
+description: DQMVIの転生装備69種のデータ。転生したモンスターから手に入る装備。
 pageClass: wide-page sortable-list
 ---
 
 # 転生装備一覧
 
-## 武器（32種） {#weapons}
+## 武器（30種） {#weapons}
 
 | 画像 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | :--: | --- | ---: | ---: | --- |
@@ -35,15 +35,13 @@ pageClass: wide-page sortable-list
 | ![バーンチャクラム](/img/items/battle_ring_burn.png) | [バーンチャクラム](/drops/battle_ring_burn) | 20 | ×3.8 | 溜め切って投げると、当たった相手を中心に爆発を起こす(1投げに1回) |
 | ![ゴッデス･オレオール](/img/items/goddesuoreoru.png) | [ゴッデス･オレオール](/drops/goddesuoreoru) | 50 | ×1.4 | [メタル系](/species/metal)に3～10のダメージ　/　経験値取得1.2倍 |
 | ![デス・キャロット](/img/items/desukyarotto.png) | [デス・キャロット](/drops/desukyarotto) | 10 | ×1.25 | 採掘 石相当・速度4.4　/　正面の3×3マスをまとめて掘る |
-| ![ピサロの剣](/img/items/pisaronoken.png) | [ピサロの剣](/drops/pisaronoken) | 21 | ×3.55 | ときどきバイキルト(10秒ごとに1/10・30秒間)　/　10秒ごとにHPが1%減る |
 | ![スラブラスター](/img/items/suraburasuta.png) | [スラブラスター](/drops/suraburasuta) | 22 | ×3.75 | 射撃方式 滅光弾×1.45・HP吸収・発光　/　5%でマホカンタかアタカンタ(10秒)　/　1/5の確率で与えたダメージの1/10を回復する |
 | ![トイガン](/img/items/toigan.png) | [トイガン](/drops/toigan) | 20 | ×3.5 | 射撃方式 ゴム弾×1.20・ノックバック・30%で2〜3弾 |
-| ![神獣王の戦篭手](/img/items/gauntlet_19_shinjuuou.png) | [神獣王の戦篭手](/drops/gauntlet_19_shinjuuou) | 40 | ×4 | ガード 軽減50%以上・カウンター30%以上　/　攻撃が当たったとき、自分と相手それぞれ50%で悪い効果(デバフ)を全て消す |
 | ![シャ攻の戦籠手](/img/items/gauntlet_20_syakou.png) | [シャ攻の戦籠手](/drops/gauntlet_20_syakou) | 20 | ×3 | ガード 軽減43%以上・カウンター23%以上　/　手に持っていると、1度に受けるダメージが最大HPの50%を超えない |
 | ![デュークアックス](/img/items/dukeakkusu.png) | [デュークアックス](/drops/dukeakkusu) | 19 | ×3.72 | 2段階目の溜め攻撃が周囲5マスになる |
 | ![ジェントルステッキ](/img/items/zyentorusutekki.png) | [ジェントルステッキ](/drops/zyentorusutekki) | — | — | 自分以外対象の回復魔法のみ詠唱時間を0.5倍する　/　魔力倍率 ×2.4 |
 
-## 防具（11種） {#armor}
+## 防具（6種） {#armor}
 
 | 画像 | 防具 | 部位 | しゅび | 魔法しゅび | そのほか | 特殊効果 |
 | :--: | --- | :--: | ---: | ---: | --- | --- |
@@ -53,11 +51,6 @@ pageClass: wide-page sortable-list
 | ![ゴードンヘッドの小手](/img/items/godonheddonokote.png) | [ゴードンヘッドの小手](/drops/godonheddonokote) | 脚 | ×1.2 | ×1.2 | こうげき ×1.1 | — |
 | ![しろバラのきしの兜](/img/items/sirobaranokisinokabuto.png) | [しろバラのきしの兜](/drops/sirobaranokisinokabuto) | 頭 | ×1.2 | ×1.2 | こうげき ×1.1 | — |
 | ![シドのゴーグル](/img/items/sidonogoguru.png) | [シドのゴーグル](/drops/sidonogoguru) | 頭 | ×1.05 | ×1.05 | — | 鍛冶のゾーンが15%広がる |
-| ![神獣王の兜](/img/items/shinjuuounokabuto.png) | [神獣王の兜](/drops/shinjuuounokabuto) | 頭 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
-| ![神獣王の鎧](/img/items/shinjuuounoyoroi.png) | [神獣王の鎧](/drops/shinjuuounoyoroi) | 胴 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
-| ![ももんじゃのしっぽ](/img/items/momonjanoshippo.png) | [ももんじゃのしっぽ](/drops/momonjanoshippo) | 胴 | ×1.3 | ×1.3 | — | 特技の消費HPが10%軽減される |
-| ![神獣王の籠手](/img/items/shinjuuounokote.png) | [神獣王の籠手](/drops/shinjuuounokote) | 脚 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
-| ![神獣王のレギンス](/img/items/shinjuuounoreginsu.png) | [神獣王のレギンス](/drops/shinjuuounoreginsu) | 足 | ×1.77 | ×1.77 | — | 神獣王シリーズ4点(兜・鎧・籠手・レギンス)で、[特殊系](/species/tokusyu)に与えるダメージ1.77倍 |
 
 ## 盾（1種） {#shields}
 
@@ -65,7 +58,7 @@ pageClass: wide-page sortable-list
 | :--: | --- | ---: | ---: | ---: | --- | --- |
 | ![シールドあにきの盾](/img/items/sirudoanikinotate.png) | [シールドあにきの盾](/drops/sirudoanikinotate) | ×1.2 | ×1.2 | ×4 | — | 構え時守備・魔守4倍 |
 
-## アクセサリー（30種） {#accessories}
+## アクセサリー（32種） {#accessories}
 
 | 画像 | アクセサリー | HP | MP | こうげき | しゅび | 魔法しゅび | まりょく | 特殊効果 |
 | :--: | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -86,19 +79,21 @@ pageClass: wide-page sortable-list
 | ![デスマスク](/img/items/desumasuku.png) | [デスマスク](/drops/desumasuku) | — | — | ×1.2 | ×1.15 | ×1.15 | — | ダメージを受けた際、5%でバイキルト |
 | ![機械仕掛けのこころ](/img/items/kikaijikakenokokoro.png) | [機械仕掛けのこころ](/drops/kikaijikakenokokoro) | — | — | — | ×1.1 | ×1.1 | — | HPが30%を切ると1分間 守備が4倍(そのあと5分は効かない) |
 | ![サクラの指輪](/img/items/sakuranoyubiwa.png) | [サクラの指輪](/drops/sakuranoyubiwa) | — | — | — | ×1.17 | ×1.17 | — | 手に入る経験値が10%増える |
-| ![魔王の笛](/img/items/maounofue.png) | [魔王の笛](/drops/maounofue) | — | ×1.25 | — | — | — | ×1.25 | 装備中、詠唱時間を1.5倍にする代わりに呪文のダメージを2倍にする |
-| ![勇車の笛](/img/items/yuusyanofue.png) | [勇車の笛](/drops/yuusyanofue) | — | ×1.25 | — | — | — | ×1.25 | 装備中、呪文のダメージを0.8倍する代わりに詠唱時間を0.5倍にする |
 | ![勇車の笛(弱)](/img/items/yuusyanofue_zyaku.png) | [勇車の笛(弱)](/drops/yuusyanofue_zyaku) | — | ×1.15 | — | — | — | ×1.15 | 装備中、呪文のダメージを0.6倍する代わりに詠唱時間を0.8倍にする |
 | ![暴走コア](/img/items/bousoukoa.png) | [暴走コア](/drops/bousoukoa) | — | — | — | — | — | ×2 | 毎秒HPが3〜5%減る |
 | ![神の涙](/img/items/kaminonamida.png) | [神の涙](/drops/kaminonamida) | ×1.25 | — | — | ×1.25 | ×1.25 | — | ピンチでザオリク(最大HPの1/4で復活・10秒間会心率+20%・1時間に1度) |
 | ![ライバーンリング](/img/items/raibanringu.png) | [ライバーンリング](/drops/raibanringu) | ×1.15 | — | ×1.15 | — | — | — | メラ系ダメージ1.2倍 |
 | ![龍の左眼](/img/items/ryuunohidarime.png) | [龍の左眼](/drops/ryuunohidarime) | — | — | ×1.15 | — | — | ×0.95 | [ドラゴン系](/species/dragon)に1.25倍のダメージ |
-| ![スライムボックス](/img/items/suraimubokkusu.png) | [スライムボックス](/drops/suraimubokkusu) | ×1.15 | — | — | ×1.15 | — | — | モンスターが仲間になる確率が上がる |
 | ![触手のイヤリング](/img/items/syokusyunoiyaringu.png) | [触手のイヤリング](/drops/syokusyunoiyaringu) | ×1.15 | ×1.2 | — | — | — | ×1.2 | 呪文を溜めている間、守備と魔守が2倍 |
 | ![女神のイヤリング](/img/items/megaminoiyaringu.png) | [女神のイヤリング](/drops/megaminoiyaringu) | — | — | — | ×1.25 | ×1.25 | — | 呪文・炎ダメージを30％減 |
 | ![やみのドラゴンのペンダント](/img/items/yaminodragonnopendanto.png) | [やみのドラゴンのペンダント](/drops/yaminodragonnopendanto) | — | — | ×1.15 | ×1.2 | ×1.15 | ×1.2 | ドルマ系の威力1.2倍・ドルマ系の被ダメージ5％減 |
 | ![修羅の指環](/img/items/syuranoyubiwa.png) | [修羅の指環](/drops/syuranoyubiwa) | ×1.25 | — | ×1.25 | — | — | — | 30%で通常攻撃が4回攻撃(1倍・0.75倍・0.5倍・0.25倍) |
 | ![スミスの腕輪](/img/items/sumisunoudewa.png) | [スミスの腕輪](/drops/sumisunoudewa) | — | — | ×1.2 | — | — | — | 鍛冶のバーの速度が15%低下する |
+| ![りゅうのみぎめ](/img/items/ryuunomigime.png) | [りゅうのみぎめ](/drops/ryuunomigime) | — | — | ×0.95 | — | — | ×1.05 | デイン系以外の魔法ダメージを60%減らす。デイン系を受けるとバリアが壊れ、5分間、魔法ダメージが50%増える |
+| ![支配者の腕輪](/img/items/sihaisyanoudewa.png) | [支配者の腕輪](/drops/sihaisyanoudewa) | — | — | ×1.25 | — | ×1.25 | — | 即死が効かない |
+| ![東方魔柱の護符](/img/items/touhoumachuunogofu.png) | [東方魔柱の護符](/drops/touhoumachuunogofu) | — | — | — | — | — | — | 最大MP+20・魔法守備+15・攻撃が当たると5%で敵の強化を解除し、成功したら最大MPの5%回復 |
+| ![雪玉のイヤリング](/img/items/yukidamanoiyaringu.png) | [雪玉のイヤリング](/drops/yukidamanoiyaringu) | — | — | — | — | ×1.2 | — | メラ系の呪文で受けるダメージが2倍。ヒャド系の呪文は受けず、最大HPの1/4を回復する |
+| ![高濃度マ素結晶](/img/items/koudonomasokessyou.png) | [高濃度マ素結晶](/drops/koudonomasokessyou) | — | — | — | — | ×1.15 | ×1.25 | 魔力の暴走: 呪文が10%で会心(2倍)。他の効果で変わらず、複数着けても重ならない |
 
 ## その他（1種） {#other}
 

@@ -6,8 +6,8 @@ prev:
   text: "暴走コア"
   link: /drops/bousoukoa
 next:
-  text: "魔王の笛"
-  link: /drops/maounofue
+  text: "魔界のつるぎ"
+  link: /drops/makainoturugi
 ---
 
 # 磨き砂

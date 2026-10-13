@@ -6,8 +6,8 @@ prev:
   text: "スライダークロボの剣"
   link: /drops/suraidakurobonoken
 next:
-  text: "スライムジェネラル討伐の証"
-  link: /drops/suraimujeneraru
+  text: "スライムゼリー"
+  link: /drops/suraimuzeri
 ---
 
 # スライムおしゃれ花

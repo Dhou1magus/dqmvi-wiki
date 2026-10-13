@@ -6,8 +6,8 @@ prev:
   text: "鉄のヤリ"
   link: /drops/tetunoyari
 next:
-  text: "闘魂エキス"
-  link: /drops/toukonekisu
+  text: "東方魔柱の護符"
+  link: /drops/touhoumachuunogofu
 ---
 
 # 鉄鉱石

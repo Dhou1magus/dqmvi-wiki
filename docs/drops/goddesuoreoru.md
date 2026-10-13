@@ -3,11 +3,11 @@ title: ゴッデス･オレオール
 description: "ゴッデス･オレオール"
 pageClass: wide-page sortable-list
 prev:
-  text: "バーンチャクラム"
-  link: /drops/battle_ring_burn
+  text: "ゴールドマントの剣"
+  link: /drops/gorudenmantonoken
 next:
-  text: "デス・キャロット"
-  link: /drops/desukyarotto
+  text: "サクラの指輪"
+  link: /drops/sakuranoyubiwa
 ---
 
 # ゴッデス･オレオール

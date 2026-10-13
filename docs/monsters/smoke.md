@@ -5,8 +5,8 @@ prev:
   text: "コロヒーロー"
   link: /monsters/pip_fighter
 next:
-  text: "リトルライバーン"
-  link: /monsters/ritoruraiba
+  text: "キュートスライム"
+  link: /monsters/cuteslime
 ---
 
 # スモーク
@@ -36,6 +36,7 @@ EXP | 10
 | 活動時間 | 昼夜 |
 | 弱点 | 炎（炎系の呪文に弱い） |
 | 出現場所 | ゴースト霧森・ペールガーデン・暗い森・沼地・マングローブの沼地 |
+| 出現条件 | 晴れのとき |
 
 ## ドロップ品
 

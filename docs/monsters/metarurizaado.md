@@ -2,8 +2,8 @@
 title: メタルリザード
 description: DQMVIのモンスター「メタルリザード」のステータス。HP8 / こうげき21 / しゅび10,000 / 経験値3,366 / 49G。
 prev:
-  text: "さくらこぞう"
-  link: /monsters/sakurakozou
+  text: "オリエンタシス"
+  link: /monsters/orientasis
 next:
   text: "スライムゴールド"
   link: /monsters/slimegold
@@ -30,7 +30,7 @@ EXP | 3,366
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 193 |
+| 図鑑No. | 199 |
 | ランク | 2 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼夜 |

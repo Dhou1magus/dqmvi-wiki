@@ -1,18 +1,18 @@
 ---
 title: うるわしキノコ
-description: DQMVIの「うるわしキノコ」を落とすモンスター24体の一覧。いちばん弱いのはプチプリースト（通常・EXP39）。
+description: DQMVIの「うるわしキノコ」を落とすモンスター26体の一覧。いちばん弱いのはプチプリースト（通常・EXP39）。
 pageClass: wide-page sortable-list
 prev:
   text: "うらみのほうじゅ"
   link: /drops/uraminohouju
 next:
-  text: "エスターク討伐の証"
-  link: /drops/esterk
+  text: "おおかなづち"
+  link: /drops/ookanaduti
 ---
 
 # うるわしキノコ
 
-素材。**24体**のモンスターが落とします。
+素材。**26体**のモンスターが落とします。
 
 ::: tip ねらい目
 **プチプリースト**（通常ドロップ・EXP39）。
@@ -31,6 +31,7 @@ next:
 | [ソイソルジャー](/monsters/soisoruja) | 通常 | 3 | [自然](/species/sizen) | 88 | 92 |
 | [さんぞくウーパー](/monsters/sanzokuupa) | 通常 | 3 | [自然](/species/sizen) | 90 | 95 |
 | [ホイップスライム](/monsters/whipslime) | 通常 | 3 | [スライム](/species/slime) | 151 | 108 |
+| [モコフル](/monsters/mocohuru) | 通常 | 3 | [自然](/species/sizen) | 159 | 111 |
 | [フライングデビル](/monsters/flyngdevil) | 通常 | 3 | [悪魔](/species/akuma) | 141 | 129 |
 | [グール](/monsters/guru) | 通常 | 4 | [ゾンビ](/species/zombie) | 180 | 142 |
 | [スカルゴン](/monsters/skalgon) | 通常 | 3 | [ドラゴン](/species/dragon) | 175 | 145 |
@@ -44,6 +45,7 @@ next:
 | [ヒートギズモ1](/monsters/hgizumo) | レア | 5 | [物質](/species/bussitu) | 490 | 248 |
 | [まどうスライム](/monsters/madouslime) | レア | 5 | [スライム](/species/slime) | 445 | 267 |
 | [だいおうキッズ](/monsters/daioukizzu) | レア | 5 | [自然](/species/sizen) | 622 | 277 |
+| [やみのしょくだい](/monsters/dark_candlestick) | レア | 5 | [物質](/species/bussitu) | 493 | 280 |
 | [ゴーストベリー](/monsters/ghostberry) | レア | 5 | [物質](/species/bussitu) | 6,103 | 7,440 |
 | [おばけきのこ](/monsters/obakekinoko) | 超レア | 1 | [自然](/species/sizen) | 25 | 12 |
 | [つかいま](/monsters/tukaima) | 超レア | 1 | [悪魔](/species/akuma) | 25 | 13 |

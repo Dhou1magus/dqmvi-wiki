@@ -3,8 +3,8 @@ title: まだらクモ糸
 description: DQMVIの「まだらクモ糸」を落とすモンスター13体の一覧。いちばん弱いのはギズモ1（通常・EXP12）。
 pageClass: wide-page sortable-list
 prev:
-  text: "マスタードラゴン討伐の証"
-  link: /drops/masterdoragon
+  text: "まじんのかなづち"
+  link: /drops/majinnokanaduti
 next:
   text: "まりょくの土"
   link: /drops/maryokunotuti

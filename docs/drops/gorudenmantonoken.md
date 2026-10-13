@@ -3,11 +3,11 @@ title: ゴールドマントの剣
 description: ゴールドマントの剣
 pageClass: wide-page sortable-list
 prev:
-  text: "アトラスの大金槌"
-  link: /drops/atorasunoookanaduti
+  text: "ゴールデンコーンの角"
+  link: /drops/gorudenkonnotuno
 next:
-  text: "トロルバッコスの大棍棒"
-  link: /drops/tororubakkosunoookonnbou
+  text: "ゴッデス･オレオール"
+  link: /drops/goddesuoreoru
 ---
 
 # ゴールドマントの剣

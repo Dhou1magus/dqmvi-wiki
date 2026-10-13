@@ -3,11 +3,11 @@ title: 機械仕掛けのこころ
 description: "機械仕掛けのこころ"
 pageClass: wide-page sortable-list
 prev:
-  text: "デスマスク"
-  link: /drops/desumasuku
+  text: "わんぱくサタンのスプーン"
+  link: /drops/wanpakusatannosupun
 next:
-  text: "サクラの指輪"
-  link: /drops/sakuranoyubiwa
+  text: "巨大ナスビナーラの髭"
+  link: /drops/kyodainasubiranohige
 ---
 
 # 機械仕掛けのこころ

@@ -3,8 +3,8 @@ title: キングダイヤ
 description: DQMVIの「キングダイヤ」を落とすモンスター26体の一覧。いちばん弱いのはヘルオーディン（通常・EXP852）。
 pageClass: wide-page sortable-list
 prev:
-  text: "キラーマジンガ討伐の証"
-  link: /drops/kiramajinga
+  text: "キラーパイクのピッケル"
+  link: /drops/kirapaikunopikeru
 next:
   text: "キングヒドラの頭"
   link: /drops/kinghidoranoatama

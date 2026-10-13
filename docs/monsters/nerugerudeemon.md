@@ -2,8 +2,8 @@
 title: ネルゲルデーモン
 description: DQMVIのモンスター「ネルゲルデーモン」のステータス。HP29,869 / こうげき1,085 / しゅび356 / 経験値32,701 / 6,743G。
 prev:
-  text: "凶ぬしさま"
-  link: /monsters/kyounusisama
+  text: "デーモンキング"
+  link: /monsters/deemonking
 next:
   text: "ピサロバーン"
   link: /monsters/pisarobaan
@@ -30,7 +30,7 @@ EXP | 32,701
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 764 |
+| 図鑑No. | 787 |
 | ランク | 7 |
 | 系統 | [特殊系](/species/tokusyu) |
 | 活動時間 | 夜のみ |

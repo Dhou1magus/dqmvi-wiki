@@ -3,8 +3,8 @@ title: 精霊石
 description: DQMVIの「精霊石」を落とすモンスター4体の一覧。いちばん弱いのはマージマタンゴ（通常・EXP590）。
 pageClass: wide-page sortable-list
 prev:
-  text: "神獣王の籠手"
-  link: /drops/shinjuuounokote
+  text: "神の涙"
+  link: /drops/kaminonamida
 next:
   text: "聖銀の拳"
   link: /drops/seiginnokobusi

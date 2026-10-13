@@ -3,11 +3,11 @@ title: やみのドラゴンのペンダント
 description: "やみのドラゴンのペンダント"
 pageClass: wide-page sortable-list
 prev:
-  text: "女神のイヤリング"
-  link: /drops/megaminoiyaringu
+  text: "ももいろ三姉妹のピアス"
+  link: /drops/momoirosansimainopiasu
 next:
-  text: "修羅の指環"
-  link: /drops/syuranoyubiwa
+  text: "ライバーンリング"
+  link: /drops/raibanringu
 ---
 
 # やみのドラゴンのペンダント

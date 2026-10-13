@@ -1,6 +1,6 @@
 ---
 title: 特殊一覧
-description: DQMVIの特殊91種の一覧。配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。
+description: DQMVIの特殊86種の一覧。配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。
 pageClass: wide-page sortable-list
 ---
 
@@ -58,12 +58,6 @@ pageClass: wide-page sortable-list
 | ![ソウルマスターの証](/img/items/mn.png) | [ソウルマスターの証](/items/mn) | — |
 | ![魔導銃士の証](/img/items/ki.png) | [魔導銃士の証](/items/ki) | — |
 | ![戦輪士の証](/img/items/sr.png) | [戦輪士の証](/items/sr) | — |
-| ![大魔王オン・ゾ・エーグのコイン](/img/items/coin_flucifer.png) | [大魔王オン・ゾ・エーグのコイン](/items/coin_flucifer) | — |
-| ![魔剣士ピサロのコイン](/img/items/coin_psaro.png) | [魔剣士ピサロのコイン](/items/coin_psaro) | — |
-| ![モモンジャガーのコイン](/img/items/coin_momonjaguar.png) | [モモンジャガーのコイン](/items/coin_momonjaguar) | — |
-| ![スラリンガルのコイン](/img/items/coin_suraringaru.png) | [スラリンガルのコイン](/items/coin_suraringaru) | — |
-| ![ゾーマのコイン](/img/items/coin_zoma2.png) | [ゾーマのコイン](/items/coin_zoma2) | — |
-| ![神獣王WORLDのコイン](/img/items/coin_shinjuuou_world.png) | [神獣王WORLDのコイン](/items/coin_shinjuuou_world) | — |
 | ![ライフルユニット](/img/items/raifuruyunitto.png) | [ライフルユニット](/items/raifuruyunitto) | — |
 | ![ショットガンユニット](/img/items/syottogunyunitto.png) | [ショットガンユニット](/items/syottogunyunitto) | — |
 | ![マシンガンユニット](/img/items/masinganyunitto.png) | [マシンガンユニット](/items/masinganyunitto) | — |
@@ -99,6 +93,7 @@ pageClass: wide-page sortable-list
 | ![肥料](/img/items/hiryou.png) | [肥料](/items/hiryou) | — |
 | ![無限の袋](/img/items/fukuro3.png) | [無限の袋](/items/fukuro3) | — |
 | ![無限の袋(増)](/img/items/fukuro3_ex.png) | [無限の袋(増)](/items/fukuro3_ex) | — |
+| ![異界の覇者の証](/img/items/ikainohasyanoakashi.png) | [異界の覇者の証](/items/ikainohasyanoakashi) | — |
 
 ## 関連ページ
 

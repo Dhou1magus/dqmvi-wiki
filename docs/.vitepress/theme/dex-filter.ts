@@ -1,6 +1,6 @@
 const RANKS = [1, 2, 3, 4, 5, 6, 7]
 export const DEX_SPECIES = ['スライム', 'ドラゴン', '自然', '魔獣', '物質', '悪魔', 'ゾンビ', 'メタル', '特殊']
-const KINDS = ['雑魚', '転生', 'ボス', 'コインボス']
+const KINDS = ['雑魚', '転生']
 const HIDE_CLASS = 'dex-hide'
 
 export type Kinds = Record<string, string[]>

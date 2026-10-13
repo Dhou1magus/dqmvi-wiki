@@ -5,8 +5,8 @@ prev:
   text: "シャコウ鬼神"
   link: /monsters/syakou_doll
 next:
-  text: "ダイヤモンドスライム"
-  link: /monsters/daiyamondosuraimu
+  text: "ジャミ"
+  link: /monsters/jami
 ---
 
 # アスラ王
@@ -30,7 +30,7 @@ EXP | 23,454
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 692 |
+| 図鑑No. | 712 |
 | ランク | 7 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

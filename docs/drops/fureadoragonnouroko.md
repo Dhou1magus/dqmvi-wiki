@@ -3,11 +3,11 @@ title: フレアドラゴンのうろこ
 description: フレアドラゴンのうろこ
 pageClass: wide-page sortable-list
 prev:
-  text: "タイプGの欠片"
-  link: /drops/taipugnokakera
+  text: "ピンクボンボンの爪"
+  link: /drops/pinkbonbonnotume
 next:
-  text: "ミュシャドの毛"
-  link: /drops/myusyadonoke
+  text: "マーブルンの尻尾"
+  link: /drops/maburunnosippo
 ---
 
 # フレアドラゴンのうろこ

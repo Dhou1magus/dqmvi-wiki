@@ -1,18 +1,18 @@
 ---
 title: 赤いサンゴ
-description: DQMVIの「赤いサンゴ」を落とすモンスター32体の一覧。いちばん弱いのはマグマスライム（通常・EXP9）。
+description: DQMVIの「赤いサンゴ」を落とすモンスター34体の一覧。いちばん弱いのはマグマスライム（通常・EXP9）。
 pageClass: wide-page sortable-list
 prev:
   text: "聖者の灰"
   link: /drops/seijanohai
 next:
-  text: "全てを超越せし者討伐の証"
-  link: /drops/god
+  text: "雪玉のイヤリング"
+  link: /drops/yukidamanoiyaringu
 ---
 
 # 赤いサンゴ
 
-素材。**32体**のモンスターが落とします。
+素材。**34体**のモンスターが落とします。
 
 ::: tip ねらい目
 **マグマスライム**（通常ドロップ・EXP9）。
@@ -24,6 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [マグマスライム](/monsters/magmaslime) | 通常 | 1 | [スライム](/species/slime) | 20 | 9 |
+| [キュートスライム](/monsters/cuteslime) | 通常 | 1 | [スライム](/species/slime) | 17 | 10 |
 | [おにこぞう](/monsters/onikozou) | 通常 | 1 | [悪魔](/species/akuma) | 18 | 11 |
 | [つかいま](/monsters/tukaima) | 通常 | 1 | [悪魔](/species/akuma) | 25 | 13 |
 | [おおめだま](/monsters/oomedama) | 通常 | 2 | [悪魔](/species/akuma) | 45 | 39 |
@@ -38,6 +39,7 @@ next:
 | [どくろあらい](/monsters/dokuroarai) | レア | 2 | [魔獣](/species/majyu) | 38 | 39 |
 | [スライムフェアリー](/monsters/suraimu_feari) | レア | 2 | [スライム](/species/slime) | 38 | 40 |
 | [スライムつむり](/monsters/suraimutumuri) | レア | 2 | [スライム](/species/slime) | 41 | 44 |
+| [エンタシスマン](/monsters/entasisman) | レア | 2 | [物質](/species/bussitu) | 47 | 46 |
 | [バーガースライム](/monsters/burgerslime) | レア | 2 | [スライム](/species/slime) | 58 | 52 |
 | [パールスライム](/monsters/pearlgel) | レア | 2 | [スライム](/species/slime) | 66 | 54 |
 | [アクアスライム](/monsters/aquaslime) | レア | 2 | [スライム](/species/slime) | 59 | 55 |

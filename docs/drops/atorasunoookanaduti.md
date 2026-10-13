@@ -2,12 +2,10 @@
 title: アトラスの大金槌
 description: アトラスの大金槌
 pageClass: wide-page sortable-list
-prev:
-  text: "わんぱくサタンのスプーン"
-  link: /drops/wanpakusatannosupun
+prev: false
 next:
-  text: "ゴールドマントの剣"
-  link: /drops/gorudenmantonoken
+  text: "アルケミストンの帽子"
+  link: /drops/arukemisutonnobousi
 ---
 
 # アトラスの大金槌

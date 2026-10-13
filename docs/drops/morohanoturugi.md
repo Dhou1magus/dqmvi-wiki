@@ -3,11 +3,11 @@ title: もろはのつるぎ
 description: DQMVIの「もろはのつるぎ」を落とすモンスター1体の一覧。いちばん弱いのはぼうれい剣士（超レア・EXP270）。
 pageClass: wide-page sortable-list
 prev:
-  text: "ももんじゃのしっぽ"
-  link: /drops/momonjanoshippo
+  text: "ももいろ三姉妹のピアス"
+  link: /drops/momoirosansimainopiasu
 next:
-  text: "やまたのおろち討伐の証"
-  link: /drops/yamatanooroti
+  text: "やみのドラゴンのペンダント"
+  link: /drops/yaminodragonnopendanto
 ---
 
 # もろはのつるぎ

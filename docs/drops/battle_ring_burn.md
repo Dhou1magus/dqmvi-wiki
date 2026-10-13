@@ -3,11 +3,11 @@ title: バーンチャクラム
 description: "バーンチャクラム"
 pageClass: wide-page sortable-list
 prev:
-  text: "デーモンハンマー"
-  link: /drops/demonhanma
+  text: "ハートナイトの剣"
+  link: /drops/hatonaitonoken
 next:
-  text: "ゴッデス･オレオール"
-  link: /drops/goddesuoreoru
+  text: "ピサロナイトの鎧"
+  link: /drops/pisaronaitonoyoroi
 ---
 
 # バーンチャクラム

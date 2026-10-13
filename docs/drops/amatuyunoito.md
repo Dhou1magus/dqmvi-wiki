@@ -1,6 +1,6 @@
 ---
 title: あまつゆの糸
-description: DQMVIの「あまつゆの糸」を落とすモンスター16体の一覧。いちばん弱いのはマクロベータ（通常・EXP453）。
+description: DQMVIの「あまつゆの糸」を落とすモンスター17体の一覧。いちばん弱いのはマクロベータ（通常・EXP453）。
 pageClass: wide-page sortable-list
 prev:
   text: "アトラスの大金槌"
@@ -12,7 +12,7 @@ next:
 
 # あまつゆの糸
 
-素材。**16体**のモンスターが落とします。
+素材。**17体**のモンスターが落とします。
 
 ::: tip ねらい目
 **マクロベータ**（通常ドロップ・EXP453）。
@@ -37,6 +37,7 @@ next:
 | [デスニャーゴ](/monsters/desunyago) | 超レア | 6 | [魔獣](/species/majyu) | 896 | 344 |
 | [ドーラー](/monsters/dora) | 超レア | 6 | [物質](/species/bussitu) | 1,256 | 422 |
 | [ソーラー](/monsters/sora) | 超レア | 6 | [物質](/species/bussitu) | 1,256 | 422 |
+| [ベルフェゴル](/monsters/beruhuxegol) | 超レア | 6 | [悪魔](/species/akuma) | 1,494 | 429 |
 | [グリンデア](/monsters/grindea) | 超レア | 6 | [悪魔](/species/akuma) | 1,465 | 448 |
 | [ゴールデンドラゴン](/monsters/goldendragon) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,319 | 496 |
 

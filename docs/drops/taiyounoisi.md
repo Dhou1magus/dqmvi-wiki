@@ -1,6 +1,6 @@
 ---
 title: たいようの石
-description: DQMVIの「たいようの石」を落とすモンスター28体の一覧。いちばん弱いのはワイトキング（通常・EXP245）。
+description: DQMVIの「たいようの石」を落とすモンスター29体の一覧。いちばん弱いのはワイトキング（通常・EXP245）。
 pageClass: wide-page sortable-list
 prev:
   text: "タイプGの欠片"
@@ -12,7 +12,7 @@ next:
 
 # たいようの石
 
-素材。**28体**のモンスターが落とします。
+素材。**29体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ワイトキング**（通常ドロップ・EXP245）。
@@ -43,6 +43,7 @@ next:
 | [スライムブレス](/monsters/suraimuburesu) | 超レア | 4 | [スライム](/species/slime) | 180 | 160 |
 | [ヒートギズモ1](/monsters/hgizumo) | 超レア | 5 | [物質](/species/bussitu) | 490 | 248 |
 | [ヒートギズモ2](/monsters/hiitogizumo) | 超レア | 5 | [物質](/species/bussitu) | 494 | 253 |
+| [ぴぴぼう](/monsters/pipibou) | 超レア | 5 | [特殊](/species/tokusyu) | 472 | 253 |
 | [まおうのランプ](/monsters/annihilantern) | 超レア | 5 | [物質](/species/bussitu) | 435 | 264 |
 | [グリンパーム](/monsters/grel_palm) | 超レア | 5 | [物質](/species/bussitu) | 401 | 266 |
 | [まどうスライム](/monsters/madouslime) | 超レア | 5 | [スライム](/species/slime) | 445 | 267 |

@@ -3,11 +3,11 @@ title: スライダークロボの剣
 description: スライダークロボの剣
 pageClass: wide-page sortable-list
 prev:
-  text: "魔獣イギュアの爪"
-  link: /drops/majuuigyuanotume
+  text: "スミスの腕輪"
+  link: /drops/sumisunoudewa
 next:
-  text: "デーモンハンマー"
-  link: /drops/demonhanma
+  text: "スラブラスター"
+  link: /drops/suraburasuta
 ---
 
 # スライダークロボの剣

@@ -3,11 +3,11 @@ title: デス・キャロット
 description: DQMVIの「デス・キャロット」を落とすモンスター1体の一覧。いちばん弱いのはウサンダー（通常・EXP3,861）。
 pageClass: wide-page sortable-list
 prev:
-  text: "ゴッデス･オレオール"
-  link: /drops/goddesuoreoru
+  text: "デーモンハンマー"
+  link: /drops/demonhanma
 next:
-  text: "ピサロの剣"
-  link: /drops/pisaronoken
+  text: "デスマスク"
+  link: /drops/desumasuku
 ---
 
 # デス・キャロット

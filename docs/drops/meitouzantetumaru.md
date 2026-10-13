@@ -3,11 +3,11 @@ title: 名刀 斬鉄丸
 description: 名刀 斬鉄丸
 pageClass: wide-page sortable-list
 prev:
-  text: "にくきゅうの杖"
-  link: /drops/nikukyuunotue
+  text: "魔獣イギュアの爪"
+  link: /drops/majuuigyuanotume
 next:
-  text: "ムーンキメラの羽"
-  link: /drops/moonkimeranohane
+  text: "勇車の笛(弱)"
+  link: /drops/yuusyanofue_zyaku
 ---
 
 # 名刀 斬鉄丸

@@ -1,6 +1,6 @@
 ---
 title: いのちの石
-description: DQMVIの「いのちの石」を落とすモンスター20体の一覧。いちばん弱いのはタールキング（通常・EXP140）。
+description: DQMVIの「いのちの石」を落とすモンスター21体の一覧。いちばん弱いのはタールキング（通常・EXP140）。
 pageClass: wide-page sortable-list
 prev:
   text: "いかずちの玉"
@@ -12,7 +12,7 @@ next:
 
 # いのちの石
 
-素材。**20体**のモンスターが落とします。
+素材。**21体**のモンスターが落とします。
 
 ::: tip ねらい目
 **タールキング**（通常ドロップ・EXP140）。
@@ -39,6 +39,7 @@ next:
 | [もりもりベス](/monsters/beshemothslime) | 超レア | 3 | [スライム](/species/slime) | 78 | 86 |
 | [マッスルアニマル](/monsters/masuruanimaru) | 超レア | 3 | [魔獣](/species/majyu) | 162 | 102 |
 | [石炭つむり](/monsters/coalslime) | 超レア | 3 | [スライム](/species/slime) | 150 | 110 |
+| [モコフル](/monsters/mocohuru) | 超レア | 3 | [自然](/species/sizen) | 159 | 111 |
 | [ベビーニュート](/monsters/bebinyuto) | 超レア | 3 | [ドラゴン](/species/dragon) | 151 | 124 |
 | [ドラゴン2](/monsters/dragon2) | 超レア | 3 | [ドラゴン](/species/dragon) | 183 | 152 |
 | [マリンスライム](/monsters/marinsuraimu) | 超レア | 4 | [スライム](/species/slime) | 179 | 167 |

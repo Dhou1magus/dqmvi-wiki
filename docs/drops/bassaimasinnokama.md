@@ -3,11 +3,11 @@ title: 伐採マシンの鎌
 description: 伐採マシンの鎌
 pageClass: wide-page sortable-list
 prev:
-  text: "ムーンキメラの羽"
-  link: /drops/moonkimeranohane
+  text: "東方魔柱の護符"
+  link: /drops/touhoumachuunogofu
 next:
-  text: "わんぱくサタンのスプーン"
-  link: /drops/wanpakusatannosupun
+  text: "暴走コア"
+  link: /drops/bousoukoa
 ---
 
 # 伐採マシンの鎌

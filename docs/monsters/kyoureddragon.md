@@ -5,8 +5,8 @@ prev:
   text: "シャドウベビー"
   link: /monsters/shadow_baby
 next:
-  text: "ましょうぐも"
-  link: /monsters/mashougumo
+  text: "ぴぴぼう"
+  link: /monsters/pipibou
 ---
 
 # 凶レッドドラゴン
@@ -30,12 +30,13 @@ EXP | 228
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 581 |
+| 図鑑No. | 593 |
 | ランク | 5 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |
 | 弱点 | 強（呪文が効きにくい） |
 | 出現場所 | ドラゴン火山帯・魔王の焦土・ネザーの荒地・真紅の森 |
+| 出現条件 | ダンジョンの外だけ |
 
 ## ドロップ品
 

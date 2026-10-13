@@ -6,8 +6,8 @@ prev:
   text: "鋼の鎧"
   link: /drops/haganenoyoroi
 next:
-  text: "死神の首飾り"
-  link: /drops/sinigaminokubikazari
+  text: "高濃度マ素結晶"
+  link: /drops/koudonomasokessyou
 ---
 
 # 鋼の剣

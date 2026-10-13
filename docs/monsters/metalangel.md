@@ -2,8 +2,8 @@
 title: メタルエンゼル
 description: DQMVIのモンスター「メタルエンゼル」のステータス。HP13 / こうげき45 / しゅび10,000 / 経験値8,895 / 117G。
 prev:
-  text: "ベビーパンサー2"
-  link: /monsters/baby_panther_2
+  text: "ユキフル"
+  link: /monsters/yukihuru
 next:
   text: "ゴールドエンゼル"
   link: /monsters/goldangel
@@ -30,7 +30,7 @@ EXP | 8,895
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 333 |
+| 図鑑No. | 343 |
 | ランク | 3 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼夜 |

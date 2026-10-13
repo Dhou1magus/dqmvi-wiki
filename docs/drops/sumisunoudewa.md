@@ -3,11 +3,11 @@ title: スミスの腕輪
 description: "スミスの腕輪"
 pageClass: wide-page sortable-list
 prev:
-  text: "ジェントルステッキ"
-  link: /drops/zyentorusutekki
+  text: "しろバラのきしの兜"
+  link: /drops/sirobaranokisinokabuto
 next:
-  text: "ももんじゃのしっぽ"
-  link: /drops/momonjanoshippo
+  text: "スライダークロボの剣"
+  link: /drops/suraidakurobonoken
 ---
 
 # スミスの腕輪

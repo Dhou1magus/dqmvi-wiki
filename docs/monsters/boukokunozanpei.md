@@ -5,8 +5,8 @@ prev:
   text: "スライダークロボ"
   link: /monsters/darkrobotslime
 next:
-  text: "ゴメちゃん"
-  link: /monsters/gomechan
+  text: "ガルビルス"
+  link: /monsters/garuvirus
 ---
 
 # 亡国の残兵
@@ -30,7 +30,7 @@ EXP | 32,417
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 773 |
+| 図鑑No. | 796 |
 | ランク | 7 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |

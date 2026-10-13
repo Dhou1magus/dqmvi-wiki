@@ -1,6 +1,6 @@
 ---
 title: スライムヘッド
-description: DQMVIの「スライムヘッド」を落とすモンスター3体の一覧。いちばん弱いのはぶちスライム（超レア・EXP4）。
+description: DQMVIの「スライムヘッド」を落とすモンスター4体の一覧。いちばん弱いのはぶちスライム（超レア・EXP4）。
 pageClass: wide-page sortable-list
 prev:
   text: "スライムピアス"
@@ -12,7 +12,7 @@ next:
 
 # スライムヘッド
 
-防具。**3体**のモンスターが落とします。
+防具。**4体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ぶちスライム**（超レアドロップ・EXP4）。
@@ -38,6 +38,7 @@ next:
 | [ぶちスライム](/monsters/butisuraimu) | 超レア | 1 | [スライム](/species/slime) | 8 | 4 |
 | [マンドラ](/monsters/mandora) | 超レア | 1 | [スライム](/species/slime) | 15 | 9 |
 | [スモーク](/monsters/smoke) | 超レア | 1 | [物質](/species/bussitu) | 17 | 10 |
+| [マーブルスライム](/monsters/marbleslime) | 超レア | 1 | [スライム](/species/slime) | 27 | 13 |
 
 見出しを押すと並べ替えできます。
 

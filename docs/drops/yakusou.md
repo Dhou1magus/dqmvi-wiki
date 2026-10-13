@@ -6,8 +6,8 @@ prev:
   text: "矢"
   link: /drops/mc_arrow
 next:
-  text: "勇車の笛"
-  link: /drops/yuusyanofue
+  text: "勇車の笛(弱)"
+  link: /drops/yuusyanofue_zyaku
 ---
 
 # 薬草(HP+30)

@@ -3,11 +3,11 @@ title: しろバラのきしの兜
 description: しろバラのきしの兜
 pageClass: wide-page sortable-list
 prev:
-  text: "ゴードンヘッドの小手"
-  link: /drops/godonheddonokote
+  text: "シャ攻の戦籠手"
+  link: /drops/gauntlet_20_syakou
 next:
-  text: "シドのゴーグル"
-  link: /drops/sidonogoguru
+  text: "スミスの腕輪"
+  link: /drops/sumisunoudewa
 ---
 
 # しろバラのきしの兜

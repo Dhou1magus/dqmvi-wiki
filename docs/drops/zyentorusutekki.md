@@ -3,11 +3,11 @@ title: ジェントルステッキ
 description: "ジェントルステッキ"
 pageClass: wide-page sortable-list
 prev:
-  text: "修羅の指環"
-  link: /drops/syuranoyubiwa
+  text: "シールドあにきの盾"
+  link: /drops/sirudoanikinotate
 next:
-  text: "スミスの腕輪"
-  link: /drops/sumisunoudewa
+  text: "シドのゴーグル"
+  link: /drops/sidonogoguru
 ---
 
 # ジェントルステッキ

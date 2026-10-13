@@ -3,8 +3,8 @@ title: 死神の首飾り
 description: DQMVIの「死神の首飾り」を落とすモンスター1体の一覧。いちばん弱いのははめつの使者（超レア・EXP688）。
 pageClass: wide-page sortable-list
 prev:
-  text: "鋼の剣"
-  link: /drops/haganenoturugi
+  text: "支配者の腕輪"
+  link: /drops/sihaisyanoudewa
 next:
   text: "時の水晶"
   link: /drops/tokinosuisyou

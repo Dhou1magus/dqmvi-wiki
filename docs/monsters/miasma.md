@@ -5,8 +5,8 @@ prev:
   text: "ガマニアン"
   link: /monsters/dreadherring
 next:
-  text: "ハートナイト"
-  link: /monsters/hatonaito
+  text: "エンタシスマン"
+  link: /monsters/entasisman
 ---
 
 # ガスト
@@ -30,12 +30,13 @@ EXP | 48
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 185 |
+| 図鑑No. | 189 |
 | ランク | 2 |
 | 系統 | [物質系](/species/bussitu) |
 | 活動時間 | 昼夜 |
 | 弱点 | 風（風系の呪文に弱い） |
 | 出現場所 | ディープダーク・ゴースト霧森・魔法の森 |
+| 出現条件 | 晴れのとき |
 
 ## ドロップ品
 

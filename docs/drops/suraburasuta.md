@@ -3,11 +3,11 @@ title: スラブラスター
 description: DQMVIの「スラブラスター」を落とすモンスター1体の一覧。いちばん弱いのはスラ・ブラスター（通常・EXP37,654）。
 pageClass: wide-page sortable-list
 prev:
-  text: "ピサロの剣"
-  link: /drops/pisaronoken
+  text: "スライダークロボの剣"
+  link: /drops/suraidakurobonoken
 next:
-  text: "トイガン"
-  link: /drops/toigan
+  text: "タイプGの欠片"
+  link: /drops/taipugnokakera
 ---
 
 # スラブラスター

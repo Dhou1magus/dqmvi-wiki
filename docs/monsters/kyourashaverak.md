@@ -5,8 +5,8 @@ prev:
   text: "ダークドリーマー"
   link: /monsters/darkdreamer
 next:
-  text: "エンゼルアーマー"
-  link: /monsters/enzeruaamaa
+  text: "ラムポーン"
+  link: /monsters/ramporn
 ---
 
 # 凶アンドレアル
@@ -30,7 +30,7 @@ EXP | 368
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 681 |
+| 図鑑No. | 698 |
 | ランク | 6 |
 | 系統 | [ドラゴン系](/species/dragon) |
 | 活動時間 | 昼夜 |

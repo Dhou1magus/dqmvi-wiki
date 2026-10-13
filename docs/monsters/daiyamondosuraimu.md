@@ -2,8 +2,8 @@
 title: ダイヤモンドスライム
 description: DQMVIのモンスター「ダイヤモンドスライム」のステータス。HP42 / こうげき148 / しゅび10,000 / 経験値80,000 / 750G。
 prev:
-  text: "アスラ王"
-  link: /monsters/asuraou
+  text: "アクバー"
+  link: /monsters/akubaa
 next:
   text: "プラチナキング"
   link: /monsters/puratinaking
@@ -30,7 +30,7 @@ EXP | 80,000
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 693 |
+| 図鑑No. | 715 |
 | ランク | 6 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼のみ |
@@ -44,8 +44,8 @@ EXP | 80,000
 | 通常ドロップ | [キングダイヤ](/drops/kingdaiya) |
 | レアドロップ | [メタルオーブ](/drops/metaloubu) |
 | 超レアドロップ | [メタルキングの兜](/drops/metarukingnokabuto) |
-| オブジェ | ダイヤモンドスライム(スライム系オブジェ) |
-| フィギュア | ダイヤモンドスライム(スライム系フィギュア) |
+| オブジェ | ダイヤモンドスライムのオブジェ |
+| フィギュア | ダイヤモンドスライムのフィギュア |
 
 ## 使う呪文
 

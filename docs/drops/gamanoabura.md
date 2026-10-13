@@ -1,6 +1,6 @@
 ---
 title: ガマのあぶら
-description: DQMVIの「ガマのあぶら」を落とすモンスター58体の一覧。いちばん弱いのはアロエおに（通常・EXP37）。
+description: DQMVIの「ガマのあぶら」を落とすモンスター60体の一覧。いちばん弱いのはアロエおに（通常・EXP37）。
 pageClass: wide-page sortable-list
 prev:
   text: "かがみの石"
@@ -12,7 +12,7 @@ next:
 
 # ガマのあぶら
 
-素材。**58体**のモンスターが落とします。
+素材。**60体**のモンスターが落とします。
 
 ::: tip ねらい目
 **アロエおに**（通常ドロップ・EXP37）。
@@ -68,6 +68,7 @@ next:
 | [ナスビナーラ](/monsters/nasubira) | 超レア | 1 | [自然](/species/sizen) | 21 | 11 |
 | [ゆうれい](/monsters/spirit) | 超レア | 1 | [ゾンビ](/species/zombie) | 16 | 11 |
 | [はじけドーラ](/monsters/hajike_dora) | 超レア | 1 | [ドラゴン](/species/dragon) | 25 | 12 |
+| [おむつっこり](/monsters/omutukkori) | 超レア | 1 | [自然](/species/sizen) | 25 | 12 |
 | [まほうつかい](/monsters/magician) | 超レア | 1 | [悪魔](/species/akuma) | 15 | 13 |
 | [マル](/monsters/maru) | 超レア | 1 | [物質](/species/bussitu) | 24 | 13 |
 | [スキッパー](/monsters/sukippaa) | 超レア | 1 | [悪魔](/species/akuma) | 28 | 15 |
@@ -77,6 +78,7 @@ next:
 | [ウパパロン](/monsters/upaparon) | 超レア | 2 | [自然](/species/sizen) | 45 | 41 |
 | [おばけキャンドル](/monsters/obakekyandoru) | 超レア | 2 | [物質](/species/bussitu) | 37 | 42 |
 | [たまねぎマン](/monsters/tamanegiman) | 超レア | 2 | [自然](/species/sizen) | 40 | 43 |
+| [エンタシスマン](/monsters/entasisman) | 超レア | 2 | [物質](/species/bussitu) | 47 | 46 |
 | [ハエおとこ](/monsters/heotoko) | 超レア | 2 | [自然](/species/sizen) | 42 | 47 |
 | [スライムアンノウン](/monsters/slimeunknown) | 超レア | 2 | [物質](/species/bussitu) | 60 | 51 |
 | [プチファイター](/monsters/conkerer) | 超レア | 2 | [悪魔](/species/akuma) | 60 | 58 |

@@ -3,11 +3,11 @@ title: りゅうおうもどきの尻尾
 description: りゅうおうもどきの尻尾
 pageClass: wide-page sortable-list
 prev:
-  text: "聖銀の拳"
-  link: /drops/seiginnokobusi
+  text: "ライバーンリング"
+  link: /drops/raibanringu
 next:
-  text: "魔獣イギュアの爪"
-  link: /drops/majuuigyuanotume
+  text: "りゅうのみぎめ"
+  link: /drops/ryuunomigime
 ---
 
 # りゅうおうもどきの尻尾

@@ -1,6 +1,6 @@
 ---
 title: べっこう
-description: DQMVIの「べっこう」を落とすモンスター68体の一覧。いちばん弱いのはプレミアムスライム（通常・EXP40）。
+description: DQMVIの「べっこう」を落とすモンスター69体の一覧。いちばん弱いのはプレミアムスライム（通常・EXP40）。
 pageClass: wide-page sortable-list
 prev:
   text: "フレアドラゴンのうろこ"
@@ -12,7 +12,7 @@ next:
 
 # べっこう
 
-素材。**68体**のモンスターが落とします。
+素材。**69体**のモンスターが落とします。
 
 ::: tip ねらい目
 **プレミアムスライム**（通常ドロップ・EXP40）。
@@ -80,6 +80,7 @@ next:
 | [ドロルメイジ](/monsters/dororu_meizi) | 超レア | 1 | [ゾンビ](/species/zombie) | 17 | 11 |
 | [ドロル](/monsters/dororu) | 超レア | 1 | [ゾンビ](/species/zombie) | 24 | 12 |
 | [メーダ](/monsters/meda) | 超レア | 1 | [悪魔](/species/akuma) | 16 | 13 |
+| [どんぐりベビー](/monsters/dongribaby) | 超レア | 1 | [自然](/species/sizen) | 24 | 14 |
 | [ぐんたいガニ2](/monsters/army_crab2) | 超レア | 1 | [自然](/species/sizen) | 32 | 16 |
 | [メラゴースト](/monsters/meragosuto) | 超レア | 2 | [ゾンビ](/species/zombie) | 36 | 34 |
 | [スピニー](/monsters/supini) | 超レア | 3 | [物質](/species/bussitu) | 72 | 75 |

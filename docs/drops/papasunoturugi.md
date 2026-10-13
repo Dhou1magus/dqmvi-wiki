@@ -1,6 +1,6 @@
 ---
 title: パパスのつるぎ
-description: DQMVIの「パパスのつるぎ」を落とすモンスター3体の一覧。いちばん弱いのはキラーパンサー（超レア・EXP350）。
+description: DQMVIの「パパスのつるぎ」を落とすモンスター4体の一覧。いちばん弱いのはキラーパンサー（超レア・EXP350）。
 pageClass: wide-page sortable-list
 prev:
   text: "バトルアックス"
@@ -12,7 +12,7 @@ next:
 
 # パパスのつるぎ
 
-武器。**3体**のモンスターが落とします。
+武器。**4体**のモンスターが落とします。
 
 ::: tip ねらい目
 **キラーパンサー**（超レアドロップ・EXP350）。
@@ -35,6 +35,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [キラーパンサー](/monsters/kirapan2) | 超レア | 6 | [魔獣](/species/majyu) | 960 | 350 |
+| [ラムポーン](/monsters/ramporn) | 超レア | 6 | [魔獣](/species/majyu) | 1,449 | 438 |
 | [スノードラゴン](/monsters/snow_dragon) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,443 | 486 |
 | [れんごく天馬](/monsters/tantamount) | 超レア | 6 | [魔獣](/species/majyu) | 1,468 | 495 |
 

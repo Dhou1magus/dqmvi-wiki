@@ -1,6 +1,6 @@
 ---
 title: 巨大な牙
-description: DQMVIの「巨大な牙」を落とすモンスター13体の一覧。いちばん弱いのはおばけキャンドル（通常・EXP42）。
+description: DQMVIの「巨大な牙」を落とすモンスター16体の一覧。いちばん弱いのはおばけキャンドル（通常・EXP42）。
 pageClass: wide-page sortable-list
 prev:
   text: "巨大ナスビナーラの髭"
@@ -12,7 +12,7 @@ next:
 
 # 巨大な牙
 
-素材。**13体**のモンスターが落とします。
+素材。**16体**のモンスターが落とします。
 
 ::: tip ねらい目
 **おばけキャンドル**（通常ドロップ・EXP42）。
@@ -28,9 +28,12 @@ next:
 | [つぼ](/monsters/tubo) | 通常 | 2 | [特殊](/species/tokusyu) | 55 | 51 |
 | [かくとうパンサー](/monsters/kakutoupansa) | 通常 | 2 | [魔獣](/species/majyu) | 66 | 60 |
 | [トンブレロ](/monsters/tonburero) | 通常 | 3 | [魔獣](/species/majyu) | 91 | 84 |
+| [ケセランパサラン](/monsters/keseranpasaran) | 通常 | 3 | [自然](/species/sizen) | 143 | 119 |
 | [ドラゴン2](/monsters/dragon2) | 通常 | 3 | [ドラゴン](/species/dragon) | 183 | 152 |
 | [バリイドドッグ](/monsters/bariidodog) | 通常 | 5 | [ゾンビ](/species/zombie) | 343 | 219 |
 | [デッドペッカー](/monsters/deddopekka) | 通常 | 5 | [自然](/species/sizen) | 371 | 235 |
+| [黒ごまキッズ](/monsters/kurogomakids) | 通常 | 5 | [自然](/species/sizen) | 547 | 287 |
+| [キラーデーモン](/monsters/killerdeemon) | 通常 | 5 | [悪魔](/species/akuma) | 595 | 338 |
 | [しっぽ団のキラーマシン](/monsters/shippodannokilermachine) | レア | 4 | [物質](/species/bussitu) | 197 | 169 |
 | [ホークブリザード](/monsters/hookuburizaado) | レア | 4 | [自然](/species/sizen) | 217 | 171 |
 | [ドラゴン](/monsters/dqmdragon) | レア | 4 | [ドラゴン](/species/dragon) | 221 | 200 |

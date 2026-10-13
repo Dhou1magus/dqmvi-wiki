@@ -3,11 +3,11 @@ title: デスマスク
 description: DQMVIの「デスマスク」を落とすモンスター1体の一覧。いちばん弱いのはデスマシーン（通常・EXP8,187）。
 pageClass: wide-page sortable-list
 prev:
-  text: "キングヒドラの頭"
-  link: /drops/kinghidoranoatama
+  text: "デス・キャロット"
+  link: /drops/desukyarotto
 next:
-  text: "機械仕掛けのこころ"
-  link: /drops/kikaijikakenokokoro
+  text: "トイガン"
+  link: /drops/toigan
 ---
 
 # デスマスク

@@ -3,7 +3,6 @@
     "モンスター図鑑（/monsters/）の絞り込みボタン用。ここに載っていないモンスターは「雑魚」になる。",
     "書くのは、モンスターのページのURLの末尾（/monsters/sura なら \"sura\"）か、図鑑に出ている名前（\"スライム\"）のどちらでもよい。",
     "同じ名前が2体いる場合（ドラゴン・おおがらす など）は URL の末尾で書く。",
-    "ボスとコインボスは、図鑑の表に行を足してから、ここに名前を並べる。",
     "書き方の注意: 各名前を \"\" で囲み、名前と名前の間に , を入れる。最後の名前のあとに , は付けない。"
   ],
   "転生": [
@@ -20,6 +19,7 @@
     "gorudenkon",
     "kyodainasubira",
     "sakurakozou",
+    "orientasis",
     "kirapike",
     "togekonbou",
     "sabotengold",
@@ -29,6 +29,7 @@
     "mikemadou",
     "shidomoja",
     "maddosumisu",
+    "yukihuru",
     "akatsuki_shogun",
     "moonkimera",
     "sirudoaniki",
@@ -59,6 +60,8 @@
     "putislalingal",
     "syakou_doll",
     "asuraou",
+    "jami",
+    "akubaa",
     "nerugerudeemon",
     "pisarobaan",
     "darkdraco",
@@ -68,38 +71,9 @@
     "ryuuoumodoki",
     "majuuigyua",
     "darkrobotslime",
+    "garuvirus",
     "metal_seraphim",
     "metal_goddess",
     "metalgoddes2"
-  ],
-  "ボス": [
-    "esterk_big",
-    "kiramajinga",
-    "suraimujeneraru_big",
-    "zoma_big",
-    "dark_ramia_big",
-    "desukingreo",
-    "desupisaro1_big",
-    "desupisaro2_big",
-    "desupisaro3_big",
-    "bazuzu_big",
-    "masterdoragon",
-    "yamatanooroti",
-    "norowaretaturugi",
-    "ryuuou",
-    "ryuuou2",
-    "god"
-  ],
-  "コインボス": [
-    "flucifer",
-    "psaro",
-    "momonjagar",
-    "slalingal",
-    "shinjuuou_world",
-    "zoma2",
-    "evil_hero_anlucia_boss",
-    "don_clawleone",
-    "ikaimessin_jagonuba",
-    "zettaimessin_jagonuba"
   ]
 }

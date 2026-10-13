@@ -3,11 +3,11 @@ title: デーモンハンマー
 description: "デーモンハンマー"
 pageClass: wide-page sortable-list
 prev:
-  text: "スライダークロボの剣"
-  link: /drops/suraidakurobonoken
+  text: "つむりんママの貝殻"
+  link: /drops/tumurinmama
 next:
-  text: "バーンチャクラム"
-  link: /drops/battle_ring_burn
+  text: "デス・キャロット"
+  link: /drops/desukyarotto
 ---
 
 # デーモンハンマー

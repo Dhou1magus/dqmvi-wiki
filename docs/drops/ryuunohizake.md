@@ -1,18 +1,18 @@
 ---
 title: 竜の火酒
-description: DQMVIの「竜の火酒」を落とすモンスター20体の一覧。いちばん弱いのはじごくのざりがに（通常・EXP414）。
+description: DQMVIの「竜の火酒」を落とすモンスター22体の一覧。いちばん弱いのはじごくのざりがに（通常・EXP414）。
 pageClass: wide-page sortable-list
 prev:
   text: "竜のなみだ"
   link: /drops/ryuunonamida
 next:
-  text: "竜王討伐の証"
-  link: /drops/ryuuou
+  text: "竜騎士の鎧"
+  link: /drops/ryuukisinoyoroi
 ---
 
 # 竜の火酒
 
-素材。**20体**のモンスターが落とします。
+素材。**22体**のモンスターが落とします。
 
 ::: tip ねらい目
 **じごくのざりがに**（通常ドロップ・EXP414）。
@@ -25,6 +25,7 @@ next:
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [じごくのざりがに](/monsters/jigokunozarigani) | 通常 | 6 | [自然](/species/sizen) | 1,282 | 414 |
 | [ダーククリスタル](/monsters/dark_crystal) | 通常 | 6 | [物質](/species/bussitu) | 1,126 | 436 |
+| [ラムポーン](/monsters/ramporn) | 通常 | 6 | [魔獣](/species/majyu) | 1,449 | 438 |
 | [エビルちくりん](/monsters/ebiruchikurin) | 通常 | 6 | [物質](/species/bussitu) | 1,526 | 448 |
 | [フーラー](/monsters/fura) | 通常 | 6 | [物質](/species/bussitu) | 1,400 | 466 |
 | [キングレオⅡ](/monsters/kingreo2) | 通常 | 6 | [魔獣](/species/majyu) | 1,440 | 482 |
@@ -41,6 +42,7 @@ next:
 | [グレイブディガー](/monsters/gureibudiga) | レア | 7 | [魔獣](/species/majyu) | 2,775 | 914 |
 | [レッドサイクロン](/monsters/redsaikuron) | 超レア | 5 | [自然](/species/sizen) | 518 | 267 |
 | [ブラックハンド](/monsters/black_hand) | 超レア | 6 | [物質](/species/bussitu) | 954 | 330 |
+| [キラーデーモン](/monsters/killerdeemon) | 超レア | 5 | [悪魔](/species/akuma) | 595 | 338 |
 | [ドラゴンライダー](/monsters/dragonraida) | 超レア | 6 | [ドラゴン](/species/dragon) | 1,160 | 420 |
 | [モノクロームナイト](/monsters/monokuroomunaito) | 超レア | 6 | [物質](/species/bussitu) | 1,505 | 460 |
 

@@ -1,10 +1,10 @@
 ---
 title: 太陽石合金
-description: DQMVIの「太陽石合金」を落とすモンスター29体の一覧。いちばん弱いのはキラープラスター（通常・EXP395）。
+description: DQMVIの「太陽石合金」を落とすモンスター30体の一覧。いちばん弱いのはキラープラスター（通常・EXP395）。
 pageClass: wide-page sortable-list
 prev:
-  text: "全てを超越せし者討伐の証"
-  link: /drops/god
+  text: "雪玉のイヤリング"
+  link: /drops/yukidamanoiyaringu
 next:
   text: "大きな袋"
   link: /drops/fukuro
@@ -12,7 +12,7 @@ next:
 
 # 太陽石合金
 
-素材。**29体**のモンスターが落とします。
+素材。**30体**のモンスターが落とします。
 
 ::: tip ねらい目
 **キラープラスター**（通常ドロップ・EXP395）。
@@ -40,6 +40,7 @@ next:
 | [あくま神官](/monsters/akumasinkan) | 超レア | 3 | [悪魔](/species/akuma) | 94 | 92 |
 | [じごくのたまねぎ](/monsters/zigokunotamanegi) | 超レア | 3 | [自然](/species/sizen) | 75 | 92 |
 | [しびくらベス](/monsters/shibikurabes) | 超レア | 3 | [スライム](/species/slime) | 96 | 100 |
+| [ケセランパサラン](/monsters/keseranpasaran) | 超レア | 3 | [自然](/species/sizen) | 143 | 119 |
 | [ゴールドエンゼル](/monsters/goldangel) | 超レア | 3 | [メタル](/species/metal) | 14 | 121 |
 | [シャーマン](/monsters/syaman) | 超レア | 3 | [ゾンビ](/species/zombie) | 115 | 142 |
 | [ローズバトラー](/monsters/rozubatora) | 超レア | 3 | [自然](/species/sizen) | 188 | 146 |

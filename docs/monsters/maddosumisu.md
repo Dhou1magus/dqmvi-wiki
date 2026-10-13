@@ -5,8 +5,8 @@ prev:
   text: "シドもじゃ"
   link: /monsters/shidomoja
 next:
-  text: "ベビーパンサー2"
-  link: /monsters/baby_panther_2
+  text: "ユキフル"
+  link: /monsters/yukihuru
 ---
 
 # マッドスミス
@@ -30,7 +30,7 @@ EXP | 2,001
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 331 |
+| 図鑑No. | 341 |
 | ランク | 3 |
 | 系統 | [ゾンビ系](/species/zombie) |
 | 活動時間 | 夜のみ |

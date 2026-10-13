@@ -1,6 +1,6 @@
 ---
 title: れんごくの羽根
-description: DQMVIの「れんごくの羽根」を落とすモンスター30体の一覧。いちばん弱いのはメラゴースト（通常・EXP34）。
+description: DQMVIの「れんごくの羽根」を落とすモンスター31体の一覧。いちばん弱いのはメラゴースト（通常・EXP34）。
 pageClass: wide-page sortable-list
 prev:
   text: "レッドアーチャーの弓"
@@ -12,7 +12,7 @@ next:
 
 # れんごくの羽根
 
-素材。**30体**のモンスターが落とします。
+素材。**31体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メラゴースト**（通常ドロップ・EXP34）。
@@ -48,6 +48,7 @@ next:
 | [メラリザード](/monsters/merazado) | レア | 2 | [ドラゴン](/species/dragon) | 53 | 62 |
 | [スライムブレス](/monsters/suraimuburesu) | レア | 4 | [スライム](/species/slime) | 180 | 160 |
 | [おおがらす](/monsters/big_crow) | 超レア | 1 | [自然](/species/sizen) | 13 | 7 |
+| [キュートスライム](/monsters/cuteslime) | 超レア | 1 | [スライム](/species/slime) | 17 | 10 |
 | [エビルアップル](/monsters/ebiruapple) | 超レア | 1 | [自然](/species/sizen) | 22 | 12 |
 | [ねこまどう](/monsters/nekomadou) | 超レア | 1 | [魔獣](/species/majyu) | 11 | 12 |
 | [スカルサーペント](/monsters/skullserpent) | 超レア | 1 | [ゾンビ](/species/zombie) | 23 | 13 |

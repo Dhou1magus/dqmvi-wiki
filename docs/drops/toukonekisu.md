@@ -1,10 +1,10 @@
 ---
 title: 闘魂エキス
-description: DQMVIの「闘魂エキス」を落とすモンスター16体の一覧。いちばん弱いのはテンタクルス（通常・EXP285）。
+description: DQMVIの「闘魂エキス」を落とすモンスター18体の一覧。いちばん弱いのはやみのしょくだい（通常・EXP280）。
 pageClass: wide-page sortable-list
 prev:
-  text: "鉄鉱石"
-  link: /drops/tekkouseki
+  text: "東方魔柱の護符"
+  link: /drops/touhoumachuunogofu
 next:
   text: "特やくそう"
   link: /drops/tokuyakusou
@@ -12,10 +12,10 @@ next:
 
 # 闘魂エキス
 
-素材。**16体**のモンスターが落とします。
+素材。**18体**のモンスターが落とします。
 
 ::: tip ねらい目
-**テンタクルス**（通常ドロップ・EXP285）。
+**やみのしょくだい**（通常ドロップ・EXP280）。
 いちばん出やすい枠で落とすモンスターのうち、いちばん弱い相手です。
 :::
 
@@ -23,6 +23,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [やみのしょくだい](/monsters/dark_candlestick) | 通常 | 5 | [物質](/species/bussitu) | 493 | 280 |
 | [テンタクルス](/monsters/tentacles) | 通常 | 5 | [自然](/species/sizen) | 534 | 285 |
 | [ソードドラゴン](/monsters/sword_dragon) | 通常 | 5 | [ドラゴン](/species/dragon) | 587 | 295 |
 | [トレーナースライム](/monsters/trainerslime) | 通常 | 5 | [スライム](/species/slime) | 574 | 303 |
@@ -34,6 +35,7 @@ next:
 | [死神の騎士](/monsters/shinigaminokishi) | 通常 | 6 | [悪魔](/species/akuma) | 1,368 | 475 |
 | [スノードラゴン](/monsters/snow_dragon) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,443 | 486 |
 | [ゴッドライダー](/monsters/godraida) | 通常 | 7 | [スライム](/species/slime) | 3,000 | 876 |
+| [黒ごまキッズ](/monsters/kurogomakids) | レア | 5 | [自然](/species/sizen) | 547 | 287 |
 | [タイガークロー](/monsters/taigakuro) | レア | 5 | [魔獣](/species/majyu) | 512 | 299 |
 | [ヘルクラッシャー](/monsters/herukurassya) | レア | 5 | [ゾンビ](/species/zombie) | 621 | 320 |
 | [ソードファントム](/monsters/sodofantomu) | 超レア | 6 | [ゾンビ](/species/zombie) | 1,184 | 409 |

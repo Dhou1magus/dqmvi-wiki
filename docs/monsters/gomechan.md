@@ -2,8 +2,8 @@
 title: ゴメちゃん
 description: DQMVIのモンスター「ゴメちゃん」のステータス。HP138 / こうげき75 / しゅび10,000 / 経験値8,564 / 15,315G。
 prev:
-  text: "亡国の残兵"
-  link: /monsters/boukokunozanpei
+  text: "ガルビルス"
+  link: /monsters/garuvirus
 next:
   text: "メタルセラフィム"
   link: /monsters/metal_seraphim
@@ -30,7 +30,7 @@ EXP | 8,564
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 774 |
+| 図鑑No. | 798 |
 | ランク | 7 |
 | 系統 | [メタル系](/species/metal) |
 | 活動時間 | 昼のみ |

@@ -3,11 +3,11 @@ title: シールドあにきの盾
 description: シールドあにきの盾
 pageClass: wide-page sortable-list
 prev:
-  text: "神獣王のレギンス"
-  link: /drops/shinjuuounoreginsu
+  text: "サボテンゴールドの棘"
+  link: /drops/sabotengoldnotoge
 next:
-  text: "チョコヌーバの指輪"
-  link: /drops/tyokonubanoyubiwa
+  text: "ジェントルステッキ"
+  link: /drops/zyentorusutekki
 ---
 
 # シールドあにきの盾

@@ -1,12 +1,12 @@
 ---
 title: アイテム一覧
-description: DQMVIに出てくるアイテム1438種。武器・防具・盾・アクセサリー・転生装備は種類ごとのページに分けています。
+description: DQMVIに出てくるアイテム1429種。武器・防具・盾・アクセサリー・転生装備は種類ごとのページに分けています。
 pageClass: wide-page sortable-list
 ---
 
 # アイテム一覧
 
-DQMVIに出てくるアイテムは **1438種** です。
+DQMVIに出てくるアイテムは **1429種** です。
 
 ## 装備
 
@@ -14,22 +14,22 @@ DQMVIに出てくるアイテムは **1438種** です。
 
 | 種類 | 数 | 中身 |
 | --- | ---: | --- |
-| [武器](/items/weapons) | 573 | 剣・槍・棍・爪・斧・弓など。 |
-| [防具](/items/armor) | 172 | 兜・鎧・小手・服など、身につける装備。 |
+| [武器](/items/weapons) | 571 | 剣・槍・棍・爪・斧・弓など。 |
+| [防具](/items/armor) | 167 | 兜・鎧・小手・服など、身につける装備。 |
 | [盾](/items/shields) | 38 | 片手にかまえる盾。なべのふたやトレイもここに入ります。 |
-| [アクセサリー](/items/accessories) | 147 | 指輪・ピアス・首飾り・腕輪など、効果を足す小物。 |
-| [転生装備](/items/tensei) | 74 | 転生したモンスターから手に入る装備。 |
+| [アクセサリー](/items/accessories) | 150 | 指輪・ピアス・首飾り・腕輪など、効果を足す小物。 |
+| [転生装備](/items/tensei) | 69 | 転生したモンスターから手に入る装備。 |
 
 ## そのほか
 
-装備以外の **484種** です。分類ごとのページもあります。
+装備以外の **479種** です。分類ごとのページもあります。
 
 | 分類 | 数 | 中身 |
 | --- | ---: | --- |
 | [素材](/items/materials) | 122 | モンスターの落とし物・鉱石・薬など。 |
 | [種](/items/seeds) | 74 | 畑に植える苗と、育てて採れる作物。 |
 | [釣り](/items/fishing) | 122 | 釣り竿・ルアーと、釣れる魚。 |
-| [特殊](/items/special) | 91 | 配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。 |
+| [特殊](/items/special) | 86 | 配合の杖・転生の杖、鍵・袋・職業の証・チケットなど。 |
 | [建物](/items/buildings) | 71 | ポートに入れるとペットが建ててくれる施設。 |
 | [装飾](/items/decoration) | 4 | 鍵で開く扉など。 |
 
@@ -271,12 +271,6 @@ DQMVIに出てくるアイテムは **1438種** です。
 | ![超黄金の実](/img/items/ougon2.png) | [超黄金の実](/items/ougon2) | 種 |
 | ![極黄金の実](/img/items/ougon3.png) | [極黄金の実](/items/ougon3) | 種 |
 | ![真・極黄金の実](/img/items/ougon4.png) | [真・極黄金の実](/items/ougon4) | 種 |
-| ![大魔王オン・ゾ・エーグのコイン](/img/items/coin_flucifer.png) | [大魔王オン・ゾ・エーグのコイン](/items/coin_flucifer) | 特殊 |
-| ![魔剣士ピサロのコイン](/img/items/coin_psaro.png) | [魔剣士ピサロのコイン](/items/coin_psaro) | 特殊 |
-| ![モモンジャガーのコイン](/img/items/coin_momonjaguar.png) | [モモンジャガーのコイン](/items/coin_momonjaguar) | 特殊 |
-| ![スラリンガルのコイン](/img/items/coin_suraringaru.png) | [スラリンガルのコイン](/items/coin_suraringaru) | 特殊 |
-| ![ゾーマのコイン](/img/items/coin_zoma2.png) | [ゾーマのコイン](/items/coin_zoma2) | 特殊 |
-| ![神獣王WORLDのコイン](/img/items/coin_shinjuuou_world.png) | [神獣王WORLDのコイン](/items/coin_shinjuuou_world) | 特殊 |
 | ![ライフルユニット](/img/items/raifuruyunitto.png) | [ライフルユニット](/items/raifuruyunitto) | 特殊 |
 | ![ショットガンユニット](/img/items/syottogunyunitto.png) | [ショットガンユニット](/items/syottogunyunitto) | 特殊 |
 | ![マシンガンユニット](/img/items/masinganyunitto.png) | [マシンガンユニット](/items/masinganyunitto) | 特殊 |
@@ -521,6 +515,7 @@ DQMVIに出てくるアイテムは **1438種** です。
 | ![緑幻魔石](/img/items/genmaseki_g.png) | [緑幻魔石](/items/genmaseki_g) | 素材 |
 | ![霊薬草](/img/items/yakusou4.png) | [霊薬草](/items/yakusou4) | 素材 |
 | ![祠](/img/items/toukou05.png) | [祠](/items/toukou05) | 建物 |
+| ![異界の覇者の証](/img/items/ikainohasyanoakashi.png) | [異界の覇者の証](/items/ikainohasyanoakashi) | 特殊 |
 
 ## 関連ページ
 

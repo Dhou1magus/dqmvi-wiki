@@ -3,8 +3,8 @@ title: リンゴ
 description: DQMVIの「リンゴ」を落とすモンスター2体の一覧。いちばん弱いのはコロプリースト（通常・EXP6）。
 pageClass: wide-page sortable-list
 prev:
-  text: "りゅうおうもどきの尻尾"
-  link: /drops/ryuuoumodokinosippo
+  text: "りゅうのみぎめ"
+  link: /drops/ryuunomigime
 next:
   text: "りんねの盾"
   link: /drops/rinnenotate

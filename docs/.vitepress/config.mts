@@ -5,7 +5,7 @@ import { isEmptyItemPage, seoHead } from './seo.mts'
 import { renderPetChecklist } from './pet-checklist-table.mts'
 import { addEquipmentSources } from './equipment-sources.mts'
 
-const MOD_VERSION = '0.33.53'
+const MOD_VERSION = '0.34.20（最終版）'
 
 function modVersion(): string {
   const manual = MOD_VERSION.trim()
@@ -399,6 +399,7 @@ export default defineConfig({
           { text: 'ペットと配合', link: '/play/pets' },
           { text: 'ペットチェックリスト', link: '/play/pet-checklist' },
           { text: '仲間NPC（勇者）', link: '/play/companions' },
+          { text: '異界（世界8〜10）', link: '/play/ikai' },
           { text: 'ガンビット', link: '/play/gambit' },
           { text: '転職とサブ職業', link: '/play/jobs' },
           { text: 'アイテム', link: '/play/items' },

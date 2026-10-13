@@ -3,11 +3,11 @@ title: ゲノミーの触手
 description: ゲノミーの触手
 pageClass: wide-page sortable-list
 prev:
-  text: "巨大ナスビナーラの髭"
-  link: /drops/kyodainasubiranohige
-next:
   text: "グレイトドラゴン・雲の牙"
   link: /drops/gureitodoragonkumonokiba
+next:
+  text: "ゴードンヘッドの小手"
+  link: /drops/godonheddonokote
 ---
 
 # ゲノミーの触手

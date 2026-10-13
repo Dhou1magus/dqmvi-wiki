@@ -6,8 +6,8 @@ prev:
   text: "せいなるしずく"
   link: /drops/seinarusizuku
 next:
-  text: "ゾーマ討伐の証"
-  link: /drops/zoma
+  text: "タイプGの欠片"
+  link: /drops/taipugnokakera
 ---
 
 # せかいじゅの葉

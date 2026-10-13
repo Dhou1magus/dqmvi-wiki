@@ -3,11 +3,11 @@ title: クイーンモーモンの冠
 description: クイーンモーモンの冠
 pageClass: wide-page sortable-list
 prev:
-  text: "アルケミストンの帽子"
-  link: /drops/arukemisutonnobousi
+  text: "キングヒドラの頭"
+  link: /drops/kinghidoranoatama
 next:
-  text: "ピサロナイトの鎧"
-  link: /drops/pisaronaitonoyoroi
+  text: "グランシーザーの髭"
+  link: /drops/guransizanohige
 ---
 
 # クイーンモーモンの冠

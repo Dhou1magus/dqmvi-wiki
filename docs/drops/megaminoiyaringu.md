@@ -3,11 +3,11 @@ title: 女神のイヤリング
 description: DQMVIの「女神のイヤリング」を落とすモンスター1体の一覧。いちばん弱いのはエンゼルアーマー（通常・EXP32,464）。
 pageClass: wide-page sortable-list
 prev:
+  text: "修羅の指環"
+  link: /drops/syuranoyubiwa
+next:
   text: "触手のイヤリング"
   link: /drops/syokusyunoiyaringu
-next:
-  text: "やみのドラゴンのペンダント"
-  link: /drops/yaminodragonnopendanto
 ---
 
 # 女神のイヤリング

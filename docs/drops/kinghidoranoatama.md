@@ -3,11 +3,11 @@ title: キングヒドラの頭
 description: キングヒドラの頭
 pageClass: wide-page sortable-list
 prev:
-  text: "ミュシャドの毛"
-  link: /drops/myusyadonoke
+  text: "キラーパイクのピッケル"
+  link: /drops/kirapaikunopikeru
 next:
-  text: "デスマスク"
-  link: /drops/desumasuku
+  text: "クイーンモーモンの冠"
+  link: /drops/kuinmomonnokanmuri
 ---
 
 # キングヒドラの頭

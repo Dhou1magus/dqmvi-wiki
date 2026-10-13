@@ -1,10 +1,10 @@
 ---
 title: 呪力のモト
-description: DQMVIの「呪力のモト」を落とすモンスター59体の一覧。いちばん弱いのはプリズニャン（通常・EXP72）。
+description: DQMVIの「呪力のモト」を落とすモンスター60体の一覧。いちばん弱いのはプリズニャン（通常・EXP72）。
 pageClass: wide-page sortable-list
 prev:
-  text: "呪剣討伐の証"
-  link: /drops/norowaretaturugi
+  text: "狩人の弓"
+  link: /drops/karyuudonoyumi
 next:
   text: "修羅の指環"
   link: /drops/syuranoyubiwa
@@ -12,7 +12,7 @@ next:
 
 # 呪力のモト
 
-素材。**59体**のモンスターが落とします。
+素材。**60体**のモンスターが落とします。
 
 ::: tip ねらい目
 **プリズニャン**（通常ドロップ・EXP72）。
@@ -57,6 +57,7 @@ next:
 | [メタルエンゼル](/monsters/metalangel) | 通常 | 3 | [メタル](/species/metal) | 13 | 8,895 |
 | [きとうし](/monsters/kitousi) | レア | 3 | [悪魔](/species/akuma) | 92 | 80 |
 | [シャーマン](/monsters/syaman) | レア | 3 | [ゾンビ](/species/zombie) | 115 | 142 |
+| [ぴぴぼう](/monsters/pipibou) | レア | 5 | [特殊](/species/tokusyu) | 472 | 253 |
 | [ブラックベジター](/monsters/burakkubejita) | レア | 5 | [自然](/species/sizen) | 532 | 260 |
 | [だいまどう](/monsters/daimadou) | レア | 5 | [悪魔](/species/akuma) | 486 | 293 |
 | [まかいファイター](/monsters/commandragor) | レア | 5 | [ドラゴン](/species/dragon) | 555 | 304 |

@@ -1,6 +1,6 @@
 ---
 title: 鋼の鎧
-description: DQMVIの「鋼の鎧」を落とすモンスター3体の一覧。いちばん弱いのはテンタクルス（超レア・EXP285）。
+description: DQMVIの「鋼の鎧」を落とすモンスター4体の一覧。いちばん弱いのはやみのしょくだい（超レア・EXP280）。
 pageClass: wide-page sortable-list
 prev:
   text: "光の石"
@@ -12,10 +12,10 @@ next:
 
 # 鋼の鎧
 
-防具。**3体**のモンスターが落とします。
+防具。**4体**のモンスターが落とします。
 
 ::: tip ねらい目
-**テンタクルス**（超レアドロップ・EXP285）。
+**やみのしょくだい**（超レアドロップ・EXP280）。
 いちばん出やすい枠で落とすモンスターのうち、いちばん弱い相手です。
 :::
 
@@ -35,6 +35,7 @@ next:
 
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
+| [やみのしょくだい](/monsters/dark_candlestick) | 超レア | 5 | [物質](/species/bussitu) | 493 | 280 |
 | [テンタクルス](/monsters/tentacles) | 超レア | 5 | [自然](/species/sizen) | 534 | 285 |
 | [キラースター](/monsters/killer_star) | 超レア | 5 | [物質](/species/bussitu) | 564 | 312 |
 | [ゴーレム](/monsters/goremu) | 超レア | 5 | [物質](/species/bussitu) | 581 | 315 |

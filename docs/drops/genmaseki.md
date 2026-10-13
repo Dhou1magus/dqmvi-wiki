@@ -1,6 +1,6 @@
 ---
 title: 幻魔石
-description: DQMVIの「幻魔石」を落とすモンスター49体の一覧。いちばん弱いのはメタルドラゴン（通常・EXP93）。
+description: DQMVIの「幻魔石」を落とすモンスター51体の一覧。いちばん弱いのはメタルドラゴン（通常・EXP93）。
 pageClass: wide-page sortable-list
 prev:
   text: "賢者の聖水"
@@ -12,7 +12,7 @@ next:
 
 # 幻魔石
 
-素材。**49体**のモンスターが落とします。
+素材。**51体**のモンスターが落とします。
 
 ::: tip ねらい目
 **メタルドラゴン**（通常ドロップ・EXP93）。
@@ -24,6 +24,7 @@ next:
 | モンスター | 区分 | ランク | 系統 | HP | EXP |
 | --- | :--: | :--: | :--: | ---: | ---: |
 | [メタルドラゴン](/monsters/metarudoragon) | 通常 | 3 | [物質](/species/bussitu) | 91 | 93 |
+| [ミステリピラー](/monsters/mystery_pillar) | 通常 | 4 | [物質](/species/bussitu) | 166 | 140 |
 | [おどる宝石](/monsters/odoruhouseki) | 通常 | 4 | [物質](/species/bussitu) | 162 | 142 |
 | [ようじゅつし](/monsters/youjutusi) | 通常 | 4 | [悪魔](/species/akuma) | 177 | 155 |
 | [キングマーマン](/monsters/kingmerman) | 通常 | 4 | [自然](/species/sizen) | 180 | 159 |
@@ -38,6 +39,7 @@ next:
 | [ダゴン](/monsters/dagon) | 通常 | 6 | [自然](/species/sizen) | 1,111 | 392 |
 | [オーラー](/monsters/ora) | 通常 | 6 | [物質](/species/bussitu) | 920 | 413 |
 | [ドラゴンライダー](/monsters/dragonraida) | 通常 | 6 | [ドラゴン](/species/dragon) | 1,160 | 420 |
+| [ベルフェゴル](/monsters/beruhuxegol) | 通常 | 6 | [悪魔](/species/akuma) | 1,494 | 429 |
 | [暗黒の使い](/monsters/ankokunotsukai) | 通常 | 6 | [ゾンビ](/species/zombie) | 1,407 | 434 |
 | [はめつの使者](/monsters/hametunosisya) | 通常 | 7 | [悪魔](/species/akuma) | 1,965 | 688 |
 | [あんこくまじん](/monsters/ankokumajin) | 通常 | 7 | [物質](/species/bussitu) | 1,890 | 691 |

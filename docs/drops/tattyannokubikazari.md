@@ -3,11 +3,11 @@ title: タッチャンの首飾り
 description: タッチャンの首飾り
 pageClass: wide-page sortable-list
 prev:
+  text: "タイプGの欠片"
+  link: /drops/taipugnokakera
+next:
   text: "チョコヌーバの指輪"
   link: /drops/tyokonubanoyubiwa
-next:
-  text: "ももいろ三姉妹のピアス"
-  link: /drops/momoirosansimainopiasu
 ---
 
 # タッチャンの首飾り

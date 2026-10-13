@@ -1,6 +1,6 @@
 ---
 title: いかずちの玉
-description: DQMVIの「いかずちの玉」を落とすモンスター70体の一覧。いちばん弱いのはじめじめバブル（通常・EXP77）。
+description: DQMVIの「いかずちの玉」を落とすモンスター72体の一覧。いちばん弱いのはじめじめバブル（通常・EXP77）。
 pageClass: wide-page sortable-list
 prev:
   text: "アルケミストンの帽子"
@@ -12,7 +12,7 @@ next:
 
 # いかずちの玉
 
-素材。**70体**のモンスターが落とします。
+素材。**72体**のモンスターが落とします。
 
 ::: tip ねらい目
 **じめじめバブル**（通常ドロップ・EXP77）。
@@ -34,7 +34,9 @@ next:
 | [スライムダーク](/monsters/slime_dark) | 通常 | 3 | [スライム](/species/slime) | 162 | 129 |
 | [黒怨王](/monsters/kokuenou) | 通常 | 5 | [ゾンビ](/species/zombie) | 495 | 244 |
 | [ブラッディハンド2](/monsters/bloody_hand) | 通常 | 5 | [物質](/species/bussitu) | 433 | 248 |
+| [ぴぴぼう](/monsters/pipibou) | 通常 | 5 | [特殊](/species/tokusyu) | 472 | 253 |
 | [ミスターガリック](/monsters/misutaagarikku) | 通常 | 5 | [自然](/species/sizen) | 396 | 262 |
+| [ワルぼう](/monsters/warubou) | 通常 | 5 | [特殊](/species/tokusyu) | 485 | 274 |
 | [カンダタこぶん](/monsters/kandatakobun) | 通常 | 5 | [ゾンビ](/species/zombie) | 511 | 280 |
 | [デーモンスピリット](/monsters/demonspirit) | 通常 | 5 | [ゾンビ](/species/zombie) | 523 | 285 |
 | [シャドウベビー](/monsters/shadow_baby) | 通常 | 5 | [魔獣](/species/majyu) | 644 | 335 |

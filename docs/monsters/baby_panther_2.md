@@ -2,11 +2,11 @@
 title: ベビーパンサー2
 description: DQMVIのモンスター「ベビーパンサー2」のステータス。HP152 / こうげき70 / しゅび36 / 経験値119 / 25G。
 prev:
-  text: "マッドスミス"
-  link: /monsters/maddosumisu
+  text: "デスマーブル"
+  link: /monsters/death_marble
 next:
-  text: "メタルエンゼル"
-  link: /monsters/metalangel
+  text: "モコフル"
+  link: /monsters/mocohuru
 ---
 
 # ベビーパンサー2
@@ -30,12 +30,13 @@ EXP | 119
 
 | 項目 | 内容 |
 | --- | --- |
-| 図鑑No. | 332 |
+| 図鑑No. | 330 |
 | ランク | 3 |
 | 系統 | [魔獣系](/species/majyu) |
 | 活動時間 | 昼のみ |
 | 弱点 | 炎（炎系の呪文に弱い） |
 | 出現場所 | 平原・草地・ジャングル・マツの原生林・まばらなジャングル |
+| 出現条件 | 晴れのとき |
 
 ## ドロップ品
 

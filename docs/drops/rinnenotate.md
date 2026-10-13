@@ -6,8 +6,8 @@ prev:
   text: "リンゴ"
   link: /drops/mc_apple
 next:
-  text: "ルティアナの弓"
-  link: /drops/lutiana_bow
+  text: "ルビー"
+  link: /drops/rubinogenseki
 ---
 
 # りんねの盾

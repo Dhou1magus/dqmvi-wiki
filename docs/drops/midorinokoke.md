@@ -1,6 +1,6 @@
 ---
 title: みどりコケ
-description: DQMVIの「みどりコケ」を落とすモンスター19体の一覧。いちばん弱いのはとげぼうず（通常・EXP7）。
+description: DQMVIの「みどりコケ」を落とすモンスター20体の一覧。いちばん弱いのはとげぼうず（通常・EXP7）。
 pageClass: wide-page sortable-list
 prev:
   text: "ミスリル合金"
@@ -12,7 +12,7 @@ next:
 
 # みどりコケ
 
-素材。**19体**のモンスターが落とします。
+素材。**20体**のモンスターが落とします。
 
 ::: tip ねらい目
 **とげぼうず**（通常ドロップ・EXP7）。
@@ -28,6 +28,7 @@ next:
 | [ナスビナーラ](/monsters/nasubira) | 通常 | 1 | [自然](/species/sizen) | 21 | 11 |
 | [サボテンボール](/monsters/sabotenboru) | 通常 | 1 | [自然](/species/sizen) | 23 | 12 |
 | [マッシュスライム](/monsters/slimeshroom) | 通常 | 1 | [スライム](/species/slime) | 22 | 12 |
+| [おむつっこり](/monsters/omutukkori) | 通常 | 1 | [自然](/species/sizen) | 25 | 12 |
 | [まほうつかい](/monsters/magician) | 通常 | 1 | [悪魔](/species/akuma) | 15 | 13 |
 | [スライムタール](/monsters/slimetar) | 通常 | 1 | [スライム](/species/slime) | 27 | 14 |
 | [きりかぶおばけ](/monsters/kirikabuobake) | 通常 | 2 | [自然](/species/sizen) | 40 | 41 |

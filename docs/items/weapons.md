@@ -1,12 +1,12 @@
 ---
 title: 武器一覧
-description: DQMVIの武器573種のデータ。剣・槍・棍・爪・斧・弓など。
+description: DQMVIの武器571種のデータ。剣・槍・棍・爪・斧・弓など。
 pageClass: wide-page sortable-list
 ---
 
 # 武器一覧
 
-## 剣（31種） {#sword}
+## 剣（30種） {#sword}
 
 | 画像 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | :--: | --- | ---: | ---: | --- |
@@ -40,9 +40,8 @@ pageClass: wide-page sortable-list
 | ![隼の剣改](/img/items/hayabusanoturugikai.png) | [隼の剣改](/drops/hayabusanoturugikai) | 5 | ×1.83 | 2回攻撃 |
 | ![名刀 斬鉄丸](/img/items/meitouzantetumaru.png) | [名刀 斬鉄丸](/drops/meitouzantetumaru) | 14 | ×3.18 | 攻撃するたびに1/8でルカニ(守備力ダウン)がかかる |
 | ![ゴールドマントの剣](/img/items/gorudenmantonoken.png) | [ゴールドマントの剣](/drops/gorudenmantonoken) | 10 | ×1.5 | 攻撃する度にダメージの1/100がゴールドになる |
-| ![ピサロの剣](/img/items/pisaronoken.png) | [ピサロの剣](/drops/pisaronoken) | 21 | ×3.55 | ときどきバイキルト(10秒ごとに1/10・30秒間)　/　10秒ごとにHPが1%減る |
 
-## 勇者の剣（19種） {#hero-sword}
+## 勇者の剣（20種） {#hero-sword}
 
 | 画像 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | :--: | --- | ---: | ---: | --- |
@@ -54,6 +53,7 @@ pageClass: wide-page sortable-list
 | ![天空のつるぎ](/img/items/tenkuunoturugi.png) | [天空のつるぎ](/items/tenkuunoturugi) | 13 | ×3.27 | ボス系に2倍のダメージ |
 | ![伝説のつるぎ](/img/items/sinken.png) | [伝説のつるぎ](/items/sinken) | 23 | ×3.64 | — |
 | ![真・伝説のつるぎ](/img/items/sinken2.png) | [真・伝説のつるぎ](/items/sinken2) | 30 | ×4 | — |
+| ![異界の超越の剣](/img/items/tyouetsunoturugi.png) | [異界の超越の剣](/items/tyouetsunoturugi) | 55 | ×6 | — |
 | ![ほしくずのつるぎ](/img/items/hosikuzunoturugi.png) | [ほしくずのつるぎ](/items/hosikuzunoturugi) | 18 | ×3.46 | — |
 | ![勇者のつるぎ](/img/items/yuusyanoturugi.png) | [勇者のつるぎ](/items/yuusyanoturugi) | 20 | ×3.53 | — |
 | ![ライトニングソード](/img/items/raitoningusword.png) | [ライトニングソード](/items/raitoningusword) | 14 | ×3.31 | — |
@@ -267,7 +267,7 @@ pageClass: wide-page sortable-list
 | ![グレイプニルのムチ](/img/items/gureipunirunomuti.png) | [グレイプニルのムチ](/items/gureipunirunomuti) | 20 | ×3.87 | — |
 | ![りゅうおうもどきの尻尾](/img/items/ryuuoumodokinosippo.png) | [りゅうおうもどきの尻尾](/drops/ryuuoumodokinosippo) | 10 | ×1.5 | 溜め攻撃の前方範囲が10マスになる |
 
-## 弓（19種） {#bow}
+## 弓（18種） {#bow}
 
 | 画像 | 武器 | こうげき | 攻撃倍率 | 特殊効果 |
 | :--: | --- | ---: | ---: | --- |
@@ -289,7 +289,6 @@ pageClass: wide-page sortable-list
 | ![スライムショット](/img/items/suraimusyotto.png) | [スライムショット](/items/suraimusyotto) | 16 | ×3.3 | — |
 | ![緋赤鳥の弓](/img/items/hisekityounoyumi.png) | [緋赤鳥の弓](/items/hisekityounoyumi) | 22 | ×3.81 | — |
 | ![レッドアーチャーの弓](/img/items/redatyanoyumi.png) | [レッドアーチャーの弓](/drops/redatyanoyumi) | 10 | ×1.5 | 1回で矢を2発連続で放つ |
-| ![ルティアナの弓](/img/items/lutiana_bow.png) | [ルティアナの弓](/drops/lutiana_bow) | 25 | ×3.9 | — |
 
 ## ブーメラン（18種） {#boomerang}
 
@@ -417,7 +416,7 @@ pageClass: wide-page sortable-list
 
 大鎌で自分で倒した敵1体につき魂が1つたまり（最大300）、魂300で攻撃+30%になります。溜め攻撃は自分の周囲5マスを一度に攻撃します。
 
-## 戦籠手（20種） {#gauntlet}
+## 戦籠手（19種） {#gauntlet}
 
 | 画像 | 武器 | こうげき | 攻撃倍率 | ガード | 特殊効果 |
 | :--: | --- | ---: | ---: | --- | --- |
@@ -439,7 +438,6 @@ pageClass: wide-page sortable-list
 | ![天空のガントレット](/img/items/gauntlet_16_sky.png) | [天空のガントレット](/items/gauntlet_16_sky) | 22 | ×3.35 | 軽減41%以上・カウンター22%以上 | — |
 | ![闘神の戦籠手](/img/items/gauntlet_17_war_god.png) | [闘神の戦籠手](/items/gauntlet_17_war_god) | 24 | ×3.5 | 軽減42%以上・カウンター23%以上 | — |
 | ![神拳ガイア](/img/items/gauntlet_18_gaia.png) | [神拳ガイア](/items/gauntlet_18_gaia) | 26 | ×3.7 | 軽減43%以上・カウンター23%以上 | — |
-| ![神獣王の戦篭手](/img/items/gauntlet_19_shinjuuou.png) | [神獣王の戦篭手](/drops/gauntlet_19_shinjuuou) | 40 | ×4 | 軽減50%以上・カウンター30%以上 | 攻撃が当たったとき、自分と相手それぞれ50%で悪い効果(デバフ)を全て消す |
 | ![シャ攻の戦籠手](/img/items/gauntlet_20_syakou.png) | [シャ攻の戦籠手](/drops/gauntlet_20_syakou) | 20 | ×3 | 軽減43%以上・カウンター23%以上 | 手に持っていると、1度に受けるダメージが最大HPの50%を超えない |
 
 両手に装備すると二刀流になり（左手の威力65%）、右クリックでガードします。当てると相手を吹き飛ばします。ガードの値は最低値で、鬼神闘士のLvで強くなります。

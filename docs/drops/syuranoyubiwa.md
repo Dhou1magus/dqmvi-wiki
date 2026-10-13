@@ -3,11 +3,11 @@ title: 修羅の指環
 description: DQMVIの「修羅の指環」を落とすモンスター1体の一覧。いちばん弱いのはアスラ王（通常・EXP23,454）。
 pageClass: wide-page sortable-list
 prev:
-  text: "やみのドラゴンのペンダント"
-  link: /drops/yaminodragonnopendanto
+  text: "支配者の腕輪"
+  link: /drops/sihaisyanoudewa
 next:
-  text: "ジェントルステッキ"
-  link: /drops/zyentorusutekki
+  text: "女神のイヤリング"
+  link: /drops/megaminoiyaringu
 ---
 
 # 修羅の指環

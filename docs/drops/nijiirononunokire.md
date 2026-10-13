@@ -1,6 +1,6 @@
 ---
 title: にじいろの布きれ
-description: DQMVIの「にじいろの布きれ」を落とすモンスター48体の一覧。いちばん弱いのはケダモン（通常・EXP142）。
+description: DQMVIの「にじいろの布きれ」を落とすモンスター49体の一覧。いちばん弱いのはケダモン（通常・EXP142）。
 pageClass: wide-page sortable-list
 prev:
   text: "にくきゅうの杖"
@@ -12,7 +12,7 @@ next:
 
 # にじいろの布きれ
 
-素材。**48体**のモンスターが落とします。
+素材。**49体**のモンスターが落とします。
 
 ::: tip ねらい目
 **ケダモン**（通常ドロップ・EXP142）。
@@ -55,6 +55,7 @@ next:
 | [メタルゴッデス2](/monsters/metalgoddes2) | レア | 7 | [メタル](/species/metal) | 158 | 880,000 |
 | [フロストギズモ2](/monsters/furosutogizumo) | 超レア | 3 | [物質](/species/bussitu) | 82 | 82 |
 | [フロストギズモ1](/monsters/fgizumo) | 超レア | 3 | [物質](/species/bussitu) | 78 | 83 |
+| [デスマーブル](/monsters/death_marble) | 超レア | 3 | [物質](/species/bussitu) | 90 | 98 |
 | [レッドマーマン](/monsters/redmerman) | 超レア | 3 | [自然](/species/sizen) | 145 | 102 |
 | [フーセンドラゴン](/monsters/fu_sen_dragon) | 超レア | 3 | [ドラゴン](/species/dragon) | 155 | 107 |
 | [ひくいどり](/monsters/hikuidori) | 超レア | 3 | [自然](/species/sizen) | 161 | 124 |

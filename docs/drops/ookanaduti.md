@@ -3,8 +3,8 @@ title: おおかなづち
 description: DQMVIの「おおかなづち」を落とすモンスター4体の一覧。いちばん弱いのはおおきづち（超レア・EXP40）。
 pageClass: wide-page sortable-list
 prev:
-  text: "エスターク討伐の証"
-  link: /drops/esterk
+  text: "うるわしキノコ"
+  link: /drops/uruwasikinoko
 next:
   text: "オークの原木"
   link: /drops/mc_oak_log

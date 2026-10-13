@@ -3,11 +3,11 @@ title: ましょうぐものエキス
 description: ましょうぐものエキス
 pageClass: wide-page sortable-list
 prev:
-  text: "グレイトドラゴン・雲の牙"
-  link: /drops/gureitodoragonkumonokiba
+  text: "マーブルンの尻尾"
+  link: /drops/maburunnosippo
 next:
-  text: "グランシーザーの髭"
-  link: /drops/guransizanohige
+  text: "ミュシャドの毛"
+  link: /drops/myusyadonoke
 ---
 
 # ましょうぐものエキス

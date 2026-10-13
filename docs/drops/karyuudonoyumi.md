@@ -6,8 +6,8 @@ prev:
   text: "守りの種"
   link: /drops/mamorinotane
 next:
-  text: "呪剣討伐の証"
-  link: /drops/norowaretaturugi
+  text: "呪力のモト"
+  link: /drops/juryokunomoto
 ---
 
 # 狩人の弓
